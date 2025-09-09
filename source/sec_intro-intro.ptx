@@ -60,7 +60,7 @@
 	</p>
 
 	<p>
-		There are many discrete mathematical objects besides sets of numbers; we will introduce some of these in <xref ref="sec_intro-structures"/>.
+		There are many discrete mathematical objects besides sets of numbers; we will introduce some of these in <!-- <xref ref="sec_intro-structures"/> --> REMOVED reference.
 		Studying these discrete <term>structures</term> is the main focus of discrete mathematics and this book.
 		However, the reason we want to study these structures is because they provide a way to model <q>real-world</q> problems.<fn>Many of the problems discussed in this book are admittedly contrived and clearly fictional, but hopefully you will see how these toy problems can be generalized to actually represent problems that people would care about in reality.</fn>
 	</p>
