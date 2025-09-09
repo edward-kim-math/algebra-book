@@ -4,7 +4,7 @@
 	<book xml:id="dmoi4">
 		<title>Algebra</title>
 		<subtitle>Applications and Strategies</subtitle>
-		<!-- <xi:include href="./frontmatter.ptx" /> -->
+		<xi:include href="./frontmatter.ptx" />
 		<!-- <xi:include href="./ch_intro.ptx" /> -->
 
 		<xi:include href="./ch-expressions-and-equations.ptx" />
