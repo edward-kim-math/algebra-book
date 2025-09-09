@@ -1,0 +1,5 @@
+/Users/ekim/Documents/git-local/algebra-book/source/dmoi.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_NOTELEM: Expecting an element got text
+/Users/ekim/Documents/git-local/algebra-book/source/dmoi.ptx:6:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
+/Users/ekim/Documents/git-local/algebra-book/source/dmoi.ptx:4:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
+/Users/ekim/Documents/git-local/algebra-book/source/dmoi.ptx:2:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext
+/Users/ekim/Documents/git-local/algebra-book/source/dmoi.ptx:2:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element pretext there
