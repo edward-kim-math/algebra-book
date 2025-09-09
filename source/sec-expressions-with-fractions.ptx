@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-expressions-with-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Expressions with Fractions</title>
 
   <p> Text of section. </p>
+
+
+  <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input.</p>
+
+  <p>Mixed fractions, improper fractions, decimal answers</p>
 
 </section>

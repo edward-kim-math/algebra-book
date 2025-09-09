@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section Title</title>
+  <title>Operations</title>
+
+  <p>
+  Algebra provides a powerful way of solving many kinds of questions
+  Algebra achieves this by enhancing arithmetic.
+  Arithmetic focuses on the result of operations like addition and multiplication when using numbers that are constant.
+  The contribution of algebra is to enhance arithmetic with variables and with geometry, with a focus on how the numbers appearing a problem <em>relate</em> to each other.
+  With these extra ways of thinking, algebra allows us to answer many questions that are really hard to think about using arithmetic alone.
+  </p>
+
+  <p>
+  I want your experience in math to be as smooth and as enjoyable as possible.
+  I want this for you, even if you can recall being frustrated with mathematics.
+  To achieve that goal, I am deliberately writing this book for you the student, and not for your teacher.
+  I hope to take each part of algebra that has the potential to be challenging and <em>really</em> break it down step-by-step.
+  This does mean that I may ask you to try something different from the way you have done it in the past.
+  I might also ask you to think about things that you haven't really thought about much before.
+  I hope you'll give it a shot: what do you have to lose by trying this subject in a new way?
+  In fact, I encourage you to really think about the language used in mathematics.
+  </p>
+
+  <note>
+    <p>
+    Pay attention to the language of mathematics.
+    </p>
+  </note>
+
+  <p>
+  As an example of this, when writing <m>2^x</m> be sure to say one of the following:
+  <ul>
+  <li><q><m>2</m> to the <m>x</m></q></li>
+  <li><q><m>2</m> to the <m>x</m>th power</q></li>
+  <li><q><m>2</m> raised to the <m>x</m></q></li>
+  <li><q><m>2</m> raised to the <m>x</m>th power</q></li>
+  </ul>
+  If we only say <q><m>2</m></q> then slightly pause to say <q><m>x</m></q> this focuses on the specific individual symbols.
+  The bigger problem is that saying <q><m>2</m></q> followed by <q><m>x</m></q> is taken to mean <m>2x</m>.
+  Why is this a problem?
+  Because <m>2^x</m> and <m>2x</m> are not equal.
+  In fact, when <m>x=3</m> then <m>2^x</m> simplifies to <m>8</m>, but <m>2x</m> simplifies to <m>6</m>.
+  </p>
+
+	<subsection>
+		<title>Pictures and Language</title>
+
+    <p>sticks, rectangles, terms, factors</p>
+
+  </subsection>
+
+
+	<subsection>
+		<title>Order of Operations</title>
+
+    <p>Sequencing the operations in a given expression</p>
+
+  </subsection>
+
+
 
   <p> Text of section. </p>
+
+  <p> Text of section. </p>
+
+  <p> Text of section. </p>
+
+  <p> Text of section. </p>
+
+  <p> Text of section. </p>
+
+  <p> Text of section. </p>
+
+
+
+
 
 </section>

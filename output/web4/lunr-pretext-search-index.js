@@ -114,8 +114,17 @@ var ptx_lunr_docs = [
   "url": "sec-operations.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Operations",
+  "body": " Operations  Algebra provides a powerful way of solving many kinds of questions Algebra achieves this by enhancing arithmetic. Arithmetic focuses on the result of operations like addition and multiplication when using numbers that are constant. The contribution of algebra is to enhance arithmetic with variables and with geometry, with a focus on how the numbers appearing a problem relate to each other. With these extra ways of thinking, algebra allows us to answer many questions that are really hard to think about using arithmetic alone.  I want your experience in math to be as smooth and as enjoyable as possible. I want this for you, even if you can recall being frustrated with mathematics. To achieve that goal, I am deliberately writing this book for you the student, and not for your teacher. I hope to take each part of algebra that has the potential to be challenging and really break it down step-by-step. This does mean that I may ask you to try something different from the way you have done it in the past. I might also ask you to think about things that you haven't really thought about much before. I hope you'll give it a shot: what do you have to lose by trying this subject in a new way? In fact, I encourage you to really think about the language used in mathematics.   Pay attention to the lanugage of mathematics.   As an example of this, when writing be sure to say one of the following:  to the  to the th power  raised to the  raised to the th power  If we only say then slightly pause to say this focuses on the specific individual symbols. The bigger problem is that saying followed by is taken to mean . Why is this a problem? Because and are not equal. In fact, when then simplifies to , but simplifies to .   Pictures and Language  sticks, rectangles, terms, factors    Order of Operations  Sequencing the operations in a given expression   Text of section.  Text of section.  Text of section.  Text of section.  Text of section.  Text of section.  "
+},
+{
+  "id": "sec-operations-4",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-4",
+  "type": "Note",
+  "number": "1.1.1",
+  "title": "",
+  "body": " Pay attention to the lanugage of mathematics.  "
 },
 {
   "id": "sec-expressions-with-fractions",
@@ -123,8 +132,8 @@ var ptx_lunr_docs = [
   "url": "sec-expressions-with-fractions.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Expressions with Fractions",
+  "body": " Expressions with Fractions  Text of section.  "
 },
 {
   "id": "sec-solving-equations",
@@ -132,8 +141,8 @@ var ptx_lunr_docs = [
   "url": "sec-solving-equations.html",
   "type": "Section",
   "number": "1.3",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Solving Equations",
+  "body": " Solving Equations  Intro to equations.  Technique with one copy of the variable.  Multiple terms.  Rewriting as multiple terms.  Strategy comparison.  "
 },
 {
   "id": "sec-equations-with-fractions",
@@ -141,8 +150,8 @@ var ptx_lunr_docs = [
   "url": "sec-equations-with-fractions.html",
   "type": "Section",
   "number": "1.4",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Equations with Fractions",
+  "body": " Equations with Fractions  Text of section.  "
 },
 {
   "id": "sec-exponents",
@@ -150,8 +159,8 @@ var ptx_lunr_docs = [
   "url": "sec-exponents.html",
   "type": "Section",
   "number": "1.5",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Exponents",
+  "body": " Exponents  Text of section.  "
 },
 {
   "id": "sec-radicals",
@@ -159,8 +168,8 @@ var ptx_lunr_docs = [
   "url": "sec-radicals.html",
   "type": "Section",
   "number": "1.6",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Radicals",
+  "body": " Radicals  Text of section.  "
 },
 {
   "id": "sec-factoring-and-expansion",
@@ -168,8 +177,8 @@ var ptx_lunr_docs = [
   "url": "sec-factoring-and-expansion.html",
   "type": "Section",
   "number": "1.7",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Factoring and Expansion",
+  "body": " Factoring and Expansion  Text of section.  "
 },
 {
   "id": "sec-rational-expressions",
@@ -177,8 +186,8 @@ var ptx_lunr_docs = [
   "url": "sec-rational-expressions.html",
   "type": "Section",
   "number": "1.8",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Rational Expressions",
+  "body": " Rational Expressions  Text of section.  "
 },
 {
   "id": "sec-solving-equations-revisited",
@@ -186,8 +195,8 @@ var ptx_lunr_docs = [
   "url": "sec-solving-equations-revisited.html",
   "type": "Section",
   "number": "1.9",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Solving Equations Revisited",
+  "body": " Solving Equations Revisited  Text of section.  "
 },
 {
   "id": "sec-sample-code",
