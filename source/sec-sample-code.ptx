@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-sample-code" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sample code</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				After completing this section, you should be able to do the following.
+			</p>
+		</introduction>
+		<ol>
+					 <li>
+				<p>
+					Explain the conditions under which an implication is true.
+				</p>
+			</li>
+
+			<li>
+				<p>
+					Identify statements as equivalent to a given implication or its converse.
+				</p>
+			</li> 
+			<li>
+				<p>
+					Explain the relationship between the truth values of an implication, its converse, and its contrapositive.
+				</p>
+			</li>
+		</ol>
+	</objectives>
+
+
+	<subsection>
+		<title>Section Preview</title>
+		<!-- Should this be swapped out for something else? -->
+		<investigation>
+		<idx><h>knights and knaves</h></idx>
+		<idx><h>puzzle</h><h>knights and knaves</h></idx>
+		<p>
+			While walking through a fictional forest,
+			you encounter three trolls guarding a bridge.
+			Each is either a <em>knight</em>,
+			who always tells the truth, or a
+			<em>knave</em>, who always lies.
+			The trolls will not let you pass until you correctly identify each as either a knight or a knave.
+			Each troll makes a single statement:
+		</p>
+
+		<blockquote>
+			<p>
+				Troll 1: If I am a knave, then there are exactly two knights here.
+			</p>
+
+			<p>
+				Troll 2: Troll 1 is lying.
+			</p>
+
+			<p>
+				Troll 3: Either we are all knaves, or at least one of us is a knight.
+			</p>
+		</blockquote>
+
+		<p>
+			Which troll is which?
+			<idx><h>self reference</h><see>reference, self</see></idx>
+			<idx><h>reference, self</h><see>self reference</see></idx>
+		</p>
+		</investigation>
+
+
+    <!-- Try it -->
+    <exercise label="ip_sec_logic-statements">
+      <statement>
+        <p>
+          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
+        </p>
+      </statement>
+      <response />
+    </exercise>
+
+</subsection>
+
+    <!-- Definition -->
+		<definition xml:id="def-argument">
+			<title>Argument</title>
+			<idx><h>argument</h></idx>
+			<idx><h>premise</h></idx>
+			<idx><h>conclusion</h></idx>
+			<idx><h>valid</h></idx>
+			<idx><h>sound</h></idx>
+			<idx><h>proof</h></idx>
+			<statement>
+				<p>
+					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
+					<idx><h>premises</h></idx>
+				</p>
+
+				<p>
+					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
+					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
+				</p>
+
+				<p>
+					An argument is <term>sound</term> provided it is valid and all the premises are true.
+					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
+				</p>
+			</statement>
+		</definition>
+
+		<aside>
+		<p>
+			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
+		</p>
+		</aside>
+
+
+		<example>
+			<idx><h>cookie</h></idx>
+			<statement>
+				<p>
+					Consider the following two arguments:
+				</p>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Edith eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Edith gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>Florence must eat her vegetables to get a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Florence eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Florence gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<p>
+					(The symbol <q><m>\therefore</m></q>
+					<notation>
+					<usage><m>\therefore</m></usage>
+					<description><q>therefore</q></description>
+					</notation>
+					means <q>therefore</q>)
+				</p>
+
+				<p>
+					Are these arguments valid?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					Do you agree that the first argument is valid but the second argument is not?
+					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
+				</p>
+
+				<p>
+					Notice the two arguments look almost identical.
+					Edith and Florence both eat their vegetables.
+					In both cases, there is a connection between the eating of vegetables and cookies.
+					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
+					The difference must be in the connection between eating vegetables and getting cookies.
+					We need to be skilled at reading and comprehending these sentences.
+					Do the two sentences mean the same thing?
+				</p>
+
+				<p>
+					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
+					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
+					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
+					In mathematics, we never get that luxury.
+				</p>
+			</solution>
+		</example>
+
+		<remark>
+			<p>
+				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
+				And even if you don't want to give your grandmother a cookie.
+				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
+				You better have a good argument that it is!
+			</p>
+		</remark>
+
+
+</section>

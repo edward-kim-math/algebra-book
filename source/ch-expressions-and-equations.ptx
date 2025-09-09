@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+<chapter xml:id="ch-expressions-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Expressions and Equations</title>
 
   <introduction>
@@ -17,5 +17,6 @@
   <xi:include href="sec-factoring-and-expansion.ptx" />
   <xi:include href="sec-rational-expressions.ptx" />
   <xi:include href="sec-solving-equations-revisited.ptx" />
+  <xi:include href="sec-sample-code.ptx" />
 
 </chapter>
