@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Operations",
-  "body": " Operations  Algebra provides a powerful way of solving many kinds of questions Algebra achieves this by enhancing arithmetic. Arithmetic focuses on the result of operations like addition and multiplication when using numbers that are constant. The contribution of algebra is to enhance arithmetic with variables and with geometry, with a focus on how the numbers appearing a problem relate to each other. With these extra ways of thinking, algebra allows us to answer many questions that are really hard to think about using arithmetic alone.  I want your experience in math to be as smooth and as enjoyable as possible. I want this for you, even if you can recall being frustrated with mathematics. To achieve that goal, I am deliberately writing this book for you the student, and not for your teacher. I hope to take each part of algebra that has the potential to be challenging and really break it down step-by-step. This does mean that I may ask you to try something different from the way you have done it in the past. I might also ask you to think about things that you haven't really thought about much before. I hope you'll give it a shot: what do you have to lose by trying this subject in a new way? In fact, I encourage you to really think about the language used in mathematics.   Pay attention to the language of mathematics.   As an example of this, when writing be sure to say one of the following:  to the  to the th power  raised to the  raised to the th power  If we only say then slightly pause to say this focuses on the specific individual symbols. The bigger problem is that saying followed by is taken to mean . Why is this a problem? Because and are not equal. In fact, when then simplifies to , but simplifies to .   Order of Operations  We will take a little time to make sure that everyone is on the same page regarding the Order of Operations. Before we go any further, we should describe what we mean by an expression.    An expression is mathematical notation representing a number.     An expression may consist of just a single constant such as or , or can be a variable representing a number such as or , or can be a combination of constants and variables connected by operations such as addition, subtraction, multiplication, division, and exponentiation.    Both and are examples of expressions. Both of these expressions are constants .    Both and are examples of expressions which mention the variable . In the first expression, the variable is written once. In the second expression, the variable is written twice.    The expression mentions two variables.   Please note that an expression does not contain an equal sign. For example, is not an expression. The notation that we just wrote instead states that one exrpession is equal to another expression.  We need the Order of Operations because this it is easy to misinterpret an expression if we do not all agree on how to read expressions. The Order of Operations is a set of rules that tells us the order in which to evaluate (and more generally read) an expression.   Order of Operations  An expression must always be simplified and read by following the Order of Operations :  Parentheses  Exponents  Multiplication and Division (from left to right)  Addition and Subtraction (from left to right)  In addition, every time you write an expression, ensure your writing is based on the Order of Operations.    By the time we get to the third part of the Order of Operations, all exponents would have been evaluated. At this point, we look for any multiplication or division. If there is both multiplication and division, we evaluate them from left to right. It is not true that multiplication must be done before division. All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.    Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled. That means that what remains of our expressions should only have addition and subtraction operations remaining. These should be handled from left to right.    The Order of Operations is sometimes remembered by the acronym PEMDAS, which stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.  Because of the way that PEMDAS is often taught, many people mistakenly believe that multiplication must be done before division, and addition must be done before subtraction. This is not true. For this reason, some people prefer the acronym GEMA, which stands for Grouping symbols, Exponents, Multiplication and Division, Addition and Subtraction. In the acronym GEMA, the G is used to indicate that there are many kinds of grouping symbols, not just parentheses. Also, the multiplication and division are addressed together in the M , and addition and subtraction are addressed together in the A .     Simplify the expression .    We will simplify the expression by following the Order of Operations. First, notice that there are no parentheses, so we move on to the next part of the Order of Operations. There is a place where the expression has exponens, so we zoom in on and simplify this portion of the expression to . So, the expression given to us becomes .  Now there is no more exponents. Next, we look for any multiplication or division. We see both multiplication and division, so we evaluate them from left to right. The left-most multplication or division we see is the division , which simplifies to . This gives us the expression . Continuing to scan from left to right for any multiplications or divisions, we see the multiplication , which simplifies to . This gives us the expression .  Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left. The left-most addition or subtraction we see is the subtraction , which simplifies to . This gives us the expression . Continuing to scan from left to right for any additions or subtractions, we see the addition , which simplifies to .  Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step. To present our work, we start from the original expression and after writing an equal sign (to indicate that what we will write next is equal) write a simplified version of the expression. We continue this process until we reach the final simplified expression. For this example, we have .  It is also acceptable to write each expressions on their own lines, as follows: Note that when presenting our work vertically we still include the equal signs to indicate that each expression is equal to the previous expression.     When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.    While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.     Simplify the expression .    We can present our work horizontally, continuing to always write to the right of an equal sign like this .    We can instead present our work vertically       Simplify the expression .    We can present our work horizontally, always writing to the right of the equal sign like this: .    We can instead present our work vertically:       Order of Operations with variables  It is important for us to apply the Order of Operations not only to simplify expressions that contain only constants, but to also apply the Order of Operations when to interpret expressions that contain variables. This is important because one of the main contributions of algebra over arithmetic is to use variables to represent numbers that we do not know yet. So even when expressions contain variables, we still must read and write based on the Order of Operations. Doing this might feel new and totally weird, but let's explain how it's done and walk through examples together.   How to apply Order of Operations to expressions with variables  Given an expression:  Identify each operation that is written in the given expression.  Apply the Order of Operations to identify in which order the operations would be performed.  Instead of simplifying an expression, we would hypothetically perform the operations.     What order are the operations performed in the expression ?    The expression has three operations. Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication. When there is no symbol written between two variables, there is a hidden multiplication sign. In fact, to make it clearer, we can rewrite the expression as .  Now that we have identified which operations are present in this expression (in this example, three of them) we will apply the Order of Operations to determine in which order these operations would be performed.  Since there are no parentheses in our expression, the first operation that we would perform is the exponentiation. That is, if we knew the value of , then we would first simplify .  Next, we would perform the multiplication . In other words, if we knew the value of and we knew the value of , then our work in this second step would be to simplify, and we'd have , whatever the value of that is  Finally, we would perform the subtraction: we would take whatever the value of and subtract from this whatever the vaule of is to get .      Notice that we never simplified the expression or any part of this expression. We couldn't, because we did not know the numerical value of any of the variables. It seems like what we're doing is lazy, but I want to spin this into something positive. I encourage you to think of it this way: since we don't have the numbers behind the variables, we get to be lazy!  To perform this kind of analysis, it is helpful to say phrases like whatever the value of that is . We are discussing in which order we would hypothetically perform the operations, if we knew the values of the variables. It seems like what we're doing is a bit silly, but it is important to practice this way of thinking. It is rare that I'll encourage the following, but I encourage you to say out loud the full text of the next several examples, pausing right before any phrase that looks similar to whatever the value of that is when this kind of phrase appears right after an expression followed by a comma.    What order are the operations performed in the expression ?    First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation. In addition, a part of the expression is contained inside parentheses.    Since is in parentheses, we would perform the addition first. So, if we hypothetically knew the values of and , we'd replace this with the value of , whatever value that is.  After this, there would be no parentheses. Since all that would be left is a multiplication and an exponentiation, we would perform the exponentiation. We would take whatever the value of is and raise this value to the th power. This would give us , whatever the value of that is.  Finally, we'd take whatever the value of is and whatever the value of is and multiply these values together.      Notice that we never simplified the expression or any part of this expression. This process may feel weird to you because you may never have been asked about analyzing expressions in this way. Digging into the careful details of how to analyze an expression like this often gets overlooked but this next-level type of problem in applynig the Order of Operations sets up an important foundation for reading and writing expressions in algebra correctly. It's weird because it's new, but it's important because algebra enhances arithmetic by having variables, so I want you to be comfortable with reading and writing expressions with variables.    What order are the operations performed in the expression ?    To make it clearer where the operations are, let's rewrite the expression as .    Since is in parentheses, we would perform this subtraction first.  Next, there would be no more parentheses, so we would perform the exponentiation: we would take , whatever the value of is, and raise this to the th power. Thus, we'd have whatever the value of is.  Next, we would perform the multiplication . That is, if we knew the value of we would multiply this by the value of value of from the previous step, which would give us , whatever the value of that is .  Then, we would perform the multiplication . That is, if we knew the value of , we would simplify .  Finally, we would perform the addition: we would take whatever the value of is and add to this whatever the value of is.      The activity we just went through leads up to the following new type of activity. We will be given two expressions which will only differ from each other in the inclusion or removal of a set of parentheses. Then, we will determine if the two expressions are equal, or if we don't know based only on the Order of Operations.    Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first because the multiplication is in parentheses. Then we perform the subtraction of and to get .  In the second expression , there are no parentheses. We perform the multiplication first. Then we perform the subtraction of and to get .  In both expressions, we perform the multiplication first, and then we perform the subtraction of and next. Based only on the Order of Operations, the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the the content is in parentheses. We do exponentiation next to get . Our final operation is the multiplication of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Finally, we perform the addition of and .  In the first expression, we perform the addition first, then the exponentiation, and finally the multiplication. In the second expression, we perform the exponentiation first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal. (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations. If these expressions happened to be equal, this would have to be explained by something other than the Order of Operations.)      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In the second expression , we perform the multiplication first because this is in parentheses. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In both expressions, we perform the multiplication first, then the addition, and finally the subtraction. Based only on the Order of Operations, the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the addition is in parentheses. Next, we perform the division of by the value of . Finally, we perform the multiplication of the value of and .  In the second expression , we perform the division first. Next, we perform the multiplication . Finally, we perform the addition of the value of and the value of .  In the first expression, we perform the addition first, then the division, and finally the multiplication. In the second expression, we perform the division first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because this is in parentheses. Next, we perform the addition because this is in parentheses. Finally, we perform the division of the value of by the value of .  In the second expression , we perform the division first. Next, we perform the addition of and the value of . Finally, we perform the addition of the value of and .  In the first expression, we perform the addition first, then the addition , and finally do the division of whatever the value of is by whatever the value of is. In the second expression, we perform the division first, then an addition, and finally another addition. To be clear, in the first expression the value of is divided by whatever the value of is, and in the second expression the value of is divided by whatever the value of is. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the subtraction first because the subtraction is in parentheses. Next, we perform the exponentiation to get . Then, we perform the multiplication of and . Next, we perform the multiplication of and to get . Finally, we perform the addition of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Then, we perform the multiplication of and . Finally, we perform the subtraction of the value of and the value of , and then add to this whatever the value of is.  In the first expression, we perform the subtraction first, then the exponentiation, then two multiplications, and finally an addition. In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Pictures and Language  sticks, rectangles, terms, factors    Summary  text    Exercises  Insert exercises here.   "
+  "body": " Operations  Algebra provides a powerful way of solving many kinds of questions Algebra achieves this by enhancing arithmetic. Arithmetic focuses on the result of operations like addition and multiplication when using numbers that are constant. The contribution of algebra is to enhance arithmetic with variables and with geometry, with a focus on how the numbers appearing a problem relate to each other. With these extra ways of thinking, algebra allows us to answer many questions that are really hard to think about using arithmetic alone.  I want your experience in math to be as smooth and as enjoyable as possible. I want this for you, even if you can recall being frustrated with mathematics. To achieve that goal, I am deliberately writing this book for you the student, and not for your teacher. I hope to take each part of algebra that has the potential to be challenging and really break it down step-by-step. This does mean that I may ask you to try something different from the way you have done it in the past. I might also ask you to think about things that you haven't really thought about much before. I hope you'll give it a shot: what do you have to lose by trying this subject in a new way? In fact, I encourage you to really think about the language used in mathematics.   Pay attention to the language of mathematics.   As an example of this, when writing be sure to say one of the following:  to the  to the th power  raised to the  raised to the th power  If we only say then slightly pause to say this focuses on the specific individual symbols. The bigger problem is that saying followed by is taken to mean . Why is this a problem? Because and are not equal. In fact, when then simplifies to , but simplifies to .   Order of Operations  We will take a little time to make sure that everyone is on the same page regarding the Order of Operations. Before we go any further, we should describe what we mean by an expression.    An expression is mathematical notation representing a number.     An expression may consist of just a single constant such as or , or can be a variable representing a number such as or , or can be a combination of constants and variables connected by operations such as addition, subtraction, multiplication, division, and exponentiation.    Both and are examples of expressions. Both of these expressions are constants .    Writing is another expressions. This is an expression even if we haven't simplified this to the value . Like the two expressions in the previous example, the expression shown here (both the unsimplified and the simplified versions) is a constant , since the expression lacks any variable(s).    Both and are examples of expressions which mention the variable . In the first expression, the variable is written once. In the second expression, the variable is written twice.    The expression mentions two variables. Since one or more variables appear, this expression is not a constant.   Please note that an expression does not contain an equal sign. For example, is not an expression. The notation that we just wrote instead states that one exrpession is equal to another expression.  We need the Order of Operations because this it is easy to misinterpret an expression if we do not all agree on how to read expressions. The Order of Operations is a set of rules that tells us the order in which to evaluate (and more generally read) an expression.   Order of Operations  An expression must always be simplified and read by following the Order of Operations :  Parentheses  Exponents  Multiplication and Division (from left to right)  Addition and Subtraction (from left to right)  In addition, every time you write an expression, ensure your writing is based on the Order of Operations.    By the time we get to the third part of the Order of Operations, all exponents would have been evaluated. At this point, we look for any multiplication or division. If there is both multiplication and division, we evaluate them from left to right. It is not true that multiplication must be done before division. All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.    Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled. That means that what remains of our expressions should only have addition and subtraction operations remaining. These should be handled from left to right.    The Order of Operations is sometimes remembered by the acronym PEMDAS, which stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.  Because of the way that PEMDAS is often taught, many people mistakenly believe that multiplication must be done before division, and addition must be done before subtraction. This is not true. For this reason, some people prefer the acronym GEMA, which stands for Grouping symbols, Exponents, Multiplication and Division, Addition and Subtraction. In the acronym GEMA, the G is used to indicate that there are many kinds of grouping symbols, not just parentheses. Also, the multiplication and division are addressed together in the M , and addition and subtraction are addressed together in the A .     Simplify the expression .    We will simplify the expression by following the Order of Operations. First, notice that there are no parentheses, so we move on to the next part of the Order of Operations. There is a place where the expression has exponens, so we zoom in on and simplify this portion of the expression to . So, the expression given to us becomes .  Now there is no more exponents. Next, we look for any multiplication or division. We see both multiplication and division, so we evaluate them from left to right. The left-most multplication or division we see is the division , which simplifies to . This gives us the expression . Continuing to scan from left to right for any multiplications or divisions, we see the multiplication , which simplifies to . This gives us the expression .  Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left. The left-most addition or subtraction we see is the subtraction , which simplifies to . This gives us the expression . Continuing to scan from left to right for any additions or subtractions, we see the addition , which simplifies to .  Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step. To present our work, we start from the original expression and after writing an equal sign (to indicate that what we will write next is equal) write a simplified version of the expression. We continue this process until we reach the final simplified expression. For this example, we have .  It is also acceptable to write each expressions on their own lines, as follows: Note that when presenting our work vertically we still include the equal signs to indicate that each expression is equal to the previous expression.     Expectation  When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.    Expectation  While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.     Simplify the expression .    We can present our work horizontally, continuing to always write to the right of an equal sign like this .    We can instead present our work vertically       Simplify the expression .    We can present our work horizontally, always writing to the right of the equal sign like this: .    We can instead present our work vertically:       Habit  Always read expressions based on the Order of Operations.    Habit  Always write expressions based on the Order of Operations.    Order of Operations with variables  It is important for us to apply the Order of Operations not only to simplify expressions that contain only constants, but to also apply the Order of Operations when to interpret expressions that contain variables. This is important because one of the main contributions of algebra over arithmetic is to use variables to represent numbers that we do not know yet. So even when expressions contain variables, we still must read and write based on the Order of Operations. Doing this might feel new and totally weird, but let's explain how it's done and walk through examples together.   How to apply Order of Operations to expressions with variables  Given an expression:  Identify each operation that is written in the given expression.  Apply the Order of Operations to identify in which order the operations would be performed.  Instead of simplifying an expression, we would hypothetically perform the operations.     What order are the operations performed in the expression ?    The expression has three operations. Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication. When there is no symbol written between two variables, there is a hidden multiplication sign. In fact, to make it clearer, we can rewrite the expression as .  Now that we have identified which operations are present in this expression (in this example, three of them) we will apply the Order of Operations to determine in which order these operations would be performed.  Since there are no parentheses in our expression, the first operation that we would perform is the exponentiation. That is, if we knew the value of , then we would first simplify .  Next, we would perform the multiplication . In other words, if we knew the value of and we knew the value of , then our work in this second step would be to simplify, and we'd have , whatever the value of that is  Finally, we would perform the subtraction: we would take whatever the value of and subtract from this whatever the vaule of is to get .      Notice that we never simplified the expression or any part of this expression. We couldn't, because we did not know the numerical value of any of the variables. It seems like what we're doing is lazy, but I want to spin this into something positive. I encourage you to think of it this way: since we don't have the numbers behind the variables, we get to be lazy!  To perform this kind of analysis, it is helpful to say phrases like whatever the value of that is . We are discussing in which order we would hypothetically perform the operations, if we knew the values of the variables. It seems like what we're doing is a bit silly, but it is important to practice this way of thinking. It is rare that I'll encourage the following, but I encourage you to say out loud the full text of the next several examples, pausing right before any phrase that looks similar to whatever the value of that is when this kind of phrase appears right after an expression followed by a comma.    What order are the operations performed in the expression ?    First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation. In addition, a part of the expression is contained inside parentheses.    Since is in parentheses, we would perform the addition first. So, if we hypothetically knew the values of and , we'd replace this with the value of , whatever value that is.  After this, there would be no parentheses. Since all that would be left is a multiplication and an exponentiation, we would perform the exponentiation. We would take whatever the value of is and raise this value to the th power. This would give us , whatever the value of that is.  Finally, we'd take whatever the value of is and whatever the value of is and multiply these values together.      Notice that we never simplified the expression or any part of this expression. This process may feel weird to you because you may never have been asked about analyzing expressions in this way. Digging into the careful details of how to analyze an expression like this often gets overlooked but this next-level type of problem in applynig the Order of Operations sets up an important foundation for reading and writing expressions in algebra correctly. It's weird because it's new, but it's important because algebra enhances arithmetic by having variables, so I want you to be comfortable with reading and writing expressions with variables.    What order are the operations performed in the expression ?    To make it clearer where the operations are, let's rewrite the expression as .    Since is in parentheses, we would perform this subtraction first.  Next, there would be no more parentheses, so we would perform the exponentiation: we would take , whatever the value of is, and raise this to the th power. Thus, we'd have whatever the value of is.  Next, we would perform the multiplication . That is, if we knew the value of we would multiply this by the value of value of from the previous step, which would give us , whatever the value of that is .  Then, we would perform the multiplication . That is, if we knew the value of , we would simplify .  Finally, we would perform the addition: we would take whatever the value of is and add to this whatever the value of is.      The activity we just went through leads up to the following new type of activity. We will be given two expressions which will only differ from each other in the inclusion or removal of a set of parentheses. Then, we will determine if the two expressions are equal, or if we don't know based only on the Order of Operations.    Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first because the multiplication is in parentheses. Then we perform the subtraction of and to get .  In the second expression , there are no parentheses. We perform the multiplication first. Then we perform the subtraction of and to get .  In both expressions, we perform the multiplication first, and then we perform the subtraction of and next. Based only on the Order of Operations, the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the the content is in parentheses. We do exponentiation next to get . Our final operation is the multiplication of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Finally, we perform the addition of and .  In the first expression, we perform the addition first, then the exponentiation, and finally the multiplication. In the second expression, we perform the exponentiation first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal. (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations. If these expressions happened to be equal, this would have to be explained by something other than the Order of Operations.)      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In the second expression , we perform the multiplication first because this is in parentheses. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In both expressions, we perform the multiplication first, then the addition, and finally the subtraction. Based only on the Order of Operations, the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the addition is in parentheses. Next, we perform the division of by the value of . Finally, we perform the multiplication of the value of and .  In the second expression , we perform the division first. Next, we perform the multiplication . Finally, we perform the addition of the value of and the value of .  In the first expression, we perform the addition first, then the division, and finally the multiplication. In the second expression, we perform the division first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because this is in parentheses. Next, we perform the addition because this is in parentheses. Finally, we perform the division of the value of by the value of .  In the second expression , we perform the division first. Next, we perform the addition of and the value of . Finally, we perform the addition of the value of and .  In the first expression, we perform the addition first, then the addition , and finally do the division of whatever the value of is by whatever the value of is. In the second expression, we perform the division first, then an addition, and finally another addition. To be clear, in the first expression the value of is divided by whatever the value of is, and in the second expression the value of is divided by whatever the value of is. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the subtraction first because the subtraction is in parentheses. Next, we perform the exponentiation to get . Then, we perform the multiplication of and . Next, we perform the multiplication of and to get . Finally, we perform the addition of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Then, we perform the multiplication of and . Finally, we perform the subtraction of the value of and the value of , and then add to this whatever the value of is.  In the first expression, we perform the subtraction first, then the exponentiation, then two multiplications, and finally an addition. In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.      Language  Before we move on, let's be sure that we're on the same page regarding some language used to describe expressions.    An expression that is the result of adding and\/or subtracting two or more expressions together is called a sum . Each individual piece of the sum is called a term .     The expression is the result of adding and subtracting expressions together, so is called a sum. The three terms in this sum are , , and .     An expression that is the result of multiplying two or more expressions together is called a product . Each individual piece of the product is called a factor .     The expression is the result of multiplying expressions together, so is called a product. The three factors in this product are , , and .     Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a product. The three factors in this product are , , and .      Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The three terms in this sum are , , and .      Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The two terms in this sum are and .      Pictures  In algebra, we will often use pictures to represent expressions. This is a powerful way to think about expressions, and it is important to be able to translate between pictures and expressions. This may be new to you, but I encourage you to give it a try! Practicing this now will make future concepts go smoother!   Representing Addition Geometrically  Suppose and are positive real numbers. Then is geometrically represented by the length of the stick made by gluing a stick of length to a stick of length .  A picture of        We have drawn the sticks slightly separated so that we can see them individually, but in reality we should imagine them pushed together. In the drawing, I made the choice to represent as a slightly larger number than . In addition, I chose to draw the stick representing on the left and the stick representing on the right because in the expression , the appears to the left of the plus sign, while the appears to the right of the plus sign.    Represent geometrically.      A picture of           Represent geometrically.      A picture of           Represent geometrically.      A picture of        We can apply the geometric representation of addition to learn several important algebra facts about addition.  Commutative Property of Addition        Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length . In both cases, the resulting stick has the same length, so the two expressions are equal.    In the Commutative Property of Addition , we can substitute any expression we want for the and any expression we want for the . If we can for a moment explain what the Commutative Property of Addition is saying informally, the result of this plus that is the same as that plus this . In other words, it is saying that when we add two things together, the order in which we add them doesn't matter. For example the Commutative Property of Addition tells us that is equal to .   Associative Property of Addition        Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . (What the drawing doesn't indicate is the order of the gluing, so we need to clarify this with words: in the first diagram the stick of length is glued to the stick of length first, but in the second diagram the stick of length is glued to the stick of length first. If doing a hand drawing arrows can be drawn with labels like glue here first and glue here next .) In both cases, the resulting stick has the same length, so the two expressions are equal.    Having the Commutative Property of Addition and the Associative Property of Addition together basically tells us that when the expression we have is a sum, we can rearrange the terms in any order we want and simplify the addition of any terms in any order we want. For example is equal to and is also equal to . When rearranging, be sure that any minus sign that was in front of a term stays in front of that term.   Representing Multiplication Geometrically  Suppose and are positive real numbers. Then is geometrically represented by the area of a rectangle with height and width .  The area of the rectangle is a picture of        We will draw with the convention that the factor before the muliplication symbol is the height of the rectangle and the factor after the multiplication symbol is the width. In the drawing, I made the choice to represent as a slightly smaller number than .  rectangles  distribution, what distribution is NOT  factoring as undoing the distributive law  like terms    Summary  text    Exercises  Insert exercises here.   "
 },
 {
   "id": "sec-operations-4",
@@ -151,7 +151,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.4",
   "title": "",
-  "body": " Both and are examples of expressions which mention the variable . In the first expression, the variable is written once. In the second expression, the variable is written twice.  "
+  "body": " Writing is another expressions. This is an expression even if we haven't simplified this to the value . Like the two expressions in the previous example, the expression shown here (both the unsimplified and the simplified versions) is a constant , since the expression lacks any variable(s).  "
 },
 {
   "id": "sec-operations-6-7",
@@ -160,25 +160,25 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.1.5",
   "title": "",
-  "body": " The expression mentions two variables.  "
+  "body": " Both and are examples of expressions which mention the variable . In the first expression, the variable is written once. In the second expression, the variable is written twice.  "
 },
 {
-  "id": "sec-operations-6-10-2",
+  "id": "sec-operations-6-8",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-6-10-2",
+  "url": "sec-operations.html#sec-operations-6-8",
+  "type": "Example",
+  "number": "1.1.6",
+  "title": "",
+  "body": " The expression mentions two variables. Since one or more variables appear, this expression is not a constant.  "
+},
+{
+  "id": "sec-operations-6-11-2",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-6-11-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Order of Operations "
-},
-{
-  "id": "sec-operations-6-11",
-  "level": "2",
-  "url": "sec-operations.html#sec-operations-6-11",
-  "type": "Remark",
-  "number": "1.1.6",
-  "title": "",
-  "body": " By the time we get to the third part of the Order of Operations, all exponents would have been evaluated. At this point, we look for any multiplication or division. If there is both multiplication and division, we evaluate them from left to right. It is not true that multiplication must be done before division. All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.  "
 },
 {
   "id": "sec-operations-6-12",
@@ -187,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "1.1.7",
   "title": "",
-  "body": " Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled. That means that what remains of our expressions should only have addition and subtraction operations remaining. These should be handled from left to right.  "
+  "body": " By the time we get to the third part of the Order of Operations, all exponents would have been evaluated. At this point, we look for any multiplication or division. If there is both multiplication and division, we evaluate them from left to right. It is not true that multiplication must be done before division. All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.  "
 },
 {
   "id": "sec-operations-6-13",
@@ -196,6 +196,15 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "1.1.8",
   "title": "",
+  "body": " Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled. That means that what remains of our expressions should only have addition and subtraction operations remaining. These should be handled from left to right.  "
+},
+{
+  "id": "sec-operations-6-14",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-6-14",
+  "type": "Remark",
+  "number": "1.1.9",
+  "title": "",
   "body": " The Order of Operations is sometimes remembered by the acronym PEMDAS, which stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.  Because of the way that PEMDAS is often taught, many people mistakenly believe that multiplication must be done before division, and addition must be done before subtraction. This is not true. For this reason, some people prefer the acronym GEMA, which stands for Grouping symbols, Exponents, Multiplication and Division, Addition and Subtraction. In the acronym GEMA, the G is used to indicate that there are many kinds of grouping symbols, not just parentheses. Also, the multiplication and division are addressed together in the M , and addition and subtraction are addressed together in the A .  "
 },
 {
@@ -203,43 +212,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#ex-expression-simplify",
   "type": "Example",
-  "number": "1.1.9",
-  "title": "",
-  "body": "  Simplify the expression .    We will simplify the expression by following the Order of Operations. First, notice that there are no parentheses, so we move on to the next part of the Order of Operations. There is a place where the expression has exponens, so we zoom in on and simplify this portion of the expression to . So, the expression given to us becomes .  Now there is no more exponents. Next, we look for any multiplication or division. We see both multiplication and division, so we evaluate them from left to right. The left-most multplication or division we see is the division , which simplifies to . This gives us the expression . Continuing to scan from left to right for any multiplications or divisions, we see the multiplication , which simplifies to . This gives us the expression .  Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left. The left-most addition or subtraction we see is the subtraction , which simplifies to . This gives us the expression . Continuing to scan from left to right for any additions or subtractions, we see the addition , which simplifies to .  Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step. To present our work, we start from the original expression and after writing an equal sign (to indicate that what we will write next is equal) write a simplified version of the expression. We continue this process until we reach the final simplified expression. For this example, we have .  It is also acceptable to write each expressions on their own lines, as follows: Note that when presenting our work vertically we still include the equal signs to indicate that each expression is equal to the previous expression.   "
-},
-{
-  "id": "sec-operations-6-15",
-  "level": "2",
-  "url": "sec-operations.html#sec-operations-6-15",
-  "type": "Remark",
   "number": "1.1.10",
   "title": "",
-  "body": " When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.  "
-},
-{
-  "id": "sec-operations-6-16",
-  "level": "2",
-  "url": "sec-operations.html#sec-operations-6-16",
-  "type": "Remark",
-  "number": "1.1.11",
-  "title": "",
-  "body": " While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.  "
-},
-{
-  "id": "sec-operations-6-17",
-  "level": "2",
-  "url": "sec-operations.html#sec-operations-6-17",
-  "type": "Example",
-  "number": "1.1.12",
-  "title": "",
-  "body": "  Simplify the expression .    We can present our work horizontally, continuing to always write to the right of an equal sign like this .    We can instead present our work vertically    "
+  "body": "  Simplify the expression .    We will simplify the expression by following the Order of Operations. First, notice that there are no parentheses, so we move on to the next part of the Order of Operations. There is a place where the expression has exponens, so we zoom in on and simplify this portion of the expression to . So, the expression given to us becomes .  Now there is no more exponents. Next, we look for any multiplication or division. We see both multiplication and division, so we evaluate them from left to right. The left-most multplication or division we see is the division , which simplifies to . This gives us the expression . Continuing to scan from left to right for any multiplications or divisions, we see the multiplication , which simplifies to . This gives us the expression .  Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left. The left-most addition or subtraction we see is the subtraction , which simplifies to . This gives us the expression . Continuing to scan from left to right for any additions or subtractions, we see the addition , which simplifies to .  Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step. To present our work, we start from the original expression and after writing an equal sign (to indicate that what we will write next is equal) write a simplified version of the expression. We continue this process until we reach the final simplified expression. For this example, we have .  It is also acceptable to write each expressions on their own lines, as follows: Note that when presenting our work vertically we still include the equal signs to indicate that each expression is equal to the previous expression.   "
 },
 {
   "id": "sec-operations-6-18",
   "level": "2",
   "url": "sec-operations.html#sec-operations-6-18",
   "type": "Example",
-  "number": "1.1.13",
+  "number": "1.1.11",
+  "title": "",
+  "body": "  Simplify the expression .    We can present our work horizontally, continuing to always write to the right of an equal sign like this .    We can instead present our work vertically    "
+},
+{
+  "id": "sec-operations-6-19",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-6-19",
+  "type": "Example",
+  "number": "1.1.12",
   "title": "",
   "body": "  Simplify the expression .    We can present our work horizontally, always writing to the right of the equal sign like this: .    We can instead present our work vertically:    "
 },
@@ -248,81 +239,207 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#ex-expression-simplify-variables",
   "type": "Example",
-  "number": "1.1.14",
+  "number": "1.1.13",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    The expression has three operations. Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication. When there is no symbol written between two variables, there is a hidden multiplication sign. In fact, to make it clearer, we can rewrite the expression as .  Now that we have identified which operations are present in this expression (in this example, three of them) we will apply the Order of Operations to determine in which order these operations would be performed.  Since there are no parentheses in our expression, the first operation that we would perform is the exponentiation. That is, if we knew the value of , then we would first simplify .  Next, we would perform the multiplication . In other words, if we knew the value of and we knew the value of , then our work in this second step would be to simplify, and we'd have , whatever the value of that is  Finally, we would perform the subtraction: we would take whatever the value of and subtract from this whatever the vaule of is to get .     "
 },
 {
-  "id": "sec-operations-7-7",
+  "id": "sec-operations-9-7",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-7",
+  "url": "sec-operations.html#sec-operations-9-7",
   "type": "Example",
-  "number": "1.1.15",
+  "number": "1.1.14",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation. In addition, a part of the expression is contained inside parentheses.    Since is in parentheses, we would perform the addition first. So, if we hypothetically knew the values of and , we'd replace this with the value of , whatever value that is.  After this, there would be no parentheses. Since all that would be left is a multiplication and an exponentiation, we would perform the exponentiation. We would take whatever the value of is and raise this value to the th power. This would give us , whatever the value of that is.  Finally, we'd take whatever the value of is and whatever the value of is and multiply these values together.     "
 },
 {
-  "id": "sec-operations-7-9",
+  "id": "sec-operations-9-9",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-9",
+  "url": "sec-operations.html#sec-operations-9-9",
   "type": "Example",
-  "number": "1.1.16",
+  "number": "1.1.15",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    To make it clearer where the operations are, let's rewrite the expression as .    Since is in parentheses, we would perform this subtraction first.  Next, there would be no more parentheses, so we would perform the exponentiation: we would take , whatever the value of is, and raise this to the th power. Thus, we'd have whatever the value of is.  Next, we would perform the multiplication . That is, if we knew the value of we would multiply this by the value of value of from the previous step, which would give us , whatever the value of that is .  Then, we would perform the multiplication . That is, if we knew the value of , we would simplify .  Finally, we would perform the addition: we would take whatever the value of is and add to this whatever the value of is.     "
 },
 {
-  "id": "sec-operations-7-11",
+  "id": "sec-operations-9-11",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-11",
+  "url": "sec-operations.html#sec-operations-9-11",
   "type": "Example",
-  "number": "1.1.17",
+  "number": "1.1.16",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first because the multiplication is in parentheses. Then we perform the subtraction of and to get .  In the second expression , there are no parentheses. We perform the multiplication first. Then we perform the subtraction of and to get .  In both expressions, we perform the multiplication first, and then we perform the subtraction of and next. Based only on the Order of Operations, the two expressions are equal.   "
 },
 {
-  "id": "sec-operations-7-12",
+  "id": "sec-operations-9-12",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-12",
+  "url": "sec-operations.html#sec-operations-9-12",
   "type": "Example",
-  "number": "1.1.18",
+  "number": "1.1.17",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the the content is in parentheses. We do exponentiation next to get . Our final operation is the multiplication of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Finally, we perform the addition of and .  In the first expression, we perform the addition first, then the exponentiation, and finally the multiplication. In the second expression, we perform the exponentiation first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal. (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations. If these expressions happened to be equal, this would have to be explained by something other than the Order of Operations.)   "
 },
 {
-  "id": "sec-operations-7-13",
+  "id": "sec-operations-9-13",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-13",
+  "url": "sec-operations.html#sec-operations-9-13",
   "type": "Example",
-  "number": "1.1.19",
+  "number": "1.1.18",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In the second expression , we perform the multiplication first because this is in parentheses. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In both expressions, we perform the multiplication first, then the addition, and finally the subtraction. Based only on the Order of Operations, the two expressions are equal.   "
 },
 {
-  "id": "sec-operations-7-14",
+  "id": "sec-operations-9-14",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-14",
+  "url": "sec-operations.html#sec-operations-9-14",
   "type": "Example",
-  "number": "1.1.20",
+  "number": "1.1.19",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the addition is in parentheses. Next, we perform the division of by the value of . Finally, we perform the multiplication of the value of and .  In the second expression , we perform the division first. Next, we perform the multiplication . Finally, we perform the addition of the value of and the value of .  In the first expression, we perform the addition first, then the division, and finally the multiplication. In the second expression, we perform the division first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
 },
 {
-  "id": "sec-operations-7-15",
+  "id": "sec-operations-9-15",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-15",
+  "url": "sec-operations.html#sec-operations-9-15",
   "type": "Example",
-  "number": "1.1.21",
+  "number": "1.1.20",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because this is in parentheses. Next, we perform the addition because this is in parentheses. Finally, we perform the division of the value of by the value of .  In the second expression , we perform the division first. Next, we perform the addition of and the value of . Finally, we perform the addition of the value of and .  In the first expression, we perform the addition first, then the addition , and finally do the division of whatever the value of is by whatever the value of is. In the second expression, we perform the division first, then an addition, and finally another addition. To be clear, in the first expression the value of is divided by whatever the value of is, and in the second expression the value of is divided by whatever the value of is. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
 },
 {
-  "id": "sec-operations-7-16",
+  "id": "sec-operations-9-16",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-7-16",
+  "url": "sec-operations.html#sec-operations-9-16",
   "type": "Example",
-  "number": "1.1.22",
+  "number": "1.1.21",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the subtraction first because the subtraction is in parentheses. Next, we perform the exponentiation to get . Then, we perform the multiplication of and . Next, we perform the multiplication of and to get . Finally, we perform the addition of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Then, we perform the multiplication of and . Finally, we perform the subtraction of the value of and the value of , and then add to this whatever the value of is.  In the first expression, we perform the subtraction first, then the exponentiation, then two multiplications, and finally an addition. In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
+},
+{
+  "id": "sec-operations-10-3",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-3",
+  "type": "Definition",
+  "number": "1.1.22",
+  "title": "",
+  "body": "  An expression that is the result of adding and\/or subtracting two or more expressions together is called a sum . Each individual piece of the sum is called a term .   "
+},
+{
+  "id": "sec-operations-10-4",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-4",
+  "type": "Example",
+  "number": "1.1.23",
+  "title": "",
+  "body": " The expression is the result of adding and subtracting expressions together, so is called a sum. The three terms in this sum are , , and .  "
+},
+{
+  "id": "sec-operations-10-5",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-5",
+  "type": "Definition",
+  "number": "1.1.24",
+  "title": "",
+  "body": "  An expression that is the result of multiplying two or more expressions together is called a product . Each individual piece of the product is called a factor .   "
+},
+{
+  "id": "sec-operations-10-6",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-6",
+  "type": "Example",
+  "number": "1.1.25",
+  "title": "",
+  "body": " The expression is the result of multiplying expressions together, so is called a product. The three factors in this product are , , and .  "
+},
+{
+  "id": "sec-operations-10-7",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-7",
+  "type": "Example",
+  "number": "1.1.26",
+  "title": "",
+  "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a product. The three factors in this product are , , and .   "
+},
+{
+  "id": "sec-operations-10-8",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-8",
+  "type": "Example",
+  "number": "1.1.27",
+  "title": "",
+  "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The three terms in this sum are , , and .   "
+},
+{
+  "id": "sec-operations-10-9",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10-9",
+  "type": "Example",
+  "number": "1.1.28",
+  "title": "",
+  "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The two terms in this sum are and .   "
+},
+{
+  "id": "fig-a-plus-b",
+  "level": "2",
+  "url": "sec-operations.html#fig-a-plus-b",
+  "type": "Figure",
+  "number": "1.1.29",
+  "title": "",
+  "body": " A picture of     "
+},
+{
+  "id": "sec-operations-11-5",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-11-5",
+  "type": "Example",
+  "number": "1.1.30",
+  "title": "",
+  "body": "  Represent geometrically.      A picture of        "
+},
+{
+  "id": "sec-operations-11-6",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-11-6",
+  "type": "Example",
+  "number": "1.1.32",
+  "title": "",
+  "body": "  Represent geometrically.      A picture of        "
+},
+{
+  "id": "sec-operations-11-7",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-11-7",
+  "type": "Example",
+  "number": "1.1.34",
+  "title": "",
+  "body": "  Represent geometrically.      A picture of        "
+},
+{
+  "id": "sec-operations-11-9",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-11-9",
+  "type": "Example",
+  "number": "1.1.36",
+  "title": "",
+  "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length . In both cases, the resulting stick has the same length, so the two expressions are equal.   "
+},
+{
+  "id": "sec-operations-11-12",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-11-12",
+  "type": "Example",
+  "number": "1.1.38",
+  "title": "",
+  "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . (What the drawing doesn't indicate is the order of the gluing, so we need to clarify this with words: in the first diagram the stick of length is glued to the stick of length first, but in the second diagram the stick of length is glued to the stick of length first. If doing a hand drawing arrows can be drawn with labels like glue here first and glue here next .) In both cases, the resulting stick has the same length, so the two expressions are equal.   "
+},
+{
+  "id": "fig-a-times-b",
+  "level": "2",
+  "url": "sec-operations.html#fig-a-times-b",
+  "type": "Figure",
+  "number": "1.1.40",
+  "title": "",
+  "body": " The area of the rectangle is a picture of     "
 },
 {
   "id": "sec-expressions-with-fractions",
@@ -331,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Expressions with Fractions",
-  "body": " Expressions with Fractions  Text of section.  The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input.  Mixed fractions, improper fractions, decimal answers  "
+  "body": " Expressions with Fractions  Text of section.  The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input.  Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.  Two correct (and one incorrect) interpretation of .  "
 },
 {
   "id": "sec-solving-equations",
@@ -467,51 +584,6 @@ var ptx_lunr_docs = [
   "number": "1.10.4",
   "title": "",
   "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
-},
-{
-  "id": "backmatter-2",
-  "level": "1",
-  "url": "backmatter-2.html",
-  "type": "Appendix",
-  "number": "A",
-  "title": "Selected Hints",
-  "body": " Selected Hints  "
-},
-{
-  "id": "backmatter-3",
-  "level": "1",
-  "url": "backmatter-3.html",
-  "type": "Appendix",
-  "number": "B",
-  "title": "Selected Solutions",
-  "body": " Selected Solutions  "
-},
-{
-  "id": "backmatter-4",
-  "level": "1",
-  "url": "backmatter-4.html",
-  "type": "Appendix",
-  "number": "C",
-  "title": "List of Symbols",
-  "body": " List of Symbols   "
-},
-{
-  "id": "backmatter-5",
-  "level": "1",
-  "url": "backmatter-5.html",
-  "type": "Index",
-  "number": "",
-  "title": "Index",
-  "body": " Index   "
-},
-{
-  "id": "backmatter-6",
-  "level": "1",
-  "url": "backmatter-6.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
 }
 ]
 

@@ -75,6 +75,15 @@
 
     <example>
       <p>
+      Writing <m>-40+\sqrt{64}</m> is another expressions.
+      This is an expression even if we haven't simplified this to the value <m>-32</m>.
+      Like the two expressions in the previous example, the expression shown here (both the unsimplified and the simplified versions)
+      is a <em>constant</em>, since the expression lacks any variable(s).
+      </p>
+    </example>
+
+    <example>
+      <p>
       Both <m>9x-8</m> and <m>x^2+3x+31</m> are examples of expressions which mention the variable <m>x</m>.
       In the first expression, the variable <m>x</m> is written once.
       In the second expression, the variable <m>x</m> is written twice.
@@ -83,7 +92,7 @@
 
     <example>
       <p>
-      The expression <m>x^2+2x+y^2-6y</m> mentions two variables.
+      The expression <m>x^2+2x+y^2-6y</m> mentions two variables. Since one or more variables appear, this expression is <em>not</em> a constant.
       </p>
     </example>
 
@@ -199,16 +208,18 @@
       </solution>
     </example>
 
-    <remark>
+    <assemblage>
+      <title>Expectation</title>
       <p>
-      When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.
+        When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.
       </p>
-    </remark>
-    <remark>
+    </assemblage>
+    <assemblage>
+      <title>Expectation</title>
       <p>
-      While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.
+        While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.
       </p>
-    </remark>
+    </assemblage>
 
     <example>
       <statement>
@@ -270,6 +281,21 @@
     </example>
 
   </subsection>
+
+  <assemblage>
+    <title>Habit</title>
+    <p>
+      Always read expressions based on the Order of Operations.
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>Habit</title>
+    <p>
+      Always write expressions based on the Order of Operations.
+    </p>
+  </assemblage>
+
 
 
 	<subsection>
@@ -587,11 +613,411 @@
 
 
 	<subsection>
-		<title>Pictures and Language</title>
+		<title>Language</title>
 
-    <p>sticks, rectangles, terms, factors</p>
+    <p>
+      Before we move on, let's be sure that we're on the same page regarding some language used to describe expressions.
+    </p>
+
+    <definition>
+      <statement>
+        <p>
+          An expression that is the result of adding and/or subtracting two or more expressions together is called a <term>sum</term>.
+          Each individual piece of the sum is called a <term>term</term>.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <p>
+          The expression <m>3x + 5y - 7</m> is the result of adding and subtracting expressions together, so is called a sum.
+          The three terms in this sum are <m>3x</m>, <m>5y</m>, and <m>7</m>.
+      </p>
+    </example>  
+
+    <definition>
+      <statement>
+        <p>
+          An expression that is the result of multiplying two or more expressions together is called a <term>product</term>.
+          Each individual piece of the product is called a <term>factor</term>.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <p>
+          The expression <m>4(x+y)z</m> is the result of multiplying expressions together, so is called a product.
+          The three factors in this product are <m>4</m>, <m>x+y</m>, and <m>z</m>.
+      </p>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>2a(b+c)(d+e)</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+        </p>
+      </statement> 
+      <solution>
+        <p>
+          The expression <m>2a(b+c)(d+e)</m> is a product.
+          The three factors in this product are <m>2a</m>, <m>(b+c)</m>, and <m>(d+e)</m>.
+        </p> 
+      </solution> 
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>4x^2 + 3y - 7\div z</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+        </p>
+      </statement> 
+      <solution>
+        <p>
+          The expression <m>4x^2 + 3y - 7\div z</m> is a sum.
+          The three terms in this sum are <m>4x^2</m>, <m>3y</m>, and <m>7\div z</m>.
+        </p> 
+      </solution> 
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>(a+b)^2 - (c+d)^2</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+        </p>
+      </statement> 
+      <solution>
+        <p>
+          The expression <m>(a+b)^2 - (c+d)^2</m> is a sum.
+          The two terms in this sum are <m>(a+b)^2</m> and <m>(c+d)^2</m>.
+        </p> 
+      </solution> 
+    </example>
 
   </subsection>
+
+
+	<subsection>
+		<title>Pictures</title>
+
+    <p>
+      In algebra, we will often use pictures to represent expressions.
+      This is a powerful way to think about expressions, and it is important to be able to translate between pictures and expressions.
+      This may be new to you, but I encourage you to give it a try!
+      Practicing this now will make future concepts go smoother!
+    </p>
+
+    <assemblage permid="geometric-addition">
+      <title>Representing Addition Geometrically</title>
+      <p>
+        Suppose <m>a</m> and <m>b</m> are positive real numbers.
+        Then <m>a+b</m> is geometrically represented by the length of the stick made by 
+        gluing a stick of length <m>a</m> to a stick of length <m>b</m> .        
+
+        <figure xml:id="fig-a-plus-b">
+          <caption>A picture of <m>a+b</m></caption>
+          <image width="50%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0);
+                  \fill[black] (0,0) circle (2pt);
+                  \fill[black] (3,0) circle (2pt);
+                  \node at (1.5,-0.3) {$a$};
+
+                  \draw[thick] (3.2,0) -- (5.2,0);
+                  \fill[black] (3.2,0) circle (2pt);
+                  \fill[black] (5.2,0) circle (2pt);
+                  \node at (4.2,-0.3) {$b$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+      </p>
+    </assemblage>
+
+  <p>
+    We have drawn the sticks slightly separated so that we can see them individually, but in reality we should imagine them pushed together.
+    In the drawing, I made the choice to represent <m>a</m> as a slightly larger number than <m>b</m>.
+    In addition, I chose to draw the stick representing <m>a</m> on the left and the stick representing <m>b</m> on the right because in the expression
+    <m>a+b</m>, the <m>a</m> appears to the left of the plus sign, while the <m>b</m> appears to the right of the plus sign.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Represent <m>3+4</m> geometrically.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <figure>
+          <caption>A picture of <m>3+4</m></caption>
+          <image width="65%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0);
+                  \fill[black] (0,0) circle (2pt);
+                  \fill[black] (3,0) circle (2pt);
+                  \node at (1.5,-0.3) {$3$};
+
+                  \draw[thick] (3.2,0) -- (7.2,0);
+                  \fill[black] (3.2,0) circle (2pt);
+                  \fill[black] (7.2,0) circle (2pt);
+                  \node at (5.2,-0.3) {$4$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>        
+      </p>
+    </solution>  
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Represent <m>2+0.5</m> geometrically.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <figure>
+          <caption>A picture of <m>2+0.5</m></caption>
+          <image width="30%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (2,0);
+                  \fill[black] (0,0) circle (2pt);
+                  \fill[black] (2,0) circle (2pt);
+                  \node at (1,-0.3) {$2$};
+
+                  \draw[thick] (2.2,0) -- (2.7,0);
+                  \fill[black] (2.2,0) circle (2pt);
+                  \fill[black] (2.7,0) circle (2pt);
+                  \node at (2.45,-0.3) {$0.5$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>        
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Represent <m>x+2</m> geometrically.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <figure>
+          <caption>A picture of <m>x+2</m></caption>
+          <image width="50%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0);
+                  \fill[black] (0,0) circle (2pt);
+                  \fill[black] (3,0) circle (2pt);
+                  \node at (1.5,-0.3) {$x$};  
+                  \draw[thick] (3.2,0) -- (5.2,0);
+                  \fill[black] (3.2,0) circle (2pt);
+                  \fill[black] (5.2,0) circle (2pt);
+                  \node at (4.2,-0.3) {$2$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>        
+      </p>
+    </solution> 
+  </example>
+
+  We can apply the geometric representation of addition to learn several important algebra facts about addition.
+  <assemblage permid="commutative-property-addition">
+    <title>Commutative Property of Addition</title>
+    <p>
+      <m>a+b = b+a</m>
+    </p>
+  </assemblage>
+
+  <example>
+    <statement>
+    <p>
+      Give a geometric explanation of why <m>a+b = b+a</m> is true.
+    </p>
+    </statement>
+    <solution>
+    <p>
+      To see why this is true, we can represent both sides of the equation geometrically.
+      <figure>
+        <caption>A picture of <m>a+b</m> and <m>b+a</m></caption>
+        <image width="50%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[thick] (0,0) -- (3,0);
+                \fill[black] (0,0) circle (2pt);
+                \fill[black] (3,0) circle (2pt);
+                \node at (1.5,-0.3) {$a$};
+                \draw[thick] (3.2,0) -- (5.2,0);
+                \fill[black] (3.2,0) circle (2pt);
+                \fill[black] (5.2,0) circle (2pt);
+                \node at (4.2,-0.3) {$b$};
+
+                \draw[thick] (0,-1) -- (2,-1);
+                \fill[black] (0,-1) circle (2pt);
+                \fill[black] (2,-1) circle (2pt);
+                \node at (1,-1.3) {$b$};
+                \draw[thick] (2.2,-1) -- (5.2,-1);
+                \fill[black] (2.2,-1) circle (2pt);
+                \fill[black] (5.2,-1) circle (2pt);
+                \node at (3.7,-1.3) {$a$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      The left side, <m>a+b</m>, is represented by a stick of length <m>a</m> glued to a stick of length <m>b</m>.
+      The right side, <m>b+a</m>, is represented by a stick of length <m>b</m> glued to a stick of length <m>a</m>.
+      In both cases, the resulting stick has the same length, so the two expressions are equal.
+    </p>
+  </solution>
+  </example>
+
+  <p>
+    In the Commutative Property of Addition <m>a+b = b+a</m>, 
+    we can substitute any expression we want for the <m>a</m> and any expression we want for the <m>b</m>.
+    If we can for a moment explain what the Commutative Property of Addition is saying informally,
+    the result of <q>this</q> plus <q>that</q> is the same as <q>that</q> plus <q>this</q>.
+    In other words, it is saying that when we add two things together, the order in which we add them doesn't matter.
+    For example the Commutative Property of Addition tells us that <m>x^7 + 31y</m> is equal to <m>31y + x^7</m>.
+  </p>
+
+
+
+  <assemblage permid="associative-property-addition">
+    <title>Associative Property of Addition</title>
+    <p>
+      <m>(a+b)+c = a+(b+c)</m>
+    </p>
+  </assemblage>
+  <example>
+    <statement>
+    <p>
+      Give a geometric explanation of why <m>(a+b)+c = a+(b+c)</m> is true.
+    </p>
+    </statement>
+    <solution>
+    <p>
+      To see why this is true, we can represent both sides of the equation geometrically.
+      <figure>
+        <caption>A picture of <m>(a+b)+c</m> and <m>a+(b+c)</m></caption>
+        <image width="70%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[thick] (0,0) -- (3,0);
+                \fill[black] (0,0) circle (2pt);
+                \fill[black] (3,0) circle (2pt);
+                \node at (1.5,-0.3) {$a$};
+                \draw[thick] (3.2,0) -- (5.2,0);
+                \fill[black] (3.2,0) circle (2pt);
+                \fill[black] (5.2,0) circle (2pt);
+                \node at (4.2,-0.3) {$b$};
+                \draw[thick] (5.4,0) -- (7.4,0);
+                \fill[black] (5.4,0) circle (2pt);
+                \fill[black] (7.4,0) circle (2pt);
+                \node at (6.4,-0.3) {$c$};
+
+                \draw[thick] (0,-1) -- (3,-1);
+                \fill[black] (0,-1) circle (2pt);
+                \fill[black] (3,-1) circle (2pt);
+                \node at (1.5,-1.3) {$a$};
+                \draw[thick] (3.2,-1) -- (5.2,-1);
+                \fill[black] (3.2,-1) circle (2pt);
+                \fill[black] (5.2,-1) circle (2pt);
+                \node at (4.2,-1.3) {$b$};
+                \draw[thick] (5.4,-1) -- (7.4,-1);
+                \fill[black] (5.4,-1) circle (2pt);
+                \fill[black] (7.4,-1) circle (2pt);
+                \node at (6.4,-1.3) {$c$};
+
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      The left side, <m>(a+b)+c</m>, is represented by a stick of length <m>a</m> glued to a stick of length <m>b</m>, 
+      and then this resulting stick is glued to a stick of length <m>c</m>.
+      The right side, <m>a+(b+c)</m>, is represented by a stick of length <m>b</m> glued to a stick of length <m>c</m>, 
+      and then this resulting stick is glued to a stick of length <m>a</m>.
+      (What the drawing doesn't indicate is the order of the gluing, so we need to clarify this with words: 
+      in the first diagram the stick of length <m>a</m> is glued to the stick of length <m>b</m> first,
+      but in the second diagram the stick of length <m>b</m> is glued to the stick of length <m>c</m> first.
+      If doing a hand drawing arrows can be drawn with labels like <q>glue here first</q> and <q>glue here next</q>.)
+      In both cases, the resulting stick has the same length, so the two expressions are equal.
+    </p>
+  </solution>
+  </example>
+
+  <p>
+    Having the Commutative Property of Addition and the Associative Property of Addition together basically tells us that 
+    when the expression we have is a sum, we can rearrange the terms in any order we want and simplify the addition of any terms in any order we want.
+    For example <m>5a + 3b - 7c + 12d^8</m> is equal to <m>12d^8 - 7c + 5a + 3b</m> and is also equal to <m> - 7c + 3b+ 12d^8 + 5a</m>.
+    When rearranging, be sure that any minus sign that was in front of a term stays in front of that term.
+  </p>
+
+    <assemblage permid="geometric-multiplication">
+      <title>Representing Multiplication Geometrically</title>
+      <p>
+        Suppose <m>a</m> and <m>b</m> are positive real numbers.
+        Then <m>a \cdot b</m> is geometrically represented by the area of a rectangle with height <m>a</m> and width <m>b</m> .        
+
+        <figure xml:id="fig-a-times-b">
+          <caption>The area of the rectangle is a picture of <m>a \cdot b</m></caption>
+          <image width="50%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0) -- (3,2) -- (0,2) -- cycle;
+                  \node at (-.3,1) {$a$};
+                  \node at (1.5,-0.3) {$b$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+      </p>
+    </assemblage>
+
+  <p>
+    We will draw with the convention that the factor before the muliplication symbol is the height of the rectangle and the factor after the multiplication symbol is the width.
+    In the drawing, I made the choice to represent <m>a</m> as a slightly smaller number than <m>b</m>.
+  </p>
+
+
+
+
+  <p>rectangles</p>
+
+  <p>distribution, what distribution is NOT</p>
+
+  <p>factoring as undoing the distributive law</p>
+
+  <p>like terms</p>
+
+
+  
+
+
+  </subsection>
+
 
 	<subsection>
 		<title>Summary</title>

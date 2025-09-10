@@ -11,6 +11,6 @@
 
 		<!-- <xi:include href="./ch_logic.ptx" /> -->
 
-		<xi:include href="./backmatter.ptx" />
+		<!-- <xi:include href="./backmatter.ptx" /> -->
 	</book>
 </pretext>
