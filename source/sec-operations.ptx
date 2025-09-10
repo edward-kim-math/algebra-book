@@ -44,17 +44,249 @@
   </p>
 
 	<subsection>
-		<title>Pictures and Language</title>
+		<title>Order of Operations</title>
 
-    <p>sticks, rectangles, terms, factors</p>
+    <p>
+    We will take a little time to make sure that everyone is on the same page regarding the Order of Operations.
+    Before we go any further, we should describe what we mean by an expression.
+    </p>
+
+    <definition xml:id="def-expression">
+      <statement>
+        <p>
+          An <term>expression</term> is mathematical notation representing a number.
+        </p>
+      </statement>
+    </definition>
+    <aside>
+      <p>
+      An expression may consist of just a single constant such as <m>3</m> or <m>\frac{4}{7}</m>, 
+      or can be a variable representing a number such as <m>x</m> or <m>y</m>, 
+      or can be a combination of constants and variables connected by operations such as 
+      addition, subtraction, multiplication, division, and exponentiation.
+      </p>
+    </aside>
+
+    <example>
+      <p>
+      Both <m>-40</m> and <m>\sqrt{23}</m> are examples of expressions. Both of these expressions are <em>constants</em>.
+      </p>
+    </example>
+
+    <example>
+      <p>
+      Both <m>9x-8</m> and <m>x^2+3x+31</m> are examples of expressions which mention the variable <m>x</m>.
+      In the first expression, the variable <m>x</m> is written once.
+      In the second expression, the variable <m>x</m> is written twice.
+      </p>
+    </example>
+
+    <example>
+      <p>
+      The expression <m>x^2+2x+y^2-6y</m> mentions two variables.
+      </p>
+    </example>
+
+    <p>
+    Please note that an expression does not contain an equal sign. For example, <m>x^2+2x+y^2-6y=22</m> is not an expression.
+    The notation that we just wrote instead states that one exrpession is equal to another expression.
+    </p>
+
+    <p>
+    We need the Order of Operations because this it is easy to misinterpret an expression if we do not all agree on how to read expressions.
+    The Order of Operations is a set of rules that tells us the order in which to evaluate (and more generally read) an expression. 
+    </p>
+
+    <definition xml:id="def-order-of-operations">
+      <statement>
+        <p>
+          An expression must always be simplified and read by following the <term>Order of Operations</term>:
+          <ol>
+            <li>Parentheses</li>
+            <li>Exponents</li>
+            <li>Multiplication and Division (from left to right)</li>
+            <li>Addition and Subtraction (from left to right)</li>
+          </ol>
+        </p>
+      </statement>
+    </definition>
+
+    <remark>
+      <p>
+      By the time we get to the third part of the Order of Operations, all exponents would have been evaluated.
+      At this point, we look for any multiplication or division.
+      If there is both multiplication and division, we evaluate them from left to right.
+      It is not true that multiplication must be done before division.
+      All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.
+      </p>
+    </remark>
+
+    <remark>
+      <p>
+      Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled.
+      That means that what remains of our expressions should only have addition and subtraction operations remaining.
+      These should be handled from left to right.
+      </p>
+    </remark>
+
+    <remark>
+      <p>
+      The Order of Operations is sometimes remembered by the acronym PEMDAS, which stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.
+      </p>
+
+      <p>
+      Because of the way that PEMDAS is often taught, many people mistakenly believe that multiplication must be done before division, and addition must be done before subtraction.
+      This is not true.
+      For this reason, some people prefer the acronym GEMA, which stands for Grouping symbols, Exponents, Multiplication and Division, Addition and Subtraction.
+      In the acronym GEMA, the <q>G</q> is used to indicate that there are many kinds of grouping symbols, not just parentheses.
+      Also, the multiplication and division are addressed together in the <q>M</q>, and addition and subtraction are addressed together in the <q>A</q>.
+      </p>
+    </remark>        
+
+    <example xml:id="ex-expression-simplify">
+      <statement>
+        <p>
+          Simplify the expression <m>5^2 - 30 \div 3 + 2 \cdot 6</m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+        We will simplify the expression by following the Order of Operations.
+        First, notice that there are no parentheses, so we move on to the next part of the Order of Operations.
+        There is a place where the expression has exponens, so we zoom in on <m>5^2</m> and simplify this portion of the expression to <m>25</m>.
+        So, the expression given to us becomes <m>25 - 30 \div 3 + 2 \cdot 6</m>.
+        </p>
+
+        <p>
+        Now there is no more exponents.
+        Next, we look for any multiplication or division.
+        We see both multiplication and division, so we evaluate them from left to right.
+        The left-most multplication or division we see is the division <m>30 \div 3</m>, which simplifies to <m>10</m>.
+        This gives us the expression <m>25 - 10 + 2 \cdot 6</m>.
+        Continuing to scan from left to right for any multiplications or divisions, we see the multiplication <m>2 \cdot 6</m>, which simplifies to <m>12</m>.
+        This gives us the expression <m>25 - 10 + 12</m>.
+        </p>
+
+        <p>
+        Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left.
+        The left-most addition or subtraction we see is the subtraction <m>25 - 10</m>, which simplifies to <m>15</m>.
+        This gives us the expression <m>15 + 12</m>.
+        Continuing to scan from left to right for any additions or subtractions, we see the addition <m>15 + 12</m>, which simplifies to <m>27</m>.
+        </p>
+
+        <p>
+        Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step.
+        To present our work, we start from the original expression and after writing an equal sign 
+        (to indicate that what we will write next is equal) write a simplified version of the expression.
+        We continue this process until we reach the final simplified expression. For this example, we have
+        <m>5^2 - 30 \div 3 + 2 \cdot 6 = 25 - 30 \div 3 + 2 \cdot 6 = 25 - 10 + 2 \cdot 6 = 25 - 10 + 12 = 15 + 12 = 27</m>.
+        </p>
+
+        <p>
+        It is also acceptable to write each expressions on their own lines, as follows:
+        <md>
+        <mrow>5^2 - 30 \div 3 + 2 \cdot 6 \amp = 25 - 30 \div 3 + 2 \cdot 6</mrow>
+        <mrow>\amp = 25 - 10 + 2 \cdot 6</mrow>
+        <mrow>\amp = 25 - 10 + 12</mrow>
+        <mrow>\amp = 15 + 12</mrow>
+        <mrow>\amp = 27</mrow> 
+        </md>
+        Note that when presenting our work <em>vertically</em> we still include the equal signs to indicate 
+        that each expression is equal to the previous expression.
+        </p>
+      </solution>
+    </example>
+
+    <remark>
+      <p>
+      When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.
+      </p>
+    </remark>
+    <remark>
+      <p>
+      While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.
+      </p>
+    </remark>
+
+    <example>
+      <statement>
+        <p>
+          Simplify the expression <m>3 \cdot (6 - 4)^2 \div 2</m>.
+        </p>
+      </statement>
+      <solution>
+          <p>
+          We can present our work horizontally, continuing to always write to the right of an equal sign like this <m>3 \cdot (6 - 4)^2 \div 2 = 3 \cdot 2^2 \div 2 = 3 \cdot 4 \div 2 = 12 \div 2 = 6</m>.
+          </p>
+      </solution>
+      <solution>
+          <p>
+          We can instead present our work vertically
+          <md>
+          <mrow>3 \cdot (6 - 4)^2 \div 2 \amp = 3 \cdot 2^2 \div 2</mrow>
+          <mrow>\amp = 3 \cdot 4 \div 2</mrow>
+          <mrow>\amp = 12 \div 2</mrow>
+          <mrow>\amp = 6</mrow> 
+          </md>
+          </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify the expression <m>200 - 4^2 \div 8 \times 5 + 6</m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          We can present our work horizontally, always writing to the right of the equal sign like this:
+          <m>
+          200 - 4^2 \div 8 \times 5 + 6 
+          = 200 - 16 \div 8 \times 5 + 6 
+          = 200 - 2 \times 5 + 6 
+          = 200 - 10 + 6 
+          = 190 + 6 
+          = 196
+          </m>.
+        </p>
+      </solution>
+
+      <solution>
+        <p>
+          We can instead present our work vertically:
+          <md>
+            <mrow>200 - 4^2 \div 8 \times 5 + 6 \amp = 200 - 16 \div 8 \times 5 + 6</mrow>
+            <mrow>\amp = 200 - 2 \times 5 + 6</mrow>
+            <mrow>\amp = 200 - 10 + 6</mrow>
+            <mrow>\amp = 190 + 6</mrow>
+            <mrow>\amp = 196</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+
+
+
+
+    <p>
+    It is important for us to apply the Order of Operations not <em>only</em> to simplify expressions that contain only constants,
+    but to also apply the Order of Operations when to interpret expressions that contain variables.
+    </p>
+
+    <p>Sequencing the operations in a given expression</p>
+
+    <p>Using only the OOO, the expressions are equal or it cannot be determined based on </p>
 
   </subsection>
 
 
 	<subsection>
-		<title>Order of Operations</title>
+		<title>Pictures and Language</title>
 
-    <p>Sequencing the operations in a given expression</p>
+    <p>sticks, rectangles, terms, factors</p>
 
   </subsection>
 
