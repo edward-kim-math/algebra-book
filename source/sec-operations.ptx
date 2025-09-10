@@ -97,19 +97,20 @@
     The Order of Operations is a set of rules that tells us the order in which to evaluate (and more generally read) an expression. 
     </p>
 
-    <definition xml:id="def-order-of-operations">
-      <statement>
-        <p>
-          An expression must always be simplified and read by following the <term>Order of Operations</term>:
-          <ol>
-            <li>Parentheses</li>
-            <li>Exponents</li>
-            <li>Multiplication and Division (from left to right)</li>
-            <li>Addition and Subtraction (from left to right)</li>
-          </ol>
-        </p>
-      </statement>
-    </definition>
+
+    <assemblage permid="order-of-operations">
+      <title>Order of Operations</title>
+      <p>
+        An expression must always be simplified and read by following the <term>Order of Operations</term>:
+        <ol>
+          <li>Parentheses</li>
+          <li>Exponents</li>
+          <li>Multiplication and Division (from left to right)</li>
+          <li>Addition and Subtraction (from left to right)</li>
+        </ol>
+      In addition, every time you write an expression, ensure your writing is based on the Order of Operations.
+      </p>
+    </assemblage>
 
     <remark>
       <p>
@@ -268,17 +269,319 @@
       </solution>
     </example>
 
+  </subsection>
 
 
+	<subsection>
+		<title>Order of Operations with variables</title>
 
     <p>
     It is important for us to apply the Order of Operations not <em>only</em> to simplify expressions that contain only constants,
     but to also apply the Order of Operations when to interpret expressions that contain variables.
+    This is important because one of the main contributions of algebra over arithmetic is to use variables to represent numbers that we do not know yet.
+    So even when expressions contain variables, we still must read and write based on the Order of Operations.
+    Doing this might feel new and totally weird, but let's explain how it's done and walk through examples together.
     </p>
 
-    <p>Sequencing the operations in a given expression</p>
+    <assemblage permid="order-of-operations-variables">
+      <title>How to apply Order of Operations to expressions with variables</title>
+      <p>
+        Given an expression:
+        <ol>
+          <li>Identify each operation that is written in the given expression.</li>
+          <li>Apply the Order of Operations to identify in which order the operations <em>would</em> be performed.</li>
+        </ol>
+        Instead of simplifying an expression, we would hypothetically perform the operations.
+      </p>
+    </assemblage>
 
-    <p>Using only the OOO, the expressions are equal or it cannot be determined based on </p>
+    <example xml:id="ex-expression-simplify-variables">
+      <statement>
+        <p>
+          What order are the operations performed in the expression <m>z^3 - xy</m>?
+        </p>
+      </statement>
+      <solution>
+        <p>
+        The expression <m>z^3 - xy</m> has three operations.
+        Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication.
+        When there is no symbol written between two variables, there is a hidden multiplication sign.
+        In fact, to make it clearer, we can rewrite the expression as <m>z^3 - x \cdot y</m>.
+        </p>
+        <p>
+        Now that we have identified which operations are present in this expression (in this example, three of them) 
+        we will apply the Order of Operations to determine in which order these operations would be performed.
+
+        <ul>
+          <li>
+          Since there are no parentheses in our expression, the first operation that we would perform is the exponentiation.
+          That is, if we knew the value of <m>z</m>, then we would first simplify <m>z^3</m>.</li>
+          <li>Next, we would perform the multiplication <m>x \cdot y</m>. In other words, if we knew the value of <m>x</m> and we knew the value of <m>y</m>, then our work in this second step would be to simplify, and we'd have <m>xy</m>, <q>whatever the value of that is</q></li>
+          <li>Finally, we would perform the subtraction: we would take whatever the value of <m>z^3</m> and subtract from this whatever the vaule of <m>x \cdot y</m> is to get <m>z^3 - (x \cdot y)</m>.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      Notice that we never simplified the expression <m>z^3 - xy</m> or any part of this expression.
+      We couldn't, because we did not know the numerical value of any of the variables.
+      It seems like what we're doing is lazy, but I want to spin this into something positive.
+      I encourage you to think of it this way: since we don't have the numbers behind the variables, we <em>get</em> to be lazy!
+    </p>
+
+    <p>
+      To perform this kind of analysis, it is helpful to say phrases like <q>whatever the value of <em>that</em> is</q>.
+      We are discussing in which order we would <em>hypothetically</em> perform the operations, if we knew the values of the variables. 
+      It seems like what we're doing is a bit silly, but it is important to practice this way of thinking.
+      It is rare that I'll encourage the following, but I encourage you to say out loud the full text of the next several examples, 
+      pausing right before any phrase that looks similar to <q>whatever the value of <em>that</em> is</q> 
+      when this kind of phrase appears right after an expression followed by a comma.      
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          What order are the operations performed in the expression <m>(a+b) \cdot c^6</m>?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation.
+          In addition, a part of the expression is contained inside parentheses.
+        </p>
+        <p>
+
+        <ul>
+          <li>Since <m>a+b</m> is in parentheses, we would perform the addition first. So, if we hypothetically knew the values of <m>a</m> and <m>b</m>, we'd replace this with the value of <m>a+b</m>, whatever value that is.</li>
+          <li>After this, there would be no parentheses. Since all that would be left is a multiplication and an exponentiation, we would perform the exponentiation. We would take whatever the value of <m>c</m> is and raise this value to the <m>6</m>th power. This would give us <m>c^6</m>, whatever the value of <em>that</em> is.</li>
+          <li>Finally, we'd take whatever the value of <m>(a+b)</m> is and whatever the value of <m>c^6</m> is and multiply these values together.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      Notice that we never simplified the expression <m>(a+b) \cdot c^6</m> or any part of this expression.
+      This process may feel weird to you because you may never have been asked about analyzing expressions in this way.
+      Digging into the careful details of how to analyze an expression like this often gets overlooked but this next-level type of problem
+      in applynig the Order of Operations sets up an important foundation for reading and writing expressions in algebra correctly.
+      It's weird because it's new, but it's important because algebra enhances arithmetic by having variables, 
+      so I want you to be comfortable with reading and writing expressions with variables.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          What order are the operations performed in the expression <m>a(b-c)^4+7d</m>?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To make it clearer where the operations are, let's rewrite the expression as <m>a \cdot (b-c)^4 + 7 \cdot d</m>.
+        </p>
+        <p>
+        <ul>
+          <li>Since <m>b-c</m> is in parentheses, we would perform this subtraction first.</li>
+          <li>Next, there would be no more parentheses, so we would perform the exponentiation: we would take <m>(b-c)</m>, 
+          whatever the value of <m>(b-c)</m> is, and raise this to the <m>4</m>th power. 
+          Thus, we'd have whatever the value of <m>(b-c)^4</m> is.</li>
+          <li>Next, we would perform the multiplication <m>a \cdot (b-c)^4</m>. 
+          That is, if we knew the value of <m>a</m> we would multiply this by the value of value of <m>(b-c)^4</m> from the previous step, 
+          which would give us <m>a \cdot (b-c)^4</m>, <q>whatever the value of that is</q>.</li>
+          <li>Then, we would perform the multiplication <m>7 \cdot d</m>. 
+          That is, if we knew the value of <m>d</m>, we would simplify <m>7 \cdot d</m>.</li>
+          <li>Finally, we would perform the addition: we would take whatever the value of <m>a \cdot (b-c)^4</m> is 
+          and add to this whatever the value of <m>7 \cdot d</m> is.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      The activity we just went through leads up to the following new type of activity.
+      We will be given two expressions which will only differ from each other in the inclusion or removal of a set of parentheses.
+      Then, we will determine if the two expressions are equal, or if we don't know based only on the Order of Operations.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>x-(y \cdot z)</m> and <m>x - y \cdot z</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>x-(y \cdot z)</m>, 
+              we perform the multiplication <m>y \cdot z</m> first because the multiplication is in parentheses. 
+              Then we perform the subtraction of <m>x</m> and <m>y \cdot z</m> to get <m>x - (y \cdot z)</m>.
+            </li>
+            <li>
+              In the second expression <m>x - y \cdot z</m>, there are no parentheses.
+              We perform the multiplication <m>y \cdot z</m> first.
+              Then we perform the subtraction of <m>x</m> and <m>y \cdot z</m> to get <m>x - y \cdot z</m>.
+            </li>
+          </ul>
+        In both expressions, we perform the multiplication <m>y \cdot z</m> first, and then we perform the subtraction of <m>x</m> and <m>y \cdot z</m> next.
+        Based only on the Order of Operations, the two expressions are equal.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>(a+b) \cdot c^6</m> and <m>a + b \cdot c^6</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>(a+b) \cdot c^6</m>, 
+              we perform the addition <m>a+b</m> first because the the content is in parentheses.
+              We do exponentiation next to get <m>c^6</m>. 
+              Our final operation is the multiplication of the value of <m>a+b</m> and the value of <m>c^6</m>.
+            </li>
+            <li>
+              In the second expression <m>a + b \cdot c^6</m>, 
+              we perform the exponentiation first to get the value of <m>c^6</m>.
+              Next, we perform the multiplication of <m>b</m> and <m>c^6</m>.
+              Finally, we perform the addition of <m>a</m> and <m>b \cdot c^6</m>.
+            </li>
+          </ul>
+        In the first expression, we perform the addition first, then the exponentiation, and finally the multiplication. 
+        In the second expression, we perform the exponentiation first, then the multiplication, and finally the addition. 
+        Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
+        (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations.
+        If these expressions happened to be equal, this would have to be explained by something <em>other</em> than the Order of Operations.)   
+        </p>
+      </solution> 
+    </example> 
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>a + b \cdot c - d</m> and <m>a + (b \cdot c) - d</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>a + b \cdot c - d</m>, 
+              we perform the multiplication <m>b \cdot c</m> first.
+              Then, we perform the addition of <m>a</m> and the value of <m>b \cdot c</m>.
+              Finally, we perform the subtraction of the value of <m>a + b \cdot c</m> and <m>d</m>.
+            </li>
+            <li>
+              In the second expression <m>a + (b \cdot c) - d</m>, 
+              we perform the multiplication <m>b \cdot c</m> first because this is in parentheses.
+              Then, we perform the addition of <m>a</m> and the value of <m>b \cdot c</m>.
+              Finally, we perform the subtraction of the value of <m>a + b \cdot c</m> and <m>d</m>.
+            </li>
+          </ul>
+        In both expressions, we perform the multiplication first, then the addition, and finally the subtraction.
+        Based only on the Order of Operations, the two expressions are equal.
+        </p>
+      </solution> 
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>a \div (b+c) \times 7</m> and <m>a \div b + c \times 7</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>a \div (b+c) \times 7</m>,
+              we perform the addition <m>b+c</m> first because the addition is in parentheses.
+              Next, we perform the division of <m>a</m> by the value of <m>b+c</m>.
+              Finally, we perform the multiplication of the value of <m>a \div (b+c)</m> and <m>7</m>.
+            </li>
+            <li>
+              In the second expression <m>a \div b + c \times 7</m>, 
+              we perform the division <m>a \div b</m> first.
+              Next, we perform the multiplication <m>c \times 7</m>.
+              Finally, we perform the addition of the value of <m>a \div b</m> and the value of <m>c \times 7</m>.
+            </li>
+          </ul>
+        In the first expression, we perform the addition first, then the division, and finally the multiplication.
+        In the second expression, we perform the division first, then the multiplication, and finally the addition.
+        Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>(w + x) \div (y + z)</m> and <m>w + x \div y + z</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>(w + x) \div (y + z)</m>, 
+              we perform the addition <m>w + x</m> first because this is in parentheses.
+              Next, we perform the addition <m>y + z</m> because this is in parentheses.
+              Finally, we perform the division of the value of <m>w + x</m> by the value of <m>y + z</m>.
+            </li>
+            <li>
+              In the second expression <m>w + x \div y + z</m>, 
+              we perform the division <m>x \div y</m> first.
+              Next, we perform the addition of <m>w</m> and the value of <m>x \div y</m>.
+              Finally, we perform the addition of the value of <m>w + x \div y</m> and <m>z</m>.
+            </li>
+          </ul>
+        In the first expression, we perform the addition <m>w + x</m> first, then the addition <m>y + z</m>, 
+        and finally do the division of whatever the value of <m>w+x</m> is by whatever the value of <m>y+z</m> is.
+        In the second expression, we perform the division first, then an addition, and finally another addition.
+        To be clear, in the first expression the value of <m>w+x</m> is divided by whatever the value of <m>y+z</m> is, 
+        and in the second expression the value of <m>x</m> is divided by whatever the value of <m>y</m> is.
+        Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
+        </p>  
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>a \cdot (b-c)^4+7 \cdot d</m> and <m>a \cdot b - c^4 + 7 \cdot d</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>a \cdot (b-c)^4+7 \cdot d</m>, 
+              we perform the subtraction <m>b-c</m> first because the subtraction is in parentheses.
+              Next, we perform the exponentiation to get <m>(b-c)^4</m>.
+              Then, we perform the multiplication of <m>a</m> and <m>(b-c)^4</m>.
+              Next, we perform the multiplication of <m>7</m> and <m>d</m> to get <m>7 \cdot d</m>.
+              Finally, we perform the addition of the value of <m>a(b-c)^4</m> and the value of <m>7 \cdot d</m>.
+            </li>
+            <li>
+              In the second expression <m>a \cdot b - c^4 + 7 \cdot d</m>, 
+              we perform the exponentiation first to get the value of <m>c^4</m>.
+              Next, we perform the multiplication of <m>a</m> and <m>b</m>.
+              Then, we perform the multiplication of <m>7</m> and <m>d</m>.
+              Finally, we perform the subtraction of the value of <m>a \cdot b</m> and the value of <m>c^4</m>, 
+              and then add to this whatever the value of <m>7 \cdot d</m> is.
+            </li>
+          </ul>
+        In the first expression, we perform the subtraction first, then the exponentiation, then two multiplications, and finally an addition.
+        In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition.
+        Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
+        </p>
+      </solution>
+    </example>
 
   </subsection>
 
@@ -290,21 +593,21 @@
 
   </subsection>
 
+	<subsection>
+		<title>Summary</title>
 
+    <p>text</p>
 
-  <p> Text of section. </p>
+  </subsection>
 
-  <p> Text of section. </p>
+	<subsection>
+		<title>Exercises</title>
 
-  <p> Text of section. </p>
+    <p>
+      Insert exercises here.  
+    </p>
 
-  <p> Text of section. </p>
-
-  <p> Text of section. </p>
-
-  <p> Text of section. </p>
-
-
+  </subsection>
 
 
 
