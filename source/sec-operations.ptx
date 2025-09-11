@@ -838,7 +838,10 @@
     </solution> 
   </example>
 
-  We can apply the geometric representation of addition to learn several important algebra facts about addition.
+  <p>
+    We can apply the geometric representation of addition to learn several important algebra facts about addition.
+  </p>
+
   <assemblage permid="commutative-property-addition">
     <title>Commutative Property of Addition</title>
     <p>
@@ -886,6 +889,7 @@
       The left side, <m>a+b</m>, is represented by a stick of length <m>a</m> glued to a stick of length <m>b</m>.
       The right side, <m>b+a</m>, is represented by a stick of length <m>b</m> glued to a stick of length <m>a</m>.
       In both cases, the resulting stick has the same length, so the two expressions are equal.
+      (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m>.)
     </p>
   </solution>
   </example>
@@ -962,6 +966,7 @@
       but in the second diagram the stick of length <m>b</m> is glued to the stick of length <m>c</m> first.
       If doing a hand drawing arrows can be drawn with labels like <q>glue here first</q> and <q>glue here next</q>.)
       In both cases, the resulting stick has the same length, so the two expressions are equal.
+      (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m> or <m>c</m>.)
     </p>
   </solution>
   </example>
@@ -1001,19 +1006,441 @@
     In the drawing, I made the choice to represent <m>a</m> as a slightly smaller number than <m>b</m>.
   </p>
 
+  <note>
+    <p>
+    What we're introducing regarding the geometric representation of multiplication is an idea that we've seen before in geometry:
+    we often write <m>A = \ell w</m> to represent the area <m>A</m> of a rectangle with length <m>\ell</m> and width <m>w</m>.
+    Here, we're just using <m>a</m> and <m>b</m> instead of <m>\ell</m> and <m>w</m> as the two factors.
+    </p>
+  </note>
 
+  <example>
+    <statement>
+      <p>
+        Represent <m>3 \cdot 4</m> geometrically.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <figure>
+          <caption>A picture of <m>3 \cdot 4</m></caption>
+          <image width="45%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (4,0) -- (4,3) -- (0,3) -- cycle;
+                  \node at (-.3,1.5) {$3$};
+                  \node at (2,-0.3) {$4$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>        
+      </p>
+    </solution>
+  </example>
 
+  <example>
+    <statement>
+      <p>
+        Represent <m>2 \cdot 0.5</m> geometrically.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <figure>
+          <caption>A picture of <m>2 \cdot 0.5</m></caption>
+          <image width="15%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (0.5,0) -- (0.5,2) -- (0,2) -- cycle;
+                  \node at (-.3,1) {$2$};
+                  \node at (0.25,-0.3) {$0.5$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>        
+      </p>
+    </solution>
+  </example>
 
-  <p>rectangles</p>
+  <p>
+    We can apply the geometric representation of addition to learn several important algebra facts about addition.
+  </p>
 
-  <p>distribution, what distribution is NOT</p>
+  <assemblage permid="commutative-property-multiplication">
+    <title>Commutative Property of Multiplication</title>
+    <p>
+      <m>ab = ba</m>
+    </p>
+  </assemblage>
 
-  <p>factoring as undoing the distributive law</p>
+  <example>
+    <statement>
+    <p>
+      Give a geometric explanation of why <m>ab = ba</m> is true.
+    </p>
+    </statement>
+    <solution>
+      <p>
+        To see why this is true, we can represent both sides of the equation geometrically.
+        <figure>
+          <caption>A picture of <m>ab</m> and <m>ba</m></caption>
+          <image width="50%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0) -- (3,2) -- (0,2) -- cycle;
+                  \node at (-.3,1) {$a$};
+                  \node at (1.5,-0.3) {$b$};
+                  \draw[thick] (5,0) -- (7,0) -- (7,3) -- (5,3) -- cycle;
+                  \node at (7.3,1.5) {$a$};
+                  \node at (6,-0.3) {$b$};
+                \end{tikzpicture}
+              ]]>>
+            </latex-image>
+          </image>
+        </figure>
+        The left side, <m>ab</m>, is represented by a rectangle with height <m>a</m> and width <m>b</m>.
+        The right side, <m>ba</m>, is represented by a rectangle with height <m>b</m> and width <m>a</m>.
+        Both rectangles have the same area, since we can get from one rectangle to the other by rotation.
+        Since the two areas are equal, the two expressions they represent, namely <m>ab</m> and <m>ba</m>, are equal.
+        (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m>.)
+      </p>
+    </solution>
+  </example>
 
-  <p>like terms</p>
-
-
+  <assemblage permid="associative-property-multiplication">
+    <title>Associative Property of Multiplication</title>
+    <p>
+      <m>(ab)c = a(bc)</m>
+    </p>
+  </assemblage>
   
+  <p>
+    We will skip the geometric explanation of the Associative Property of Multiplication, 
+    since we'd have to enhance our geometric interpretation of multiplication to include three factors.
+    If you're curious, try to think through how you might represent <m>(ab)c</m> and <m>a(bc)</m> geometrically.
+    As a hint, you'll need three-dimensional objects to do this.
+  </p>
+
+  <note>
+    <p>
+      I just want to take a moment to keep encouraging you to think about addition and multiplication geometrically.
+      It may be new and strange to you.
+      It may seem like a waste of time to you.
+      So far, it may just seem like a silly to give a geometric explanation of why certain facts (that might even feel obvious to you) are explained using geometry.
+      However, setting up this foundation will make several challenging concepts in the future become a lot easier to digest.
+    </p>
+  </note>
+
+  <assemblage>
+    <title>How do I prevent confusing the two geometric representations?</title>
+    <p>
+      The geometric representation of addition is the gluing together of sticks.
+      The geometric representation of multiplication is the area of a rectangle.
+    </p>
+    <p>
+      One technique to help recall which is which is to recall that a usual presentation of the area formula is <m>A = \ell w</m>.
+      Because this formula multiplies together two quantities (named <m>\ell</m> and <m>w</m>), we can remember that multiplication is represented by area.
+      Since addition is not represented by area, it must be represented by the other geometric idea we've seen, which is gluing sticks together.
+    </p>
+    <p>
+      Here's another techinque! Pick two numbers where the sum of the two numbers and the product of the two numbers is different.
+      What I mean is that we wouldn't want to pick <m>2</m> and <m>2</m>, since both the sum and the product are <m>4</m>.
+      <ol>
+        <li>If we pick <m>2</m> and <m>3</m>, we can ask ourselves what geometric object has some aspect of having size <m>5</m> and what geometric object has some aspect of having size <m>6</m>.
+          The object with size <m>5</m> is a stick of length <m>5</m>, which is the result of gluing together a stick of length <m>2</m> and a stick of length <m>3</m>.
+          The object with size <m>6</m> is a rectangle with area <m>6</m>, which is the result of multiplying together <m>2</m> and <m>3</m>.
+        </li>
+        <li>If we pick <m>4</m> and <m>7</m>, we can ask ourselves what geometric object has some aspect of having size <m>11</m> and what geometric object has some aspect of having size <m>28</m>.
+          The object with size <m>11</m> is a stick of length <m>11</m>, which is the result of gluing together a stick of length <m>4</m> and a stick of length <m>7</m>.
+          The object with size <m>28</m> is a rectangle with area <m>28</m>, which is the result of multiplying together <m>4</m> and <m>7</m>.
+        </li>
+      </ol>
+      You can pick any two numbers you want, as long as the sum and product are different
+    </p>
+  </assemblage>
+
+  <p>
+    We are now about to talk about an important algebra property that mentions both addition and multiplication.
+    When we look at the geometric representation, we will need both geometric representations: gluing together of sticks <em>and</em> area of rectangles will <em>both</em> appear.
+  </p>
+
+  <assemblage permid="distributive-multiplication-addition">
+    <title>Distributive Law, version 1</title>
+    <p>
+      <m>a(b+c)=ab+ac</m>
+    </p>
+  </assemblage>
+
+  <example>
+    <statement>
+    <p>
+      Give a geometric explanation of why <m>a(b+c)=ab+ac</m> is true.
+    </p>
+    </statement>
+    <solution>
+    <p>
+      To see why this is true, we can represent both sides of the equation geometrically.
+      <figure>
+        <caption>A picture of <m>a(b+c)</m> and <m>ab+ac</m></caption>
+        <image width="90%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[thick] (0,0) -- (5,0) -- (5,2) -- (0,2) -- cycle;
+                \draw[dashed] (3,0) -- (3,2);
+                \node at (-.3,1) {$a$};
+                \node at (1.5,-0.25) {$b$};
+                \node at (4,-0.25) {$c$};
+                \draw[<->] (0,-0.6) -- (5,-0.6);
+                \node at (2.5,-0.85) {$b+c$};
+                
+                \draw[thick] (7,0) -- (10,0) -- (10,2) -- (7,2) -- cycle;
+                \draw[thick] (10,0) -- (12,0) -- (12,2) -- (10,2) -- cycle;
+                \node at (6.7,1) {$a$};
+                \node at (8.5,-0.3) {$b$};
+                \node at (11,-0.3) {$c$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      Before digging in, let's note that in the diagram the left, we see a stick of length <m>b</m> glued to a stick of length <m>c</m>, making a stick of length <m>b+c</m>.
+      (This makes use of the geometric representation of addition.)
+      The left side, <m>a(b+c)</m>, is represented by a rectangle with height <m>a</m> and width <m>b+c</m>.
+      The right side, <m>ab+ac</m>, is represented by two rectangles: one with height <m>a</m> and width <m>b</m>, and the other with height <m>a</m> and width <m>c</m>.
+      The area of the big rectangle on the left is equal to the sum of the areas of the two rectangles on the right,
+      since we can get from the rectangle on the left to the two rectangles on the right by cutting the rectangle on the left vertically into two pieces.
+      Since the area of the big rectangle on the left is equal to the sum of the areas of the two rectangles on the right,
+      the two expressions they represent, namely <m>a(b+c)</m> and <m>ab+ac</m>, are equal.
+      (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m> or <m>c</m>.)
+    </p>
+  </solution>
+  </example>
+
+  <p>
+    In the Distributive Law <m>a(b+c)=ab+ac</m>, 
+    we can substitute any expression we want for the <m>a</m>, any expression we want for the <m>b</m>, and any expression we want for the <m>c</m>.
+    If we can for a moment explain what the Distributive Law is saying informally,
+    the result of <q>this</q> times the sum of <q>that</q> and <q>the other thing</q> is the same as <q>this</q> times <q>that</q> plus <q>this</q> times <q>the other thing</q>.
+    For example the Distributive Law tells us that <m>x(3y + 5)</m> is equal to <m>3xy + 5x</m>.
+  </p>
+
+  <note>
+    <p>
+      When you see <m>x(3y + 5)</m>, I encourage you to think about the Distributive Law as we wrote it <m>a(b+c)=ab+ac</m>, 
+      and relate the <m>a</m> and <m>b</m> and <m>c</m> in the formula
+      to the <m>x</m> and <m>3y</m> and <m>5</m> in the expression <m>x(3y + 5)</m>.
+    </p>
+    <p>
+      It is easy to dismiss this advice and just think
+      <q>What's the point of all this? I can just see that I should distribute <m>x</m>.</q>
+      However, it is important to see exactly what this Distributive Law <m>a(b+c)=ab+ac</m> is saying, and what it is <em>not</em> saying.
+      The left side <m>a(b+c)</m> addresses <em>only</em> an expression that has addition on the inside of the parentheses, and multiplication outside.
+      For example, the formula <m>a(b+c)=ab+ac</m> has <em>nothing</em> to say about the expression <m>j + (k \cdot \sqrt{m})</m>.
+      It would be tempting to look at <m>j + (k \cdot \sqrt{m})</m> and try to <q>distribute</q> the <m>j</m> somehow.
+      But when we read the left side of <m>a(b+c)=ab+ac</m> and we see that the left side says <m>a(b+c)</m>, we have to carefully note that addition is inside the parentheses with multiplication outside.
+      The problem with <m>j + (k \cdot \sqrt{m})</m> is that multiplication is inside the parentheses with the addition outside.
+      So the Distributive Law <m>a(b+c)=ab+ac</m> does not apply to <m>j + (k \cdot \sqrt{m})</m>.
+    </p>
+  </note>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>5(x + 2)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=5</m>, <m>b=x</m>, and <m>c=2</m>.
+        Then we have
+        <me>
+          5(x + 2) = 5 \cdot x + 5 \cdot 2 = 5x + 10.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>10(h^2 + t^3)</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=10</m>, <m>b=h^2</m>, and <m>c=t^3</m>.
+        Then we have
+        <me>
+          10(h^2 + t^3) = 10 \cdot h^2 + 10 \cdot t^3 = 10h^2 + 10t^3.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    In the example above, we informally say that we <q><term>distributed</term> 10</q>.
+    We can also turn an expression of the form <m>ab + ac</m> into an expression of the form <m>a(b+c)</m>.
+    This process is called <term>factoring</term>.
+    (Factoring is the reverse of the process of distributing.)
+  </p>
+
+  <assemblage permid="distributive-multiplication-subtraction">
+    <title>Distributive Law, version 2</title>
+    <p>
+      <m>a(b-c)=ab-ac</m>
+    </p>
+  </assemblage>
+
+  <p>
+    This version has subtraction inside the parentheses instead of addition inside the parentheses.
+    Since we didn't provide a geometric representation of subtraction, we won't provide a geometric explanation of why this version of the Distributive Law is true.
+    (However, for a mental challenge, we can use the first version of the Distributive Law to explain why this version is true.
+    We can think of <m>b-c</m> as <m>b+(-c)</m>, and then apply the first version of the Distributive Law.)
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>4(x - 3)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b-c)=ab-ac</m>, we can let <m>a=4</m>, <m>b=x</m>, and <m>c=3</m>.
+        Then we have
+        <me>
+          4(x - 3) = 4 \cdot x - 4 \cdot 3 = 4x - 12.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>30x - 42x^2</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b-c)=ab-ac</m>, we can let <m>a=6x</m>, <m>b=5</m>, and <m>c=7x</m>.
+        Then we have
+        <me>
+          30x - 42x^2 = 6x \cdot 5 - 6x \cdot 7x = 6x(5 - 7x).
+        </me>
+        The selection of <m>6x</m> occured by looking for the greatest common factor of <m>30x</m> and <m>42x^2</m>.
+      </p>
+    </solution>
+  </example>
+
+  <assemblage permid="distributive-addition-multiplication">
+    <title>Distributive Law, version 3</title>
+    <p>
+      <m>(b+c)a=ba+ca</m>
+    </p>
+  </assemblage>
+
+  <p>
+    This version has the multiplication on the right instead of the left.
+  </p> 
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Spend a few minutes providing the geometric explanation of why <m>(b+c)a=ba+ca</m> is true.
+          When doing this, remember we shouldn't select specific numbers for <m>a</m>, <m>b</m>, or <m>c</m>.          
+        </p>
+      </statement>
+      <response />
+    </exercise>
+
+  <assemblage permid="distributive-subtraction-multiplication">
+    <title>Distributive Law, version 4</title>
+    <p>
+      <m>(b-c)a=ba-ca</m>
+    </p>
+  </assemblage>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>7 - 14y</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>(b-c)a=ba-ca</m>, we can let <m>a=7</m>, <m>b=1</m>, and <m>c=2y</m>.
+        Then we have
+        <me>
+          7 - 14y = 1 \cdot 7 - 2y \cdot 7 = (1 - 2y)7.
+        </me>
+      </p>
+    </solution>
+  </example>  
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>13x + 7x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>(b+c)a=ba+ca</m>, we can let <m>a=x</m>, <m>b=13</m>, and <m>c=7</m>.
+        Then we have
+        <me>
+          13x + 7x = (13 + 7)x = 20x.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to rewrite <m>13x - 7x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>(b-c)a=ba-ca</m>, we can let <m>a=x</m>, <m>b=13</m>, and <m>c=7</m>.
+        Then we have
+        <me>
+          13x - 7x = (13 - 7)x = 6x.
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    The last two examples show that the process known as <term>collecting like terms</term> is actually justified by the Distributive Law.
+    In fact, the only reason why collecting like terms works at all is because of the Distributive Law!
+    Collecting like terms is actually factoring out the variable from several terms (though we often skip writing that <q>middle step</q> such as <m>(13-7)x</m> and just simplify the part that is in parentheses in our head.)
+  </p>
+
+  <note>
+    <p>
+      It may be tempting to ignore this comment about the connection between collecting like terms and the Distributive Law.
+      If we ignore the connection, it would be easy to see an expression like <m>3x + \sqrt{7}\,x</m> and feel stuck thinking
+      that we <q>can't</q> collect like terms.
+      However, if we remember that collecting like terms is actually factoring, then we can see that
+      <me>
+        3x + \sqrt{7}\,x = (3 + \sqrt{7})x.
+      </me>
+      In another example like <m>3x+5x=(3+5)x=8x</m> we very often skip writing the middle step <m>(3+5)x</m> 
+      and just directly go from <m>3x+5x</m> to <m>8x</m>.
+      However, it's good to remember that there is a middle step, and that middle step is justified by the Distributive Law.
+      Recalling this allows us to not get intimidated by expressions like <m>3x + \sqrt{7}\,x</m>.
+    </p>
+  </note>
+      
 
 
   </subsection>
@@ -1030,7 +1457,71 @@
 		<title>Exercises</title>
 
     <p>
-      Insert exercises here.  
+      <ol>
+
+        <li>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>Each expression below is a sum. State the terms.
+          <ol>
+            <li>State the terms of <m>3x + 5 + 71y</m></li>
+            <li>State the terms of <m>4 + 2m + 3x + r</m></li>
+            <li>State the terms of <m>7a^2 - 3b + 4c - 9</m></li>
+            <li>State the terms of <m>5x - 7y + 2z + 9 + w</m></li>
+          </ol>
+        </li>
+
+        <li>What term(s) do <m>3x + 5 + 71y</m> and <m>2m + 3x + r</m> have in common?</li>
+
+        <li>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+      </ol>
+    
     </p>
 
   </subsection>
