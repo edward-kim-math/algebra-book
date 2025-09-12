@@ -643,6 +643,11 @@
         </p>
       </statement>
     </definition>
+    <p>
+      Informally, a <em>sum</em> is an expression that has additions and/or subtractions as its last operations.
+      Consider using <q>mental scissors</q> to cut at each plus sign and at each minus sign.
+      Then each of the pieces that we have is called a <em>term</em>.
+    </p>
 
     <example>
       <p>
@@ -659,6 +664,12 @@
         </p>
       </statement>
     </definition>
+    <p>
+      Informally, a <em>product</em> is an expression that has multiplications as its last operations.
+      Consider using <q>mental scissors</q> to cut at each multiplication sign. 
+      (Before doing this, you may wish to draw in any hidden multiplication signs.)
+      Then each of the pieces that we have is called a <em>factor</em>.
+    </p>  
 
     <example>
       <p>
@@ -698,13 +709,13 @@
     <example>
       <statement>
         <p>
-          Is <m>(a+b)^2 - (c+d)^2</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+          Is <m>(a-b)^2 + (c+d)^2</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
         </p>
       </statement> 
       <solution>
         <p>
-          The expression <m>(a+b)^2 - (c+d)^2</m> is a sum.
-          The two terms in this sum are <m>(a+b)^2</m> and <m>(c+d)^2</m>.
+          The expression <m>(a-b)^2 + (c+d)^2</m> is a sum.
+          The two terms in this sum are <m>(a-b)^2</m> and <m>(c+d)^2</m>.
         </p> 
       </solution> 
     </example>
@@ -1479,7 +1490,7 @@
     <p>
       <ol>
 
-        <li>
+        <li>Write in your own words how each expression could be spoken aloud with clarity.
           <ol>
             <li></li>
             <li></li>
@@ -1489,7 +1500,47 @@
         </li>
 
 
-        <li>
+        <li>Simplify the following expressions.
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>In each expression below, identify which operation is performed first, which is performed next, and so on.
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>In each expression below, identify which operation is performed first.
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>In each expression below, identify which operation is performed last.
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+
+        <li>In each part below, you are given two expressions. Based only on the Order of Operations, are the two expressions equal or do we not have enough information?
           <ol>
             <li></li>
             <li></li>
@@ -1510,7 +1561,7 @@
 
         <li>What term(s) do <m>3x + 5 + 71y</m> and <m>2m + 3x + r</m> have in common?</li>
 
-        <li>
+        <li>Geometrically represent the following expressions.
           <ol>
             <li></li>
             <li></li>
@@ -1520,7 +1571,16 @@
         </li>
 
 
-        <li>
+        <li>For each geometric representation below, write an expression it represents. (Note, there is often more than one correct answer.)
+          <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ol>
+        </li>
+
+        <li>Factor each expression below.
           <ol>
             <li></li>
             <li></li>
@@ -1530,7 +1590,7 @@
         </li>
 
 
-        <li>
+        <li>Simplify each expression below two ways: once by applying the appropriate Distributive Law (showing all steps), and once by quickly collecting like terms.
           <ol>
             <li></li>
             <li></li>
@@ -1538,6 +1598,8 @@
             <li></li>
           </ol>
         </li>
+
+
 
 
       </ol>
