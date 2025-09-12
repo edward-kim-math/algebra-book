@@ -3,6 +3,22 @@
 <section xml:id="sec-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Operations</title>
 
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Simplify an expression using the Order of Operations.</p></li>
+			<li><p>Analyze a non-constant expression using the Order of Operations.</p></li>
+			<li><p>Describe expressions and their parts using the words sum, term, product, and factor.</p></li>
+			<li><p>Construct geometric representations of addition and multiplication.</p></li>
+			<li><p>Justify major algebraic formulas geometrically.</p></li>
+			<li><p>Connect collecting like terms to the Distributive Law.</p></li>
+		</ol>
+	</objectives>
+
   <p>
   Algebra provides a powerful way of solving many kinds of questions
   Algebra achieves this by enhancing arithmetic.
@@ -1449,8 +1465,12 @@
 	<subsection>
 		<title>Summary</title>
 
-    <p>text</p>
-
+    <p>Expressions with and without variables can be interpreted and analyzed using the Order of Operations, and expressions without variables can be simplified down to a single constant using the Order of Operations.
+    The result of adding and subtracting expressions called terms results in a sum, while the result of multiplying expression called factors results in a product.
+    The geometric representation of addition by gluing together sticks and the geometric representation of multiplication by the area of a rectangle 
+    can be used to justify major algebraic formulas, including the Distributive Law.
+    It is the Distributive Law which actually justifies the shortcut process known as collecting like terms.
+    </p>
   </subsection>
 
 	<subsection>
