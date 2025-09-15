@@ -1317,6 +1317,111 @@
     (Factoring is the reverse of the process of distributing.)
   </p>
 
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to factor <m>4c + 4d</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=4</m>, <m>b=c</m>, and <m>c=d</m>.
+        Then we have
+        <me>
+          4c + 4d = 4(c + d).
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to factor <m>12x^2 + 18x</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=6x</m>, <m>b=2x</m>, and <m>c=3</m>.
+        Then we have
+        <me>
+          12x^2 + 18x = 6x \cdot 2x + 6x \cdot 3 = 6x(2x + 3).
+        </me>
+        The selection of <m>6x</m> occured by looking for the greatest common factor of <m>12x^2</m> and <m>18x</m>.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to factor <m>15xy + 6y</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=3y</m>, <m>b=5x</m>, and <m>c=2</m>.
+        Then we have
+        <me>
+          15xy + 6y = 3y \cdot 5x + 3y \cdot 2 = 3y(5x + 2).
+        </me>
+        The selection of <m>3y</m> occured by looking for the greatest common factor of <m>15xy</m> and <m>6y</m>.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Use the Distributive Law to factor <m>9x + 9</m>. 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=9</m>, <m>b=x</m>, and <m>c=1</m>.
+        Then we have
+        <me>
+          9x + 9 = 9(x + 1).
+        </me>
+      </p>
+    </solution>
+  </example>
+
+  <warning>
+    <p>
+      When factoring <m>9x + 9</m> it is common to make the mistake of saying that this expression is equal to <m>9(x)</m> instead of <m>9(x + 1)</m>.
+      When we see <m>9x+9</m>, to successfully factor out a <m>9</m> we will write an expression in the format <m>9(? + ?)</m>, 
+      and the first question mark is filled in by asking <q>9 times <em>what</em> is the first term <m>9x</m></q>,
+      while the second question mark is filled in by asking <q>9 times <em>what</em> is the second term <m>9</m></q>.
+    </p>
+    <p>
+      To provide a little more convincing, you can always check your factoring by taking your answer and distributing.
+      Note that distributing in the expression <m>9(x+1)</m> gives us <m>9x+9</m>.
+    </p>
+  </warning>
+
+  <example>
+    <statement>
+      <p>
+        Factor the expression <m>71x + 71</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=71</m>, <m>b=x</m>, and <m>c=1</m>.
+        Then we have
+        <me>
+          71x + 71 = 71(x + 1).
+        </me>
+        As we factor out <m>71</m>, 
+        the reason that there is a <m>1</m> as the second term in parentheses is because this answers 
+        <q><m>71</m> times <em>what</em> equals the second term <m>71</m> in the original expression</q>,
+        which applies the same reasoning for why an <m>x</m> appears as the first term in parentheses because this answers
+        <q><m>71</m> times <em>what</em> equals the first term <m>71x</m> in the original expression</q>.
+      </p>
+    </solution>
+  </example>
+
   <assemblage permid="distributive-multiplication-subtraction">
     <title>Distributive Law, version 2</title>
     <p>
@@ -1365,6 +1470,7 @@
       </p>
     </solution>
   </example>
+
 
   <assemblage permid="distributive-addition-multiplication">
     <title>Distributive Law, version 3</title>
@@ -1467,7 +1573,7 @@
       Recalling this allows us to not get intimidated by expressions like <m>3x + \sqrt{7}\,x</m>.
     </p>
   </note>
-      
+
 
 
   </subsection>
@@ -1490,117 +1596,175 @@
     <p>
       <ol>
 
-        <li>Write in your own words how each expression could be spoken aloud with clarity.
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <li>
+          <p>Write in your own words how each expression could be spoken aloud with clarity.
+            <ol>
+              <li><m>8+a</m></li>
+              <li><m>8a</m></li>
+              <li><m>8^a</m></li>
+              <li><m>5x + 6^x</m></li>
+              <li><m>3^x - 3x</m></li>
+              <li><m>5(x+y)^2</m></li>
+              <li><m>5x+y^2</m></li>
+              <li><m>\frac{3}{a+b}</m></li>
+              <li><m>\frac{3}{a}+b</m></li>
+            </ol>
+          </p>
         </li>
 
 
-        <li>Simplify the following expressions.
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <li>
+          <p>Simplify the following expressions. Because there are no variables, each expression can be simplified based only on the Order of Operations.
+            Because the intention of this exercise is to practice the Order of Operations, 
+            avoid applying the Distributive Law, even if you are certain that the Distributive Law could be applied.
+            <ol>
+              <li><m>4(2+6)</m></li>
+              <li><m>4(2 \cdot 6)</m></li>
+              <li><m>4 - (3+5 \cdot 2) + 1</m></li>
+              <li><m>6 - 2^3</m></li>
+              <li><m>1-2-3-4-5-6</m></li>
+              <li><m>(2 \cdot 3)^3</m></li>
+              <li><m>100-2 \cdot 3 \times 4</m></li>
+              <li><m>5(4+3)^2</m></li>
+              <li><m>10 \div 2 + 3 \cdot 4</m></li>
+              <li><m>9 - 2 \times 3 + 5 \times 10</m></li>
+              <li><m>20 - 12 \div 4 + 2 \times 5</m></li>
+              <li><m>7^2 - 3(4+1) + 10 \cdot 9</m></li>
+            </ol>
+          </p>
         </li>
 
 
-        <li>In each expression below, identify which operation is performed first, which is performed next, and so on.
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <li>
+          <p>In each expression below, identify which operation is performed first, which is performed next, and so on.
+            <ol>
+              <li><m>a(b+c)^2</m></li>
+              <li><m>p \div q + r \cdot s</m></li>
+              <li><m>a - b \div c + d \times e</m></li>
+              <li><m>a^b - c(d+e) + x \cdot y</m></li>
+              <li><m>a \div b - (c+d)^m</m></li>
+              <li><m>p \div q - r \cdot s + 2^m</m></li>
+            </ol>
+          </p>
         </li>
 
 
-        <li>In each expression below, identify which operation is performed first.
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <li>
+          <p>In each expression below, identify which operation is performed first.
+            <ol>
+              <li><m>5+2^x</m></li>
+              <li><m>8(x-1)</m></li>
+              <li><m>8x-1</m></li>
+              <li><m>9 \cdot (x-2)+4</m></li>
+              <li><m>a - b \div c + (x - y)^z</m></li>
+              <li><m>a - b \div c + x - y^z</m></li>
+              <li><m>x \div y - z + a^b</m></li>
+              <li><m>x \div (y - z) + a^b</m></li>
+              <li><m>a \cdot b + c \div d - e \cdot f + g \cdot h</m></li>
+            </ol>
+          </p>
+        </li>
+
+        <li>
+          <p>In each expression below, identify which operation is performed last.
+            <ol>
+              <li><m>5+2^x</m></li>
+              <li><m>8(x-1)</m></li>
+              <li><m>8x-1</m></li>
+              <li><m>9 \cdot (x-2)+4</m></li>
+              <li><m>a - b \div c + (x - y)^z</m></li>
+              <li><m>a - b \div c + x - y^z</m></li>
+              <li><m>x \div y - z + a^b</m></li>
+              <li><m>x \div (y - z) + a^b</m></li>
+              <li><m>a \cdot b + c \div d - e \cdot f + g \cdot h</m></li>
+             </ol>
+          </p>
         </li>
 
 
-        <li>In each expression below, identify which operation is performed last.
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+        <li>
+          <p>In each part below, you are given two expressions. Based only on the Order of Operations, are the two expressions equal or do we not have enough information?
+            Notice how similar the expressions are: in most cases, one expression just has more parentheses.
+            (Base your answer <em>only</em> on the Order of Operations, and not on whether anything <q>should</q> or <q>shouldn't</q> distribute.)
+            <ol>
+              <li><m>3x+5</m> and <m>3(x+5)</m></li>
+              <li><m>2 + (a \times 6)</m> and <m>2 + a \times 6</m></li>
+              <li><m>(a+b)(c+d)</m> and <m>a+b(c+d)</m></li>
+              <li><m>(p \times q) + (r \times s)</m> and <m>p \times q + r \times s</m></li>
+              <li><m>(x^2+3)(2) - (5x - 7)(4)</m> and <m>(x^2+3)2 - (5x - 7)4</m></li>
+              <li><m>(t^4 - 3) \cdot (8) + (10)(x-5)</m> and <m>t^4-3 \cdot (8) + 10(x-5)</m></li>
+              <li><m>9 \cdot (x-2)+4</m> and <m>9 \cdot x-2+4</m></li>
+              <li><m>a - b \div c + (x - y)^z</m> and <m>a - b \div c + x - y^z</m></li>
+              <li><m>x \div y - z + a^b</m> and <m>x \div (y - z) + a^b</m></li>
+              <li><m>a \cdot b + c \div d - e \cdot f + g \cdot h</m> and <m>a \cdot b + c \div d - (e \cdot f + g \cdot h)</m></li>
+              <li><m>p \div q + r \cdot s</m> and <m>(p \div q + r) \cdot s</m></li>
+            </ol>
+          </p>
         </li>
 
 
-        <li>In each part below, you are given two expressions. Based only on the Order of Operations, are the two expressions equal or do we not have enough information?
-          <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
-        </li>
-
-
-        <li>Each expression below is a sum. State the terms.
+        <li><p>Each expression below is a sum. State the terms.
           <ol>
             <li>State the terms of <m>3x + 5 + 71y</m></li>
             <li>State the terms of <m>4 + 2m + 3x + r</m></li>
             <li>State the terms of <m>7a^2 - 3b + 4c - 9</m></li>
             <li>State the terms of <m>5x - 7y + 2z + 9 + w</m></li>
           </ol>
-        </li>
+        </p></li>
 
-        <li>What term(s) do <m>3x + 5 + 71y</m> and <m>2m + 3x + r</m> have in common?</li>
+        <li>What term(s) do <m>3x + 5 + 71y</m> and <m>2m + 3x + r - 8y</m> have in common?</li>
 
-        <li>Geometrically represent the following expressions.
+
+        <li><p>Geometrically represent the following expressions.
           <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+            <li><m>x+3</m></li>
+            <li><m>p \cdot q</m></li>
+            <li><m>a+b+4</m></li>
+            <li><m>p(q+r)</m></li>
+            <li><m>(a+b)(c+d)</m></li>
+            <li><m>(x+3)(x+3)</m></li>
+          </ol></p>
         </li>
 
 
-        <li>For each geometric representation below, write an expression it represents. (Note, there is often more than one correct answer.)
+        <li><p>For each geometric representation below, write an expression it represents. (Note, there is often more than one correct answer.)
           <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+            <li><m>x + y + z</m></li>
+            <li><m>r \times s</m></li>
+            <li><m>p(q + r)</m></li>
+            <li><m>(p+q)r</m></li>
+            <li><m>(p+q)(r+s)</m></li>
+            <li><m>a(b+c+d)</m></li>
+            <li><m>a \times a</m></li>
+            <li><m>(x+5)(x+5)</m></li>
+          </ol></p>
         </li>
 
-        <li>Factor each expression below.
+        <li><p>Factor each expression below.
           <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ol>
+            <li><m>6 + 3x</m></li>
+            <li><m>10a - 30</m></li>
+            <li><m>9xy + 4xy</m></li>
+            <li><m>10x + 3x</m></li>
+            <li><m>10x + \sqrt{3}x</m></li>
+            <li><m>7x + x</m></li>
+            <li><m>23x + 23</m></li>
+          </ol></p>
         </li>
 
 
-        <li>Simplify each expression below two ways: once by applying the appropriate Distributive Law (showing all steps), and once by quickly collecting like terms.
+        <li><p>Simplify each expression below two ways: once by applying the appropriate Distributive Law to factor (showing all steps), and once by quickly collecting like terms.
+          Why ask you to simplify each expression the <q>slightly slower way</q> and the <q>slightly faster way</q>?
+          The purpose of this exercise is to reinforce the important idea that collecting like terms is actually justified by the Distributive Law.
           <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><m>4x + 5x</m></li>
+            <li><m>13y - 2y</m></li>
+            <li><m>3a + 4a + 5a</m></li>
+            <li><m>9c - 2c + 4c</m></li>
+            <li><m>7z - z</m></li>
           </ol>
+        </p>
         </li>
-
-
-
 
       </ol>
     

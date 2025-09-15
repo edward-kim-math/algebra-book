@@ -3,12 +3,61 @@
 <section xml:id="sec-expressions-with-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Expressions with Fractions</title>
 
-  <p> Text of section. </p>
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Add, subtract, multiply, and divide fractions.</p></li>
+			<li><p>Determine when common denominators are required and when they are not.</p></li>
+			<li><p>Determine when cancelling is permissible in a fraction and when it isn't.</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>Order of Operations</title>
+
+    <assemblage permid="fraction-meaning">
+      <title>Representing Addition Geometrically</title>
+      <p>
+        Suppose <m>a</m> and <m>b</m> are positive real numbers.
+        Then <m>a+b</m> is geometrically represented by the length of the stick made by 
+        gluing a stick of length <m>a</m> to a stick of length <m>b</m> .        
+
+        <figure xml:id="fig-fraction-meaning">
+          <caption>A picture of <m>a+b</m></caption>
+          <image width="50%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw[thick] (0,0) -- (3,0);
+                  \fill[black] (0,0) circle (2pt);
+                  \fill[black] (3,0) circle (2pt);
+                  \node at (1.5,-0.3) {$a$};
+
+                  \draw[thick] (3.2,0) -- (5.2,0);
+                  \fill[black] (3.2,0) circle (2pt);
+                  \fill[black] (5.2,0) circle (2pt);
+                  \node at (4.2,-0.3) {$b$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+      </p>
+    </assemblage>
+  </subsection>
+
+
 
 
   <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input.</p>
 
   <p>Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.</p>
   <p>Two correct (and one incorrect) interpretation of <m>5 \frac{3}{7}</m>.</p>
+
+
 
 </section>
