@@ -682,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Expressions with Fractions",
-  "body": " Expressions with Fractions    In this section, we learn how to:    Add, subtract, multiply, and divide fractions.  Determine when common denominators are required and when they are not.  Determine when cancelling is permissible in a fraction and when it isn't.  Convert between mixed fractions and improper fractions.     Applications  Operations on fractions are a little more involved than operations on whole numbers, but what we learn will enable us to answer these questions:   A baking recipe calls for cups of flour. The recipe says that it serves . You are hosting a party where people will attend, so you need to make times the recipe. How many cups of flour do you need?    You have a two-by-four piece of lumber that measures feet long and another that is feet long. You will glue the two pieces together to create one leg of a nightstand. But you'll need to go to the store to make three other legs of the same height. How long is each leg?    A swimming pool is being filled at a rate of gallons per hour. How many gallons of water will be in the pool after hour?    A car is traveling at a speed of miles per hour. How far will the car travel in hours?    A group of friends go out to dinner. The bill comes to . If they split the bill evenly, how much does each person pay?    A recipe calls for cup of sugar. You only have a cup measuring cup. How many cups of sugar do you need to use to get the correct amount?    A recipe calls for cup of sugar. You put in cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?       Representation and Equal\/Unequal Fractions   Representing Fractions Geometrically  Suppose and are positive real numbers. We can represent the fraction as follows: Start with a pizza that has equal-sized slices. Then is represented by eating of those slices.   In this way, represents taking\/eating the whole pizza, and represents taking a pizza that only has slices (those are huge slices, since there are only two of them) and eating one of those slices.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of           What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of     If we step back and ignore where the cuts were made by a pizza cutter, the blue shaded part (representing the eaten pizza) looks to be the same amount in both pictures. So .      What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of            What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.      In earlier examples, we had to cut each original slice of pizza into two equal-sized smaller pieces. In the Try it exercise, we need to cut each original slice of pizza into three equal-sized smaller pieces.    In the Try it exercise, going from a total of slices to a total of slices meant that in the resulting pizza, every slice was very small. This makes intuitive sense to us: when the denominator is large (in other words, there are many slices), then the size of each slice is small. In addition, when the denominator is small (in other words, there are few slices), then the size of each slice is large.   To create an equal fraction to the fraction we're given but without drawing pictures, we can notice that we take our starting fraction and multiply both the numerator and denominator by the same number. To formally state this fact:   Equal Fractions, different denominators   where and are nonzero.     Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by . In what we just wrote, we went from the initial fraction to the middle expression to emphasize the Equal Fractions formula, though if we feel comfortable skipping this, we might write directly. That said, we may find a future example more complicated and writing the middle step (which indicates multiplication on top and on bottom, but does not simplify the multiplication) is good to practice, even in cases where we might not feel we need it.      Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by .       What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .       What fraction is equal to but has in the denominator?    We need to multiply the denominator by so we also multiply the numerator by . Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.      What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .     In certain situations, we can also use the Equal Fractions formula to reduce the size of the denominator.   Reducing Fractions  If we see the same factor in the numerator and denominator of a fraction, the process of removing this common factor is called cancelling in a fraction or reducing a fraction. This is applying our earlier formula  backwards in other words, this is turning into      What fraction is equal to but has in the denominator?    The numerator and denominator both have a factor of . For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor, which helps highlight exactly the role taken by the Reducing Fractions process we just described. We cancelled the common factor of in the numerator and denominator.      What fraction is equal to but has in the denominator?     We cancelled the common factor of in the numerator and denominator.      What fraction is equal to but has in the denominator?     Now we can cancel the common factor of in the numerator and denominator.      Reduce the fraction as much as possible.     Now we can cancel the common factor of in the numerator and denominator.     While we can cancel common factors in a fraction, we cannot cancel common terms . In other words, Let's describe this frequent error through two examples:   If someone took and tried to cancel the in the numerator and denominator, they would get , which is in a calculator. However, the original fraction can naturally be rewritten as , which is in a calculator.    The issue is more likely to occur when there are variables. (In fact, the previous example with its decimal representations of fractions was included to create a concrete and convincing example that we cannot cancel terms on top and bottom.) We cannot turn into by cancelling the common in the numerator and denominator. This is because is a term on top and bottom, and not a factor on top and bottom.        Reduce the fraction     There is a temptation to want to cancel part of the with the , but these are terms. We can only cancel factors. First, we rewrite the numerator and denominator in factored form: We cancelled the common factor of in the numerator and denominator.    You may prefer to factor a larger factor out of the numerator. (Note, we still cannot cancel terms.) After factoring, we replaced the that we factored out with to really highight that it is a factor of on top and bottom that we cancelled. To make the final expression in this solution look like the final expression in the previous solution, we could distribute the in the numerator. (In this example, you may feel comfortable skipping the writing the third expression, jumping directly from the second expression to the fourth expression. We included the third expression because going from the third expression to the fourth expression highlights the role of the Reducing Fractions process we described earlier.)      Adding and subtracting fractions   The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input.  Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.  Two correct (and one incorrect) interpretation of .  "
+  "body": " Expressions with Fractions    In this section, we learn how to:    Add, subtract, multiply, and divide fractions.  Determine when common denominators are required and when they are not.  Determine when cancelling is permissible in a fraction and when it isn't.  Convert between mixed fractions and improper fractions.     Applications  Operations on fractions are a little more involved than operations on whole numbers, but what we learn will enable us to answer these questions:   A baking recipe calls for cups of flour. The recipe says that it serves . You are hosting a party where people will attend, so you need to make times the recipe. How many cups of flour do you need?    You have a two-by-four piece of lumber that measures feet long and another that is feet long. You will glue the two pieces together to create one leg of a nightstand. But you'll need to go to the store to make three other legs of the same height. How long is each leg?    A swimming pool is being filled at a rate of gallons per hour. How many gallons of water will be in the pool after hour?    A car is traveling at a speed of miles per hour. How far will the car travel in hours?    A group of friends go out to dinner. The bill comes to . If they split the bill evenly, how much does each person pay?    A recipe calls for cup of sugar. You only have a cup measuring cup. How many cups of sugar do you need to use to get the correct amount?    A recipe calls for cup of sugar. You put in cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?       Representation and Equal\/Unequal Fractions   Representing Fractions Geometrically  Suppose and are positive real numbers. We can represent the fraction as follows: Start with a pizza that has equal-sized slices. Then is represented by eating of those slices.   In this way, represents taking\/eating the whole pizza, and represents taking a pizza that only has slices (those are huge slices, since there are only two of them) and eating one of those slices.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of           What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of     If we step back and ignore where the cuts were made by a pizza cutter, the blue shaded part (representing the eaten pizza) looks to be the same amount in both pictures. So .      What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of            What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.      In earlier examples, we had to cut each original slice of pizza into two equal-sized smaller pieces. In the Try it exercise, we need to cut each original slice of pizza into three equal-sized smaller pieces.    In the Try it exercise, going from a total of slices to a total of slices meant that in the resulting pizza, every slice was very small. This makes intuitive sense to us: when the denominator is large (in other words, there are many slices), then the size of each slice is small. In addition, when the denominator is small (in other words, there are few slices), then the size of each slice is large.   To create an equal fraction to the fraction we're given but without drawing pictures, we can notice that we take our starting fraction and multiply both the numerator and denominator by the same number. To formally state this fact:   Equal Fractions, different denominators   where and are nonzero.     Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by . In what we just wrote, we went from the initial fraction to the middle expression to emphasize the Equal Fractions formula, though if we feel comfortable skipping this, we might write directly. That said, we may find a future example more complicated and writing the middle step (which indicates multiplication on top and on bottom, but does not simplify the multiplication) is good to practice, even in cases where we might not feel we need it.      Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by .      When writing our work, we must be careful how we write our work. It is possible to write something that can be interpreted incorrectly. In detail:   We can write exactly as the previous example showed.    We can write the that we were multiplying on top and on bottom before the original content like this: and this just swaps the order of the factors in both multiplications.    We can skip actually writing in the times on top and on bottom and just write in the resulting numerator and denominator like this:     We cannot write to mean that we are multiplying by on top and on bottom. There are two ways of interpreting . We will discuss one of the ways to interpret by the end of this section, but a common way to interpret is as a mixed fraction, whose value is clearly larger than itself, while the original fraction is smaller than . So, we either jump to writing directly, or we need to write that we are multiplying by on top and on bottom (and that really requires physically writing two s: one on top and one on bottom), but we cannot just write a single . Reading as a mixed fraction has a differnt value than the original fraction, and in the other interpretation will also result in a value that is not equal to .      For another example of this warning, if we start with and we want to properly write about multiplying by on top and on bottom, we can write or or just immediately write , but we cannot write .    What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .       What fraction is equal to but has in the denominator?    We need to multiply the denominator by so we also multiply the numerator by . Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.      What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .     In certain situations, we can also use the Equal Fractions formula to reduce the size of the denominator.   Reducing Fractions  If we see the same factor in the numerator and denominator of a fraction, the process of removing this common factor is called cancelling in a fraction or reducing a fraction. This is applying our earlier formula  backwards in other words, this is turning into      What fraction is equal to but has in the denominator?    The numerator and denominator both have a factor of . For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor, which helps highlight exactly the role taken by the Reducing Fractions process we just described. We cancelled the common factor of in the numerator and denominator.      What fraction is equal to but has in the denominator?     We cancelled the common factor of in the numerator and denominator.      What fraction is equal to but has in the denominator?     Now we can cancel the common factor of in the numerator and denominator.      Reduce the fraction as much as possible.     Now we can cancel the common factor of in the numerator and denominator.     While we can cancel common factors in a fraction, we cannot cancel common terms . In other words, Let's describe this frequent error through two examples:   If someone took and tried to cancel the in the numerator and denominator, they would get , which is in a calculator. However, the original fraction can naturally be rewritten as , which is in a calculator.    The issue is more likely to occur when there are variables. (In fact, the previous example with its decimal representations of fractions was included to create a concrete and convincing example that we cannot cancel terms on top and bottom.) We cannot turn into by cancelling the common in the numerator and denominator. This is because is a term on top and bottom, and not a factor on top and bottom.        Reduce the fraction     There is a temptation to want to cancel part of the with the , but these are terms. We can only cancel factors. First, we rewrite the numerator and denominator in factored form: We cancelled the common factor of in the numerator and denominator.    You may prefer to factor a larger factor out of the numerator. (Note, we still cannot cancel terms.) After factoring, we replaced the that we factored out with to really highight that it is a factor of on top and bottom that we cancelled. To make the final expression in this solution look like the final expression in the previous solution, we could distribute the in the numerator. (In this example, you may feel comfortable skipping the writing the third expression, jumping directly from the second expression to the fourth expression. We included the third expression because going from the third expression to the fourth expression highlights the role of the Reducing Fractions process we described earlier.)      Adding and subtracting fractions     The pictures of and are shown below. How can we use these pictures to represent a picture that represents the value of as a single fraction?  A picture of       A picture of          Did you try this exercise? What did you notice about the pictures? Because of the different denominators, the slices in the two pictures are different sizes, so it seems a little funny if we just tried to add the numerators across and add the denominators across when we write with notation. This hints at the following idea: To add fractions, we need a common denominator. In this case, we can use as a common denominator. We can convert to a fraction with denominator by multiplying the numerator and denominator by . We can convert to a fraction with denominator by multiplying the numerator and denominator by . So: Note that the final answer is an improper fraction. This is perfectly fine. In algebra, it is often more helpful to leave answers as improper fractions. (By the end of this section, we'll explain exactly why improper fractions are preferred.)   Adding Fractions  Simplifying the addition of fractions requires having a common denominator .    Notice in the two fractions on the left side of the formula above, is the denominator for both fractions. The fact that is written for both denominators on the left is the formula communicating to us that both fractions have to have the same denominator. When we have that common denominator , the right side of this formula which says is tell us that fraction that we get as a result from simplifying the addition copies that same denominator , while the numerator of the new fraction is made by adding the numerators of the two fractions that had the same denominator. It is incorrect to try to just add straight across :       To show why this warning is here, in , we saw simplifies to but if we added straight across (using the fake formula meantion in the warning), we would have gotten . You can check that and are different answers with a calculator, or without a calculator, we can notice that is greater than , while is less than .    Simplify      The third expression may be skipped if you feel comfortable, but this is a nice technique to practice in smaller situations (beacuse in some larger situations, it may be harder for us to simplify the addition of the numerators in our head). The purpose of showing the second expression being equal to the third expression is also helpful in seeing the Adding Fractions formula apply as literally as possible.      Simplify          Like adding fractions, subtracting requires a common denominator:   Subtracting Fractions  Simplifying the subtraction of fractions requires having a common denominator .      Simplify      The third expression may be skipped if you feel comfortable, but we specifically included this step because going from the second expression to the third expression highlights the role of the Subtracting Fractions formula.      Multiplying fractions    Dividing fractions    Clarifications  Review add\/sub\/mult\/div fractions, when common denominator needed, when not  The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO    Mixed fractions, improper fractions, and decimals in algebra  Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.  Two correct (and one incorrect) interpretation of .    Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.   A baking recipe calls for cups of flour. The recipe says that it serves . You are hosting a party where people will attend, so you need to make times the recipe. How many cups of flour do you need?    You have a two-by-four piece of lumber that measures feet long and another that is feet long. You will glue the two pieces together to create one leg of a nightstand. But you'll need to go to the store to make three other legs of the same height. How long is each leg?    A swimming pool is being filled at a rate of gallons per hour. How many gallons of water will be in the pool after hour?    A car is traveling at a speed of miles per hour. How far will the car travel in hours?    A group of friends go out to dinner. The bill comes to . If they split the bill evenly, how much does each person pay?    A recipe calls for cup of sugar. You only have a cup measuring cup. How many cups of sugar do you need to use to get the correct amount?    A recipe calls for cup of sugar. You put in cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?      "
 },
 {
   "id": "sec-expressions-with-fractions-2",
@@ -769,91 +769,145 @@ var ptx_lunr_docs = [
   "id": "sec-expressions-with-fractions-4-14",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-14",
-  "type": "Example",
+  "type": "Warning",
   "number": "1.2.14",
   "title": "",
-  "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .    "
-},
-{
-  "id": "sec-expressions-with-fractions-4-15",
-  "level": "2",
-  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-15",
-  "type": "Example",
-  "number": "1.2.15",
-  "title": "",
-  "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by so we also multiply the numerator by . Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.   "
+  "body": " When writing our work, we must be careful how we write our work. It is possible to write something that can be interpreted incorrectly. In detail:   We can write exactly as the previous example showed.    We can write the that we were multiplying on top and on bottom before the original content like this: and this just swaps the order of the factors in both multiplications.    We can skip actually writing in the times on top and on bottom and just write in the resulting numerator and denominator like this:     We cannot write to mean that we are multiplying by on top and on bottom. There are two ways of interpreting . We will discuss one of the ways to interpret by the end of this section, but a common way to interpret is as a mixed fraction, whose value is clearly larger than itself, while the original fraction is smaller than . So, we either jump to writing directly, or we need to write that we are multiplying by on top and on bottom (and that really requires physically writing two s: one on top and one on bottom), but we cannot just write a single . Reading as a mixed fraction has a differnt value than the original fraction, and in the other interpretation will also result in a value that is not equal to .     "
 },
 {
   "id": "sec-expressions-with-fractions-4-16",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-16",
   "type": "Example",
-  "number": "1.2.16",
+  "number": "1.2.15",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .    "
 },
 {
-  "id": "sec-expressions-with-fractions-4-18-2",
+  "id": "sec-expressions-with-fractions-4-17",
   "level": "2",
-  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-18-2",
+  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-17",
+  "type": "Example",
+  "number": "1.2.16",
+  "title": "",
+  "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by so we also multiply the numerator by . Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.   "
+},
+{
+  "id": "sec-expressions-with-fractions-4-18",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-18",
+  "type": "Example",
+  "number": "1.2.17",
+  "title": "",
+  "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .    "
+},
+{
+  "id": "sec-expressions-with-fractions-4-20-2",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-20-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "cancelling reducing "
 },
 {
-  "id": "sec-expressions-with-fractions-4-19",
-  "level": "2",
-  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-19",
-  "type": "Example",
-  "number": "1.2.17",
-  "title": "",
-  "body": "  What fraction is equal to but has in the denominator?    The numerator and denominator both have a factor of . For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor, which helps highlight exactly the role taken by the Reducing Fractions process we just described. We cancelled the common factor of in the numerator and denominator.   "
-},
-{
-  "id": "sec-expressions-with-fractions-4-20",
-  "level": "2",
-  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-20",
-  "type": "Example",
-  "number": "1.2.18",
-  "title": "",
-  "body": "  What fraction is equal to but has in the denominator?     We cancelled the common factor of in the numerator and denominator.   "
-},
-{
   "id": "sec-expressions-with-fractions-4-21",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-21",
   "type": "Example",
-  "number": "1.2.19",
+  "number": "1.2.18",
   "title": "",
-  "body": "  What fraction is equal to but has in the denominator?     Now we can cancel the common factor of in the numerator and denominator.   "
+  "body": "  What fraction is equal to but has in the denominator?    The numerator and denominator both have a factor of . For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor, which helps highlight exactly the role taken by the Reducing Fractions process we just described. We cancelled the common factor of in the numerator and denominator.   "
 },
 {
   "id": "sec-expressions-with-fractions-4-22",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-22",
   "type": "Example",
-  "number": "1.2.20",
+  "number": "1.2.19",
   "title": "",
-  "body": "  Reduce the fraction as much as possible.     Now we can cancel the common factor of in the numerator and denominator.   "
+  "body": "  What fraction is equal to but has in the denominator?     We cancelled the common factor of in the numerator and denominator.   "
 },
 {
   "id": "sec-expressions-with-fractions-4-23",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-23",
-  "type": "Warning",
-  "number": "1.2.21",
+  "type": "Example",
+  "number": "1.2.20",
   "title": "",
-  "body": " While we can cancel common factors in a fraction, we cannot cancel common terms . In other words, Let's describe this frequent error through two examples:   If someone took and tried to cancel the in the numerator and denominator, they would get , which is in a calculator. However, the original fraction can naturally be rewritten as , which is in a calculator.    The issue is more likely to occur when there are variables. (In fact, the previous example with its decimal representations of fractions was included to create a concrete and convincing example that we cannot cancel terms on top and bottom.) We cannot turn into by cancelling the common in the numerator and denominator. This is because is a term on top and bottom, and not a factor on top and bottom.     "
+  "body": "  What fraction is equal to but has in the denominator?     Now we can cancel the common factor of in the numerator and denominator.   "
 },
 {
   "id": "sec-expressions-with-fractions-4-24",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-24",
   "type": "Example",
+  "number": "1.2.21",
+  "title": "",
+  "body": "  Reduce the fraction as much as possible.     Now we can cancel the common factor of in the numerator and denominator.   "
+},
+{
+  "id": "sec-expressions-with-fractions-4-25",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-25",
+  "type": "Warning",
   "number": "1.2.22",
   "title": "",
+  "body": " While we can cancel common factors in a fraction, we cannot cancel common terms . In other words, Let's describe this frequent error through two examples:   If someone took and tried to cancel the in the numerator and denominator, they would get , which is in a calculator. However, the original fraction can naturally be rewritten as , which is in a calculator.    The issue is more likely to occur when there are variables. (In fact, the previous example with its decimal representations of fractions was included to create a concrete and convincing example that we cannot cancel terms on top and bottom.) We cannot turn into by cancelling the common in the numerator and denominator. This is because is a term on top and bottom, and not a factor on top and bottom.     "
+},
+{
+  "id": "sec-expressions-with-fractions-4-26",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-26",
+  "type": "Example",
+  "number": "1.2.23",
+  "title": "",
   "body": "  Reduce the fraction     There is a temptation to want to cancel part of the with the , but these are terms. We can only cancel factors. First, we rewrite the numerator and denominator in factored form: We cancelled the common factor of in the numerator and denominator.    You may prefer to factor a larger factor out of the numerator. (Note, we still cannot cancel terms.) After factoring, we replaced the that we factored out with to really highight that it is a factor of on top and bottom that we cancelled. To make the final expression in this solution look like the final expression in the previous solution, we could distribute the in the numerator. (In this example, you may feel comfortable skipping the writing the third expression, jumping directly from the second expression to the fourth expression. We included the third expression because going from the third expression to the fourth expression highlights the role of the Reducing Fractions process we described earlier.)   "
+},
+{
+  "id": "fraction5649",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#fraction5649",
+  "type": "Try it",
+  "number": "1.2.24",
+  "title": "",
+  "body": "  The pictures of and are shown below. How can we use these pictures to represent a picture that represents the value of as a single fraction?  A picture of       A picture of         "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-6",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-6",
+  "type": "Warning",
+  "number": "1.2.27",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-8",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-8",
+  "type": "Example",
+  "number": "1.2.28",
+  "title": "",
+  "body": "  Simplify      The third expression may be skipped if you feel comfortable, but this is a nice technique to practice in smaller situations (beacuse in some larger situations, it may be harder for us to simplify the addition of the numerators in our head). The purpose of showing the second expression being equal to the third expression is also helpful in seeing the Adding Fractions formula apply as literally as possible.   "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-9",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-9",
+  "type": "Example",
+  "number": "1.2.29",
+  "title": "",
+  "body": "  Simplify         "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-12",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-12",
+  "type": "Example",
+  "number": "1.2.30",
+  "title": "",
+  "body": "  Simplify      The third expression may be skipped if you feel comfortable, but we specifically included this step because going from the second expression to the third expression highlights the role of the Subtracting Fractions formula.   "
 },
 {
   "id": "sec-solving-equations",
