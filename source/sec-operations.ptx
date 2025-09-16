@@ -1483,16 +1483,16 @@
     This version has the multiplication on the right instead of the left.
   </p> 
 
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes providing the geometric explanation of why <m>(b+c)a=ba+ca</m> is true.
-          When doing this, remember we shouldn't select specific numbers for <m>a</m>, <m>b</m>, or <m>c</m>.          
-        </p>
-      </statement>
-      <response />
-    </exercise>
+  <!-- Try it -->
+  <exercise>
+    <statement>
+      <p>
+        Spend a few minutes providing the geometric explanation of why <m>(b+c)a=ba+ca</m> is true.
+        When doing this, remember we shouldn't select specific numbers for <m>a</m>, <m>b</m>, or <m>c</m>.          
+      </p>
+    </statement>
+    <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+  </exercise>
 
   <assemblage permid="distributive-subtraction-multiplication">
     <title>Distributive Law, version 4</title>
@@ -1574,7 +1574,26 @@
     </p>
   </note>
 
+  <p>
+    We have shown four versions of the Distributive Law. Here is an extended version of the Distributive Law:    
+  </p>
+  <assemblage permid="distributive-extended">
+    <title>Distributive Law, one extended version</title>
+    <p>
+      <m>a(b+c+d)=ab+ac+ad</m>
+    </p>
+  </assemblage>
 
+  <!-- Try it -->
+  <exercise>
+    <statement>
+      <p>
+        Come up with other extended versions of the Distributive Law.
+        Be careful to pay attention to where the addition and subtraction signs are, and where the multiplication signs are (including hidden multiplication signs).      
+      </p>
+    </statement>
+    <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+  </exercise>
 
   </subsection>
 
