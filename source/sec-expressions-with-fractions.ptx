@@ -654,7 +654,258 @@
 
   <subsection xml:id="subsec-multiplying-fractions">
     <title>Multiplying fractions</title>
-    
+
+    <p>
+      The process for multiplying fractions feels really different from adding or subtracting fractions.
+      To be convinced that the process we will describe in a moment works, we'll go back to the geometric interpretation of multiplication.
+      Recall that <m>a \cdot b</m> can be represented as the area of a rectangle with height <m>a</m> and width <m>b</m>.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Represent <m>2 \times 3</m> geometrically.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <figure>
+            <caption>A picture of <m>2 \times 3</m></caption>
+            <image width="100%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[black!1] (-.2,0) circle (1pt);
+                    \draw[black!1] (4.6,0) circle (1pt);
+                    %
+                    %\draw[white] (-.2,0) -- (4.5,0); % width setter
+                    \draw[ultra thick] (0,0) -- (4.25,0);
+                    \draw[ultra thick] (0,0) -- (0,3.25);
+                    %
+                    \draw[dotted] (1,0) -- (1,3.25);
+                    \draw[dotted] (2,0) -- (2,3.25);
+                    \draw[dotted] (3,0) -- (3,3.25);
+                    \draw[dotted] (4,0) -- (4,3.25);
+                    %
+                    \draw[dotted] (0,1) -- (4.25,1);
+                    \draw[dotted] (0,2) -- (4.25,2);
+                    \draw[dotted] (0,3) -- (4.25,3);
+                    %
+                    \draw[ultra thick, fill=blue!70,opacity=0.5] (0,0) rectangle (3,2);
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>          
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      The dotted lines in the picture above help us see that the rectangle has a height of <m>2</m> and a width of <m>3</m>. 
+      We can be really convinced that the resulting area is <m>6</m> because we can notice the rectangle is made up of <m>6</m> unit squares.
+      I understand that it probably still feels a little funny to represent multiplication as an area, but this is a really useful way to think about multiplication.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Represent <m>\frac14 \cdot \frac23</m> geometrically. Use the picture to determine the value of <m>\frac14 \cdot \frac23</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          It can be a little more challenging to represent the area.
+          To standardize things, let's copy (to scale) one of the unit squares from the previous example.
+          Since the first factor is <m>\frac14</m>, we need a height of <m>\frac14</m>.
+          The entire square that we copied has a height of <m>1</m> so to get a height of <m>\frac14</m>, we can divide the height of the square into <m>4</m> equal parts (achieved by creating <m>3</m>> equally-spaced apart cuts in the interior of this line segment) and take <m>1</m> of those parts.
+          Similarly, for a width of <m>\frac23</m>, we can divide the width of the square into <m>3</m> equal parts (achieved by creating <m>2</m> equally-spaced apart cuts in the interior of this line segment) and take <m>2</m> of those parts.
+          <figure xml:id="product-of-fractions-14-23">
+            <caption>Picture of <m>\frac14 \cdot \frac23</m></caption>
+            <image width="100%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[black!1] (-.2,0) circle (1pt);
+                    \draw[black!1] (4.6,-.2) circle (1pt);
+                    %
+                    \draw[ultra thick] (0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle; % box outline
+                    %
+                    \draw[dotted] (0,1/4) -- (1,1/4);
+                    \draw[dotted] (0,2/4) -- (1,2/4);
+                    \draw[dotted] (0,3/4) -- (1,3/4);
+                    %
+                    \draw[dotted] (1/3,0) -- (1/3,1);
+                    \draw[dotted] (2/3,0) -- (2/3,1);
+                    %
+                    \draw[ultra thick, red] (-0.1,1/4) -- (0.1,1/4);
+                    \draw[ultra thick, red] (-0.1,2/4) -- (0.1,2/4);
+                    \draw[ultra thick, red] (-0.1,3/4) -- (0.1,3/4);
+                    %
+                    \draw[ultra thick, red] (1/3,-0.1) -- (1/3,0.1);
+                    \draw[ultra thick, red] (2/3,-0.1) -- (2/3,0.1);
+                    %
+                    \draw[ultra thick, fill=blue!70,opacity=0.5] (0,0) rectangle (2/3,1/4);
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          By going with what we have said about the geometric interpretation of multiplication, <m>\frac14 \cdot \frac23</m> is the area of the blue rectangle.
+          The portion shaded in blue is definitely less than <m>1</m> because shading the entire unit square would have had area <m>1</m>.
+          How can we determine the area of the blue rectangle exactly, though?
+          Surprisingly, we can apply the geometric interpretation of a fraction! Recall that <m>\frac{a}{b}</m> means to take a whole pizza and cut it into <m>b</m> equal slices and take <m>a</m> of those slices, but there was no requirement that the pizza had to be a circle.
+          So, we can think of the entire unit square as a whole pizza.
+          To get the area of the blue rectangle, we can see all of the dotted lines as cuts that divide the pizza into equal slices.
+          From our starting square and uncut pizza, the cuts end up creating <m>12</m> equal slices (arranged in <m>4</m> rows and <m>3</m> columns).
+          Then the blue rectange (representing the eaten part of the pizza) is made up of <m>2</m> of those <m>12</m> equal slices, so the area of the blue rectangle is <m>\frac{2}{12}</m> which we can reduce to <m>\frac16</m>.
+        </p>
+      </solution>
+    </example>
+    <p>
+      This is a profound first example that uses a lot of ideas, so be patient with yourself!
+      We used the geometric interpretation of multiplication to <em>create</em> the shaded region in the first place.
+      Once we have the region we need the area of, we stopped thinking about the geometric interpretation of multiplication and instead thought about the geometric representation of a fraction.
+      Imagine someone using a pizza cutter to cut horizontally along <m>3</m> lines, and to cut vertically in <m>2</m> lines, as shown as dotted lines in <xref ref="product-of-fractions-14-23" />.
+      (The figure indicates in red the places where the pizza cutter began to cut the crust.)
+      Out of <m>12</m> equal-sized pieces of pizza, the area of the blue rectangle is made up of <m>2</m> of those pieces, so the area of the blue rectangle is <m>\frac{2}{12}</m> which reduces to <m>\frac16</m>.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Represent <m>\frac15 \cdot \frac34</m> geometrically. Use the picture to determine the value of <m>\frac15 \cdot \frac34</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height <m>\frac15</m> and width <m>\frac34</m>.
+          A height of <m>\frac15</m> is achieved by dividing square's height of <m>1</m> into <m>5</m> equal parts (achieved by creating <m>4</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>1</m> of those parts.
+          A width of <m>\frac34</m> is achieved by dividing the square's width of <m>1</m> into <m>4</m> equal parts (achieved by creating <m>3</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>3</m> of those parts.
+          <figure xml:id="product-of-fractions-15-34">
+            <caption>Picture of <m>\frac15 \cdot \frac34</m></caption>
+            <image width="100%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[black!1] (-.2,0) circle (1pt);
+                    \draw[black!1] (4.6,-.2) circle (1pt);
+                    %
+                    \draw[ultra thick] (0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle; % box outline
+                    %
+                    \draw[dotted] (0,1/5) -- (1,1/5);
+                    \draw[dotted] (0,2/5) -- (1,2/5);
+                    \draw[dotted] (0,3/5) -- (1,3/5);
+                    \draw[dotted] (0,4/5) -- (1,4/5);
+                    %
+                    \draw[dotted] (1/4,0) -- (1/4,1);
+                    \draw[dotted] (2/4,0) -- (2/4,1);
+                    \draw[dotted] (3/4,0) -- (3/4,1);
+                    %
+                    \draw[ultra thick, red] (-0.1,1/5) -- (0.1,1/5);
+                    \draw[ultra thick, red] (-0.1,2/5) -- (0.1,2/5);
+                    \draw[ultra thick, red] (-0.1,3/5) -- (0.1,3/5);
+                    \draw[ultra thick, red] (-0.1,4/5) -- (0.1,4/5);
+                    %
+                    \draw[ultra thick, red] (1/4,-0.1) -- (1/4,0.1);
+                    \draw[ultra thick, red] (2/4,-0.1) -- (2/4,0.1);
+                    \draw[ultra thick, red] (3/4,-0.1) -- (3/4,0.1);
+                    %
+                    \draw[ultra thick, fill=blue!70,opacity=0.5] (0,0) rectangle (3/4,1/5);
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>  
+            </image>
+          </figure>
+          The area of the blue shaded rectangle answers the question of what <m>\frac15 \cdot \frac34</m> is.
+          The dotted lines represent cuts that divide the pizza into <m>20</m> equal slices (arranged in <m>5</m> rows and <m>4</m> columns).
+          The shaded part represents taking <m>3</m> of those slices.
+          Thus, the product is <m>\frac{3}{20}</m>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Represent <m>\frac25 \cdot \frac37</m> geometrically. Use the picture to determine the value of <m>\frac25 \cdot \frac37</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height <m>\frac25</m> and width <m>\frac37</m>.
+          A height of <m>\frac25</m> is achieved by dividing square's height of <m>1</m> into <m>5</m> equal parts (achieved by creating <m>4</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>2</m> of those parts.
+          A width of <m>\frac37</m> is achieved by dividing the square's width of <m>1</m> into <m>7</m> equal parts (achieved by creating <m>6</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>3</m> of those parts.
+          <figure xml:id="product-of-fractions-25-37">
+            <caption>Picture of <m>\frac25 \cdot \frac37</m></caption>
+            <image width="100%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[black!1] (-.2,0) circle (1pt);
+                    \draw[black!1] (4.6,-.2) circle (1pt);
+                    %
+                    \draw[ultra thick] (0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle; % box outline
+                    %
+                    \draw[thin] (0,1/5) -- (1,1/5);
+                    \draw[thin] (0,2/5) -- (1,2/5);
+                    \draw[thin] (0,3/5) -- (1,3/5);
+                    \draw[thin] (0,4/5) -- (1,4/5);
+                    %
+                    \draw[thin] (1/7,0) -- (1/7,1);
+                    \draw[thin] (2/7,0) -- (2/7,1);
+                    \draw[thin] (3/7,0) -- (3/7,1);
+                    \draw[thin] (4/7,0) -- (4/7,1);
+                    \draw[thin] (5/7,0) -- (5/7,1);
+                    \draw[thin] (6/7,0) -- (6/7,1);
+                    %
+                    \draw[ultra thick, fill=blue!70,opacity=0.5] (0,0) rectangle (3/7,2/5);
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The area of the blue shaded rectangle answers the question of what <m>\frac25 \cdot \frac37</m> is.
+          The dotted lines represent cuts that divide the pizza into <m>35</m> equal slices (arranged in <m>5</m> rows and <m>7</m> columns).
+          The shaded part represents taking <m>6</m> of those slices.
+          Thus, the product is <m>\frac{6}{35}</m>.
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      REFORMAT!!!!!!!!!!!!!!!!!!
+      The last example probably felt a little annoying, but I wanted us to explore the product of two fractions where neither fraction had <m>1</m> in the numerator, so that we can see if there's a pattern.
+      (Can you guess what the pattern is?)
+      In fact, I thought I'd show the example we just did, so that you can try a slightly less annoying example.
+      If you have a guess for what the pattern is, can you confirm it with drawing a picture in the next example.
+      If you don't have a guess yet, that's totally okay, and I encourage you to try making a drawing for the next example (so that you have another example to look at for the pattern).
+    </p>
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Represent <m>\frac34 \cdot \frac25</m> geometrically. Use the picture to determine the value of <m>\frac34 \cdot \frac25</m>.
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
+
+    <p>
+      Did you try this exercise? What did you find?
+      If you made a drawing, you should have found that <m>\frac34 \cdot \frac25 = \frac{6}{20} = \frac35</m>.
+      Notice that the numerator of the product is <m>3 \cdot 2 = 6</m> and the denominator of the product is <m>4 \cdot 5 = 20</m>.
+      This is the pattern we were looking for!
+      We can summarize this pattern in the following formula:
+
+      <m>\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}</m>
+      This formula is called the <em>Multiplying Fractions</em> formula.
+      Notice that this formula does not require a common denominator.
+      This is a big difference from the Adding Fractions and Subtracting Fractions formulas.
+    </p>
+
   </subsection>
 
   <subsection xml:id="subsec-dividing-fractions">
@@ -725,7 +976,30 @@
     
   </subsection>
 
+	<subsection>
+		<title>Summary</title>
 
+    <p>
+      Text
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <p>
+      <ol>
+
+        <li>
+          <p>Write in your own words how each expression could be spoken aloud with clarity.
+            <ol>
+              <li><m>8+a</m></li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
 
 
 </section>

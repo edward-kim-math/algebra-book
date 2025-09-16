@@ -200,4 +200,19 @@
 		</remark>
 
 
+    <!-- Try it -->
+    <exercise xml:id="sampleref">
+      <statement>
+        <p>
+			Test
+		</p>
+	</statement>
+	</exercise>
+   
+    <p>
+      To show why this warning is here, in <xref ref="sampleref" />
+	</p>
+
+
+	
 </section>
