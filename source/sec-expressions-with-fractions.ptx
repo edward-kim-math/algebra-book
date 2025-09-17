@@ -625,6 +625,45 @@
     </example>
 
     <p>
+      How should we add a fraction and a non-fraction together? Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
+    </p>
+    <assemblage>
+      <title>How to add a fraction and a non-fraction</title>
+      <p>
+        Turn the non-fraction into a fraction with denominator <m>1</m>. Then use the Adding Fractions formula, noting that this formula requires a common denominator.
+      </p>
+    </assemblage>
+
+    <example xml:id="example-2-plus-3over5">
+      <statement>
+        <p>
+          Simplify <m>2 + \frac{3}{5}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We rewrite <m>2</m> as <m>\frac{2}{1}</m>.
+          Then we can use the Adding Fractions formula, noting that we need a common denominator.
+          <me>2 + \frac{3}{5} = \frac{2}{1} + \frac{3}{5} = \frac{10}{5} + \frac{3}{5} = \frac{10+3}{5} = \frac{13}{5}.</me>
+        </p>
+      </solution>    
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac27 + 3</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We rewrite <m>3</m> as <m>\frac31</m>.
+          <me>\frac27 + 3 = \frac27 + \frac31 = \frac27 + \frac{21}{7} = \frac{2+21}{7} = \frac{23}{7}.</me>
+        </p>
+      </solution>
+    </example>
+
+    <p>
       Like adding fractions, subtracting requires a common denominator:
     </p>
     <assemblage permid="fraction-subtraction">
@@ -646,6 +685,28 @@
           <me>\frac56 - \frac29 = \frac{15}{18} - \frac{4}{18} = \frac{15-4}{18} = \frac{11}{18}</me>
           The third expression <m>\frac{15-4}{18}</m> may be skipped if you feel comfortable,
           but we specifically included this step because going from the second expression <m>\frac{15}{18}-\frac{4}{18}</m> to the third expression <m>\frac{15-4}{18}</m> highlights the role of the <em>Subtracting Fractions</em> formula.
+        </p>
+      </solution>
+    </example>
+
+    Subtraction that occurs between a fraction and a non-fraction is a lot like addition: turn the non-fraction into a fraction.
+    <assemblage>
+      <title>Subtraction involving a fraction and a non-fraction</title>
+      <p>
+        Turn the non-fraction into a fraction with denominator <m>1</m>. Then use the Subtracting Fractions formula, noting that this formula requires a common denominator.
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>8 - \frac{3}{10}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Rewrite <m>8</m> as <m>\frac81</m>.
+          <me>8 - \frac{3}{10} = \frac81 - \frac{3}{10} = \frac{80}{10} - \frac{3}{10} = \frac{80-3}{10} = \frac{77}{10}.</me>
         </p>
       </solution>
     </example>
@@ -825,7 +886,7 @@
       </solution>
     </example>
 
-    <example>
+    <example xml:id="example-25-37">
       <statement>
         <p>
           Represent <m>\frac25 \cdot \frac37</m> geometrically. Use the picture to determine the value of <m>\frac25 \cdot \frac37</m>.
@@ -874,7 +935,6 @@
     </example>
 
     <p>
-      REFORMAT!!!!!!!!!!!!!!!!!!
       The last example probably felt a little annoying, but I wanted us to explore the product of two fractions where neither fraction had <m>1</m> in the numerator, so that we can see if there's a pattern.
       (Can you guess what the pattern is?)
       In fact, I thought I'd show the example we just did, so that you can try a slightly less annoying example.
@@ -883,7 +943,7 @@
     </p>
 
     <!-- Try it -->
-    <exercise>
+    <exercise xml:id="exercise-34-25">
       <statement>
         <p>
           Represent <m>\frac34 \cdot \frac25</m> geometrically. Use the picture to determine the value of <m>\frac34 \cdot \frac25</m>.
@@ -892,38 +952,383 @@
       <!-- <response /> --><!-- Commented out the response area where a student can type. -->
     </exercise>
 
+    <p>
+      Did you try this exercise? What did you find? Let's go back <xml ref="example-25-37" />, where we saw that <m>\frac25 \cdot \frac37 = \frac{6}{35}</m>.
+      Let's examine the resulting fraction <m>\frac{6}{35}</m>.
+      <ol>
+        <li>
+          <p>
+            The denominator was the total number of pizza slices.
+            Since the pizza was cut in such a way that there were <m>5</m> rows and <m>7</m> columns, there were a total of <m>35</m> slices. 
+            This number happens to be the product of the denominators of the two fractions we were originally given: <m>5 \cdot 7 = 35</m>, 
+          </p>
+        </li>
+        <li>
+          <p>
+            The numerator was the number of pizza slices that were eaten, shown in the figure shaded in blue.
+            The shaded rectangle is an arrangement of pizza slices in <m>2</m> rows and <m>3</m> columns, so there were a total of <m>6</m> slices eaten.
+            This number happens to be the product of the numerators of the two fractions we were originally given: <m>2 \cdot 3 = 6</m>.
+          </p>
+        </li>
+      </ol>
+      Did you find the same thing in <xref ref="exercise-34-25" />?
+      Could you describe the numerator and denominator of the product by talking about the numerators and denominators of the two fractions we started with?
+      If you didn't make a drawing, I encourage you to go back and try it.
+      The point of drawing this a couple times is to be convinced that there is a pattern, 
+      and once you know that the pattern is always there (and even more awesomely, can see why it works by trying it hands on),
+      then it won't be too surprising for you when we present the following procedure for simplifying the product of fractions.
+    </p>
+
+
+    <assemblage permid="fraction-multiplication">
+      <title>Multiplying Fractions</title>
+      <p>
+        To simplify the multiplication of fractions, we use
+        <me>\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}.</me>
+      </p>
+    </assemblage>
 
     <p>
-      Did you try this exercise? What did you find?
-      If you made a drawing, you should have found that <m>\frac34 \cdot \frac25 = \frac{6}{20} = \frac35</m>.
-      Notice that the numerator of the product is <m>3 \cdot 2 = 6</m> and the denominator of the product is <m>4 \cdot 5 = 20</m>.
-      This is the pattern we were looking for!
-      We can summarize this pattern in the following formula:
-
-      <m>\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}</m>
-      This formula is called the <em>Multiplying Fractions</em> formula.
       Notice that this formula does not require a common denominator.
       This is a big difference from the Adding Fractions and Subtracting Fractions formulas.
+      Even when we looked at <xml ref="example-25-37" />, where we saw that <m>\frac25 \cdot \frac37 = \frac{6}{35}</m>, we didn't need a common denominator: 
+      the two fractions that we started with had denominators <m>5</m> and <m>7</m>, which are different.
+      The formula <m>\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}</m> communicates that 
+      common denominators are not required by having different letters in the denominators for the two fractions on the left side of the equation.
+      The right side of the equation <m>\frac{a \cdot c}{b \cdot d}</m> communicates that we just <q>multiply straight across</q>.
+      This is the opposite of what we saw in the Adding Fractions formula, where we were specifically warned not to <q>add straight across</q>.
+      If you take a quick minute to check that this formula applied to all the examples where we drew pictures, 
+      then it'll feel a lot more comfortable going through the next few examples where we don't draw pictures and just multiply straight across.
     </p>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{3}{7} \cdot \frac{10}{11}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{3}{7} \cdot \frac{10}{11} = \frac{3 \cdot 10}{7 \cdot 11} = \frac{30}{77}</m>
+        </p>
+      </solution>
+    </example>
+    <p>
+      In the example above, we showed the second expression <m>\frac{3 \cdot 10}{7 \cdot 11}</m> becauuse going from the first expression to the second expression literally highlights the use of the Multiplying Fractions formula.
+      If you feel comfortable, you can skip writing the second expression in future examples, going from the first expression to the third expression.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{5}{9} \cdot \frac{4}{7}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{5}{9} \cdot \frac{4}{7} = \frac{5 \cdot 4}{9 \cdot 7} = \frac{20}{63}</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          If we felt comfortable skipping the second expression, our work would look like this:
+          <m>\frac{5}{9} \cdot \frac{4}{7} = \frac{20}{63}</m>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      How should we multiply a fraction and a non-fraction together?
+      Will the technique we used for adding and subtracting a fraction and a non-fraction work here too?
+      Yes!
+      Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
+    </p>
+
+    <assemblage xml:id="assemblage-multiplying-fraction-and-nonfraction">
+      <title>Multiplying a Fraction and a Non-Fraction</title>
+      <p>
+        To multiply a fraction and a non-fraction, we can rewrite the non-fraction as a fraction with a denominator of <m>1</m>.
+        Then we can use the Multiplying Fractions formula.
+      </p>
+    </assemblage>
+
+    <example xml:id="example-2-times-3over5">
+      <statement>
+        <p>
+          Simplify <m>2 \cdot \frac{3}{5}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We rewrite <m>2</m> as <m>\frac{2}{1}</m>.
+          <me>2 \cdot \frac{3}{5} = \frac{2}{1} \cdot \frac{3}{5} = \frac{2 \cdot 3}{1 \cdot 5} = \frac{6}{5}</me>
+        </p>
+      </solution>    
+    </example>
+
+    <p>
+      Let's practice additional examples that illustrate the Multiplying Fractions formula.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{4}{9} \cdot \frac{3}{8}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{4}{9} \cdot \frac{3}{8} = \frac{12}{72} = \frac{1}{6}</m>
+        </p>
+        <p>
+          In this example, we reduced the fraction <m>\frac{12}{72}</m> to <m>\frac{1}{6}</m> in the final step.
+          (Remember that we can only cancel common <em>factors</em>, not common <em>terms</em>. We canceled a factor of <m>12</m> from the numerator and denominator.)
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      Sometimes, we can simplify a multiplication of fractions by canceling common factors before we simplify the straight across multiplication. That is, we can <em>indicate</em> that multiplication is happening without <em>simplifying</em> the multiplication:
+    </p>
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{4}{9} \cdot \frac{3}{8}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{4}{9} \cdot \frac{3}{8} = \frac{4 \cdot 3}{9 \cdot 8}</m>
+        </p>
+        <p>
+          Now we can see that there is a common factor of <m>4</m> in the numerator and denominator, so we can cancel that common factor:
+        </p>
+        <p>
+          <m>\frac{4 \cdot 3}{9 \cdot 8} = \frac{\cancel{4} \cdot 3}{9 \cdot \cancel{8}} = \frac{3}{9 \cdot 2} = \frac{3}{18} = \frac{1}{6}</m>
+        </p>
+        <p>
+          This is the same answer we got in the previous example, but this time we canceled a common factor before doing the multiplication.
+          This technique can be really helpful especially when simplifying the multiplications in the numerator and/or denominator would lead to large numbers:
+          we avoid needing to do large-number multiplication, and also, it can be easier to spot common factors before multiplying.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+          <p>
+            Simplify <m>\frac{5}{12} \cdot \frac{8}{15}</m>
+          </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{5}{12} \cdot \frac{8}{15} = \frac{5 \cdot 8}{12 \cdot 15}</m>
+        </p>
+        <p>
+          Now we can see that there is a common factor of <m>4</m> in the numerator and denominator as well as a common factor of <m>5</m> in the numerator and denominator (or instead of seeing the <m>4</m>s and <m>5</m>s individuall
+        </p>
+        <p>
+          <m>\frac{5 \cdot 8}{12 \cdot 15} = \frac{\cancel{4} \cdot \cancel{5} \cdot 2}{\cancel{4} \cdot \cancel{5} \cdot 9} = \frac{2}{9}</m>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Please note that you don't have to do it this way, but it can be convenient.
+      If we write that there is a multiplication happening but do not simplify multiplication, it might just be easier to spot common factors.
+      Cancelling early on means that when we eventually do simplify the multiplication, we will be working with smaller numbers.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{20}{27} \cdot \frac{9}{14}</m>
+        </p>
+      </statement>
+        <solution>
+        <p>
+          <m>\frac{20}{27} \cdot \frac{9}{14} = \frac{20 \cdot 9}{27 \cdot 14} = \frac{180}{378} = \frac{10}{21}</m>
+        </p>
+        <p>
+          It takes a bit of work to simplify the multiplications in the numerator and denominator to obtain <m>\frac{180}{378}</m> in the first place. 
+          Then, due to the numbers being large, it takes considerable effort to reduce this fraction to its equal value <m>\frac{10}{21}</m>.
+          This solution is completely valid, but the second solution below shows how we can avoid the large-number multiplications by canceling common factors before simplifying the multiplication.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          <m>\frac{20}{27} \cdot \frac{9}{14} = \frac{20 \cdot 9}{27 \cdot 14}</m>
+        </p>
+        <p>
+          The numerator and denominator both have factors of <m>9</m> and <m>2</m>, so we can cancel those common factors:
+        </p>
+        <p>
+          <m>\frac{20 \cdot 9}{27 \cdot 14} = \frac{\cancel{9} \cdot \cancel{2} \cdot 10}{\cancel{9} \cdot 3 \cdot \cancel{2} \cdot 7} = \frac{10}{21}</m>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{3ab}{10c} \cdot \frac{55bc}{21a^2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First we indicate the multiplication without simplifying:
+        </p>
+        <p>
+          <m>\frac{3ab}{10c} \cdot \frac{55bc}{21a^2} = \frac{3ab \cdot 55bc}{10c \cdot 21a^2} = \frac{3ab \cdot 55bc}{10c \cdot 21 \cdot a \cdot a}</m>
+        </p>
+        <p>
+          Above, we rewrote <m>a^2</m> as <m>a \cdot a</m>. 
+          The factors that appear in both the numerator and denominator are <m>5</m> and <m>3</m> and <m>a</m> and <m>c</m>.
+        </p>
+        <p>
+          <m>
+            \frac{3ab \cdot 55bc}{10c \cdot 21 \cdot a \cdot a} = \frac{\cancel{3} \cdot b \cdot \cancel{5} \cdot 11 \cdot b \cdot \cancel{c}}{\cancel{5} \cdot 2 \cdot \cancel{3} \cdot 7 \cdot \cancel{a} \cdot a} = 
+            \frac{11 \cdot b \cdot b}{14a}
+            = \frac{11b^2}{14a}
+          </m>
+          where we rewrote <m>b \cdot b</m> as <m>b^2</m>.
+        </p>
+      </solution>
+    </example>
+
+    <warning>
+      <p>
+        Please be note that when multiplying fractions, we do not need a common denominator: sometimes people get overly cautious and try to treat multiplying fractions like adding fractions.
+        Let's look at an example and see what the common error is:
+        <ol>
+          <li>
+            <p>
+              When asked to simplify <m>\frac{4}{9} \cdot \frac{5}{9}</m> 
+              it is tempting to think about common denominators (because we notice that both fractions already have the same denominator of <m>9</m>)
+              but it is incorrect to state the result of simplying this multiplication as <m>\frac{20}{9}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Before talking about what we <em>should</em> do and ignoring our work above,
+              let's talk about the work above, to see if we can take the experience and foundation that we've built to question the reasonableness of our answer:
+              Notice that the numerator is larger than the denominator in <m>\frac{20}{9}</m>, so this fraction is greater than <m>1</m>,
+              but both of the fractions we started with were less than <m>1</m>, so it doesn't make sense that their product would be greater than <m>1</m>.
+              In fact, the pizza diagram for <m>\frac{4}{9} \cdot \frac{5}{9}</m> would take just <em>some</em> of the slices from a square pizza that was cut into 
+              a <m>9</m>-by-<m>9</m> grid of <m>81</m> slices, so the resulting fraction should be less than <m>1</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The correct simplification is <m>\frac{4}{9} \cdot \frac{5}{9} = \frac{4 \cdot 5}{9 \cdot 9} = \frac{20}{81}</m>.
+              Notice that the denominator of the result is <m>81</m>, not <m>9</m>.
+              The denominator of the result is the product of the denominators of the two fractions we started with: <m>9 \cdot 9 = 81</m>, 
+              even though the two denominators that we started with were the same.
+              (This is different from adding fractions, where the denominator of the result was the common denominator.)
+              The fact that we had common denominators is actually a distraction, and we should ignore it.
+            </p>
+          </li>
+          <li>
+            <p>
+              Here is a silghtly different example: <m>\frac{4}{9} \cdot \frac{5}{10}</m>. While this is a different problem, 
+              because the only change was by slightly changing the denominator of the second fraction, it seems reasonable that the final answer to this question 
+              would be close to the final answer of the previous question. Here, the denominators are different, so there is no distraction.
+              Following our Multiplying Fractions formula, we have <m>\frac{4}{9} \cdot \frac{5}{10} = \frac{20}{90}</m> by multiplying straight across.
+              Use a calculator to verify that <m>\frac{20}{90}</m> is close to <m>\frac{20}{81}</m>, but far from <m>\frac{20}{9}</m>.
+            </p>
+          </li>
+        </ol>
+      The takeaway is that when multiplying fractions just multiply straight across whether we have a common denominator or not!        
+      </p>
+    </warning>
 
   </subsection>
 
   <subsection xml:id="subsec-dividing-fractions">
     <title>Dividing fractions</title>
-    
+    <p>
+      Dividing by a fraction is the same as multiplying by its reciprocal.
+    </p>
+
+    <assemblage xml:id="assemblage-dividing-fractions">
+      <title>Dividing Fractions formula</title>
+      <p>
+        To divide by a fraction, multiply by its reciprocal and follow the Multiplying Fractions formula to simplify the multiplication of fractions.
+        <me>\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}</me>
+      </p>
+    </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{2}{3} \div \frac{5}{7}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{2}{3} \div \frac{5}{7} = \frac{2}{3} \cdot \frac{7}{5} = \frac{14}{15}</m>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Although the question didn't write the division symbol <m>\div</m>, the fraction bar indicates division.
+          (So we could rewrite the problem as <m>\frac{4}{9} \div \frac{2}{3}</m>, and we'll say this is asking the same question.)
+          However, to practice this new format, let's leave the original question in this format and work from there.
+          <me>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,} = \frac{4}{9} \cdot \frac{3}{2} = \frac{12}{18} = \frac{2}{3}.</me>
+          From the second-to-last expression to the last expression, we reduced the fraction.
+        </p>
+      </solution>
+    </example>
+
+    <warning>
+      <p>
+        It is often tempting to see a question in this format <m>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,}</m>
+        and in the desire to multiply by the reciprocal, something unintentional remains in the writing.
+        For example, looking to the previous computation, when starting with <m>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,}</m>
+        the next expression shouldn't read <m>\frac{\,\frac{4}{9} \cdot \frac{3}{2} \,}{\,\frac{2}{3}\,}</m>.
+        The point is that multiplying by <m>\frac32</m> is what <em>replaces</em> dividing by <m>\frac23</m>,
+        so we should either have <m>\frac23</m> in the denominator or have the multiplication by <m>\frac32</m>, but not both.
+      </p>
+    </warning>
+
+    <p>
+      How would we divide between a fraction and a non-fraction? As usual, turn the non-fraction into a fraction with denominator <m>1</m>.
+    </p>
+
+    <example xml:id="example-2-divide-3over5">
+      <statement>
+        <p>
+          Simplify <m>2 \div \frac{3}{5}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We rewrite <m>2</m> as <m>\frac{2}{1}</m>. Then:
+          <me>2 \div \frac{3}{5} = \frac{2}{1} \div \frac{3}{5} = \frac{2}{1} \cdot \frac{5}{3} = \frac{10}{3}</me>
+        </p>
+      </solution>
+    </example>
   </subsection>
 
-  <subsection xml:id="subsec-clarifications">
-    <title>Clarifications</title>    
-    <p>Review add/sub/mult/div fractions, when common denominator needed, when not</p>
+
+
+  <subsection xml:id="subsec-clarifications-and-details">
+    <title>Clarifications and details</title>    
+    <p>Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.</p>
     <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
 
-  </subsection>
-
-  <subsection xml:id="subsec-representations">
-    <title>Mixed fractions, improper fractions, and decimals in algebra</title>    
-    <p>Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.</p>
-    <p>Two correct (and one incorrect) interpretation of <m>5 \frac{3}{7}</m>.</p>
+    <p>
+      Two correct (and one incorrect) interpretation of <m>2 \frac{3}{5}</m>.
+      <xref ref="example-2-plus-3over5" />
+      <xref ref="example-2-times-3over5" />      
+    </p>
 
   </subsection>
 
@@ -932,7 +1337,7 @@
 
       <p>
       Let's revisit the applications we introduced at the beginning of this section.
-      <ol>
+      <ul>
         <li>
           <p>
             A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe.
@@ -971,7 +1376,7 @@
             A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You put in <m>\frac{1}{3}</m> cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?
           </p>
         </li>
-      </ol>
+      </ul>
     </p>
     
   </subsection>
@@ -980,7 +1385,40 @@
 		<title>Summary</title>
 
     <p>
-      Text
+      <ol>
+        <li>
+          <p>
+            We can take a fraction and create a fraction of the same value by multiplying by the same quantity on the top and bottom.
+          </p>
+        </li>
+        <li>
+          <p>
+            Undoing the multiplying of the same thing on top/bottom is the cancelling of a common factor. We can only cancel common factors, not common terms.
+            (Recall that <term>factor</term> refers to the pieces of <term>multiplication</term>.)
+          </p>
+        </li>
+        <li>
+          <p>
+            To simplify adding or subtracting fractions, we need a common denominator first.
+          </p>
+        </li>
+        <li>
+          <p>
+            To multiply fractions, multiply straight across whether we have a common denominator or not.
+          </p>
+        </li>
+        <li>
+          <p>
+            To divide two fractions, note that dividing by a fraction is the same thing as multiplying by its reciprocal.
+          </p>
+        </li>
+        <li>
+          <p>
+            Improper/mixed/parentheses/etc.
+          </p>
+        </li>
+      </ol>
+    
     </p>
   </subsection>
 
