@@ -1320,13 +1320,100 @@
 
 
   <subsection xml:id="subsec-clarifications-and-details">
-    <title>Clarifications and details</title>    
+    <title>Clarifications and details</title>
+
+    <p>
+      Let's clarify some details about fractions. It will be easier to discuss this using a concrete example, but the discussion here applies in general.
+      What we discuss will lead to important clarifications and expectations.
+      Along the way, we discuss convenient places to stop working on a problem (it's always good to know when to <em>stop</em> and not work further than you have to!),
+      because some formats of writing will be easier to work with in algebra than other formats.
+    </p>
+
+    <p>
+      Suppose somone wrote <m>2 \frac{3}{5}</m> on paper. Then:
+      <ul>
+        <li>
+          <p>
+            Someone might have written <m>2 \frac{3}{5}</m> with the intent of writing a <term>mixed fraction</term>.
+            The <em>mixed</em> part of the name refers to the fact that there is a non-fraction part (<m>2</m>) and a fraction part (<m>\frac{3}{5}</m>) mixed together.
+            Using the standard procedure for converting a mixed fraction into an improper fraction, the value of <m>2 \frac{3}{5}</m> is <m>\frac{2 \cdot 5 + 3}{5}</m> which simplifies to <m>\frac{13}{5}</m>.
+          </p>
+          <p>
+            This is a good time to mention that writing <m>2 \frac{3}{5}</m> to mean a mixed fraction is actually shorthand for <m>2 + \frac{3}{5}</m>.
+            In fact, in <xref ref="example-2-plus-3over5" /> we had simplified <m>2 + \frac{3}{5}</m> to get <m>\frac{13}{5}</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            An entirely different view is possible. Someone might have written <m>2 \frac{3}{5}</m> to mean <m>2 \cdot \frac{3}{5}</m>, 
+            since a missing operation symbol is actually a hidden multiplication sign.
+            In <xref ref="example-2-times-3over5" />, we simplified <m>2 \cdot \frac{3}{5}</m> to get <m>\frac{6}{5}</m>.
+            Please note that <m>\frac{6}{5}</m> is not the same as <m>\frac{13}{5}</m>.
+            The two interpretations that we already have lead to different results: 
+            the mixed fraction intent leads to <m>\frac{13}{5}</m> while treating a missing operation symbol as multiplication leads to <m>\frac{6}{5}</m>.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            We should bring up a third possibility, though what we are about to bring up is a common error of writing.
+            Suppose we were in a situation where someone needs to start with the fraction <m>\frac{3}{5}</m> and multiply the top and bottom by <m>2</m>.
+            (A situation where this might happen is when we are tasked with simplifying <m>\frac35 + \frac7{10}</m>, and we'd need a common denominator to simplify the addition of fractions.)
+            In a situation where someone needs to start with the fraction <m>\frac35</m> and multiply the top and bottom by <m>2</m>, they might just write a single <m>2</m> next to the fraction,
+            which would look like this: <m>2 \frac{3}{5}</m>.
+            However, this is not a correct way to write what the writer intends.
+            With this incorrect writing the writer would usually recover and correct for this in the next step by writing <m>\frac{6}{10}</m> the result of actually multiplying by <m>2</m> on top and bottom.
+            You can use a calculator to check that <m>\frac{6}{10}</m> is not equal to either <m>\frac{13}{5}</m> or <m>\frac{6}{5}</m>.
+            In fact, <m>\frac{6}{10}</m> is equal to <m>\frac{3}{5}</m>, which makes sense because of what the Equal Fractions formula tells us.
+          </p>
+          <p>
+            When the desire is to multiply by two on top and on bottom, there are two ways to do this that are clear and unambiguous:
+            <ol>
+              <li>
+                <p>
+                  Write the <q>times <m>2</m></q> both on top <em>and</em> on bottom: <m>\frac35 = \frac{2 \cdot 3}{2 \cdot 5} = \frac{6}{10}</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Write <em>neither</em> the <m>2</m> on top <em>nor</em> the <m>2</m> on bottom, but perform and simplify these actions nonetheless: <m>\frac35 = \frac{6}{10}</m>
+                </p>
+              </li>
+            </ol>
+            But what we <em>really</em> must avoid doing is writing a <em>single</em> <m>2</m> to mean that we are multiplying by <m>2</m> on top and bottom.
+            So writing <m>2 \frac{3}{5}</m> cannot mean for us that we are multiplying by <m>2</m> on top and on bottom, even if there's a lot of spacing between the <m>2</m> and the fraction.
+            If you wish to write what you're multiplying by, just be sure to write two copies: one on top and one on bottom.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Maybe it's shocking to see that the same excerpt of writing <m>2 \frac35</m> can be interpreted two different ways leading to two different numbers.
+      This discussion leads to some important ideas.
+      First, let's present an expectation regarding our final answers for fractions:
+    </p>
+    <assemblage xml:id="assemblage-expectation-improper-fractions">
+      <title>Expectation for Fraction Format</title>
+      <p>
+        We expect our final answers for fractions to be in improper fraction form whenever possible.
+        Unless specifically requested by the question, we will never present an answer as a mixed fraction.
+        Whenever we write a mixed fraction, we should <em>actually mention</em> that our writing should be interpreted as a mixed fraction.
+      </p>
+    </assemblage>
+    <p>
+      You may be more used to mixed fractions and feel offended that the expectation avoids mixed fracitons and favors improper fractions instead.
+      Convenience!
+      We don't know...
+    </p>
+
+
     <p>Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.</p>
     <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
 
     <p>
       Two correct (and one incorrect) interpretation of <m>2 \frac{3}{5}</m>.
-      <xref ref="example-2-plus-3over5" />
       <xref ref="example-2-times-3over5" />      
     </p>
 
