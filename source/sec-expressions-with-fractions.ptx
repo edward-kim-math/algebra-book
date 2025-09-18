@@ -1604,13 +1604,121 @@
       </statement>
     </example>
 
-    <p>
-      AAAA
-            and this connection is also important when we are working with algebraic expressions that involve fractions:
-      by understanding the hidden parentheses, we can enhance and clarify what we've said about when we can cancel in fractions.
+    <example>
+      <statement>
+        <p>
+          From a general chemistry class, a student got a value of <m>\frac{3.6 \cdot 10^{-5}}{(4.0 \cdot 10^{-2})(2.5 \cdot 10^{-2})}</m> on paper.
+          How should this be entered on a calculator?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          There are two sets of parentheses in the denominator already, but we should insert a set of parentheses around the entire denominator.
+          We should also insert a set of parentheses around the numerator.
+          Therefore, we should enter <m>(3.6 \cdot 10^{-5}) \div ((4.0 \cdot 10^{-2})(2.5 \cdot 10^{-2}))</m> into the calculator.
+        </p>
+      </solution>
+    </example>
 
+    <example>
+      <statement>
+        <p>
+          If you deposited <m>100</m> dollars every month for <m>10</m> years into an account that ears <m>6\%</m> interest compounded monthly,
+          we can compute what the balance will be at the end of <m>10</m> years by applying an equation in finance, and we would obtain
+          <me>100 \cdot \frac{(1+\frac{0.06}{12})^{(12)(10)}-1}{\frac{0.07}{12}}</me>
+          as the balance. How should this be input into the calculator so that we can really understand what the balance will be?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Insert the entire numerator and denominator of the fraction in parentheses. In a calculator, we would type 
+          <m>100 * ((1+(0.06/12))^((12)(10))-1) / (0.06/12)</m>.
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      This fact that the entire numerator and the entire denominator are each in hidden parentheses,
+      we can enhance and clarify what we've said about when we can cancel in fractions.
     </p>
 
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{4(x+2)}{x+2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let's draw in the hidden parentheses to surround the entire denominator.
+          <me>\frac{4(x+2)}{x+2} = \frac{4(x+2)}{(x+2)} = \frac41 = 4</me>
+          We canceled the factor of <m>(x+2)</m> in the numerator and denominator
+        </p>
+        <p>
+          If it still feels hard to view <m>(x+2)</m> in the denominator, that's okay!
+          I think that means you're doing a great job of <em>really</em> digging into the idea that factors are the pieces of a multiplication (and where <em>is</em> multiplication in the denominator)?
+          Let's rewrite a solution, noting that multiplying anything by <m>1</m> doesn't change a value, so <m>1 \cdot (x+2) = x+2</m>.
+          <me>\frac{4(x+2)}{x+2} = \frac{4 \cdot (x+2)}{1 \cdot (x+2)} = \frac41 = 4</me>
+          In fact, writing this level of detail explains why we have a <m>1</m> instead of a <m>0</m> in the denominator after the cancellation happened.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{(x+8)^2}{x+8}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Recall that squaring a thing means to multiply the thing by itself, even if that ``thing'' is longer to write, like <m>x+8</m>, so <m>(x+8)^2=(x+8) \cdot (x+8)</m>.
+          Let's make that replacement in the numerator, and then also surround the denominator in parentheses, making those hidden parentheses visible.
+          <me>\frac{(x+8)^2}{x+8} = \frac{(x+8) \cdot (x+8)}{1 \cdot (x+8)} = \frac{x+8}{1} = x+8</me>
+          In the second to last expression, which is the moment we just finished cancellation, we could have written <m>\frac{(x+8)}{1}</m> instead of <m>\frac{x+8}{1}</m>. 
+          However, since the numerator was <m>(x+8)</m>, I wanted to practice the principle that the numerator of a fraction is always in a hidden set of parentheses, but <q>backwards</q> in a sense:
+          just as much as we can draw in the hidden parentheses around the entire top or entire bottom, we can remove parentheses that surround the entire top or entire bottom.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{x+8}{(x+8)}^2</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>\frac{x+8}{(x+8)}^2 = \frac{(x+8)}{(x+8) \cdot (x+8)} = \frac1{(x+8)} = \frac{1}{x+8}</me>
+          We canceled the factor of <m>(x+8)</m> in the numerator and denominator.
+          One new thing to note in this question: after cancellation, what's left is the factor of <m>(x+8)</m> in the denominator, 
+          and we just removed the parentheses that surrounded the entire denominator.
+          However, a common error that occurs right at the moment of cancellation is that it's temtping to put the factor of <m>(x+8)</m> in the numerator.
+          Note that after cancellation, the <m>(x+8)</m> factor that didn't cancel was in the denominator, and shouldn't move up to the numerator.
+        </p>
+      </solution>
+    </example>
+
+    <warning>
+      After cancelling the same factor on top and bottom of a fraction, 
+      anything that remains uncanceled should stay in the same part of the fraction.
+      Factors that are in the denominator should remain in the denominator, and shouldn't move up to the numerator.
+      Factors that are in the numerater should remain in the numerator, and shouldn't move down to the denominator.
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{(x+3)(x+5)}{(x+3)(x+5)(x+7)}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\frac{(x+3)(x+5)}{(x+3)(x+5)(x+7)} = \frac{1}{(x+7)} = \frac1{x+7}</m>
+        </p>
+      </solution>
+    </example>
 
   </subsection>
 
