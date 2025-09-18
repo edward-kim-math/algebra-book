@@ -1576,7 +1576,41 @@
       </p>
     </assemblage>
 
-    <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
+    <p>
+      Changing gears, there's one thing that we haven't mentioned yet that's worth clarifying: The top and bottom of a fraction are each in what I'd like to call hidden parentheses.
+    </p>
+
+    <assemblage xml:id="assemblage-fraction-top-bottom">
+      <title>Fractions have hidden parentheses</title>
+      <p>
+        The top and bottom of a fraction are each in hidden parentheses..
+      </p>
+    </assemblage>
+
+    <p>
+      Let's clarify what this means, and then talk about how this connects to the Order of Operations.
+      The connection to the Order of Operations is really important in applied settings when a fraction-based expression on paper 
+      needs to be input into a calculator to get a decimal approximation.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          In the fraction <m>\frac{2+3}{5-1}</m>, the top is <m>2+3</m> and the bottom is <m>5-1</m>.
+          The top and bottom are each in hidden parentheses, so we can rewrite this as <m>\frac{(2+3)}{(5-1)}</m>.
+          We can also write this as <m>(2+3) \div (5-1)</m>, but cannot write this as <m>2+3 \div 5-1</m> due to the Order of Operations.
+          Therefore, to enter <m>\frac{2+3}{5-1}</m> into a calculator, type <m>(2+3) \div (5-1)</m>, including the parentheses.
+        </p>
+      </statement>
+    </example>
+
+    <p>
+      AAAA
+            and this connection is also important when we are working with algebraic expressions that involve fractions:
+      by understanding the hidden parentheses, we can enhance and clarify what we've said about when we can cancel in fractions.
+
+    </p>
+
 
   </subsection>
 
