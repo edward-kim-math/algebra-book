@@ -625,6 +625,61 @@
     </example>
 
     <p>
+      Because we are doing algebra, our fractions may have variables in them.
+      The Adding Fractions formula still applies, and we still need a common denominator to simplify the addition of fractions.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{2x}{3} + \frac{5x}{4}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>\frac{2x}{3} + \frac{5x}{4} = \frac{8x}{12} + \frac{15x}{12} = \frac{8x+15x}{12} = \frac{23x}{12}</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{3}{2x^2y} + \frac{5}{4x}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Recall that <m>x^2</m> means <m>x \cdot x</m>. 
+          To achieve a common denominator of <m>4x^2y</m>, 
+          let's multiply both the top and bottom of the first fraction by <m>2</m>, 
+          and multiply both the top and bottom of the second fraction by <m>xy</m>.
+          <me>\frac{3}{2x^2y} + \frac{5}{4x} = \frac{6}{4x^2y} + \frac{5xy}{4x^2y} = \frac{6+5xy}{4x^2y}</me>
+          Note that our final answer is <m>\frac{6+5xy}{4x^2y}</m>, and there is nothing that will cancel:
+          the denominator is a product (the result of multiplication) so its pieces (called factors) are <em>eligible</em> to be cancelled,
+          but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{4a}{3bcd} + \frac{2b}{5acd^2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Recall that <m>d^2</m> means <m>d \cdot d</m>. 
+          To achieve a common denominator of <m>15abcd^2</m>, 
+          let's multiply both the top and bottom of the first fraction by <m>5d</m>, 
+          and multiply both the top and bottom of the second fraction by <m>3a</m>.
+          (Be sure to read <m>15abcd^2</m> using the Order of Operations: the exponent does not apply to all variables, just to <m>d</m>.)
+          <me>\frac{4a}{3bcd} + \frac{2b}{5acd^2} = \frac{20ad}{15abcd^2} + \frac{6b^2}{15abcd^2} = \frac{20ad + 6b^2}{15abcd^2}</me>
+        </p>
+      </solution>
+    </example>
+
+    <p>
       How should we add a fraction and a non-fraction together? Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
     </p>
     <assemblage>
@@ -684,7 +739,46 @@
         <p>
           <me>\frac56 - \frac29 = \frac{15}{18} - \frac{4}{18} = \frac{15-4}{18} = \frac{11}{18}</me>
           The third expression <m>\frac{15-4}{18}</m> may be skipped if you feel comfortable,
-          but we specifically included this step because going from the second expression <m>\frac{15}{18}-\frac{4}{18}</m> to the third expression <m>\frac{15-4}{18}</m> highlights the role of the <em>Subtracting Fractions</em> formula.
+          but we specifically included this step because going 
+          from the second expression <m>\frac{15}{18}-\frac{4}{18}</m> 
+          to the third expression <m>\frac{15-4}{18}</m> highlights the role of the <em>Subtracting Fractions</em> formula.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{5}{12a} - \frac{3}{8ab}</m> 
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>\frac{5}{12a} - \frac{3}{8ab} = \frac{10b}{24ab} - \frac{9a}{24ab} = \frac{10b-9a}{24ab}</me>
+          In this example, to achieve a common denominator of <m>24ab</m>, 
+          the top and bottom of the first fraction both got multiplied by <m>2b</m>, 
+          while the top and bottom of the second fraction both got multiplied by <m>3a</m>.
+        </p>
+        <p>
+          Note that nothing cancels in <m>\frac{10b-9a}{24ab}</m>, because
+          the denominator is a product (the result of multiplication) so its pieces (called factors) are <em>eligible</em> to be cancelled,
+          but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{4a}{3bc} - \frac{2b}{5ac}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>\frac{4a}{3bc} - \frac{2b}{5ac} = \frac{20a^2}{15abc} - \frac{6b^2}{15abc} = \frac{20a^2 - 6b^2}{15abc}</me>
+          In this example, to achieve a common denominator of <m>15abc</m>, 
+          the top and bottom of the first fraction both got multiplied by <m>5a</m>, 
+          while the top and bottom of the second fraction both got multiplied by <m>3b</m>.
         </p>
       </solution>
     </example>
@@ -693,7 +787,9 @@
     <assemblage>
       <title>Subtraction involving a fraction and a non-fraction</title>
       <p>
-        Turn the non-fraction into a fraction with denominator <m>1</m>. Then use the Subtracting Fractions formula, noting that this formula requires a common denominator.
+        Turn the non-fraction into a fraction with denominator <m>1</m>. 
+        Then use the Subtracting Fractions formula, 
+        noting that this formula requires a common denominator.
       </p>
     </assemblage>
 
@@ -1304,6 +1400,19 @@
       </p>
     </warning>
 
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{\,\frac{3}{4ac}\,}{\,\frac{5b}{6a}\,}</m>
+        </p>
+        </statement>
+      <solution>
+        <p>
+          <me>\frac{\,\frac{3}{4ac}\,}{\,\frac{5b}{6a}\,} = \frac{3}{4ac} \cdot \frac{6a}{5b} = \frac{18a}{20abc} = \frac{9}{10bc}</me>
+        </p>
+      </solution>
+    </example>
+
     <p>
       How would we divide between a fraction and a non-fraction? As usual, turn the non-fraction into a fraction with denominator <m>1</m>.
     </p>
@@ -1468,8 +1577,6 @@
     </assemblage>
 
     <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
-
-    <p>Maybe need to put in some earlier examples of operations with variables. Nothing too involved, though!</p>
 
   </subsection>
 
