@@ -1296,6 +1296,12 @@
         The point is that multiplying by <m>\frac32</m> is what <em>replaces</em> dividing by <m>\frac23</m>,
         so we should either have <m>\frac23</m> in the denominator or have the multiplication by <m>\frac32</m>, but not both.
       </p>
+      <p>
+        The analogy in the question before this one would be like if someone turned <m>\frac{2}{3} \div \frac{5}{7}</m> into
+        <m>\frac{2}{3} \div \frac{5}{7} \cdot \frac{7}{5}</m> instead of <m>\frac{2}{3} \cdot \frac{7}{5}</m>.
+        Multiplying by <m>\frac75</m> is what <em>replaces</em> dividing by <m>\frac57</m>, 
+        so we should either divide by <m>\frac57</m> or multiply by <m>\frac75</m>, but not both.
+      </p>
     </warning>
 
     <p>
@@ -1305,7 +1311,7 @@
     <example xml:id="example-2-divide-3over5">
       <statement>
         <p>
-          Simplify <m>2 \div \frac{3}{5}</m>
+          Simplify <m>2 \div \frac{3}{5}</m>.
         </p>
       </statement>
       <solution>
@@ -1330,7 +1336,7 @@
     </p>
 
     <p>
-      Suppose somone wrote <m>2 \frac{3}{5}</m> on paper. Then:
+      Suppose somone wrote <m>2 \frac{3}{5}</m>. Then:
       <ul>
         <li>
           <p>
