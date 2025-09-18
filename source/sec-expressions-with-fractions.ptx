@@ -1409,14 +1409,60 @@
       Therefore, it's actually convenient to leave any fractions as improper fractions in their final answers.
     </p>
 
+    <example>
+      <statement>
+        <p>
+          Simplify <m>2 \frac{3}{5} \cdot 3 \frac{7}{10}</m> where we interpret <m>2 \frac{3}{5}</m> and <m>3 \frac{7}{10}</m> as mixed fractions.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We rewrite the first mixed fraction <m>2 \frac{3}{5}</m> as <m>\frac{13}{5}</m>.
+          We rewrite the second mixed fraction <m>3 \frac{7}{10}</m> as <m>\frac{37}{10}</m>.
+          Then, the product is
+          <me>\frac{13}{5} \cdot \frac{37}{10} = \frac{481}{50}.</me>
+          By going through this example, I hope you really saw that it's preferrable to work with improper fractions anyway.
+          In this question, we only had the step of completing one opertaion, but in a larger problem, we might need to take the result and do something further.
+          It would be more convenient to do any further task working the improper fraction <m>\frac{481}{50}</m>, 
+          so that's why we don't really bother converting this into a mixed fraction.
+        </p>
+      </solution>
+    </example>
 
-    <p>Mixed fractions, improper fractions, decimal answers. Why improper fractions are the focus.</p>
-    <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
+    <note>
+      <p>
+        Perhaps the history of calling <m>\frac{481}{50}</m> an <term>improper fraction</term> is what makes us a little uneasy.
+        We use this language here (as opposed to the fraction <m>\frac{47}{50}</m>) because the numerator is larger than the denominator in <m>\frac{481}{50}</m>.
+        I guess I'd call <m>\frac{x}{y+3}</m> an <q>improper fraction</q> only because I wouldn't call <m>\frac{x}{y+3}</m> a mixed fraction,
+        but because there are variables, I don't really know if <m>x</m> is larger than <m>y+3</m> or not.
+        However, <m>\frac{x}{y+3}</m> behaves like it needs to, and we can apply our fraction operations as described. For example,
+        <me>\frac{x}{y+3} + \frac{z-6}{y+3} = \frac{x+z-6}{y+3}.</me>
+      </p>
+    </note>
 
     <p>
-      Two correct (and one incorrect) interpretation of <m>2 \frac{3}{5}</m>.
-      <xref ref="example-2-times-3over5" />      
+      Just like improper fractions are easier to work with than mixed fractions,
+      improper fractions are are generally easier to work with than decimal represtations.
+      Therefore, it is often more convenient for future steps to leave <m>\frac98</m> as is instead of presenting this as <m>1.125</m>,
+      and similarly, it is more convenient for us (and less work!) to leave <m>\frac38</m> as it is instead of presenting this as <m>0.375</m>.
     </p>
+
+    <assemblage xml:id="assemblage-why-mixed-decimal">
+      <title>Well then, why have mixed fractions or decimals in the first place?</title>
+      <p>
+        In everyday settings, people are used to seeing mixed fractions.
+        Therefore, at the very end of an applied problem, when we are done and we are certain that the value will not be needed in further work,
+        it would be reasonable to state a final answer (in this limited situation) as a mixed fraction.
+      </p>
+      <p>
+        The role of decimals is somewhat similar: when you have a final answer that is an improper fraction but you need to know a <q>ballpark figure</q> representation
+        of that number, a decimal is helpful. For example, I don't really have a good sense of the value of <m>\frac{2711348695}{182638791}</m>,
+        but I can put this into a calculator to see the value is close to <m>14.8454152601</m>, a decimal representation.
+      </p>
+    </assemblage>
+
+    <p>The top and bottom of a fraction are in (hidden) parentheses. Affects calculator input. OOO</p>
+
 
   </subsection>
 
