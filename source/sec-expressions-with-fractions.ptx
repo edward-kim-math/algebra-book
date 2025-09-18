@@ -1197,9 +1197,9 @@
 
     <warning>
       <p>
-        Please be note that when multiplying fractions, we do not need a common denominator: sometimes people get overly cautious and try to treat multiplying fractions like adding fractions.
+        Please note that when multiplying fractions, we do not need a common denominator: sometimes people get overly cautious and try to treat multiplying fractions like adding fractions.
         Let's look at an example and see what the common error is:
-        <ol>
+        <ul>
           <li>
             <p>
               When asked to simplify <m>\frac{4}{9} \cdot \frac{5}{9}</m> 
@@ -1236,7 +1236,7 @@
               Use a calculator to verify that <m>\frac{20}{90}</m> is close to <m>\frac{20}{81}</m>, but far from <m>\frac{20}{9}</m>.
             </p>
           </li>
-        </ol>
+        </ul>
       The takeaway is that when multiplying fractions just multiply straight across whether we have a common denominator or not!        
       </p>
     </warning>
