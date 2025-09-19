@@ -1725,50 +1725,145 @@
   <subsection xml:id="subsec-fraction-applications-revisited">
     <title>Applications Revisited</title>
 
-      <p>
+    <p>
       Let's revisit the applications we introduced at the beginning of this section.
-      <ul>
-        <li>
-          <p>
-            A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe.
-            How many cups of flour do you need?
-          </p>
-        </li>
-        <li>
-          <p>
-            You have a two-by-four piece of lumber that measures <m>2\frac{5}{8}</m> feet long and another that is <m>1\frac{3}{4}</m> feet long.
-            You will glue the two pieces together to create one leg of a nightstand.
-            But you'll need to go to the store to make three other legs of the same height. How long is each leg?
-          </p>    
-        </li>
-        <li>
-          <p>
-            A swimming pool is being filled at a rate of <m>8\frac{1}{4}</m> gallons per hour. How many gallons of water will be in the pool after <m>2\frac{1}{4}</m> hour?
-          </p>
-        </li>
-        <li>
-          <p>
-            A car is traveling at a speed of <m>60</m> miles per hour. How far will the car travel in <m>4\frac{1}{2}</m> hours?
-          </p>
-        </li>
-        <li>
-          <p>
-            A group of <m>5</m> friends go out to dinner. The bill comes to <m> \$48.75</m>. If they split the bill evenly, how much does each person pay?
-          </p>
-        </li>
-        <li>
-          <p>
-            A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You only have a <m>\frac{1}{3}</m> cup measuring cup. How many <m>\frac{1}{3}</m> cups of sugar do you need to use to get the correct amount?
-          </p>
-        </li>
-        <li>
-          <p>
-            A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You put in <m>\frac{1}{3}</m> cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?
-          </p>
-        </li>
-      </ul>
     </p>
-    
+
+    <example>
+      <statement>
+        <p>
+          A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe.
+          How many cups of flour do you need?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The original recipe needs <m>5\frac{1}{4}</m> cups of flour, but we need to make <m>3\frac{1}{2}</m> times the recipe.
+          We have to multiply both of these numbers, which (at least through context) we can see are both mixed fractions.
+          We convert the two mixed fractions into improper fractions:
+          The mixed fraction <m>5\frac{1}{4}</m> is <m>\frac{21}{4}</m>, and the mixed fraction <m>3\frac{1}{2}</m> is <m>\frac{7}{2}</m>.
+          Then, we multiply the two improper fractions: 
+          <me>\frac{21}{4} \cdot \frac{7}{2} = \frac{147}{8}.</me>
+          Now, given that the problem is about baking, it makes a lot of sense to convert our final answer into a mixed fraction, since that's how measuring cups are typically used: 
+          We need <m>18\frac{3}{8}</m> cups of flour, as a mixed fraction.
+          As a reminder of what  mixed fraction is, if we wanted, we could actually write this quantity unambigously by writing <m>18+ \frac38</m> cups of flour.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          You have a two-by-four piece of lumber that measures <m>2\frac{5}{8}</m> feet long and another that is <m>1\frac{3}{4}</m> feet long.
+          You will glue the two pieces together to create one leg of a nightstand.
+          But you'll need to go to the store to make three other legs of the same height. How long is each leg?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we are gluing one piece of lumber to another, we need to add their measurements.
+          From context, both numbers provided are mixed fractions, so we convert them:
+          The mixed fraction <m>2\frac{5}{8}</m> is <m>\frac{21}{8}</m>, and the mixed fraction <m>1\frac{3}{4}</m> is <m>\frac{7}{4}</m>.
+          Then, we add the two improper fractions:
+          <me>\frac{21}{8} + \frac{7}{4} = \frac{21}{8} + \frac{14}{8} = \frac{35}{8}.</me>
+          Since we needed to simplify the addition of fractions, we first got both fractions to have a common denominator of <m>8</m>,
+          which we achieved by leaving the first fraction alone, and multiplying the numerator and denominator of the second fraction by <m>2</m>.
+          Each leg will be <m>\frac{35}{8}</m> feet long.
+          Now, given that the problem is about measuring lumber, it makes a lot of sense to convert our final answer into a mixed fraction, since that's how lumber is typically measured:
+          Each leg will be <m>4\frac{3}{8}</m> feet long, as a mixed fraction.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A swimming pool is being filled at a rate of <m>8\frac{1}{4}</m> gallons per hour. How many gallons of water will be in the pool after <m>2\frac{1}{4}</m> hours?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we are filling the pool at a rate of <m>8\frac{1}{4}</m> gallons per hour, and we are filling it for <m>2\frac{1}{4}</m> hours,
+          we need to multiply these two numbers.
+          From context, both numbers provided are mixed fractions, so we convert them:
+          The mixed fraction <m>8\frac{1}{4}</m> is <m>\frac{33}{4}</m>, and the mixed fraction <m>2\frac{1}{4}</m> is <m>\frac{9}{4}</m>.
+          Then, we multiply the two improper fractions:
+          <me>\frac{33}{4} \cdot \frac{9}{4} = \frac{297}{16}.</me>
+          The pool will have <m>\frac{297}{16}</m> gallons of water, or <m>18 \frac{8}{16}</m> gallons of water as a mixed fraction.
+          Note that when we simiplified <m>\frac{33}{4} \cdot \frac{9}{4}</m>, we need to multiply the two denominators together (even though they matched).
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A car is traveling at a speed of <m>60</m> miles per hour. How far will the car travel in <m>4\frac{1}{2}</m> hours?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we are traveling at a rate of <m>60</m> miles per hour, and we are traveling for <m>4\frac{1}{2}</m> hours,
+          we need to multiply these two numbers.
+          From context, the first number is not a mixed fraction, but the second number is a mixed fraction, so we convert it:
+          The mixed fraction <m>4\frac{1}{2}</m> is <m>\frac{9}{2}</m>.
+          Now, we are trying to compute <m>60 \cdot \frac{9}{2}</m>, and to resolve the awkwardness of multiplying a non-fraction by a fraction, we will turn <m>60</m> into <m>\frac{60}{1}</m>.
+          <me>60 \cdot \frac{9}{2} = \frac{60}{1} \cdot \frac{9}{2} = \frac{540}{2} = 270.</me>
+          The car will travel <m>270</m> miles.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A group of <m>5</m> friends go out to dinner. The bill comes to <m> \$48.75</m>. If they split the bill evenly, how much does each person pay?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can think of <m>48.75</m> as the mixed fraction <m>48\frac{75}{100}</m> or by reducing the fraction, we can say this is the mixed fraction <m>48\frac34</m>, 
+          and for the sake of nice computation, as an improper fraction, this is <m>\frac{195}{4}</m>.
+          We need the value of <m>\frac{195}{4}</m> to be a cost shared by five people equally, so we should divide this fraction by <m>5</m>.
+          We will actually make our very next step to change the <m>5</m> into <m>\frac51</m>.
+          <me>\frac{195}{4} \div 5 = \frac{195}{4} \div \frac{5}{1} = \frac{195}{4} \cdot \frac{1}{5} = \frac{195}{20} = \frac{39}{4}.</me>
+          Each person's share is <m>\frac{39}{4}</m> dollars, and this as a mixed fraction is <m>9\frac34</m> dollars and as a decimal is <m>9.75</m> dollars.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You have a <m>\frac{1}{3}</m> cup measuring cup. How many <m>\frac{1}{3}</m> cups of sugar do you need to use to get the correct amount?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to find the value of <m>\frac{3}{4} \div \frac{1}{3}</m>, which is the same as <m>\frac{3}{4} \cdot \frac{3}{1}</m>.
+          <me>\frac{3}{4} \div \frac{1}{3} = \frac{3}{4} \cdot \frac{3}{1} = \frac{9}{4}.</me>
+          We need to fill the one-third cup measuring cup that we have <m>\frac{9}{4}</m> times, or as a mixed fraction, <m>2\frac14</m> times.
+          So, to fulfill what the recipe wants, we should fill our <m>\frac{1}{3}</m> cup measuring cup full two times, and then do our best to estimate filling this measuring cup to one-fourth full.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You put in <m>\frac{1}{3}</m> cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since we already put in <m>\frac{1}{3}</m> cup of sugar, we need to find out what's left of the <m>\frac34</m> cup of sugar that we haven't put in yet.
+          That is, we need to find the value of <m>\frac{3}{4} - \frac{1}{3}</m>.
+          <me>\frac34 - \frac13 = \frac{9}{12} - \frac{4}{12} = \frac{5}{12}.</me>
+          We need to put in <m>\frac{5}{12}</m> cup of sugar to get back on track.
+        </p>
+      </solution>
+    </example>
+
   </subsection>
 
 	<subsection>
@@ -1804,7 +1899,21 @@
         </li>
         <li>
           <p>
-            Improper/mixed/parentheses/etc.
+            We stick to improper fractions as much as possible because it is much easier to perform operations on improper fractions, 
+            and only write a mixed fraction or decimal when an application calls for it.
+          </p>
+        </li>
+        <li>
+          <p>
+            The entire numerator of a fraction is in a set of parentheses, which can be written in explicitly, or be <q>hidden.</q>
+            Similarly, the denominator of a fraction is also in a set of parentheses, which can be written in explicitly, or be <q>hidden.</q>
+            This is important to keep in mind when entering an answer that has fractions into a calculator: ignoring this may lead to <em>very</em> different decimal value than intended.
+          </p>
+        </li>
+        <li>
+          <p>
+            The fact that both the top and bottom can each be thought of as being in a hidden set of parentheses also enhances our understanding of how we can cancel in fractions:
+            it still remains the case that we can only cancel common <em>factors</em>, but now we can see that the <em>entire</em> top and <em>entire</em> bottom can be considered factors through this understanding of hidden parentheses.
           </p>
         </li>
       </ol>
@@ -1819,7 +1928,7 @@
       <ol>
 
         <li>
-          <p>Write in your own words how each expression could be spoken aloud with clarity.
+          <p>Text.
             <ol>
               <li><m>8+a</m></li>
             </ol>

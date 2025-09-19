@@ -1,0 +1,8 @@
+WARNING : Using CLI version 2.29.1 but project's `requirements.txt`
+WARNING : is configured to use 2.27.0. Consider either installing
+WARNING : CLI version 2.27.0 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.29.1.
+INFO    : Building target print
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING: The "oscarlevin" style requested in publication/html/css is deprecated. Your book will be built with theme="denver". See the PreTeXt Guide for options for the newer HTML themes and their specification .
+INFO    : Generating any needed assets.
