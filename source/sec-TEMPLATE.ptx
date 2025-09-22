@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-solving-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Solving Equations</title>
+<section xml:id="sec-TITLE" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>TITLE</title>
 
 	<objectives>
 		<introduction>
@@ -16,7 +16,7 @@
     </ol>
 	</objectives>
 
-  <subsection xml:id="subsec-solving-equations-applications">
+  <subsection xml:id="subsec-TITLE">
     <title>Applications</title>
 
     <p>
@@ -42,15 +42,7 @@
   </subsection>
 
 	<subsection>
-		<title>AAAAA title</title>
-
-    <p>
-      Intro to equations.
-Technique with one copy of the variable.
-Multiple terms.
-Rewriting as multiple terms.
-Strategy comparison.
-    </p>
+		<title>subsection title</title>
 
     <assemblage permid="include-id">
       <title>text</title>

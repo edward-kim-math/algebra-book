@@ -1366,7 +1366,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Solving Equations",
-  "body": " Solving Equations  Intro to equations.  Technique with one copy of the variable.  Multiple terms.  Rewriting as multiple terms.  Strategy comparison.  "
+  "body": " Solving Equations    In this section, we learn how to:    .  .  .     Applications  Intro:   Text    Text    Text       AAAAA title  Intro to equations. Technique with one copy of the variable. Multiple terms. Rewriting as multiple terms. Strategy comparison.   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+},
+{
+  "id": "sec-solving-equations-2",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-2",
+  "type": "Objectives",
+  "number": "1.3",
+  "title": "",
+  "body": "  In this section, we learn how to:    .  .  .   "
+},
+{
+  "id": "sec-solving-equations-4-4",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-4-4",
+  "type": "Example",
+  "number": "1.3.1",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-solving-equations-4-5",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-4-5",
+  "type": "Try it",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-solving-equations-4-6",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-4-6",
+  "type": "Note",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Text  "
+},
+{
+  "id": "sec-solving-equations-4-8",
+  "level": "2",
+  "url": "sec-solving-equations.html#sec-solving-equations-4-8",
+  "type": "Warning",
+  "number": "1.3.4",
+  "title": "",
+  "body": " text  "
+},
+{
+  "id": "subsec-TITLE-applications-revisited-3",
+  "level": "2",
+  "url": "sec-solving-equations.html#subsec-TITLE-applications-revisited-3",
+  "type": "Example",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  Text    Answer   "
 },
 {
   "id": "sec-equations-with-fractions",
