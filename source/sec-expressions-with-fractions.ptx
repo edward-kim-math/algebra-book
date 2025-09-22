@@ -1432,6 +1432,90 @@
     </example>
   </subsection>
 
+  <subsection xml:id="subsec-additional-practice">
+    <title>Additional practice</title>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{3}{4} + \frac{2}{5} \cdot \frac{7}{8}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            \frac{3}{4} + \frac{2}{5} \cdot \frac{7}{8} = \frac{3}{4} + \frac{14}{40} = \frac{3}{4} + \frac{7}{20} = \frac{15}{20} + \frac{7}{20} = \frac{22}{20} = \frac{11}{10}.
+          </me>
+          Note that we had to simplify multiplication before simplifying addition.
+          It is easy to fall into the trap of simplifying addition (that is, working on simplifying <m>\frac34 + \frac25</m>) first, because we see the addition written first.
+          However, we still need to read expressions based on the Order of Operations, even if the expression contains fractions.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{2}{3} - \frac{6}{7} \div \frac{5}{2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The division must be simplified before the subtraction.
+          We turn dividing by <m>\frac52</m> into multiplying by <m>\frac25</m> instead.
+          <me>
+            \frac{2}{3} - \frac{6}{7} \div \frac{5}{2} = \frac{2}{3} - \frac{6}{7} \cdot \frac{2}{5} = \frac{2}{3} - \frac{12}{35} = \frac{70}{105} - \frac{36}{105} = \frac{34}{105}.
+          </me>          
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{2}{3x} - \frac{6y}{7} \cdot \frac{1}{2x}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            \frac{2}{3x} - \frac{6y}{7} \cdot \frac{1}{2x} 
+            = \frac{2}{3x} - \frac{6y \cdot 1}{7 \cdot 2x} 
+            = \frac{2}{3x} - \frac{6y}{14x} 
+            = \frac{2}{3x} - \frac{3y}{7x} 
+            = \frac{14 - 9y}{21x}.
+          </me>
+          Note that we cannot cancel part of the <m>14</m> with part of the <m>21</m> because <m>14</m> is not a factor of the numerator.
+          Similarly, we cannot cancel part of the <m>9</m> with part of the <m>21</m> because <m>9</m> is not a factor of the numerator.
+        </p>
+      </solution>
+    </example>    
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{2x}{3y} + \frac{\,\frac{3x}{4y}\,}{\,\frac{5y}{6x}\,}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can simplify the division of fractions before simplifying addition:
+          <me>
+            \frac{2x}{3y} + \frac{\,\frac{3x}{4y}\,}{\,\frac{5y}{6x}\,} = \frac{2x}{3y} + \frac{3x \cdot 6x}{4y \cdot 5y} = \frac{2x}{3y} + \frac{18x^2}{20y^2} = \frac{2x}{3y} + \frac{9x^2}{10y^2}.
+          </me>
+          Now we need a common denominator to simplify addition of fractions:
+          <me>
+            \frac{2x}{3y} + \frac{9x^2}{10y^2} = \frac{2x \cdot 10y}{3y \cdot 10y} + \frac{9x^2 \cdot 3y}{10y^2 \cdot 3y} = \frac{20xy}{30y^2} + \frac{27x^2y}{30y^2} = \frac{20xy + 27x^2y}{30y^2}.
+          </me>
+          Finally, we can factor out <m>y</m> in the numerator, and having factors of <m>y</m> in both the numerator and denominator allows us to cancel <m>y</m>:
+          <me>
+            \frac{20xy + 27x^2y}{30y^2} = \frac{y(20x + 27x^2)}{30y^2} = \frac{20x + 27x^2}{30y}.
+          </me>
+        </p>
+      </solution>
+    </example>
+
+  </subsection>
 
 
   <subsection xml:id="subsec-clarifications-and-details">
