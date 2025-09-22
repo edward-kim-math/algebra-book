@@ -2019,7 +2019,7 @@
     <p>
       <ol>
 
-        <li>
+        <li xml:id="practice-fraction-equal-values">
           <p>
             Practice rewriting fractions using the Equal Fractions formula.
             Pay attention to unintended meanings of notation in your work, as described in Section <xrf ref="subsec-clarifications-and-details" />. 
@@ -2041,6 +2041,7 @@
             </ol>
           </p>
         </li>
+
         <li>
           <p>
             Simplify the following expressions.
@@ -2075,6 +2076,14 @@
               <li><p><m>\frac{7}{8} \cdot \frac{2}{5} + \frac{3}{10}</m>.</p></li>
               <li><p><m>\frac{4}{9} + \frac{2}{3} \div \frac{8}{27}</m>.</p></li>
               <li><p><m>\frac{5}{12} - \frac{3}{16} + \frac{7}{24}</m>.</p></li>
+            </ol>
+          </p>
+        </li>
+        
+        <li>
+          <p>
+            Simplify the following expressions.
+            <ol>
 
               <!-- Introducing variables -->
               <li><p><m>\frac{x}{2} + \frac{x}{3}</m>.</p></li>
@@ -2105,6 +2114,7 @@
               <li><p><m>\frac{5a}{6} - (\frac{a}{4} + \frac{a}{12}) \div \frac{a}{3}</m>.</p></li>
               <li><p><m>\frac{3y}{8} + \frac{y}{6} - \frac{y}{4} \cdot \frac{9}{2}</m>.</p></li>
               <li><p><m>(\frac{2m}{9} + \frac{m}{6} - \frac{m}{18}) \cdot \frac{3}{2}</m>.</p></li>
+
 
             </ol>
           </p>

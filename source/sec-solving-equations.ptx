@@ -41,15 +41,259 @@
     </p>
   </subsection>
 
-	<subsection>
-		<title>AAAAA title</title>
+  <subsection xml:id="subsec-introduction-to-equations">
+    <title>Introduction to Equations</title>
 
     <p>
-      Intro to equations.
+      We are going to introduce equations, which are not the same as expressions.
+      Before introducing what an equation is, recall from <xref ref="def-expression" /> that an expression is a mathematical notation representing a number. For example <m>23</m> is an expression and <m>\frac75</m> is an expression and <m>4x+5</m> is also an expression.
+    </p>
+
+    <definition>
+      <statement>
+        <p>
+          An <term>equation</term> is a mathematical statement that two expressions are equal. For example, <m>3x + 2 = 11</m> is an equation stating that the expression <m>3x + 2</m> is equal to <m>11</m>
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      The key thing to note about <em>one</em> equation is that it states in its writing that <em>two</em> expressions are equal.
+      An equation is saying to us <q>this</q> and <q>that</q> might not look the same, but <q>this</q> and <q>that</q> actually have the same value.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>2x + 3 = 11</m> an equation or an expression?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>2x + 3 = 11</m>  is an equation because it is stating that the expression <m>2x + 3</m> is equal to the expression <m>11</m>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>4y - 5</m> an equation or an expression?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>4y - 5</m> is an expression because it is not stating that two expressions are equal. It is just one expression: the value of <m>4y-5</m> is one number, based on whatever the mystery value of <m>y</m> is.
+        </p>
+      </solution>
+    </example>
+
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Both expressions and equations are mathematical writing involving notation.
+          How would you explain to someone how to spot the difference between an expression and an equation?
+        </p>
+      </statement>
+    </exercise>
+    
+    <example>
+      <statement>
+        <p>
+          Which of the following are equations and which are expressions?
+          <ol>
+            <li><p><m>5x + 7 = 3</m></p></li>
+            <li><p><m>6y - 4</m></p></li>
+            <li><p><m>8 = 2z + 1</m></p></li>
+            <li><p><m>12 = 4 + x</m></p></li>
+            <li><p><m>9a + 5b</m></p></li>
+            <li><p><m>7 - 3c</m></p></li>
+          </ol>
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </example>
+
+    <note>
+      <p>
+        The reason that it is important to know the difference between expressions and equations is that we will be doing different things with them.
+        <ol>
+          <li>
+            <p>
+              For an expression, our primary task will be to <em>simplify</em> the expression we are given.
+            </p>
+          </li>
+          <li>
+            <p>
+              For an equation, our primary task will be to <em>solve</em> the equation we are given.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </note>
+
+    <warning>
+      <p>
+        An equation is not the same as an expression.
+        We cannot <q>solve</q> an expression. We can only <q>simplify</q> an expression. The action of <em>solving</em> will be language we reserve for equations.
+      </p>
+    </warning>
+
+  </subsection>
+
+	<subsection>
+		<title>Equations when the variable appears once</title>
+
+    <p>
+      The primary tool we have for solving equations is to apply the same action to both sides.
+      To be more specific:
+    </p>
+
+    <assemblage permid="apply-same-action-to-both-sides">
+      <title>Apply the same action to both sides</title>
+      <p>
+        Given an equation, we can:
+        <ol>
+          <li>
+            <p>
+              Add the same expression to both sides of the equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Subtract the same expression from both sides of the equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Multiply by the same expression on both sides of the equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Divide by the same non-zero expression on both sides of the equation.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </assemblage>
+
+    <p>
+      What we just described tells us what the typical steps we can do are.
+      (There are some other things we can do, but let's wait to explain those until we need them.)
+      The key thing to remember is that whatever we do to one side of the equation, we must do to the other side of the equation.
+      Saying <q>do the same thing to both sides</q> tells us <emph>what</emph> we can do, but it doesn't really give us a lot of guidace on <emph>how</emph> to do it effectively.
+      There are many kinds of equations we will see in this algebra class.
+      I encourage you to look for patterns and ask <q>why does this work in <emph>this</emph> equation, but not in <emph>another</emph> equation?</q>
+      That said, I think it's helpful to be completely transparent, and admit that there is a bit of an art to solving equations.
+      Because of this, I want to share specific situations and explain specific strategies for these situations.
+    </p>
+
+    <note xml:id="note-slow-down">
+      <p>
+        To begin, it will be helpful to slow down by writing in the <emph>writing</emph> the action we are applying to both sides as its own step,
+        then <emph>simplifying</emph> both sides as a separate step. While this is more time-consuming (and we'll eventually stop doing it this way),
+        skipping this and working too fast makes it impossible to describe certain common errors.
+        To be able to point out what's going on, we need to start slow.
+        I ask for your patience in doing it this way for now.
+        Once the important points have been made, we'll make the process a little smoother.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>x + 3 = 30</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To undo the <m>+3</m> on the left side of the equation, we can subtract <m>3</m> from both sides of the equation:
+          <md>
+            <mrow>2x + 3 \amp= 7</mrow>
+            <mrow>2x \amp= 4</mrow>
+            <mrow>x \amp= 2</mrow>
+          </md>
+
+          
+          On the left side, the <m>+3</m> and the <m>-3</m> together simplify to <m>+0</m>, so we are left with just <m>x</m>.
+          On the right side, <m>30 - 3</m> simplifies to <m>27</m>.
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      In the answer to this first example, you might have felt annoyed that we wrote the equation <m>x+3-3 = 30-3</m> as its own step.
+      Writing this equation is exactly what <xref ref="note-slow-down" /> is addressing.
+      While you may feel like skipping this step in the future, let's just do a couple more where we write this step out.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>x - 3 = 30</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can add <m>3</m> to both sides of the equation:
+        </p>
+      </solution>
+    </example>
+
+
+
+
+
+<!--
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>3x + 2 = 11</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can solve this equation by applying the same action to both sides of the equation.
+          The goal is to isolate the variable on one side of the equation.
+          To do this, we can start by getting rid of the <m>+2</m> on the left side of the equation.
+          We can do this by subtracting <m>2</m> from both sides of the equation:
+          <m>
+            \begin{align*}
+              3x + 2 - 2 &= 11 - 2 \\
+              3x &= 9
+            \end{align*}
+          </m>
+          Now we have <m>3x = 9</m>.
+          To isolate <m>x</m>, we can divide both sides of the equation by <m>3</m>:
+          <m>
+            \begin{align*}
+              \frac{3x}{3} &= \frac{9}{3} \\
+              x &= 3
+            \end{align*}
+          </m>
+          Therefore, the solution to the equation <m>3x + 2 = 11</m> is <m>x = 3</m>.
+        </p>
+      </solution>
+  -->
+  </subsection>
+
+  <subsection>
+		<title> aaaaa</title>
+
+    <p>
 Technique with one copy of the variable.
+How to organize work for solving equations.
+How the work for solving equations looks different for the work of simplifying expressions, and why it matters.
+What solving an equation MEANS.
+When are we done: need ONE copy of the variable on one side, by itself
+Left versus right side?
 Multiple terms.
 Rewriting as multiple terms.
 Strategy comparison.
+
     </p>
 
     <assemblage permid="include-id">
