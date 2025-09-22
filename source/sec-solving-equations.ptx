@@ -141,11 +141,6 @@
       </p>
     </warning>
 
-  </subsection>
-
-	<subsection>
-		<title>Equations when the variable appears once</title>
-
     <p>
       The primary tool we have for solving equations is to apply the same action to both sides.
       To be more specific:
@@ -180,6 +175,11 @@
       </p>
     </assemblage>
 
+  </subsection>
+
+	<subsection>
+		<title>Equations when the variable is written once</title>
+
     <p>
       What we just described tells us what the typical steps we can do are.
       (There are some other things we can do, but let's wait to explain those until we need them.)
@@ -189,6 +189,12 @@
       I encourage you to look for patterns and ask <q>why does this work in <emph>this</emph> equation, but not in <emph>another</emph> equation?</q>
       That said, I think it's helpful to be completely transparent, and admit that there is a bit of an art to solving equations.
       Because of this, I want to share specific situations and explain specific strategies for these situations.
+    </p>
+
+    <p>
+      We are going to start by looking at equations where the variable is written once.
+      Examples include equations like <m>x - 9 = 5</m> and <m>7x + 2 = 29</m>.
+      There are equations where the where the variable is written <emph>more than once</emph> such as <m>2x + 3 = 7x - 8</m>, and these will be discussed after.
     </p>
 
     <note xml:id="note-slow-down">
@@ -212,12 +218,10 @@
         <p>
           To undo the <m>+3</m> on the left side of the equation, we can subtract <m>3</m> from both sides of the equation:
           <md>
-            <mrow>2x + 3 \amp= 7</mrow>
-            <mrow>2x \amp= 4</mrow>
-            <mrow>x \amp= 2</mrow>
-          </md>
-
-          
+            <mrow>x + 3 \amp= 30</mrow>
+            <mrow>x + 3 - 3 \amp= 30 - 3</mrow>
+            <mrow>x \amp= 27</mrow>
+          </md>          
           On the left side, the <m>+3</m> and the <m>-3</m> together simplify to <m>+0</m>, so we are left with just <m>x</m>.
           On the right side, <m>30 - 3</m> simplifies to <m>27</m>.
         </p>
@@ -238,11 +242,293 @@
       </statement>
       <solution>
         <p>
-          We can add <m>3</m> to both sides of the equation:
+          We can add <m>3</m> to both sides of the equation.
+          <md>
+            <mrow>x - 3 \amp= 30</mrow>
+            <mrow>x - 3 + 3 \amp= 30 + 3</mrow>
+            <mrow>x \amp= 33</mrow>
+          </md>
         </p>
       </solution>
     </example>
 
+    <warning xml:id="warning-why-show-unsimplified-step">
+      <p>
+        Now, let's examine a new equation where a certain type of error tends to first occur from learners.
+        Given the equation <me>x + 3 = 30</me> a common error is to end up at <me>x = 10</me>. Let's analyze this thorougly:
+        <ol>
+          <li>
+            <p>
+              First, does the answer obtained <m>x=10</m> make sense? If we substitue <m>10</m> for <m>x</m> in the original equation, we get <m>10 + 3 = 30</m>, which is not true. So, <m>x=10</m> cannot be the correct answer.
+            </p>
+          </li>
+          <li>
+            <p>
+              While we already see that there is a problem, we haven't discussed <emph>how</emph> the error occurred. Let's try to figure that out.
+              Here, it will be <emph>very</emph> helpful to write the action taken on both sides <emph>without</emph> simplifying right away, just as <xref ref="note-slow-down" /> talked about:
+              <me>x + 3 = 30</me>
+              From the original equation, based on the final answer that someone wrote, I would guess that they thought about dividing by <m>3</m> on both sides.
+              Writing this <emph>without</emph> simplifying first looks like this:
+              <me>\frac{x+3}{3} = \frac{30}{3}.</me>
+              Here, it is true that the right side simplifies to <m>10</m>.
+              However, the expression on the left side says <m>\frac{x+3}{3}</m> I would guess the learner <q>canceled</q> the <m>3</m> on top and bottom, 
+              but the <m>3</m> appearing in the numerator is a <emph>term</emph>, not a <emph>factor</emph>.
+              Recall that we can only cancel factors, and not terms.
+              It would be hard to analyze this error if we hadn't slowed the process down.
+            </p>
+          </li>
+          <li>
+            <p>
+              To stick to principles, we <emph>can</emph> divide by <m>3</m> on both sides. What happens is this:
+              <md>
+                <mrow>x + 3 \amp= 30</mrow>
+                <mrow>\frac{x + 3}{3} \amp= \frac{30}{3}</mrow>
+                <mrow>\frac{x + 3}{3} \amp= 10</mrow>
+              </md>          
+              The steps shown above are all valid, but we haven't successfully solved for <m>x</m>, since <m>x</m> is not by itself on one side of the equation.
+              This goes to show that while it is <emph>permissible</emph> to divide by <m>3</m> on both sides, it is not <emph>helpful</emph> in solving this equation.
+              Let's show a couple more examples of sucessfully solving equations, and then summarize what kind of actions are <emph>helpful</emph>:
+              we don't want to just <q>do</q> steps to do them; we want to find steps that <q>lead towards</q> our goal of isolating the variable on one side of the equation.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>3x = 30</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can divide both sides of the equation by <m>3</m>.
+          <md>
+            <mrow>3x \amp= 30</mrow>
+            <mrow>\frac{3x}{3} \amp= \frac{30}{3}</mrow>
+            <mrow>x \amp= 10</mrow>
+          </md>
+          In this example, dividing both sides by <m>3</m> was helpful. This is because in the fraction <m>\frac{3x}{3}</m> there is a factor of <m>3</m> in both the numerator and denominator, so we can cancel the <m>3</m>s.
+          In slightly more detail, we can think of <m>\frac{3x}{3}</m> as <m>\frac{3 \cdot x}{3 \cdot 1}</m>, which shows more clearly that <m>3</m> is a factor in both the numerator and denominator.
+        </p>
+      </solution>
+    </example>    
+
+    <note>
+      <p>
+        In both of the last two examples, we divided by <m>3</m>.
+        In one example, this was helpful, and in the other example, this was not helpful.
+        I want you to notice that when we divide both sides by a quantity, 
+        we end up creating a fraction <emph>even though we sometimes work so fast that we don't write the fraction</emph> that <xref ref="note-slow-down" /> encourages us to write.
+        That fraction is there, whether we write it or are too lazy to write it, 
+        and we need to carefully apply what we learned in the last section about fractions: we can only cancel common <emph>factors</emph>.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>\frac{x}{3} = 30</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can think of the left side as <m>x \div 3</m>.
+          To undo the division by <m>3</m>, we can multiply both sides by <m>3</m>.
+          We can multiply both sides of the equation by <m>3</m>.
+          <md>
+            <mrow>\frac{x}{3} \amp= 30</mrow>
+            <mrow>\frac{x}{3} \cdot 3 \amp= 30 \cdot 3</mrow>
+            <mrow>x \amp= 90</mrow>
+          </md>
+          In this example, multiplying both sides by <m>3</m> was helpful. Why?
+          Of the three equations that were one right after another, the left side of the second equation is the expression <m>\frac{x}{3} \cdot 3</m>.
+          From the last section, we can treat the product of a fraction and a non-fraction in the usual way to get <m>\frac{x}{3} \cdot \frac{3}{1}</m>.
+          Whether you multiply across first and cancel the factors of <m>3</m> on top and bottom after, 
+          or note that the <m>3</m>s on top and bottom in the separate fractions <emph>would</emph> eventually become factors in the combined fraction <m>\frac{x \cdot 3}{3 \cdot 1}</m> and cancel right away,
+          we're left with <m>\frac{x}{1}</m> which simplifies to <m>x</m>.
+        </p>
+      </solution>
+    </example>
+
+    <assemblage permid="equation-operation-undo">
+      <title>Solving Equations by Undoing Operations</title>
+      <p>
+        A general principle that is helpful to keep in mind is that we can think of solving equations as <emph>undoing</emph> operations.
+        In more detail:
+        <ol>
+          <li>
+            <p>
+              Subtraction undoes addition.
+            </p>
+          </li>
+          <li>
+            <p>
+              Addition undoes subtraction.
+            </p>
+          </li>
+          <li>
+            <p>
+              Division undoes multiplication.
+            </p>
+          </li>
+          <li>
+            <p>
+              Multiplication undoes division.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </assemblage>
+
+    <warning>
+      <p>
+        It is tempting to divide on both sides by <m>7</m> in an equation like <m>x - 7 = 31</m> or <m>x - 7 = 2</m>. However, division does not undo subtraction. (Instead, addition undoes subtraction.)
+      </p>
+      <p>
+        Similarly, it is tempting to divide on both sides by <m>7</m> in an equation like <m>x + 7 = 40</m> or <m>x + 7 = 5</m>. However, division does not undo addition. (Instead, subtraction undoes addition.)
+      </p>
+      <p>
+        In all four equations that have been mentioned in this box, dividing both sides by <m>7</m> is permissible, but not helpful.
+        What ends up happening (if we slow things down the way <xref ref="note-slow-down" /> encourages us to) is that we have a fraction where the <m>7</m> in the numerator is a term, not a factor, so we cannot cancel it.
+      </p>
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>x + 30 = 2</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>x + 30 \amp= 2</mrow>
+            <mrow>x + 30 - 30 \amp= 2 - 30</mrow>
+            <mrow>x \amp= -28</mrow>
+          </md>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Since we made the point about writing the action that occurs on both sides without simplyfing in <xref ref="note-slow-down" /> 
+          so that we could analyze a situation like we did in <xref ref="warning-why-show-unsimplified-step" />,
+          we can now speed things up a little and show a perfectly acceptable answer to this question which doesn't show the middles step.
+          <md>
+            <mrow>x + 30 \amp= 2</mrow>
+            <mrow>x \amp= -28</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      While both answers are fine, we will still have situations later in the book where writing the action but not simplifying yet (as described in <xref ref="note-slow-down" />)
+      makes it possible for us to discuss what went wrong.
+      The overall point here is <emph>not</emph> to criticize skipping steps.
+      Instead, if someone's work goes from Equation 1 to Equation 3 while skipping the writing of Equation 2, but there was an error going from Equation 2 to Equation 3, then we need to actually slow down by writing in all the steps.
+      Skipping work is fine when the work is correct. But if there is an error hiding somewhere inside skipped work, then it is really helpful to include all the steps to be able to <emph>pinpoint</emph> exactly where the error occured.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>2x = 25</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>2x \amp= 25 </mrow>
+            <mrow>\frac{2x}{2} \amp= \frac{25}{2} </mrow> 
+            <mrow>x \amp= \frac{25}{2} </mrow> 
+          </md>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Let's also present a solution which skips showing the action, and instead shows the result of simplifying where possible.
+          <md>
+            <mrow>2x \amp= 25 </mrow>
+            <mrow>x \amp= \frac{25}{2} </mrow> 
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      While the two answers showed a different amount of work (by skipping the writing of one equation), 
+      we were able to cancel the <m>2</m> on top and on bottom (since <m>2</m> was a factor on top and a factor on bottom), 
+      even if we didn't explicitly write the fraction in the second answer.
+      In both answers, <m>\frac{25}{2}</m> didn't simplify further.
+      If an application called for it, we might present this number as a mixed fraction or a decimal, but recall that leaving <m>\frac{25}{2}</m> as written is what we usually prefer in algebra.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>8x = 5</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>8x \amp= 5 </mrow>
+            <mrow>x \amp= \frac{5}{8} </mrow> 
+          </md>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>3 = x - 20</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>3 \amp= x - 20</mrow>
+            <mrow>23 \amp= x</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      This last example shows that it's okay to have the variable on the right side of the final equation.
+    </p>
+
+
+    <subsubsection xml:id="subsubsec-equations-with-several-operations">
+      <title>Equations with several operations</title>
+
+      <p>
+        So far, we have only seen equations where a single operation is being applied to the variable, 
+        and therfore we applied an action to both sides and simplified, and we were done.
+        We only needed to apply <emph>one</emph> action to both sides.
+      </p>
+
+      <p>
+        Let's now look at a more complicated equation. For example, consider the equation <m>3x + 2 = 17</m>.
+        While it may seems strange to you, I want to first point out a common error that learners make when solving this equation.
+        Sometimes, as a first step, people will divide both sides by <m>3</m> and might not write the step in between that is discussed in <xref ref="note-slow-down" />, but we will:
+        <me>\frac{3x + 2}{3} = \frac{17}{3}</me>
+        What usually happens is that people will skip writing this step, and then they will <q>cancel</q> the <m>3</m>s on top and bottom, getting <m>x + 2 = \frac{17}{3}</m>.
+        However, this is an error, because the <m>3</m> in the numerator is not a factor of the numerator. (Instead, the numerator has a term of <m>3x</m> and a term of <m>2</m>.)
+      </p>
+
+      <p>
+        Another error that sometimes occurs in solving the equation <m>3x + 2 = 17</m> 
+      </p>
+
+      <assemblage permid="include-id">
+        <title>text</title>
+        <p>
+          text
+        </p>
+      </assemblage>      
+
+    </subsubsection>
 
 
 
@@ -278,12 +564,19 @@
         </p>
       </solution>
   -->
+
+  <p>
+    Divide the *entire* left and entire right sides of the equation by the same non-zero value.
+
+  </p>
+
   </subsection>
 
   <subsection>
 		<title> aaaaa</title>
 
     <p>
+Subtracting on one side, adding on the other.
 Technique with one copy of the variable.
 How to organize work for solving equations.
 How the work for solving equations looks different for the work of simplifying expressions, and why it matters.
@@ -293,7 +586,6 @@ Left versus right side?
 Multiple terms.
 Rewriting as multiple terms.
 Strategy comparison.
-
     </p>
 
     <assemblage permid="include-id">
