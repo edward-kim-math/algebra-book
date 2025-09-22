@@ -1785,10 +1785,12 @@
     </example>
 
     <warning>
-      After cancelling the same factor on top and bottom of a fraction, 
-      anything that remains uncanceled should stay in the same part of the fraction.
-      Factors that are in the denominator should remain in the denominator, and shouldn't move up to the numerator.
-      Factors that are in the numerater should remain in the numerator, and shouldn't move down to the denominator.
+      <p>
+        After cancelling the same factor on top and bottom of a fraction, 
+        anything that remains uncanceled should stay in the same part of the fraction.
+        Factors that are in the denominator should remain in the denominator, and shouldn't move up to the numerator.
+        Factors that are in the numerator should remain in the numerator, and shouldn't move down to the denominator.
+      </p>
     </warning>
 
     <example>
@@ -2008,19 +2010,148 @@
   <subsection>
 		<title>Exercises</title>
 
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
     <p>
       <ol>
 
         <li>
-          <p>Text.
+          <p>
+            Practice rewriting fractions using the Equal Fractions formula.
+            Pay attention to unintended meanings of notation in your work, as described in Section <xrf ref="subsec-clarifications-and-details" />. 
             <ol>
-              <li><m>8+a</m></li>
+              <li><p>What fraction is equal to <m>\frac{3}{4}</m> but has <m>20</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{2}{5}</m> but has <m>20</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{7}{10}</m> but has <m>100</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{5}{6}</m> but has <m>12</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{9}{8}</m> but has <m>32</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{11}{12}</m> but has <m>36</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{2}{x}</m> but has <m>3x</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{5}{y}</m> but has <m>20y</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{7}{2a}</m> but has <m>10a</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{x}{3}</m> but has <m>12</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{3}{2b}</m> but has <m>14b</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{y}{4z}</m> but has <m>12z</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{3a}{10}</m> but has <m>50</m> in the denominator?</p></li>
+              <li><p>What fraction is equal to <m>\frac{5m}{6n}</m> but has <m>30n</m> in the denominator?</p></li>
             </ol>
           </p>
         </li>
+        <li>
+          <p>
+            Simplify the following expressions.
+            <ol>
+
+              <!-- Basic Addition -->
+              <li><p><m>\frac{3}{2} + \frac{2}{5}</m>.</p></li>
+              <li><p><m>\frac{5}{6} + \frac{1}{3}</m>.</p></li>
+              <li><p><m>\frac{7}{8} - \frac{3}{8}</m>.</p></li>
+              <li><p><m>\frac{9}{10} - \frac{2}{5}</m>.</p></li>
+
+              <!-- Multiplication & Division -->
+              <li><p><m>\frac{2}{3} \cdot \frac{9}{4}</m>.</p></li>
+              <li><p><m>\frac{5}{7} \cdot \frac{14}{15}</m>.</p></li>
+              <li><p><m>\frac{3}{4} \div \frac{9}{16}</m>.</p></li>
+              <li><p><m>\frac{10}{21} \div \frac{5}{14}</m>.</p></li>
+
+              <!-- Addition + Multiplication (Order of Ops) -->
+              <li><p><m>\frac{1}{2} + \frac{2}{3} \cdot \frac{3}{4}</m>.</p></li>
+              <li><p><m>\frac{5}{6} - \frac{2}{5} \cdot \frac{3}{2}</m>.</p></li>
+              <li><p><m>\frac{3}{4} + \frac{5}{8} \div \frac{5}{16}</m>.</p></li>
+              <li><p><m>\frac{7}{9} - \frac{3}{10} \cdot \frac{5}{6}</m>.</p></li>
+
+              <!-- Parentheses forcing addition/subtraction first -->
+              <li><p><m>(\frac{3}{4} + \frac{1}{8}) \cdot \frac{2}{3}</m>.</p></li>
+              <li><p><m>(\frac{5}{6} - \frac{1}{3}) \div \frac{1}{2}</m>.</p></li>
+              <li><p><m>(\frac{7}{10} + \frac{2}{5}) \cdot \frac{3}{7}</m>.</p></li>
+              <li><p><m>(\frac{9}{8} - \frac{5}{16}) \div \frac{3}{4}</m>.</p></li>
+
+              <!-- Mixed operations -->
+              <li><p><m>\frac{3}{5} + \frac{2}{3} - \frac{4}{15}</m>.</p></li>
+              <li><p><m>\frac{7}{8} \cdot \frac{2}{5} + \frac{3}{10}</m>.</p></li>
+              <li><p><m>\frac{4}{9} + \frac{2}{3} \div \frac{8}{27}</m>.</p></li>
+              <li><p><m>\frac{5}{12} - \frac{3}{16} + \frac{7}{24}</m>.</p></li>
+
+              <!-- Introducing variables -->
+              <li><p><m>\frac{x}{2} + \frac{x}{3}</m>.</p></li>
+              <li><p><m>\frac{2a}{5} - \frac{a}{10}</m>.</p></li>
+              <li><p><m>\frac{3}{x} \cdot \frac{2}{5}</m>.</p></li>
+              <li><p><m>\frac{4}{y} \div \frac{2}{3y}</m>.</p></li>
+
+              <!-- Variables with order of ops -->
+              <li><p><m>\frac{2}{3}x + \frac{x}{4} \cdot \frac{3}{2}</m>.</p></li>
+              <li><p><m>\frac{a}{6} + \frac{3a}{4} - \frac{a}{12}</m>.</p></li>
+              <li><p><m>\frac{y}{5} - \frac{2y}{15} \cdot \frac{3}{2}</m>.</p></li>
+              <li><p><m>\frac{m}{8} + \frac{2m}{3} \div \frac{4}{9}</m>.</p></li>
+
+              <!-- Parentheses with variables -->
+              <li><p><m>(\frac{3}{4}x + \frac{x}{8}) \cdot \frac{2}{3}</m>.</p></li>
+              <li><p><m>(\frac{a}{5} - \frac{2a}{15}) \div \frac{a}{3}</m>.</p></li>
+              <li><p><m>(\frac{y}{6} + \frac{y}{4}) \cdot \frac{3}{2}</m>.</p></li>
+              <li><p><m>(\frac{2m}{7} - \frac{m}{14}) \div \frac{m}{21}</m>.</p></li>
+
+              <!-- More complex multi-step with variables -->
+              <li><p><m>\frac{x}{2} + \frac{2x}{3} - \frac{x}{6}</m>.</p></li>
+              <li><p><m>\frac{3a}{4} \cdot \frac{2}{3a} + \frac{a}{2}</m>.</p></li>
+              <li><p><m>\frac{y}{3} + \frac{2y}{9} \div \frac{y}{6}</m>.</p></li>
+              <li><p><m>\frac{m}{5} - \frac{3m}{10} + \frac{7m}{20}</m>.</p></li>
+
+              <!-- Most challenging (multi-step, multiple ops, variables) -->
+              <li><p><m>\frac{2x}{3} + \frac{x}{4} - \frac{3x}{8} \cdot \frac{2}{3}</m>.</p></li>
+              <li><p><m>\frac{5a}{6} - (\frac{a}{4} + \frac{a}{12}) \div \frac{a}{3}</m>.</p></li>
+              <li><p><m>\frac{3y}{8} + \frac{y}{6} - \frac{y}{4} \cdot \frac{9}{2}</m>.</p></li>
+              <li><p><m>(\frac{2m}{9} + \frac{m}{6} - \frac{m}{18}) \cdot \frac{3}{2}</m>.</p></li>
+
+            </ol>
+          </p>
+        </li>
+
+        <li><p>A runner completed <m>\frac{2}{3}</m> of a marathon in the morning and <m>\frac{1}{6}</m> in the evening. How much of the marathon did the runner complete in total?</p></li>
+
+        <li><p>A carpenter cuts a piece of wood <m>3\frac{1}{2}</m> feet long from a board that is <m>10\frac{1}{4}</m> feet long. How much of the board remains?</p></li>
+
+        <li><p>You drink <m>\frac{3}{4}</m> of a liter of water during a workout, and then another <m>\frac{2}{5}</m> of a liter after. How much water did you drink altogether?</p></li>
+
+        <li><p>Your health routine requires drinking <m>1\frac{1}{4}</m> liters of protein shake a day. You started the day by having <m>\frac23</m> liter of protein shake. How much should you have in the rest of the day?</p></li>
+
+        <li><p>A farmer harvested <m>\frac{7}{8}</m> of a field of corn one week and <m>\frac{3}{10}</m> of the field the next. How much of the field is harvested in total?</p></li>
+
+        <li><p>A rope is <m>12</m> meters long. You cut off a piece that is <m>\frac{5}{6}</m> of a meter and another piece that is <m>\frac{7}{12}</m> of a meter. How much rope is left?</p></li>
+
+        <li><p>You have <m>\frac{3}{4}</m> of a pizza, and your friend has <m>\frac{5}{8}</m> of the same size pizza. If you combine them, how much pizza do you have altogether?</p></li>
+
+        <li><p>A car uses <m>\frac{3}{5}</m> of a tank of gas on one trip and <m>\frac{2}{7}</m> of a tank on another trip. How much of a tank of gas is used altogether?</p></li>
+
+        <li><p>A cyclist rides <m>12\frac{1}{2}</m> miles on Monday and <m>8\frac{3}{4}</m> miles on Tuesday. How many miles did the cyclist ride in total?</p></li>
+
+        <li><p>A juice recipe requires <m>\frac{2}{3}</m> of a cup of orange juice and <m>\frac{3}{5}</m> of a cup of pineapple juice. How many cups of juice are needed in total?</p></li>
+
+        <li><p>A box of nails weighs <m>\frac{7}{8}</m> of a pound. If you buy <m>4</m> boxes, how many pounds of nails do you have?</p></li>
+
+        <li><p>A swimming pool is being filled at a rate of <m>\frac{2}{3}</m> of a gallon per minute. How many gallons of water will be added in <m>15</m> minutes?</p></li>
+
+        <li><p>A gardener uses <m>\frac{3}{4}</m> of a bag of soil for one planter and <m>\frac{5}{6}</m> of a bag for another. How many bags of soil does the gardener use altogether?</p></li>
+
+        <li><p>You buy <m>\frac{2}{3}</m> of a pound of apples and <m>\frac{3}{4}</m> of a pound of bananas. The apples cost $<m>1.20</m> per pound, and the bananas cost $<m>0.80</m> per pound. What is the total cost?</p></li>
+
+        <li><p>A skateboarder rides <m>\frac{5}{6}</m> of a mile in the morning, then twice that distance in the afternoon. How far does the skateboarder ride in total?</p></li>
+
+        <li><p>A painter mixes <m>\frac{3}{5}</m> of a gallon of red paint with <m>\frac{7}{10}</m> of a gallon of white paint. How many gallons of paint are mixed altogether?</p></li>
+
+        <li><p>A scientist has a solution that contains <m>\frac{7}{8}</m> of a liter of chemical A and adds another <m>\frac{3}{4}</m> of a liter of chemical B. What is the total volume of the solution?</p></li>
+
+        <li><p>A movie lasts <m>2\frac{1}{4}</m> hours, and a documentary lasts <m>1\frac{2}{3}</m> hours. How long would it take to watch both back-to-back?</p></li>
+
+        <li><p>A train travels <m>\frac{2}{3}</m> of a mile each minute. How far will it travel in <m>45</m> minutes?</p></li>
+
+        <li><p>A recipe calls for <m>\frac{3}{4}</m> of a cup of sugar. If you want to make <m>\frac{2}{5}</m> of the recipe, how much sugar do you need?</p></li>
+
       </ol>
     </p>
   </subsection>
-
 
 </section>
