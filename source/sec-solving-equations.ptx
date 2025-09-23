@@ -518,15 +518,132 @@
       </p>
 
       <p>
-        Another error that sometimes occurs in solving the equation <m>3x + 2 = 17</m> 
+        Another error that sometimes occurs in solving the equation <m>3x + 2 = 17</m> comes from writing ambiguously.
+        What happens is that someone will say they are taking <m>3x + 2 = 17</m> and dividing both sides by <m>3</m> by writing 
+        <me>\frac{3x}{3} + 2 = \frac{17}{3}.</me>
+        While it is true that the <m>3</m>s cancel in <m>\frac{3x}{3}</m>, the problem is that we shouldn't be writing <m>\frac{3x}{3} + 2</m> in the first place.
+        We have to ensure that we divdide the <emph>entire</emph> left side by <m>3</m>, not just part of the left side.
       </p>
 
-      <assemblage permid="include-id">
-        <title>text</title>
+      <assemblage xml:id="action-to-entire-side">
+        <title>Apply action to the entirety of each side</title>
         <p>
-          text
+          <ul>
+            <li>
+              <p>
+                When adding the same quantity to both sides, add that quantity to the <emph>entire</emph> left side and the <emph>entire</emph> right side.
+              </p>
+            </li>
+            <li>
+              <p>
+                When subtracting the same quantity from both sides, subtract that quantity from the <emph>entire</emph> left side and the <emph>entire</emph> right side.
+              </p>
+            </li>
+            <li>
+              <p>
+                When multiplying the same quantity on both sides, multiply the <emph>entire</emph> left side and the <emph>entire</emph> right side by that quantity.
+              </p>
+            </li>
+            <li>
+              <p>
+                When dividing both sides by the same non-zero quantity, divide the <emph>entire</emph> left side and the <emph>entire</emph> right side by that quantity.
+              </p>
+            </li>
+          </ul>
         </p>
       </assemblage>      
+
+      <p>
+        In the case of dividing on both sides, the easiest way to follow <xref ref="action-to-entire-side" /> is to ensure that the fraction bar drawn in is wide enough
+        for the <emph>entire</emph> left side and the <emph>entire</emph> right side.
+      </p>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>3x + 2 = 17</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            To undo the <m>+2</m> on the left side of the equation, we can subtract <m>2</m> from both sides of the equation:
+            <md>
+              <mrow>3x + 2 \amp= 17</mrow>
+              <mrow>(3x + 2) - 2 \amp= (17) - 2</mrow>
+              <mrow>3x + 2 - 2 \amp= 17 - 2</mrow>
+              <mrow>3x \amp= 15</mrow>
+            </md>          
+            From the second equation to the third equation, we dropped the parentheses due to the order of operations.
+            It's more work than most of us want to show to write <m>(3x + 2) - 2 = (17) - 2</m> in the first place, but those parentheses 
+            are shown to emphasize following the advice of <xref ref="action-to-entire-side" />.
+            Now, we have the equation <m>3x = 15</m>.
+            To undo the multiplication by <m>3</m>, we can divide both sides by <m>3</m>.
+            <md>
+              <mrow>3x \amp= 15</mrow>
+              <mrow>\frac{3x}{3} \amp= \frac{15}{3}</mrow>
+              <mrow>x \amp= 5</mrow>
+            </md>          
+          </p>
+        </solution>
+      </example>
+ 
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>4+9x = 34</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            To solve the equation <m>4+9x = 34</m>, we can start by isolating the term with the variable <m>x</m>.
+            We can do this by subtracting <m>4</m> from both sides of the equation:
+            <md>
+              <mrow>(4 + 9x) - 4 \amp= (34) - 4</mrow>
+              <mrow>4 + 9x - 4 \amp= 34 - 4</mrow>
+              <mrow>9x \amp= 30</mrow>
+            </md>
+            Now, we have the equation <m>9x = 30</m>.
+            To undo the multiplication by <m>9</m>, we can divide both sides by <m>9</m>:
+            <md>
+              <mrow>\frac{9x}{9} \amp= \frac{30}{9}</mrow>
+              <mrow>x \amp= \frac{10}{3}</mrow>
+            </md>
+          </p>
+        </solution>
+      </example>
+      <p>
+        Note that a common error in starting this problem is to <q>divide</q> both sides by <m>9</m> first.
+        While this is permissible, it is not helpful. We end up with 
+        <me>\frac{4+9x}{9}=\frac{34}{9}</me>
+        and in this new equation, the <m>9</m>s on the left side do not cancel because the <m>9</m> in the numerator is not a factor of the numerator.
+        Instead of dividing both sides by <m>9</m> as the first action, the action that helped was to subtract <m>4</m> on both sides.
+      </p>
+
+      <!-- Try it -->
+      <exercise>
+        <statement>
+          <p>
+            In each equation below, identify several possible first actions that someone may try to perform on both sides. (Try to identify at least two different things that people might try to do first.)
+            For each of these first actions, carefully write the resulting equation that has no simplification occurring, as discussed in <xref ref="action-to-entire-side" />.
+            Then, discuss whether or not that first action is helpful or not.
+            <ol>
+              <li>
+                <p>
+                  <m>5x + 4 = 19</m>
+                  <m>22x - 3 = 40</m>
+                  <m>7 + 6x = 31</m>
+                  <m>3x - 5 = 16</m>
+                  <m>4 - 5x = 6</m>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+      </exercise>
+
+
+
 
     </subsubsection>
 
