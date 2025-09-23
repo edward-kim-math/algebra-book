@@ -618,6 +618,11 @@
         and in this new equation, the <m>9</m>s on the left side do not cancel because the <m>9</m> in the numerator is not a factor of the numerator.
         Instead of dividing both sides by <m>9</m> as the first action, the action that helped was to subtract <m>4</m> on both sides.
       </p>
+      <p>
+        Also note that we cannot take the starting equation <m>4 + 9x = 34</m> and <q>simplify</q> the left side by writing <m>13x=34</m>.
+        The error here in simplifying like this is that we would not be following the order of operations.
+        Note that multiplication takes precedence over addition: to read <m>4+9x</m> we should think something like <q>We would take <m>9</m> and multiply it by <m>x</m>, whatever that is, to have the valu of <m>9x</m>, and the value of this <m>9x</m> would be added to <m>4</m>.</q>
+      </p>
 
       <!-- Try it -->
       <exercise>
@@ -642,7 +647,24 @@
         <!-- <response /> --><!-- Commented out the response area where a student can type. -->
       </exercise>
 
+      <p>
+        I hope that you tried this actively conisdering what has the potential to work on each equation above, and what seems to not work on each equation above.
+        I hope that the explanations in the previous answers have given you some useful ways to think about and analyze what could create success in solving equations, 
+        and what seems like it just increases the complexity of the problem, instead of making a smaller problem.
+        You might feel like you don't have a complete answer on exactly how to solve each equation you'd ever encounter, and that's totally okay!
+        All I really wanted you to get out of the exploration was to make some predictions of what might work and what might not work.
+        Building a little bit of intuition on your own will help make things go smoother when we introduce specific strategies.
+        We're about to introduce a strategy right now, but in case you didn't try exploring what might and might not work in the five equations above, I strongly encourage you to do so before reading any further!
+        Actively thinking about these things will make the strategy we're about to introduce go smoother:
+      </p>
 
+      <assemblage permid="equations-with-variable-written-once">
+        <title>General strategy to solve an equation when the variable is written once</title>
+        <p>
+          text
+        </p>
+      </assemblage>
+      
 
 
     </subsubsection>
