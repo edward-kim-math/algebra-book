@@ -1115,7 +1115,7 @@
       </p>
     </assemblage>
 
-    <example>
+    <example xml:id="equation-7x-minus-2-equals-3x-plus-14">
       <p>
         We have not yet developed any strategies for solving equations like <m>7x - 2 = 3x + 14</m>.
         However, we will use this example to illustrate the point being made above.
@@ -1243,63 +1243,260 @@
 		<title>Equations when the variable is written more than once</title>
 
     <p>
-Multiple terms: terms with x and terms without x
-Still, we can CHECK.
-Rewriting as multiple terms. <m>3(x+2) = 5x - 11</m>
-Strategy comparison.
+      We will now discuss solving <emph>some</emph> types of equations where the variable is written more than once, 
+      but not <emph>all</emph> types of equations where the variable is written more than once.
     </p>
 
-    <assemblage permid="include-id">
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </assemblage>
-
-    <example>
-      <statement>
+      <!-- Strategy -->
+      <computation xml:id="equations-with-variable-written-more-than-once">
+        <title>Solving an equation when the variable is written more than once, with sides having terms</title>
         <p>
-          Statement text       
+          <ul>
+            <li>
+              <p>
+                <alert>When does this strategy apply?</alert> 
+                This strategy applies in any equation where the variable is written more than once.
+                In addition, the left side and right side of the equation must be sums where each term is either a constant
+                or a constant times the variable.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>How to apply the strategy</alert>
+                <ol>
+                  <li>
+                    <p>
+                      On each side, identify the terms that contain the variable, and the term that don't.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Choose which side you'd like the variable to appear on.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Add on both sides and/or subtract on both sides to reach the goal of having 
+                      all terms with the variable on the side you chose in the previous step,
+                      and having all terms without the variable on the other side.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Independently simplify each side.
+                      On the side where each term contains the variable, we can collect like terms (or in more complicated situations, apply the more general technique of factoring out the variable).
+                      Once this step is complete, the variable will only be written once.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Apply a division on both sides (or a multiplication on both sides) to isolate the variable.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ul>
         </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
+      </computation>
 
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
       <p>
-        Text
+        In <xref ref="equation-7x-minus-2-equals-3x-plus-14" /> we brought up the equation <m>7x - 2 = 3x + 14</m> to discuss details about solving equations,
+        but we left it to know to discuss an actual strategy for solving this equation. Let's go through the steps, based on the strategy we just introduced.
       </p>
-    </note>
-
-    <assemblage permid="label-for-boxed-item">
-      <title>Title</title>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>7x - 2 = 3x + 14</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            First, let's check that the strategy applies.
+            We were given an equation to solve.
+            Each side is a sum (or difference) of terms.
+            Since each side consists of terms, the strategy applies.
+            We need to pick a side to have the variable on.
+            It doesn't matter which side we pick, so let's pick the left side.
+            Currently, the terms on the left side are <m>7x</m> and <m>-2</m>, while the terms on the right side are <m>3x</m> and <m>14</m>.
+            Since we want terms with <m>x</m> to be on the left side, we should keep the <m>7x</m> term on the left side.
+            However, the next term on the left side is <m>-2</m>. This term does not contain <m>x</m>, so to get rid of it validly, let's add <m>2</m> to both sides, obtaining:
+            <me>7x = 3x + 14+2.</me>
+            Now, the left side has only terms with <m>x</m>, but the right side still has a term with <m>x</m>.
+            To get rid of the <m>3x</m> term on the right side, let's subtract <m>3x</m> from both sides, obtaining:
+            <me>7x - 3x = 14+2.</me>
+            Now, the left side has only terms with <m>x</m>, while the right side has only terms without <m>x</m>, which is a key goal in the process of this strategy.
+            We can simplify both sides:
+            <me>4x = 16.</me>
+            The left side can be thought of as collecting like terms, or we can factor <m>x</m> from the left side to get <m>(7-3)x</m>, which simplifies to <m>4x</m>.
+            Finally, we can isolate <m>x</m> by dividing both sides by <m>4</m>:
+            <me>x = 4.</me>
+          </p>
+        </solution>
+      </example>
       <p>
-        Text
+        There are many other answers which perform the actions on both sides in different orders.
       </p>
-    </assemblage>
 
-    <warning>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>7x + 10 = 12x - 2</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The variable <m>x</m> is written more than once, and each side is a sum of terms, so the strategy applies.
+            Let's add and subtract both sides with the goal of getting all terms with <m>x</m> on the left side, and all terms without <m>x</m> on the right side.
+            We can start by subtracting <m>10</m> from both sides:
+            <me>7x = 12x - 2 - 10.</me>
+            Now, the left side has only terms with <m>x</m>.
+            Let's examine the right side. 
+            We wanted <emph>all</emph> terms with <m>x</m> on the left side, so we have to do something about the <m>12x</m> term on the right side.
+            Let's subtract <m>12x</m> from both sides:
+            <me>7x - 12x = -2 - 10.</me>
+            Now, the left side has only terms with <m>x</m>, while the right side has only terms without <m>x</m>.
+            This was a key achievement described in this strategy.
+            We can simplify each side independently:
+            <me>-5x = -12.</me>
+            Finally, divide both sides by <m>-5</m> to isolate <m>x</m>:
+            <me>x = \frac{-12}{-5}</me>
+            <me>x = \frac{12}{5}</me>
+          </p>
+        </solution>
+        <solution>
+          <p>
+            As a second solution, we can apply the same startegy, but getting the terms with <m>x</m> on the right side and the terms without <m>x</m> on the left side.
+            Starting from <me>7x + 10 = 12x - 2</me>
+            we can subtract <m>7x</m> from both sides:
+            <me>10 = 12x - 7x - 2</me>
+            The right side has a term without <m>x</m>, so we add <m>2</m> to both sides:
+            <me>10 + 2 = 12x - 7x</me>
+            Now, the left side has only terms without <m>x</m>, while the right side has only terms with <m>x</m>.
+            We can simplify each side independently:
+            <me>12 = 5x</me>
+            Finally, divide both sides by <m>5</m> to isolate <m>x</m>:
+            <me>x = \frac{12}{5}</me>
+            The second solution is slightly faster because we didn't need to cancel negative signs. In the original equation, note there was a <m>12x</m> on the right and a <m>7x</m> on the left. Strategically, to avoid minus signs, since <m>12</m> is larger than <m>7</m> and the coefficient of <m>12</m> appears on the right, this is why we might choose to keep all terms with the variable on the right side.
+          </p>
+        </solution>
+      </example>
+
+      In the next example, the strategy doesn't apply right away, but let's not let that stop us!
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>3(x+2) = 5x - 11</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are asked to solve an equation in which the variable <m>x</m> is written more than once.
+            However, the left side is a product, not a sum.
+            So the strategy doesn't directly apply.
+            However, we can rewrite the right side by distributing. The original left side <m>3(x+2)</m> can be replaced with <m>3x+6</m>.
+            With this replacement, our equation becomes
+            <me>3x + 6 = 5x - 11</me>
+            Now, the strategy applies.
+            Since <m>5</m> is bigger than <m>3</m>, let's choose to have all terms with <m>x</m> on the right, and all terms without <m>x</m> on the left.
+            (You could make the opposite choice, and still achieve a perfectly valid answer, but this choice will minimize the number of minus signs that appear.)
+            Starting from <m>3x + 6 = 5x - 11</m>, to get all terms with <m>x</m> on the right and all terms without <m>x</m> on the left, 
+            we can subtract <m>3x</m> from both sides and also add <m>11</m> to both sides, obtaining:
+            <me>6 + 11 = 5x - 3x</me>
+            You might choose to skip the equation we just wrote above to directly write:
+            <me>17 = 2x</me>
+            Finally, divide both sides by <m>2</m> to isolate <m>x</m>:
+            <me>\frac{17}{2}=x</me>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>10(x + 6) = 3x</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are asked to solve an equation in which the variable <m>x</m> is written more than once.
+            However, the left side is a product, not a sum.
+            So the strategy doesn't directly apply.
+            However, we can rewrite the left side by distributing.
+            <me>10x + 60 = 3x</me>
+            Now, the strategy applies.
+            Since <m>10</m> is bigger than <m>3</m>, let's choose to have all terms with <m>x</m> on the left, and all terms without <m>x</m> on the right.
+            (You could make the opposite choice, and still achieve a perfectly valid answer, but this choice will minimize the number of minus signs that appear.)
+            Starting from <m>10x + 60 = 3x</m>, we subtract <m>3x</m> from both sides and also subtract <m>60</m> from both sides, obtaining:
+            <me>10x - 3x = -60</me>
+            You might choose to skip the equation we just wrote above to directly write:
+            <me>7x = -60</me>
+            Finally, divide both sides by <m>7</m> to isolate <m>x</m>:
+            <me>x = \frac{-60}{7}</me>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>2(3x-4) + 5 = 6(x+1) + 4x</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            After distributing, we have:
+            <me>6x - 8 + 5 = 6x + 6 + 4x</me>
+            Now, the strategy applies.
+            You can continue work noticing that there are already like terms on the right, so we can combine those like terms.
+            (A successful solution can be made without combining like terms at this moment.)
+            Let's combine like terms on the right, and as long as we're doing this, simplify the constants on the left:
+            <me>6x - 3 = 10x + 6</me>
+            Since <m>10</m> is bigger than <m>6</m>, let's choose to have all terms with <m>x</m> on the right, and all terms without <m>x</m> on the left.
+            Subtract <m>6x</m> on both sides and also subtract <m>6</m> from both sides:
+            <me>-9 = 4x</me>
+            Finally, divide both sides by <m>4</m> to isolate <m>x</m>:
+            <me>x = \frac{-9}{4}</me>
+          </p>
+        </solution>
+      </example>
+
       <p>
-        text
+        As a friendly reminder, collecting like terms is really skipping a two-step process of factoring out the variable.
+        This is important to keep in mind, because there are examples (like the next one) where only thinking about collecting like terms usually gets people stuck.
       </p>
-    </warning>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\sqrt{7}x - 5 = 2x +30</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The strategy directly applies. Let's get all terms that have <m>x</m> on the left side, and all terms without <m>x</m> on the right side.
+            We subtract <m>2x</m> from both sides and also add <m>5</m> to both sides:
+            <me>\sqrt{7}x - 2x = 30 + 5.</me>
+            Of course, the new right side <m>30+5</m> is easy to simplify, but to make a point, I didn't simplify here yet, because the left side simplification is not obvious (because how are we supposed to <q>collect like terms</q> here?).
+            While we simplify the right side in the next equation, let's factor out <m>x</m> on the left side:
+            <me>(\sqrt{7} - 2)x = 35.</me>
+            Now the content in parentheses is a constant (the variable doesn't appear), so this is a number.
+            It's a funky number -- it take some time and some space to write it -- but it is just a number/constant. Let's divide both sides by the number <m>\sqrt{8}-2</m>.
+            In fact, let's slow this down by <emph>showing</emph> the division on both sides without simplifying yet:
+            <me>\frac{(\sqrt{7} - 2)x}{\sqrt{7} - 2} = \frac{35}{\sqrt{7} - 2}</me>
+            On the left side, the factor of <m>\sqrt{7} - 2</m> in the numerator cancel with the the entire denominator <m>(\sqrt{7} - 2)</m>, 
+            recalling that the entire denominator of any fracition is a factor, since the entire denominator is in a hidden set of parentheses.
+            After this cancellation, we have <m>x</m> by itself on one side, and no <m>x</m>s on the other side, so we're done:
+            <me>x = \frac{35}{\sqrt{7} - 2}</me>
+            In the appendix, we talk about a technique called rationalizing the denominator, which can be used to rewrite this answer in a different form.
+          </p>
+        </solution>
+      </example>
 
   </subsection>
 
+
+  
   <subsection xml:id="subsec-TITLE-applications-revisited">
     <title>Applications Revisited</title>
 
