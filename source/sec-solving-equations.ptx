@@ -631,17 +631,33 @@
             In each equation below, identify several possible first actions that someone may try to perform on both sides. (Try to identify at least two different things that people might try to do first.)
             For each of these first actions, carefully write the resulting equation that has no simplification occurring, as discussed in <xref ref="action-to-entire-side" />.
             Then, discuss whether or not that first action is helpful or not.
-            <ol>
+            <ul>
               <li>
                 <p>
                   <m>5x + 4 = 19</m>
-                  <m>22x - 3 = 40</m>
-                  <m>7 + 6x = 31</m>
-                  <m>3x - 5 = 16</m>
-                  <m>4 - 5x = 6</m>
                 </p>
               </li>
-            </ol>
+              <li>
+                <p>
+                  <m>22x - 3 = 40</m>                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>7 + 6x = 31</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3x - 5 = 16</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4 - 5x = 6</m>                  
+                </p>
+              </li>
+            </ul>
           </p>
         </statement>
         <!-- <response /> --><!-- Commented out the response area where a student can type. -->
@@ -658,72 +674,165 @@
         Actively thinking about these things will make the strategy we're about to introduce go smoother:
       </p>
 
-      <assemblage permid="equations-with-variable-written-once">
-        <title>General strategy to solve an equation when the variable is written once</title>
+      <computation xml:id="equations-with-variable-written-once">
+        <title>Solving an equation when the variable is written once</title>
         <p>
-          text
+          <ul>
+            <li>
+              <p>
+                <alert>When does this strategy apply?</alert> 
+                This strategy applies in any equation we are asked to solve when the variable is written once.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>How to apply the strategy</alert>
+                <ol>
+                  <li>
+                    <p>
+                      Identify the side of the equation which contains the variable.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      On the side which contains the variable, 
+                      starting from the variable and working outwards,
+                      identify the order in which the operations occur.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Apply an action on both sides of the equation to undo the <emph>last</emph> operation to occur.
+                      Continue in this way by undoing the second-to-last operation and the third-to-last operation and so on.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ul>
+          In short, the strategy tells us to <q>undo the last operation that occurs</q>.
         </p>
-      </assemblage>
+      </computation>
       
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>4x - 11 = 2</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are being asked to solve an equation where the variable <m>x</m> is written just once, so <xref ref="equations-with-variable-written-once" /> applies.
+            The variable <m>x</m> is written on the left side of the equation.
+            Analyzing the left side according to the order of operations, we see that <m>4</m> multiplied by <m>x</m> occurs first, which gives us <m>4x</m>
+            and then from <m>4x</m> subtracting <m>11</m> occurs next.
+            Since this finishes our analysis of reading the left side, we note that subtracitng <m>11</m> occured last.
+            The strategy tells us to undo subtracting <m>11</m> first, so we add <m>11</m> to both sides.
+            <md>
+              <mrow>4x-11 \amp=  2</mrow>
+              <mrow>4x \amp= 13</mrow>
+            </md>
+            Now there is only one operation remaining. We undo the multiplication by <m>4</m> by dividing both sides by <m>4</m> leading to
+            <me>x = \frac{13}{4}</me>
+          </p>
+        </solution>
+      </example>
 
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>12 = 10 + 3y</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are being asked to solve an equation where the variable <m>y</m> is written just once, so <xref ref="equations-with-variable-written-once" /> applies.
+            The variable appears on the right side.
+            Analyzing the right side using the Order of Operations, the multiplication between the <m>3</m> and the <m>y</m> occurs first leading to <m>3y</m>, whatever the value of that is.
+            Then, we add this value <m>3y</m> to <m>10</m>.
+            Since adding <m>3y</m> and <m>10</m> together happens last (we can switch the order of addition if it's convenient for our minds),
+            we will undo adding <m>10</m> by making our first step to subtract <m>10</m> on both sides, leading to 
+            <me>2 = 3y.</me>
+            The only remaining operation on the right is multiplication of <m>3</m> and <m>y</m>. We can undo the multiplication by <m>3</m> if we divide both sides by <m>3</m>:
+            <me>\frac23 = y.</me>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <me>3 + \frac{5x - 2}{10} = 7.</me>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are being asked to solve an equation where the variable <m>x</m> is written just once, so <xref ref="equations-with-variable-written-once" /> applies.
+            The variable <m>x</m> is written on the left side of the equation.
+            Since the variable is on the left side, we analyze the left side according to the Order of Operations.
+            The multiplication between <m>5</m> and <m>x</m> occurs first, represented as <m>5x</m>.
+            Then from <m>5x</m> we subtract <m>2</m> to get <m>5x-2</m>. (Recall the entire numerator of a fraction is in a hidden set of)
+            Then from <m>5x-2</m> we divide by <m>10</m> to get <m>\frac{5x-2}{10}</m>.
+            Finally, the addition between <m>3</m> and <m>\frac{5x-2}{10}</m> occurs last, so we will undo this addition by subtracting <m>3</m> from both sides first.
+            <me>3 + \frac{5x - 2}{10} = 7</me>
+            <me>\frac{5x - 2}{10} = 4</me>
+            Now the final operation on the left <m>\frac{5x - 2}{10}</m> is the division by <m>10</m>, so we multiply both sides by <m>10</m>:
+            <me>5x-2 = 40.</me>
+            The final operation on the left is the subtraction of <m>2</m>, so we add <m>2</m> to both sides:
+            <me>5x = 42.</me>
+            Finally, we divide both sides by <m>5</m> to isolate <m>x</m>:
+            <me>x = \frac{42}{5}.</me>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <me>30 = \frac{3+4x}{5} + 20.</me>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <xref ref="equations-with-variable-written-once" /> applies. On the side with the variable, adding <m>20</m> occurs last, so we undo this first: we'll subtract <m>20</m> on both sides leading to the new equation
+            <me>10 = \frac{3+4x}{5}.</me>
+            In the new equation the last operation on the right side is the division by <m>5</m> which we undo by multiplying both sides by <m>5</m>. We get
+            <me>50 = 3 + 4x.</me>
+            The final operation on the right is the addition of <m>3</m>, so we subtract <m>3</m> from both sides:
+            <me>47 = 4x.</me>
+            Finally, we divide both sides by <m>4</m> to isolate <m>x</m>:
+            <me>\frac{47}{4} = x.</me>
+            Note, it is perfectly okay for the final equation to display the variable on the right side instead of the left side.
+          </p>
+        </solution>
+      </example>
 
     </subsubsection>
 
+  </subsection>
 
-
-
-<!--
-    <example>
-      <statement>
-        <p>
-          Solve the equation <m>3x + 2 = 11</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          We can solve this equation by applying the same action to both sides of the equation.
-          The goal is to isolate the variable on one side of the equation.
-          To do this, we can start by getting rid of the <m>+2</m> on the left side of the equation.
-          We can do this by subtracting <m>2</m> from both sides of the equation:
-          <m>
-            \begin{align*}
-              3x + 2 - 2 &= 11 - 2 \\
-              3x &= 9
-            \end{align*}
-          </m>
-          Now we have <m>3x = 9</m>.
-          To isolate <m>x</m>, we can divide both sides of the equation by <m>3</m>:
-          <m>
-            \begin{align*}
-              \frac{3x}{3} &= \frac{9}{3} \\
-              x &= 3
-            \end{align*}
-          </m>
-          Therefore, the solution to the equation <m>3x + 2 = 11</m> is <m>x = 3</m>.
-        </p>
-      </solution>
-  -->
-
-  <p>
-    Divide the *entire* left and entire right sides of the equation by the same non-zero value.
-
-  </p>
-
+  <subsection>
+    <title>Comments and clarifications</title>
+    
+    <p>
+Subtracting on one side, adding on the other.
+How to organize work for solving equations.
+How the work for solving equations looks different for the work of simplifying expressions, and why it matters.
+What solving an equation MEANS.
+When are we done: need ONE copy of the variable on one side, by itself
+Left versus right side?
+      
+    </p>
   </subsection>
 
   <subsection>
 		<title> aaaaa</title>
 
     <p>
-Subtracting on one side, adding on the other.
-Technique with one copy of the variable.
-How to organize work for solving equations.
-How the work for solving equations looks different for the work of simplifying expressions, and why it matters.
-What solving an equation MEANS.
-When are we done: need ONE copy of the variable on one side, by itself
-Left versus right side?
+
+
 Multiple terms.
-Rewriting as multiple terms.
+Rewriting as multiple terms. <m>3(x+2) = 5x - 11</m>
 Strategy comparison.
     </p>
 
