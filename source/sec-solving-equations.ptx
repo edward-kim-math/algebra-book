@@ -10,9 +10,10 @@
 			</p>
 		</introduction>
 		<ol>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
+			<li><p>Solve linear equations where the variable is written once.</p></li>
+			<li><p>Solve linear equations where the variable is written more than once.</p></li>
+			<li><p>Write equal signs appropriately in work for simplifying expressions and solving equations.</p></li>
+			<li><p>Use equations to model applied situations, solve the equation constructed, and interpret the solution in the context of the situation.</p></li>
     </ol>
 	</objectives>
 
@@ -1496,7 +1497,7 @@
   </subsection>
 
 
-  
+
   <subsection xml:id="subsec-TITLE-applications-revisited">
     <title>Applications Revisited</title>
 
