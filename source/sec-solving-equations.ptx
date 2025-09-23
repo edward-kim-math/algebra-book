@@ -21,7 +21,7 @@
     <title>Applications</title>
 
     <p>
-      Intro:
+      This section teaches us how to solve various equations, carefully introducing strategies. The mathematical skills introduced will allow us to answer these and similar questions:
       <ol>
         <li><p>A car rental costs $40 per day plus a one-time insurance fee of $15. If the total cost is $135, how many days was the car rented?</p></li>
         <li><p>A chemist is cooling a liquid that starts at 90°C and decreases at a rate of 2°C per minute. After how many minutes will the liquid reach 30°C?</p></li>
@@ -1502,153 +1502,204 @@
     <title>Applications Revisited</title>
 
     <p>
-      Let's revisit the applications we introduced at the beginning of this section.
+      Let's revisit the applications we introduced at the beginning of this section. 
+      Before going through the answers, there is one important point to make:
     </p>
 
-    <p>
-      When it comes to applications, I encourage you to appreciate the <emph>methodology</emph> of writing and solving an equation to solve the problem.
-      AAAAA insert warning against self-coaching techniques to turn each problem into an arithmetic problem.
-    </p>
+    <warning>
+      <p>
+        When solving application problems, it is important to <emph>write an equation</emph> that models the situation.
+        It is tempting to skip the explanation, and try to coach yourself to look for a pattern and boil everything in the question down to an arithmetic problem.
+        However, we introduced these application problems as applications of <emph>solving equations</emph>.
+        It would be easy to say <q>but I see a pattern, so I don't need to set up an equation</q>.
+        This view is limiting in multiple ways: first off, any pattern devloped on coached arithmetic actually comes <emph>from</emph> the equation.
+        Second, the skill of writing an equation to model a situation is a critical skill in algebra.
+        It is a <emph>really</emph> powerful tool to write a variable to stand in for a quantity that we don't know yet.
+        Third, the pattern you see may not be correct for a different problem that is similar but not exactly the same.
+        More generally, attempting to do arithmetic over algebra will eventually limit the kinds of problems you can solve.
+      </p>
+      <p>
+        The process of modeling will feel awkward, but with practice it becomes more natural.
+        Everyday uses of mathematics later in life (from things as mundane as creating an approximate budget for a kitchen remodel job) will require modeling.
+        Setting up a relevant equation which contains a variable is a core idea of algebra, so I strongly encourage you to give it a try!
+        Run towards this, instead of running away! You can do it!
+      </p>
+    </warning>
 
     <example>
       <statement>
         <p>
-          Text
+          A car rental costs $40 per day plus a one-time insurance fee of $15. If the total cost is $135, how many days was the car rented?
         </p>
       </statement>
       <solution>
         <p>
-          Answer
+          We introduce the variable <m>d</m> to represent the number of days the car was rented. So, if <m>d=7</m> then the car was rented for <m>7</m> days.
+          The total cost of renting the car for <m>d</m> days is <m>15 + 40d</m>.
+          We were told the total cost of renting the car was <m>135</m>.
+          Since we have two different-looking ways to represent the total cost, namely <m>15+40d</m> and <m>135</m>, we can set them equal to each other:
+          <md>
+            <mrow>15 + 40d = 135</mrow>
+            <mrow>40d = 120</mrow>
+            <mrow>d = 3</mrow>
+          </md>
+          The car was rented for <m>3</m> days.
         </p>
       </solution>
     </example>
-    <p>
-        A cell phone company charges a monthly fee of $25 plus $0.10 per text message. If a customer's bill is $49, how many text messages did they send?
 
-    </p>
+    <example>
+      <statement>
+        <p>
+          A chemist is cooling a liquid that starts at 90°C and decreases at a rate of 2°C per minute. After how many minutes will the liquid reach 30°C?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We introduce the variable <m>t</m> to represent the time in minutes.
+          (Hypothetically, if <m>t=5</m> then the liquid has been cooling for <m>5</m> minutes.)
+          The temperature of the liquid after <m>t</m> minutes is <m>90 - 2t</m>.
+          We were told that we want to find when the temperature reaches <m>30</m>.
+          Since we have two different-looking ways to represent the temperature, namely <m>90 - 2t</m> and <m>30</m>, we can set them equal to each other:
+          <md>
+            <mrow>90 - 2t = 30</mrow>
+            <mrow>-2t = -60</mrow>
+            <mrow>t = 30</mrow>
+          </md>
+          The liquid will reach 30°C after <m>30</m> minutes.
+        </p>
+      </solution>
+    </example>
 
-<!-- <exercise>
-  <statement>
-    <p>Solve each of the following application problems by writing and solving a linear equation.</p>
-    <ol marker="a">
-      <li>
-        <p>A cell phone company charges a monthly fee of $25 plus $0.10 per text message. If a customer's bill is $49, how many text messages did they send?</p>
-        <answer>
-          <p>Let <m>x</m> = number of text messages.</p>
-          <p><m>25 + 0.10x = 49</m></p>
-          <p><m>0.10x = 24</m></p>
-          <p><m>x = 240</m></p>
-          <p>The customer sent 240 text messages.</p>
-        </answer>
-      </li>
+    <example>
+      <statement>
+        <p>
+          A train leaves a station traveling at 60 miles per hour. Another train leaves the same station two hours later traveling at 80 miles per hour. After how many hours will the second train catch up?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let <m>h</m> represent the number of hours traveled by the faster train.
+          (Hypothetically, if <m>h=5</m> then the faster train has been traveling for <m>5</m> hours.)
+        </p>
+        <p>
+          The slower train leaves earlier, meaning it travels for more time.
+          Since the fast train travels for <m>h</m> hours, the slow train travels for <m>h+2</m> hours.
+          The distance of the slow train is <m>60(h+2)</m>.
+        </p>
+        <p>
+          The distance of the fast train is <m>80h</m>.
+        </p>
+        <p>
+          Both trains travel the same distance.
+          This means that the distances <m>60(h+2)</m> and <m>80h</m> must be equal, even though these expressions look different.
+          We create an equation by setting this different-looking expressions equal to each other:
+          <md>
+            <mrow>60(h + 2) = 80h</mrow>
+            <mrow>60h + 120 = 80h</mrow>
+            <mrow>120 = 20h</mrow>
+            <mrow>6 = h</mrow>
+          </md>
+          The faster train will catch up after <m>6</m> hours.
+        </p>
+      </solution>
+    </example>
 
-      <li>
-        <p>A car rental costs $40 per day plus a one-time insurance fee of $15. If the total cost is $135, how many days was the car rented?</p>
-        <answer>
-          <p>Let <m>d</m> = number of days.</p>
-          <p><m>40d + 15 = 135</m></p>
-          <p><m>40d = 120</m></p>
-          <p><m>d = 3</m></p>
-          <p>The car was rented for 3 days.</p>
-        </answer>
-      </li>
+    <example>
+      <statement>
+        <p>
+          A landscaper buys bags of soil for $3 each and a one-time delivery charge of $12. If the total cost is $51, how many bags of soil were purchased?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let <m>b</m> represent the number of bags of soil purchased.
+          (Hypothetically, if <m>b=4</m> then the landscaper bought <m>4</m> bags of soil.)
+          The total cost of buying <m>b</m> bags of soil is <m>3b + 12</m>.
+          We were told that the total cost was <m>51</m>.
+          Since we have two different-looking ways to represent the total cost, namely <m>3b + 12</m> and <m>51</m>, we can set them equal to each other:
+          <md>
+            <mrow>3b + 12 = 51</mrow>
+            <mrow>3b = 39</mrow>
+            <mrow>b = 13</mrow>
+          </md>
+          The landscaper bought <m>13</m> bags of soil.
+        </p>
+      </solution>
+    </example>
 
-      <li>
-        <p>A scientist is cooling a liquid that starts at 90°C and decreases at a rate of 2°C per minute. After how many minutes will the liquid reach 30°C?</p>
-        <answer>
-          <p>Let <m>t</m> = time in minutes.</p>
-          <p><m>90 - 2t = 30</m></p>
-          <p><m>-2t = -60</m></p>
-          <p><m>t = 30</m></p>
-          <p>The liquid will reach 30°C after 30 minutes.</p>
-        </answer>
-      </li>
+    <example>
+      <statement>
+        <p>
+          An Australian internet service provider offers a base plan for $30 per month plus $5 for each additional gigabyte of data. 
+          If someone paid $65 one month, how many gigabytes of extra data did they use?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let <m>d</m> represent the amount of data used by the customer in gigabytes.
+          (Hypothetically, if <m>d=4</m> then the customer used <m>4</m> gigabytes of data.)
+          The total cost of using <m>d</m> gigabytes of data is <m>30 + 5d</m> for the month, but the total cost is also <m>65</m> for the month, so we set these equal to create an equation:
+          <md>
+            <mrow>30 + 5d = 65</mrow>
+            <mrow>5d= 35</mrow>
+            <mrow>d = 7</mrow>
+          </md>
+          The customer used <m>7</m> gigabytes of extra data.
+        </p>
+      </solution>
+    </example>
 
-      <li>
-        <p>A store is having a sale where jeans cost $20 each, plus a 7% sales tax. If someone paid $42.80 in total, how many pairs of jeans did they buy?</p>
-        <answer>
-          <p>Let <m>j</m> = number of jeans.</p>
-          <p><m>20j \times 1.07 = 42.80</m></p>
-          <p><m>21.4j = 42.8</m></p>
-          <p><m>j = 2</m></p>
-          <p>The customer bought 2 pairs of jeans.</p>
-        </answer>
-      </li>
+    <example>
+      <statement>
+        <p>
+          A taxi ride costs $3 plus $2.50 per mile. The taxi is cash only and you have $28.50 available. How many miles can you travel?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let <m>d</m> represent the distance traveled in miles.
+          (Hypothetically, if <m>d=2.75</m> then the customer traveled <m>2.75</m> miles.)
+        </p>
+        <p>
+          The total cost of the ride can be expressed as <m>3 + 2.5d</m>.
+          We know the total cost is <m>28.50</m>, so we can set up the equation:
+        </p>
+        <md>
+          <mrow>3 + 2.5d = 28.5</mrow>
+          <mrow>2.5d = 25.5</mrow>
+          <mrow>d = 10.2</mrow>
+        </md>
+        <p>
+          The customer can travel <m>10.2</m> miles.
+        </p>
+      </solution>
+    </example>
 
-      <li>
-        <p>A train leaves a station traveling at 60 miles per hour. Another train leaves the same station two hours later traveling at 80 miles per hour. After how many hours will the second train catch up?</p>
-        <answer>
-          <p>Let <m>t</m> = hours the faster train travels.</p>
-          <p>Distance of slow train: <m>60(t + 2)</m></p>
-          <p>Distance of fast train: <m>80t</m></p>
-          <p>Equation: <m>80t = 60(t + 2)</m></p>
-          <p><m>80t = 60t + 120</m></p>
-          <p><m>20t = 120</m></p>
-          <p><m>t = 6</m></p>
-          <p>The second train will catch up after 6 hours.</p>
-        </answer>
-      </li>
-
-      <li>
-        <p>A landscaper buys bags of soil for $3 each and a one-time delivery charge of $12. If the total cost is $51, how many bags of soil were purchased?</p>
-        <answer>
-          <p>Let <m>b</m> = number of bags.</p>
-          <p><m>3b + 12 = 51</m></p>
-          <p><m>3b = 39</m></p>
-          <p><m>b = 13</m></p>
-          <p>The landscaper bought 13 bags of soil.</p>
-        </answer>
-      </li>
-
-      <li>
-        <p>An internet service provider offers a base plan for $30 per month plus $5 for each additional gigabyte of data. If someone paid $65 one month, how many gigabytes of extra data did they use?</p>
-        <answer>
-          <p>Let <m>g</m> = extra gigabytes.</p>
-          <p><m>30 + 5g = 65</m></p>
-          <p><m>5g = 35</m></p>
-          <p><m>g = 7</m></p>
-          <p>The person used 7 extra gigabytes of data.</p>
-        </answer>
-      </li>
-
-      <li>
-        <p>A chemist wants to dilute a 20% saline solution with pure water to obtain 100 mL of a 12% solution. How many milliliters of the 20% solution should be used?</p>
-        <answer>
-          <p>Let <m>x</m> = milliliters of 20% solution.</p>
-          <p>Amount of salt: <m>0.20x</m></p>
-          <p>Final solution: <m>0.12(100)</m></p>
-          <p>Equation: <m>0.20x = 12</m></p>
-          <p><m>x = 60</m></p>
-          <p>The chemist should use 60 mL of the 20% solution and 40 mL of water.</p>
-        </answer>
-      </li>
-
-      <li>
-        <p>A taxi ride costs $3 plus $2.50 per mile. If a ride costs $28.50, how many miles was the trip?</p>
-        <answer>
-          <p>Let <m>m</m> = miles.</p>
-          <p><m>3 + 2.5m = 28.5</m></p>
-          <p><m>2.5m = 25.5</m></p>
-          <p><m>m = 10.2</m></p>
-          <p>The trip was 10.2 miles long.</p>
-        </answer>
-      </li>
-
-      <li>
-        <p>A gym charges a membership fee of $50 plus $15 per month. If someone paid $200 in total, for how many months were they a member?</p>
-        <answer>
-          <p>Let <m>m</m> = months.</p>
-          <p><m>50 + 15m = 200</m></p>
-          <p><m>15m = 150</m></p>
-          <p><m>m = 10</m></p>
-          <p>The person was a member for 10 months.</p>
-        </answer>
-      </li>
-    </ol>
-  </statement>
-</exercise>
-  -->
+    <example>
+      <statement>
+        <p>
+          A gym charges a membership fee of $50 plus $15 per month. How many months can someone be a member if they paid $200 in total?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Let <m>m</m> represent the number of months the person was a member.
+          (Hypothetically, if <m>m=4</m> then the person was a member for <m>4</m> months.)
+          The total cost of being a member for <m>m</m> months is <m>50 + 15m</m>.
+          We were told that the total cost was <m>200</m>.
+          Since we have two different-looking ways to represent the total cost, namely <m>50 + 15m</m> and <m>200</m>, we can set them equal to each other:
+          <md>
+            <mrow>50 + 15m = 200</mrow>
+            <mrow>15m = 150</mrow>
+            <mrow>m = 10</mrow>
+          </md>
+          The person was a member for <m>10</m> months.
+        </p>
+      </solution>
+    </example>
     
+
   </subsection>
 
 	<subsection>
