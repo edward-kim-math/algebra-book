@@ -1709,17 +1709,38 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            Expressions and equations are different mathematical writing. 
+            An expression is notation representing a number, while an equation is a statement that two expressions are equal.
+            Generally, an expression is simplified, while an equation is solved.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            The individual steps of solving an equation involve applying the same action to the <emph>entire</emph> left side and the <emph>entire</emph> right side
+            of a fraction.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            To solve an equation where the variable is written once, undo the final operation which occured on the side that has the variable.
+          </p>
+        </li>
+        <li>
+          <p>
+            To solve an equation where the variable is written more than once, if each side is (or can be, after algebra) written as a sum,
+            apply additions and subtractions to both sides to get all terms with the variable on one side and all terms without the variable on the other side.
+          </p>
+        </li>
+        <li>
+          <p>
+            The placement of equal signs can be confusing at first, but recall that an equal sign that is written can <emph>always</emph> be intrerpreted to mean <emph>equal</emph> but does not always mean <q>and the next step is</q>.
+          </p>
+        </li>
+        <li>
+          <p>
+            While we often concern ourselves with the <emph>process</emph> of how to solve an equation (performing the same action to both sides),
+            the <emph>meaning</emph> is to provide a list of all values for the variable which make the original equation's left side equal to the original equation's right side.
+            For this reason, we can always check our answer(s) by substituting our solution(s) into the original equation.
           </p>
         </li>
       </ol>
