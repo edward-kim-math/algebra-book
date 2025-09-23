@@ -22,23 +22,16 @@
     <p>
       Intro:
       <ol>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
+        <li><p>A car rental costs $40 per day plus a one-time insurance fee of $15. If the total cost is $135, how many days was the car rented?</p></li>
+        <li><p>A chemist is cooling a liquid that starts at 90°C and decreases at a rate of 2°C per minute. After how many minutes will the liquid reach 30°C?</p></li>
+        <li><p>A train leaves a station traveling at 60 miles per hour. Another train leaves the same station two hours later traveling at 80 miles per hour. After how many hours will the second train catch up?</p></li>
+        <li><p>A landscaper buys bags of soil for $3 each and a one-time delivery charge of $12. If the total cost is $51, how many bags of soil were purchased?</p></li>
+        <li><p>An Australian internet service provider offers a base plan for $30 per month plus $5 for each additional gigabyte of data. If someone paid $65 one month, how many gigabytes of extra data did they use?</p></li>
+        <li><p>A taxi ride costs $3 plus $2.50 per mile. The taxi is cash only and you have $28.50 available. How many miles can you travel?</p></li>
+        <li><p>A gym charges a membership fee of $50 plus $15 per month. How many months can someone be a member if they paid $200 in total?</p></li>
       </ol>
     </p>
+
   </subsection>
 
   <subsection xml:id="subsec-introduction-to-equations">
@@ -674,6 +667,7 @@
         Actively thinking about these things will make the strategy we're about to introduce go smoother:
       </p>
 
+      <!-- Strategy -->
       <computation xml:id="equations-with-variable-written-once">
         <title>Solving an equation when the variable is written once</title>
         <p>
@@ -713,7 +707,31 @@
           In short, the strategy tells us to <q>undo the last operation that occurs</q>.
         </p>
       </computation>
-      
+
+      <example xml:id="solve-5xminus3-equals27">
+        <statement>
+          <p>
+            Solve the equation <m>5x - 3 = 27</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We are being asked to solve an equation where the variable <m>x</m> is written just once, so <xref ref="equations-with-variable-written-once" /> applies.
+            The variable <m>x</m> is written on the left side of the equation.
+            Analyzing the left side according to the order of operations, we see that <m>5</m> multiplied by <m>x</m> occurs first, which gives us <m>5x</m>
+            and then from <m>5x</m> subtracting <m>3</m> occurs next.
+            Since this finishes our analysis of reading the left side, we note that subtracitng <m>3</m> occured last.
+            The strategy tells us to undo subtracting <m>3</m> first, so we add <m>3</m> to both sides.
+            <md>
+              <mrow>5x-3 \amp=  27</mrow>
+              <mrow>5x \amp= 30</mrow>
+            </md>
+            Now there is only one operation remaining. We undo the multiplication by <m>5</m> by dividing both sides by <m>5</m> leading to
+            <me>x = 6.</me>
+          </p>
+        </solution>
+      </example>
+
       <example>
         <statement>
           <p>
@@ -815,23 +833,418 @@
     <title>Comments and clarifications</title>
     
     <p>
-Subtracting on one side, adding on the other.
-How to organize work for solving equations.
-How the work for solving equations looks different for the work of simplifying expressions, and why it matters.
-What solving an equation MEANS.
-When are we done: need ONE copy of the variable on one side, by itself
-Left versus right side?
-      
+      Before moving on to equations where the variable is written more than once, let's make some comments and clarifications about what we've done so far.
     </p>
+
+    <warning>
+      <p>
+        Instead of applying an action on one side and the opposite (or <q>undoing</q>) action on the other side,
+        we must always apply the same action to both sides.
+      </p>
+    </warning>
+
+    <example>
+      <p>
+        In solving the equation <m>x - 10 = 25</m>, it would not be correct to make the next equation <m>x = 15</m>.
+        How does someone get to this second equation?
+        I would say that they added <m>10</m> to the left side (to undo the subtraction of <m>10</m>)
+        but then they subtracted <m>10</m> from the right side.
+        <emph>Adding</emph> <m>10</m> on the left and <emph>subtracting</emph> <m>10</m> on the right is not the same action on both sides.
+        The correct next step would be to add <m>10</m> to both sides, leading to <m>x = 35</m>.
+      </p>
+    </example>
+    <p>
+      Similar situations can occur when someone multiplies on one side and divides on the other side.
+    </p>
+
+    <p>
+      When solving equations, we are not simplifying an expression.
+      We have seen two main tasks: simplifying an expression and solving an equation.
+      Properly writing an answer for simplifying an expression involves writing equal signs,
+      and properly writing an answer for solving an equation requires equal signs,
+      but the exact locations of the equal signs <q>feels</q> really different, and definitely <emph>looks</emph> really different.
+      As we dig into this explanation right now, I encourage you to keep in mind that the equal sign <m>=</m> truly means that
+      one expression is equal in value to another expression.
+      We write an equal sign in between one expression and another to indicate that the two expressions have the same value.
+    </p>
+
+    <p>
+      When we are asked to simplify an expression, we can present our work <q>horizontally</q> or <q>vertically</q>.
+      Either way that we do it, we start with the given expression.
+      Then, after writing an equal sign, we write a new expression that is equal in value to the previous expression.
+      We can continue in this way, writing a new expression that is equal in value to the previous expression after each equal sign.
+      We stop when we have an expression that cannot be simplified any further.
+      It can feel like the equal sign means <q>and the next step is</q>, but the equal sign doesn't mean <q>next step</q>.
+      Instead, the equal sign means <q>the expression on the left has the same value as the expression on the right</q>.
+      As a coincidence, for simplifying expressions, the next step <emph>is</emph> to write an expression that is equal to the previous expression.
+      Let's look at an example, and show the work both horizontally and vertically, then discuss.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Simplify the expression <m>3 + \frac{4}{5} \cdot 2 - \frac{1}{3}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>3 + \frac{4}{5} \cdot 2 - \frac{1}{3} 
+            = 3 + \frac45 \cdot \frac21 - \frac13 
+            = 3 + \frac{8}{5} - \frac{1}{3}
+            = \frac{15}{5} + \frac{8}{5} - \frac{1}{3}
+            = \frac{23}{5} - \frac{1}{3}
+            = \frac{69}{15} - \frac{5}{15}
+            = \frac{64}{15}</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          <md>
+            <mrow>3 + \frac{4}{5} \cdot 2 - \frac{1}{3} \amp= 3 + \frac45 \cdot \frac21 - \frac13</mrow>
+            <mrow>\amp= 3 + \frac{8}{5} - \frac{1}{3}</mrow>
+            <mrow>\amp= \frac{15}{5} + \frac{8}{5} - \frac{1}{3}</mrow>
+            <mrow>\amp= \frac{23}{5} - \frac{1}{3}</mrow>
+            <mrow>\amp= \frac{69}{15} - \frac{5}{15}</mrow>
+            <mrow>\amp= \frac{64}{15}</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Both answers are really the same, but they have different visual shapes (horizontal versus vertical).
+      Note, we followed the order of operations (so multiplication occurred before addition/subtraction).
+      In viewing either answer, I encourage you to think about what an equal sign really <emph>means</emph> instead of thinking of it as <q>next step</q>.
+      To say start saying it in words: <m>3 + \frac{4}{5} \cdot 2 - \frac{1}{3}</m> 
+      is equal in value to <m>3 + \frac45 \cdot \frac21 - \frac13</m> 
+      which is equal in value to <m>3 + \frac{8}{5} - \frac{1}{3}</m> 
+      which is equal to <m>\frac{15}{5} + \frac{8}{5} - \frac{1}{3}</m> 
+      which is equal to <m>\frac{23}{5} - \frac{1}{3}</m> 
+      which is equal <m>\frac{69}{15} - \frac{5}{15}</m> 
+      which is finally equal to <m>\frac{64}{15}</m>.
+    </p>
+
+    <note>
+      <p>
+        When simplifying an expression, we can write the equal sign between equal expressions.
+        Be sure that the the expressions are equal.
+      </p>
+    </note>
+    <p>
+      Note that this focus on equal signs helps us create good habits.
+      We really want the next expression we write to be equal to the previous expression.
+      For example, in both answers above, the first four expressions all included <m>\frac13</m> even though this part wasn't changing at all.
+      It would be incorrect to write <m>3 + \frac{4}{5} \cdot 2 - \frac{1}{3} = 3 + \frac45 \cdot \frac21</m> because the two sides are not equal.
+      It can be tempting to drop parts that aren't changing, but we have to be careful to ensure that the two sides of an equal sign are truly equal.
+      Building this habit (even if it feels really tedious) helps to prevent losing track of parts of very large expressions,
+      and writing with good habits (with equal signs) helps to reinforce what an equal sign actually means. 
+    </p>
+
+    <p>
+      The way that we organize the work for equations looks different.
+      When solving an equation, we start with the given equation.
+      When we have performed an action on both sides, we write the next equation one line below.
+      The equation after that is written one line below that, and so on.
+      Note that an equation (a statement that two expressions are equal) has an equal sign in the <emph>middle</emph> of its writing.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>\frac{2x-1}{3} + 4 = 10</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>\frac{2x-1}{3} + 4 \amp= 10</mrow>
+            <mrow>\frac{2x-1}{3} \amp= 6</mrow>
+            <mrow>2x-1 \amp= 18</mrow>
+            <mrow>2x \amp= 19</mrow>
+            <mrow>x \amp= \frac{19}{2}</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Notice where equal signs are written, and where they are not written. It is helpful for us to say in words what is really happening:
+      Starting from the fact that <m>\frac{2x-1}{3} + 4</m> is equal to <m>10</m>, we learn that <m>\frac{2x-1}{3}</m> is equal to <m>6</m>.
+      From the fact that <m>\frac{2x-1}{3}</m> is equal to <m>6</m>, we learn that <m>2x-1</m> is equal to <m>18</m>.
+      From the fact that <m>2x-1</m> is equal to <m>18</m>, we learn that <m>2x</m> is equal to <m>19</m>.
+      Finally, from the fact that <m>2x</m> is equal to <m>19</m>, we learn that <m>x</m> is equal to <m>\frac{19}{2}</m>.
+    </p>
+    <warning>
+      <p>
+        When solving an equation, do not write an equal sign to mean <q>and the next step is</q>. Here are two examples of incorrect writing for the previous question:
+        <ul>
+          <li>
+            <p>
+              <md>
+                <mrow>\frac{2x-1}{3} + 4 = 10</mrow>
+                <mrow>\amp=\frac{2x-1}{3} = 6</mrow>
+                <mrow>\amp=2x-1 = 18</mrow>
+                <mrow>\amp=2x = 19</mrow>
+                <mrow>\amp=x = \frac{19}{2}</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\frac{2x-1}{3} + 4 = 10 = \frac{2x-1}{3} = 6 = 2x-1 = 18 = 2x = 19 = x = \frac{19}{2}</m>
+            </p>
+          </li>
+        </ul>
+        Both of these <q>answers</q> are essentially the same, but just with different shapes: 
+        the first <q>answer</q> is presented vertically, while the second <q>answer</q> is presented horizontally.
+        Every other equal sign <emph>is</emph> the equal sign that appears in the middle of an equation, 
+        but then the other equal signs are being written because someone is thinking <q>my next step is</q> 
+        which coincidentally may have worked for simplifying expressions, writing like this is reinforcing an incorrect idea of what an equal sign means.
+        If we read either version out lout, at face value, the writing in this incorrect answer is saying: 
+        <m>\frac{2x-1}{3} + 4</m> is equal to <m>10</m> 
+        which is equal to <m>\frac{2x-1}{3}</m> 
+        which is equal to <m>6</m> 
+        which is equal to <m>2x-1</m> 
+        which is equal to <m>18</m> 
+        which is equal to <m>2x</m> 
+        which is equal to <m>19</m> 
+        which is equal to <m>x</m> 
+        which is equal to <m>\frac{19}{2}</m>.
+        Please note how strange this is, especially when saying this aloud: 
+        among other things, we have said that the number <m>6</m> is equal to something which is then eventually equal to the number <m>18</m>,
+        but these numbers are not equal!
+      </p>
+    </warning>
+    <p>
+      For equations, to prevent the common presentation error, it is good practice to write vertically instead of horizontally.
+      Write an equation.
+      Then write the next equation one line below, being sure that there is an equal sign <emph>in the middle</emph> (since an equation is a statement that two expressions are <emph>equal</emph>), but not an equal sign <emph>before</emph> the new equation.
+      Then write the next equation one line below that, again ensuring that we don't write an equal sign <emph>before</emph> the new equation.
+      Continue in this way until the variable is isolated.
+    </p>
+
+    <assemblage xml:id="assemblage-expression-vs-equation-presentation">
+      <title>Summary of expectations for presenting work</title>
+      <p>
+        <ol>
+          <li>
+            <p>
+              <alert>Simplifying expressions:</alert>
+              Start with the given expression.
+              After each equal sign, write a new expression that is equal in value to the previous expression.
+              (To ensure that the new expression is equal, do not ignore the parts of the expression that are not changing.)
+              Stop when we have an expression that cannot be simplified any further using valid mathematical techniques.
+              When simplifying an expression, we can write horizontally or vertically: 
+              in either case, an equal sign is written from one expression to the next equal expression.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Solving equations:</alert>
+              Start with the given equation.
+              Write the next equation one line below.
+              While the equation itself contains an equal sign, we should not write an equal sign <emph>before</emph> the new equation.
+              Continue in this way until the variable is isolated.
+              We write vertically because when the next equation is written to the side of the previous equation, 
+              it is really tempting to write an equal sign in that empty space before the new equation, which is incorrect.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </assemblage>
+
+    <p>
+      While we often see the final equation having the variable on the left and the constant on the right,
+      there is no requirement to have the variable on the left side.
+      We also have a perfectly acceptable final equation if the variable is on the right side.
+      Let's see an example, and show two answer presentations:
+    </p>
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>19 = 7 + 2x</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>19 \amp= 7 + 2x</mrow>
+            <mrow>19 - 2x \amp= 7</mrow>
+            <mrow>-2x \amp= -12</mrow>
+            <mrow>x \amp= \frac{-12}{-2}</mrow>
+            <mrow>x \amp= 6</mrow>
+          </md>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          <md>
+            <mrow>19 \amp= 7 + 2x</mrow>
+            <mrow>12 \amp= 2x</mrow>
+            <mrow>6 \amp= x</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+    <p>
+      In the first answer, we isolated <m>x</m> on the left side, while in the second answer we isolated <m>x</m> on the right side.
+      Both answers are correct. 
+      The first answer ended up being a little longer due to the minus signs that appear.
+      The second answer is a little shorter.
+      This is the benefit of not insisting that the variable must be on the left side in the final equation: 
+      by having the flexibility to isolate the variable on either side, we can reap the benefit of a possibly shorter answer.
+    </p>
+
+    <assemblage xml:id="assemblage-left-vs-right-side">
+      <title>Isolated variable on either side</title>
+      <p>
+        When solving an equation,
+        it is just as acceptable to isolate the variable on the right side as it is to isolate the variable on the left side.
+        You can choose the side that makes your work easier or shorter!
+      </p>
+    </assemblage>
+
+    <p>
+      We are about to introduce strategies for solving equations where the variable is written more than once.
+      Before we do that, I think it's important for us to clarify exactly what is the expectation when solving equations.
+    </p>
+
+    <assemblage xml:id="assemblage-solving-equations-stopping-criterion">
+      <title>Solving equations: expectation for final step</title>
+      <p>
+        When solving an equation,
+        the final equation should have exactly one copy of the variable isolated (meaning with nothing else) on one side of the equation,
+        and the other side of the equation should be a constant (an expression with no variables).
+      </p>
+    </assemblage>
+
+    <example>
+      <p>
+        We have not yet developed any strategies for solving equations like <m>7x - 2 = 3x + 14</m>.
+        However, we will use this example to illustrate the point being made above.
+        Suppose someone takes <m>7x - 2 = 3x + 14</m> and does the following steps, all of which are valid:
+        <md>
+          <mrow>7x - 2 \amp= 3x + 14 </mrow>
+          <mrow>7x \amp= 3x + 16 </mrow>
+          <mrow>x \amp= \frac{3x + 16}{7} </mrow>
+        </md>
+        This doesn't meet the expectation that we just discussed: though the left side just has the variable <m>x</m> on its own,
+        the right side is not a constant because the variable <m>x</m> was written.
+      </p>
+    </example>
+
+    <p>
+      So far, regarding solving equations, we have discussed:
+      <ul>
+        <li>
+          <p>
+            <alert>Primary tool:</alert> Apply the same action on both sides of an equation.
+          </p>
+        </li>
+        <li>
+          <p>
+            <alert>When we stop:</alert> When the variable is isolated on one side of the equation, and the other side is a constant.
+          </p>
+        </li>
+      </ul>
+      We've discussed our primary tool which is <emph>how</emph> we solve an equation.
+      We've also discussed <emph>when</emph> we stop.
+      We haven't really discussed <emph>what</emph> this signifies. In other words,
+      what we haven't discussed is what it <emph>means</emph> to solve an equation.
+    </p>
+
+    <assemblage xml:id="assemblage-solving-equations-meaning">
+      <title>Solving equations: what it means</title>
+      <p>
+        To solve an equation means to find all values of the variable that make 
+        the left side of the original equation equal to the right side of the original equation.
+      </p>
+    </assemblage>
+
+    <example>
+      <p>
+        Let's revisit the equation <m>7x - 2 = 3x + 14</m>.
+        We will discuss strategies for solving this equation soon, but for now, 
+        say that someone claims to have solved this equation and wrote <m>x = 4</m> as their final line of work.
+        Let's see if using <m>4</m> for <m>x</m> makes the origial left side and the original right side equal:
+        <ol>
+          <li>
+            <p>
+              The left side of the original equation is the expression <m>7x - 2</m>.
+              Substituting <m>4</m> for <m>x</m> gives <m>7(4) - 2 = 28 - 2 = 26</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The right side of the original equation is the expression <m>3x + 14</m>.
+              Substituting <m>4</m> for <m>x</m> gives <m>3(4) + 14 = 12 + 14 = 26</m>.
+            </p>
+          </li>
+        </ol>
+        Substiting <m>x=4</m> made both the left and right side equal to <m>26</m>.
+        This means that <m>x=4</m> is a solution to the equation <m>7x - 2 = 3x + 14</m>.
+        Note that this focuses on what it <emph>means</emph> to solve an equation.
+        We have actually avoided discussing <emph>how</emph> someone got <m>x=4</m>, which we will do soon.
+        In addition, note that substituing any value of <m>x</m> other than <m>4</m> will make both sides unequal.
+      </p>
+    </example>
+
+    <example>
+      <p>
+        When asked to solve the equation <m>x^2-3x=35-5x</m>, 
+        using techinques we'll introduce in the next chapter,
+        someone presented <m>x=-7, 5</m> as their final answer.
+        When substituting <m>-7</m> for <m>x</m> in the original equation, both the left and the right side equal <m>70</m>.
+        When substituting <m>5</m> for <m>x</m> in the original equation, both the left and the right side equal <m>10</m>.
+        When substituting any other value for <m>x</m>, the left and right sides are not equal.
+        So the only two solutions to the equation are <m>x=-7</m> and <m>x=5</m>.
+      </p>
+    </example>
+
+    <p>
+      Understanding that solving an equation means finding all values of the variable that make the original left and right sides equal,
+      this gives us a useful tool that we can use to check our work after solving <emph>any</emph> equation!
+    </p>
+
+    <assemblage xml:id="assemblage-checking-equation-solutions">
+      <title>Checking solutions to equations</title>
+      <p>
+        After solving an equation, we can check our work by substituting our solution(s) into the original equation.
+        If substituting a solution into the original equation makes both sides equal, then it is indeed a solution.
+        If substituting a solution into the original equation does not make both sides equal, then there was an error in the work.
+        If there are multiple solutions, we should check each one.
+      </p>
+    </assemblage>
+
+    <example>
+      In <xref ref="solve-5xminus3-equals27" /> we started with the equation <m>5x-3=27</m> and we found that <m>x = 6</m> is a solution.
+      We didn't check our work then, so let's check it now.
+      (If you have leftover time in a quiz or exam, it's a good idea to check your work on solving equations by substituing your solution(s) into the original equation.)
+      Whenever we check our work, we always start with the <emph>original</emph> equation.
+      Let's substitute <m>6</m> for <m>x</m> in the original equation:
+      <ol>
+        <li>
+          <p>
+            The right side of the original equation is the expression <m>27</m>.
+            There is no <m>x</m> written, so we don't even have to work on substituting <m>6</m> for every <m>x</m>.
+            The right side has value <m>27</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The left side of the original equation is the expression <m>5x-3</m>.
+            Substituting <m>6</m> for <m>x</m> gives <m>5(6)-3 = 30-3 = 27</m>.
+          </p>
+        </li>
+      </ol>
+      Since both sides are equal, we have verified that <m>x = 6</m> is indeed a solution to the equation <m>5x-3=27</m>.
+    </example>
+
   </subsection>
 
   <subsection>
-		<title> aaaaa</title>
+		<title>Equations when the variable is written more than once</title>
 
     <p>
-
-
-Multiple terms.
+Multiple terms: terms with x and terms without x
+Still, we can CHECK.
 Rewriting as multiple terms. <m>3(x+2) = 5x - 11</m>
 Strategy comparison.
     </p>
@@ -894,6 +1307,11 @@ Strategy comparison.
       Let's revisit the applications we introduced at the beginning of this section.
     </p>
 
+    <p>
+      When it comes to applications, I encourage you to appreciate the <emph>methodology</emph> of writing and solving an equation to solve the problem.
+      AAAAA insert warning against self-coaching techniques to turn each problem into an arithmetic problem.
+    </p>
+
     <example>
       <statement>
         <p>
@@ -906,7 +1324,133 @@ Strategy comparison.
         </p>
       </solution>
     </example>
+    <p>
+        A cell phone company charges a monthly fee of $25 plus $0.10 per text message. If a customer's bill is $49, how many text messages did they send?
 
+    </p>
+
+<!-- <exercise>
+  <statement>
+    <p>Solve each of the following application problems by writing and solving a linear equation.</p>
+    <ol marker="a">
+      <li>
+        <p>A cell phone company charges a monthly fee of $25 plus $0.10 per text message. If a customer's bill is $49, how many text messages did they send?</p>
+        <answer>
+          <p>Let <m>x</m> = number of text messages.</p>
+          <p><m>25 + 0.10x = 49</m></p>
+          <p><m>0.10x = 24</m></p>
+          <p><m>x = 240</m></p>
+          <p>The customer sent 240 text messages.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A car rental costs $40 per day plus a one-time insurance fee of $15. If the total cost is $135, how many days was the car rented?</p>
+        <answer>
+          <p>Let <m>d</m> = number of days.</p>
+          <p><m>40d + 15 = 135</m></p>
+          <p><m>40d = 120</m></p>
+          <p><m>d = 3</m></p>
+          <p>The car was rented for 3 days.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A scientist is cooling a liquid that starts at 90°C and decreases at a rate of 2°C per minute. After how many minutes will the liquid reach 30°C?</p>
+        <answer>
+          <p>Let <m>t</m> = time in minutes.</p>
+          <p><m>90 - 2t = 30</m></p>
+          <p><m>-2t = -60</m></p>
+          <p><m>t = 30</m></p>
+          <p>The liquid will reach 30°C after 30 minutes.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A store is having a sale where jeans cost $20 each, plus a 7% sales tax. If someone paid $42.80 in total, how many pairs of jeans did they buy?</p>
+        <answer>
+          <p>Let <m>j</m> = number of jeans.</p>
+          <p><m>20j \times 1.07 = 42.80</m></p>
+          <p><m>21.4j = 42.8</m></p>
+          <p><m>j = 2</m></p>
+          <p>The customer bought 2 pairs of jeans.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A train leaves a station traveling at 60 miles per hour. Another train leaves the same station two hours later traveling at 80 miles per hour. After how many hours will the second train catch up?</p>
+        <answer>
+          <p>Let <m>t</m> = hours the faster train travels.</p>
+          <p>Distance of slow train: <m>60(t + 2)</m></p>
+          <p>Distance of fast train: <m>80t</m></p>
+          <p>Equation: <m>80t = 60(t + 2)</m></p>
+          <p><m>80t = 60t + 120</m></p>
+          <p><m>20t = 120</m></p>
+          <p><m>t = 6</m></p>
+          <p>The second train will catch up after 6 hours.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A landscaper buys bags of soil for $3 each and a one-time delivery charge of $12. If the total cost is $51, how many bags of soil were purchased?</p>
+        <answer>
+          <p>Let <m>b</m> = number of bags.</p>
+          <p><m>3b + 12 = 51</m></p>
+          <p><m>3b = 39</m></p>
+          <p><m>b = 13</m></p>
+          <p>The landscaper bought 13 bags of soil.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>An internet service provider offers a base plan for $30 per month plus $5 for each additional gigabyte of data. If someone paid $65 one month, how many gigabytes of extra data did they use?</p>
+        <answer>
+          <p>Let <m>g</m> = extra gigabytes.</p>
+          <p><m>30 + 5g = 65</m></p>
+          <p><m>5g = 35</m></p>
+          <p><m>g = 7</m></p>
+          <p>The person used 7 extra gigabytes of data.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A chemist wants to dilute a 20% saline solution with pure water to obtain 100 mL of a 12% solution. How many milliliters of the 20% solution should be used?</p>
+        <answer>
+          <p>Let <m>x</m> = milliliters of 20% solution.</p>
+          <p>Amount of salt: <m>0.20x</m></p>
+          <p>Final solution: <m>0.12(100)</m></p>
+          <p>Equation: <m>0.20x = 12</m></p>
+          <p><m>x = 60</m></p>
+          <p>The chemist should use 60 mL of the 20% solution and 40 mL of water.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A taxi ride costs $3 plus $2.50 per mile. If a ride costs $28.50, how many miles was the trip?</p>
+        <answer>
+          <p>Let <m>m</m> = miles.</p>
+          <p><m>3 + 2.5m = 28.5</m></p>
+          <p><m>2.5m = 25.5</m></p>
+          <p><m>m = 10.2</m></p>
+          <p>The trip was 10.2 miles long.</p>
+        </answer>
+      </li>
+
+      <li>
+        <p>A gym charges a membership fee of $50 plus $15 per month. If someone paid $200 in total, for how many months were they a member?</p>
+        <answer>
+          <p>Let <m>m</m> = months.</p>
+          <p><m>50 + 15m = 200</m></p>
+          <p><m>15m = 150</m></p>
+          <p><m>m = 10</m></p>
+          <p>The person was a member for 10 months.</p>
+        </answer>
+      </li>
+    </ol>
+  </statement>
+</exercise>
+  -->
+    
   </subsection>
 
 	<subsection>
