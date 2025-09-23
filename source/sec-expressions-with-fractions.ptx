@@ -1528,6 +1528,26 @@
       because some formats of writing will be easier to work with in algebra than other formats.
     </p>
 
+    <note xml:id="negative-fraction">
+      <p>
+        First, we note that when writing a fraction whose value is negative, it is equivalent to present the fraction with the negative sign in the numerator, or in the denominator, or in front of the entire fraction.
+        However, it is <em>not</em> equivalent to present the negative sign in both the numerator and denominator.
+      </p>
+    </note>
+    <example>
+      <p>
+        Writing <m>\frac{4}{-7}</m> and <m>\frac{-4}{7}</m> and <m>-\frac{4}{7}</m> are all legitimate ways to write the same negative fraction.
+        You can check in a calculator that <m>4 \div -7</m> and <m>-4 \div 7</m> and <m>-(4 \div 7)</m> all give the same decimal value.
+      </p>
+      <p>
+        However, <m>\frac{-4}{-7}</m> is not the same as the other three ways of writing the negative fraction.
+        Instead, <m>\frac{-4}{-7} = \frac{4}{7}</m>.
+        You can check in a calculator that <m>-4 \div -7</m> gives the same decimal value as <m>4 \div 7</m>.
+        Alternatively, you can note that a negative divided by a negative results in a positive, or follow this cancellation of factors:
+        <me>\frac{-4}{-7} = \frac{-1 \cdot 4}{-1 \cdot 7} = \frac{4}{7}.</me>
+      </p>
+    </example>
+
     <p>
       Suppose somone wrote <m>2 \frac{3}{5}</m>. Then:
       <ul>
@@ -2079,7 +2099,7 @@
             </ol>
           </p>
         </li>
-        
+
         <li>
           <p>
             Simplify the following expressions.
