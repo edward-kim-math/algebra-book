@@ -1751,45 +1751,80 @@
   <subsection>
 		<title>Exercises</title>
 
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+    <!-- Construct 25 examples of solving linear equations, where the difficulty gradually increases. A basic example might be one like 3x - 2 = 8, and ones where students need to actively think about order of operations like 8-5x = 2. Problems may include non-standard looks such as 3(x-2) = 7(x+3)+2x+1 or problems which look wildly different where the variable is written exactly once such as (2x-1)/6 + 3 = 55. All examples of equations should be put into an ordered list in PreTeXt format. -->
+    <!-- Additionally: the only time a fraction may appear in the ORIGINAL question is when the variable appears ONCE -->
 
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+    <!-- Create an ordered list in PreTeXt format of 20 applications of solving linear equations. These questions should come from a wide variety of areas, including applications in business and science. Do not include any questions where the equation to set up naturally has the variable included twice: for example, "A shirt has a 9% discount. If the final amount paid was $10, what was the original price of the shirt?" should be excluded, but a question like "My travel credit card currently runs a bonus of giving 10% extra miles to an airline. If the flight with the airline requires 12,500 miles, then how many miles should I transfer over to get the flight needed while taking advantage of the bonus?" -->
 
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+
 
     <p>
       <ol>
 
         <li>
           <p>
-            Text.
+            Review the strategies for solving equations that we have seen, paying attention to when each strategy applies. Then solve each equation.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>x + 5 = 12</m></p></li>
+              <li><p><m>5x = 12</m></p></li>
+              <li><p><m>x - 7 = 4</m></p></li>
+              <li><p><m>4 = 7x</m></p></li>
+              <li><p><m>2x + 7 = 15</m></p></li>
+              <li><p><m>10 - x = 4</m></p></li>
+              <li><p><m>8 - 5x = 2</m></p></li>
+              <li><p><m>6x + 9 = 3</m></p></li>
+              <li><p><m>4x - 3 = 2x + 7</m></p></li>
+              <li><p><m>7x + 5 = 2x + 20</m></p></li>
+              <li><p><m>12 - 3x = 4x - 2</m></p></li>
+              <li><p><m>\frac{2x - 1}{6} + 3 = 55</m></p></li>
+              <li><p><m>\frac{3x + 4}{5} - 2 = 6</m></p></li>
+              <li><p><m>2(x + 3) = 10</m></p></li>
+              <li><p><m>3(x - 2) = 15</m></p></li>
+              <li><p><m>4(x - 1) + 2 = 10</m></p></li>
+              <li><p><m>5(x + 2) - 3 = 2x + 10</m></p></li>
+              <li><p><m>\frac{x + 5}{2} = 7</m></p></li>
+              <li><p><m>4 + \frac{x - 2}{3} = 10</m></p></li>
+              <li><p><m>7(x - 4) = 2(x + 1) + 9</m></p></li>
+              <li><p><m>3(x - 2) = 7(x + 3) + 2x + 1</m></p></li>
+              <li><p><m>12 - \sqrt{3}x = 4x - 2</m></p></li>
+              <li><p><m>\sqrt{7}x + 5 = 2x + 20</m></p></li>
+              <li><p><m>\frac{5x + 2}{7} = 8</m></p></li>
+              <li><p><m>12 = \frac{3x - 4}{2}</m></p></li>
+              <li><p><m>\frac{15 - 2x}{5} = 1</m></p></li>
             </ol>
           </p>
         </li>
+
         <li>
           <p>
-            Text.
+            Model each situation by first clearly defining a variable to represent the unknown quantity, 
+            write an equation that models the situation (by equating two different-looking expressions which are equal due to the situation described), and then solve the equation.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p>A taxi ride costs a flat fee of $4 plus $2.50 per mile. If the total cost is $29.50, how many miles was the trip?</p></li>
+              <li><p>A recipe requires <m>3 \tfrac{1}{2}</m> cups of sugar to make one batch of cookies. If you want to make 5 batches, how many cups of sugar do you need?</p></li>
+              <li><p>A water tank is being filled at a rate of 12 liters per minute. How long will it take to fill 300 liters?</p></li>
+              <li><p>You earn $15 per hour babysitting. If you earned $180 last month, how many hours did you babysit?</p></li>
+              <li><p>A scientist has a sample cooling at a steady rate of 1.5°C per minute. If it started at 95°C, after how many minutes will it reach 35°C?</p></li>
+              <li><p>A gym charges $40 per month plus a one-time registration fee of $20. If someone paid $140 total, how many months were they a member?</p></li>
+              <li><p>A concert ticket costs $45. If you save $270 by skipping other expenses, how many tickets can you buy?</p></li>
+              <li><p>You drive at an average speed of 60 miles per hour. How long does it take to drive 210 miles?</p></li>
+              <li><p>A factory produces 250 parts per hour. How many hours does it take to produce 6,000 parts?</p></li>
+              <li><p>A cell phone plan charges $30 plus $0.05 per text message. If the monthly bill is $47.50, how many text messages were sent?</p></li>
+              <li><p>A bicycle rental costs $12 per hour. If the total cost was $66, for how many hours was the bike rented?</p></li>
+              <li><p>A sports drink container has 1.5 liters. How many containers are needed to hold 21 liters?</p></li>
+              <li><p>A printing company charges $50 setup fee plus $0.20 per page. If the total charge is $110, how many pages were printed?</p></li>
+              <li><p>A runner maintains a pace of 8 minutes per mile. How long does it take to complete a 13-mile run?</p></li>
+              <li><p>A streaming service charges $12 per month. If you paid $96 in total, how many months were covered?</p></li>
+              <li><p>A car uses 3.5 gallons of gas to drive 100 miles. How many gallons are needed to drive 350 miles?</p></li>
+              <li><p>A plumber charges $75 for a service call plus $50 per hour of labor. If the bill was $275, how many hours of labor were included?</p></li>
+              <li><p>A hiking trail is 6.4 kilometers long. If you walk at a steady pace of 4 kilometers per hour, how long does it take to finish the trail?</p></li>
+              <li><p>A landscaper charges $30 per hour plus a one-time fee of $50. If the total cost was $200, how many hours did the landscaper work?</p></li>
             </ol>
           </p>
         </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
+
+
 
       </ol>
     </p>

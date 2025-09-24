@@ -19,6 +19,36 @@
 		</ol>
 	</objectives>
 
+  <exercise>
+    <statement>
+      <p>AAAAAAAA Edit</p>
+      <ol>
+        <li><p>As a cashier, a customer gives you $20 for their purchase of $15.75. You input into the cash register, and just as you're about to make the $4.25 change, the customer hands you a one-dollar bill they found. What do you do?</p></li>
+        <li><p>A taxi charges $3 to start plus $2 for every mile. If you ride 7 miles, what is the total cost? (<m>3 + 2 \times 7</m>)</p></li>
+        <li><p>A movie ticket costs $12, and popcorn costs $5. If you buy 3 tickets and 1 popcorn, how much do you spend? (<m>3 \times 12 + 5</m>)</p></li>
+        <li><p>A plumber charges $50 per hour plus a $30 service fee. If the plumber works for 4 hours, what is the total bill? (<m>30 + 50 \times 4</m>)</p></li>
+        <li><p>A shirt costs $20 and jeans cost $30. If you buy 2 shirts and 3 pairs of jeans, how much do you spend? (<m>2 \times 20 + 3 \times 30</m>)</p></li>
+        <li><p>A train travels 60 miles per hour. How far does it go in 2.5 hours, and then return halfway back? (<m>60 \times 2.5 - 0.5 \times (60 \times 2.5)</m>)</p></li>
+        <li><p>A gym charges $40 per month plus $10 per guest pass. If you keep the membership for 6 months and buy 4 guest passes, what is the cost? (<m>40 \times 6 + 10 \times 4</m>)</p></li>
+        <li><p>A baker sells cakes for $15 each. If she sells 10 cakes and then spends $25 on ingredients, what is her profit? (<m>10 \times 15 - 25</m>)</p></li>
+        <li><p>A ride at an amusement park charges $4 admission plus $2 per ride. If someone goes on 5 rides, how much do they pay? (<m>4 + 2 \times 5</m>)</p></li>
+        <li><p>A cell phone plan costs $25 per month plus $0.10 per text. If you keep the plan for 3 months and send 200 texts total, what is the cost? (<m>25 \times 3 + 0.10 \times 200</m>)</p></li>
+        <li><p>A pizza shop sells large pizzas for $12 and small pizzas for $8. If you buy 2 large and 3 small pizzas, how much do you spend? (<m>2 \times 12 + 3 \times 8</m>)</p></li>
+        <li><p>A car rental costs $40 per day plus $20 for insurance. If you rent it for 5 days, what is the total cost? (<m>(40 \times 5) + 20</m>)</p></li>
+        <li><p>A taxi charges $2 per mile, but there is also a $5 starting fee. If you ride 10 miles, how much do you pay? (<m>5 + (2 \times 10)</m>)</p></li>
+        <li><p>A runner trains by running 3 miles each morning and 5 miles each evening for 7 days. How many miles total? (<m>7 \times (3 + 5)</m>)</p></li>
+        <li><p>A concert ticket is $60, and a service fee of $5 is added to each ticket. If you buy 4 tickets, how much do you pay? (<m>4 \times (60 + 5)</m>)</p></li>
+        <li><p>A plumber charges $40 per hour, plus a $25 trip fee. If a job takes 3 hours, what is the total bill? (<m>(40 \times 3) + 25</m>)</p></li>
+        <li><p>A baseball team sells hot dogs for $3 and sodas for $2. If 50 hot dogs and 70 sodas are sold, how much money is made? (<m>(50 \times 3) + (70 \times 2)</m>)</p></li>
+        <li><p>A ride service charges $2 per mile, with a $10 discount applied at the end. If the trip is 15 miles, what is the total? (<m>(2 \times 15) - 10</m>)</p></li>
+        <li><p>A theme park charges $50 admission and $5 per ride. If someone goes on 6 rides, how much do they pay? (<m>50 + (5 \times 6)</m>)</p></li>
+        <li><p>A farmer sells apples for $2 per pound and pears for $3 per pound. If she sells 15 pounds of apples and 10 pounds of pears, how much does she earn? (<m>(15 \times 2) + (10 \times 3)</m>)</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+
+
   <p>
   Algebra provides a powerful way of solving many kinds of questions
   Algebra achieves this by enhancing arithmetic.
