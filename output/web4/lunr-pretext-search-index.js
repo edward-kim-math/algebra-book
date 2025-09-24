@@ -1108,9 +1108,9 @@ var ptx_lunr_docs = [
   "body": "  Simplify     First we indicate the multiplication without simplifying:     Above, we rewrote as . The factors that appear in both the numerator and denominator are and and and .   where we rewrote as .   "
 },
 {
-  "id": "subsec-multiplying-fractions-28",
+  "id": "multiplying-fractions-does-not-need-common-denominator",
   "level": "2",
-  "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-28",
+  "url": "sec-expressions-with-fractions.html#multiplying-fractions-does-not-need-common-denominator",
   "type": "Warning",
   "number": "1.2.56",
   "title": "",
@@ -1897,7 +1897,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Equations with Fractions",
-  "body": " Equations with Fractions    In this section, we learn how to:    Solve equations that involve fractions.  Understand how to eliminate fractions from equations.  Apply strategies for solving equations with fractions in real-world contexts.     Applications  Intro:   Text    Text    Text       24375623987698  Recall that we don't ALWAYS have denom Checking for false solutions.   Recall that we don't ALWAYS have denom Checking for false solutions.   subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Equations with Fractions    In this section, we learn how to:    Solve equations with fractions present.  Apply strategies for solving equations with fractions in real-world contexts.     Applications  Intro:   Text    Text    Text       24375623987698  In , we learned how to simplify expressions with fractions. In this section, we look beyond simplifying expressions with fractions, and instead look at solving equations with fractions. The last two sections discussed expressions with fractions followed by solving equations, so now it's time to see efficient ways to solve equations with fractions. Recall from that simplifying expressions with fractions does not always require a common denominator. (More specifically, when asked to simplify the product of two fractions, we do not need a common denominator.) So, I invite you -- as we go through this section -- to be willing to question the idea that we'd always need a common denominator when solving equations with fractions. After all, it wasn't every fractional expression that required common denominators: only some of them did.    Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.           Solve .    We are being asked to solve an equation with fractions, so applies. First, we inventory all of the fractions and identify the denominators, which are and and . The least common multiple of and and is .  We multiply both sides of the equation by : Note that on the left side of the equation, we used parentheses to ensure that the entire left side is multiplied by : the Order of Operations tells us that multiplication is performed before addition, so without parentheses, only the first fraction would be multiplied by . On the right side, we could have drawn parentheses around the entire right side, but because there is only one term on the right side, it was not necessary.  Now, distribute on the left side: Next, we cancel where applicable. In the first term (all content before the first plus sign), the in the numerator partially cancels with the in the denominator, or said differently, after cancelling factor of on top and bottom, we are left with a factor of on top. In the second term (all content between the plus sign and the equal sign), the in the numerator partially cancels with the in the denominator, leaving a factor of on top. On the right side, the in the numerator partially cancels with the in the denominator, leaving a factor of on top. Here's what it looks like with the cancellations written in: After performing the cancellations, we are left with: This is an equation with no fractions, so we can solve it using the strategies we have learned previously. Subtracting from both sides gives: Dividing both sides by gives:      Before seeing more examples, let's discuss why this strategy works:   We multiplied by the appropriate quantity (in our last example ) which ensured that, after distributing where needed, all factors in the denominator would cancel. Using the least common multiple of the denominators as the number to multiply by on both sides ended up leading to this value appearing as a factor in the numerator of each term, allowing each copy to create all the necessary cancellations so that each denominator ends up being after cancellations occur. In other words, this ends up creating an equation without fractions.    For a fraction expression, there are not two sides, so to simplify adding fractions, a common denominator is needed. However, when you have an equation there are two sides. We can take avantage of the two sides by multiplying by the same thing on both sides! In the case of an expression, there aren't sides in the first place.    In an equation with fractions, multiplying both sides by the least common multilple of the denominators is the fastest way to get rid of fractions.        Solve the equation .    We are being asked to solve an equation with fractions, so applies. The least common multiple of the denominators and and is . So we multiply both sides of the equation by : Distributing on the left side gives: Now we cancel where applicable. After performing the cancellations, we are left with: This is an equation with no fractions. Subtracting from both sides gives: Dividing both sides by gives:     You may have never heard of before, but it is the fastest way to solve any equation that has fractions. You may be used to another method that works involving common denominators, but as a friendly reminder, told us that even when we looked at fractional expressions, we didn't always need common denominators. Let's compare the two methods in the next example.    Solve     Here's what it looks like to solve by ignoring and doing everything with common denominators instead:    Multiply both sides by .        Here's what it looks like to solve by using . First, the least common multiple of the denominators and and is , so we make our first step to multiply both sides by . On the left side, distribute . After cancelling, we have:         Let's be clear that both answers to the previous question are completely valid. In both answers, it took multiplying by to get rid of the fractions. (I ask you to pause for a second and think about this: if we didn't multiply by , we would not have been able to get rid of the fractions.) Since we have to multiply by anyway, why not do it right away and save ourselves some time? This saves us time because we don't have to keep writing fractions. Fractions take longer to write than non-fractions (because fractions have a top and a bottom). To be clear, there are ways to skip some of the steps in both answers above (but for a fair comparison, both answers stated the original equation at the start of the answer).   works because an equation has two sides. If we only had an expression , then we don't have two sides to work with.    Simplify the expression .           In the previous example, we could not use because there is no second side to multiply by the least common multiple. Instead, we had to find a common denominator in order to simplify the addition of fractions. This is why only applies to equations with fractions. However, when we have an equation with fractions, even if there is a plus sign between two fractions, there is no requirement to simplify the addition of fractions. Instead, we can use to get rid of the fractions entirely.    Solve the equation .    An answer that ignores and uses common denominators instead looks like this:   Multiply both sides by .   To try to speed things up, we skipped writing several steps.    An answer that uses first computes that the least common multiple of and and is . To create a fair comparison with the previous answer, we start by writing the original equation: Now, if we were in the setting of a quiz or exam, this equation is probably already typed for you. For the multiplying by on both sides, you could actually handwrite the on both sides, surrounding the typed left side in parentheses. That is, by handwriting on top of the original equation, you could see this next equation without having to write it in full: In fact, the step that would appear after this involves distributing on the left, as we saw in previous examples using . Instead of writing the equation we might just stare at each term to figure out what results after cancellation. In other words, by looking at we could see that result of multiplying by is . Similarly, looking at the second term , multiplying by gives . For the term on the right side, multiplying by simplifies to . Thus, our first full equation to write could be this equation, which has no fractions:           one more    Checking for false solutions. Epilogue: Cross multiply?    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-equations-with-fractions-2",
@@ -1906,50 +1906,122 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.4",
   "title": "",
-  "body": "  In this section, we learn how to:    Solve equations that involve fractions.  Understand how to eliminate fractions from equations.  Apply strategies for solving equations with fractions in real-world contexts.   "
+  "body": "  In this section, we learn how to:    Solve equations with fractions present.  Apply strategies for solving equations with fractions in real-world contexts.   "
+},
+{
+  "id": "strategy-equations-with-fractions",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#strategy-equations-with-fractions",
+  "type": "Strategy",
+  "number": "1.4.1",
+  "title": "Solving an equation with fractions.",
+  "body": " Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.        "
+},
+{
+  "id": "subsec-24375623987698-4",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-4",
+  "type": "Example",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  Solve .    We are being asked to solve an equation with fractions, so applies. First, we inventory all of the fractions and identify the denominators, which are and and . The least common multiple of and and is .  We multiply both sides of the equation by : Note that on the left side of the equation, we used parentheses to ensure that the entire left side is multiplied by : the Order of Operations tells us that multiplication is performed before addition, so without parentheses, only the first fraction would be multiplied by . On the right side, we could have drawn parentheses around the entire right side, but because there is only one term on the right side, it was not necessary.  Now, distribute on the left side: Next, we cancel where applicable. In the first term (all content before the first plus sign), the in the numerator partially cancels with the in the denominator, or said differently, after cancelling factor of on top and bottom, we are left with a factor of on top. In the second term (all content between the plus sign and the equal sign), the in the numerator partially cancels with the in the denominator, leaving a factor of on top. On the right side, the in the numerator partially cancels with the in the denominator, leaving a factor of on top. Here's what it looks like with the cancellations written in: After performing the cancellations, we are left with: This is an equation with no fractions, so we can solve it using the strategies we have learned previously. Subtracting from both sides gives: Dividing both sides by gives:    "
+},
+{
+  "id": "subsec-24375623987698-5",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-5",
+  "type": "Note",
+  "number": "1.4.3",
+  "title": "",
+  "body": " Before seeing more examples, let's discuss why this strategy works:   We multiplied by the appropriate quantity (in our last example ) which ensured that, after distributing where needed, all factors in the denominator would cancel. Using the least common multiple of the denominators as the number to multiply by on both sides ended up leading to this value appearing as a factor in the numerator of each term, allowing each copy to create all the necessary cancellations so that each denominator ends up being after cancellations occur. In other words, this ends up creating an equation without fractions.    For a fraction expression, there are not two sides, so to simplify adding fractions, a common denominator is needed. However, when you have an equation there are two sides. We can take avantage of the two sides by multiplying by the same thing on both sides! In the case of an expression, there aren't sides in the first place.    In an equation with fractions, multiplying both sides by the least common multilple of the denominators is the fastest way to get rid of fractions.     "
+},
+{
+  "id": "subsec-24375623987698-6",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-6",
+  "type": "Example",
+  "number": "1.4.4",
+  "title": "",
+  "body": "  Solve the equation .    We are being asked to solve an equation with fractions, so applies. The least common multiple of the denominators and and is . So we multiply both sides of the equation by : Distributing on the left side gives: Now we cancel where applicable. After performing the cancellations, we are left with: This is an equation with no fractions. Subtracting from both sides gives: Dividing both sides by gives:    "
+},
+{
+  "id": "subsec-24375623987698-8",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-8",
+  "type": "Example",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Solve     Here's what it looks like to solve by ignoring and doing everything with common denominators instead:    Multiply both sides by .        Here's what it looks like to solve by using . First, the least common multiple of the denominators and and is , so we make our first step to multiply both sides by . On the left side, distribute . After cancelling, we have:        "
+},
+{
+  "id": "subsec-24375623987698-11",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-11",
+  "type": "Example",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  Simplify the expression .          "
+},
+{
+  "id": "subsec-24375623987698-13",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-13",
+  "type": "Example",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  Solve the equation .    An answer that ignores and uses common denominators instead looks like this:   Multiply both sides by .   To try to speed things up, we skipped writing several steps.    An answer that uses first computes that the least common multiple of and and is . To create a fair comparison with the previous answer, we start by writing the original equation: Now, if we were in the setting of a quiz or exam, this equation is probably already typed for you. For the multiplying by on both sides, you could actually handwrite the on both sides, surrounding the typed left side in parentheses. That is, by handwriting on top of the original equation, you could see this next equation without having to write it in full: In fact, the step that would appear after this involves distributing on the left, as we saw in previous examples using . Instead of writing the equation we might just stare at each term to figure out what results after cancellation. In other words, by looking at we could see that result of multiplying by is . Similarly, looking at the second term , multiplying by gives . For the term on the right side, multiplying by simplifies to . Thus, our first full equation to write could be this equation, which has no fractions:        "
+},
+{
+  "id": "subsec-24375623987698-14",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#subsec-24375623987698-14",
+  "type": "Example",
+  "number": "1.4.8",
+  "title": "",
+  "body": "  one more   "
+},
+{
+  "id": "sec-equations-with-fractions-5-3",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-3",
+  "type": "Example",
+  "number": "1.4.9",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-equations-with-fractions-5-4",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-4",
+  "type": "Try it",
+  "number": "1.4.10",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-equations-with-fractions-5-5",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-5",
+  "type": "Note",
+  "number": "1.4.11",
+  "title": "",
+  "body": " Text  "
+},
+{
+  "id": "sec-equations-with-fractions-5-7",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-7",
+  "type": "Warning",
+  "number": "1.4.12",
+  "title": "",
+  "body": " text  "
 },
 {
   "id": "sec-equations-with-fractions-6-3",
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-3",
   "type": "Example",
-  "number": "1.4.1",
-  "title": "",
-  "body": "  Statement text    Solution text   "
-},
-{
-  "id": "sec-equations-with-fractions-6-4",
-  "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-4",
-  "type": "Try it",
-  "number": "1.4.2",
-  "title": "",
-  "body": "  Text    "
-},
-{
-  "id": "sec-equations-with-fractions-6-5",
-  "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-5",
-  "type": "Note",
-  "number": "1.4.3",
-  "title": "",
-  "body": " Text  "
-},
-{
-  "id": "sec-equations-with-fractions-6-7",
-  "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-7",
-  "type": "Warning",
-  "number": "1.4.4",
-  "title": "",
-  "body": " text  "
-},
-{
-  "id": "sec-equations-with-fractions-7-3",
-  "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-7-3",
-  "type": "Example",
-  "number": "1.4.5",
+  "number": "1.4.13",
   "title": "",
   "body": "  Text    Answer   "
 },

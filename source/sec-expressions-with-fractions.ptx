@@ -1291,7 +1291,7 @@
       </solution>
     </example>
 
-    <warning>
+    <warning xml:id="warning-multiplying-fractions-does-not-need-common-denominator">
       <p>
         Please note that when multiplying fractions, we do not need a common denominator: sometimes people get overly cautious and try to treat multiplying fractions like adding fractions.
         Let's look at an example and see what the common error is:
