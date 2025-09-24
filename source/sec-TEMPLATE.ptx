@@ -16,7 +16,7 @@
     </ol>
 	</objectives>
 
-  <subsection xml:id="subsec-TITLE">
+  <subsection>
     <title>Applications</title>
 
     <p>
@@ -44,7 +44,7 @@
 	<subsection>
 		<title>subsection title</title>
 
-    <assemblage permid="include-id">
+    <assemblage xml:id="include-id">
       <title>text</title>
       <p>
         text
@@ -80,7 +80,7 @@
       </p>
     </note>
 
-    <assemblage permid="label-for-boxed-item">
+    <assemblage xml:id="label-for-boxed-item">
       <title>Title</title>
       <p>
         Text
@@ -95,7 +95,7 @@
 
   </subsection>
 
-  <subsection xml:id="subsec-TITLE-applications-revisited">
+  <subsection>
     <title>Applications Revisited</title>
 
     <p>

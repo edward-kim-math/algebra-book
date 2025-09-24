@@ -1897,7 +1897,61 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Equations with Fractions",
-  "body": " Equations with Fractions  Text of section.  "
+  "body": " Equations with Fractions    In this section, we learn how to:    Solve equations that involve fractions.  Understand how to eliminate fractions from equations.  Apply strategies for solving equations with fractions in real-world contexts.     Applications  Intro:   Text    Text    Text       24375623987698  Recall that we don't ALWAYS have denom Checking for false solutions.   Recall that we don't ALWAYS have denom Checking for false solutions.   subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+},
+{
+  "id": "sec-equations-with-fractions-2",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-2",
+  "type": "Objectives",
+  "number": "1.4",
+  "title": "",
+  "body": "  In this section, we learn how to:    Solve equations that involve fractions.  Understand how to eliminate fractions from equations.  Apply strategies for solving equations with fractions in real-world contexts.   "
+},
+{
+  "id": "sec-equations-with-fractions-6-3",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-3",
+  "type": "Example",
+  "number": "1.4.1",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-equations-with-fractions-6-4",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-4",
+  "type": "Try it",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-equations-with-fractions-6-5",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-5",
+  "type": "Note",
+  "number": "1.4.3",
+  "title": "",
+  "body": " Text  "
+},
+{
+  "id": "sec-equations-with-fractions-6-7",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-6-7",
+  "type": "Warning",
+  "number": "1.4.4",
+  "title": "",
+  "body": " text  "
+},
+{
+  "id": "sec-equations-with-fractions-7-3",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-7-3",
+  "type": "Example",
+  "number": "1.4.5",
+  "title": "",
+  "body": "  Text    Answer   "
 },
 {
   "id": "sec-exponents",
