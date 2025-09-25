@@ -1667,6 +1667,26 @@
     </solution>
   </example>
 
+  <example>
+    <statement>
+      <p>
+        Simplify <m>10x + 9 - (3x + 5)</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        One view is to <q>distribute the minus sign</q> and have
+        <m>10x+9-(3x+5)=10x+9-3x-5=7x+4</m>
+      </p>
+    </solution>
+    <solution>
+      <p>
+        We can turn <m>a-b</m> as <m>a + (-1)(b)</m>, or in reverse turn <m>a + (-1)(b)</m> into <m>a-b</m>. Using both of these ideas (and really, the second idea is the first idea in reverse),
+        we write
+        <m>10x + 9 - (3x + 5) = 10x + 9 + (-1)(3x + 5) = 10x + 9 + (-1)(3x) + (-1)(5) = 10x + 9 - 3x - 5 = 7x + 4</m>.
+      </p>
+    </solution>
+  </example>
 
   </subsection>
 
