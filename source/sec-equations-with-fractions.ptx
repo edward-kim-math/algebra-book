@@ -487,7 +487,7 @@
       </p>
     </assemblage>
 
-    <example>
+    <example xml:id="example-equation-variable-denominator-first">
       <statement>
         <p>
           Solve <m>\frac{3}{2x-4} - \frac5{x+3} = \frac2{x-2}</m>
@@ -604,10 +604,42 @@
       </statement>
     </example>
 
+    <note>
+      <p>
+        At this point, we have two different concepts of checking an equation.
+        To be transparent with you, it's time for some clarification.
+        Let's compare:
+        <ul>
+          <li>
+            <p>
+              In <xref ref="expectation-variable-in-denominator" />, we gave an expectation, or really a requirement:
+              after solving an equation where the variable appears in the denominator,
+              we are required to check that the value(s) obtanied for <m>x</m> do not cause any denominator to equal zero.              
+            </p>
+          </li>
+          <li>
+            <p>
+              In AAAAAA, we mentioned that you can always see if the value(s) of <m>x</m> 
+              make the left and right side of the original equation to be equal.
+              This check is never required, but it is recommended.
+              If we encounter a time when the left and right side do not end up being equal, we should scan our work for any errors.
+              After all, we're all human!
+            </p>
+          </li>
+        </ul>
+        The purpose of discussing this is to spell out that the two checks are checking for different things.
+        In the first case, we're just checking to see that denominators are never zero, and this check is required whenever the variable appears in the denominator.
+        In the second, we're checking for something else (do the left and right sides of the original equation equal each other), 
+        and only because getting different values for the left and right hints to us that there's an error in our work, and we should go over it.
+        In fact, we only completed the first kind of check in <xref ref="example-equation-variable-denominator-first" />, and we didn't do the second kind of check.
+        To illustrate that point more fully, AAAAAAAAAAA check that x=AAAA causes the original left and the original right side to equal AAAAAA
+      </p>
+      <p>
+        In summary, when the variable appears in the denominator, we <emph>must</emph> check that we never have zero in the denominator due to the value(s) of <m>x</m>.
+        In <emph>any</emph> equation, we can always check to see if the original left and right sides are equal for the sake of quality control.
+      </p>
+    </note>
 
-    <p>
-      Checking for false solutions: when we MUST check (and what we are checking for) versus when we CAN check.
-    </p>
 
     <p>
       ERROR: Solve x/5 times 3/5 = 2/5
@@ -622,7 +654,6 @@
 
     <p>
       Epilogue: Cross multiplying, and why we've avoided talking about it.
-
     </p>
     
 
