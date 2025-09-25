@@ -1108,9 +1108,9 @@ var ptx_lunr_docs = [
   "body": "  Simplify     First we indicate the multiplication without simplifying:     Above, we rewrote as . The factors that appear in both the numerator and denominator are and and and .   where we rewrote as .   "
 },
 {
-  "id": "multiplying-fractions-does-not-need-common-denominator",
+  "id": "warning-multiplying-fractions-does-not-need-common-denominator",
   "level": "2",
-  "url": "sec-expressions-with-fractions.html#multiplying-fractions-does-not-need-common-denominator",
+  "url": "sec-expressions-with-fractions.html#warning-multiplying-fractions-does-not-need-common-denominator",
   "type": "Warning",
   "number": "1.2.56",
   "title": "",
