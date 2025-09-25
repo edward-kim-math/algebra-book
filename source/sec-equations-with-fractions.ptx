@@ -326,11 +326,92 @@
     <example>
       <statement>
         <p>
-          one more
+          Solve <m>\frac{2x+1}{3} - \frac{x-1}{4} = \frac{x+2}{6}</m>.
         </p>
       </statement>
+      <solution>
+        <p>
+          An answer that ignores <xref method="strategy-equations-with-fractions"/> and uses common denominators looks like this:
+          <me>\frac{8(2x+1)}{24} - \frac{6(x-1)}{24} = \frac{4(x+2)}{24}</me>
+          <me>\frac{16x+8 - 6x + 6}{24} = \frac{4x + 8}{24}</me>
+          <me>\frac{10x + 14}{24} = \frac{4x + 8}{24}</me>
+          Multiply both sides by <m>24</m>.
+          <me>10x + 14 = 4x + 8</me>
+          <me>6x = -6</me>
+          <me>x = -1</me>
+          To try to minimize the amount of writing, some steps were skipped. Even with skipped steps, there were three equations written after the original equation which had fractions,
+          and fractions take longer to write than non-fractions.
+          (One common point of confusion is why the left side of the second equation has <m>16x+8-6x+6</m> instead of <m>16x+8-6x-6</m>.
+          The reason for this is that the numerator on the left is really <m>8(2x+1)-6(x-1)</m> before any distributing occured.
+          Some people would prefer to distribute before combining fractions, in which case one numerator is <m>16x+8</m> in a hidden set of parentheses and the second numerator is <m>(6x-6)</m> also in a hidden set of parentheses.)
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Using <xref method="strategy-equations-with-fractions"/>, the least common multiple of <m>3</m> and <m>4</m> and <m>6</m> is <m>12</m>.
+          We could handwrite a <m>12</m> on each side of the original typed equation, surrounding the left side in parentheses.
+          Knowing that we will distribute <m>12</m> on the left side anyway, we can really just think of what it means to multiply each term on each side by <m>12</m>.
+          Multiplying <m>\frac{2x+1}{3}</m> by <m>12</m> means that a factor of <m>4</m> remains in the numerator from the <m>12</m> so we'd have <m>4(2x+1)</m>.
+          Multiplying <m>\frac{x-1}{4}</m> by <m>12</m> means that a factor of <m>3</m> remains in the numerator from the <m>12</m> so we'd have <m>3(x-1)</m> after the minus sign.
+          Multiplying <m>\frac{x+2}{6}</m> by <m>12</m> means that a factor of <m>2</m> remains in the numerator from the <m>12</m> so we'd have <m>2(x+2)</m>.
+          So, the first full equation we write doesn't have fractions:
+          <me>4(2x+1)-3(x-1)=2(x+2)</me>
+          <me>8x+4-3x+3=2x+4</me>
+          <me>5x+7=2x+4</me>
+          <me>3x=-3</me>
+          <me>x=-1</me>
+        </p>
+      </solution>
     </example>
 
+    <p>
+      In an attempt to make a fair comparison and skip as much as people might eventually feel comfortable in writing (just to compare how much writing there is, and how much time it takes),
+      a certain aspect of the first answer may have been confusing. For that reason, outside of the comparison,
+      I think it would be good for us to see the first several steps of the first answer without skipping any work.
+      There are actually two subvariants of the first answer, and we'll go through the steps of both subvariants.
+      Spending the time to do this isn't to persuade you to move away from <xref method="strategy-equations-with-fractions"/>.
+      Far from it. In fact, the subtle things that we're about to dig into aren't a problem by following <xref method="strategy-equations-with-fractions"/>.
+      That said, going into the details (as annoying as it might be) I hope will demystify some of the steps that are too often glossed over quickly (and I don't blame people who are confused)!
+      The throughout explanations we're about to dig into are meant to ensure we don't create confusion by shoving things under the rug.
+      <ul>
+        <li>
+          <p>
+            Starting from <m>\frac{2x+1}{3} - \frac{x-1}{4} = \frac{x+2}{6}</m> the usual work to create a common denominator leads to
+            <me>\frac{8(2x+1)}{24} - \frac{6(x-1)}{24} = \frac{4(x+2)}{24}.</me>
+            At this moment, we can either distribute <m>8</m> and distribute <m>6</m>, or since we have common denominators on the left, we can combine the fractions.
+            I don't think it's wise at this moment to try to do both at the same time.
+            One thing at a time.
+            So, let's see what happens if we rewrite each denominator by distributing:
+            <me>\frac{16x+8}{24} - \frac{6x-6}{24} = \frac{4x+8}{24}</me>
+            Now, before doing the next step, something that tiny that can get easily ignored can lead to problems.
+            Recall that the entire numerator and entire denominator of every fraction is in a set of parentheses.
+            For this problem, we need to really think about this for the numerators (and don't need to really think about it for the denominators).
+            While we really actually need to think about these parentheses for the second numerator, let's just draw in thoe hidden parentheses for all numerators,
+            making visible those once-hidden parentheses:
+            <me>\frac{(16x+8)}{24} - \frac{(6x-6)}{24} = \frac{(4x+8)}{24}</me>
+            Now, on the left side, since we are subtracting fractions of a common denominator, we can combine this into one fraction: we leave in the parentheses for now,
+            just to process one thing at a time.
+            <me>\frac{(16x+8)-(6x-6)}{24} = \frac{(4x+8)}{24}</me>
+            The first set of parentheses can be dropped. The parentheses on the right side can also be dropped.
+            However, the second set of parentheses on the left side cannot be dropped because of the minus sign in front of it.
+            In fact, we addressed the expression <m>(16x+8)-(6x-6)</m> in <xref ref="sec-distributing-negatives" />, so we can apply what we learned there:
+            <me>\frac{16x+8-6x+6}{24} = \frac{4x+8}{24}</me>
+            We'll stop working on the problem here, because the previous equation appeared in the first answer we already provided.
+          </p>
+        </li>
+        <li>
+          <p>
+            Starting over, once we got common denominators which gave the equation
+            <me>\frac{8(2x+1)}{24} - \frac{6(x-1)}{24} = \frac{4(x+2)}{24},</me>
+            instead of distributing first, we could have combined the fractions first:
+            <me>\frac{8(2x+1)-6(x-1)}{24} = \frac{4(x+2)}{24},</me>
+            Now, distributing <m>8</m> and <m>-6</m> and <m>4</m> gives us the equation:
+            <me>\frac{16x+8-6x+6}{24} = \frac{4x+8}{24},</me>
+            Again, we stop working on the problem here.
+          </p>
+        </li>
+      </ul>
+    </p>
 
 
 

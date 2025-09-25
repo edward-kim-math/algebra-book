@@ -1625,6 +1625,49 @@
     <!-- <response /> --><!-- Commented out the response area where a student can type. -->
   </exercise>
 
+  <p>
+    We will need to watch out for some subtle problems involving distribution.
+  </p>
+
+  <example xml:id="sec-distributing-negatives">
+    <statement>
+      <p>
+        Simplify <m>(16x+8)-(6x-6)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        The first set of parentheses can be dropped. So, the given expression is equal to <m>16x+8-(6x-6)</m>.
+        Now, the minus sign in front of the parentheses is often casually called <q>distributing the minus sign</q>.
+        The previous expression is equal to <m>16x+8-6x+6</m>.
+        We have provided explanations, but to now provide a good presentation of work which includes equal signs where they should belong, 
+        we should write <m>(16x+8)-(6x-6) = 16x+8-(6x-6) = 16x+8-6x+6=10x+14</m>.
+      </p>
+    </solution>
+    <solution>
+      <p>
+        For some, the explanation given above was sufficient.
+        However, I think that if I had seen this for the first time (or if I've always been confused by this in the past), then I'd love to have a more detailed explanation.
+        So here is a more detailed explanation.
+        When subtracting any value, we can think of replacing what's being subtracting by adding the value multiplied by <m>-1</m>.
+        That sounds confusing, so let's describe this on several examples, starting small.
+        We can reinterpret <m>9-5</m> as <m>9 + (-1)(5)</m>.
+        We can reinterpret <m>a-b</m> as <m>a + (-1)(b)</m>.
+        We can reinterpret <m>a-(b+c)</m> as <m>a + (-1)(b+c)</m>.
+        In the same way, we can treat <m>16x+8-(6x-6)</m> as <m>16x+8 + (-1)(6x-6)</m>, 
+        again reintrepreting by saying that instead of subtracting a quantity, we'll add the negative of the quantity (and the negative of a quantity is obtained when multiplying the quantity by <m>-1</m>.)
+        Then in <m>16x+8 + (-1)(6x-6)</m>, we can distribute <m>-1</m> but even here, let's choose to do this slowly, so that we can see what's going on.
+        What I mean is that instead of disturbiting <emph>and</emph> simplifynig all in one step, let's just distribute <emph>without</emph> simplifying any multiplications.
+        So, the previous expression is equal to <m>16x+8 + (-1)(6x) + (-1)(-6)</m>.
+        We can change the adding of <m>(-1)(6x)</m> into subtracting <m>6x</m> instead, 
+        and for the last term, we happen to be <emph>adding</emph>, due to that plus sign, but adding what? We are adding a negative times a negative. So, we could copy down that final plus sign first, and replace <m>(-1)(-6)</m> with <m>6</m>.
+        So the previous expression is equal to <m>16x+8 -6x + 6</m>.
+        Putting this altogether: <m>(16x+8)-(6x-6) = 16x+8+(-1)(6x-6)=16x+8+(-1)(6x)+(-1)(-6)=16x+8-6x+6=10x+14</m>.
+      </p>
+    </solution>
+  </example>
+
+
   </subsection>
 
 
