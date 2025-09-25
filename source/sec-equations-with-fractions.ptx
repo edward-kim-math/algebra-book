@@ -479,17 +479,146 @@
       However, <xref ref="strategy-equations-with-fractions" /> still applies: the strategy applies to <emph>any</emph> equation with fractions, no matter how many fractions are on each side.
     </p>
     
-    <assemblage xml:id="assemblage-variable-in-denominator">
+    <assemblage xml:id="expectation-variable-in-denominator">
       <title>Expectation: equations where the variable appears in the denominator</title>
       <p>
-        
+        If the original equation had variables in the denominator, check to ensure there are no false solutions.
+        (Any solution which causes division by zero to occur is a <term>false solution</term>.)
       </p>
     </assemblage>
+
+    <example>
+      <statement>
+        <p>
+          Solve <m>\frac{3}{2x-4} - \frac5{x+3} = \frac2{x-2}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because the equation we are asked to solve has fractions, we use <xref ref="strategy-equations-with-fractions" />.
+          It will be easier to compute the least common multiple of the denominators if we factor the first denominator: <m>2x-4=2(x-2)</m>.
+          The least common multiple of <m>2(x-2)</m> and <m>x+3</m> and <m>x-2</m> is <m>2(x-2)(x+3)</m>.
+          So we will multiply both sides by <m>2(x-2)(x+3)</m>.
+          <me>2(x-2)(x+3) \left( \frac{3}{2(x-2)} - \frac5{x+3} \right) = 2(x-2)(x+3) \cdot \frac2{x-2}</me>
+          Just a friendly reminder: the original left side had two terms, so due to Order of Operations, 
+          to indicate that we are multiplying the <emph>entire</emph> left side, we wrapped the original left side in parentheses.
+          Now we distribute <m>2(x-2)(x+3)</m>. The language being used here can be confusing:
+          I don't mean that we look at <m>2(x-2)(x+3)</m> and expand this in any way, which is not only valid, 
+          this is a completely reasonable interpretation of distributing in this context.
+          I mean that we place a copy of <m>2(x-2)(x+3)</m> to the side of each of the original terms on the left.
+          <me>2(x-2)(x+3) \cdot \frac{3}{2(x-2)} - 2(x-2)(x+3) \cdot \frac5{x+3} = 2(x-2)(x+3) \cdot \frac2{x-2}</me>
+          In the first term (which is everything before the minus sign), a factor of <m>2</m> and a factor of <m>(x-2)</m> cancel on top and bottom.
+          In the second term, a factor of <m>(x+3)</m> cancels.
+          On the right side, a factor of <m>(x-2)</m> cancels.
+          We are left with
+          <me>(x+3) \cdot 3 - 2 \cdot 5 (x-2) = 2 \cdot 2 \cdot (x+3)</me>
+          <me>3(x+3) -10(x-2) = 4(x+3)</me>
+          <me>3x+9 - 10x + 20 = 4x + 12 </me>
+          <me>-7x + 29 = 4x + 12</me>
+          <me>17 = 11x</me>
+          <me>\frac{17}{11} = x</me>
+        </p>
+        <p>
+          Since the original equation had the variable written in the denominator, 
+          <xref ref="expectation-variable-in-denominator" /> applies, and we need to check
+          that the solution that we got doesn't cause any denominator to be zero.
+          <ul>
+            <li>
+              <p>
+                The first denominator is <m>2x-4</m>. When we put in <m>x=\frac{17}{11}</m>, we see <m>2 \cdot \frac{17}{11} - 4 \not= 0</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                When we put in <m>x=\frac{17}{11}</m> into the second denominator <m>x+3</m>, we see <m>\frac{17}{11} + 3 \not= 0</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                When we put in <m>x=\frac{17}{11}</m> into the third denominator <m>x-2</m>, we see <m>\frac{17}{11} - 2 \not= 0</m>.
+              </p>
+            </li>
+          </ul>
+          We checked that <m>x=\frac{17}{11}</m> does not cause any of the three denominators to simplify to zero.
+          Therefore, <m>x=\frac{17}{11}</m> is a solution.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Solve <m>\frac{3}{x+1} - \frac12 = \frac1{3x+3}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The third denominator in factored form is <m>3(x+1)</m>.
+          The least common multiple of <m>x+1</m> and <m>2</m> and <m>3(x+1)</m> is <m>2 \cdot 3 \cdot (x+1)</m>, or in other words, <m>6(x+1)</m>.
+          We multiply both sides by <m>6(x+1)</m>, noting that we have to wrap the left side in parentheses:
+          <me>6(x+1) \left(\frac{3}{x+1} - \frac12\right) = 6(x+1) \cdot \frac1{3(x+1)}</me>
+          Now we distribute <m>6(x+1)</m>. By this, I'm not saying that we write <m>6x+6</m>.
+          Instead, I mean that a copy of <m>6(x+1)</m> is written to the side of both fractinos on the left:
+          <me>6(x+1) \cdot \frac{3}{x+1} - 6(x+1) \cdot \frac12 = 6(x+1) \cdot \frac1{3(x+1)}</me>
+          After processing cancellations,
+          <me>18 - 3(x+1) = 2</me>
+          <me>18 - 3x - 3 = 2</me>
+          Now, there are multiple ways to proceed, so don't fret if your next steps look different from my next steps:
+          <me>15 -3x = 2</me>
+          <me>12 = 3x</me>
+          <me>4 = x</me>        
+        </p>
+        <p>
+          Since the original equation had the variable written in the denominator, 
+          <xref ref="expectation-variable-in-denominator" /> applies, and we need to check
+          that the solution that we got doesn't cause any denominator to be zero.
+          <ul>
+            <li>
+              <p>
+                When we put in <m>x=4</m> into the first denominator <m>x+1</m>, we see <m>4+1 \not= 0</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The second denominator is <m>2</m> without needing to substitute for <m>x</m>, since there was no <m>x</m> in the second denominator.
+                Note <m>2 \not= 0</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                When we put in <m>x=4</m> into the third denominator <m>3x+3</m>, we see <m>3 \cdot 4 + 3 = 15 \not= 0</m>.
+              </p>
+            </li>
+          </ul>
+          We checked that <m>x=4</m> does not cause any of the three denominators to become zero.
+          Therefore, <m>x=4</m> is a solution.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          INSERT example where there IS a false solution.
+        </p>
+      </statement>
+    </example>
+
 
     <p>
       Checking for false solutions: when we MUST check (and what we are checking for) versus when we CAN check.
     </p>
 
+    <p>
+      ERROR: Solve x/5 times 3/5 = 2/5
+      ERROR: Solve x/2 times 5/2 + 7/2 = 3x/2
+    </p>
+
+    <p>
+      NOTE ON WRITING: cancelling before distributing... parentheses PROTECT
+      NOTE ON WRITING: dividing on both sides in a LAZY way.
+      NOTE ON WRITING: indicating action on only ONE side.
+    </p>
 
     <p>
       Epilogue: Cross multiplying, and why we've avoided talking about it.

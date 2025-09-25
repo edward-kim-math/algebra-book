@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 SEP 2025 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 SEP 2025 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1529,6 +1529,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4]
 
+LaTeX Warning: Reference `formula:multiplying-fractions' on page 5 undefined on
+ input line 425.
+
+
+LaTeX Warning: Reference `formula:dividing-fractions' on page 5 undefined on in
+put line 432.
+
+
+Underfull \vbox (badness 6016) has occurred while \output is active []
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.0pt, for example:
@@ -1537,20 +1549,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-[]\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in the de-nom-i-na
--tor,
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-\T1/pplj/m/n/10 check to en-sure there are no false so-lu-tions. (Any so-lu-tio
-n
- []
-
-
-LaTeX Warning: Reference `formula:multiplying-fractions' on page 6 undefined on
- input line 489.
+LaTeX Warning: Reference `formula:adding-fractions' on page 6 undefined on inpu
+t line 441.
 
 
 
@@ -1562,13 +1563,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [6]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 487.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 487.
 
-LaTeX Warning: Reference `formula:dividing-fractions' on page 7 undefined on in
-put line 496.
+
+LaTeX Warning: Marginpar on page 7 moved.
 
 
-LaTeX Warning: Reference `formula:adding-fractions' on page 7 undefined on inpu
-t line 505.
+LaTeX Warning: Marginpar on page 7 moved.
 
 
 
@@ -1580,18 +1584,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [7]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 551.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 551.
-
-
-LaTeX Warning: Marginpar on page 8 moved.
-
-
-LaTeX Warning: Marginpar on page 8 moved.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1601,6 +1593,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [8]
+Overfull \hbox (17.2254pt too wide) in paragraph at lines 619--620
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+[]\T1/pplj/m/n/10 Every mix-ture prob-lem can be rephrased as tak-ing the con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+\T1/pplj/m/n/10 tents of one beaker and the con-tents of an-other beaker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+\T1/pplj/m/n/10 and dump-ing both into a bucket. Since the con-cen-tra-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+\T1/pplj/m/n/10 equa-tion must be ap-plied to each con-tainer, for each con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+\T1/pplj/m/n/10 tainer, you must keep track of the $[]$, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--640
+[]$\T1/pplj/m/n/10 , and the $[]$. Be sure to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+[]\T1/pplj/m/n/10 The amount of so-lu-tion in the bucket is the sum of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+\T1/pplj/m/n/10 amount of so-lu-tion in Beaker 1 and the amount of so-lu-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--645
+[]\T1/pplj/m/n/10 The amount of acid in the bucket is the sum of the amount
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
+[]\T1/pplj/m/n/10 You will al-ways ob-tain two ex-pres-sions for the amount of
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1610,11 +1660,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [9]
-Overfull \hbox (17.2254pt too wide) in paragraph at lines 683--684
- [] 
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1624,53 +1669,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-[]\T1/pplj/m/n/10 Every mix-ture prob-lem can be rephrased as tak-ing the con-
- []
+
+LaTeX Warning: Marginpar on page 11 moved.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-\T1/pplj/m/n/10 tents of one beaker and the con-tents of an-other beaker
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-\T1/pplj/m/n/10 and dump-ing both into a bucket. Since the con-cen-tra-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-\T1/pplj/m/n/10 equa-tion must be ap-plied to each con-tainer, for each con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-\T1/pplj/m/n/10 tainer, you must keep track of the $[]$, the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-[]$\T1/pplj/m/n/10 , and the $[]$. Be sure to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
-[]\T1/pplj/m/n/10 The amount of so-lu-tion in the bucket is the sum of the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--708
-\T1/pplj/m/n/10 amount of so-lu-tion in Beaker 1 and the amount of so-lu-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
-[]\T1/pplj/m/n/10 The amount of acid in the bucket is the sum of the amount
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 709--710
-[]\T1/pplj/m/n/10 You will al-ways ob-tain two ex-pres-sions for the amount of
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+[]\T1/pplj/m/n/10 Let $\OML/zplm/m/it/10 a\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 
+b\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 x\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 y$ 
+\T1/pplj/m/n/10 be real num-bers. We have the fol-low-ing prop-er-
  []
 
 
@@ -1683,14 +1689,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [11]
+Underfull \hbox (badness 10000) in paragraph at lines 748--750
+\T1/pplj/m/n/10 If two num-bers can fill in the blank (pos-i-tive and neg-a-tiv
+e),
+ []
 
-LaTeX Warning: Marginpar on page 12 moved.
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
+[]$[]$ \T1/pplj/m/n/10 and $[]$ can be said ei-ther ``$\OT1/pplx/m/n/10 2$\T1/p
+plj/m/n/10 nd root of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' or ``square root
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--766
-[]\T1/pplj/m/n/10 Let $\OML/zplm/m/it/10 a\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 
-b\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 x\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 y$ 
-\T1/pplj/m/n/10 be real num-bers. We have the fol-low-ing prop-er-
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+[]$[]$ \T1/pplj/m/n/10 is spo-ken ``$\OT1/pplx/m/n/10 3$\T1/pplj/m/n/10 rd root
+ of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' but can-not be called ``$\OT1/pplx/
+m/n/10 3$ \T1/pplj/m/n/10 square
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--776
+[]$[]$ \T1/pplj/m/n/10 is spo-ken ``$\OT1/pplx/m/n/10 7$\T1/pplj/m/n/10 th root
+ of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' but can-not be called ``$\OT1/pplx/
+m/n/10 7$ \T1/pplj/m/n/10 square
  []
 
 
@@ -1706,12 +1727,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 812--814
-\T1/pplj/m/n/10 If two num-bers can fill in the blank (pos-i-tive and neg-a-tiv
-e),
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1724,35 +1739,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 833--834
-[]$[]$ \T1/pplj/m/n/10 and $[]$ can be said ei-ther ``$\OT1/pplx/m/n/10 2$\T1/p
-plj/m/n/10 nd root of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' or ``square root
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 836--837
-[]$[]$ \T1/pplj/m/n/10 is spo-ken ``$\OT1/pplx/m/n/10 3$\T1/pplj/m/n/10 rd root
- of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' but can-not be called ``$\OT1/pplx/
-m/n/10 3$ \T1/pplj/m/n/10 square
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
-[]$[]$ \T1/pplj/m/n/10 is spo-ken ``$\OT1/pplx/m/n/10 7$\T1/pplj/m/n/10 th root
- of $\OML/zplm/m/it/10 a$\T1/pplj/m/n/10 '' but can-not be called ``$\OT1/pplx/
-m/n/10 7$ \T1/pplj/m/n/10 square
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1764,39 +1750,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[15]
+[14]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 959.
+(Font)              scaled to size 15.0049pt on input line 895.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 959.
+(Font)              scaled to size 15.0049pt on input line 895.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 971.
+(Font)              scaled to size 12.50409pt on input line 907.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 971.
+(Font)              scaled to size 9.37807pt on input line 907.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 971.
+(Font)              scaled to size 7.29405pt on input line 907.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 971.
+(Font)              scaled to size 12.50409pt on input line 907.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 971.
+(Font)              scaled to size 9.37807pt on input line 907.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 971.
+(Font)              scaled to size 7.29405pt on input line 907.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 971.
+(hyperref)                removing `math shift' on input line 907.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 971.
+(hyperref)                removing `math shift' on input line 907.
 
-<quad.pdf, id=312, 237.74174pt x 243.64874pt>
+<quad.pdf, id=303, 237.74174pt x 243.64874pt>
 File: quad.pdf Graphic file (type pdf)
 <use quad.pdf>
-Package pdftex.def Info: quad.pdf  used on input line 975.
+Package pdftex.def Info: quad.pdf  used on input line 911.
 (pdftex.def)             Requested size: 202.08142pt x 207.1024pt.
 
-Underfull \vbox (badness 6141) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 922--923
+[]\T1/pplj/m/n/10 The in-for-ma-tion about a point can be writ-ten by la-bellin
+g
+ []
 
 
 
@@ -1807,19 +1796,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 986--987
-[]\T1/pplj/m/n/10 The in-for-ma-tion about a point can be writ-ten by la-bellin
-g
- []
-
-<twosided-limits.pdf, id=320, 360.11473pt x 360.13057pt>
+[15 <./quad.pdf>]
+<twosided-limits.pdf, id=318, 360.11473pt x 360.13057pt>
 File: twosided-limits.pdf Graphic file (type pdf)
 <use twosided-limits.pdf>
-Package pdftex.def Info: twosided-limits.pdf  used on input line 996.
+Package pdftex.def Info: twosided-limits.pdf  used on input line 932.
 (pdftex.def)             Requested size: 289.07999pt x 289.10495pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1004
+Underfull \hbox (badness 10000) in paragraph at lines 940--940
 []\T1/pplj/m/n/10 iven two points $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/it/10/50l
 s x[]\OT1/pplx/m/n/10/50ls , \OML/zplm/m/it/10/50ls y[]\OT1/zplm/m/n/10/50ls )$
  \T1/pplj/m/n/10 and $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/it/10/50ls x[]\OT1/ppl
@@ -1839,8 +1823,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[17 <./quad.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1019--1019
+[16 <./twosided-limits.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 955--955
 []\T1/pplj/m/n/10 Given two points $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/it/10/50
 ls x[]\OT1/pplx/m/n/10/50ls , \OML/zplm/m/it/10/50ls y[]\OT1/zplm/m/n/10/50ls )
 $ \T1/pplj/m/n/10 and $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/it/10/50ls x[]\OT1/pp
@@ -1849,22 +1833,13 @@ n/10 the \T1/pplj/b/n/10 mid-point \T1/pplj/m/n/10 be-tween
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[18 <./twosided-limits.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1045
+Underfull \hbox (badness 10000) in paragraph at lines 981--981
 [][]\T1/pplj/b/n/10 How is an equa-tion in $\OML/zplm/m/it/10/50ls x$ \T1/pplj/
 b/n/10 and $\OML/zplm/m/it/10/50ls y$ \T1/pplj/b/n/10 re-lated to its
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 []\T1/pplj/m/n/10 The point $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/it/10/50ls x\OT
 1/pplx/m/n/10/50ls , \OML/zplm/m/it/10/50ls y\OT1/zplm/m/n/10/50ls )$ \T1/pplj/
 m/n/10 is part of the graph if and only if $\OT1/zplm/m/n/10/50ls (\OML/zplm/m/
@@ -1875,6 +1850,15 @@ ls )$ \T1/pplj/m/n/10 sat-is-
 
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[17]
+
+
 <QR code requested for "https://www.desmos.com/calculator/b5c6wq2rtp" in versio
 n 0-M.>
 <Error-correction level increased from M to Q at no cost.>
@@ -1882,12 +1866,12 @@ n 0-M.>
 <Copying the QR code for "https://www.desmos.com/calculator/b5c6wq2rtp" in vers
 ion 4-Q as previously calculated.>
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 10
-69.
+05.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 1069.
+(Font)              scaled to size 8.50006pt on input line 1005.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1900,15 +1884,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[19]
-<slope1.pdf, id=363, 418.70042pt x 358.73393pt>
+[18]
+<slope1.pdf, id=353, 418.70042pt x 358.73393pt>
 File: slope1.pdf Graphic file (type pdf)
 <use slope1.pdf>
-Package pdftex.def Info: slope1.pdf  used on input line 1113.
+Package pdftex.def Info: slope1.pdf  used on input line 1049.
 (pdftex.def)             Requested size: 167.4772pt x 143.49103pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 
@@ -1918,8 +1899,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[20 <./slope1.pdf>]
-Overfull \hbox (2.10957pt too wide) in paragraph at lines 1177--1178
+[19 <./slope1.pdf>]
+Overfull \hbox (2.10957pt too wide) in paragraph at lines 1113--1114
 \T1/pplj/m/it/10 and $\OT1/zplm/m/n/10 (\OT1/pplx/m/n/10 9, 2\OT1/zplm/m/n/10 )
 $\T1/pplj/m/it/10 , does it mat-ter which point is $\OT1/zplm/m/n/10 (\OML/zplm
 /m/it/10 x[]\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 )$ \T1/ppl
@@ -1934,28 +1915,16 @@ m/n/10 , \OML/zplm/m/it/10 y[]\OT1/zplm/m/n/10 )$\T1/pplj/m/it/10 ?
 n 0-M.>
 <Error-correction level increased from M to Q at no cost.>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[21]
 <Copying the QR code for "https://www.desmos.com/calculator/taifhuenas" in vers
 ion 4-Q as previously calculated.>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
 []\T1/pplj/m/n/10 Two lines are per-pen-dic-u-lar if their slopes are neg-a-tiv
 e re-cip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1126
 \T1/pplj/m/n/10 ro-cals. In other words, if line 1 has slope $\OML/zplm/m/it/10
  m[]$ \T1/pplj/m/n/10 and line 2 has
  []
@@ -1969,11 +1938,25 @@ n 0-M.>
 
 <Copying the QR code for "https://www.desmos.com/calculator/i6svrb0s6u" in vers
 ion 4-Q as previously calculated.>
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[20]
 File: twosided-limits.pdf Graphic file (type pdf)
 <use twosided-limits.pdf>
-Package pdftex.def Info: twosided-limits.pdf  used on input line 1228.
+Package pdftex.def Info: twosided-limits.pdf  used on input line 1164.
 (pdftex.def)             Requested size: 289.07999pt x 289.10495pt.
 
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1985,17 +1968,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[22]
+[21]
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 22 moved.
 
-
-LaTeX Warning: Marginpar on page 23 moved.
-
-<psurplus.png, id=414, 803.0pt x 803.0pt>
+<psurplus.png, id=406, 803.0pt x 803.0pt>
 File: psurplus.png Graphic file (type png)
 <use psurplus.png>
-Package pdftex.def Info: psurplus.png  used on input line 1259.
+Package pdftex.def Info: psurplus.png  used on input line 1195.
+(pdftex.def)             Requested size: 216.81pt x 216.8129pt.
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+File: psurplus.png Graphic file (type png)
+<use psurplus.png>
+Package pdftex.def Info: psurplus.png  used on input line 1204.
 (pdftex.def)             Requested size: 216.81pt x 216.8129pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2009,35 +1996,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[23]
+[22 <./psurplus.png>]
 
-LaTeX Warning: Marginpar on page 24 moved.
+LaTeX Warning: Marginpar on page 23 moved.
 
-File: psurplus.png Graphic file (type png)
-<use psurplus.png>
-Package pdftex.def Info: psurplus.png  used on input line 1268.
-(pdftex.def)             Requested size: 216.81pt x 216.8129pt.
-
-LaTeX Warning: Marginpar on page 24 moved.
-
-<govexp.png, id=424, 803.0pt x 803.0pt>
+<govexp.png, id=416, 803.0pt x 803.0pt>
 File: govexp.png Graphic file (type png)
 <use govexp.png>
-Package pdftex.def Info: govexp.png  used on input line 1277.
+Package pdftex.def Info: govexp.png  used on input line 1213.
 (pdftex.def)             Requested size: 216.81pt x 216.8129pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[24 <./psurplus.png>]
 
 
 <QR code requested for "https://earthobservatory.nasa.gov/features/GlobalWarmin
@@ -2045,10 +2013,10 @@ g/page2.php" in version 0-M.>
 
 <Copying the QR code for "https://earthobservatory.nasa.gov/features/GlobalWarm
 ing/page2.php" in version 5-M as previously calculated.>
-<global-temperature.png, id=434, 722.7pt x 335.2525pt>
+<global-temperature.png, id=419, 722.7pt x 335.2525pt>
 File: global-temperature.png Graphic file (type png)
 <use global-temperature.png>
-Package pdftex.def Info: global-temperature.png  used on input line 1298.
+Package pdftex.def Info: global-temperature.png  used on input line 1234.
 (pdftex.def)             Requested size: 312.0pt x 144.73381pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2062,7 +2030,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[25 <./govexp.png> <./global-temperature.png>]
+[23 <./govexp.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[24 <./global-temperature.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2075,7 +2067,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1474
+[]\T1/pplj/m/n/10 Take a given equa-tion and add/subtract on both sides to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1474--1475
+[]\T1/pplj/m/n/10 If the other side fac-tors, then ap-ply the Zero Prod-uct Pro
+p-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1474--1475
+\T1/pplj/m/n/10 erty. (If the other side does not fac-tor, then try some-thing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1498--1499
+[]\T1/pplj/m/n/10 Given an equa-tion, make a copy of the equa-tion one line be-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
+[]\T1/pplj/m/n/10 Add/subtract to get the quadratic term on one side and the
+ []
 
 
 
@@ -2087,20 +2103,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1537--1538
-[]\T1/pplj/m/n/10 Take a given equa-tion and add/subtract on both sides to
+Underfull \hbox (badness 10000) in paragraph at lines 1579--1580
+[]\T1/pplj/m/n/10 The lin-ear co-ef-fi-cient is $\OT1/pplx/m/n/10/50ls 14$\T1/p
+plj/m/n/10 , dou-ble the length of the sec-ond
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1538--1539
-[]\T1/pplj/m/n/10 If the other side fac-tors, then ap-ply the Zero Prod-uct Pro
-p-
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1581
+[]\T1/pplj/m/n/10 The con-stant is $\OT1/pplx/m/n/10/50ls 49$\T1/pplj/m/n/10 , 
+the square of the length of the sec-ond
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1538--1539
-\T1/pplj/m/n/10 erty. (If the other side does not fac-tor, then try some-thing
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2112,14 +2127,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1562--1563
-[]\T1/pplj/m/n/10 Given an equa-tion, make a copy of the equa-tion one line be-
-
+Overfull \hbox (27.08978pt too wide) in paragraph at lines 1645--1646
+[][] \T1/pplj/m/n/10 di-vide by $\OT1/pplx/m/n/10/50ls 2$ $\OMS/zplm/m/n/10/50l
+s !$ [] \T1/pplj/m/n/10 square $\OMS/zplm/m/n/10/50ls !$ []  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1569--1570
-[]\T1/pplj/m/n/10 Add/subtract to get the quadratic term on one side and the
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1690
+[]\T1/pplj/m/n/10 Before com-put-ing sec-ond stick, etc. if the co-ef-fi-cient 
+of $\OML/zplm/m/it/10/50ls x[]$ \T1/pplj/m/n/10 is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1690
+\T1/pplj/m/n/10 not $\OT1/pplx/m/n/10/50ls 1$\T1/pplj/m/n/10 , then di-vide bot
+h sides by the num-ber that is in front of
  []
 
 
@@ -2135,46 +2157,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1643--1644
-[]\T1/pplj/m/n/10 The lin-ear co-ef-fi-cient is $\OT1/pplx/m/n/10/50ls 14$\T1/p
-plj/m/n/10 , dou-ble the length of the sec-ond
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
-[]\T1/pplj/m/n/10 The con-stant is $\OT1/pplx/m/n/10/50ls 49$\T1/pplj/m/n/10 , 
-the square of the length of the sec-ond
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[30]
-Overfull \hbox (27.08978pt too wide) in paragraph at lines 1709--1710
-[][] \T1/pplj/m/n/10 di-vide by $\OT1/pplx/m/n/10/50ls 2$ $\OMS/zplm/m/n/10/50l
-s !$ [] \T1/pplj/m/n/10 square $\OMS/zplm/m/n/10/50ls !$ []  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
-[]\T1/pplj/m/n/10 Before com-put-ing sec-ond stick, etc. if the co-ef-fi-cient 
-of $\OML/zplm/m/it/10/50ls x[]$ \T1/pplj/m/n/10 is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
-\T1/pplj/m/n/10 not $\OT1/pplx/m/n/10/50ls 1$\T1/pplj/m/n/10 , then di-vide bot
-h sides by the num-ber that is in front of
- []
-
-
-Overfull \hbox (167.46498pt too wide) in paragraph at lines 1819--1820
+Overfull \hbox (167.46498pt too wide) in paragraph at lines 1755--1756
 [][]  
  []
 
@@ -2190,7 +2173,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[31]
+[30]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2199,8 +2182,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[32]
-Overfull \hbox (1.33939pt too wide) detected at line 1875
+[31]
+Overfull \hbox (1.33939pt too wide) detected at line 1811
 \OML/zplm/m/it/10/50ls x[] \OT1/zplm/m/n/10/50ls + \OT1/pplx/m/n/10/50ls 4\OML/
 zplm/m/it/10/50ls x \OMS/zplm/m/n/10/50ls ^^@ \OT1/pplx/m/n/10/50ls 2 \OT1/zplm
 /m/n/10/50ls = \OT1/pplx/m/n/10/50ls 0     \OMS/zplm/m/n/10/50ls ,     \OML/zpl
@@ -2214,6 +2197,36 @@ ls ^^@ \OT1/pplx/m/n/10/50ls 6 \OT1/zplm/m/n/10/50ls = \OT1/pplx/m/n/10/50ls 0
  []
 
 
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1921--1922
+[]\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in the de-nom-i-na
+-tor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1921--1922
+\T1/pplj/m/n/10 check to en-sure there are no false so-lu-tions. (Any so-lu-tio
+n
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2223,11 +2236,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [33]
+Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
+[]\T1/pplj/m/n/10 We can still add/subtract/multiply/divide the same thing on
+ []
 
-LaTeX Warning: Marginpar on page 34 moved.
 
-
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Reference `concept:collecting' on page 34 undefined on input lin
+e 1970.
 
 
 
@@ -2239,24 +2254,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
-[]\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in the de-nom-i-na
--tor,
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
-\T1/pplj/m/n/10 check to en-sure there are no false so-lu-tions. (Any so-lu-tio
-n
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2019--2020
-[]\T1/pplj/m/n/10 We can still add/subtract/multiply/divide the same thing on
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 35 moved.
 
 
 
@@ -2268,43 +2267,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [35]
-
-LaTeX Warning: Reference `concept:collecting' on page 36 undefined on input lin
-e 2034.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[36]
-
-LaTeX Warning: Marginpar on page 37 moved.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
+Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
 []\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in a square root, 
 check
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
+Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
 \T1/pplj/m/n/10 to en-sure there are no false so-lu-tions. (Any so-lu-tion whic
 h
  []
@@ -2318,11 +2287,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[38]
-<inequal51.jpg, id=596, 141.1674pt x 109.3686pt>
+[36]
+<inequal51.jpg, id=581, 141.1674pt x 109.3686pt>
 File: inequal51.jpg Graphic file (type jpg)
 <use inequal51.jpg>
-Package pdftex.def Info: inequal51.jpg  used on input line 2171.
+Package pdftex.def Info: inequal51.jpg  used on input line 2107.
 (pdftex.def)             Requested size: 141.16704pt x 109.36832pt.
 
 
@@ -2333,36 +2302,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[39 <./inequal51.jpg>]
-<ab1.pdf, id=603, 261.43648pt x 28.70923pt>
+[37 <./inequal51.jpg>]
+<ab1.pdf, id=589, 261.43648pt x 28.70923pt>
 File: ab1.pdf Graphic file (type pdf)
 <use ab1.pdf>
-Package pdftex.def Info: ab1.pdf  used on input line 2193.
+Package pdftex.def Info: ab1.pdf  used on input line 2129.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
-<ab2.pdf, id=604, 261.43648pt x 28.70923pt>
+<ab2.pdf, id=590, 261.43648pt x 28.70923pt>
 File: ab2.pdf Graphic file (type pdf)
 <use ab2.pdf>
-Package pdftex.def Info: ab2.pdf  used on input line 2198.
+Package pdftex.def Info: ab2.pdf  used on input line 2134.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
-<ab3.pdf, id=605, 261.43648pt x 28.70923pt>
+<ab3.pdf, id=591, 261.43648pt x 28.70923pt>
 File: ab3.pdf Graphic file (type pdf)
 <use ab3.pdf>
-Package pdftex.def Info: ab3.pdf  used on input line 2202.
+Package pdftex.def Info: ab3.pdf  used on input line 2138.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
-<ab4.pdf, id=606, 261.43648pt x 28.70923pt>
+<ab4.pdf, id=592, 261.43648pt x 28.70923pt>
 File: ab4.pdf Graphic file (type pdf)
 <use ab4.pdf>
-Package pdftex.def Info: ab4.pdf  used on input line 2206.
+Package pdftex.def Info: ab4.pdf  used on input line 2142.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
-<ab5.pdf, id=607, 261.43648pt x 28.70923pt>
+<ab5.pdf, id=593, 261.43648pt x 28.70923pt>
 File: ab5.pdf Graphic file (type pdf)
 <use ab5.pdf>
-Package pdftex.def Info: ab5.pdf  used on input line 2211.
+Package pdftex.def Info: ab5.pdf  used on input line 2147.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
-<ab6.pdf, id=608, 261.43648pt x 28.70923pt>
+<ab6.pdf, id=594, 261.43648pt x 28.70923pt>
 File: ab6.pdf Graphic file (type pdf)
 <use ab6.pdf>
-Package pdftex.def Info: ab6.pdf  used on input line 2215.
+Package pdftex.def Info: ab6.pdf  used on input line 2151.
 (pdftex.def)             Requested size: 261.43584pt x 28.70915pt.
 
 
@@ -2373,7 +2342,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[40 <./ab1.pdf> <./ab2.pdf
+[38 <./ab1.pdf> <./ab2.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./ab2.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -2402,10 +2371,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[41]
+[39]
 File: inequal51.jpg Graphic file (type jpg)
 <use inequal51.jpg>
-Package pdftex.def Info: inequal51.jpg  used on input line 2261.
+Package pdftex.def Info: inequal51.jpg  used on input line 2197.
 (pdftex.def)             Requested size: 141.16704pt x 109.36832pt.
 
 
@@ -2416,8 +2385,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 2320--2321
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 2256--2257
 \T1/pplj/m/n/10 tu-nately, the $\OMS/zplm/m/n/10 ^^@\OT1/pplx/m/n/10 2$ \T1/ppl
 j/m/n/10 in-side the ab-so-lute value and the $\OT1/zplm/m/n/10 +\OT1/pplx/m/n/
 10 2$ \T1/pplj/m/n/10 out-side
@@ -2432,8 +2401,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[43]
-Overfull \hbox (8.40947pt too wide) detected at line 2377
+[41]
+Overfull \hbox (8.40947pt too wide) detected at line 2313
 \OT1/pplx/m/n/8 3\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x[] \OMS/zplm/m/n/8 ^^@ \OML
 /zplm/m/it/8 x[]\OT1/zplm/m/n/8 ) + \OT1/pplx/m/n/8 1 \OT1/zplm/m/n/8 = \OT1/pp
 lx/m/n/8 14[]3\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x[] \OMS/zplm/m/n/8 ^^@ \OML/zp
@@ -2446,7 +2415,7 @@ n/8 = \OT1/pplx/m/n/8 64[]3\OT1/zplm/m/n/8 (\OML/zplm/m/it/8 x[] \OMS/zplm/m/n/
  []
 
 
-Overfull \hbox (23.40038pt too wide) detected at line 2378
+Overfull \hbox (23.40038pt too wide) detected at line 2314
 \OT1/pplx/m/n/10 3\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[] \OMS/zplm/m/n/10 ^^@ 
 \OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 ) = \OT1/pplx/m/n/10 13[]3\OT1/zplm/m/n/1
 0 (\OML/zplm/m/it/10 x[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 x[]\OT1/zplm/m/
@@ -2458,7 +2427,7 @@ m/it/10 x[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 ) = \OT1
  []
 
 
-Overfull \hbox (20.40038pt too wide) detected at line 2380
+Overfull \hbox (20.40038pt too wide) detected at line 2316
 \OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 )[] \OMS/zplm/m/n/10 ^^
 @ \OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = [][](\OML/zplm/m/it/10 x[]\OT1/zplm/
 m/n/10 )[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 = \OMS/z
@@ -2470,7 +2439,7 @@ T1/pplx/m/n/10 21[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/zplm/m/n/10 )[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2413--2414
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2350
 \T1/pplj/m/n/10 un-for-tu-nately, the $\OT1/zplm/m/n/10 +\OT1/pplx/m/n/10 3$ \T
 1/pplj/m/n/10 in-side the ab-so-lute value and the $\OMS/zplm/m/n/10 ^^@\OT1/pp
 lx/m/n/10 3$
@@ -2485,20 +2454,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 2458--2459
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2395
 []\T1/pplj/m/n/10 A func-tion is a rule that de-scribe ex-actly one out-put for
  each
  []
 
-<math-practice-test-on-function.jpg, id=703, 328.22626pt x 167.87718pt>
+<math-practice-test-on-function.jpg, id=688, 328.22626pt x 167.87718pt>
 File: math-practice-test-on-function.jpg Graphic file (type jpg)
 <use math-practice-test-on-function.jpg>
 Package pdftex.def Info: math-practice-test-on-function.jpg  used on input line
- 2464.
+ 2400.
 (pdftex.def)             Requested size: 328.22545pt x 167.87677pt.
 
-Overfull \hbox (16.22418pt too wide) in paragraph at lines 2471--2472
+Overfull \hbox (16.22418pt too wide) in paragraph at lines 2407--2408
  [] 
  []
 
@@ -2514,19 +2483,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[45 <./math-practice-test-on-function.jpg>]
-<function_machine.png, id=717, 501.875pt x 539.01375pt>
+[43 <./math-practice-test-on-function.jpg>]
+<function_machine.png, id=703, 501.875pt x 539.01375pt>
 File: function_machine.png Graphic file (type png)
 <use function_machine.png>
-Package pdftex.def Info: function_machine.png  used on input line 2482.
+Package pdftex.def Info: function_machine.png  used on input line 2418.
 (pdftex.def)             Requested size: 200.74643pt x 215.60167pt.
-<download.png, id=718, 259.97125pt x 194.7275pt>
+<download.png, id=704, 259.97125pt x 194.7275pt>
 File: download.png Graphic file (type png)
 <use download.png>
-Package pdftex.def Info: download.png  used on input line 2487.
+Package pdftex.def Info: download.png  used on input line 2423.
 (pdftex.def)             Requested size: 259.97061pt x 194.727pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2498--2499
+Underfull \hbox (badness 10000) in paragraph at lines 2434--2435
 []\T1/pplj/m/n/10 Use the words $[]$ and $[]$ when talk-ing about a func-
  []
 
@@ -2539,8 +2508,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[46 <./function_machine.png (PNG copy)> <./download.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2510--2511
+[44 <./function_machine.png (PNG copy)> <./download.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2446--2447
 []\T1/pplj/m/n/10 When see-ing/writing $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\O
 ML/zplm/m/it/10 x\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 say ``$\OML/zplm/m/it/10 f
 $ \T1/pplj/m/n/10 of $\OML/zplm/m/it/10 x$\T1/pplj/m/n/10 '' and do not skip th
@@ -2548,7 +2517,7 @@ e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2510--2511
+Underfull \hbox (badness 10000) in paragraph at lines 2446--2447
 \T1/pplj/m/n/10 word $[]$. Sim-i-larly, $\OML/zplm/m/it/10 f\OT1/zplm/m/n/10 (\
 OT1/pplx/m/n/10 5\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 should be said ``$\OML/zpl
 m/m/it/10 f$ \T1/pplj/m/n/10 of $\OT1/pplx/m/n/10 5$\T1/pplj/m/n/10 ''. If you 
@@ -2556,32 +2525,32 @@ skip
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2510--2511
+Underfull \hbox (badness 10000) in paragraph at lines 2446--2447
 \T1/pplj/m/n/10 the $[]$, it leads to the er-ror of think-ing we have ``$\OML/z
 plm/m/it/10 f$ \T1/pplj/m/n/10 times $\OT1/pplx/m/n/10 5$\T1/pplj/m/n/10 '' but
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2523--2524
+Underfull \hbox (badness 10000) in paragraph at lines 2459--2460
 []\T1/pplj/m/n/10 In the last ex-am-ple, we wrote [] which is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2532--2533
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
 []\T1/pplj/m/n/10 While writ-ing [] re-place ev-ery [] you see
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2532--2533
+Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
 \T1/pplj/m/n/10 with []. This even ap-plies to the $\OML/zplm/m/it/10 x$ \T1/pp
 lj/m/n/10 that is on the left of the
  []
 
-<oodle.jpeg, id=725, 246.9225pt x 205.76875pt>
+<oodle.jpeg, id=711, 246.9225pt x 205.76875pt>
 File: oodle.jpeg Graphic file (type jpg)
 <use oodle.jpeg>
-Package pdftex.def Info: oodle.jpeg  used on input line 2537.
+Package pdftex.def Info: oodle.jpeg  used on input line 2473.
 (pdftex.def)             Requested size: 216.81pt x 180.67201pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2595,29 +2564,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[47]
-<chomponzoo.jpg, id=737, 846.16125pt x 448.67625pt>
+[45]
+<chomponzoo.jpg, id=723, 846.16125pt x 448.67625pt>
 File: chomponzoo.jpg Graphic file (type jpg)
 <use chomponzoo.jpg>
-Package pdftex.def Info: chomponzoo.jpg  used on input line 2541.
+Package pdftex.def Info: chomponzoo.jpg  used on input line 2477.
 (pdftex.def)             Requested size: 216.81pt x 114.96205pt.
 
-Overfull \hbox (12.80989pt too wide) in paragraph at lines 2552--2553
+Overfull \hbox (12.80989pt too wide) in paragraph at lines 2488--2489
 \T1/pplj/m/n/10 Replace ev-ery [] in [] with []  
  []
 
 
-Overfull \hbox (12.80989pt too wide) in paragraph at lines 2557--2558
+Overfull \hbox (12.80989pt too wide) in paragraph at lines 2493--2494
 \T1/pplj/m/n/10 Replace ev-ery [] in [] with []  
  []
 
 
-Overfull \hbox (12.80989pt too wide) in paragraph at lines 2562--2563
+Overfull \hbox (12.80989pt too wide) in paragraph at lines 2498--2499
 \T1/pplj/m/n/10 Replace ev-ery [] in [] with []  
  []
 
 
-Overfull \hbox (12.80989pt too wide) in paragraph at lines 2567--2568
+Overfull \hbox (12.80989pt too wide) in paragraph at lines 2503--2504
 \T1/pplj/m/n/10 Replace ev-ery [] in [] with []  
  []
 
@@ -2633,16 +2602,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[48 <./oodle.jpeg> <./chomponzoo.jpg>]
-Overfull \hbox (11.07945pt too wide) in paragraph at lines 2643--2644
-[][]\T1/pplj/b/n/10 Example 298. []\T1/pplj/m/it/10 Given the func-tion $\OML/z
+[46 <./oodle.jpeg> <./chomponzoo.jpg>]
+Overfull \hbox (11.07945pt too wide) in paragraph at lines 2579--2580
+[][]\T1/pplj/b/n/10 Example 294. []\T1/pplj/m/it/10 Given the func-tion $\OML/z
 plm/m/it/10 f\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) = \OMS/zpl
 m/m/n/10 ^^@\OT1/pplx/m/n/10 10\OML/zplm/m/it/10 x[] \OT1/zplm/m/n/10 + \OT1/pp
 lx/m/n/10 3\OML/zplm/m/it/10 x$\T1/pplj/m/it/10 , find $[]$ 
  []
 
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 47 moved.
 
 
 
@@ -2653,29 +2622,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 2594--2595
 []\T1/pplj/m/n/10 Avoid div-ing by zero. (In other words, what val-ues of $\OML
 /zplm/m/it/10 x$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2658--2659
+Underfull \hbox (badness 10000) in paragraph at lines 2594--2595
 \T1/pplj/m/n/10 cause the de-nom-i-na-tor to be zero? We must ex-clude these
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2596
 []\T1/pplj/m/n/10 Avoid square root-ing a neg-a-tive num-ber. Rephrased, we
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2596
 \T1/pplj/m/n/10 want/need what we are square root-ing to be greater than
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2660
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2596
 \T1/pplj/m/n/10 or equal to $\OT1/pplx/m/n/10 0$\T1/pplj/m/n/10 . In other word
 s, we need the con-tent \T1/pplj/m/it/10 in-side \T1/pplj/m/n/10 a
  []
@@ -2692,10 +2661,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[50]
+[48]
 File: twosided-limits.pdf Graphic file (type pdf)
 <use twosided-limits.pdf>
-Package pdftex.def Info: twosided-limits.pdf  used on input line 2705.
+Package pdftex.def Info: twosided-limits.pdf  used on input line 2641.
 (pdftex.def)             Requested size: 289.07999pt x 289.10495pt.
 
 
@@ -2706,14 +2675,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[51]
-<warnberg-pre.png, id=778, 336.25626pt x 227.85126pt>
+[49]
+<warnberg-pre.png, id=764, 336.25626pt x 227.85126pt>
 File: warnberg-pre.png Graphic file (type png)
 <use warnberg-pre.png>
-Package pdftex.def Info: warnberg-pre.png  used on input line 2741.
+Package pdftex.def Info: warnberg-pre.png  used on input line 2677.
 (pdftex.def)             Requested size: 361.34999pt x 244.85883pt.
 
-Overfull \hbox (49.34999pt too wide) in paragraph at lines 2741--2742
+Overfull \hbox (49.34999pt too wide) in paragraph at lines 2677--2678
 [][]  
  []
 
@@ -2729,7 +2698,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[52 <./warnberg-pre.png>]
+[50 <./warnberg-pre.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2738,7 +2707,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[53]
+[51]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[52]
+<vertex1.JPG, id=792, 219.82124pt x 180.675pt>
+File: vertex1.JPG Graphic file (type jpg)
+<use vertex1.JPG>
+Package pdftex.def Info: vertex1.JPG  used on input line 2784.
+(pdftex.def)             Requested size: 87.92693pt x 72.2687pt.
+
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[53 <./vertex1.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 2848--2849
+[]\T1/pplj/m/n/10 If there are mul-ti-ple sep-a-rate in-ter-vals, write down in
+-ter-
+ []
+
+<371.pdf, id=802, 293.87766pt x 107.75256pt>
+File: 371.pdf Graphic file (type pdf)
+<use 371.pdf>
+Package pdftex.def Info: 371.pdf  used on input line 2862.
+(pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2748,64 +2756,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [54]
-<vertex1.JPG, id=806, 219.82124pt x 180.675pt>
-File: vertex1.JPG Graphic file (type jpg)
-<use vertex1.JPG>
-Package pdftex.def Info: vertex1.JPG  used on input line 2848.
-(pdftex.def)             Requested size: 87.92693pt x 72.2687pt.
-
-
-LaTeX Warning: Marginpar on page 55 moved.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[55 <./vertex1.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 2912--2913
-[]\T1/pplj/m/n/10 If there are mul-ti-ple sep-a-rate in-ter-vals, write down in
--ter-
- []
-
-<371.pdf, id=817, 293.87766pt x 107.75256pt>
-File: 371.pdf Graphic file (type pdf)
-<use 371.pdf>
-Package pdftex.def Info: 371.pdf  used on input line 2926.
-(pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[56]
-<372.pdf, id=829, 293.87766pt x 107.75256pt>
+<372.pdf, id=814, 293.87766pt x 107.75256pt>
 File: 372.pdf Graphic file (type pdf)
 <use 372.pdf>
-Package pdftex.def Info: 372.pdf  used on input line 2931.
+Package pdftex.def Info: 372.pdf  used on input line 2867.
 (pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
-<373.pdf, id=830, 293.87766pt x 107.75256pt>
+<373.pdf, id=815, 293.87766pt x 107.75256pt>
 File: 373.pdf Graphic file (type pdf)
 <use 373.pdf>
-Package pdftex.def Info: 373.pdf  used on input line 2937.
+Package pdftex.def Info: 373.pdf  used on input line 2873.
 (pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
-<374.pdf, id=831, 293.87766pt x 107.75256pt>
+<374.pdf, id=816, 293.87766pt x 107.75256pt>
 File: 374.pdf Graphic file (type pdf)
 <use 374.pdf>
-Package pdftex.def Info: 374.pdf  used on input line 2942.
+Package pdftex.def Info: 374.pdf  used on input line 2878.
 (pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
-<375.pdf, id=832, 293.87766pt x 107.75256pt>
+<375.pdf, id=817, 293.87766pt x 107.75256pt>
 File: 375.pdf Graphic file (type pdf)
 <use 375.pdf>
-Package pdftex.def Info: 375.pdf  used on input line 2947.
+Package pdftex.def Info: 375.pdf  used on input line 2883.
 (pdftex.def)             Requested size: 264.48743pt x 96.9764pt.
 
 
@@ -2816,7 +2785,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[57 <./371.pdf> <./372.pdf
+[55 <./371.pdf> <./372.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./372.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -2841,7 +2810,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[58]
+[56]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2850,21 +2819,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[59]
-<poly.jpg, id=889, 232.61906pt x 234.8775pt>
+[57]
+<poly.jpg, id=874, 232.61906pt x 234.8775pt>
 File: poly.jpg Graphic file (type jpg)
 <use poly.jpg>
-Package pdftex.def Info: poly.jpg  used on input line 3044.
+Package pdftex.def Info: poly.jpg  used on input line 2980.
 (pdftex.def)             Requested size: 174.46385pt x 176.15768pt.
-<poly_even.pdf, id=890, 446.22339pt x 155.61234pt>
+<poly_even.pdf, id=875, 446.22339pt x 155.61234pt>
 File: poly_even.pdf Graphic file (type pdf)
 <use poly_even.pdf>
-Package pdftex.def Info: poly_even.pdf  used on input line 3052.
+Package pdftex.def Info: poly_even.pdf  used on input line 2988.
 (pdftex.def)             Requested size: 223.11115pt x 77.80597pt.
-<poly_odd.pdf, id=891, 445.11093pt x 159.79558pt>
+<poly_odd.pdf, id=876, 445.11093pt x 159.79558pt>
 File: poly_odd.pdf Graphic file (type pdf)
 <use poly_odd.pdf>
-Package pdftex.def Info: poly_odd.pdf  used on input line 3062.
+Package pdftex.def Info: poly_odd.pdf  used on input line 2998.
 (pdftex.def)             Requested size: 222.55492pt x 79.89758pt.
 
 
@@ -2875,26 +2844,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[60 <./poly.jpg> <./poly_even.pdf>]
-<mult1.jpg, id=905, 104.64093pt x 108.405pt>
+[58 <./poly.jpg> <./poly_even.pdf>]
+<mult1.jpg, id=890, 104.64093pt x 108.405pt>
 File: mult1.jpg Graphic file (type jpg)
 <use mult1.jpg>
-Package pdftex.def Info: mult1.jpg  used on input line 3081.
+Package pdftex.def Info: mult1.jpg  used on input line 3017.
 (pdftex.def)             Requested size: 52.32033pt x 54.20236pt.
-<mult2.jpg, id=906, 105.39375pt x 104.64093pt>
+<mult2.jpg, id=891, 105.39375pt x 104.64093pt>
 File: mult2.jpg Graphic file (type jpg)
 <use mult2.jpg>
-Package pdftex.def Info: mult2.jpg  used on input line 3081.
+Package pdftex.def Info: mult2.jpg  used on input line 3017.
 (pdftex.def)             Requested size: 52.69673pt x 52.32033pt.
-<mult3.jpg, id=907, 106.14656pt x 110.66344pt>
+<mult3.jpg, id=892, 106.14656pt x 110.66344pt>
 File: mult3.jpg Graphic file (type jpg)
 <use mult3.jpg>
-Package pdftex.def Info: mult3.jpg  used on input line 3086.
+Package pdftex.def Info: mult3.jpg  used on input line 3022.
 (pdftex.def)             Requested size: 53.07315pt x 55.33157pt.
-<mult4.jpg, id=908, 91.09032pt x 93.34875pt>
+<mult4.jpg, id=893, 91.09032pt x 93.34875pt>
 File: mult4.jpg Graphic file (type jpg)
 <use mult4.jpg>
-Package pdftex.def Info: mult4.jpg  used on input line 3086.
+Package pdftex.def Info: mult4.jpg  used on input line 3022.
 (pdftex.def)             Requested size: 45.54503pt x 46.67426pt.
 
 
@@ -2905,18 +2874,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[61 <./poly_odd.pdf> <./mult1.jpg> <./mult2.jpg> <./mult3.jpg> <./mult4.jpg>]
-Overfull \hbox (205.68716pt too wide) in paragraph at lines 3143--3219
+[59 <./poly_odd.pdf> <./mult1.jpg> <./mult2.jpg> <./mult3.jpg> <./mult4.jpg>]
+Overfull \hbox (205.68716pt too wide) in paragraph at lines 3079--3155
  [] 
  []
 
 
-Overfull \hbox (220.78209pt too wide) in paragraph at lines 3223--3299
+Overfull \hbox (220.78209pt too wide) in paragraph at lines 3159--3235
  [] 
  []
 
 
-Overfull \hbox (210.45508pt too wide) in paragraph at lines 3303--3379
+Overfull \hbox (210.45508pt too wide) in paragraph at lines 3239--3315
  [] 
  []
 
@@ -2929,18 +2898,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[62]
-Overfull \hbox (214.20859pt too wide) in paragraph at lines 3383--3458
+[60]
+Overfull \hbox (214.20859pt too wide) in paragraph at lines 3319--3394
  [] 
  []
 
 
-Overfull \hbox (180.68343pt too wide) in paragraph at lines 3462--3534
+Overfull \hbox (180.68343pt too wide) in paragraph at lines 3398--3470
  [] 
  []
 
 
-Overfull \hbox (209.34221pt too wide) in paragraph at lines 3543--3620
+Overfull \hbox (209.34221pt too wide) in paragraph at lines 3479--3556
  [] 
  []
 
@@ -2956,19 +2925,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
+[61]
+Overfull \hbox (214.87726pt too wide) in paragraph at lines 3560--3637
+ [] 
+ []
+
+
+Overfull \hbox (216.76859pt too wide) in paragraph at lines 3641--3717
+ [] 
+ []
+
+
+Overfull \hbox (217.50867pt too wide) in paragraph at lines 3721--3797
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[62]
+Overfull \hbox (186.32353pt too wide) in paragraph at lines 3801--3875
+ [] 
+ []
+
+
+Overfull \hbox (39.7998pt too wide) in paragraph at lines 3893--3916
+[][]   [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
 [63]
-Overfull \hbox (214.87726pt too wide) in paragraph at lines 3624--3701
- [] 
+Overfull \hbox (39.7998pt too wide) in paragraph at lines 3930--3945
+[][]   [] 
  []
 
 
-Overfull \hbox (216.76859pt too wide) in paragraph at lines 3705--3781
- [] 
+Overfull \hbox (39.7998pt too wide) in paragraph at lines 3962--3977
+[][]   [] 
  []
 
 
-Overfull \hbox (217.50867pt too wide) in paragraph at lines 3785--3861
- [] 
+Overfull \hbox (39.7998pt too wide) in paragraph at lines 3995--4016
+[][]   [] 
  []
 
 
@@ -2984,13 +3002,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [64]
-Overfull \hbox (186.32353pt too wide) in paragraph at lines 3865--3939
- [] 
+Overfull \hbox (194.30537pt too wide) in paragraph at lines 4054--4055
+[][]  
  []
 
 
-Overfull \hbox (39.7998pt too wide) in paragraph at lines 3957--3980
-[][]   [] 
+Overfull \hbox (194.30537pt too wide) in paragraph at lines 4093--4094
+[][]  
  []
 
 
@@ -3006,72 +3024,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [65]
-Overfull \hbox (39.7998pt too wide) in paragraph at lines 3994--4009
-[][]   [] 
- []
-
-
-Overfull \hbox (39.7998pt too wide) in paragraph at lines 4026--4041
-[][]   [] 
- []
-
-
-Overfull \hbox (39.7998pt too wide) in paragraph at lines 4059--4080
-[][]   [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[66]
-Overfull \hbox (194.30537pt too wide) in paragraph at lines 4118--4119
+Overfull \hbox (194.30537pt too wide) in paragraph at lines 4133--4134
 [][]  
  []
 
 
-Overfull \hbox (194.30537pt too wide) in paragraph at lines 4157--4158
-[][]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[67]
-Overfull \hbox (194.30537pt too wide) in paragraph at lines 4197--4198
-[][]  
- []
-
-
-Overfull \hbox (194.30537pt too wide) in paragraph at lines 4237--4238
+Overfull \hbox (194.30537pt too wide) in paragraph at lines 4173--4174
 [][]  
  []
 
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 4245.
+(Font)              scaled to size 11.40997pt on input line 4181.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 4245.
-<line.JPG, id=951, 311.66437pt x 309.40594pt>
+(Font)              scaled to size 11.40997pt on input line 4181.
+<line.JPG, id=936, 311.66437pt x 309.40594pt>
 File: line.JPG Graphic file (type jpg)
 <use line.JPG>
-Package pdftex.def Info: line.JPG  used on input line 4247.
+Package pdftex.def Info: line.JPG  used on input line 4183.
 (pdftex.def)             Requested size: 124.66353pt x 123.76018pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3085,16 +3054,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[68]
-<quad.JPG, id=956, 311.66437pt x 304.88907pt>
+[66]
+<quad.JPG, id=941, 311.66437pt x 304.88907pt>
 File: quad.JPG Graphic file (type jpg)
 <use quad.JPG>
-Package pdftex.def Info: quad.JPG  used on input line 4260.
+Package pdftex.def Info: quad.JPG  used on input line 4196.
 (pdftex.def)             Requested size: 124.66353pt x 121.95346pt.
-<cubic.JPG, id=957, 313.17pt x 308.65312pt>
+<cubic.JPG, id=942, 313.17pt x 308.65312pt>
 File: cubic.JPG Graphic file (type jpg)
 <use cubic.JPG>
-Package pdftex.def Info: cubic.JPG  used on input line 4274.
+Package pdftex.def Info: cubic.JPG  used on input line 4210.
 (pdftex.def)             Requested size: 125.26576pt x 123.45905pt.
 
 Underfull \vbox (badness 3895) has occurred while \output is active []
@@ -3108,16 +3077,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[69 <./line.JPG> <./quad.JPG>]
-<squareroot.JPG, id=964, 312.41719pt x 307.90031pt>
+[67 <./line.JPG> <./quad.JPG>]
+<squareroot.JPG, id=950, 312.41719pt x 307.90031pt>
 File: squareroot.JPG Graphic file (type jpg)
 <use squareroot.JPG>
-Package pdftex.def Info: squareroot.JPG  used on input line 4288.
+Package pdftex.def Info: squareroot.JPG  used on input line 4224.
 (pdftex.def)             Requested size: 124.96465pt x 123.15793pt.
-<cuberoot.JPG, id=965, 307.90031pt x 304.88907pt>
+<cuberoot.JPG, id=951, 307.90031pt x 304.88907pt>
 File: cuberoot.JPG Graphic file (type jpg)
 <use cuberoot.JPG>
-Package pdftex.def Info: cuberoot.JPG  used on input line 4302.
+Package pdftex.def Info: cuberoot.JPG  used on input line 4238.
 (pdftex.def)             Requested size: 123.15793pt x 121.95346pt.
 
 Underfull \vbox (badness 7203) has occurred while \output is active []
@@ -3131,16 +3100,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[70 <./cubic.JPG> <./squareroot.JPG>]
-<1overx.JPG, id=972, 313.17pt x 310.91156pt>
+[68 <./cubic.JPG> <./squareroot.JPG>]
+<1overx.JPG, id=958, 313.17pt x 310.91156pt>
 File: 1overx.JPG Graphic file (type jpg)
 <use 1overx.JPG>
-Package pdftex.def Info: 1overx.JPG  used on input line 4318.
+Package pdftex.def Info: 1overx.JPG  used on input line 4254.
 (pdftex.def)             Requested size: 125.26576pt x 124.36241pt.
-<1overx2.JPG, id=973, 315.42844pt x 313.17pt>
+<1overx2.JPG, id=959, 315.42844pt x 313.17pt>
 File: 1overx2.JPG Graphic file (type jpg)
 <use 1overx2.JPG>
-Package pdftex.def Info: 1overx2.JPG  used on input line 4332.
+Package pdftex.def Info: 1overx2.JPG  used on input line 4268.
 (pdftex.def)             Requested size: 126.16913pt x 125.26576pt.
 
 Underfull \vbox (badness 6204) has occurred while \output is active []
@@ -3154,11 +3123,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[71 <./cuberoot.JPG> <./1overx.JPG>]
-<absolutevaluex.JPG, id=980, 307.90031pt x 304.88907pt>
+[69 <./cuberoot.JPG> <./1overx.JPG>]
+<absolutevaluex.JPG, id=966, 307.90031pt x 304.88907pt>
 File: absolutevaluex.JPG Graphic file (type jpg)
 <use absolutevaluex.JPG>
-Package pdftex.def Info: absolutevaluex.JPG  used on input line 4346.
+Package pdftex.def Info: absolutevaluex.JPG  used on input line 4282.
 (pdftex.def)             Requested size: 123.15793pt x 121.95346pt.
 
 
@@ -3169,7 +3138,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[72 <./1overx2.JPG> <./absolutevaluex.JPG>]
+[70 <./1overx2.JPG> <./absolutevaluex.JPG>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3181,11 +3150,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[73]
-<trans1.JPG, id=1004, 370.38374pt x 345.54094pt>
+[71]
+<trans1.JPG, id=989, 370.38374pt x 345.54094pt>
 File: trans1.JPG Graphic file (type jpg)
 <use trans1.JPG>
-Package pdftex.def Info: trans1.JPG  used on input line 4437.
+Package pdftex.def Info: trans1.JPG  used on input line 4373.
 (pdftex.def)             Requested size: 111.11597pt x 103.66307pt.
 
 Underfull \vbox (badness 1377) has occurred while \output is active []
@@ -3199,15 +3168,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[74 <./trans1.JPG>]
-<piecewise.JPG, id=1018, 595.47469pt x 441.14813pt>
+[72 <./trans1.JPG>]
+<piecewise.JPG, id=1003, 595.47469pt x 441.14813pt>
 File: piecewise.JPG Graphic file (type jpg)
 <use piecewise.JPG>
-Package pdftex.def Info: piecewise.JPG  used on input line 4470.
+Package pdftex.def Info: piecewise.JPG  used on input line 4406.
 (pdftex.def)             Requested size: 178.64377pt x 132.34546pt.
 File: piecewise.JPG Graphic file (type jpg)
 <use piecewise.JPG>
-Package pdftex.def Info: piecewise.JPG  used on input line 4481.
+Package pdftex.def Info: piecewise.JPG  used on input line 4417.
 (pdftex.def)             Requested size: 119.09282pt x 88.22806pt.
 
 
@@ -3218,13 +3187,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[75 <./piecewise.JPG>]
+[73 <./piecewise.JPG>]
 File: warnberg-pre.png Graphic file (type png)
 <use warnberg-pre.png>
-Package pdftex.def Info: warnberg-pre.png  used on input line 4534.
+Package pdftex.def Info: warnberg-pre.png  used on input line 4470.
 (pdftex.def)             Requested size: 361.34999pt x 244.85883pt.
 
-Overfull \hbox (49.34999pt too wide) in paragraph at lines 4534--4535
+Overfull \hbox (49.34999pt too wide) in paragraph at lines 4470--4471
 [][]  
  []
 
@@ -3240,16 +3209,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[76]
-<inversefunction.png, id=1037, 636.4578pt x 332.442pt>
+[74]
+<inversefunction.png, id=1023, 636.4578pt x 332.442pt>
 File: inversefunction.png Graphic file (type png)
 <use inversefunction.png>
-Package pdftex.def Info: inversefunction.png  used on input line 4592.
+Package pdftex.def Info: inversefunction.png  used on input line 4528.
 (pdftex.def)             Requested size: 254.5786pt x 132.97444pt.
-<Inverse_Function_Graph.png, id=1038, 361.35pt x 361.35pt>
+<Inverse_Function_Graph.png, id=1024, 361.35pt x 361.35pt>
 File: Inverse_Function_Graph.png Graphic file (type png)
 <use Inverse_Function_Graph.png>
-Package pdftex.def Info: Inverse_Function_Graph.png  used on input line 4607.
+Package pdftex.def Info: Inverse_Function_Graph.png  used on input line 4543.
 (pdftex.def)             Requested size: 90.33728pt x 90.33728pt.
 
 
@@ -3260,11 +3229,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[77 <./inversefunction.png>]
-<inverse.JPG, id=1049, 511.9125pt x 515.67656pt>
+[75 <./inversefunction.png>]
+<inverse.JPG, id=1035, 511.9125pt x 515.67656pt>
 File: inverse.JPG Graphic file (type jpg)
 <use inverse.JPG>
-Package pdftex.def Info: inverse.JPG  used on input line 4664.
+Package pdftex.def Info: inverse.JPG  used on input line 4600.
 (pdftex.def)             Requested size: 153.57494pt x 154.70415pt.
 
 
@@ -3275,21 +3244,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[78 <./Inverse_Function_Graph.png>]
-<warnberg-post.png, id=1069, 625.33624pt x 518.93875pt>
+[76 <./Inverse_Function_Graph.png>]
+<warnberg-post.png, id=1055, 625.33624pt x 518.93875pt>
 File: warnberg-post.png Graphic file (type png)
 <use warnberg-post.png>
-Package pdftex.def Info: warnberg-post.png  used on input line 4671.
+Package pdftex.def Info: warnberg-post.png  used on input line 4607.
 (pdftex.def)             Requested size: 397.48499pt x 329.86293pt.
 
-Overfull \hbox (85.48499pt too wide) in paragraph at lines 4671--4672
+Overfull \hbox (85.48499pt too wide) in paragraph at lines 4607--4608
 [][]  
  []
 
-<exp1.JPG, id=1070, 477.28313pt x 382.42876pt>
+<exp1.JPG, id=1056, 477.28313pt x 382.42876pt>
 File: exp1.JPG Graphic file (type jpg)
 <use exp1.JPG>
-Package pdftex.def Info: exp1.JPG  used on input line 4698.
+Package pdftex.def Info: exp1.JPG  used on input line 4634.
 (pdftex.def)             Requested size: 119.32048pt x 95.60695pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3303,11 +3272,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[79 <./inverse.JPG> <./warnberg-post.png>]
-<exp2.JPG, id=1077, 482.55281pt x 385.44pt>
+[77 <./inverse.JPG> <./warnberg-post.png>]
+<exp2.JPG, id=1062, 482.55281pt x 385.44pt>
 File: exp2.JPG Graphic file (type jpg)
 <use exp2.JPG>
-Package pdftex.def Info: exp2.JPG  used on input line 4703.
+Package pdftex.def Info: exp2.JPG  used on input line 4639.
 (pdftex.def)             Requested size: 120.6379pt x 96.35976pt.
 
 
@@ -3318,14 +3287,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[80 <./exp1.JPG> <./exp2.JPG>]
+[78 <./exp1.JPG> <./exp2.JPG>]
 
-LaTeX Warning: Marginpar on page 81 moved.
+LaTeX Warning: Marginpar on page 79 moved.
 
-<log2.JPG, id=1085, 487.06969pt x 486.31688pt>
+<log2.JPG, id=1070, 487.06969pt x 486.31688pt>
 File: log2.JPG Graphic file (type jpg)
 <use log2.JPG>
-Package pdftex.def Info: log2.JPG  used on input line 4794.
+Package pdftex.def Info: log2.JPG  used on input line 4730.
 (pdftex.def)             Requested size: 194.82442pt x 194.5233pt.
 
 
@@ -3336,30 +3305,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[81 <./log2.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 4811--4812
+[79 <./log2.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 4747--4748
 []\T1/pplj/m/n/10 Do not leave out the word $[]$ and do no leave out the word
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4811--4812
-[]$\T1/pplj/m/n/10 . The $[]$ is the same $[]$ in Lan-guage Dis-cus-sion []292[
+Underfull \hbox (badness 10000) in paragraph at lines 4747--4748
+[]$\T1/pplj/m/n/10 . The $[]$ is the same $[]$ in Lan-guage Dis-cus-sion []287[
 ] to re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4811--4812
+Underfull \hbox (badness 10000) in paragraph at lines 4747--4748
 \T1/pplj/m/n/10 mind you we have a func-tion (even though the name of the
  []
 
-<circletrick.JPG, id=1099, 284.56313pt x 82.80937pt>
+<circletrick.JPG, id=1085, 284.56313pt x 82.80937pt>
 File: circletrick.JPG Graphic file (type jpg)
 <use circletrick.JPG>
-Package pdftex.def Info: circletrick.JPG  used on input line 4833.
+Package pdftex.def Info: circletrick.JPG  used on input line 4769.
 (pdftex.def)             Requested size: 284.56242pt x 82.80916pt.
 
-Overfull \hbox (3.86037pt too wide) in paragraph at lines 4833--4834
+Overfull \hbox (3.86037pt too wide) in paragraph at lines 4769--4770
  [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[80]
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
+
+[81 <./circletrick.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 4842--4843
+[]\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in an in-put to an
+y log-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4842--4843
+\T1/pplj/m/n/10 a-rithm, check to en-sure there are no false so-lu-tions. (Any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4842--4843
+\T1/pplj/m/n/10 so-lu-tion which causes us to take the log-a-rithm of $\OT1/ppl
+x/m/n/10 0$ \T1/pplj/m/n/10 or neg-a-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4842--4843
+\T1/pplj/m/n/10 is a false so-lu-tion. This is be-cause the in-put to any log-a
+-rithm
  []
 
 
@@ -3376,6 +3390,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Marginpar on page 83 moved.
 
 
+LaTeX Warning: Marginpar on page 83 moved.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3384,28 +3401,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[83 <./circletrick.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 4906--4907
-[]\T1/pplj/m/n/10 If the orig-i-nal equa-tion had vari-ables in an in-put to an
-y log-
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 4999--5000
+\T1/pplj/m/n/10 where $\OML/zplm/m/it/10 n\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t
+\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 is the pop-u-la-tion at time $\OML/zplm/m/i
+t/10 t$\T1/pplj/m/n/10 , $\OML/zplm/m/it/10 n[]$ \T1/pplj/m/n/10 is the ini-tia
+l size of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4906--4907
-\T1/pplj/m/n/10 a-rithm, check to en-sure there are no false so-lu-tions. (Any
+Underfull \hbox (badness 10000) in paragraph at lines 5003--5004
+\T1/pplj/m/n/10 where $\OML/zplm/m/it/10 D[]$ \T1/pplj/m/n/10 is the ini-tial t
+em-per-a-ture dif-fer-ence be-tween ob-ject
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4906--4907
-\T1/pplj/m/n/10 so-lu-tion which causes us to take the log-a-rithm of $\OT1/ppl
-x/m/n/10 0$ \T1/pplj/m/n/10 or neg-a-tive
+Underfull \hbox (badness 10000) in paragraph at lines 5003--5004
+\T1/pplj/m/n/10 and sur-round-ings, $\OML/zplm/m/it/10 T[]$ \T1/pplj/m/n/10 is 
+the tem-per-a-ture of the sur-round-ings, $\OML/zplm/m/it/10 t$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4906--4907
-\T1/pplj/m/n/10 is a false so-lu-tion. This is be-cause the in-put to any log-a
--rithm
- []
+Underfull \vbox (badness 2418) has occurred while \output is active []
 
 
 
@@ -3418,13 +3435,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [84]
 
-LaTeX Warning: Marginpar on page 85 moved.
-
-
-LaTeX Warning: Marginpar on page 85 moved.
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.0pt, for example:
@@ -3433,27 +3443,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [85]
-Underfull \hbox (badness 10000) in paragraph at lines 5063--5064
-\T1/pplj/m/n/10 where $\OML/zplm/m/it/10 n\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 t
-\OT1/zplm/m/n/10 )$ \T1/pplj/m/n/10 is the pop-u-la-tion at time $\OML/zplm/m/i
-t/10 t$\T1/pplj/m/n/10 , $\OML/zplm/m/it/10 n[]$ \T1/pplj/m/n/10 is the ini-tia
-l size of
+Overfull \hbox (167.46498pt too wide) in paragraph at lines 5087--5133
+ [] 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5067--5068
-\T1/pplj/m/n/10 where $\OML/zplm/m/it/10 D[]$ \T1/pplj/m/n/10 is the ini-tial t
-em-per-a-ture dif-fer-ence be-tween ob-ject
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5067--5068
-\T1/pplj/m/n/10 and sur-round-ings, $\OML/zplm/m/it/10 T[]$ \T1/pplj/m/n/10 is 
-the tem-per-a-ture of the sur-round-ings, $\OML/zplm/m/it/10 t$
- []
-
-
-Underfull \vbox (badness 2418) has occurred while \output is active []
 
 
 
@@ -3474,29 +3466,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
 [87]
-Overfull \hbox (167.46498pt too wide) in paragraph at lines 5151--5197
- [] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[88]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
-
-[89]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -3511,7 +3480,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.0pt}.
 
-[90] (./mth150-spring2024-course-pack-DELETE-WHEN-IMPORTED.aux
+[88] (./mth150-spring2024-course-pack-DELETE-WHEN-IMPORTED.aux
 <Reading QR code for "https://www.desmos.com/calculator/b5c6wq2rtp" at level 4-
 Q from aux file.>
 
@@ -3544,15 +3513,15 @@ PORTED.out' has not changed.
 (rerunfilecheck)             Checksum: 64595741B625F6EE6B42BAF569C655DB;3523.
  ) 
 Here is how much of TeX's memory you used:
- 44679 strings out of 473190
- 1014166 string characters out of 5715801
- 2052070 words of memory out of 5000000
- 66488 multiletter control sequences out of 15000+600000
+ 44671 strings out of 473190
+ 1014056 string characters out of 5715801
+ 2051020 words of memory out of 5000000
+ 66486 multiletter control sequences out of 15000+600000
  654175 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,20n,121p,1625b,2052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{ekcounter.436} has been referenced but does not exi
+pdfTeX warning (dest): name{ekcounter.431} has been referenced but does not exi
 st, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -3569,11 +3538,11 @@ e1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on mth150-spring2024-course-pack-DELETE-WHEN-IMPORTED.pdf (90 pa
-ges, 1561201 bytes).
+Output written on mth150-spring2024-course-pack-DELETE-WHEN-IMPORTED.pdf (88 pa
+ges, 1558034 bytes).
 PDF statistics:
- 1372 PDF objects out of 1440 (max. 8388607)
- 1153 compressed objects within 12 object streams
- 600 named destinations out of 1000 (max. 500000)
+ 1357 PDF objects out of 1440 (max. 8388607)
+ 1140 compressed objects within 12 object streams
+ 594 named destinations out of 1000 (max. 500000)
  13775 words of extra memory for PDF output out of 14400 (max. 10000000)
 
