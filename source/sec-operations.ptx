@@ -1688,6 +1688,60 @@
     </solution>
   </example>
 
+  <p>
+    While we advertised this concept of <q>distributing the minus sign</q> in its most subtle form (when we are distributing <m>-1</m>),
+    a similar idea applies when we are distributing any negative number.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Simplify <m>7x - 3(2x + 4)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        One view is to distribute <m>-3</m>
+        <m>7x - 3(2x + 4) = 7x - 3(2x) - 3(4) = 7x - 6x - 12 = x - 12</m>.
+      </p>
+    </solution>
+    <solution>
+      <p>
+        The answer we gave may be unsatisfying to some folks, so here's a version where the subtracting is rewritten as adding a negative.
+        Visually, we still will have the same amount of minus signs: where the minus sign used to be will be replaced with a plus sign followed by a minus sign (it's just that the minus sign will be right in front of the <m>3</m>).
+        We have <m>7x-3(2x+4) = 7x+(-3)(2x+4) = 7x + (-3)(2x) + (-3)(4) = 7x-6x-12 = x-12</m>.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Simplify <m>7x - 3(2x - 4)</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        One view is to distribute <m>-3</m>
+        <m>7x - 3(2x + 4) = 7x - 3(2x) + 3(4) = 7x - 6x + 12 = x + 12</m>.
+      </p>
+    </solution>
+    <solution>
+      <p>
+        Here's a version where the subtracting is rewritten as adding a negative.
+        We have <m>7x-3(2x-4) = 7x+(-3)(2x-4) = 7x + (-3)(2x) + (-3)(-4) = 7x-6x+12 = x+12</m>.
+      </p>
+    </solution>
+  </example>
+  <p>
+    Perhaps the slightly longer second answer convinces you that the first answer worked.
+    In any case, the question in this example is only slightly different than the example right before that, 
+    so it makes sense that the final expressions are very similar: the question we just answered had a constant of <m>+12</m> while the question before had a constant of <m>-12</m>.
+    In particular, it makes sense that the two different questions had two different answers.
+    I think it would have been a little weird if we got the same answer for the two differnt questions.
+  </p>
+
+
   </subsection>
 
 
