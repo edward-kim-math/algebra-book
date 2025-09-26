@@ -176,6 +176,30 @@
       </solution>
     </example>
 
+    <example xml:id="strategy-equation-with-fraction-one-denominator-is-LCD">
+      <statement>
+        <p>
+          Solve the equation <m>\frac{x}{6} + \frac{1}{2} = \frac{2}{3}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The least common multiple of the denominators <m>6</m> and <m>2</m> and <m>3</m> is <m>6</m>.
+          So we multiply both sides of the equation by <m>6</m>, though Order of Operations requires us to wrap the left side in parentheses:
+          <me>6 \left( \frac{x}{6} + \frac{1}{2} \right) = 6 \cdot \frac{2}{3}.</me>
+          Distributing on the left side gives:
+          <me>6 \cdot \frac{x}{6} + 6 \cdot \frac{1}{2} = 6 \cdot \frac{2}{3}.</me>
+          Now we cancel where applicable.
+          <me>\cancel{6} \cdot 1 \cdot \frac{x}{\cancel{6}} + \cancel{2} \cdot 3 \cdot \frac{1}{\cancel{2}} = \cancel{3} \cdot 2 \cdot \frac{2}{\cancel{3}}.</me>
+          After performing the cancellations, we are left with:
+          <me>x + 9 = 12.</me>
+          This is an equation with no fractions.
+          Subtracting <m>9</m> from both sides gives:
+          <me>x = 3.</me>
+        </p>
+      </solution>      
+    </example>
+
     <p>
       You may have never heard of <xref ref="strategy-equations-with-fractions" /> before, but it is the <emph>fastest</emph> way to solve <emph>any</emph> equation that has fractions.
       You may be used to another method that works involving common denominators, but as a friendly reminder,  <xref ref="warning-multiplying-fractions-does-not-need-common-denominator" /> told us that even when we looked at fractional expressions, we didn't always need common denominators.
@@ -606,9 +630,32 @@
     <example>
       <statement>
         <p>
-          AAAAA INSERT example where there IS a false solution.
+          Solve <m>\frac{10x}{x-2} - \frac{13}{x-2} = \frac{14}{2x-4}</m>
         </p>
       </statement>
+      <solution>
+        <p>
+          The third denominator in factored form is <m>2(x-2)</m>.
+          The least common multiple of <m>x-2</m> and <m>x-2</m> and <m>2x-4</m> is <m>2(x-2)</m>.
+          We multiply both sides by <m>2(x-2)</m>, noting that we have to wrap the left side in parentheses:
+          <me>2(x-2) \left( \frac{10x}{x-2} - \frac{13}{x-2} \right) = 2(x-2) \cdot \frac{14}{2(x-2)}</me>
+          Now we distribute <m>2(x-2)</m>. By this, I'm not saying that we write <m>2x-4</m>.
+          Instead, I mean that a copy of <m>2(x-2)</m> is written to the side of both fractions on the left:
+          <me>2(x-2) \cdot \frac{10x}{x-2} - 2(x-2) \cdot \frac{13}{x-2} = 2(x-2) \cdot \frac{14}{2(x-2)}</me>
+          After processing cancellations,
+          <me>2 \cdot 10x - 2 \cdot 13 = 14</me>
+          <me>20x - 26 = 14</me>
+          <me>20x = 40</me>
+          <me>x = 2</me>
+          Since the original equation had the variable written in the denominator, 
+          <xref ref="expectation-variable-in-denominator" /> applies, and we need to check
+          that the solution that we got doesn't cause any denominator to be zero.
+          When we put in <m>x=2</m> into the first denominator <m>x-2</m>, we see <m>2-2=0</m>.
+          Therefore, <m>x=2</m> is a false solution, and the equation has no solution.
+          (We don't even need to bother checking the other denominators: any time one or more denominators become zero, the solution is false.)
+          It turns out that the equation <m>\frac{10x}{x-2} - \frac{13}{x-2} = \frac{14}{2x-4}</m> has no solution.
+        </p>
+      </solution>
     </example>
 
     <note>
@@ -797,76 +844,23 @@
       Furthermore, cross multiplying is just a special case of <xref ref="strategy-equations-with-fractions" />, which applies to <emph>any</emph> equation with fractions.
     </p>
  
-    
-    
-    
-    <p>
-      NOTE ON WRITING: cancelling before distributing... parentheses PROTECT
-      NOTE ON WRITING: dividing on both sides in a LAZY way.
-      NOTE ON WRITING: indicating action on only ONE side.
-      ADD: we can CHECK whether x=constant is a solution to an equation, even if we don't know HOW to solve a certain type of equation. Helps us
-    </p>
-
-
+    <assemblage>
+      <title>A word on writing</title>
+      <p>
+        When we worked on solving <m>\frac{x}{6} + \frac{1}{2} = \frac{2}{3}</m> in <xref ref="strategy-equation-with-fraction-one-denominator-is-LCD" />,
+        one of our first steps was:
+        <me>6 \left( \frac{x}{6} + \frac{1}{2} \right) = 6 \cdot \frac{2}{3}.</me>        
+        We then distributed (which ended up removing the parentheses) then canceled.
+        It would be strange to not yet distribute and write in cancellations like this:
+        <me>\cancel{6} \left( \frac{x}{\cancel{6}} + \frac{1}{2} \right) = 6 \cdot \frac{2}{3}.</me>        
+        Work that looks like this gets dangerous, since we need to distribute <m>6</m> first.
+        Distributing <m>6</m> creates two copies of <m>6</m> on the left, and it's actually one of the <emph>copies</emph> from the distribution 
+        that cancels with the <m>6</m> in the denominator of the first fraction.
+        Let's think of the parentheses for what they really are: we can say that these grouping symbols are protecting the content inside, and preventing this kind of cancellation.
+      </p>
+    </assemblage>
 
   </subsection>
-
-
-
-	<subsection>
-		<title>subsection title</title>
-
-    <principle permid="include-id">
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
-
-    <example>
-      <statement>
-        <p>
-          Statement text       
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <principle permid="label-for-boxed-item">
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </principle>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-  </subsection>
-
 
 	<subsection>
 		<title>Summary</title>
@@ -875,17 +869,17 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            A technique that always works for solving equations with fractions is to first compute the least common multiple of all denominators,
+            then multiply both sides by this least common multiple.
+            (Insisting on common denominators is always more time consuming, and there are several types of errors that can occur when insisting on common denominators.
+            When we discussed simplifying fractional expressions, we even saw back then that multiplying fractions does not require a common denominator.)
           </p>
         </li>
         <li>
           <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
+            Cross multiplying is a special case of multiplying both sides by the least common multiple of the denominators.
+            This technique only applies when each side of the equation has exactly one fraction and nothing else.
+            This technique is what sometimes people erroneously think of when working simplifying the product of fractions, which is why some people avoid talking about cross multiplying.
           </p>
         </li>
       </ol>
@@ -896,40 +890,113 @@
   <subsection>
 		<title>Exercises</title>
 
+    <!-- creating a total of 20 questions of solving equations that contain fractions. The problems should start easy and increase in difficulty. Some of the problems should be able to be solved by cross multiplication. Some of the problems should have the variable in the denominator, and require checking for false solutions. None of the problems should end up creating a quadratic equation when using the technique of multiplying both sides by the least common multiple of the denominators. -->
 
     <p>
       <ol>
 
         <li>
           <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
+            Solve <m>\frac{x}{2} = \frac{5}{6}</m>.
           </p>
         </li>
         <li>
           <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
+            Solve <m>\frac{x}{3} + \frac{1}{6} = \frac{5}{6}</m>.
           </p>
         </li>
         <li>
           <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
+            Solve <m>\frac{x+1}{4} + \frac{x-2}{3} = \frac{5}{6}</m>.
           </p>
         </li>
+        <li>
+          <p>
+            Solve <m>\frac{2x+1}{5} - \frac{x-1}{4} = \frac{x+2}{10} + \frac{x}{5}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{4x-1}{3} = \frac{2x+5}{4}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x}{5} + \frac{2}{3} = \frac{19}{15}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{3}{x} = \frac{6}{5}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{2}{x-1} = \frac{5}{x+2}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x+3}{7} = \frac{2x-1}{5}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x}{4} - \frac{3}{8} = \frac{5}{8}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{5}{x} + \frac{2}{3} = \frac{19}{6}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{3}{x+2} - \frac{5}{x-1} = \frac{2}{x-4}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x-4}{6} = \frac{2x+1}{9}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{7}{2x} = \frac{3}{x+1}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{2}{x} - \frac{3}{x+1} = \frac{1}{2}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x+5}{x-2} = \frac{3}{2}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{2}{x-3} + \frac{1}{x+1} = \frac{3}{4}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{x+1}{x-4} = \frac{x-2}{x+3}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{2x}{x-1} = \frac{3}{2}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve <m>\frac{1}{x-2} + \frac{1}{x+2} = \frac{1}{3}</m>.
+          </p>
+        </li>
+
+
 
       </ol>
     </p>

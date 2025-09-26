@@ -1496,6 +1496,15 @@
         </solution>
       </example>
 
+    
+    <p>
+      AAAA NOTE ON WRITING: dividing on both sides in a LAZY way.
+      AAAA NOTE ON WRITING: indicating action on only ONE side.
+      AAAA ADD: we can CHECK whether x=constant is a solution to an equation, even if we don't know HOW to solve a certain type of equation. Helps us
+    </p>
+
+
+
   </subsection>
 
 
