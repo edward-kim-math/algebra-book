@@ -343,8 +343,8 @@
       a certain aspect of the first answer may have been confusing. For that reason, outside of the comparison,
       I think it would be good for us to see the first several steps of the first answer without skipping any work.
       There are actually two subvariants of the first answer, and we'll go through the steps of both subvariants.
-      Spending the time to do this isn't to persuade you to move away from <xref method="strategy-equations-with-fractions"/>.
-      Far from it. In fact, the subtle things that we're about to dig into aren't a problem by following <xref method="strategy-equations-with-fractions"/>.
+      Spending the time to do this isn't to persuade you to move away from <xref ref="strategy-equations-with-fractions"/>.
+      Far from it. In fact, the subtle things that we're about to dig into aren't a problem by following <xref ref="strategy-equations-with-fractions"/>.
       That said, going into the details (as annoying as it might be) I hope will demystify some of the steps that are too often glossed over quickly (and I don't blame people who are confused)!
       The throughout explanations we're about to dig into are meant to ensure we don't create confusion by shoving things under the rug.
       <ul>
@@ -391,6 +391,13 @@
 
 	<subsection>
 		<title>Clarifications, Cautions, and Connections</title>
+
+    <p>
+      We've seen a technique for solving equations that have fractions, but there are some things that we should clarify.
+      I invite you to read through this section carefully.
+      My hope is to really make sure everything that you've seen about equations with fractions is honored: we'll discuss it all!
+      Moreover, I hope that what you read is empowering, because we've worked hard together to lay a foundation for what's happening step-by-step!
+    </p>
 
     <warning>
       <p>
@@ -619,7 +626,7 @@
           </li>
           <li>
             <p>
-              In AAAAAA, we mentioned that you can always see if the value(s) of <m>x</m> 
+              In <xref ref="principle-checking-equation-solutions" />, we mentioned that you can always see if the value(s) of <m>x</m> 
               make the left and right side of the original equation to be equal.
               This check is never required, but it is recommended.
               If we encounter a time when the left and right side do not end up being equal, we should scan our work for any errors.
@@ -631,14 +638,18 @@
         In the first case, we're just checking to see that denominators are never zero, and this check is required whenever the variable appears in the denominator.
         In the second, we're checking for something else (do the left and right sides of the original equation equal each other), 
         and only because getting different values for the left and right hints to us that there's an error in our work, and we should go over it.
-        In fact, we only completed the first kind of check in <xref ref="example-equation-variable-denominator-first" />, and we didn't do the second kind of check.
-        To illustrate that point more fully, AAAAAAAAAAA check that x=AAAA causes the original left and the original right side to equal AAAAAA
+        In fact, we only completed the first kind of check in <xref ref="example-equation-variable-denominator-first" />, 
+        and we didn't do the second kind of check mentioned in <xref ref="principle-checking-equation-solutions" />.
+        To illustrate that point more fully, we can check that putting in <m>\frac{17}{11}</m> in for <m>x</m>
+        into both the left side <m>\frac{3}{2x-4}-\frac{5}{x+3}</m> and the right side <m>\frac{2}{x-2}</m> shows that both sides equal <m>\frac{22}{-5}</m> or from a calculator, <m>-4.4</m>.
       </p>
       <p>
         In summary, when the variable appears in the denominator, we <emph>must</emph> check that we never have zero in the denominator due to the value(s) of <m>x</m>.
         In <emph>any</emph> equation, we can always check to see if the original left and right sides are equal for the sake of quality control.
       </p>
     </note>
+
+
 
 
     <p>

@@ -1204,7 +1204,7 @@
       this gives us a useful tool that we can use to check our work after solving <emph>any</emph> equation!
     </p>
 
-    <assemblage xml:id="assemblage-checking-equation-solutions">
+    <principle xml:id="principle-checking-equation-solutions">
       <title>Checking solutions to equations</title>
       <p>
         After solving an equation, we can check our work by substituting our solution(s) into the original equation.
@@ -1212,11 +1212,12 @@
         If substituting a solution into the original equation does not make both sides equal, then there was an error in the work.
         If there are multiple solutions, we should check each one.
       </p>
-    </assemblage>
+    </principle>
 
     <example>
+      <p>
       In <xref ref="solve-5xminus3-equals27" /> we started with the equation <m>5x-3=27</m> and we found that <m>x = 6</m> is a solution.
-      We didn't check our work then, so let's check it now.
+      We didn't check our work then, so let's check it now, following the advice of <xref ref="principle-checking-equation-solutions" />.
       (If you have leftover time in a quiz or exam, it's a good idea to check your work on solving equations by substituing your solution(s) into the original equation.)
       Whenever we check our work, we always start with the <emph>original</emph> equation.
       Let's substitute <m>6</m> for <m>x</m> in the original equation:
@@ -1236,6 +1237,7 @@
         </li>
       </ol>
       Since both sides are equal, we have verified that <m>x = 6</m> is indeed a solution to the equation <m>5x-3=27</m>.
+    </p>
     </example>
 
   </subsection>
