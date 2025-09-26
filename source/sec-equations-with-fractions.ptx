@@ -181,7 +181,7 @@
       You may be used to another method that works involving common denominators, but as a friendly reminder,  <xref ref="warning-multiplying-fractions-does-not-need-common-denominator" /> told us that even when we looked at fractional expressions, we didn't always need common denominators.
       Let's compare the two methods in the next example.
     </p>
-    <example>
+    <example xml:id="first-example-ignoring-strategy-for-equations-with-fractions">
       <statement>
         <p>
           Solve <m>\frac{x}{6} + \frac{x-3}{10} = \frac43</m>
@@ -606,7 +606,7 @@
     <example>
       <statement>
         <p>
-          INSERT example where there IS a false solution.
+          AAAAA INSERT example where there IS a false solution.
         </p>
       </statement>
     </example>
@@ -649,24 +649,68 @@
       </p>
     </note>
 
+    <warning>
+      <p>
+        In an equation with fractions where all fractions have the same denominator, 
+        we cannot say that we are <q>deleting</q> all the denominators.
+      </p>
+    </warning>
+    To be clear about what this warning is saying, we provided to answers to <xref ref="first-example-ignoring-strategy-for-equations-with-fractions" />.
+    The first answer, which was slower, ignored <xref method="strategy-equations-with-fractions" /> and used common denominators.
+    If we go back and look at the work of our first answer, at some point we had the equation
+    <me>\frac{5x}{30} + \frac{3x-9}{30} = \frac{40}{30}.</me>
+    Two steps later, we had the. equation <m>5x+3x-9=40</m>, but it would be wrong to say that we <q>just got rid of</q> the denominators.
+    It definitely <emph>looks</emph> like we got rid of denominators, but this is not what happened.
+    Instead, we <emph>multiplied both sides by 30</emph>.
+    This is a subtle but important distinction.
+    The issue is that if we say we <q>got rid of denominators</q>, we are noticing a pattern (and I appreciate the desire to notice patterns),
+    but it is not actually a pattern: things don't always behave like this. Let's see several examples:
 
+    <example>
+      <statement>
+        <p>
+          When asked to solve <me>\frac{x}{5} \cdot \frac{3}{5} = \frac{2}{5}</me>,
+          a well-meaning but incorrect thought is to say that since all three fractions have the same denominator, we can <q>get rid of</q> the denominators.
+          This is incorrect, but let's follow through with this. This would lead to the equation <m>x \cdot 3 = 2</m>, which eventually gets us to <m>x=\frac{2}{3}</m>.
+          Now we can follow up by checking the original equation like <xref ref="principle-checking-equation-solutions" /> encourages us to do.
+          Putting in <m>\frac{2}{3}</m> for <m>x</m> into the left side gives <m>\frac{\frac{2}{3}}{5} \cdot \frac{3}{5} = \frac{2}{15}</m>.
+          Putting in <m>\frac{2}{3}</m> for <m>x</m> into the right side gives <m>\frac{2}{5}</m>.
+          Since <m>\frac{2}{15} \not= \frac{2}{5}</m>, we know that <m>x=\frac{2}{3}</m> is not a solution.
+        </p>
+      </statement>
+    </example>
 
+    <example>
+      <statement>
+        <p>
+          When asked to solve the equation
+          <me>\frac{x}{2} \cdot \frac{5}{2} + \frac{7}{2} = \frac{3x}{2},</me>
+          a well-meaning but incorrect thought is to say that since all four fractions have the same denominator, we can <q>get rid of</q> the denominators.
+          This is would lead to <m>x \cdot 5 + 7 = 3x</m> which gives us <m>5x+7=3x</m> so <m>2x=-7</m> and <m>x=-\frac{7}{2}</m>.
+          Let's following <xref ref="principle-checking-equation-solutions" />.
+          Putting in <m>-\frac{7}{2}</m> for <m>x</m> into the left side gives
+          <m>\frac{-\frac{7}{2}}{2} \cdot \frac{5}{2} + \frac{7}{2} = -\frac74 \cdot \frac52 + \frac72 = -\frac{35}{8} + \frac{28}{8} = -\frac{7}{8}</m>.
+          Putting in <m>-\frac{7}{2}</m> for <m>x</m> into the right side gives <m>\frac{3 \cdot -\frac{7}{2}}{2} = -\frac{21}{4}</m>.
+          Because the left and right sides simplified to different values, <m>x=-\frac{7}{2}</m> is not a solution.
+          The problem was created by the incorrect idea that we could <q>get rid of</q> the denominators.
+        </p>
+      </statement>
+    </example>
 
-    <p>
-      ERROR: Solve x/5 times 3/5 = 2/5
-      ERROR: Solve x/2 times 5/2 + 7/2 = 3x/2
-    </p>
-
-    <p>
-      NOTE ON WRITING: cancelling before distributing... parentheses PROTECT
-      NOTE ON WRITING: dividing on both sides in a LAZY way.
-      NOTE ON WRITING: indicating action on only ONE side.
-    </p>
 
     <p>
       Epilogue: Cross multiplying, and why we've avoided talking about it.
     </p>
+
     
+    <p>
+      NOTE ON WRITING: cancelling before distributing... parentheses PROTECT
+      NOTE ON WRITING: dividing on both sides in a LAZY way.
+      NOTE ON WRITING: indicating action on only ONE side.
+      ADD: we can CHECK whether x=constant is a solution to an equation, even if we don't know HOW to solve a certain type of equation. Helps us
+    </p>
+
+
 
   </subsection>
 
