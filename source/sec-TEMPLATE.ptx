@@ -44,12 +44,12 @@
 	<subsection>
 		<title>subsection title</title>
 
-    <assemblage xml:id="include-id">
+    <principle xml:id="include-id-a">
       <title>text</title>
       <p>
         text
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -80,7 +80,7 @@
       </p>
     </note>
 
-    <assemblage xml:id="label-for-boxed-item">
+    <assemblage>
       <title>Title</title>
       <p>
         Text
