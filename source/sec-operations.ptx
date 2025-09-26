@@ -153,7 +153,7 @@
     </p>
 
 
-    <assemblage permid="order-of-operations">
+    <principle xml:id="order-of-operations">
       <title>Order of Operations</title>
       <p>
         An expression must always be simplified and read by following the <term>Order of Operations</term>:
@@ -165,7 +165,7 @@
         </ol>
       In addition, every time you write an expression, ensure your writing is based on the Order of Operations.
       </p>
-    </assemblage>
+    </principle>
 
     <remark>
       <p>
@@ -254,18 +254,18 @@
       </solution>
     </example>
 
-    <assemblage>
+    <principle>
       <title>Expectation</title>
       <p>
         When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.
       </p>
-    </assemblage>
-    <assemblage>
+    </principle>
+    <principle>
       <title>Expectation</title>
       <p>
         While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -328,19 +328,19 @@
 
   </subsection>
 
-  <assemblage>
+  <principle>
     <title>Habit</title>
     <p>
       Always read expressions based on the Order of Operations.
     </p>
-  </assemblage>
+  </principle>
 
-  <assemblage>
+  <principle>
     <title>Habit</title>
     <p>
       Always write expressions based on the Order of Operations.
     </p>
-  </assemblage>
+  </principle>
 
 
 
@@ -355,7 +355,7 @@
     Doing this might feel new and totally weird, but let's explain how it's done and walk through examples together.
     </p>
 
-    <assemblage permid="order-of-operations-variables">
+    <principle xml:id="order-of-operations-variables">
       <title>How to apply Order of Operations to expressions with variables</title>
       <p>
         Given an expression:
@@ -365,7 +365,7 @@
         </ol>
         Instead of simplifying an expression, we would hypothetically perform the operations.
       </p>
-    </assemblage>
+    </principle>
 
     <example xml:id="ex-expression-simplify-variables">
       <statement>
@@ -763,7 +763,7 @@
       Practicing this now will make future concepts go smoother!
     </p>
 
-    <assemblage permid="geometric-addition">
+    <principle xml:id="geometric-addition">
       <title>Representing Addition Geometrically</title>
       <p>
         Suppose <m>a</m> and <m>b</m> are positive real numbers.
@@ -791,7 +791,7 @@
           </image>
         </figure>
       </p>
-    </assemblage>
+    </principle>
 
   <p>
     We have drawn the sticks slightly separated so that we can see them individually, but in reality we should imagine them pushed together.
@@ -899,12 +899,12 @@
     We can apply the geometric representation of addition to learn several important algebra facts about addition.
   </p>
 
-  <assemblage permid="commutative-property-addition">
+  <principle xml:id="commutative-property-addition">
     <title>Commutative Property of Addition</title>
     <p>
       <m>a+b = b+a</m>
     </p>
-  </assemblage>
+  </principle>
 
   <example>
     <statement>
@@ -962,12 +962,12 @@
 
 
 
-  <assemblage permid="associative-property-addition">
+  <principle xml:id="associative-property-addition">
     <title>Associative Property of Addition</title>
     <p>
       <m>(a+b)+c = a+(b+c)</m>
     </p>
-  </assemblage>
+  </principle>
   <example>
     <statement>
     <p>
@@ -1035,7 +1035,7 @@
     When rearranging, be sure that any minus sign that was in front of a term stays in front of that term.
   </p>
 
-    <assemblage permid="geometric-multiplication">
+    <principle xml:id="geometric-multiplication">
       <title>Representing Multiplication Geometrically</title>
       <p>
         Suppose <m>a</m> and <m>b</m> are positive real numbers.
@@ -1056,7 +1056,7 @@
           </image>
         </figure>
       </p>
-    </assemblage>
+    </principle>
 
   <p>
     We will draw with the convention that the factor before the muliplication symbol is the height of the rectangle and the factor after the multiplication symbol is the width.
@@ -1127,12 +1127,12 @@
     We can apply the geometric representation of addition to learn several important algebra facts about addition.
   </p>
 
-  <assemblage permid="commutative-property-multiplication">
+  <principle xml:id="commutative-property-multiplication">
     <title>Commutative Property of Multiplication</title>
     <p>
       <m>ab = ba</m>
     </p>
-  </assemblage>
+  </principle>
 
   <example>
     <statement>
@@ -1169,12 +1169,12 @@
     </solution>
   </example>
 
-  <assemblage permid="associative-property-multiplication">
+  <principle xml:id="associative-property-multiplication">
     <title>Associative Property of Multiplication</title>
     <p>
       <m>(ab)c = a(bc)</m>
     </p>
-  </assemblage>
+  </principle>
   
   <p>
     We will skip the geometric explanation of the Associative Property of Multiplication, 
@@ -1193,7 +1193,7 @@
     </p>
   </note>
 
-  <assemblage>
+  <principle>
     <title>How do I prevent confusing the two geometric representations?</title>
     <p>
       The geometric representation of addition is the gluing together of sticks.
@@ -1219,19 +1219,19 @@
       </ol>
       You can pick any two numbers you want, as long as the sum and product are different
     </p>
-  </assemblage>
+  </principle>
 
   <p>
     We are now about to talk about an important algebra property that mentions both addition and multiplication.
     When we look at the geometric representation, we will need both geometric representations: gluing together of sticks <em>and</em> area of rectangles will <em>both</em> appear.
   </p>
 
-  <assemblage permid="distributive-multiplication-addition">
+  <principle xml:id="distributive-multiplication-addition">
     <title>Distributive Law, version 1</title>
     <p>
       <m>a(b+c)=ab+ac</m>
     </p>
-  </assemblage>
+  </principle>
 
   <example>
     <statement>
@@ -1452,12 +1452,12 @@
     </solution>
   </example>
 
-  <assemblage permid="distributive-multiplication-subtraction">
+  <principle xml:id="distributive-multiplication-subtraction">
     <title>Distributive Law, version 2</title>
     <p>
       <m>a(b-c)=ab-ac</m>
     </p>
-  </assemblage>
+  </principle>
 
   <p>
     This version has subtraction inside the parentheses instead of addition inside the parentheses.
@@ -1502,12 +1502,12 @@
   </example>
 
 
-  <assemblage permid="distributive-addition-multiplication">
+  <principle xml:id="distributive-addition-multiplication">
     <title>Distributive Law, version 3</title>
     <p>
       <m>(b+c)a=ba+ca</m>
     </p>
-  </assemblage>
+  </principle>
 
   <p>
     This version has the multiplication on the right instead of the left.
@@ -1524,12 +1524,12 @@
     <!-- <response /> --><!-- Commented out the response area where a student can type. -->
   </exercise>
 
-  <assemblage permid="distributive-subtraction-multiplication">
+  <principle xml:id="distributive-subtraction-multiplication">
     <title>Distributive Law, version 4</title>
     <p>
       <m>(b-c)a=ba-ca</m>
     </p>
-  </assemblage>
+  </principle>
 
   <example>
     <statement>
@@ -1607,12 +1607,12 @@
   <p>
     We have shown four versions of the Distributive Law. Here is an extended version of the Distributive Law:    
   </p>
-  <assemblage permid="distributive-extended">
+  <principle xml:id="distributive-extended">
     <title>Distributive Law, one extended version</title>
     <p>
       <m>a(b+c+d)=ab+ac+ad</m>
     </p>
-  </assemblage>
+  </principle>
 
   <!-- Try it -->
   <exercise>

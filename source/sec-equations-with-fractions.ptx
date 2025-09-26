@@ -486,13 +486,13 @@
       However, <xref ref="strategy-equations-with-fractions" /> still applies: the strategy applies to <emph>any</emph> equation with fractions, no matter how many fractions are on each side.
     </p>
     
-    <assemblage xml:id="expectation-variable-in-denominator">
+    <principle xml:id="expectation-variable-in-denominator">
       <title>Expectation: equations where the variable appears in the denominator</title>
       <p>
         If the original equation had variables in the denominator, check to ensure there are no false solutions.
         (Any solution which causes division by zero to occur is a <term>false solution</term>.)
       </p>
-    </assemblage>
+    </principle>
 
     <example xml:id="example-equation-variable-denominator-first">
       <statement>
@@ -697,11 +697,108 @@
       </statement>
     </example>
 
-
     <p>
-      Epilogue: Cross multiplying, and why we've avoided talking about it.
+      The two examples above illustrate that we cannot say that we <q>get rid of</q> denominators when all fractions have the same denominator.
+      (Our last two examples show that we can't just <q>delete</q> denominators when they are all the same, and we certainly can't delete denominators when fractions have different denominators).
+      We're never erasing denominators.
+      Instead, we stick to the only tool we really have for equations: which is to apply the same action to both sides.
+      The action of multiplying on both sides helps create the possibility that cancellations can occur: the newly introduced factor in the numerator (the number we multiply both sides by)
+      works to cancel with factors in the denominator.
+      In fact, the reason that <xref ref="strategy-equations-with-fractions" /> works is that we are multiplying both sides by the least common multiple of all denominators,
+      and this quantity is guaranteed to have all the factors needed to create cancellations in every denominator.
     </p>
 
+    <note>
+      <p>
+        Up until now, we have avoided talking about cross multiplying.
+        The reason for waiting for so long to talk about this is that there is a common setting in which learners try to apply cross multiplying where the techinque is not valid.
+        Specifically, given the task of simplifying the multiplying of two fractions, learners sometimes try to cross multiply. Let's dig into an example:
+        <ol>
+          <li>
+            <p>
+              When asked to simplify <m>\frac{2}{3} \cdot \frac{5}{7}</m>, a well-meaning but incorrect thought is to say that we can cross multiply.
+              This is incorrect, but let's follow through with this. This would lead to the expression <m>\frac{2 \cdot 7}{3 \cdot 5} = \frac{14}{15}</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Before immediately dismissing this answer, let's talk about it.
+              I believe that you have the background to follow the discussion we're about to make, 
+              and taking the time to actively read this discussion will be empowering for building your confidence in math, 
+              and moreover, can help you avoid mistakes in the future.
+            </p>
+            <p>Say we take the same problem about simplifying the product of fractions, but just switch the order of the fractions:
+              <me>\frac{5}{7} \cdot \frac{2}{3}.</me>
+              Then, applying cross multiplying would lead to <m>\frac{5 \cdot 3}{7 \cdot 2} = \frac{15}{14}</m>.
+              This is a different answer from the previous answer of <m>\frac{14}{15}</m>.
+              This seems strange, because we know the multiplication is commutative, 
+              either from our everyday experience with examples like <m>2 \cdot 3 = 3 \cdot 2</m>, 
+              or from giving a geometric argument that the Commutative Property of Multiplication in <xref ref="commutative-property-multiplication" /> is true in general.
+              Because we got different results from cross multiplying, it's reasonable for us to be suspicious of our two answers, and the technique in general.
+              In a moment, we will in fact see that neither <m>\frac{14}{15}</m> nor <m>\frac{15}{14}</m> is the correct final answer.
+              Cross multiplying is not a valid technique for simplifying the product of two fractions.
+            </p>
+          </li>
+          <li>
+            <p>
+              To simplify <m>\frac{2}{3} \cdot \frac{5}{7}</m>, recall that <xref ref="fraction-multiplication" /> tells us to multiply straight arcoss:
+              <me>\frac{2}{3} \cdot \frac{5}{7} = \frac{2 \cdot 5}{3 \cdot 7} = \frac{10}{21}.</me>
+            </p>
+          </li>
+        </ol>
+        Cross multiplying is really just a special case of <xref ref="strategy-equations-with-fractions" />.
+        Cross multiplying only applies when there are two fractions in an equation, one on each side of the equal sign.
+        In this case, the least common multiple of the two denominators is simply the product of the two denominators.
+        So, cross multiplying is just multiplying both sides by the product of the two denominators.
+        This is exactly what <xref ref="strategy-equations-with-fractions" /> tells us to do.
+        So, cross multiplying is not a different technique, but rather a special case of <xref ref="strategy-equations-with-fractions" />.
+        Because cross multiplying is so limited in its application, and because it is just a special case of <xref ref="strategy-equations-with-fractions" />,
+        we have avoided talking about it.
+        More importantly, we have avoided talking about it because of the common mistake of trying to apply it to simplify the multiplication of two fractions.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>\frac{2x-1}{3} = \frac{5x+6}{4}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we have an equation with a single fraction on each side, we can use the cross multiplying technique that we have avoided talking about until now.
+          This leads to <m>4(2x-1) = 3(5x+6)</m>. So:
+          <me>8x - 4 = 15x + 18</me>
+          <me>-22 = 7x</me>
+          <me>x = -\frac{22}{7}</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Alternatively, we can use <xref ref="strategy-equations-with-fractions" />.
+          The least common multiple of <m>3</m> and <m>4</m> is <m>12</m>.
+          Multiplying both sides by <m>3 \cdot 4</m> gives:
+          <me>3 \cdot 4 \cdot \frac{2x-1}{3} = 3\cdot 4 \cdot \frac{5x+6}{4}</me>
+          After cancelling, we have:
+          <me>4(2x-1) = 3(5x+6)</me>
+          <me>8x - 4 = 15x + 18</me>
+          <me>-22 = 7x</me>
+          <me>x = -\frac{22}{7}</me>
+        </p>
+      </solution>
+    </example>
+    <p>In the last example, I admit that cross multiplying got us slightly faster to the equation <m>4(2x-1) = 3(5x+6)</m> than <xref ref="strategy-equations-with-fractions" /> did.
+      However, the difference in speed is very small, and cross multiplying only applies in a very limited setting.
+      People, both students and instructors alike, will differ in their opinions about cross multiplying.
+      If you wish to use this techinque, it's important to <q>read the fine print</q>.
+      This would be like knowing the side effects of a medication: it's just good to be informed.
+      In the case of cross multiplying, it cannot be used to simplify the multiplication of two fractions, 
+      and it only applies to solving an equation when there are exactly two fractions in an equation, one on each side of the equal sign, and each side consists only of a fraction.
+      Furthermore, cross multiplying is just a special case of <xref ref="strategy-equations-with-fractions" />, which applies to <emph>any</emph> equation with fractions.
+    </p>
+ 
+    
+    
     
     <p>
       NOTE ON WRITING: cancelling before distributing... parentheses PROTECT
@@ -719,12 +816,12 @@
 	<subsection>
 		<title>subsection title</title>
 
-    <assemblage permid="include-id">
+    <principle permid="include-id">
       <title>text</title>
       <p>
         text
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -755,12 +852,12 @@
       </p>
     </note>
 
-    <assemblage permid="label-for-boxed-item">
+    <principle permid="label-for-boxed-item">
       <title>Title</title>
       <p>
         Text
       </p>
-    </assemblage>
+    </principle>
 
     <warning>
       <p>

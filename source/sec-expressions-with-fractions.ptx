@@ -68,7 +68,7 @@
 	<subsection>
 		<title>Representation and Equal/Unequal Fractions</title>
 
-    <assemblage permid="fraction-meaning">
+    <principle xml:id="fraction-meaning">
       <title>Representing Fractions Geometrically</title>
       <p>
         Suppose <m>a</m> and <m>b</m> are positive real numbers.
@@ -76,7 +76,7 @@
         Start with a pizza that has <m>b</m> equal-sized slices.
         Then <m>\frac{a}{b}</m> is represented by eating <m>a</m> of those slices.
       </p>
-    </assemblage>
+    </principle>
 
     <p>
       In this way, <m>1</m> represents taking/eating the whole pizza, and <m>\frac{1}{2}</m> represents taking a pizza that only has <m>2</m> slices (those are <em>huge</em> slices, since there are only two of them) and eating one of those slices.
@@ -239,13 +239,13 @@
       To formally state this fact:
     </p>
 
-    <assemblage permid="equal-fractions">
+    <principle xml:id="equal-fractions">
       <title>Equal Fractions, different denominators</title>
       <p>
         <me>\frac{a}{b}=\frac{a \cdot c}{b \cdot c},</me>
         where <m>b</m> and <m>c</m> are nonzero.
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -372,7 +372,7 @@
       In certain situations, we can also use the Equal Fractions formula to reduce the size of the denominator.
     </p>
 
-    <assemblage permid="reducing-fractions">
+    <principle xml:id="reducing-fractions">
       <title>Reducing Fractions</title>
       <p>
         If we see the same factor in the numerator and denominator of a fraction,
@@ -380,7 +380,7 @@
         This is applying our earlier formula <m>\frac{a}{b}=\frac{a \cdot c}{b \cdot c}</m> <q>backwards</q>
         in other words, this is turning <m>\frac{a \cdot c}{b \cdot c}</m> into <m>\frac{a}{b}</m>
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -569,13 +569,13 @@
       In algebra, it is often more helpful to leave answers as improper fractions. (By the end of this section, we'll explain exactly why improper fractions are preferred.)
     </p>
 
-    <assemblage permid="fraction-addition">
+    <principle xml:id="fraction-addition">
       <title>Adding Fractions</title>
       <p>
         Simplifying the addition of fractions requires having a <em>common denominator</em>.
         <me>\frac{a}{c}+\frac{b}{c} = \frac{a + b}{c}.</me>
       </p>
-    </assemblage>
+    </principle>
 
     <p>
       Notice in the two fractions on the left side of the formula above, <m>c</m> is the denominator for both fractions.
@@ -682,12 +682,12 @@
     <p>
       How should we add a fraction and a non-fraction together? Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
     </p>
-    <assemblage>
+    <principle>
       <title>How to add a fraction and a non-fraction</title>
       <p>
         Turn the non-fraction into a fraction with denominator <m>1</m>. Then use the Adding Fractions formula, noting that this formula requires a common denominator.
       </p>
-    </assemblage>
+    </principle>
 
     <example xml:id="example-2-plus-3over5">
       <statement>
@@ -721,13 +721,13 @@
     <p>
       Like adding fractions, subtracting requires a common denominator:
     </p>
-    <assemblage permid="fraction-subtraction">
+    <principle xml:id="fraction-subtraction">
       <title>Subtracting Fractions</title>
       <p>
         Simplifying the subtraction of fractions requires having a <em>common denominator</em>.
         <me>\frac{a}{c}-\frac{b}{c} = \frac{a - b}{c}.</me>
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -784,14 +784,14 @@
     </example>
 
     Subtraction that occurs between a fraction and a non-fraction is a lot like addition: turn the non-fraction into a fraction.
-    <assemblage>
+    <principle>
       <title>Subtraction involving a fraction and a non-fraction</title>
       <p>
         Turn the non-fraction into a fraction with denominator <m>1</m>. 
         Then use the Subtracting Fractions formula, 
         noting that this formula requires a common denominator.
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -1076,13 +1076,13 @@
     </p>
 
 
-    <assemblage permid="fraction-multiplication">
+    <principle xml:id="fraction-multiplication">
       <title>Multiplying Fractions</title>
       <p>
         To simplify the multiplication of fractions, we use
         <me>\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}.</me>
       </p>
-    </assemblage>
+    </principle>
 
     <p>
       Notice that this formula does not require a common denominator.
@@ -1140,13 +1140,13 @@
       Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
     </p>
 
-    <assemblage xml:id="assemblage-multiplying-fraction-and-nonfraction">
+    <principle xml:id="assemblage-multiplying-fraction-and-nonfraction">
       <title>Multiplying a Fraction and a Non-Fraction</title>
       <p>
         To multiply a fraction and a non-fraction, we can rewrite the non-fraction as a fraction with a denominator of <m>1</m>.
         Then we can use the Multiplying Fractions formula.
       </p>
-    </assemblage>
+    </principle>
 
     <example xml:id="example-2-times-3over5">
       <statement>
@@ -1345,13 +1345,13 @@
       Dividing by a fraction is the same as multiplying by its reciprocal.
     </p>
 
-    <assemblage xml:id="assemblage-dividing-fractions">
+    <principle xml:id="assemblage-dividing-fractions">
       <title>Dividing Fractions formula</title>
       <p>
         To divide by a fraction, multiply by its reciprocal and follow the Multiplying Fractions formula to simplify the multiplication of fractions.
         <me>\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}</me>
       </p>
-    </assemblage>
+    </principle>
 
     <example>
       <statement>
@@ -1613,14 +1613,14 @@
       This discussion leads to some important ideas.
       First, let's present an expectation regarding our final answers for fractions:
     </p>
-    <assemblage xml:id="assemblage-expectation-improper-fractions">
+    <principle xml:id="assemblage-expectation-improper-fractions">
       <title>Expectation for Fraction Format</title>
       <p>
         We expect our final answers for fractions to be in improper fraction form whenever possible.
         Unless specifically requested by the question, we will never present an answer as a mixed fraction.
         Whenever we write a mixed fraction, we should <em>actually mention</em> that our writing should be interpreted as a mixed fraction.
       </p>
-    </assemblage>
+    </principle>
     <p>
       You may be more used to mixed fractions and feel offended that the expectation avoids mixed fractions and favors improper fractions instead.
       But improper fractions are easier to work with in algebra, because it is hard to directly add, subtract, multiply, or divide mixed fractions.
@@ -1666,7 +1666,7 @@
       and similarly, it is more convenient for us (and less work!) to leave <m>\frac38</m> as it is instead of presenting this as <m>0.375</m>.
     </p>
 
-    <assemblage xml:id="assemblage-why-mixed-decimal">
+    <principle xml:id="assemblage-why-mixed-decimal">
       <title>Well then, why have mixed fractions or decimals in the first place?</title>
       <p>
         In everyday settings, people are used to seeing mixed fractions.
@@ -1678,18 +1678,18 @@
         of that number, a decimal is helpful. For example, I don't really have a good sense of the value of <m>\frac{2711348695}{182638791}</m>,
         but I can put this into a calculator to see the value is close to <m>14.8454152601</m>, a decimal representation.
       </p>
-    </assemblage>
+    </principle>
 
     <p>
       Changing gears, there's one thing that we haven't mentioned yet that's worth clarifying: The top and bottom of a fraction are each in what I'd like to call hidden parentheses.
     </p>
 
-    <assemblage xml:id="assemblage-fraction-top-bottom">
+    <principle xml:id="assemblage-fraction-top-bottom">
       <title>Fractions have hidden parentheses</title>
       <p>
         The top and bottom of a fraction are each in hidden parentheses..
       </p>
-    </assemblage>
+    </principle>
 
     <p>
       Let's clarify what this means, and then talk about how this connects to the Order of Operations.

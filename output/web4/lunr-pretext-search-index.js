@@ -190,20 +190,20 @@ var ptx_lunr_docs = [
   "body": " The expression mentions two variables. Since one or more variables appear, this expression is not a constant.  "
 },
 {
-  "id": "sec-operations-8-11-2",
+  "id": "order-of-operations",
   "level": "2",
-  "url": "sec-operations.html#sec-operations-8-11-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Order of Operations "
+  "url": "sec-operations.html#order-of-operations",
+  "type": "Principle",
+  "number": "1.1.8",
+  "title": "Order of Operations.",
+  "body": " Order of Operations  An expression must always be simplified and read by following the Order of Operations :  Parentheses  Exponents  Multiplication and Division (from left to right)  Addition and Subtraction (from left to right)  In addition, every time you write an expression, ensure your writing is based on the Order of Operations.  "
 },
 {
   "id": "sec-operations-8-12",
   "level": "2",
   "url": "sec-operations.html#sec-operations-8-12",
   "type": "Remark",
-  "number": "1.1.8",
+  "number": "1.1.9",
   "title": "",
   "body": " By the time we get to the third part of the Order of Operations, all exponents would have been evaluated. At this point, we look for any multiplication or division. If there is both multiplication and division, we evaluate them from left to right. It is not true that multiplication must be done before division. All divisions and multiplications that we see have the same level of precedence, and we evaluate them scanning from left to right in that order.  "
 },
@@ -212,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-8-13",
   "type": "Remark",
-  "number": "1.1.9",
+  "number": "1.1.10",
   "title": "",
   "body": " Similarly, by the time we get to the last part of Order of Operations, all multiplications and divisions would have been handled. That means that what remains of our expressions should only have addition and subtraction operations remaining. These should be handled from left to right.  "
 },
@@ -221,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-8-14",
   "type": "Remark",
-  "number": "1.1.10",
+  "number": "1.1.11",
   "title": "",
   "body": " The Order of Operations is sometimes remembered by the acronym PEMDAS, which stands for Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction.  Because of the way that PEMDAS is often taught, many people mistakenly believe that multiplication must be done before division, and addition must be done before subtraction. This is not true. For this reason, some people prefer the acronym GEMA, which stands for Grouping symbols, Exponents, Multiplication and Division, Addition and Subtraction. In the acronym GEMA, the G is used to indicate that there are many kinds of grouping symbols, not just parentheses. Also, the multiplication and division are addressed together in the M , and addition and subtraction are addressed together in the A .  "
 },
@@ -230,16 +230,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#ex-expression-simplify",
   "type": "Example",
-  "number": "1.1.11",
+  "number": "1.1.12",
   "title": "",
   "body": "  Simplify the expression .    We will simplify the expression by following the Order of Operations. First, notice that there are no parentheses, so we move on to the next part of the Order of Operations. There is a place where the expression has exponens, so we zoom in on and simplify this portion of the expression to . So, the expression given to us becomes .  Now there is no more exponents. Next, we look for any multiplication or division. We see both multiplication and division, so we evaluate them from left to right. The left-most multplication or division we see is the division , which simplifies to . This gives us the expression . Continuing to scan from left to right for any multiplications or divisions, we see the multiplication , which simplifies to . This gives us the expression .  Now there are no more multiplications or divisions, we look for any additions or subtractions, starting from the left. The left-most addition or subtraction we see is the subtraction , which simplifies to . This gives us the expression . Continuing to scan from left to right for any additions or subtractions, we see the addition , which simplifies to .  Because this was our first example of applying the Order of Operations, we wanted to be very thorough to explain each step. To present our work, we start from the original expression and after writing an equal sign (to indicate that what we will write next is equal) write a simplified version of the expression. We continue this process until we reach the final simplified expression. For this example, we have .  It is also acceptable to write each expressions on their own lines, as follows: Note that when presenting our work vertically we still include the equal signs to indicate that each expression is equal to the previous expression.   "
+},
+{
+  "id": "sec-operations-8-16",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-8-16",
+  "type": "Principle",
+  "number": "1.1.13",
+  "title": "Expectation.",
+  "body": " Expectation  When simplifying any expression, it is important to include equal signs to indicate that each expression is equal to the previous expression.  "
+},
+{
+  "id": "sec-operations-8-17",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-8-17",
+  "type": "Principle",
+  "number": "1.1.14",
+  "title": "Expectation.",
+  "body": " Expectation  While simplifying expressions, ensure that the next expression you write is truly equal to the previous expression, instead of just writing the portion of the expression that is changing.  "
 },
 {
   "id": "sec-operations-8-18",
   "level": "2",
   "url": "sec-operations.html#sec-operations-8-18",
   "type": "Example",
-  "number": "1.1.12",
+  "number": "1.1.15",
   "title": "",
   "body": "  Simplify the expression .    We can present our work horizontally, continuing to always write to the right of an equal sign like this .    We can instead present our work vertically    "
 },
@@ -248,16 +266,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-8-19",
   "type": "Example",
-  "number": "1.1.13",
+  "number": "1.1.16",
   "title": "",
   "body": "  Simplify the expression .    We can present our work horizontally, always writing to the right of the equal sign like this: .    We can instead present our work vertically:    "
+},
+{
+  "id": "sec-operations-9",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-9",
+  "type": "Principle",
+  "number": "1.1.17",
+  "title": "Habit.",
+  "body": " Habit  Always read expressions based on the Order of Operations.  "
+},
+{
+  "id": "sec-operations-10",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-10",
+  "type": "Principle",
+  "number": "1.1.18",
+  "title": "Habit.",
+  "body": " Habit  Always write expressions based on the Order of Operations.  "
+},
+{
+  "id": "order-of-operations-variables",
+  "level": "2",
+  "url": "sec-operations.html#order-of-operations-variables",
+  "type": "Principle",
+  "number": "1.1.19",
+  "title": "How to apply Order of Operations to expressions with variables.",
+  "body": " How to apply Order of Operations to expressions with variables  Given an expression:  Identify each operation that is written in the given expression.  Apply the Order of Operations to identify in which order the operations would be performed.  Instead of simplifying an expression, we would hypothetically perform the operations.  "
 },
 {
   "id": "ex-expression-simplify-variables",
   "level": "2",
   "url": "sec-operations.html#ex-expression-simplify-variables",
   "type": "Example",
-  "number": "1.1.14",
+  "number": "1.1.20",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    The expression has three operations. Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication. When there is no symbol written between two variables, there is a hidden multiplication sign. In fact, to make it clearer, we can rewrite the expression as .  Now that we have identified which operations are present in this expression (in this example, three of them) we will apply the Order of Operations to determine in which order these operations would be performed.  Since there are no parentheses in our expression, the first operation that we would perform is the exponentiation. That is, if we knew the value of , then we would first simplify .  Next, we would perform the multiplication . In other words, if we knew the value of and we knew the value of , then our work in this second step would be to simplify, and we'd have , whatever the value of that is  Finally, we would perform the subtraction: we would take whatever the value of and subtract from this whatever the vaule of is to get .     "
 },
@@ -266,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-7",
   "type": "Example",
-  "number": "1.1.15",
+  "number": "1.1.21",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation. In addition, a part of the expression is contained inside parentheses.    Since is in parentheses, we would perform the addition first. So, if we hypothetically knew the values of and , we'd replace this with the value of , whatever value that is.  After this, there would be no parentheses. Since all that would be left is a multiplication and an exponentiation, we would perform the exponentiation. We would take whatever the value of is and raise this value to the th power. This would give us , whatever the value of that is.  Finally, we'd take whatever the value of is and whatever the value of is and multiply these values together.     "
 },
@@ -275,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-9",
   "type": "Example",
-  "number": "1.1.16",
+  "number": "1.1.22",
   "title": "",
   "body": "  What order are the operations performed in the expression ?    To make it clearer where the operations are, let's rewrite the expression as .    Since is in parentheses, we would perform this subtraction first.  Next, there would be no more parentheses, so we would perform the exponentiation: we would take , whatever the value of is, and raise this to the th power. Thus, we'd have whatever the value of is.  Next, we would perform the multiplication . That is, if we knew the value of we would multiply this by the value of value of from the previous step, which would give us , whatever the value of that is .  Then, we would perform the multiplication . That is, if we knew the value of , we would simplify .  Finally, we would perform the addition: we would take whatever the value of is and add to this whatever the value of is.     "
 },
@@ -284,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-11",
   "type": "Example",
-  "number": "1.1.17",
+  "number": "1.1.23",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first because the multiplication is in parentheses. Then we perform the subtraction of and to get .  In the second expression , there are no parentheses. We perform the multiplication first. Then we perform the subtraction of and to get .  In both expressions, we perform the multiplication first, and then we perform the subtraction of and next. Based only on the Order of Operations, the two expressions are equal.   "
 },
@@ -293,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-12",
   "type": "Example",
-  "number": "1.1.18",
+  "number": "1.1.24",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the the content is in parentheses. We do exponentiation next to get . Our final operation is the multiplication of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Finally, we perform the addition of and .  In the first expression, we perform the addition first, then the exponentiation, and finally the multiplication. In the second expression, we perform the exponentiation first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal. (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations. If these expressions happened to be equal, this would have to be explained by something other than the Order of Operations.)   "
 },
@@ -302,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-13",
   "type": "Example",
-  "number": "1.1.19",
+  "number": "1.1.25",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the multiplication first. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In the second expression , we perform the multiplication first because this is in parentheses. Then, we perform the addition of and the value of . Finally, we perform the subtraction of the value of and .  In both expressions, we perform the multiplication first, then the addition, and finally the subtraction. Based only on the Order of Operations, the two expressions are equal.   "
 },
@@ -311,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-14",
   "type": "Example",
-  "number": "1.1.20",
+  "number": "1.1.26",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because the addition is in parentheses. Next, we perform the division of by the value of . Finally, we perform the multiplication of the value of and .  In the second expression , we perform the division first. Next, we perform the multiplication . Finally, we perform the addition of the value of and the value of .  In the first expression, we perform the addition first, then the division, and finally the multiplication. In the second expression, we perform the division first, then the multiplication, and finally the addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
 },
@@ -320,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-15",
   "type": "Example",
-  "number": "1.1.21",
+  "number": "1.1.27",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the addition first because this is in parentheses. Next, we perform the addition because this is in parentheses. Finally, we perform the division of the value of by the value of .  In the second expression , we perform the division first. Next, we perform the addition of and the value of . Finally, we perform the addition of the value of and .  In the first expression, we perform the addition first, then the addition , and finally do the division of whatever the value of is by whatever the value of is. In the second expression, we perform the division first, then an addition, and finally another addition. To be clear, in the first expression the value of is divided by whatever the value of is, and in the second expression the value of is divided by whatever the value of is. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
 },
@@ -329,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-11-16",
   "type": "Example",
-  "number": "1.1.22",
+  "number": "1.1.28",
   "title": "",
   "body": "  Based only on the Order of Operations, are and equal or do we not have enough information?      In the first expression , we perform the subtraction first because the subtraction is in parentheses. Next, we perform the exponentiation to get . Then, we perform the multiplication of and . Next, we perform the multiplication of and to get . Finally, we perform the addition of the value of and the value of .  In the second expression , we perform the exponentiation first to get the value of . Next, we perform the multiplication of and . Then, we perform the multiplication of and . Finally, we perform the subtraction of the value of and the value of , and then add to this whatever the value of is.  In the first expression, we perform the subtraction first, then the exponentiation, then two multiplications, and finally an addition. In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition. Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.   "
 },
@@ -338,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-3",
   "type": "Definition",
-  "number": "1.1.23",
+  "number": "1.1.29",
   "title": "",
   "body": "  An expression that is the result of adding and\/or subtracting two or more expressions together is called a sum . Each individual piece of the sum is called a term .   "
 },
@@ -347,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-5",
   "type": "Example",
-  "number": "1.1.24",
+  "number": "1.1.30",
   "title": "",
   "body": " The expression is the result of adding and subtracting expressions together, so is called a sum. The three terms in this sum are , , and .  "
 },
@@ -356,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-6",
   "type": "Definition",
-  "number": "1.1.25",
+  "number": "1.1.31",
   "title": "",
   "body": "  An expression that is the result of multiplying two or more expressions together is called a product . Each individual piece of the product is called a factor .   "
 },
@@ -365,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-8",
   "type": "Example",
-  "number": "1.1.26",
+  "number": "1.1.32",
   "title": "",
   "body": " The expression is the result of multiplying expressions together, so is called a product. The three factors in this product are , , and .  "
 },
@@ -374,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-9",
   "type": "Example",
-  "number": "1.1.27",
+  "number": "1.1.33",
   "title": "",
   "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a product. The three factors in this product are , , and .   "
 },
@@ -383,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-10",
   "type": "Example",
-  "number": "1.1.28",
+  "number": "1.1.34",
   "title": "",
   "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The three terms in this sum are , , and .   "
 },
@@ -392,25 +437,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-12-11",
   "type": "Example",
-  "number": "1.1.29",
+  "number": "1.1.35",
   "title": "",
   "body": "  Is a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?    The expression is a sum. The two terms in this sum are and .   "
 },
 {
-  "id": "fig-a-plus-b",
+  "id": "geometric-addition",
   "level": "2",
-  "url": "sec-operations.html#fig-a-plus-b",
-  "type": "Figure",
-  "number": "1.1.30",
-  "title": "",
-  "body": " A picture of     "
+  "url": "sec-operations.html#geometric-addition",
+  "type": "Principle",
+  "number": "1.1.36",
+  "title": "Representing Addition Geometrically.",
+  "body": " Representing Addition Geometrically  Suppose and are positive real numbers. Then is geometrically represented by the length of the stick made by gluing a stick of length to a stick of length .  A picture of       "
 },
 {
   "id": "sec-operations-13-5",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-5",
   "type": "Example",
-  "number": "1.1.31",
+  "number": "1.1.38",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
 },
@@ -419,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-6",
   "type": "Example",
-  "number": "1.1.33",
+  "number": "1.1.40",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
 },
@@ -428,43 +473,61 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-7",
   "type": "Example",
-  "number": "1.1.35",
+  "number": "1.1.42",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
+},
+{
+  "id": "commutative-property-addition",
+  "level": "2",
+  "url": "sec-operations.html#commutative-property-addition",
+  "type": "Principle",
+  "number": "1.1.44",
+  "title": "Commutative Property of Addition.",
+  "body": " Commutative Property of Addition     "
 },
 {
   "id": "sec-operations-13-10",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-10",
   "type": "Example",
-  "number": "1.1.37",
+  "number": "1.1.45",
   "title": "",
   "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length . In both cases, the resulting stick has the same length, so the two expressions are equal. (Note that in providing our geometric explanation, we never plug in numbers for or .)   "
+},
+{
+  "id": "associative-property-addition",
+  "level": "2",
+  "url": "sec-operations.html#associative-property-addition",
+  "type": "Principle",
+  "number": "1.1.47",
+  "title": "Associative Property of Addition.",
+  "body": " Associative Property of Addition     "
 },
 {
   "id": "sec-operations-13-13",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-13",
   "type": "Example",
-  "number": "1.1.39",
+  "number": "1.1.48",
   "title": "",
   "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . The right side, , is represented by a stick of length glued to a stick of length , and then this resulting stick is glued to a stick of length . (What the drawing doesn't indicate is the order of the gluing, so we need to clarify this with words: in the first diagram the stick of length is glued to the stick of length first, but in the second diagram the stick of length is glued to the stick of length first. If doing a hand drawing arrows can be drawn with labels like glue here first and glue here next .) In both cases, the resulting stick has the same length, so the two expressions are equal. (Note that in providing our geometric explanation, we never plug in numbers for or or .)   "
 },
 {
-  "id": "fig-a-times-b",
+  "id": "geometric-multiplication",
   "level": "2",
-  "url": "sec-operations.html#fig-a-times-b",
-  "type": "Figure",
-  "number": "1.1.41",
-  "title": "",
-  "body": " The area of the rectangle is a picture of     "
+  "url": "sec-operations.html#geometric-multiplication",
+  "type": "Principle",
+  "number": "1.1.50",
+  "title": "Representing Multiplication Geometrically.",
+  "body": " Representing Multiplication Geometrically  Suppose and are positive real numbers. Then is geometrically represented by the area of a rectangle with height and width .  The area of the rectangle is a picture of       "
 },
 {
   "id": "sec-operations-13-17",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-17",
   "type": "Note",
-  "number": "1.1.42",
+  "number": "1.1.52",
   "title": "",
   "body": " What we're introducing regarding the geometric representation of multiplication is an idea that we've seen before in geometry: we often write to represent the area of a rectangle with length and width . Here, we're just using and instead of and as the two factors.  "
 },
@@ -473,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-18",
   "type": "Example",
-  "number": "1.1.43",
+  "number": "1.1.53",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
 },
@@ -482,34 +545,70 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-19",
   "type": "Example",
-  "number": "1.1.45",
+  "number": "1.1.55",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
+},
+{
+  "id": "commutative-property-multiplication",
+  "level": "2",
+  "url": "sec-operations.html#commutative-property-multiplication",
+  "type": "Principle",
+  "number": "1.1.57",
+  "title": "Commutative Property of Multiplication.",
+  "body": " Commutative Property of Multiplication     "
 },
 {
   "id": "sec-operations-13-22",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-22",
   "type": "Example",
-  "number": "1.1.47",
+  "number": "1.1.58",
   "title": "",
   "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     The left side, , is represented by a rectangle with height and width . The right side, , is represented by a rectangle with height and width . Both rectangles have the same area, since we can get from one rectangle to the other by rotation. Since the two areas are equal, the two expressions they represent, namely and , are equal. (Note that in providing our geometric explanation, we never plug in numbers for or .)   "
+},
+{
+  "id": "associative-property-multiplication",
+  "level": "2",
+  "url": "sec-operations.html#associative-property-multiplication",
+  "type": "Principle",
+  "number": "1.1.60",
+  "title": "Associative Property of Multiplication.",
+  "body": " Associative Property of Multiplication     "
 },
 {
   "id": "sec-operations-13-25",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-25",
   "type": "Note",
-  "number": "1.1.49",
+  "number": "1.1.61",
   "title": "",
   "body": " I just want to take a moment to keep encouraging you to think about addition and multiplication geometrically. It may be new and strange to you. It may seem like a waste of time to you. So far, it may just seem like a silly to give a geometric explanation of why certain facts (that might even feel obvious to you) are explained using geometry. However, setting up this foundation will make several challenging concepts in the future become a lot easier to digest.  "
+},
+{
+  "id": "sec-operations-13-26",
+  "level": "2",
+  "url": "sec-operations.html#sec-operations-13-26",
+  "type": "Principle",
+  "number": "1.1.62",
+  "title": "How do I prevent confusing the two geometric representations?",
+  "body": " How do I prevent confusing the two geometric representations?  The geometric representation of addition is the gluing together of sticks. The geometric representation of multiplication is the area of a rectangle.  One technique to help recall which is which is to recall that a usual presentation of the area formula is . Because this formula multiplies together two quantities (named and ), we can remember that multiplication is represented by area. Since addition is not represented by area, it must be represented by the other geometric idea we've seen, which is gluing sticks together.  Here's another techinque! Pick two numbers where the sum of the two numbers and the product of the two numbers is different. What I mean is that we wouldn't want to pick and , since both the sum and the product are .  If we pick and , we can ask ourselves what geometric object has some aspect of having size and what geometric object has some aspect of having size . The object with size is a stick of length , which is the result of gluing together a stick of length and a stick of length . The object with size is a rectangle with area , which is the result of multiplying together and .  If we pick and , we can ask ourselves what geometric object has some aspect of having size and what geometric object has some aspect of having size . The object with size is a stick of length , which is the result of gluing together a stick of length and a stick of length . The object with size is a rectangle with area , which is the result of multiplying together and .  You can pick any two numbers you want, as long as the sum and product are different  "
+},
+{
+  "id": "distributive-multiplication-addition",
+  "level": "2",
+  "url": "sec-operations.html#distributive-multiplication-addition",
+  "type": "Principle",
+  "number": "1.1.63",
+  "title": "Distributive Law, version 1.",
+  "body": " Distributive Law, version 1     "
 },
 {
   "id": "sec-operations-13-29",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-29",
   "type": "Example",
-  "number": "1.1.50",
+  "number": "1.1.64",
   "title": "",
   "body": "  Give a geometric explanation of why is true.    To see why this is true, we can represent both sides of the equation geometrically.  A picture of and     Before digging in, let's note that in the diagram the left, we see a stick of length glued to a stick of length , making a stick of length . (This makes use of the geometric representation of addition.) The left side, , is represented by a rectangle with height and width . The right side, , is represented by two rectangles: one with height and width , and the other with height and width . The area of the big rectangle on the left is equal to the sum of the areas of the two rectangles on the right, since we can get from the rectangle on the left to the two rectangles on the right by cutting the rectangle on the left vertically into two pieces. Since the area of the big rectangle on the left is equal to the sum of the areas of the two rectangles on the right, the two expressions they represent, namely and , are equal. (Note that in providing our geometric explanation, we never plug in numbers for or or .)   "
 },
@@ -518,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-31",
   "type": "Note",
-  "number": "1.1.52",
+  "number": "1.1.66",
   "title": "",
   "body": " When you see , I encourage you to think about the Distributive Law as we wrote it , and relate the and and in the formula to the and and in the expression .  It is easy to dismiss this advice and just think What's the point of all this? I can just see that I should distribute . However, it is important to see exactly what this Distributive Law is saying, and what it is not saying. The left side addresses only an expression that has addition on the inside of the parentheses, and multiplication outside. For example, the formula has nothing to say about the expression . It would be tempting to look at and try to distribute the somehow. But when we read the left side of and we see that the left side says , we have to carefully note that addition is inside the parentheses with multiplication outside. The problem with is that multiplication is inside the parentheses with the addition outside. So the Distributive Law does not apply to .  "
 },
@@ -527,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-32",
   "type": "Example",
-  "number": "1.1.53",
+  "number": "1.1.67",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -536,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-33",
   "type": "Example",
-  "number": "1.1.54",
+  "number": "1.1.68",
   "title": "",
   "body": "  Use the Distributive Law to rewrite     Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -554,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-35",
   "type": "Example",
-  "number": "1.1.55",
+  "number": "1.1.69",
   "title": "",
   "body": "  Use the Distributive Law to factor .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -563,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-36",
   "type": "Example",
-  "number": "1.1.56",
+  "number": "1.1.70",
   "title": "",
   "body": "  Use the Distributive Law to factor .    Using the Distributive Law , we can let , , and . Then we have The selection of occured by looking for the greatest common factor of and .   "
 },
@@ -572,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-37",
   "type": "Example",
-  "number": "1.1.57",
+  "number": "1.1.71",
   "title": "",
   "body": "  Use the Distributive Law to factor .    Using the Distributive Law , we can let , , and . Then we have The selection of occured by looking for the greatest common factor of and .   "
 },
@@ -581,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-38",
   "type": "Example",
-  "number": "1.1.58",
+  "number": "1.1.72",
   "title": "",
   "body": "  Use the Distributive Law to factor .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -590,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-39",
   "type": "Warning",
-  "number": "1.1.59",
+  "number": "1.1.73",
   "title": "",
   "body": " When factoring it is common to make the mistake of saying that this expression is equal to instead of . When we see , to successfully factor out a we will write an expression in the format , and the first question mark is filled in by asking 9 times what is the first term , while the second question mark is filled in by asking 9 times what is the second term .  To provide a little more convincing, you can always check your factoring by taking your answer and distributing. Note that distributing in the expression gives us .  "
 },
@@ -599,16 +698,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-40",
   "type": "Example",
-  "number": "1.1.60",
+  "number": "1.1.74",
   "title": "",
   "body": "  Factor the expression .    Using the Distributive Law , we can let , , and . Then we have As we factor out , the reason that there is a as the second term in parentheses is because this answers times what equals the second term in the original expression , which applies the same reasoning for why an appears as the first term in parentheses because this answers times what equals the first term in the original expression .   "
+},
+{
+  "id": "distributive-multiplication-subtraction",
+  "level": "2",
+  "url": "sec-operations.html#distributive-multiplication-subtraction",
+  "type": "Principle",
+  "number": "1.1.75",
+  "title": "Distributive Law, version 2.",
+  "body": " Distributive Law, version 2     "
 },
 {
   "id": "sec-operations-13-43",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-43",
   "type": "Example",
-  "number": "1.1.61",
+  "number": "1.1.76",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -617,25 +725,43 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-44",
   "type": "Example",
-  "number": "1.1.62",
+  "number": "1.1.77",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have The selection of occured by looking for the greatest common factor of and .   "
+},
+{
+  "id": "distributive-addition-multiplication",
+  "level": "2",
+  "url": "sec-operations.html#distributive-addition-multiplication",
+  "type": "Principle",
+  "number": "1.1.78",
+  "title": "Distributive Law, version 3.",
+  "body": " Distributive Law, version 3     "
 },
 {
   "id": "sec-operations-13-47",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-47",
   "type": "Try it",
-  "number": "1.1.63",
+  "number": "1.1.79",
   "title": "",
   "body": "  Spend a few minutes providing the geometric explanation of why is true. When doing this, remember we shouldn't select specific numbers for , , or .    "
+},
+{
+  "id": "distributive-subtraction-multiplication",
+  "level": "2",
+  "url": "sec-operations.html#distributive-subtraction-multiplication",
+  "type": "Principle",
+  "number": "1.1.80",
+  "title": "Distributive Law, version 4.",
+  "body": " Distributive Law, version 4     "
 },
 {
   "id": "sec-operations-13-49",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-49",
   "type": "Example",
-  "number": "1.1.64",
+  "number": "1.1.81",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -644,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-50",
   "type": "Example",
-  "number": "1.1.65",
+  "number": "1.1.82",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -653,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-51",
   "type": "Example",
-  "number": "1.1.66",
+  "number": "1.1.83",
   "title": "",
   "body": "  Use the Distributive Law to rewrite .    Using the Distributive Law , we can let , , and . Then we have    "
 },
@@ -671,16 +797,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-53",
   "type": "Note",
-  "number": "1.1.67",
+  "number": "1.1.84",
   "title": "",
   "body": " It may be tempting to ignore this comment about the connection between collecting like terms and the Distributive Law. If we ignore the connection, it would be easy to see an expression like and feel stuck thinking that we can't collect like terms. However, if we remember that collecting like terms is actually factoring, then we can see that In another example like we very often skip writing the middle step and just directly go from to . However, it's good to remember that there is a middle step, and that middle step is justified by the Distributive Law. Recalling this allows us to not get intimidated by expressions like .  "
+},
+{
+  "id": "distributive-extended",
+  "level": "2",
+  "url": "sec-operations.html#distributive-extended",
+  "type": "Principle",
+  "number": "1.1.85",
+  "title": "Distributive Law, one extended version.",
+  "body": " Distributive Law, one extended version     "
 },
 {
   "id": "sec-operations-13-56",
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-56",
   "type": "Try it",
-  "number": "1.1.68",
+  "number": "1.1.86",
   "title": "",
   "body": "  Come up with other extended versions of the Distributive Law. Be careful to pay attention to where the addition and subtraction signs are, and where the multiplication signs are (including hidden multiplication signs).    "
 },
@@ -689,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-distributing-negatives",
   "type": "Example",
-  "number": "1.1.69",
+  "number": "1.1.87",
   "title": "",
   "body": "  Simplify .    The first set of parentheses can be dropped. So, the given expression is equal to . Now, the minus sign in front of the parentheses is often casually called distributing the minus sign . The previous expression is equal to . We have provided explanations, but to now provide a good presentation of work which includes equal signs where they should belong, we should write .    For some, the explanation given above was sufficient. However, I think that if I had seen this for the first time (or if I've always been confused by this in the past), then I'd love to have a more detailed explanation. So here is a more detailed explanation. When subtracting any value, we can think of replacing what's being subtracting by adding the value multiplied by . That sounds confusing, so let's describe this on several examples, starting small. We can reinterpret as . We can reinterpret as . We can reinterpret as . In the same way, we can treat as , again reintrepreting by saying that instead of subtracting a quantity, we'll add the negative of the quantity (and the negative of a quantity is obtained when multiplying the quantity by .) Then in , we can distribute but even here, let's choose to do this slowly, so that we can see what's going on. What I mean is that instead of disturbiting and simplifynig all in one step, let's just distribute without simplifying any multiplications. So, the previous expression is equal to . We can change the adding of into subtracting instead, and for the last term, we happen to be adding , due to that plus sign, but adding what? We are adding a negative times a negative. So, we could copy down that final plus sign first, and replace with . So the previous expression is equal to . Putting this altogether: .   "
 },
@@ -698,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-59",
   "type": "Example",
-  "number": "1.1.70",
+  "number": "1.1.88",
   "title": "",
   "body": "  Simplify     One view is to distribute the minus sign and have     We can turn as , or in reverse turn into . Using both of these ideas (and really, the second idea is the first idea in reverse), we write .   "
 },
@@ -707,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-61",
   "type": "Example",
-  "number": "1.1.71",
+  "number": "1.1.89",
   "title": "",
   "body": "  Simplify .    One view is to distribute  .    The answer we gave may be unsatisfying to some folks, so here's a version where the subtracting is rewritten as adding a negative. Visually, we still will have the same amount of minus signs: where the minus sign used to be will be replaced with a plus sign followed by a minus sign (it's just that the minus sign will be right in front of the ). We have .   "
 },
@@ -716,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-operations.html#sec-operations-13-62",
   "type": "Example",
-  "number": "1.1.72",
+  "number": "1.1.90",
   "title": "",
   "body": "  Simplify .    One view is to distribute  .    Here's a version where the subtracting is rewritten as adding a negative. We have .   "
 },
@@ -739,11 +874,20 @@ var ptx_lunr_docs = [
   "body": "  In this section, we learn how to:    Add, subtract, multiply, and divide fractions.  Determine when common denominators are required and when they are not.  Determine when cancelling is permissible in a fraction and when it isn't.  Convert between mixed fractions and improper fractions.   "
 },
 {
+  "id": "fraction-meaning",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#fraction-meaning",
+  "type": "Principle",
+  "number": "1.2.1",
+  "title": "Representing Fractions Geometrically.",
+  "body": " Representing Fractions Geometrically  Suppose and are positive real numbers. We can represent the fraction as follows: Start with a pizza that has equal-sized slices. Then is represented by eating of those slices.  "
+},
+{
   "id": "sec-expressions-with-fractions-4-4",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-4",
   "type": "Example",
-  "number": "1.2.1",
+  "number": "1.2.2",
   "title": "",
   "body": "  The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of        "
 },
@@ -752,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-5",
   "type": "Example",
-  "number": "1.2.3",
+  "number": "1.2.4",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of     If we step back and ignore where the cuts were made by a pizza cutter, the blue shaded part (representing the eaten pizza) looks to be the same amount in both pictures. So .   "
 },
@@ -761,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-6",
   "type": "Example",
-  "number": "1.2.6",
+  "number": "1.2.7",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    The fraction represents taking a pizza that has been cut into equal slices and eating of those slices.  A picture of     To get a denominator of , we need to cut each of the slices in half. This gives us equal slices, and we have eaten of those slices. So the answer is .  A picture of        "
 },
@@ -770,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-7",
   "type": "Try it",
-  "number": "1.2.9",
+  "number": "1.2.10",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator? Draw pictures of and the resulting fraction to convince yourself.    "
 },
@@ -779,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-8",
   "type": "Note",
-  "number": "1.2.10",
+  "number": "1.2.11",
   "title": "",
   "body": " In earlier examples, we had to cut each original slice of pizza into two equal-sized smaller pieces. In the Try it exercise, we need to cut each original slice of pizza into three equal-sized smaller pieces.  "
 },
@@ -788,16 +932,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-9",
   "type": "Note",
-  "number": "1.2.11",
+  "number": "1.2.12",
   "title": "",
   "body": " In the Try it exercise, going from a total of slices to a total of slices meant that in the resulting pizza, every slice was very small. This makes intuitive sense to us: when the denominator is large (in other words, there are many slices), then the size of each slice is small. In addition, when the denominator is small (in other words, there are few slices), then the size of each slice is large.  "
+},
+{
+  "id": "equal-fractions",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#equal-fractions",
+  "type": "Principle",
+  "number": "1.2.13",
+  "title": "Equal Fractions, different denominators.",
+  "body": " Equal Fractions, different denominators   where and are nonzero.  "
 },
 {
   "id": "sec-expressions-with-fractions-4-12",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-12",
   "type": "Example",
-  "number": "1.2.12",
+  "number": "1.2.14",
   "title": "",
   "body": "  Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by . In what we just wrote, we went from the initial fraction to the middle expression to emphasize the Equal Fractions formula, though if we feel comfortable skipping this, we might write directly. That said, we may find a future example more complicated and writing the middle step (which indicates multiplication on top and on bottom, but does not simplify the multiplication) is good to practice, even in cases where we might not feel we need it.   "
 },
@@ -806,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-13",
   "type": "Example",
-  "number": "1.2.13",
+  "number": "1.2.15",
   "title": "",
   "body": "  Using the Equal Fractions formula, What fraction is equal to but has in the denominator?    To get a denominator of , we need to multiply the denominator of by . So we also need to multiply the numerator by .    "
 },
@@ -815,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-14",
   "type": "Warning",
-  "number": "1.2.14",
+  "number": "1.2.16",
   "title": "",
   "body": " When writing our work, we must be careful how we write our work. It is possible to write something that can be interpreted incorrectly. In detail:   We can write exactly as the previous example showed.    We can write the that we were multiplying on top and on bottom before the original content like this: and this just swaps the order of the factors in both multiplications.    We can skip actually writing in the times on top and on bottom and just write in the resulting numerator and denominator like this:     We cannot write to mean that we are multiplying by on top and on bottom. There are two ways of interpreting . We will discuss one of the ways to interpret by the end of this section, but a common way to interpret is as a mixed fraction, whose value is clearly larger than itself, while the original fraction is smaller than . So, we either jump to writing directly, or we need to write that we are multiplying by on top and on bottom (and that really requires physically writing two s: one on top and one on bottom), but we cannot just write a single . Reading as a mixed fraction has a differnt value than the original fraction, and in the other interpretation will also result in a value that is not equal to .     "
 },
@@ -824,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-16",
   "type": "Example",
-  "number": "1.2.15",
+  "number": "1.2.17",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .    "
 },
@@ -833,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-17",
   "type": "Example",
-  "number": "1.2.16",
+  "number": "1.2.18",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by so we also multiply the numerator by . Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.   "
 },
@@ -842,25 +995,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-18",
   "type": "Example",
-  "number": "1.2.17",
+  "number": "1.2.19",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?    We need to multiply the denominator by , so we also multiply the numerator by .    "
 },
 {
-  "id": "sec-expressions-with-fractions-4-20-2",
+  "id": "reducing-fractions",
   "level": "2",
-  "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-20-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "cancelling reducing "
+  "url": "sec-expressions-with-fractions.html#reducing-fractions",
+  "type": "Principle",
+  "number": "1.2.20",
+  "title": "Reducing Fractions.",
+  "body": " Reducing Fractions  If we see the same factor in the numerator and denominator of a fraction, the process of removing this common factor is called cancelling in a fraction or reducing a fraction. This is applying our earlier formula  backwards in other words, this is turning into   "
 },
 {
   "id": "sec-expressions-with-fractions-4-21",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-21",
   "type": "Example",
-  "number": "1.2.18",
+  "number": "1.2.21",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?    The numerator and denominator both have a factor of . For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor, which helps highlight exactly the role taken by the Reducing Fractions process we just described. We cancelled the common factor of in the numerator and denominator.   "
 },
@@ -869,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-22",
   "type": "Example",
-  "number": "1.2.19",
+  "number": "1.2.22",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?     We cancelled the common factor of in the numerator and denominator.   "
 },
@@ -878,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-23",
   "type": "Example",
-  "number": "1.2.20",
+  "number": "1.2.23",
   "title": "",
   "body": "  What fraction is equal to but has in the denominator?     Now we can cancel the common factor of in the numerator and denominator.   "
 },
@@ -887,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-24",
   "type": "Example",
-  "number": "1.2.21",
+  "number": "1.2.24",
   "title": "",
   "body": "  Reduce the fraction as much as possible.     Now we can cancel the common factor of in the numerator and denominator.   "
 },
@@ -896,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-25",
   "type": "Warning",
-  "number": "1.2.22",
+  "number": "1.2.25",
   "title": "",
   "body": " While we can cancel common factors in a fraction, we cannot cancel common terms . In other words, Let's describe this frequent error through two examples:   If someone took and tried to cancel the in the numerator and denominator, they would get , which is in a calculator. However, the original fraction can naturally be rewritten as , which is in a calculator.    The issue is more likely to occur when there are variables. (In fact, the previous example with its decimal representations of fractions was included to create a concrete and convincing example that we cannot cancel terms on top and bottom.) We cannot turn into by cancelling the common in the numerator and denominator. This is because is a term on top and bottom, and not a factor on top and bottom.     "
 },
@@ -905,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#sec-expressions-with-fractions-4-26",
   "type": "Example",
-  "number": "1.2.23",
+  "number": "1.2.26",
   "title": "",
   "body": "  Reduce the fraction     There is a temptation to want to cancel part of the with the , but these are terms. We can only cancel factors. First, we rewrite the numerator and denominator in factored form: We cancelled the common factor of in the numerator and denominator.    You may prefer to factor a larger factor out of the numerator. (Note, we still cannot cancel terms.) After factoring, we replaced the that we factored out with to really highight that it is a factor of on top and bottom that we cancelled. To make the final expression in this solution look like the final expression in the previous solution, we could distribute the in the numerator. (In this example, you may feel comfortable skipping the writing the third expression, jumping directly from the second expression to the fourth expression. We included the third expression because going from the third expression to the fourth expression highlights the role of the Reducing Fractions process we described earlier.)   "
 },
@@ -914,16 +1067,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#fraction5649",
   "type": "Try it",
-  "number": "1.2.24",
+  "number": "1.2.27",
   "title": "",
   "body": "  The pictures of and are shown below. How can we use these pictures to represent a picture that represents the value of as a single fraction?  A picture of       A picture of         "
+},
+{
+  "id": "fraction-addition",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#fraction-addition",
+  "type": "Principle",
+  "number": "1.2.30",
+  "title": "Adding Fractions.",
+  "body": " Adding Fractions  Simplifying the addition of fractions requires having a common denominator .   "
 },
 {
   "id": "subsec-adding-subtracting-fractions-6",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-6",
   "type": "Warning",
-  "number": "1.2.27",
+  "number": "1.2.31",
   "title": "",
   "body": "    "
 },
@@ -932,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-8",
   "type": "Example",
-  "number": "1.2.28",
+  "number": "1.2.32",
   "title": "",
   "body": "  Simplify      The third expression may be skipped if you feel comfortable, but this is a nice technique to practice in smaller situations (beacuse in some larger situations, it may be harder for us to simplify the addition of the numerators in our head). The purpose of showing the second expression being equal to the third expression is also helpful in seeing the Adding Fractions formula apply as literally as possible.   "
 },
@@ -941,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-9",
   "type": "Example",
-  "number": "1.2.29",
+  "number": "1.2.33",
   "title": "",
   "body": "  Simplify         "
 },
@@ -950,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-11",
   "type": "Example",
-  "number": "1.2.30",
+  "number": "1.2.34",
   "title": "",
   "body": "  Simplify         "
 },
@@ -959,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-12",
   "type": "Example",
-  "number": "1.2.31",
+  "number": "1.2.35",
   "title": "",
   "body": "  Simplify     Recall that means . To achieve a common denominator of , let's multiply both the top and bottom of the first fraction by , and multiply both the top and bottom of the second fraction by . Note that our final answer is , and there is nothing that will cancel: the denominator is a product (the result of multiplication) so its pieces (called factors) are eligible to be cancelled, but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).   "
 },
@@ -968,16 +1130,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-13",
   "type": "Example",
-  "number": "1.2.32",
+  "number": "1.2.36",
   "title": "",
   "body": "  Simplify     Recall that means . To achieve a common denominator of , let's multiply both the top and bottom of the first fraction by , and multiply both the top and bottom of the second fraction by . (Be sure to read using the Order of Operations: the exponent does not apply to all variables, just to .)    "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-15",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-15",
+  "type": "Principle",
+  "number": "1.2.37",
+  "title": "How to add a fraction and a non-fraction.",
+  "body": " How to add a fraction and a non-fraction  Turn the non-fraction into a fraction with denominator . Then use the Adding Fractions formula, noting that this formula requires a common denominator.  "
 },
 {
   "id": "example-2-plus-3over5",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#example-2-plus-3over5",
   "type": "Example",
-  "number": "1.2.33",
+  "number": "1.2.38",
   "title": "",
   "body": "  Simplify     We rewrite as . Then we can use the Adding Fractions formula, noting that we need a common denominator.    "
 },
@@ -986,16 +1157,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-17",
   "type": "Example",
-  "number": "1.2.34",
+  "number": "1.2.39",
   "title": "",
   "body": "  Simplify     We rewrite as .    "
+},
+{
+  "id": "fraction-subtraction",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#fraction-subtraction",
+  "type": "Principle",
+  "number": "1.2.40",
+  "title": "Subtracting Fractions.",
+  "body": " Subtracting Fractions  Simplifying the subtraction of fractions requires having a common denominator .   "
 },
 {
   "id": "subsec-adding-subtracting-fractions-20",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-20",
   "type": "Example",
-  "number": "1.2.35",
+  "number": "1.2.41",
   "title": "",
   "body": "  Simplify      The third expression may be skipped if you feel comfortable, but we specifically included this step because going from the second expression to the third expression highlights the role of the Subtracting Fractions formula.   "
 },
@@ -1004,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-21",
   "type": "Example",
-  "number": "1.2.36",
+  "number": "1.2.42",
   "title": "",
   "body": "  Simplify      In this example, to achieve a common denominator of , the top and bottom of the first fraction both got multiplied by , while the top and bottom of the second fraction both got multiplied by .  Note that nothing cancels in , because the denominator is a product (the result of multiplication) so its pieces (called factors) are eligible to be cancelled, but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).   "
 },
@@ -1013,16 +1193,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-22",
   "type": "Example",
-  "number": "1.2.37",
+  "number": "1.2.43",
   "title": "",
   "body": "  Simplify      In this example, to achieve a common denominator of , the top and bottom of the first fraction both got multiplied by , while the top and bottom of the second fraction both got multiplied by .   "
+},
+{
+  "id": "subsec-adding-subtracting-fractions-23",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-23",
+  "type": "Principle",
+  "number": "1.2.44",
+  "title": "Subtraction involving a fraction and a non-fraction.",
+  "body": " Subtraction involving a fraction and a non-fraction  Turn the non-fraction into a fraction with denominator . Then use the Subtracting Fractions formula, noting that this formula requires a common denominator.  "
 },
 {
   "id": "subsec-adding-subtracting-fractions-24",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-adding-subtracting-fractions-24",
   "type": "Example",
-  "number": "1.2.38",
+  "number": "1.2.45",
   "title": "",
   "body": "  Simplify     Rewrite as .    "
 },
@@ -1031,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-3",
   "type": "Example",
-  "number": "1.2.39",
+  "number": "1.2.46",
   "title": "",
   "body": "  Represent geometrically.      A picture of        "
 },
@@ -1040,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-5",
   "type": "Example",
-  "number": "1.2.41",
+  "number": "1.2.48",
   "title": "",
   "body": "  Represent geometrically. Use the picture to determine the value of .    It can be a little more challenging to represent the area. To standardize things, let's copy (to scale) one of the unit squares from the previous example. Since the first factor is , we need a height of . The entire square that we copied has a height of so to get a height of , we can divide the height of the square into equal parts (achieved by creating > equally-spaced apart cuts in the interior of this line segment) and take of those parts. Similarly, for a width of , we can divide the width of the square into equal parts (achieved by creating equally-spaced apart cuts in the interior of this line segment) and take of those parts.  Picture of     By going with what we have said about the geometric interpretation of multiplication, is the area of the blue rectangle. The portion shaded in blue is definitely less than because shading the entire unit square would have had area . How can we determine the area of the blue rectangle exactly, though? Surprisingly, we can apply the geometric interpretation of a fraction! Recall that means to take a whole pizza and cut it into equal slices and take of those slices, but there was no requirement that the pizza had to be a circle. So, we can think of the entire unit square as a whole pizza. To get the area of the blue rectangle, we can see all of the dotted lines as cuts that divide the pizza into equal slices. From our starting square and uncut pizza, the cuts end up creating equal slices (arranged in rows and columns). Then the blue rectange (representing the eaten part of the pizza) is made up of of those equal slices, so the area of the blue rectangle is which we can reduce to .   "
 },
@@ -1049,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-7",
   "type": "Example",
-  "number": "1.2.43",
+  "number": "1.2.50",
   "title": "",
   "body": "  Represent geometrically. Use the picture to determine the value of .    Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height and width . A height of is achieved by dividing square's height of into equal parts (achieved by creating equally-spaced apart cuts in the interior of this line segment) and taking of those parts. A width of is achieved by dividing the square's width of into equal parts (achieved by creating equally-spaced apart cuts in the interior of this line segment) and taking of those parts.  Picture of     The area of the blue shaded rectangle answers the question of what is. The dotted lines represent cuts that divide the pizza into equal slices (arranged in rows and columns). The shaded part represents taking of those slices. Thus, the product is .   "
 },
@@ -1058,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#example-25-37",
   "type": "Example",
-  "number": "1.2.45",
+  "number": "1.2.52",
   "title": "",
   "body": "  Represent geometrically. Use the picture to determine the value of .    Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height and width . A height of is achieved by dividing square's height of into equal parts (achieved by creating equally-spaced apart cuts in the interior of this line segment) and taking of those parts. A width of is achieved by dividing the square's width of into equal parts (achieved by creating equally-spaced apart cuts in the interior of this line segment) and taking of those parts.  Picture of     The area of the blue shaded rectangle answers the question of what is. The dotted lines represent cuts that divide the pizza into equal slices (arranged in rows and columns). The shaded part represents taking of those slices. Thus, the product is .   "
 },
@@ -1067,16 +1256,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#exercise-34-25",
   "type": "Try it",
-  "number": "1.2.47",
+  "number": "1.2.54",
   "title": "",
   "body": "  Represent geometrically. Use the picture to determine the value of .    "
+},
+{
+  "id": "fraction-multiplication",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#fraction-multiplication",
+  "type": "Principle",
+  "number": "1.2.55",
+  "title": "Multiplying Fractions.",
+  "body": " Multiplying Fractions  To simplify the multiplication of fractions, we use   "
 },
 {
   "id": "subsec-multiplying-fractions-14",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-14",
   "type": "Example",
-  "number": "1.2.48",
+  "number": "1.2.56",
   "title": "",
   "body": "  Simplify         "
 },
@@ -1085,16 +1283,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-16",
   "type": "Example",
-  "number": "1.2.49",
+  "number": "1.2.57",
   "title": "",
   "body": "  Simplify          If we felt comfortable skipping the second expression, our work would look like this:    "
+},
+{
+  "id": "assemblage-multiplying-fraction-and-nonfraction",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#assemblage-multiplying-fraction-and-nonfraction",
+  "type": "Principle",
+  "number": "1.2.58",
+  "title": "Multiplying a Fraction and a Non-Fraction.",
+  "body": " Multiplying a Fraction and a Non-Fraction  To multiply a fraction and a non-fraction, we can rewrite the non-fraction as a fraction with a denominator of . Then we can use the Multiplying Fractions formula.  "
 },
 {
   "id": "example-2-times-3over5",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#example-2-times-3over5",
   "type": "Example",
-  "number": "1.2.50",
+  "number": "1.2.59",
   "title": "",
   "body": "  Simplify     We rewrite as .    "
 },
@@ -1103,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-21",
   "type": "Example",
-  "number": "1.2.51",
+  "number": "1.2.60",
   "title": "",
   "body": "  Simplify        In this example, we reduced the fraction to in the final step. (Remember that we can only cancel common factors , not common terms . We canceled a factor of from the numerator and denominator.)   "
 },
@@ -1112,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-23",
   "type": "Example",
-  "number": "1.2.52",
+  "number": "1.2.61",
   "title": "",
   "body": "  Simplify        Now we can see that there is a common factor of in the numerator and denominator, so we can cancel that common factor:     This is the same answer we got in the previous example, but this time we canceled a common factor before doing the multiplication. This technique can be really helpful especially when simplifying the multiplications in the numerator and\/or denominator would lead to large numbers: we avoid needing to do large-number multiplication, and also, it can be easier to spot common factors before multiplying.   "
 },
@@ -1121,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-24",
   "type": "Example",
-  "number": "1.2.53",
+  "number": "1.2.62",
   "title": "",
   "body": "  Simplify        Now we can see that there is a common factor of in the numerator and denominator as well as a common factor of in the numerator and denominator (or instead of seeing the s and s individuall      "
 },
@@ -1130,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-26",
   "type": "Example",
-  "number": "1.2.54",
+  "number": "1.2.63",
   "title": "",
   "body": "  Simplify        It takes a bit of work to simplify the multiplications in the numerator and denominator to obtain in the first place. Then, due to the numbers being large, it takes considerable effort to reduce this fraction to its equal value . This solution is completely valid, but the second solution below shows how we can avoid the large-number multiplications by canceling common factors before simplifying the multiplication.       The numerator and denominator both have factors of and , so we can cancel those common factors:      "
 },
@@ -1139,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-multiplying-fractions-27",
   "type": "Example",
-  "number": "1.2.55",
+  "number": "1.2.64",
   "title": "",
   "body": "  Simplify     First we indicate the multiplication without simplifying:     Above, we rewrote as . The factors that appear in both the numerator and denominator are and and and .   where we rewrote as .   "
 },
@@ -1148,16 +1355,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#warning-multiplying-fractions-does-not-need-common-denominator",
   "type": "Warning",
-  "number": "1.2.56",
+  "number": "1.2.65",
   "title": "",
   "body": " Please note that when multiplying fractions, we do not need a common denominator: sometimes people get overly cautious and try to treat multiplying fractions like adding fractions. Let's look at an example and see what the common error is:   When asked to simplify it is tempting to think about common denominators (because we notice that both fractions already have the same denominator of ) but it is incorrect to state the result of simplying this multiplication as .    Before talking about what we should do and ignoring our work above, let's talk about the work above, to see if we can take the experience and foundation that we've built to question the reasonableness of our answer: Notice that the numerator is larger than the denominator in , so this fraction is greater than , but both of the fractions we started with were less than , so it doesn't make sense that their product would be greater than . In fact, the pizza diagram for would take just some of the slices from a square pizza that was cut into a -by- grid of slices, so the resulting fraction should be less than .    The correct simplification is . Notice that the denominator of the result is , not . The denominator of the result is the product of the denominators of the two fractions we started with: , even though the two denominators that we started with were the same. (This is different from adding fractions, where the denominator of the result was the common denominator.) The fact that we had common denominators is actually a distraction, and we should ignore it.    Here is a silghtly different example: . While this is a different problem, because the only change was by slightly changing the denominator of the second fraction, it seems reasonable that the final answer to this question would be close to the final answer of the previous question. Here, the denominators are different, so there is no distraction. Following our Multiplying Fractions formula, we have by multiplying straight across. Use a calculator to verify that is close to , but far from .   The takeaway is that when multiplying fractions just multiply straight across whether we have a common denominator or not!  "
+},
+{
+  "id": "assemblage-dividing-fractions",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#assemblage-dividing-fractions",
+  "type": "Principle",
+  "number": "1.2.66",
+  "title": "Dividing Fractions formula.",
+  "body": " Dividing Fractions formula  To divide by a fraction, multiply by its reciprocal and follow the Multiplying Fractions formula to simplify the multiplication of fractions.   "
 },
 {
   "id": "subsec-dividing-fractions-4",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-dividing-fractions-4",
   "type": "Example",
-  "number": "1.2.57",
+  "number": "1.2.67",
   "title": "",
   "body": "  Simplify         "
 },
@@ -1166,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-dividing-fractions-5",
   "type": "Example",
-  "number": "1.2.58",
+  "number": "1.2.68",
   "title": "",
   "body": "  Simplify     Although the question didn't write the division symbol , the fraction bar indicates division. (So we could rewrite the problem as , and we'll say this is asking the same question.) However, to practice this new format, let's leave the original question in this format and work from there. From the second-to-last expression to the last expression, we reduced the fraction.   "
 },
@@ -1175,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-dividing-fractions-6",
   "type": "Warning",
-  "number": "1.2.59",
+  "number": "1.2.69",
   "title": "",
   "body": " It is often tempting to see a question in this format and in the desire to multiply by the reciprocal, something unintentional remains in the writing. For example, looking to the previous computation, when starting with the next expression shouldn't read . The point is that multiplying by is what replaces dividing by , so we should either have in the denominator or have the multiplication by , but not both.  The analogy in the question before this one would be like if someone turned into instead of . Multiplying by is what replaces dividing by , so we should either divide by or multiply by , but not both.  "
 },
@@ -1184,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-dividing-fractions-7",
   "type": "Example",
-  "number": "1.2.60",
+  "number": "1.2.70",
   "title": "",
   "body": "  Simplify         "
 },
@@ -1193,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#example-2-divide-3over5",
   "type": "Example",
-  "number": "1.2.61",
+  "number": "1.2.71",
   "title": "",
   "body": "  Simplify .    We rewrite as . Then:    "
 },
@@ -1202,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-additional-practice-2",
   "type": "Example",
-  "number": "1.2.62",
+  "number": "1.2.72",
   "title": "",
   "body": "  Simplify      Note that we had to simplify multiplication before simplifying addition. It is easy to fall into the trap of simplifying addition (that is, working on simplifying ) first, because we see the addition written first. However, we still need to read expressions based on the Order of Operations, even if the expression contains fractions.   "
 },
@@ -1211,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-additional-practice-3",
   "type": "Example",
-  "number": "1.2.63",
+  "number": "1.2.73",
   "title": "",
   "body": "  Simplify     The division must be simplified before the subtraction. We turn dividing by into multiplying by instead.    "
 },
@@ -1220,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-additional-practice-4",
   "type": "Example",
-  "number": "1.2.64",
+  "number": "1.2.74",
   "title": "",
   "body": "  Simplify .     Note that we cannot cancel part of the with part of the because is not a factor of the numerator. Similarly, we cannot cancel part of the with part of the because is not a factor of the numerator.   "
 },
@@ -1229,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-additional-practice-5",
   "type": "Example",
-  "number": "1.2.65",
+  "number": "1.2.75",
   "title": "",
   "body": "  Simplify     We can simplify the division of fractions before simplifying addition: Now we need a common denominator to simplify addition of fractions: Finally, we can factor out in the numerator, and having factors of in both the numerator and denominator allows us to cancel :    "
 },
@@ -1238,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#negative-fraction",
   "type": "Note",
-  "number": "1.2.66",
+  "number": "1.2.76",
   "title": "",
   "body": " First, we note that when writing a fraction whose value is negative, it is equivalent to present the fraction with the negative sign in the numerator, or in the denominator, or in front of the entire fraction. However, it is not equivalent to present the negative sign in both the numerator and denominator.  "
 },
@@ -1247,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-4",
   "type": "Example",
-  "number": "1.2.67",
+  "number": "1.2.77",
   "title": "",
   "body": " Writing and and are all legitimate ways to write the same negative fraction. You can check in a calculator that and and all give the same decimal value.  However, is not the same as the other three ways of writing the negative fraction. Instead, . You can check in a calculator that gives the same decimal value as . Alternatively, you can note that a negative divided by a negative results in a positive, or follow this cancellation of factors:   "
 },
@@ -1261,11 +1477,20 @@ var ptx_lunr_docs = [
   "body": "mixed fraction "
 },
 {
+  "id": "assemblage-expectation-improper-fractions",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#assemblage-expectation-improper-fractions",
+  "type": "Principle",
+  "number": "1.2.78",
+  "title": "Expectation for Fraction Format.",
+  "body": " Expectation for Fraction Format  We expect our final answers for fractions to be in improper fraction form whenever possible. Unless specifically requested by the question, we will never present an answer as a mixed fraction. Whenever we write a mixed fraction, we should actually mention that our writing should be interpreted as a mixed fraction.  "
+},
+{
   "id": "subsec-clarifications-and-details-9",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-9",
   "type": "Example",
-  "number": "1.2.68",
+  "number": "1.2.79",
   "title": "",
   "body": "  Simplify where we interpret and as mixed fractions.    We rewrite the first mixed fraction as . We rewrite the second mixed fraction as . Then, the product is By going through this example, I hope you really saw that it's preferrable to work with improper fractions anyway. In this question, we only had the step of completing one opertaion, but in a larger problem, we might need to take the result and do something further. It would be more convenient to do any further task working the improper fraction , so that's why we don't really bother converting this into a mixed fraction.   "
 },
@@ -1274,16 +1499,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-10",
   "type": "Note",
-  "number": "1.2.69",
+  "number": "1.2.80",
   "title": "",
   "body": " Perhaps the history of calling an improper fraction is what makes us a little uneasy. We use this language here (as opposed to the fraction ) because the numerator is larger than the denominator in . I guess I'd call an improper fraction only because I wouldn't call a mixed fraction, but because there are variables, I don't really know if is larger than or not. However, behaves like it needs to, and we can apply our fraction operations as described. For example,   "
+},
+{
+  "id": "assemblage-why-mixed-decimal",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#assemblage-why-mixed-decimal",
+  "type": "Principle",
+  "number": "1.2.81",
+  "title": "Well then, why have mixed fractions or decimals in the first place?",
+  "body": " Well then, why have mixed fractions or decimals in the first place?  In everyday settings, people are used to seeing mixed fractions. Therefore, at the very end of an applied problem, when we are done and we are certain that the value will not be needed in further work, it would be reasonable to state a final answer (in this limited situation) as a mixed fraction.  The role of decimals is somewhat similar: when you have a final answer that is an improper fraction but you need to know a ballpark figure representation of that number, a decimal is helpful. For example, I don't really have a good sense of the value of , but I can put this into a calculator to see the value is close to , a decimal representation.  "
+},
+{
+  "id": "assemblage-fraction-top-bottom",
+  "level": "2",
+  "url": "sec-expressions-with-fractions.html#assemblage-fraction-top-bottom",
+  "type": "Principle",
+  "number": "1.2.82",
+  "title": "Fractions have hidden parentheses.",
+  "body": " Fractions have hidden parentheses  The top and bottom of a fraction are each in hidden parentheses..  "
 },
 {
   "id": "subsec-clarifications-and-details-16",
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-16",
   "type": "Example",
-  "number": "1.2.70",
+  "number": "1.2.83",
   "title": "",
   "body": "  In the fraction , the top is and the bottom is . The top and bottom are each in hidden parentheses, so we can rewrite this as . We can also write this as , but cannot write this as due to the Order of Operations. Therefore, to enter into a calculator, type , including the parentheses.   "
 },
@@ -1292,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-17",
   "type": "Example",
-  "number": "1.2.71",
+  "number": "1.2.84",
   "title": "",
   "body": "  From a general chemistry class, a student got a value of on paper. How should this be entered on a calculator?    There are two sets of parentheses in the denominator already, but we should insert a set of parentheses around the entire denominator. We should also insert a set of parentheses around the numerator. Therefore, we should enter into the calculator.   "
 },
@@ -1301,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-18",
   "type": "Example",
-  "number": "1.2.72",
+  "number": "1.2.85",
   "title": "",
   "body": "  If you deposited dollars every month for years into an account that ears interest compounded monthly, we can compute what the balance will be at the end of years by applying an equation in finance, and we would obtain as the balance. How should this be input into the calculator so that we can really understand what the balance will be?    Insert the entire numerator and denominator of the fraction in parentheses. In a calculator, we would type .   "
 },
@@ -1310,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-20",
   "type": "Example",
-  "number": "1.2.73",
+  "number": "1.2.86",
   "title": "",
   "body": "  Simplify     Let's draw in the hidden parentheses to surround the entire denominator. We canceled the factor of in the numerator and denominator  If it still feels hard to view in the denominator, that's okay! I think that means you're doing a great job of really digging into the idea that factors are the pieces of a multiplication (and where is multiplication in the denominator)? Let's rewrite a solution, noting that multiplying anything by doesn't change a value, so . In fact, writing this level of detail explains why we have a instead of a in the denominator after the cancellation happened.   "
 },
@@ -1319,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-21",
   "type": "Example",
-  "number": "1.2.74",
+  "number": "1.2.87",
   "title": "",
   "body": "  Simplify     Recall that squaring a thing means to multiply the thing by itself, even if that ``thing'' is longer to write, like , so . Let's make that replacement in the numerator, and then also surround the denominator in parentheses, making those hidden parentheses visible. In the second to last expression, which is the moment we just finished cancellation, we could have written instead of . However, since the numerator was , I wanted to practice the principle that the numerator of a fraction is always in a hidden set of parentheses, but backwards in a sense: just as much as we can draw in the hidden parentheses around the entire top or entire bottom, we can remove parentheses that surround the entire top or entire bottom.   "
 },
@@ -1328,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-22",
   "type": "Example",
-  "number": "1.2.75",
+  "number": "1.2.88",
   "title": "",
   "body": "  Simplify      We canceled the factor of in the numerator and denominator. One new thing to note in this question: after cancellation, what's left is the factor of in the denominator, and we just removed the parentheses that surrounded the entire denominator. However, a common error that occurs right at the moment of cancellation is that it's temtping to put the factor of in the numerator. Note that after cancellation, the factor that didn't cancel was in the denominator, and shouldn't move up to the numerator.   "
 },
@@ -1337,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-23",
   "type": "Warning",
-  "number": "1.2.76",
+  "number": "1.2.89",
   "title": "",
   "body": " After cancelling the same factor on top and bottom of a fraction, anything that remains uncanceled should stay in the same part of the fraction. Factors that are in the denominator should remain in the denominator, and shouldn't move up to the numerator. Factors that are in the numerator should remain in the numerator, and shouldn't move down to the denominator.  "
 },
@@ -1346,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-clarifications-and-details-24",
   "type": "Example",
-  "number": "1.2.77",
+  "number": "1.2.90",
   "title": "",
   "body": "  Simplify         "
 },
@@ -1355,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-3",
   "type": "Example",
-  "number": "1.2.78",
+  "number": "1.2.91",
   "title": "",
   "body": "  A baking recipe calls for cups of flour. The recipe says that it serves . You are hosting a party where people will attend, so you need to make times the recipe. How many cups of flour do you need?    The original recipe needs cups of flour, but we need to make times the recipe. We have to multiply both of these numbers, which (at least through context) we can see are both mixed fractions. We convert the two mixed fractions into improper fractions: The mixed fraction is , and the mixed fraction is . Then, we multiply the two improper fractions: Now, given that the problem is about baking, it makes a lot of sense to convert our final answer into a mixed fraction, since that's how measuring cups are typically used: We need cups of flour, as a mixed fraction. As a reminder of what mixed fraction is, if we wanted, we could actually write this quantity unambigously by writing cups of flour.   "
 },
@@ -1364,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-4",
   "type": "Example",
-  "number": "1.2.79",
+  "number": "1.2.92",
   "title": "",
   "body": "  You have a two-by-four piece of lumber that measures feet long and another that is feet long. You will glue the two pieces together to create one leg of a nightstand. But you'll need to go to the store to make three other legs of the same height. How long is each leg?    Because we are gluing one piece of lumber to another, we need to add their measurements. From context, both numbers provided are mixed fractions, so we convert them: The mixed fraction is , and the mixed fraction is . Then, we add the two improper fractions: Since we needed to simplify the addition of fractions, we first got both fractions to have a common denominator of , which we achieved by leaving the first fraction alone, and multiplying the numerator and denominator of the second fraction by . Each leg will be feet long. Now, given that the problem is about measuring lumber, it makes a lot of sense to convert our final answer into a mixed fraction, since that's how lumber is typically measured: Each leg will be feet long, as a mixed fraction.   "
 },
@@ -1373,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-5",
   "type": "Example",
-  "number": "1.2.80",
+  "number": "1.2.93",
   "title": "",
   "body": "  A swimming pool is being filled at a rate of gallons per hour. How many gallons of water will be in the pool after hours?    Because we are filling the pool at a rate of gallons per hour, and we are filling it for hours, we need to multiply these two numbers. From context, both numbers provided are mixed fractions, so we convert them: The mixed fraction is , and the mixed fraction is . Then, we multiply the two improper fractions: The pool will have gallons of water, or gallons of water as a mixed fraction. Note that when we simiplified , we need to multiply the two denominators together (even though they matched).   "
 },
@@ -1382,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-6",
   "type": "Example",
-  "number": "1.2.81",
+  "number": "1.2.94",
   "title": "",
   "body": "  A car is traveling at a speed of miles per hour. How far will the car travel in hours?    Because we are traveling at a rate of miles per hour, and we are traveling for hours, we need to multiply these two numbers. From context, the first number is not a mixed fraction, but the second number is a mixed fraction, so we convert it: The mixed fraction is . Now, we are trying to compute , and to resolve the awkwardness of multiplying a non-fraction by a fraction, we will turn into . The car will travel miles.   "
 },
@@ -1391,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-7",
   "type": "Example",
-  "number": "1.2.82",
+  "number": "1.2.95",
   "title": "",
   "body": "  A group of friends go out to dinner. The bill comes to . If they split the bill evenly, how much does each person pay?    We can think of as the mixed fraction or by reducing the fraction, we can say this is the mixed fraction , and for the sake of nice computation, as an improper fraction, this is . We need the value of to be a cost shared by five people equally, so we should divide this fraction by . We will actually make our very next step to change the into . Each person's share is dollars, and this as a mixed fraction is dollars and as a decimal is dollars.   "
 },
@@ -1400,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-8",
   "type": "Example",
-  "number": "1.2.83",
+  "number": "1.2.96",
   "title": "",
   "body": "  A recipe calls for cup of sugar. You have a cup measuring cup. How many cups of sugar do you need to use to get the correct amount?    We need to find the value of , which is the same as . We need to fill the one-third cup measuring cup that we have times, or as a mixed fraction, times. So, to fulfill what the recipe wants, we should fill our cup measuring cup full two times, and then do our best to estimate filling this measuring cup to one-fourth full.   "
 },
@@ -1409,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-expressions-with-fractions.html#subsec-fraction-applications-revisited-9",
   "type": "Example",
-  "number": "1.2.84",
+  "number": "1.2.97",
   "title": "",
   "body": "  A recipe calls for cup of sugar. You put in cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?    Since we already put in cup of sugar, we need to find out what's left of the cup of sugar that we haven't put in yet. That is, we need to find the value of . We need to put in cup of sugar to get back on track.   "
 },
@@ -1942,7 +2185,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Equations with Fractions",
-  "body": " Equations with Fractions    In this section, we learn how to:    Solve equations with fractions present.     A new strategy  In , we learned how to simplify expressions with fractions. In this section, we look beyond simplifying expressions with fractions, and instead look at solving equations with fractions. The last two sections discussed expressions with fractions followed by solving equations, so now it's time to see efficient ways to solve equations with fractions. Recall from that simplifying expressions with fractions does not always require a common denominator. (More specifically, when asked to simplify the product of two fractions, we do not need a common denominator.) So, I invite you -- as we go through this section -- to be willing to question the idea that we'd always need a common denominator when solving equations with fractions. After all, it wasn't every fractional expression that required common denominators: only some of them did.    Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.           Solve .    We are being asked to solve an equation with fractions, so applies. First, we inventory all of the fractions and identify the denominators, which are and and . The least common multiple of and and is .  We multiply both sides of the equation by : Note that on the left side of the equation, we used parentheses to ensure that the entire left side is multiplied by : the Order of Operations tells us that multiplication is performed before addition, so without parentheses, only the first fraction would be multiplied by . On the right side, we could have drawn parentheses around the entire right side, but because there is only one term on the right side, it was not necessary.  Now, distribute on the left side: Next, we cancel where applicable. In the first term (all content before the first plus sign), the in the numerator partially cancels with the in the denominator, or said differently, after cancelling factor of on top and bottom, we are left with a factor of on top. In the second term (all content between the plus sign and the equal sign), the in the numerator partially cancels with the in the denominator, leaving a factor of on top. On the right side, the in the numerator partially cancels with the in the denominator, leaving a factor of on top. Here's what it looks like with the cancellations written in: After performing the cancellations, we are left with: This is an equation with no fractions, so we can solve it using the strategies we have learned previously. Subtracting from both sides gives: Dividing both sides by gives:      Before seeing more examples, let's discuss why this strategy works:   We multiplied by the appropriate quantity (in our last example ) which ensured that, after distributing where needed, all factors in the denominator would cancel. Using the least common multiple of the denominators as the number to multiply by on both sides ended up leading to this value appearing as a factor in the numerator of each term, allowing each copy to create all the necessary cancellations so that each denominator ends up being after cancellations occur. In other words, this ends up creating an equation without fractions.    For a fraction expression, there are not two sides, so to simplify adding fractions, a common denominator is needed. However, when you have an equation there are two sides. We can take avantage of the two sides by multiplying by the same thing on both sides! In the case of an expression, there aren't sides in the first place.    In an equation with fractions, multiplying both sides by the least common multilple of the denominators is the fastest way to get rid of fractions.        Solve the equation .    We are being asked to solve an equation with fractions, so applies. The least common multiple of the denominators and and is . So we multiply both sides of the equation by : Distributing on the left side gives: Now we cancel where applicable. After performing the cancellations, we are left with: This is an equation with no fractions. Subtracting from both sides gives: Dividing both sides by gives:     You may have never heard of before, but it is the fastest way to solve any equation that has fractions. You may be used to another method that works involving common denominators, but as a friendly reminder, told us that even when we looked at fractional expressions, we didn't always need common denominators. Let's compare the two methods in the next example.    Solve     Here's what it looks like to solve by ignoring and doing everything with common denominators instead:    Multiply both sides by .        Here's what it looks like to solve by using . First, the least common multiple of the denominators and and is , so we make our first step to multiply both sides by . On the left side, distribute . After cancelling, we have:         Let's be clear that both answers to the previous question are completely valid. In both answers, it took multiplying by to get rid of the fractions. (I ask you to pause for a second and think about this: if we didn't multiply by , we would not have been able to get rid of the fractions.) Since we have to multiply by anyway, why not do it right away and save ourselves some time? This saves us time because we don't have to keep writing fractions. Fractions take longer to write than non-fractions (because fractions have a top and a bottom). To be clear, there are ways to skip some of the steps in both answers above (but for a fair comparison, both answers stated the original equation at the start of the answer).   works because an equation has two sides. If we only had an expression , then we don't have two sides to work with.    Simplify the expression .           In the previous example, we could not use because there is no second side to multiply by the least common multiple. Instead, we had to find a common denominator in order to simplify the addition of fractions. This is why only applies to equations with fractions. However, when we have an equation with fractions, even if there is a plus sign between two fractions, there is no requirement to simplify the addition of fractions. Instead, we can use to get rid of the fractions entirely.    Solve the equation .    An answer that ignores and uses common denominators instead looks like this:   Multiply both sides by .   To try to speed things up, we skipped writing several steps.    An answer that uses first computes that the least common multiple of and and is . To create a fair comparison with the previous answer, we start by writing the original equation: Now, if we were in the setting of a quiz or exam, this equation is probably already typed for you. For the multiplying by on both sides, you could actually handwrite the on both sides, surrounding the typed left side in parentheses. That is, by handwriting on top of the original equation, you could see this next equation without having to write it in full: In fact, the step that would appear after this involves distributing on the left, as we saw in previous examples using . Instead of writing the equation we might just stare at each term to figure out what results after cancellation. In other words, by looking at we could see that result of multiplying by is . Similarly, looking at the second term , multiplying by gives . For the term on the right side, multiplying by simplifies to . Thus, our first full equation to write could be this equation, which has no fractions:           Solve .    An answer that ignores and uses common denominators looks like this:   Multiply both sides by .   To try to minimize the amount of writing, some steps were skipped. Even with skipped steps, there were three equations written after the original equation which had fractions, and fractions take longer to write than non-fractions. (One common point of confusion is why the left side of the second equation has instead of . The reason for this is that the numerator on the left is really before any distributing occured. Some people would prefer to distribute before combining fractions, in which case one numerator is in a hidden set of parentheses and the second numerator is also in a hidden set of parentheses.)    Using , the least common multiple of and and is . We could handwrite a on each side of the original typed equation, surrounding the left side in parentheses. Knowing that we will distribute on the left side anyway, we can really just think of what it means to multiply each term on each side by . Multiplying by means that a factor of remains in the numerator from the so we'd have . Multiplying by means that a factor of remains in the numerator from the so we'd have after the minus sign. Multiplying by means that a factor of remains in the numerator from the so we'd have . So, the first full equation we write doesn't have fractions:         In an attempt to make a fair comparison and skip as much as people might eventually feel comfortable in writing (just to compare how much writing there is, and how much time it takes), a certain aspect of the first answer may have been confusing. For that reason, outside of the comparison, I think it would be good for us to see the first several steps of the first answer without skipping any work. There are actually two subvariants of the first answer, and we'll go through the steps of both subvariants. Spending the time to do this isn't to persuade you to move away from . Far from it. In fact, the subtle things that we're about to dig into aren't a problem by following . That said, going into the details (as annoying as it might be) I hope will demystify some of the steps that are too often glossed over quickly (and I don't blame people who are confused)! The throughout explanations we're about to dig into are meant to ensure we don't create confusion by shoving things under the rug.   Starting from the usual work to create a common denominator leads to At this moment, we can either distribute and distribute , or since we have common denominators on the left, we can combine the fractions. I don't think it's wise at this moment to try to do both at the same time. One thing at a time. So, let's see what happens if we rewrite each denominator by distributing: Now, before doing the next step, something that tiny that can get easily ignored can lead to problems. Recall that the entire numerator and entire denominator of every fraction is in a set of parentheses. For this problem, we need to really think about this for the numerators (and don't need to really think about it for the denominators). While we really actually need to think about these parentheses for the second numerator, let's just draw in thoe hidden parentheses for all numerators, making visible those once-hidden parentheses: Now, on the left side, since we are subtracting fractions of a common denominator, we can combine this into one fraction: we leave in the parentheses for now, just to process one thing at a time. The first set of parentheses can be dropped. The parentheses on the right side can also be dropped. However, the second set of parentheses on the left side cannot be dropped because of the minus sign in front of it. In fact, we addressed the expression in , so we can apply what we learned there: We'll stop working on the problem here, because the previous equation appeared in the first answer we already provided.    Starting over, once we got common denominators which gave the equation instead of distributing first, we could have combined the fractions first: Now, distributing and and gives us the equation: Again, we stop working on the problem here.       Clarifications, Cautions, and Connections   When being asked to solve an equation with fractions, a common error occurs among those who insist on a common denominator approach. What usually happens is that there is adding and\/or subtracting on both sides to reach the goal of having one side of the equation becoming just zero. After achieving this, often the work shown will involve only looking at the busier side and simplifying the expression.  Let's illustrate exactly what this looks like with an example. When asked to solve , someone might first subtract , and their work in full might look like this:       Doesn't the end of this work seem a little strange? Normally, when we solve an equation, we expect the last line of work to look something like or perhaps . The end of the work didn't tell us what number should be. Instead, our final work was an expression. How did this happen? Often, when people see a zero on one side (as you see in the work above), people feel like zero is insignificant, and feel no need to keep copying this from one line to the next. This mistake does not happen when using , which gives another compelling reason (besides speed) to use that strategy. The mistake made earlier never seems to happen in an equation without fractions, but just to demonstrate and to intentionally try to create that error, if someone is asked to solve and someone shows as their steps   and declares that their final answer is , that seems strange.     Solve .    After multiplying both sides by , effectively, we can think about what cancellations are created by multiplying each term by . The new first term would be , the new second term would be , and the new third term would be . So, we have:         Just to be thorough, the steps that we didn't show were right at the beginning, namely,      Solve .    The least common multiple of and and and is . Multiplying both sides by gives: Distributing on both sides gives: After cancelling, we have:        The original equation was slightly different from our earlier examples in that the original equation had multiple fractions on each side. However, still applies: the strategy applies to any equation with fractions, no matter how many fractions are on each side.   Expectation: equations where the variable appears in the denominator  If the original equation had variables in the denominator, check to ensure there are no false solutions. (Any solution which causes division by zero to occur is a false solution .)     Solve     Because the equation we are asked to solve has fractions, we use . It will be easier to compute the least common multiple of the denominators if we factor the first denominator: . The least common multiple of and and is . So we will multiply both sides by . Just a friendly reminder: the original left side had two terms, so due to Order of Operations, to indicate that we are multiplying the entire left side, we wrapped the original left side in parentheses. Now we distribute . The language being used here can be confusing: I don't mean that we look at and expand this in any way, which is not only valid, this is a completely reasonable interpretation of distributing in this context. I mean that we place a copy of to the side of each of the original terms on the left. In the first term (which is everything before the minus sign), a factor of and a factor of cancel on top and bottom. In the second term, a factor of cancels. On the right side, a factor of cancels. We are left with        Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   The first denominator is . When we put in , we see .    When we put in into the second denominator , we see .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to simplify to zero. Therefore, is a solution.      Solve     The third denominator in factored form is . The least common multiple of and and is , or in other words, . We multiply both sides by , noting that we have to wrap the left side in parentheses: Now we distribute . By this, I'm not saying that we write . Instead, I mean that a copy of is written to the side of both fractinos on the left: After processing cancellations,  Now, there are multiple ways to proceed, so don't fret if your next steps look different from my next steps:     Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   When we put in into the first denominator , we see .    The second denominator is without needing to substitute for , since there was no in the second denominator. Note .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to become zero. Therefore, is a solution.      INSERT example where there IS a false solution.     At this point, we have two different concepts of checking an equation. To be transparent with you, it's time for some clarification. Let's compare:   In , we gave an expectation, or really a requirement: after solving an equation where the variable appears in the denominator, we are required to check that the value(s) obtanied for do not cause any denominator to equal zero.    In , we mentioned that you can always see if the value(s) of make the left and right side of the original equation to be equal. This check is never required, but it is recommended. If we encounter a time when the left and right side do not end up being equal, we should scan our work for any errors. After all, we're all human!   The purpose of discussing this is to spell out that the two checks are checking for different things. In the first case, we're just checking to see that denominators are never zero, and this check is required whenever the variable appears in the denominator. In the second, we're checking for something else (do the left and right sides of the original equation equal each other), and only because getting different values for the left and right hints to us that there's an error in our work, and we should go over it. In fact, we only completed the first kind of check in , and we didn't do the second kind of check mentioned in . To illustrate that point more fully, we can check that putting in in for into both the left side and the right side shows that both sides equal or from a calculator, .  In summary, when the variable appears in the denominator, we must check that we never have zero in the denominator due to the value(s) of . In any equation, we can always check to see if the original left and right sides are equal for the sake of quality control.   ERROR: Solve x\/5 times 3\/5 = 2\/5 ERROR: Solve x\/2 times 5\/2 + 7\/2 = 3x\/2  NOTE ON WRITING: cancelling before distributing... parentheses PROTECT NOTE ON WRITING: dividing on both sides in a LAZY way. NOTE ON WRITING: indicating action on only ONE side.  Epilogue: Cross multiplying, and why we've avoided talking about it.    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Summary     Summary point.    Summary point.    Summary point.       Exercises     Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Equations with Fractions    In this section, we learn how to:    Solve equations with fractions present.     A new strategy  In , we learned how to simplify expressions with fractions. In this section, we look beyond simplifying expressions with fractions, and instead look at solving equations with fractions. The last two sections discussed expressions with fractions followed by solving equations, so now it's time to see efficient ways to solve equations with fractions. Recall from that simplifying expressions with fractions does not always require a common denominator. (More specifically, when asked to simplify the product of two fractions, we do not need a common denominator.) So, I invite you -- as we go through this section -- to be willing to question the idea that we'd always need a common denominator when solving equations with fractions. After all, it wasn't every fractional expression that required common denominators: only some of them did.    Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.           Solve .    We are being asked to solve an equation with fractions, so applies. First, we inventory all of the fractions and identify the denominators, which are and and . The least common multiple of and and is .  We multiply both sides of the equation by : Note that on the left side of the equation, we used parentheses to ensure that the entire left side is multiplied by : the Order of Operations tells us that multiplication is performed before addition, so without parentheses, only the first fraction would be multiplied by . On the right side, we could have drawn parentheses around the entire right side, but because there is only one term on the right side, it was not necessary.  Now, distribute on the left side: Next, we cancel where applicable. In the first term (all content before the first plus sign), the in the numerator partially cancels with the in the denominator, or said differently, after cancelling factor of on top and bottom, we are left with a factor of on top. In the second term (all content between the plus sign and the equal sign), the in the numerator partially cancels with the in the denominator, leaving a factor of on top. On the right side, the in the numerator partially cancels with the in the denominator, leaving a factor of on top. Here's what it looks like with the cancellations written in: After performing the cancellations, we are left with: This is an equation with no fractions, so we can solve it using the strategies we have learned previously. Subtracting from both sides gives: Dividing both sides by gives:      Before seeing more examples, let's discuss why this strategy works:   We multiplied by the appropriate quantity (in our last example ) which ensured that, after distributing where needed, all factors in the denominator would cancel. Using the least common multiple of the denominators as the number to multiply by on both sides ended up leading to this value appearing as a factor in the numerator of each term, allowing each copy to create all the necessary cancellations so that each denominator ends up being after cancellations occur. In other words, this ends up creating an equation without fractions.    For a fraction expression, there are not two sides, so to simplify adding fractions, a common denominator is needed. However, when you have an equation there are two sides. We can take avantage of the two sides by multiplying by the same thing on both sides! In the case of an expression, there aren't sides in the first place.    In an equation with fractions, multiplying both sides by the least common multilple of the denominators is the fastest way to get rid of fractions.        Solve the equation .    We are being asked to solve an equation with fractions, so applies. The least common multiple of the denominators and and is . So we multiply both sides of the equation by : Distributing on the left side gives: Now we cancel where applicable. After performing the cancellations, we are left with: This is an equation with no fractions. Subtracting from both sides gives: Dividing both sides by gives:     You may have never heard of before, but it is the fastest way to solve any equation that has fractions. You may be used to another method that works involving common denominators, but as a friendly reminder, told us that even when we looked at fractional expressions, we didn't always need common denominators. Let's compare the two methods in the next example.    Solve     Here's what it looks like to solve by ignoring and doing everything with common denominators instead:    Multiply both sides by .        Here's what it looks like to solve by using . First, the least common multiple of the denominators and and is , so we make our first step to multiply both sides by . On the left side, distribute . After cancelling, we have:         Let's be clear that both answers to the previous question are completely valid. In both answers, it took multiplying by to get rid of the fractions. (I ask you to pause for a second and think about this: if we didn't multiply by , we would not have been able to get rid of the fractions.) Since we have to multiply by anyway, why not do it right away and save ourselves some time? This saves us time because we don't have to keep writing fractions. Fractions take longer to write than non-fractions (because fractions have a top and a bottom). To be clear, there are ways to skip some of the steps in both answers above (but for a fair comparison, both answers stated the original equation at the start of the answer).   works because an equation has two sides. If we only had an expression , then we don't have two sides to work with.    Simplify the expression .           In the previous example, we could not use because there is no second side to multiply by the least common multiple. Instead, we had to find a common denominator in order to simplify the addition of fractions. This is why only applies to equations with fractions. However, when we have an equation with fractions, even if there is a plus sign between two fractions, there is no requirement to simplify the addition of fractions. Instead, we can use to get rid of the fractions entirely.    Solve the equation .    An answer that ignores and uses common denominators instead looks like this:   Multiply both sides by .   To try to speed things up, we skipped writing several steps.    An answer that uses first computes that the least common multiple of and and is . To create a fair comparison with the previous answer, we start by writing the original equation: Now, if we were in the setting of a quiz or exam, this equation is probably already typed for you. For the multiplying by on both sides, you could actually handwrite the on both sides, surrounding the typed left side in parentheses. That is, by handwriting on top of the original equation, you could see this next equation without having to write it in full: In fact, the step that would appear after this involves distributing on the left, as we saw in previous examples using . Instead of writing the equation we might just stare at each term to figure out what results after cancellation. In other words, by looking at we could see that result of multiplying by is . Similarly, looking at the second term , multiplying by gives . For the term on the right side, multiplying by simplifies to . Thus, our first full equation to write could be this equation, which has no fractions:           Solve .    An answer that ignores and uses common denominators looks like this:   Multiply both sides by .   To try to minimize the amount of writing, some steps were skipped. Even with skipped steps, there were three equations written after the original equation which had fractions, and fractions take longer to write than non-fractions. (One common point of confusion is why the left side of the second equation has instead of . The reason for this is that the numerator on the left is really before any distributing occured. Some people would prefer to distribute before combining fractions, in which case one numerator is in a hidden set of parentheses and the second numerator is also in a hidden set of parentheses.)    Using , the least common multiple of and and is . We could handwrite a on each side of the original typed equation, surrounding the left side in parentheses. Knowing that we will distribute on the left side anyway, we can really just think of what it means to multiply each term on each side by . Multiplying by means that a factor of remains in the numerator from the so we'd have . Multiplying by means that a factor of remains in the numerator from the so we'd have after the minus sign. Multiplying by means that a factor of remains in the numerator from the so we'd have . So, the first full equation we write doesn't have fractions:         In an attempt to make a fair comparison and skip as much as people might eventually feel comfortable in writing (just to compare how much writing there is, and how much time it takes), a certain aspect of the first answer may have been confusing. For that reason, outside of the comparison, I think it would be good for us to see the first several steps of the first answer without skipping any work. There are actually two subvariants of the first answer, and we'll go through the steps of both subvariants. Spending the time to do this isn't to persuade you to move away from . Far from it. In fact, the subtle things that we're about to dig into aren't a problem by following . That said, going into the details (as annoying as it might be) I hope will demystify some of the steps that are too often glossed over quickly (and I don't blame people who are confused)! The throughout explanations we're about to dig into are meant to ensure we don't create confusion by shoving things under the rug.   Starting from the usual work to create a common denominator leads to At this moment, we can either distribute and distribute , or since we have common denominators on the left, we can combine the fractions. I don't think it's wise at this moment to try to do both at the same time. One thing at a time. So, let's see what happens if we rewrite each denominator by distributing: Now, before doing the next step, something that tiny that can get easily ignored can lead to problems. Recall that the entire numerator and entire denominator of every fraction is in a set of parentheses. For this problem, we need to really think about this for the numerators (and don't need to really think about it for the denominators). While we really actually need to think about these parentheses for the second numerator, let's just draw in thoe hidden parentheses for all numerators, making visible those once-hidden parentheses: Now, on the left side, since we are subtracting fractions of a common denominator, we can combine this into one fraction: we leave in the parentheses for now, just to process one thing at a time. The first set of parentheses can be dropped. The parentheses on the right side can also be dropped. However, the second set of parentheses on the left side cannot be dropped because of the minus sign in front of it. In fact, we addressed the expression in , so we can apply what we learned there: We'll stop working on the problem here, because the previous equation appeared in the first answer we already provided.    Starting over, once we got common denominators which gave the equation instead of distributing first, we could have combined the fractions first: Now, distributing and and gives us the equation: Again, we stop working on the problem here.       Clarifications, Cautions, and Connections  We've seen a technique for solving equations that have fractions, but there are some things that we should clarify. I invite you to read through this section carefully. My hope is to really make sure everything that you've seen about equations with fractions is honored: we'll discuss it all! Moreover, I hope that what you read is empowering, because we've worked hard together to lay a foundation for what's happening step-by-step!   When being asked to solve an equation with fractions, a common error occurs among those who insist on a common denominator approach. What usually happens is that there is adding and\/or subtracting on both sides to reach the goal of having one side of the equation becoming just zero. After achieving this, often the work shown will involve only looking at the busier side and simplifying the expression.  Let's illustrate exactly what this looks like with an example. When asked to solve , someone might first subtract , and their work in full might look like this:       Doesn't the end of this work seem a little strange? Normally, when we solve an equation, we expect the last line of work to look something like or perhaps . The end of the work didn't tell us what number should be. Instead, our final work was an expression. How did this happen? Often, when people see a zero on one side (as you see in the work above), people feel like zero is insignificant, and feel no need to keep copying this from one line to the next. This mistake does not happen when using , which gives another compelling reason (besides speed) to use that strategy. The mistake made earlier never seems to happen in an equation without fractions, but just to demonstrate and to intentionally try to create that error, if someone is asked to solve and someone shows as their steps   and declares that their final answer is , that seems strange.     Solve .    After multiplying both sides by , effectively, we can think about what cancellations are created by multiplying each term by . The new first term would be , the new second term would be , and the new third term would be . So, we have:         Just to be thorough, the steps that we didn't show were right at the beginning, namely,      Solve .    The least common multiple of and and and is . Multiplying both sides by gives: Distributing on both sides gives: After cancelling, we have:        The original equation was slightly different from our earlier examples in that the original equation had multiple fractions on each side. However, still applies: the strategy applies to any equation with fractions, no matter how many fractions are on each side.   Expectation: equations where the variable appears in the denominator  If the original equation had variables in the denominator, check to ensure there are no false solutions. (Any solution which causes division by zero to occur is a false solution .)     Solve     Because the equation we are asked to solve has fractions, we use . It will be easier to compute the least common multiple of the denominators if we factor the first denominator: . The least common multiple of and and is . So we will multiply both sides by . Just a friendly reminder: the original left side had two terms, so due to Order of Operations, to indicate that we are multiplying the entire left side, we wrapped the original left side in parentheses. Now we distribute . The language being used here can be confusing: I don't mean that we look at and expand this in any way, which is not only valid, this is a completely reasonable interpretation of distributing in this context. I mean that we place a copy of to the side of each of the original terms on the left. In the first term (which is everything before the minus sign), a factor of and a factor of cancel on top and bottom. In the second term, a factor of cancels. On the right side, a factor of cancels. We are left with        Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   The first denominator is . When we put in , we see .    When we put in into the second denominator , we see .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to simplify to zero. Therefore, is a solution.      Solve     The third denominator in factored form is . The least common multiple of and and is , or in other words, . We multiply both sides by , noting that we have to wrap the left side in parentheses: Now we distribute . By this, I'm not saying that we write . Instead, I mean that a copy of is written to the side of both fractinos on the left: After processing cancellations,  Now, there are multiple ways to proceed, so don't fret if your next steps look different from my next steps:     Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   When we put in into the first denominator , we see .    The second denominator is without needing to substitute for , since there was no in the second denominator. Note .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to become zero. Therefore, is a solution.      AAAAA INSERT example where there IS a false solution.     At this point, we have two different concepts of checking an equation. To be transparent with you, it's time for some clarification. Let's compare:   In , we gave an expectation, or really a requirement: after solving an equation where the variable appears in the denominator, we are required to check that the value(s) obtanied for do not cause any denominator to equal zero.    In , we mentioned that you can always see if the value(s) of make the left and right side of the original equation to be equal. This check is never required, but it is recommended. If we encounter a time when the left and right side do not end up being equal, we should scan our work for any errors. After all, we're all human!   The purpose of discussing this is to spell out that the two checks are checking for different things. In the first case, we're just checking to see that denominators are never zero, and this check is required whenever the variable appears in the denominator. In the second, we're checking for something else (do the left and right sides of the original equation equal each other), and only because getting different values for the left and right hints to us that there's an error in our work, and we should go over it. In fact, we only completed the first kind of check in , and we didn't do the second kind of check mentioned in . To illustrate that point more fully, we can check that putting in in for into both the left side and the right side shows that both sides equal or from a calculator, .  In summary, when the variable appears in the denominator, we must check that we never have zero in the denominator due to the value(s) of . In any equation, we can always check to see if the original left and right sides are equal for the sake of quality control.    In an equation with fractions where all fractions have the same denominator, we cannot say that we are deleting all the denominators.  To be clear about what this warning is saying, we provided to answers to . The first answer, which was slower, ignored and used common denominators. If we go back and look at the work of our first answer, at some point we had the equation Two steps later, we had the. equation , but it would be wrong to say that we just got rid of the denominators. It definitely looks like we got rid of denominators, but this is not what happened. Instead, we multiplied both sides by 30 . This is a subtle but important distinction. The issue is that if we say we got rid of denominators , we are noticing a pattern (and I appreciate the desire to notice patterns), but it is not actually a pattern: things don't always behave like this. Let's see several examples:   When asked to solve , a well-meaning but incorrect thought is to say that since all three fractions have the same denominator, we can get rid of the denominators. This is incorrect, but let's follow through with this. This would lead to the equation , which eventually gets us to . Now we can follow up by checking the original equation like encourages us to do. Putting in for into the left side gives . Putting in for into the right side gives . Since , we know that is not a solution.      When asked to solve the equation a well-meaning but incorrect thought is to say that since all four fractions have the same denominator, we can get rid of the denominators. This is would lead to which gives us so and . Let's following . Putting in for into the left side gives . Putting in for into the right side gives . Because the left and right sides simplified to different values, is not a solution. The problem was created by the incorrect idea that we could get rid of the denominators.    The two examples above illustrate that we cannot say that we get rid of denominators when all fractions have the same denominator. (Our last two examples show that we can't just delete denominators when they are all the same, and we certainly can't delete denominators when fractions have different denominators). We're never erasing denominators. Instead, we stick to the only tool we really have for equations: which is to apply the same action to both sides. The action of multiplying on both sides helps create the possibility that cancellations can occur: the newly introduced factor in the numerator (the number we multiply both sides by) works to cancel with factors in the denominator. In fact, the reason that works is that we are multiplying both sides by the least common multiple of all denominators, and this quantity is guaranteed to have all the factors needed to create cancellations in every denominator.   Up until now, we have avoided talking about cross multiplying. The reason for waiting for so long to talk about this is that there is a common setting in which learners try to apply cross multiplying where the techinque is not valid. Specifically, given the task of simplifying the multiplying of two fractions, learners sometimes try to cross multiply. Let's dig into an example:   When asked to simplify , a well-meaning but incorrect thought is to say that we can cross multiply. This is incorrect, but let's follow through with this. This would lead to the expression .    Before immediately dismissing this answer, let's talk about it. I believe that you have the background to follow the discussion we're about to make, and taking the time to actively read this discussion will be empowering for building your confidence in math, and moreover, can help you avoid mistakes in the future.  Say we take the same problem about simplifying the product of fractions, but just switch the order of the fractions: Then, applying cross multiplying would lead to . This is a different answer from the previous answer of . This seems strange, because we know the multiplication is commutative, either from our everyday experience with examples like , or from giving a geometric argument that the Commutative Property of Multiplication in is true in general. Because we got different results from cross multiplying, it's reasonable for us to be suspicious of our two answers, and the technique in general. In a moment, we will in fact see that neither nor is the correct final answer. Cross multiplying is not a valid technique for simplifying the product of two fractions.    To simplify , recall that tells us to multiply straight arcoss:    Cross multiplying is really just a special case of . Cross multiplying only applies when there are two fractions in an equation, one on each side of the equal sign. In this case, the least common multiple of the two denominators is simply the product of the two denominators. So, cross multiplying is just multiplying both sides by the product of the two denominators. This is exactly what tells us to do. So, cross multiplying is not a different technique, but rather a special case of . Because cross multiplying is so limited in its application, and because it is just a special case of , we have avoided talking about it. More importantly, we have avoided talking about it because of the common mistake of trying to apply it to simplify the multiplication of two fractions.     Solve the equation .    Because we have an equation with a single fraction on each side, we can use the cross multiplying technique that we have avoided talking about until now. This leads to . So:       Alternatively, we can use . The least common multiple of and is . Multiplying both sides by gives: After cancelling, we have:        In the last example, I admit that cross multiplying got us slightly faster to the equation than did. However, the difference in speed is very small, and cross multiplying only applies in a very limited setting. People, both students and instructors alike, will differ in their opinions about cross multiplying. If you wish to use this techinque, it's important to read the fine print . This would be like knowing the side effects of a medication: it's just good to be informed. In the case of cross multiplying, it cannot be used to simplify the multiplication of two fractions, and it only applies to solving an equation when there are exactly two fractions in an equation, one on each side of the equal sign, and each side consists only of a fraction. Furthermore, cross multiplying is just a special case of , which applies to any equation with fractions.  NOTE ON WRITING: cancelling before distributing... parentheses PROTECT NOTE ON WRITING: dividing on both sides in a LAZY way. NOTE ON WRITING: indicating action on only ONE side. ADD: we can CHECK whether x=constant is a solution to an equation, even if we don't know HOW to solve a certain type of equation. Helps us    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text     Summary     Summary point.    Summary point.    Summary point.       Exercises     Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-equations-with-fractions-2",
@@ -1990,9 +2233,9 @@ var ptx_lunr_docs = [
   "body": "  Solve the equation .    We are being asked to solve an equation with fractions, so applies. The least common multiple of the denominators and and is . So we multiply both sides of the equation by : Distributing on the left side gives: Now we cancel where applicable. After performing the cancellations, we are left with: This is an equation with no fractions. Subtracting from both sides gives: Dividing both sides by gives:    "
 },
 {
-  "id": "subsec-24375623987698-8",
+  "id": "first-example-ignoring-strategy-for-equations-with-fractions",
   "level": "2",
-  "url": "sec-equations-with-fractions.html#subsec-24375623987698-8",
+  "url": "sec-equations-with-fractions.html#first-example-ignoring-strategy-for-equations-with-fractions",
   "type": "Example",
   "number": "1.4.5",
   "title": "",
@@ -2026,58 +2269,49 @@ var ptx_lunr_docs = [
   "body": "  Solve .    An answer that ignores and uses common denominators looks like this:   Multiply both sides by .   To try to minimize the amount of writing, some steps were skipped. Even with skipped steps, there were three equations written after the original equation which had fractions, and fractions take longer to write than non-fractions. (One common point of confusion is why the left side of the second equation has instead of . The reason for this is that the numerator on the left is really before any distributing occured. Some people would prefer to distribute before combining fractions, in which case one numerator is in a hidden set of parentheses and the second numerator is also in a hidden set of parentheses.)    Using , the least common multiple of and and is . We could handwrite a on each side of the original typed equation, surrounding the left side in parentheses. Knowing that we will distribute on the left side anyway, we can really just think of what it means to multiply each term on each side by . Multiplying by means that a factor of remains in the numerator from the so we'd have . Multiplying by means that a factor of remains in the numerator from the so we'd have after the minus sign. Multiplying by means that a factor of remains in the numerator from the so we'd have . So, the first full equation we write doesn't have fractions:        "
 },
 {
-  "id": "sec-equations-with-fractions-4-2",
+  "id": "sec-equations-with-fractions-4-3",
   "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-3",
   "type": "Warning",
   "number": "1.4.9",
   "title": "",
   "body": " When being asked to solve an equation with fractions, a common error occurs among those who insist on a common denominator approach. What usually happens is that there is adding and\/or subtracting on both sides to reach the goal of having one side of the equation becoming just zero. After achieving this, often the work shown will involve only looking at the busier side and simplifying the expression.  Let's illustrate exactly what this looks like with an example. When asked to solve , someone might first subtract , and their work in full might look like this:       Doesn't the end of this work seem a little strange? Normally, when we solve an equation, we expect the last line of work to look something like or perhaps . The end of the work didn't tell us what number should be. Instead, our final work was an expression. How did this happen? Often, when people see a zero on one side (as you see in the work above), people feel like zero is insignificant, and feel no need to keep copying this from one line to the next. This mistake does not happen when using , which gives another compelling reason (besides speed) to use that strategy. The mistake made earlier never seems to happen in an equation without fractions, but just to demonstrate and to intentionally try to create that error, if someone is asked to solve and someone shows as their steps   and declares that their final answer is , that seems strange.  "
 },
 {
-  "id": "sec-equations-with-fractions-4-3",
+  "id": "sec-equations-with-fractions-4-4",
   "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-3",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-4",
   "type": "Example",
   "number": "1.4.10",
   "title": "",
   "body": "  Solve .    After multiplying both sides by , effectively, we can think about what cancellations are created by multiplying each term by . The new first term would be , the new second term would be , and the new third term would be . So, we have:        "
 },
 {
-  "id": "sec-equations-with-fractions-4-5",
+  "id": "sec-equations-with-fractions-4-6",
   "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-5",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-6",
   "type": "Example",
   "number": "1.4.11",
   "title": "",
   "body": "  Solve .    The least common multiple of and and and is . Multiplying both sides by gives: Distributing on both sides gives: After cancelling, we have:       "
 },
 {
-  "id": "expectation-variable-in-denominator-2",
+  "id": "expectation-variable-in-denominator",
   "level": "2",
-  "url": "sec-equations-with-fractions.html#expectation-variable-in-denominator-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "false solution "
+  "url": "sec-equations-with-fractions.html#expectation-variable-in-denominator",
+  "type": "Principle",
+  "number": "1.4.12",
+  "title": "Expectation: equations where the variable appears in the denominator.",
+  "body": " Expectation: equations where the variable appears in the denominator  If the original equation had variables in the denominator, check to ensure there are no false solutions. (Any solution which causes division by zero to occur is a false solution .)  "
 },
 {
   "id": "example-equation-variable-denominator-first",
   "level": "2",
   "url": "sec-equations-with-fractions.html#example-equation-variable-denominator-first",
   "type": "Example",
-  "number": "1.4.12",
-  "title": "",
-  "body": "  Solve     Because the equation we are asked to solve has fractions, we use . It will be easier to compute the least common multiple of the denominators if we factor the first denominator: . The least common multiple of and and is . So we will multiply both sides by . Just a friendly reminder: the original left side had two terms, so due to Order of Operations, to indicate that we are multiplying the entire left side, we wrapped the original left side in parentheses. Now we distribute . The language being used here can be confusing: I don't mean that we look at and expand this in any way, which is not only valid, this is a completely reasonable interpretation of distributing in this context. I mean that we place a copy of to the side of each of the original terms on the left. In the first term (which is everything before the minus sign), a factor of and a factor of cancel on top and bottom. In the second term, a factor of cancels. On the right side, a factor of cancels. We are left with        Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   The first denominator is . When we put in , we see .    When we put in into the second denominator , we see .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to simplify to zero. Therefore, is a solution.   "
-},
-{
-  "id": "sec-equations-with-fractions-4-9",
-  "level": "2",
-  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-9",
-  "type": "Example",
   "number": "1.4.13",
   "title": "",
-  "body": "  Solve     The third denominator in factored form is . The least common multiple of and and is , or in other words, . We multiply both sides by , noting that we have to wrap the left side in parentheses: Now we distribute . By this, I'm not saying that we write . Instead, I mean that a copy of is written to the side of both fractinos on the left: After processing cancellations,  Now, there are multiple ways to proceed, so don't fret if your next steps look different from my next steps:     Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   When we put in into the first denominator , we see .    The second denominator is without needing to substitute for , since there was no in the second denominator. Note .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to become zero. Therefore, is a solution.   "
+  "body": "  Solve     Because the equation we are asked to solve has fractions, we use . It will be easier to compute the least common multiple of the denominators if we factor the first denominator: . The least common multiple of and and is . So we will multiply both sides by . Just a friendly reminder: the original left side had two terms, so due to Order of Operations, to indicate that we are multiplying the entire left side, we wrapped the original left side in parentheses. Now we distribute . The language being used here can be confusing: I don't mean that we look at and expand this in any way, which is not only valid, this is a completely reasonable interpretation of distributing in this context. I mean that we place a copy of to the side of each of the original terms on the left. In the first term (which is everything before the minus sign), a factor of and a factor of cancel on top and bottom. In the second term, a factor of cancels. On the right side, a factor of cancels. We are left with        Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   The first denominator is . When we put in , we see .    When we put in into the second denominator , we see .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to simplify to zero. Therefore, is a solution.   "
 },
 {
   "id": "sec-equations-with-fractions-4-10",
@@ -2086,23 +2320,86 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.4.14",
   "title": "",
-  "body": "  INSERT example where there IS a false solution.   "
+  "body": "  Solve     The third denominator in factored form is . The least common multiple of and and is , or in other words, . We multiply both sides by , noting that we have to wrap the left side in parentheses: Now we distribute . By this, I'm not saying that we write . Instead, I mean that a copy of is written to the side of both fractinos on the left: After processing cancellations,  Now, there are multiple ways to proceed, so don't fret if your next steps look different from my next steps:     Since the original equation had the variable written in the denominator, applies, and we need to check that the solution that we got doesn't cause any denominator to be zero.   When we put in into the first denominator , we see .    The second denominator is without needing to substitute for , since there was no in the second denominator. Note .    When we put in into the third denominator , we see .   We checked that does not cause any of the three denominators to become zero. Therefore, is a solution.   "
 },
 {
   "id": "sec-equations-with-fractions-4-11",
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-11",
-  "type": "Note",
+  "type": "Example",
   "number": "1.4.15",
   "title": "",
+  "body": "  AAAAA INSERT example where there IS a false solution.   "
+},
+{
+  "id": "sec-equations-with-fractions-4-12",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-12",
+  "type": "Note",
+  "number": "1.4.16",
+  "title": "",
   "body": " At this point, we have two different concepts of checking an equation. To be transparent with you, it's time for some clarification. Let's compare:   In , we gave an expectation, or really a requirement: after solving an equation where the variable appears in the denominator, we are required to check that the value(s) obtanied for do not cause any denominator to equal zero.    In , we mentioned that you can always see if the value(s) of make the left and right side of the original equation to be equal. This check is never required, but it is recommended. If we encounter a time when the left and right side do not end up being equal, we should scan our work for any errors. After all, we're all human!   The purpose of discussing this is to spell out that the two checks are checking for different things. In the first case, we're just checking to see that denominators are never zero, and this check is required whenever the variable appears in the denominator. In the second, we're checking for something else (do the left and right sides of the original equation equal each other), and only because getting different values for the left and right hints to us that there's an error in our work, and we should go over it. In fact, we only completed the first kind of check in , and we didn't do the second kind of check mentioned in . To illustrate that point more fully, we can check that putting in in for into both the left side and the right side shows that both sides equal or from a calculator, .  In summary, when the variable appears in the denominator, we must check that we never have zero in the denominator due to the value(s) of . In any equation, we can always check to see if the original left and right sides are equal for the sake of quality control.  "
+},
+{
+  "id": "sec-equations-with-fractions-4-13",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-13",
+  "type": "Warning",
+  "number": "1.4.17",
+  "title": "",
+  "body": " In an equation with fractions where all fractions have the same denominator, we cannot say that we are deleting all the denominators.  "
+},
+{
+  "id": "sec-equations-with-fractions-4-22",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-22",
+  "type": "Example",
+  "number": "1.4.18",
+  "title": "",
+  "body": "  When asked to solve , a well-meaning but incorrect thought is to say that since all three fractions have the same denominator, we can get rid of the denominators. This is incorrect, but let's follow through with this. This would lead to the equation , which eventually gets us to . Now we can follow up by checking the original equation like encourages us to do. Putting in for into the left side gives . Putting in for into the right side gives . Since , we know that is not a solution.   "
+},
+{
+  "id": "sec-equations-with-fractions-4-23",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-23",
+  "type": "Example",
+  "number": "1.4.19",
+  "title": "",
+  "body": "  When asked to solve the equation a well-meaning but incorrect thought is to say that since all four fractions have the same denominator, we can get rid of the denominators. This is would lead to which gives us so and . Let's following . Putting in for into the left side gives . Putting in for into the right side gives . Because the left and right sides simplified to different values, is not a solution. The problem was created by the incorrect idea that we could get rid of the denominators.   "
+},
+{
+  "id": "sec-equations-with-fractions-4-25",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-25",
+  "type": "Note",
+  "number": "1.4.20",
+  "title": "",
+  "body": " Up until now, we have avoided talking about cross multiplying. The reason for waiting for so long to talk about this is that there is a common setting in which learners try to apply cross multiplying where the techinque is not valid. Specifically, given the task of simplifying the multiplying of two fractions, learners sometimes try to cross multiply. Let's dig into an example:   When asked to simplify , a well-meaning but incorrect thought is to say that we can cross multiply. This is incorrect, but let's follow through with this. This would lead to the expression .    Before immediately dismissing this answer, let's talk about it. I believe that you have the background to follow the discussion we're about to make, and taking the time to actively read this discussion will be empowering for building your confidence in math, and moreover, can help you avoid mistakes in the future.  Say we take the same problem about simplifying the product of fractions, but just switch the order of the fractions: Then, applying cross multiplying would lead to . This is a different answer from the previous answer of . This seems strange, because we know the multiplication is commutative, either from our everyday experience with examples like , or from giving a geometric argument that the Commutative Property of Multiplication in is true in general. Because we got different results from cross multiplying, it's reasonable for us to be suspicious of our two answers, and the technique in general. In a moment, we will in fact see that neither nor is the correct final answer. Cross multiplying is not a valid technique for simplifying the product of two fractions.    To simplify , recall that tells us to multiply straight arcoss:    Cross multiplying is really just a special case of . Cross multiplying only applies when there are two fractions in an equation, one on each side of the equal sign. In this case, the least common multiple of the two denominators is simply the product of the two denominators. So, cross multiplying is just multiplying both sides by the product of the two denominators. This is exactly what tells us to do. So, cross multiplying is not a different technique, but rather a special case of . Because cross multiplying is so limited in its application, and because it is just a special case of , we have avoided talking about it. More importantly, we have avoided talking about it because of the common mistake of trying to apply it to simplify the multiplication of two fractions.  "
+},
+{
+  "id": "sec-equations-with-fractions-4-26",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-4-26",
+  "type": "Example",
+  "number": "1.4.21",
+  "title": "",
+  "body": "  Solve the equation .    Because we have an equation with a single fraction on each side, we can use the cross multiplying technique that we have avoided talking about until now. This leads to . So:       Alternatively, we can use . The least common multiple of and is . Multiplying both sides by gives: After cancelling, we have:       "
+},
+{
+  "id": "sec-equations-with-fractions-5-2",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-2",
+  "type": "Principle",
+  "number": "1.4.22",
+  "title": "text.",
+  "body": " text  text  "
 },
 {
   "id": "sec-equations-with-fractions-5-3",
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-3",
   "type": "Example",
-  "number": "1.4.16",
+  "number": "1.4.23",
   "title": "",
   "body": "  Statement text    Solution text   "
 },
@@ -2111,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-4",
   "type": "Try it",
-  "number": "1.4.17",
+  "number": "1.4.24",
   "title": "",
   "body": "  Text    "
 },
@@ -2120,16 +2417,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-5",
   "type": "Note",
-  "number": "1.4.18",
+  "number": "1.4.25",
   "title": "",
   "body": " Text  "
+},
+{
+  "id": "sec-equations-with-fractions-5-6",
+  "level": "2",
+  "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-6",
+  "type": "Principle",
+  "number": "1.4.26",
+  "title": "Title.",
+  "body": " Title  Text  "
 },
 {
   "id": "sec-equations-with-fractions-5-7",
   "level": "2",
   "url": "sec-equations-with-fractions.html#sec-equations-with-fractions-5-7",
   "type": "Warning",
-  "number": "1.4.19",
+  "number": "1.4.27",
   "title": "",
   "body": " text  "
 },
