@@ -242,8 +242,42 @@
       </solution>
     </example>
 
+    <p>
+      We showed two standard formulas in <xref ref="principle-exponent-rules-1" /> how they usually look: <m>a^m a^n = a^{m+n}</m> and <m>(a^m)^n = a^{mn}</m>.
+      However, these two are often confused for each other, and it's easier to see why people confuse these two formulas when we see <emph>all</emph> operations written in, with none hidden:
+      <ol>
+        <li>
+          <p>
+            <m>a^m \cdot a^n = a^{m+n}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>(a^m)^{n} = a^{m \cdot n}</m>
+          </p>
+        </li>
+      </ol>
+      These are actually the same formulas, and I admit they look bulkier with all the operations explicitly shown.
+      But this helps us see why there is confusion!
+      Notice that the formula that has multiplication on the left has addition on the right, while the second formula has multiplication the right.
+      So, it is incorrect to turn <m>c^2 \cdot c^3</m> into <m>c^{2 \cdot 3}</m> which would eventually be <m>c^6</m>, but I can understand why people would make that error!
+      (Instead, the correct simplification is <m>c^2 \cdot c^3 = c^{2+3} = c^5</m>.)
+    </p>
+    <p>
+      This leads us to ask a more general question: 
+      how are we supposed to know what to do when we see an expression of the form <m>a^m \cdot a^n</m>
+      versus what we are supposed to do when we see an expression of the form <m>(a^m)^n</m>?
+      The short answer (just memorize the formulas) is really unsatisfying.
+      It's easy to <q>cross the wires</q> here.
+      Fortunately, there is a tool that we have that can help us remember how each of these formulas end, and more importantly,
+      if we keep practicing the process that we're about to suggest, it actually provides a reason <emph>why</emph> these formulas are true in the first place!
+      That's a win-win!
+    </p>
+
+    
 
 
+    
     <formula>
       <statement>
         <p>Let <m>a, b, x, y</m> be real numbers. We have the following properties:</p>
