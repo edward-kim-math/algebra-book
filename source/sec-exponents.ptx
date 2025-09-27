@@ -88,6 +88,24 @@
       Writing expressions involving exponents provides a powerful way to describe certain quantifiable phenomena in a variety of applications.
       We will need some exponent rules that help us rewrite expressions involving exponents.
       These rules will also help us simplify expressions involving exponents.
+      Before introducing the rules, let's make sure we're on the same page about what an exponent means.
+    </p>
+
+    <principle xml:id="principle-what-exponent-means">
+      <title>What does an exponent mean?</title>
+      <statement>
+        <p>
+          Exponentiation can be interpreted to mean <emph>repeated multiplication</emph>.
+          An exponent is a way to represent repeated multiplication of a number by itself:
+          <m>a^n</m> means <m>a</m> is multiplied by itself a total of <m>n</m> times, where <m>n</m> is a positive integer.
+        </p>
+      </statement>
+    </principle>
+    <p>
+      This principle only really makes sense when <m>n</m> is a positive integer such as <m>1, 2, 3, ...</m>.
+      For example, <m>a^4</m> means <m>a \cdot a \cdot a \cdot a</m>, and <m>a^6</m> means <m>a \cdot a \cdot a \cdot a \cdot a \cdot a</m>.
+      We will later talk about situations where the exponent is zero, a negative number, or a fraction.
+      In those stranger situations, <xref ref="principle-what-exponent-means" /> doesn't apply.
     </p>
 
     <principle xml:id="principle-exponent-rules-1">
@@ -156,25 +174,7 @@
       </solution>
     </example>
 
-    <example>
-      <statement>
-        <p>
-          Simplify <m>(xy^4)^3 x^8 (x^3 z)^{10}</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m>, we have <m>(xy^4)^3 = x^3 (y^4)^3 = x^3 y^{12}</m>.
-          Please note that inside the first parentheses where the text is <m>xy^4</m>, we must read this using the Order of Operations, 
-          and recognize that the exponent <m>4</m> applies only to <m>y</m>, and not to <m>x</m>.
-          Thus, <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^3 z)^{10}</m>.
-          Next, using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> again, we have <m>(x^3 z)^{10} = (x^3)^{10} z^{10} = x^{30} z^{10}</m>.
-          Thus, <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^{30} z^{10})</m>.
-          Now, using the exponent rule <m>a^m a^n = a^{m+n}</m>, we have <me>x^3 x^8 x^{30} = x^{3+8+30} = x^{41}</me>.
-          Therefore, <m>(xy^4)^3 x^8 (x^3 z)^{10} = x^{41} y^{12} z^{10}</m>.
-        </p>
-      </solution>
-    </example>
+
 
     <example>
       <statement>
@@ -274,19 +274,172 @@
       That's a win-win!
     </p>
 
-    
-
-
-    
-    <formula>
+    <principle xml:id="principle-tool-for-exponents">
+      <title>How to keep track of exponent formulas, part 1</title>
       <statement>
-        <p>Let <m>a, b, x, y</m> be real numbers. We have the following properties:</p>
+        <p>
+          For the two formulas we presented in <xref ref="principle-exponent-rules-1" />, the left sides said <m>a^m \cdot a^n</m> and <m>(a^m)^n</m>.
+          How can know what is on the right side of each formula?
+          What can we do when we've forgotten what's on the right side of each formula?
+          And finally, how can we know <emph>why</emph> the right sides that get presented are actually legitimate in the first place?
+          The answer to all of these questions is to <q>expand</q> the expression after selecting your own constants for the exponents (but not for the base),
+          and expand based on <xref ref="principle-what-exponent-means" />.
+        </p>
       </statement>
+    </principle>
+    <example>
+      <statement>
+        <p>
+          Suppose we recall that there is a formula that starts with <m>a^m \cdot a^n</m>, but we can't remember what is on the right side of the formula.
+          Say we also recall there is a formula that starts with <m>(a^m)^n</m>, but we can't remember what is on the right side of that formula either.
+          Which of these two expressions involves adding the exponents, and which involes multiplying the exponents?
+          That is, which has a power of <m>m+n</m> and which has a power of <m>m \cdot n</m>?
+          To figure this out, we can pick our own values for <m>m</m> and <m>n</m>, and then expand each expression based on <xref ref="principle-what-exponent-means" />.
+          While we can pick <m>m</m> and <m>n</m> to be as large as we want, let's pick small values to make the expansion easier.
+          That said, we can't pick <m>m</m> and <m>n</m> to be too small: for example if we picked both <m>m=2</m> and <m>n=2</m>, 
+          both <m>m+n</m> and <m>m \cdot n</m> would be equal to <m>4</m>, which wouldn't help us distinguish between the two formulas. 
+        </p>
+        <p>
+          Let's pick <m>m=2</m> and <m>n=3</m>, which is about as minimal as we can pick.
+          Based on what exponents mean in <xref ref="principle-what-exponent-means" />:
+          <ol>
+            <li>
+              <p>
+                We can expand <m>a^m \cdot a^n</m> as <m>a^2 \cdot a^3 = (a \cdot a) \cdot (a \cdot a \cdot a) = a \cdot a \cdot a \cdot a \cdot a = a^5</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We can expand <m>(a^m)^n</m> as <m>(a^2)^3 = (a \cdot a)^3 = (a \cdot a) \cdot (a \cdot a) \cdot (a \cdot a) = a \cdot a \cdot a \cdot a \cdot a \cdot a = a^6</m>.
+              </p>
+            </li>
+          </ol>
+          Noting that <m>5 = 2 + 3</m> and <m>6 = 2 \cdot 3</m>, we see that <m>a^m \cdot a^n</m> involves adding the exponents, while <m>(a^m)^n</m> involves multiplying the exponents.
+        </p>
+      </statement>
+    </example>
+    <note>
+      <p>
+        Note that we never picked a specific value for <m>a</m>.
+        It's not that we can't. We can!
+        But, if we did (say we picked <m>a=5</m>), then we'd be looking at an expression like <m>5^2 \cdot 5^3</m>, and with constants in all places,
+        it's too tempting to work on simplyfing arithmetic, which is both time-consuming, and hides what it is we're trying to get out of this.
+        The point is that we just want to count how many times the base <m>a</m> appears as a factor, and record that number of appearances as an exponent.
+      </p>
+    </note>
+    <example>
+      <statement>
+        <p>
+          Say we need to simplify <m>x^\frac{1}{3} x^\frac{2}{5}</m>, but forgot how the formulas go.
+          Go through a process to recover the formula, then apply it it to simplify this expression.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Suppose we forgot how the formulas go. The shape of what we have is multiplying to expressions that have the same base: this is addressed by <m>a^m \cdot a^n</m>.
+          The question becomes whether we add or multiply the exponents.
+          To figure this out, we can work on the side where we temporarily pick our own values for <m>m</m> and <m>n</m>.
+          Let's say we pick <m>m=4</m> and <m>n=3</m>, which are relatively small numbers.
+          Then, based on <xref ref="principle-what-exponent-means" />, we can expand <m>a^m \cdot a^n</m> as 
+          <m>a^4 \cdot a^3 = (a \cdot a \cdot a \cdot a) \cdot (a \cdot a \cdot a) = a \cdot a \cdot a \cdot a \cdot a \cdot a \cdot a</m> 
+          and counting how many times the base is a factor, this is <m>a^7</m>.
+          So, in the case of <m>a^m \cdot a^n</m>, we add the exponents, which is why the full formula (which we might forget, but we just recovered through this process) 
+          is <m>a^m \cdot a^n = a^{m+n}</m>.
+        </p>
+        <p>
+          Now we can apply this formula: <m>x^\frac{1}{3} x^\frac{2}{5} = x^{\frac{1}{3} + \frac{2}{5}} = x^{\frac{5}{15} + \frac{6}{15}} = x^{\frac{11}{15}}</m>.
+          Because it is challenging to simplify the addition of these fractions right away, we just first wrote the addition without simplifying it by writing 
+          <m>x^{\frac{1}{3} + \frac{2}{5}}</m>, though we still needed to write <m>x</m> as the base in order to ensure that the equal sign truly means equal.
+          In the next step, we focused on simplifying the exponent area (by mentally zooming in) and found a common denominator.
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      The natural question arises: it's easy to remember what to do to get these formulas when the author or teacher hints to me what to do,
+      but how am I supposed to recall? In the end, the two formulas we introduced (and several more!) all can be recovered using the same tool:
+      select values for exponents (but not for the base),
+      and expand based on asking yourself what exponents mean (<xref ref="principle-what-exponent-means" />),
+      then count the number of times the base appears.
+      This works for the two formulas we introduced, and it also works for several more formulas that we will introduce next.
+      Before showing the new formulas, it would be good to put this useful tool into a box!
+    </p>
+
+    <principle xml:id="principle-tool-for-exponents-2">
+      <statement>
+        <p>
+          Based on what exponents mean in <xref ref="principle-what-exponent-means" />
+          <ul>
+            <li>
+              <p>
+                 Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)
+              </p>
+              <p>
+                Expand based on what exponents mean.
+              </p>
+            </li>
+            <li>
+              <p>
+                Count the number of times the base appears, and rewrite based on what exponents mean.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </principle>
+
+    <p>
+      Let's introduce a couple new formulas where the tool in <xref ref="principle-tool-for-exponents-2" /> applies.
+      Let's then demonstrate full examples of how to practice this tool, then do full examples of computations based on the new formulas.
+    </p>
+
+    <principle xml:id="principle-exponent-rules-2">
+      <title>Exponent rules, part 2</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <m>(a \cdot b)^n = a^n \cdot b^n</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </principle>
+
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>(xy^4)^3 x^8 (x^3 z)^{10}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m>, we have <m>(xy^4)^3 = x^3 (y^4)^3 = x^3 y^{12}</m>.
+          Please note that inside the first parentheses where the text is <m>xy^4</m>, we must read this using the Order of Operations, 
+          and recognize that the exponent <m>4</m> applies only to <m>y</m>, and not to <m>x</m>.
+          Thus, <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^3 z)^{10}</m>.
+          Next, using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> again, we have <m>(x^3 z)^{10} = (x^3)^{10} z^{10} = x^{30} z^{10}</m>.
+          Thus, <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^{30} z^{10})</m>.
+          Now, using the exponent rule <m>a^m a^n = a^{m+n}</m>, we have <me>x^3 x^8 x^{30} = x^{3+8+30} = x^{41}</me>.
+          Therefore, <m>(xy^4)^3 x^8 (x^3 z)^{10} = x^{41} y^{12} z^{10}</m>.
+        </p>
+      </solution>
+    </example>
+
+
+    <formula>
       <ul>
+
         <li><m>a^0 = 1</m> (except possibly if <m>a=0</m>)</li>
+        <li><m>\frac{a^m}{a^n} = a^{m-n}</m></li>
+
         <li><m>a^{-n} = 1/a^n</m></li>
-        <li><m>(a \cdot b)^n = a^n \cdot b^n</m></li>
-        <li><m>((a)/(b))^n = (a^n)/(b^n)</m></li>
         <li><m>a^n = (a^{-n})^{-1} = 1/a^{-n}</m></li>
       </ul>
     </formula>

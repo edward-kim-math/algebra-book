@@ -2419,7 +2419,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Exponents",
-  "body": " Exponents    In this section, we learn how to:    .  .  .     Applications  Exponents appear in a variety of applications. Here are some common scenarios where exponent rules are essential:   Compound Interest (Finance)  Scenario: You deposit money in a bank account that compounds interest.  Formula: or for continuous compounding.  Exponent Rule Used:  Example: If $1000 is invested at 5% per year for 3 years: . Using exponent rules: .  Example: Given , , and , simplify the value of . This is a finance problem, and the value answers the following question: if $1000 is deposited now in an account earning 4% interest compounded continuously, what will the account balance be in 5 years?    Population Growth \/ Decay (Biology and Chemistry)  Scenario: Populations, bacteria, or radioactive isotopes grow or decay exponentially.  Formula: or  Exponent Rules Used: ,  Example: A bacteria culture doubles every 3 hours: . After 6 hours: times the initial population.    Physics: Scaling Laws  Scenario: Volume, area, or mass often scale with powers of linear dimensions.  Exponent Rules Used: ,  Example: Volume of a cube with side : . If the side doubles: .    Computer Science: Algorithms and Complexity  Scenario: Exponential growth in possibilities.  Example: A 4-character password with 26 letters: total possibilities.  Exponent Rule: Multiply powers of the same base: .    Chemistry: Solution Dilution  Scenario: Concentration decreases by a fixed ratio with each dilution.  Formula: After n dilutions:  Exponent Rule: to simplify repeated dilutions.    Physics: Sound and Light Intensity  Scenario: Intensity decreases with the square of the distance.  Formula:  Exponent Rule:    Engineering: Material Strength  Scenario: Strength often scales as a power of thickness.  Formula:  Exponent Rules: or to compute effects of scaling dimensions.       Exponent formulas  Writing expressions involving exponents provides a powerful way to describe certain quantifiable phenomena in a variety of applications. We will need some exponent rules that help us rewrite expressions involving exponents. These rules will also help us simplify expressions involving exponents.   Exponent rules, part 1                   Reading from left to right, the first formula says that when multiplying two expressions with the same base, we can add the exponents (in which case we write the base once). This is why the left side has where the same base is appears twice, while the right side has where the base appears only once. The first formula's requirement requiring that the two expressions being multiplied together have the same base is analogous to the requirement that two fractions being added or subtracted must have the same denominator. Reading from right to left, an expression of the form can be rewritten as .  Reading from left to right, the second formula says that when taking an exponential expression such as and raise it to a power, we can multiply the exponents. Read from right to left, an expression of the form can be rewritten as , meaning that when we see an expression with an exponent that is a product, we can rewrite it as an expression where the base is raised to one of the factors, and then the entire expression wrapped in parentheses is raised to the other factor.   Simplify .   Using the exponent rule , we have .     Simplify .   Using the exponent rule , we have .       Simplify .      . First, we used the exponent rule to rewrite as . Then, we used the exponent rule to rewrite each factor and also to rewrite .      Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .      Simplify .    Using the exponent rule , we have . Thus, .  Next, using the exponent rule , we have .  The third term and fourth term are already simplified: and .  Finally, using the exponent rule again, we have .  Now we can combine like terms: .    An example like the one we just did is meant to provide a bit of caution. After applying exponent rules, we get to the expression . It is tempting to say that the final expression is . Combine only what we can (which is just up to like terms).   Simplify .   Using the exponent rule , we have .    In a simpler example, namely , we wrote , though many prefer to skip the middle step and directly go from to . This is fine to do when we can do the simplification in our heads, but in the example we just did, it might be harder to see how the sum of the exponents simplifies. That's why even in the easier problem, we wrote out the step. In a situation like this that's more complicated, it is practical to write the addition (without having simplified yet), and then in the next step(s), we can zoom in focusing only in the exponent area, and simplify the exponent from to to . Even if you see it in this example without writing all the steps, there's definitely eventually going to be a challenging enough example where we can't just picture it all. Being willing to write that two things are added together without immediately simplifying it is a power tool to have.   Simplify .        We showed two standard formulas in how they usually look: and . However, these two are often confused for each other, and it's easier to see why people confuse these two formulas when we see all operations written in, with none hidden:            These are actually the same formulas, and I admit they look bulkier with all the operations explicitly shown. But this helps us see why there is confusion! Notice that the formula that has multiplication on the left has addition on the right, while the second formula has multiplication the right. So, it is incorrect to turn into which would eventually be , but I can understand why people would make that error! (Instead, the correct simplification is .)  This leads us to ask a more general question: how are we supposed to know what to do when we see an expression of the form versus what we are supposed to do when we see an expression of the form ? The short answer (just memorize the formulas) is really unsatisfying. It's easy to cross the wires here. Fortunately, there is a tool that we have that can help us remember how each of these formulas end, and more importantly, if we keep practicing the process that we're about to suggest, it actually provides a reason why these formulas are true in the first place! That's a win-win!    Let be real numbers. We have the following properties:    (except possibly if )         Simplify .    Simplify .    Simplify .    Simplify .    What does a radical mean?    asks for the value that fills in the blank: . If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer.     Find .    Find .      If the small number outside of the radical is missing, it is a hidden 2.     should be said “ n-th root of a ”.    or can be said “2nd root of a” or “square root of a”.    is spoken “3rd root of a” but not “3 square root of a”.    is spoken “7th root of a” but not “7 square root of a”.          Simplify .    Simplify .    Simplify .    (when this makes sense)    .    Write with only one radical.    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .   The curse of distribution: In general, . For example, . In reality,   Exponents do not distribute over addition or subtraction. Since radicals are really exponents, radicals also do not distribute over addition and subtraction.      False  False  False  True  False    If , then .    text  text     Statement text    Solution text       Text      Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Exponents    In this section, we learn how to:    .  .  .     Applications  Exponents appear in a variety of applications. Here are some common scenarios where exponent rules are essential:   Compound Interest (Finance)  Scenario: You deposit money in a bank account that compounds interest.  Formula: or for continuous compounding.  Exponent Rule Used:  Example: If $1000 is invested at 5% per year for 3 years: . Using exponent rules: .  Example: Given , , and , simplify the value of . This is a finance problem, and the value answers the following question: if $1000 is deposited now in an account earning 4% interest compounded continuously, what will the account balance be in 5 years?    Population Growth \/ Decay (Biology and Chemistry)  Scenario: Populations, bacteria, or radioactive isotopes grow or decay exponentially.  Formula: or  Exponent Rules Used: ,  Example: A bacteria culture doubles every 3 hours: . After 6 hours: times the initial population.    Physics: Scaling Laws  Scenario: Volume, area, or mass often scale with powers of linear dimensions.  Exponent Rules Used: ,  Example: Volume of a cube with side : . If the side doubles: .    Computer Science: Algorithms and Complexity  Scenario: Exponential growth in possibilities.  Example: A 4-character password with 26 letters: total possibilities.  Exponent Rule: Multiply powers of the same base: .    Chemistry: Solution Dilution  Scenario: Concentration decreases by a fixed ratio with each dilution.  Formula: After n dilutions:  Exponent Rule: to simplify repeated dilutions.    Physics: Sound and Light Intensity  Scenario: Intensity decreases with the square of the distance.  Formula:  Exponent Rule:    Engineering: Material Strength  Scenario: Strength often scales as a power of thickness.  Formula:  Exponent Rules: or to compute effects of scaling dimensions.       Exponent formulas  Writing expressions involving exponents provides a powerful way to describe certain quantifiable phenomena in a variety of applications. We will need some exponent rules that help us rewrite expressions involving exponents. These rules will also help us simplify expressions involving exponents. Before introducing the rules, let's make sure we're on the same page about what an exponent means.   What does an exponent mean?   Exponentiation can be interpreted to mean repeated multiplication . An exponent is a way to represent repeated multiplication of a number by itself: means is multiplied by itself a total of times, where is a positive integer.    This principle only really makes sense when is a positive integer such as . For example, means , and means . We will later talk about situations where the exponent is zero, a negative number, or a fraction. In those stranger situations, doesn't apply.   Exponent rules, part 1                   Reading from left to right, the first formula says that when multiplying two expressions with the same base, we can add the exponents (in which case we write the base once). This is why the left side has where the same base is appears twice, while the right side has where the base appears only once. The first formula's requirement requiring that the two expressions being multiplied together have the same base is analogous to the requirement that two fractions being added or subtracted must have the same denominator. Reading from right to left, an expression of the form can be rewritten as .  Reading from left to right, the second formula says that when taking an exponential expression such as and raise it to a power, we can multiply the exponents. Read from right to left, an expression of the form can be rewritten as , meaning that when we see an expression with an exponent that is a product, we can rewrite it as an expression where the base is raised to one of the factors, and then the entire expression wrapped in parentheses is raised to the other factor.   Simplify .   Using the exponent rule , we have .     Simplify .   Using the exponent rule , we have .       Simplify .      . First, we used the exponent rule to rewrite as . Then, we used the exponent rule to rewrite each factor and also to rewrite .      Simplify .    Using the exponent rule , we have . Thus, .  Next, using the exponent rule , we have .  The third term and fourth term are already simplified: and .  Finally, using the exponent rule again, we have .  Now we can combine like terms: .    An example like the one we just did is meant to provide a bit of caution. After applying exponent rules, we get to the expression . It is tempting to say that the final expression is . Combine only what we can (which is just up to like terms).   Simplify .   Using the exponent rule , we have .    In a simpler example, namely , we wrote , though many prefer to skip the middle step and directly go from to . This is fine to do when we can do the simplification in our heads, but in the example we just did, it might be harder to see how the sum of the exponents simplifies. That's why even in the easier problem, we wrote out the step. In a situation like this that's more complicated, it is practical to write the addition (without having simplified yet), and then in the next step(s), we can zoom in focusing only in the exponent area, and simplify the exponent from to to . Even if you see it in this example without writing all the steps, there's definitely eventually going to be a challenging enough example where we can't just picture it all. Being willing to write that two things are added together without immediately simplifying it is a power tool to have.   Simplify .        We showed two standard formulas in how they usually look: and . However, these two are often confused for each other, and it's easier to see why people confuse these two formulas when we see all operations written in, with none hidden:            These are actually the same formulas, and I admit they look bulkier with all the operations explicitly shown. But this helps us see why there is confusion! Notice that the formula that has multiplication on the left has addition on the right, while the second formula has multiplication the right. So, it is incorrect to turn into which would eventually be , but I can understand why people would make that error! (Instead, the correct simplification is .)  This leads us to ask a more general question: how are we supposed to know what to do when we see an expression of the form versus what we are supposed to do when we see an expression of the form ? The short answer (just memorize the formulas) is really unsatisfying. It's easy to cross the wires here. Fortunately, there is a tool that we have that can help us remember how each of these formulas end, and more importantly, if we keep practicing the process that we're about to suggest, it actually provides a reason why these formulas are true in the first place! That's a win-win!   How to keep track of exponent formulas, part 1   For the two formulas we presented in , the left sides said and . How can know what is on the right side of each formula? What can we do when we've forgotten what's on the right side of each formula? And finally, how can we know why the right sides that get presented are actually legitimate in the first place? The answer to all of these questions is to expand the expression after selecting your own constants for the exponents (but not for the base), and expand based on .      Suppose we recall that there is a formula that starts with , but we can't remember what is on the right side of the formula. Say we also recall there is a formula that starts with , but we can't remember what is on the right side of that formula either. Which of these two expressions involves adding the exponents, and which involes multiplying the exponents? That is, which has a power of and which has a power of ? To figure this out, we can pick our own values for and , and then expand each expression based on . While we can pick and to be as large as we want, let's pick small values to make the expansion easier. That said, we can't pick and to be too small: for example if we picked both and , both and would be equal to , which wouldn't help us distinguish between the two formulas.  Let's pick and , which is about as minimal as we can pick. Based on what exponents mean in :   We can expand as .    We can expand as .   Noting that and , we see that involves adding the exponents, while involves multiplying the exponents.     Note that we never picked a specific value for . It's not that we can't. We can! But, if we did (say we picked ), then we'd be looking at an expression like , and with constants in all places, it's too tempting to work on simplyfing arithmetic, which is both time-consuming, and hides what it is we're trying to get out of this. The point is that we just want to count how many times the base appears as a factor, and record that number of appearances as an exponent.     Say we need to simplify , but forgot how the formulas go. Go through a process to recover the formula, then apply it it to simplify this expression.    Suppose we forgot how the formulas go. The shape of what we have is multiplying to expressions that have the same base: this is addressed by . The question becomes whether we add or multiply the exponents. To figure this out, we can work on the side where we temporarily pick our own values for and . Let's say we pick and , which are relatively small numbers. Then, based on , we can expand as and counting how many times the base is a factor, this is . So, in the case of , we add the exponents, which is why the full formula (which we might forget, but we just recovered through this process) is .  Now we can apply this formula: . Because it is challenging to simplify the addition of these fractions right away, we just first wrote the addition without simplifying it by writing , though we still needed to write as the base in order to ensure that the equal sign truly means equal. In the next step, we focused on simplifying the exponent area (by mentally zooming in) and found a common denominator.    The natural question arises: it's easy to remember what to do to get these formulas when the author or teacher hints to me what to do, but how am I supposed to recall? In the end, the two formulas we introduced (and several more!) all can be recovered using the same tool: select values for exponents (but not for the base), and expand based on asking yourself what exponents mean ( ), then count the number of times the base appears. This works for the two formulas we introduced, and it also works for several more formulas that we will introduce next. Before showing the new formulas, it would be good to put this useful tool into a box!    Based on what exponents mean in    Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)  Expand based on what exponents mean.    Count the number of times the base appears, and rewrite based on what exponents mean.       Let's introduce a couple new formulas where the tool in applies. Let's then demonstrate full examples of how to practice this tool, then do full examples of computations based on the new formulas.   Exponent rules, part 2                   Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .      (except possibly if )        Simplify .    Simplify .    Simplify .    Simplify .    What does a radical mean?    asks for the value that fills in the blank: . If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer.     Find .    Find .      If the small number outside of the radical is missing, it is a hidden 2.     should be said “ n-th root of a ”.    or can be said “2nd root of a” or “square root of a”.    is spoken “3rd root of a” but not “3 square root of a”.    is spoken “7th root of a” but not “7 square root of a”.          Simplify .    Simplify .    Simplify .    (when this makes sense)    .    Write with only one radical.    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .   The curse of distribution: In general, . For example, . In reality,   Exponents do not distribute over addition or subtraction. Since radicals are really exponents, radicals also do not distribute over addition and subtraction.      False  False  False  True  False    If , then .    text  text     Statement text    Solution text       Text      Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-exponents-2",
@@ -2431,20 +2431,29 @@ var ptx_lunr_docs = [
   "body": "  In this section, we learn how to:    .  .  .   "
 },
 {
+  "id": "principle-what-exponent-means",
+  "level": "2",
+  "url": "sec-exponents.html#principle-what-exponent-means",
+  "type": "Principle",
+  "number": "1.5.1",
+  "title": "What does an exponent mean?",
+  "body": " What does an exponent mean?   Exponentiation can be interpreted to mean repeated multiplication . An exponent is a way to represent repeated multiplication of a number by itself: means is multiplied by itself a total of times, where is a positive integer.   "
+},
+{
   "id": "principle-exponent-rules-1",
   "level": "2",
   "url": "sec-exponents.html#principle-exponent-rules-1",
   "type": "Principle",
-  "number": "1.5.1",
+  "number": "1.5.2",
   "title": "Exponent rules, part 1.",
   "body": " Exponent rules, part 1                  "
 },
 {
-  "id": "sec-exponents-4-6",
+  "id": "sec-exponents-4-8",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-6",
+  "url": "sec-exponents.html#sec-exponents-4-8",
   "type": "Example",
-  "number": "1.5.2",
+  "number": "1.5.3",
   "title": "",
   "body": " Simplify .   Using the exponent rule , we have .   "
 },
@@ -2453,63 +2462,54 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#exponential-example-1",
   "type": "Example",
-  "number": "1.5.3",
-  "title": "",
-  "body": " Simplify .   Using the exponent rule , we have .   "
-},
-{
-  "id": "sec-exponents-4-8",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-8",
-  "type": "Example",
   "number": "1.5.4",
   "title": "",
-  "body": "   Simplify .      . First, we used the exponent rule to rewrite as . Then, we used the exponent rule to rewrite each factor and also to rewrite .   "
-},
-{
-  "id": "sec-exponents-4-9",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-9",
-  "type": "Example",
-  "number": "1.5.5",
-  "title": "",
-  "body": "  Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .   "
+  "body": " Simplify .   Using the exponent rule , we have .   "
 },
 {
   "id": "sec-exponents-4-10",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-10",
   "type": "Example",
+  "number": "1.5.5",
+  "title": "",
+  "body": "   Simplify .      . First, we used the exponent rule to rewrite as . Then, we used the exponent rule to rewrite each factor and also to rewrite .   "
+},
+{
+  "id": "sec-exponents-4-11",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-11",
+  "type": "Example",
   "number": "1.5.6",
   "title": "",
   "body": "  Simplify .    Using the exponent rule , we have . Thus, .  Next, using the exponent rule , we have .  The third term and fourth term are already simplified: and .  Finally, using the exponent rule again, we have .  Now we can combine like terms: .   "
 },
 {
-  "id": "sec-exponents-4-12",
+  "id": "sec-exponents-4-13",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-12",
+  "url": "sec-exponents.html#sec-exponents-4-13",
   "type": "Example",
   "number": "1.5.7",
   "title": "",
   "body": " Simplify .   Using the exponent rule , we have .   "
 },
 {
-  "id": "sec-exponents-4-14",
+  "id": "sec-exponents-4-15",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-14",
+  "url": "sec-exponents.html#sec-exponents-4-15",
   "type": "Example",
   "number": "1.5.8",
   "title": "",
   "body": " Simplify .       "
 },
 {
-  "id": "sec-exponents-4-18",
+  "id": "principle-tool-for-exponents",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-18",
-  "type": "Example",
+  "url": "sec-exponents.html#principle-tool-for-exponents",
+  "type": "Principle",
   "number": "1.5.9",
-  "title": "",
-  "body": " Simplify .  "
+  "title": "How to keep track of exponent formulas, part 1.",
+  "body": " How to keep track of exponent formulas, part 1   For the two formulas we presented in , the left sides said and . How can know what is on the right side of each formula? What can we do when we've forgotten what's on the right side of each formula? And finally, how can we know why the right sides that get presented are actually legitimate in the first place? The answer to all of these questions is to expand the expression after selecting your own constants for the exponents (but not for the base), and expand based on .   "
 },
 {
   "id": "sec-exponents-4-19",
@@ -2518,16 +2518,16 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.5.10",
   "title": "",
-  "body": " Simplify .  "
+  "body": "  Suppose we recall that there is a formula that starts with , but we can't remember what is on the right side of the formula. Say we also recall there is a formula that starts with , but we can't remember what is on the right side of that formula either. Which of these two expressions involves adding the exponents, and which involes multiplying the exponents? That is, which has a power of and which has a power of ? To figure this out, we can pick our own values for and , and then expand each expression based on . While we can pick and to be as large as we want, let's pick small values to make the expansion easier. That said, we can't pick and to be too small: for example if we picked both and , both and would be equal to , which wouldn't help us distinguish between the two formulas.  Let's pick and , which is about as minimal as we can pick. Based on what exponents mean in :   We can expand as .    We can expand as .   Noting that and , we see that involves adding the exponents, while involves multiplying the exponents.   "
 },
 {
   "id": "sec-exponents-4-20",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-20",
-  "type": "Example",
+  "type": "Note",
   "number": "1.5.11",
   "title": "",
-  "body": " Simplify .  "
+  "body": " Note that we never picked a specific value for . It's not that we can't. We can! But, if we did (say we picked ), then we'd be looking at an expression like , and with constants in all places, it's too tempting to work on simplyfing arithmetic, which is both time-consuming, and hides what it is we're trying to get out of this. The point is that we just want to count how many times the base appears as a factor, and record that number of appearances as an exponent.  "
 },
 {
   "id": "sec-exponents-4-21",
@@ -2536,32 +2536,68 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.5.12",
   "title": "",
+  "body": "  Say we need to simplify , but forgot how the formulas go. Go through a process to recover the formula, then apply it it to simplify this expression.    Suppose we forgot how the formulas go. The shape of what we have is multiplying to expressions that have the same base: this is addressed by . The question becomes whether we add or multiply the exponents. To figure this out, we can work on the side where we temporarily pick our own values for and . Let's say we pick and , which are relatively small numbers. Then, based on , we can expand as and counting how many times the base is a factor, this is . So, in the case of , we add the exponents, which is why the full formula (which we might forget, but we just recovered through this process) is .  Now we can apply this formula: . Because it is challenging to simplify the addition of these fractions right away, we just first wrote the addition without simplifying it by writing , though we still needed to write as the base in order to ensure that the equal sign truly means equal. In the next step, we focused on simplifying the exponent area (by mentally zooming in) and found a common denominator.   "
+},
+{
+  "id": "principle-tool-for-exponents-2",
+  "level": "2",
+  "url": "sec-exponents.html#principle-tool-for-exponents-2",
+  "type": "Principle",
+  "number": "1.5.13",
+  "title": "",
+  "body": "  Based on what exponents mean in    Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)  Expand based on what exponents mean.    Count the number of times the base appears, and rewrite based on what exponents mean.      "
+},
+{
+  "id": "principle-exponent-rules-2",
+  "level": "2",
+  "url": "sec-exponents.html#principle-exponent-rules-2",
+  "type": "Principle",
+  "number": "1.5.14",
+  "title": "Exponent rules, part 2.",
+  "body": " Exponent rules, part 2                "
+},
+{
+  "id": "sec-exponents-4-26",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-26",
+  "type": "Example",
+  "number": "1.5.15",
+  "title": "",
+  "body": "  Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .   "
+},
+{
+  "id": "sec-exponents-4-28",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-28",
+  "type": "Example",
+  "number": "1.5.16",
+  "title": "",
   "body": " Simplify .  "
 },
 {
-  "id": "sec-exponents-4-23",
+  "id": "sec-exponents-4-29",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-23",
+  "url": "sec-exponents.html#sec-exponents-4-29",
   "type": "Example",
-  "number": "1.5.13",
+  "number": "1.5.17",
   "title": "",
-  "body": " Find .  "
+  "body": " Simplify .  "
 },
 {
-  "id": "sec-exponents-4-24",
+  "id": "sec-exponents-4-30",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-24",
+  "url": "sec-exponents.html#sec-exponents-4-30",
   "type": "Example",
-  "number": "1.5.14",
+  "number": "1.5.18",
   "title": "",
-  "body": " Find .  "
+  "body": " Simplify .  "
 },
 {
-  "id": "sec-exponents-4-32",
+  "id": "sec-exponents-4-31",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-32",
+  "url": "sec-exponents.html#sec-exponents-4-31",
   "type": "Example",
-  "number": "1.5.15",
+  "number": "1.5.19",
   "title": "",
   "body": " Simplify .  "
 },
@@ -2570,79 +2606,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-33",
   "type": "Example",
-  "number": "1.5.16",
+  "number": "1.5.20",
   "title": "",
-  "body": " Simplify .  "
+  "body": " Find .  "
 },
 {
   "id": "sec-exponents-4-34",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-34",
   "type": "Example",
-  "number": "1.5.17",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "sec-exponents-4-36",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-36",
-  "type": "Warning",
-  "number": "1.5.18",
-  "title": "",
-  "body": " .  "
-},
-{
-  "id": "sec-exponents-4-37",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-37",
-  "type": "Example",
-  "number": "1.5.19",
-  "title": "",
-  "body": " Write with only one radical.  "
-},
-{
-  "id": "sec-exponents-4-38",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-38",
-  "type": "Example",
-  "number": "1.5.20",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "sec-exponents-4-39",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-39",
-  "type": "Example",
   "number": "1.5.21",
   "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "sec-exponents-4-40",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-40",
-  "type": "Example",
-  "number": "1.5.22",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "sec-exponents-4-41",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-41",
-  "type": "Example",
-  "number": "1.5.23",
-  "title": "",
-  "body": " Simplify .  "
+  "body": " Find .  "
 },
 {
   "id": "sec-exponents-4-42",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-42",
   "type": "Example",
-  "number": "1.5.24",
+  "number": "1.5.22",
   "title": "",
   "body": " Simplify .  "
 },
@@ -2651,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-43",
   "type": "Example",
-  "number": "1.5.25",
+  "number": "1.5.23",
   "title": "",
   "body": " Simplify .  "
 },
@@ -2660,16 +2642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-44",
   "type": "Example",
-  "number": "1.5.26",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "sec-exponents-4-45",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-45",
-  "type": "Example",
-  "number": "1.5.27",
+  "number": "1.5.24",
   "title": "",
   "body": " Simplify .  "
 },
@@ -2677,24 +2650,51 @@ var ptx_lunr_docs = [
   "id": "sec-exponents-4-46",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-46",
-  "type": "Example",
-  "number": "1.5.28",
+  "type": "Warning",
+  "number": "1.5.25",
   "title": "",
-  "body": " Simplify .  "
+  "body": " .  "
 },
 {
   "id": "sec-exponents-4-47",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-47",
   "type": "Example",
-  "number": "1.5.29",
+  "number": "1.5.26",
   "title": "",
-  "body": " Simplify .  "
+  "body": " Write with only one radical.  "
 },
 {
   "id": "sec-exponents-4-48",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-48",
+  "type": "Example",
+  "number": "1.5.27",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-49",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-49",
+  "type": "Example",
+  "number": "1.5.28",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-50",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-50",
+  "type": "Example",
+  "number": "1.5.29",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-51",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-51",
   "type": "Example",
   "number": "1.5.30",
   "title": "",
@@ -2704,44 +2704,107 @@ var ptx_lunr_docs = [
   "id": "sec-exponents-4-52",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-52",
-  "type": "Warning",
+  "type": "Example",
   "number": "1.5.31",
   "title": "",
-  "body": "  "
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-53",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-53",
+  "type": "Example",
+  "number": "1.5.32",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-54",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-54",
+  "type": "Example",
+  "number": "1.5.33",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-55",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-55",
+  "type": "Example",
+  "number": "1.5.34",
+  "title": "",
+  "body": " Simplify .  "
 },
 {
   "id": "sec-exponents-4-56",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-56",
   "type": "Example",
-  "number": "1.5.32",
+  "number": "1.5.35",
   "title": "",
-  "body": "  Statement text    Solution text   "
+  "body": " Simplify .  "
 },
 {
   "id": "sec-exponents-4-57",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-57",
-  "type": "Try it",
-  "number": "1.5.33",
+  "type": "Example",
+  "number": "1.5.36",
   "title": "",
-  "body": "  Text    "
+  "body": " Simplify .  "
 },
 {
   "id": "sec-exponents-4-58",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-58",
+  "type": "Example",
+  "number": "1.5.37",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "sec-exponents-4-62",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-62",
+  "type": "Warning",
+  "number": "1.5.38",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-exponents-4-66",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-66",
+  "type": "Example",
+  "number": "1.5.39",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-exponents-4-67",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-67",
+  "type": "Try it",
+  "number": "1.5.40",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-exponents-4-68",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-68",
   "type": "Note",
-  "number": "1.5.34",
+  "number": "1.5.41",
   "title": "",
   "body": " Text  "
 },
 {
-  "id": "sec-exponents-4-59",
+  "id": "sec-exponents-4-69",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-59",
+  "url": "sec-exponents.html#sec-exponents-4-69",
   "type": "Warning",
-  "number": "1.5.35",
+  "number": "1.5.42",
   "title": "",
   "body": " text  "
 },
@@ -2750,7 +2813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-5-3",
   "type": "Example",
-  "number": "1.5.36",
+  "number": "1.5.43",
   "title": "",
   "body": "  Text    Answer   "
 },
