@@ -372,7 +372,7 @@
           <ul>
             <li>
               <p>
-                 Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)
+                Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)
               </p>
               <p>
                 Expand based on what exponents mean.
@@ -509,9 +509,17 @@
       </solution>
     </example>
 
+  <p>
+    Example, where there are several ways to simplify
+  </p>    
 
-
-
+  <principle xml:id="principle-exponent-rules-3">
+    <statement>
+      <p>
+        <m>\frac{a^m}{a^n} = a^{m-n}</m>
+      </p>
+    </statement>
+  </principle>
 
 
 
@@ -523,9 +531,7 @@
       <ul>
 
         <li><m>a^0 = 1</m> (except possibly if <m>a=0</m>)</li>
-        <li><m>\frac{a^m}{a^n} = a^{m-n}</m></li>
-
-        <li><m>a^{-n} = 1/a^n</m></li>
+        <li><m>a^{-n} = \frac{1}{a^n}</m></li>
         <li><m>a^n = (a^{-n})^{-1} = \frac{1}{a^{-n}}</m></li>
       </ul>
     </formula>
