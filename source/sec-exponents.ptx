@@ -411,6 +411,83 @@
       </p>
     </principle>
 
+    <p>
+      It would be easy to fall into the temptation of saying <q>Well, if I don't remember what's on the other side of one of these exponent formulas, I can just look it up.</q>
+      Let me be the first to admit that, yes, of course you <emph>can</emph> look it up in certain situations.
+      However, as this algebra course progresses, we will be looking at more involved problems, 
+      and in these problems, applyning exponent rules will need to happen as one pieces of the process.
+      It will really slow us down if we don't gain a little bit of familiarity with these formulas.
+      (Imagine if a professional chef who has to keep inventing new recipes works from the assumption of saying <q>I don't want to spend the brain space to think about the differences of the taste of basil, cinnamon, rosemary, and anise.</q>
+      Sure, anyone -- including the chef -- can go online and find descriptions of all four of these spices. But intentionally lacking familiarity is going to slow this cook down.)
+      Just like in speaking a foreign language, learning these exponent formulas is going to take some practice through repetition.
+      It won't stick just looking at them once or studying them once.
+      Before we dig into what's next, in the hopes that you'll really read what's next with effort, 
+      I also just want to say that it's <emph>hard</emph> for anyone to memorize a thing when there's no meaning behind it.
+      It would be hard to go in a room full of thirty strangers and memorize each person's name, address, and phone number if each person told you their info once.
+      The reason is that all the data is just disconnected: the phone number you learn for a stranger will just be a bunch of digits.
+      These exponent formulas can seem the same way if there's no meaning attached to it.
+      And people try doing that! People try to memorize these formulas, and struggle to do so.
+      Instead, let's practice a technique that helps us memorize these formulas better each time we practice what we're about to do, and more importantly, 
+      it does the job not <emph>only</emph> by having us stare (like we often passively do with flashcards), but instead shows us the <emph>meaning</emph> behind the notation
+      which convinces us <emph>why</emph> the formula is true in the first place!
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Suppose that in the course of working on an algebra problem, we encounter the expression <m>\left(\frac{s}{2})^5</m>.
+          Based on the shape of that expression, we think about a formula where one side says <m>\left({a}{b})^n</m>.
+          If we have forgotten the other side of that formula, how do we recover it?
+          Then, how do we apply the recovered formula to our expression?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The original expression <m>\left(\frac{s}{2})^5</m> is the format of <m>\left(\frac{a}{b})^n</m> because
+          the original expression is a fraction (numerator of denominator) raised to a power. 
+        </p>
+        <p>
+          We want to figure out what goes on the other side of the formula that has <m>\left(\frac{a}{b})^n</m> on one side.
+          To apply <xref ref="principle-tool-for-exponents-2" />, we should only pick values for exponent(s), but not for base(s),
+          so we will select something for <m>n</m> but not for <m>a</m> or <m>b</m>.
+          Let's pick <m>n=3</m>, which is a small positive integer.
+          Then, <xref ref="principle-what-exponent-means" /> reminds us what an exponent means, so we can expand <m>\left(\frac{a}{b})^n</m> as 
+          <me>\left(\frac{a}{b})^3 = \frac{a}{b} \cdot \frac{a}{b} \cdot \frac{a}{b} = \frac{a \cdot a \cdot a}{b \cdot b \cdot b} = \frac{a^3}{b^3}</me>.
+          Therefore, we have recovered the formula 
+          <me>\left(\frac{a}{b})^n = \frac{a^n}{b^n}.</me>
+          We can apply this formula to <m>\left(\frac{s}{2}\right)^5</m> and we see that
+          <me>\left(\frac{s}{2}\right)^5 = \frac{s^5}{2^5}.</me>
+          We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting <m>\frac{s^5}{32}</m>.
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      Stick with it!
+      This takes practice.
+      You may never have had to do this in algebra before, but I encourage you to try this.
+      This kind of activity actually gives us a real reason to believe the formulas are true in the first place,
+      and it is a lot easier to remember and know a thing that you believe is true with <emph>evidence</emph>, 
+      rather than a thing that someone just <emph>told</emph> you to believe is true.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          A major algebra formula has <m>(a \cdot b)^n</m> on one side.
+          How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?
+        </p>
+      </statement>
+      <solution>
+        To apply <xref ref="principle-tool-for-exponents-2" />, we should only pick values for exponent(s), but not for base(s),
+          so we will select something for <m>n</m> but not for <m>a</m> or <m>b</m>.
+          Let's pick <m>n=4</m>, which is a small positive integer.
+          Then, <xref ref="principle-what-exponent-means" /> reminds us what an exponent means, so we can expand <m>(a \cdot b)^n</m> as 
+          <me>(a \cdot b)^4 = (a \cdot b) \cdot (a \cdot b) \cdot (a \cdot b) \cdot (a \cdot b) = a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot b = a^4 b^4</me>.
+          Therefore, we have recovered the formula 
+          <me>(a \cdot b)^n = a^n \cdot b^n.</me>
+      </solution>
+    </example>
 
     <example>
       <statement>
@@ -433,6 +510,15 @@
     </example>
 
 
+
+
+
+
+
+
+
+
+
     <formula>
       <ul>
 
@@ -440,7 +526,7 @@
         <li><m>\frac{a^m}{a^n} = a^{m-n}</m></li>
 
         <li><m>a^{-n} = 1/a^n</m></li>
-        <li><m>a^n = (a^{-n})^{-1} = 1/a^{-n}</m></li>
+        <li><m>a^n = (a^{-n})^{-1} = \frac{1}{a^{-n}}</m></li>
       </ul>
     </formula>
 
