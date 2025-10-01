@@ -159,21 +159,6 @@
       </solution>
     </example>
 
-    <example>
-      <statement>
-        <p>
-          <p>Simplify <m>(x^2 y^3)^4</m>.</p>
-        </p>
-      </statement>
-      <solution>
-        <p>
-          <me>(x^2 y^3)^4 = (x^2)^4 (y^3)^4 = x^{2 \cdot 4} y^{3 \cdot 4} = x^8 y^{12}</me>.
-          First, we used the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^2 y^3)^4</m> as <me>(x^2)^4 (y^3)^4</me>.
-          Then, we used the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite each factor <me>(x^2)^4 = x^{2 \cdot 4} = x^8</me> and also to rewrite <me>(y^3)^4 = y^{3 \cdot 4} = y^{12}</me>.
-        </p>
-      </solution>
-    </example>
-
 
 
     <example>
@@ -435,15 +420,15 @@
     <example>
       <statement>
         <p>
-          Suppose that in the course of working on an algebra problem, we encounter the expression <m>\left(\frac{s}{2})^5</m>.
-          Based on the shape of that expression, we think about a formula where one side says <m>\left({a}{b})^n</m>.
+          Suppose that in the course of working on an algebra problem, we encounter the expression <m>\left(\frac{c}{2}\right)^5</m>.
+          Based on the shape of that expression, we think about a formula where one side says <m>\left({a}{b}\right)^n</m>.
           If we have forgotten the other side of that formula, how do we recover it?
           Then, how do we apply the recovered formula to our expression?
         </p>
       </statement>
       <solution>
         <p>
-          The original expression <m>\left(\frac{s}{2})^5</m> is the format of <m>\left(\frac{a}{b})^n</m> because
+          The original expression <m>\left(\frac{c}{2})^5</m> is the format of <m>\left(\frac{a}{b})^n</m> because
           the original expression is a fraction (numerator of denominator) raised to a power. 
         </p>
         <p>
@@ -455,9 +440,9 @@
           <me>\left(\frac{a}{b})^3 = \frac{a}{b} \cdot \frac{a}{b} \cdot \frac{a}{b} = \frac{a \cdot a \cdot a}{b \cdot b \cdot b} = \frac{a^3}{b^3}</me>.
           Therefore, we have recovered the formula 
           <me>\left(\frac{a}{b})^n = \frac{a^n}{b^n}.</me>
-          We can apply this formula to <m>\left(\frac{s}{2}\right)^5</m> and we see that
-          <me>\left(\frac{s}{2}\right)^5 = \frac{s^5}{2^5}.</me>
-          We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting <m>\frac{s^5}{32}</m>.
+          We can apply this formula to <m>\left(\frac{c}{2}\right)^5</m> and we see that
+          <me>\left(\frac{c}{2}\right)^5 = \frac{c^5}{2^5}.</me>
+          We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting <m>\frac{c^5}{32}</m>.
         </p>
       </solution>
     </example>
@@ -479,6 +464,7 @@
         </p>
       </statement>
       <solution>
+        <p>
         To apply <xref ref="principle-tool-for-exponents-2" />, we should only pick values for exponent(s), but not for base(s),
           so we will select something for <m>n</m> but not for <m>a</m> or <m>b</m>.
           Let's pick <m>n=4</m>, which is a small positive integer.
@@ -486,8 +472,81 @@
           <me>(a \cdot b)^4 = (a \cdot b) \cdot (a \cdot b) \cdot (a \cdot b) \cdot (a \cdot b) = a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot b = a^4 b^4</me>.
           Therefore, we have recovered the formula 
           <me>(a \cdot b)^n = a^n \cdot b^n.</me>
+        </p>
       </solution>
     </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>(rs)^3</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m>, we have <m>(rs)^3 = r^3 s^3</m>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>(gh^2)^5</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m>, we have <m>(gh^2)^5 = (g)^5 (h^2)^5</m>.
+          Note, in our use of this exponent rule, we treated <m>g</m> as <m>a</m> and <m>h^2</m> as <m>b</m>, since this assignment of values truly captures the idea that the value of <m>a</m> and the value of <m>b</m> are
+          multiplied together, and that result is taken to the power <m>n</m>. When we wrote <m>(g)^5 (h^2)^5</m> we could have skipped the parentheses around the <m>g</m> and write <m>g^5(h^2)^5</m> instead.
+          However, we kept parentheses around <m>h^2</m>. Otherwise, there's too much going on, since in the next step, we use <m>(a^m)^n=a^{mn}</m> to turn <m>(h^2)^5</m> into <m>h^{2 \cdot 5}</m>.
+          It doesn't make sense for us to skip writing
+          the work the very first time we ever need to combine the use of <m>(a \cdot b)^n = a^n \cdot b^n</m> and the the use of <m>(a^m)^n=a^{mn}</m>.
+          Then, using the exponent rule <m>(a^m)^n = a^{mn}</m>, we have <m>(h^2)^5 = h^{2 \cdot 5} = h^{10}</m>.
+          Based on the discussion above, a thorough answer would be:
+          <me>(gh^2)^5 = g^5(h^2)^5 = g^5 h^{2 \cdot 5} = g^5 h^{10}</me>
+          while an answwer (that is still based on the discussion above) that skips a little bit more would be:
+          <me>(gh^2)^5 = g^5h^{10}.</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>(x^2 y^3)^4</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^2 y^3)^4</m> as <m>(x^2)^4 (y^3)^4</m>.
+          We wrapped both the <m>x^2</m> and the <m>y^3</m> in parentheses, for the same reason we discussed in the previosu example.
+          Then, we use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite each factor <m>(x^2)^4 = x^{2 \cdot 4} = x^8</m> and also to rewrite <m>(y^3)^4 = y^{3 \cdot 4} = y^{12}</m>.
+          Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:
+          <me>(x^2 y^3)^4 = (x^2)^4 (y^3)^4 = x^{2 \cdot 4} y^{3 \cdot 4} = x^8 y^{12}.</me>
+        </p>
+      </solution>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>(3x^2 y^3)^4</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(3x^2 y^3)^4</m> as <m>(3)^4 (x^2)^4 (y^3)^4</m>.
+          In the new expression, <m>(3)^4 = 3^4 = 81</m> by arithmetic.
+          We use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite the other two factors: <m>(x^2)^4 = x^{2 \cdot 4} = x^8</m>, and also to rewrite <m>(y^3)^4 = y^{3 \cdot 4} = y^{12}</m>.
+          Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:
+          <me>(3x^2 y^3)^4 = (3)^4 (x^2)^4 (y^3)^4 = 81 x^8 y^{12}.</me>
+        </p>
+      </solution>
+    </example>
+
 
     <example>
       <statement>
@@ -509,21 +568,72 @@
       </solution>
     </example>
 
-  <p>
-    Example, where there are several ways to simplify
-  </p>    
+    <p>
+      In <xref ref="principle-exponent-rules-1" />, we saw <m>a^m a^n = a^{m+n}</m>, which in symbols says that multiplying two expressions that have the same base can be rewrtten as a single expression with that same base, 
+        with the exponent being the sum of the two starting exponents. Now, we show a formula for dividing two expressions that have the same base, and we see on the other sid eof the formula that we subtract the two starting exponents:
+    </p>
+    <principle xml:id="principle-exponent-rules-3">
+      <statement>
+        <p>
+          <m>\frac{a^m}{a^n} = a^{m-n}</m>
+        </p>
+      </statement>
+    </principle>
 
-  <principle xml:id="principle-exponent-rules-3">
-    <statement>
-      <p>
-        <m>\frac{a^m}{a^n} = a^{m-n}</m>
-      </p>
-    </statement>
-  </principle>
+    <example>
+      <statement>
+        <p>
+          The algebra formula we just presented has <m>\frac{a^m}{a^n}</m> on one side.
+          How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?
+        </p>
+      </statement>
+      <solution>
+        <p>
+        To apply <xref ref="principle-tool-for-exponents-2" />, we should only pick values for exponent(s), but not for base(s),
+          so we will select something for <m>m</m> and <m>n</m> but not for <m>a</m>.
+          Let's pick <m>m=5</m> and <m>n=2</m>.
+          Then, <xref ref="principle-what-exponent-means" /> reminds us what an exponent means,
+          so we can expand <m>\frac{a^m}{a^n}</m> as 
+          <me>\frac{a^5}{a^2} = \frac{a \cdot a \cdot a \cdot a \cdot a}{a \cdot a}.</me>
+          Then, we can cancel two factors of <m>a</m> from the numerator and denominator, getting <m>\frac{a \cdot a \cdot a}{1} = a^3</m>.
+          We see that in the example where <m>m=5</m> and <m>n=2</m>, this simplified to an expression where, with the base <m>a</m> written once, the exponent is <m>5-2</m>.
+          Therefore, we have recovered the formula
+          <me>\frac{a^m}{a^n} = a^{m-n}</me>.
+        </p>
+      </solution>
+    </example>
 
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\frac{c^7}{c^3}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          While we can use our new formula in <xref ref="principle-exponent-rules-3" />, we can skip this formula and instead apply <xref ref="principle-what-exponent-means" />.
+          Based on <xref ref="principle-what-exponent-means" />, we can expand <m>\frac{c^7}{c^3} = \frac{c \cdot c \cdot c \cdot c \cdot c \cdot c \cdot c}{c \cdot c \cdot c}</m>.
+          Then, we can cancel three factors of <m>c</m> from the numerator and denominator, getting <m>\frac{c \cdot c \cdot c \cdot c}{1} = c^4</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Using the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />, we have <m>\frac{c^7}{c^3} = c^{7-3} = c^4</m>, which leads to the same final answer.
+        </p>
+      </solution>
+    </example>
 
+    <p>
+      We found two ways to answer the last example.
+      <m>\frac{u^{30000}}{u^{41}}</m>
+      <m>\frac{u^{2/3}}{u^{1/6}}</m>
 
+      Often with exponent problems, lots of ways.
+    </p>
 
+    <warning>
+      <p><m>\frac{p^{12}}{p^4}</m></p>
+    </warning>
 
 
 
@@ -536,9 +646,12 @@
       </ul>
     </formula>
 
+    <p>
+      Example, where there are several ways to simplify
+    </p>    
 
     <example>
-      <statement><p>Simplify <m>a^{2/3} a^{1/5}</m>.</p></statement>
+      <statement><p>Simplify <m>m^{2/3} m^{1/5}</m>.</p></statement>
     </example>
 
     <example>
@@ -546,11 +659,11 @@
     </example>
 
     <example>
-      <statement><p>Simplify <m>c^7 / c^{1/2}</m>.</p></statement>
+      <statement><p>Simplify <m>r^7 / r^{1/2}</m>.</p></statement>
     </example>
 
     <example>
-      <statement><p>Simplify <m>c^{14} / c^{-2}</m>.</p></statement>
+      <statement><p>Simplify <m>u^{14} / u^{-2}</m>.</p></statement>
     </example>
 
   </subsection>
