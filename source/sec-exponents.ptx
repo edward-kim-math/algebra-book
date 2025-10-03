@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Exponents</title>
+  <title>Exponents and Radicals</title>
 
 	<objectives>
 		<introduction>
@@ -214,15 +214,32 @@
     </p>
 
     <example>
-      <statement><p>Simplify <m>m^4 m^{3/10} m^{2/5}</m>.</p></statement>
+      <statement><p>Simplify <m>m^4 m^{\frac{3}{10}} m^{\frac{2}{5}}</m>.</p></statement>
       <solution>
         <p>
           <md>
-            <mrow>\amp m^4 m^{3/10} m^{2/5}</mrow>
-            <mrow>\amp= m^{4 + 3/10 + 2/5}</mrow>
+            <mrow>\amp m^4 m^{\frac{3}{10}} m^{\frac{2}{5}}</mrow>
+            <mrow>\amp= m^{4 + \frac{3}{10} + \frac{2}{5}}</mrow>
             <mrow>\amp= m^{\frac{40}{10} + \frac{3}{10} + \frac{4}{10}}</mrow>
             <mrow>\amp= m^{\frac{47}{10}}</mrow>
           </md>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement><p>Simplify <m>m^4 (m^{\frac{3}{10}})^{\frac{2}{5}}</m>.</p></statement>
+      <solution>
+        <p>
+          <md>
+            <mrow>\amp m^4 (m^{\frac{3}{10}})^{\frac{2}{5}}</mrow>
+            <mrow>\amp= m^{4} m^{\frac{3}{10} \cdot \frac{2}{5}}</mrow>
+            <mrow>\amp= m^4 m^{\frac{6}{50}}</mrow>
+            <mrow>\amp= m^{4 + \frac{6}{50}}</mrow>
+            <mrow>\amp= m^{\frac{200}{50} + \frac{6}{50}}</mrow>
+            <mrow>\amp= m^{\frac{206}{50}}</mrow>
+          </md>
+          Unlike the previous question, notice that we had to use both exponent rules in <xref ref="principle-exponent-rules-1" /> to simplify this expression.
         </p>
       </solution>
     </example>
@@ -428,18 +445,18 @@
       </statement>
       <solution>
         <p>
-          The original expression <m>\left(\frac{c}{2})^5</m> is the format of <m>\left(\frac{a}{b})^n</m> because
+          The original expression <m>\left(\frac{c}{2}\right)^5</m> is in the format of <m>\left(\frac{a}{b}\right)^n</m> because
           the original expression is a fraction (numerator of denominator) raised to a power. 
         </p>
         <p>
-          We want to figure out what goes on the other side of the formula that has <m>\left(\frac{a}{b})^n</m> on one side.
+          We want to figure out what goes on the other side of the formula that has <m>\left(\frac{a}{b}\right)^n</m> on one side.
           To apply <xref ref="principle-tool-for-exponents-2" />, we should only pick values for exponent(s), but not for base(s),
           so we will select something for <m>n</m> but not for <m>a</m> or <m>b</m>.
           Let's pick <m>n=3</m>, which is a small positive integer.
-          Then, <xref ref="principle-what-exponent-means" /> reminds us what an exponent means, so we can expand <m>\left(\frac{a}{b})^n</m> as 
-          <me>\left(\frac{a}{b})^3 = \frac{a}{b} \cdot \frac{a}{b} \cdot \frac{a}{b} = \frac{a \cdot a \cdot a}{b \cdot b \cdot b} = \frac{a^3}{b^3}</me>.
-          Therefore, we have recovered the formula 
-          <me>\left(\frac{a}{b})^n = \frac{a^n}{b^n}.</me>
+          Then, <xref ref="principle-what-exponent-means" /> reminds us what an exponent means, so we can expand <m>\left(\frac{a}{b}\right)^n</m> as
+          <me>\left(\frac{a}{b}\right)^3 = \frac{a}{b} \cdot \frac{a}{b} \cdot \frac{a}{b} = \frac{a \cdot a \cdot a}{b \cdot b \cdot b} = \frac{a^3}{b^3}</me>.
+          Therefore, we have recovered the formula
+          <me>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}.</me>
           We can apply this formula to <m>\left(\frac{c}{2}\right)^5</m> and we see that
           <me>\left(\frac{c}{2}\right)^5 = \frac{c^5}{2^5}.</me>
           We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting <m>\frac{c^5}{32}</m>.
@@ -625,46 +642,348 @@
 
     <p>
       We found two ways to answer the last example.
-      <m>\frac{u^{30000}}{u^{41}}</m>
-      <m>\frac{u^{2/3}}{u^{1/6}}</m>
-
-      Often with exponent problems, lots of ways.
+      One answer used the formula given in <xref ref="principle-exponent-rules-3" />, while the other answer didn't (and only used what exponents mean from <xref ref="principle-what-exponent-means" />).
+      We bring this up for several reasons:
+      <ul>
+        <li>
+          <p>
+            One natural reaction to hearing <q>we didn't need the formula</q> in <xref ref="principle-exponent-rules-3" /> is to ask why bother showing this formula in the first place.
+            In a small enough example, it's fine to expand based on <xref ref="principle-what-exponent-means" />, but if we had a larger example like
+            <me>\frac{u^{30000}}{u^{41}}</me>
+            it would be impractical to expand based on <xref ref="principle-what-exponent-means" />, since nobody wants to write out <m>u</m> as a factor 30,000 times in the numerator and 41 times in the denominator.
+            In this case, the formula in <xref ref="principle-exponent-rules-3" /> is very useful, which lets us quickly write
+            <me>\frac{u^{30000}}{u^{41}} = u^{30000-41} = u^{29959}</me>.
+          </p>
+        </li>
+        <li>
+          <p>
+            It is also good to see that we got the same final answer of <m>c^4</m> both using the new formula and not using the new formula.
+            Getting the same final answer through two different routes (an old route and a new route) gives us more confidence that the new formula is correct.
+          </p>
+        </li>
+        <li>
+          <p>
+            Finally, it's just good to keep in mind that there are often multiple ways to answer a question.
+            This is true in math, as it is in life.
+            It is good to be flexible and adaptable.
+            There is often more than one way to approach a problem.
+            Especially in the area of exponents (and radicals, which we will see next), there are often multiple ways to answer a question.
+            I bring this up because in several of the practice problems that are to follow, I will be providing several different ways to answer the same question.
+            In fact, for many of the questions we'll see, there are many possible different first steps!
+            This is not to confuse you, but rather to show you that there are often multiple ways to approach a problem.
+            Moreover, if a question naturally has several different answers (with different starts) that are all equally reasonable as answers (none much longer than the other),
+            then I think it does a disservice to you to <emph>not</emph> show multiple answers:
+            this might lead you to think that the way you're thinking about the problem doesn't work.
+            My experience working with students has shown me that, especially in the area of exponents and radicals, multiple students start the same problem differently with approaches that all <emph>work</emph>!
+          </p>
+        </li>
+      </ul>
     </p>
 
-    <warning>
-      <p><m>\frac{p^{12}}{p^4}</m></p>
-    </warning>
-
-
-
-    <formula>
-      <ul>
-
-        <li><m>a^0 = 1</m> (except possibly if <m>a=0</m>)</li>
-        <li><m>a^{-n} = \frac{1}{a^n}</m></li>
-        <li><m>a^n = (a^{-n})^{-1} = \frac{1}{a^{-n}}</m></li>
-      </ul>
-    </formula>
-
     <p>
-      Example, where there are several ways to simplify
+      Before digging into practice problems that have different answers, let's do just a little more practice with the formula in <xref ref="principle-exponent-rules-3" />.
     </p>    
 
     <example>
-      <statement><p>Simplify <m>m^{2/3} m^{1/5}</m>.</p></statement>
+      <statement>
+        <p>
+          Simplify <m>\frac{u^{2/3}}{u^{1/6}}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since we are dividing two exponential expressions that have the same base, the formula <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" /> applies.
+          <me>\frac{u^{2/3}}{u^{1/6}} = u^{\frac{2}{3} - \frac{1}{6}} = u^{\frac{4}{6} - \frac{1}{6}} = u^{\frac{3}{6}} = u^{\frac{1}{2}}.</me>
+          Note that in the second step, we found a common denominator of 6 to subtract the two fractions.
+          In the last step, we simplified the fraction <m>\frac{3}{6}</m>.
+          It was very useful to write the step <m>u^{\frac{2}{3} - \frac{1}{6}}</m> even though we didn't simplify the exponent right away: we worked on getting a common denominator for the subtraction of fractions in the step after that.
+          I can understand when someone doesn't do this in an easier problem like <m>\frac{u^7}{u^2}</m>, skipping the step of writing <m>u^{7-2}</m> and going directly to <m>u^5</m>, but that's because it's easier to simplify <m>7-2</m>
+          than it is to simplify <m>\frac{2}{3} - \frac{1}{6}</m> in your head.
+          When the simplification of the exponent is not immediate, it's just nicer to take it a little slower and write what the subtraction is first before simplifying the subtraction.
+        </p>
+      </solution>
+    </example>
+
+    <warning xml:id="warning-exponent-division-misconception">
+      <statement>
+        <p>
+          Note <m>\frac{a^m}{a^n}</m> turns into <m>a^{m-n}</m>, not <m>a^{m \div n}</m>. (In other words, to simplify <m>\frac{a^m}{a^n}</m>, we must <emph>subtract</emph> the exponents instead of <emph>dividing</emph> the exponents.)
+        </p>
+      </statement>
+    </warning>
+    <example>
+      <statement>
+        <p>
+          A common error is to take an expression such as <m>\frac{p^{12}}{p^4}</m> and due to seeing the exponents of <m>12</m> and <m>4</m> incorrectly conclude that the result is <m>p^3</m>, 
+          which someone likely obtains by thinking about <m>12 \div 4</m>. However, <m>\frac{p^{12}}{p^4} = p^{12-4} = p^8</m>.
+        </p>
+      </statement>
     </example>
 
     <example>
-      <statement><p>Simplify <m>(xy^4)^3 x^8 (x^3 z)^{10}</m>.</p></statement>
+      <statement>
+        <p>
+          Simplify <m>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          First, we will zoom in to the portion of the expression that says <m>(x^4y^5)^2</m>, 
+          where we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^4y^5)^2</m> as <m>(x^4)^2 (y^5)^2 = x^{4 \cdot 2} y^{5 \cdot 2} = x^8 y^{10}</m>.
+          Thus, <m>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10} = \left(\frac{x^8 y^{10}}{x^2 y^3}\right)^{10}</m>.
+        </p>
+        <p>
+          Next, we use the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> to rewrite <m>\frac{x^8}{x^2} = x^{8-2} = x^6</m>, and also to rewrite <m>\frac{y^{10}}{y^3} = y^{10-3} = y^7</m>.
+          Thus, <m>\left(\frac{x^8 y^{10}}{x^2 y^3}\right)^{10} = (x^6 y^7)^{10}</m>.
+        </p>
+        <p>
+          Finally, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^6 y^7)^{10} = (x^6)^{10} (y^7)^{10}</m>, and then use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite
+          <m>(x^6)^{10} = x^{6 \cdot 10} = x^{60}</m> and also to rewrite <m>(y^7)^{10} = y^{7 \cdot 10} = y^{70}</m>.
+        </p>
+        <p>
+          Therefore, <m>(x^6 y^7)^{10} = x^{60} y^{70}</m>.
+        </p>
+        <p>
+          In summary,
+          <me>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10} = \left(\frac{x^8 y^{10}}{x^2 y^3}\right)^{10} = (x^6 y^7)^{10} = (x^6)^{10} (y^7)^{10} = x^{6 \cdot 10} y^{7 \cdot 10} = x^{60} y^{70}.</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We could have started by using <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m> to rewrite <m>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10} = \frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Then, we use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite <m>((x^4y^5)^2)^{10} = (x^4y^5)^{2 \cdot 10} = (x^4y^5)^{20}</m>.
+          Thus, <m>\frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}} = \frac{(x^4y^5)^{20}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Next, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^4y^5)^{20} = (x^4)^{20} (y^5)^{20}</m>, and then use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite
+          <m>(x^4)^{20} = x^{4 \cdot 20} = x^{80}</m> and also to rewrite <m>(y^5)^{20} = y^{5 \cdot 20} = y^{100}</m>.
+          Thus, <m>\frac{(x^4y^5)^{20}}{(x^2y^3)^{10}} = \frac{x^{80} y^{100}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Next, we do similar work in the denominator:
+          we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^2y^3)^{10} = (x^2)^{10} (y^3)^{10}</m>, and then use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite
+          <m>(x^2)^{10} = x^{2 \cdot 10} = x^{20}</m> and also to rewrite <m>(y^3)^{10} = y^{3 \cdot 10} = y^{30}</m>.
+          Thus, <m>\frac{x^{80} y^{100}}{(x^2y^3)^{10}} = \frac{x^{80} y^{100}}{x^{20} y^{30}}</m>.
+        </p>
+        <p>
+          The next step we discuss is often glossed over, but we wanted to be thorough here. Recall that when simplifying the product of two fractions, we can just multiply the numerators and multiply the denominators.
+          We can do this in reverse, too: when we see a single fraction, we can turn this into a product of two fractions:
+          <m>\frac{x^{80} y^{100}}{x^{20} y^{30}} = \frac{x^{80}}{x^{20}} \cdot \frac{y^{100}}{y^{30}}</m>
+        </p>
+        <p>
+          Next, we use the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> to rewrite <m>\frac{x^{80}}{x^{20}} = x^{80-20} = x^{60}</m>, and also to rewrite <m>\frac{y^{100}}{y^{30}} = y^{100-30} = y^{70}</m>.
+          Therefore, <me>\frac{x^{80} y^{100}}{x^{20} y^{30}} = x^{60} y^{70}</me>.
+        </p>
+        <p>
+          In summary,
+          <me>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10} = \frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}} = \frac{(x^4y^5)^{20}}{(x^2y^3)^{10}} = \frac{(x^4)^{20} (y^5)^{20}}{(x^2)^{10} (y^3)^{10}} = \frac{x^{80} y^{100}}{x^{20} y^{30}} = x^{60} y^{70}.</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We could have started by using <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m> to rewrite <m>(\frac{(x^4y^5)^2}{x^2y^3})^{10} = \frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Then, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^4y^5)^2</m> as <m>(x^4)^2 (y^5)^2 = x^{4 \cdot 2} y^{5 \cdot 2} = x^8 y^{10}</m>.
+          Thus, <m>\frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}} = \frac{(x^8 y^{10})^{10}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Next, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^8 y^{10})^{10} = (x^8)^{10} (y^{10})^{10}</m>, and then use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite
+          <m>(x^8)^{10} = x^{8 \cdot 10} = x^{80}</m> and also to rewrite <m>(y^{10})^{10} = y^{10 \cdot 10} = y^{100}</m>.
+          Thus, <m> \frac{(x^8 y^{10})^{10}}{(x^2y^3)^{10}} = \frac{x^{80} y^{100}}{(x^2y^3)^{10}}</m>.
+        </p>
+        <p>
+          Similarly, in the denominator, we use the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> to rewrite <m>(x^2y^3)^{10} = (x^2)^{10} (y^3)^{10}</m>, and then use the exponent rule <m>(a^m)^n = a^{mn}</m> to rewrite
+          <m>(x^2)^{10} = x^{2 \cdot 10} = x^{20}</m> and also to rewrite <m>(y^3)^{10} = y^{3 \cdot 10} = y^{30}</m>.
+          Thus, <m>\frac{x^{80} y^{100}}{(x^2y^3)^{10}} = \frac{x^{80} y^{100}}{x^{20} y^{30}}</m>.
+        </p>
+        <p>
+          Applying the multiplication of fractions <q>backwards</q> just as we did in the previous answer,
+          <m>\frac{x^{80} y^{100}}{x^{20} y^{30}} = \frac{x^{80}}{x^{20}} \cdot \frac{y^{100}}{y^{30}}</m>
+        </p>
+        <p>
+          Next, we use the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> to rewrite <m>\frac{x^{80}}{x^{20}} = x^{80-20} = x^{60}</m>, and also to rewrite <m>\frac{y^{100}}{y^{30}} = y^{100-30} = y^{70}</m>.
+        </p>
+        <p>
+          Therefore, <m>\frac{x^{80} y^{100}}{x^{20} y^{30}} = x^{60} y^{70}</m>.
+        </p>
+        <p>
+          In summary, <me>\left(\frac{(x^4y^5)^2}{x^2y^3}\right)^{10} = \frac{((x^4y^5)^2)^{10}}{(x^2y^3)^{10}} = \frac{(x^4y^5)^{20}}{(x^2y^3)^{10}} = \frac{(x^4)^{20} (y^5)^{20}}{(x^2)^{10} (y^3)^{10}} = \frac{x^{80} y^{100}}{x^{20} y^{30}} = x^{60} y^{70}.</me>
+        </p>
+        <p>
+          Note that this third solution is very similar to the second solution, except that in the second solution, we first simplified <m>(x^4y^5)^2</m> before simplifying <m>(x^2y^3)^{10}</m>,
+          while in this third solution, we first simplified <m>(x^2y^3)^{10}</m> before simplifying <m>(x^4y^5)^2</m>.
+          Both approaches work equally well.
+        </p>
+      </solution>
+    </example>
+    <p>
+      An example like this one shows that there are often multiple ways to approach a problem, and that is okay.
+      We just showed three different ways to answer the problem, all leading to the same final answer.
+      These didn't even all start exactly the same way!
+      The first solution started by zooming quite far in, simplifying <m>(x^4y^5)^2</m>, while the second and third solutions started by rewriting the entire expression using <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m>.
+      All three answers (and in fact, additional answers that we didn't provide) are all great, and each takes about the same amount of time.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>((x^2)^3(xy^4)^5)^{10}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p><m>
+          ((x^2)^3(xy^4)^5)^{10} 
+          = ((x^6)(x^5 (y^4)^5))^{10} 
+          = (x^6 x^5 y^{20})^{10}
+          = (x^{11} y^{20})^{10} 
+          = (x^{11})^{10} (y^{20})^{10} 
+          = x^{110} y^{200}
+        </m></p>
+      </solution>
+      <solution>
+        <p><m>
+          ((x^2)^3(xy^4)^5)^{10} 
+          = ((x^2)^3)^{10} ((xy^4)^5)^{10} 
+          = (x^2)^{30} (xy^4)^{50}
+          = x^{60} x^{50} (y^4)^{50}
+          = x^{110} y^{200}
+        </m></p>
+      </solution>
+      <solution>
+        <p><m>
+          ((x^2)^3(xy^4)^5)^{10} 
+          = (x^2)^{30} (xy^4)^{50}
+          = x^{60} (x^5 (y^4)^5)^{10}
+          = x^{60} (x^5)^{10} (y^4)^{50}
+          = x^{110} y^{200}
+        </m></p>
+      </solution>
+    </example>
+
+
+    <p>
+      There are three last exponent rules that we discuss:
+    </p>
+    <principle xml:id="principle-exponent-rules-4">
+      <statement>
+        <p>
+          <ul>
+            <li><m>a^0 = 1</m> (except possibly if <m>a=0</m>)</li>
+            <li><m>a^{-n} = \frac{1}{a^n}</m></li>
+            <li><m>a^n = \frac{1}{a^{-n}}</m></li>
+          </ul>          
+        </p>
+      </statement>
+    </principle>
+
+    <example>
+      <statement> 
+        <p>
+          Simplify <m>c^{5-5}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>c^{5-5} = \frac{c^5}{c^5}</m> by the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />.
+          The fraction we wrote is saying that we are dividing a quantity by itself, so this equals <m>1</m>.
+          Therefore, <m>c^{5-5} = 1</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Since <m>5-5=0</m>, we have <m>c^{5-5} = c^0</m>.
+          Using the exponent rule <m>a^0 = 1</m> in <xref ref="principle-exponent-rules-4" />, we have <m>c^0 = 1</m>.
+          Therefore, <m>c^{5-5} = 1</m>.
+        </p>
+      </solution>
+    </example>
+    <p>Our first answer did not use the new exponent formula <m>a^0 = 1</m>, while our second answer did. 
+      The fact that both answers led to the same final answer of <m>1</m> gives us more confidence that the new formula is correct.
+    </p>
+
+    <example>
+      <statement><p>Simplify <m>5^0</m>.</p></statement>
+      <solution><p>Using the exponent rule <m>a^0 = 1</m> in <xref ref="principle-exponent-rules-4" />, we have <m>5^0 = 1</m>.</p></solution>
     </example>
 
     <example>
-      <statement><p>Simplify <m>r^7 / r^{1/2}</m>.</p></statement>
+      <statement><p>Rewrite <m>\frac{u^3}{u^6}</m> in two different ways.
+        In one writing, the only exponent fact/concept to use is <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />.
+        In the other writing, the only exponent fact/concept to use is what an exponent means from <xref ref="principle-what-exponent-means" />.</p></statement>
+      <solution>
+        <p>
+          <ul>
+            <li>
+              <p>
+                Using the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />, we have <m>\frac{u^3}{u^6} = u^{3-6} = u^{-3}</m>.
+                The only exponent fact/concept we used was <m>\frac{a^m}{a^n} = a^{m-n}</m>.
+              </p>
+              <p>
+                Using <xref ref="principle-what-exponent-means" />, we can expand <m>\frac{u^3}{u^6} = \frac{u \cdot u \cdot u}{u \cdot u \cdot u \cdot u \cdot u \cdot u}</m>.
+                Then, we can cancel three factors of <m>u</m> from the numerator and denominator, getting <m>\frac{1}{u \cdot u \cdot u} = \frac{1}{u^3}</m>.
+                While we applied cancellation rules for fractions, the only exponent fact/concept we used was what an exponent means from <xref ref="principle-what-exponent-means" />.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </solution>
     </example>
+
+    <p>
+      Following the instructions, we saw that <m>\frac{u^3}{u^6}</m> became either <m>u^{-3}</m> or became <m>\frac{1}{u^3}</m>.
+      All of our work was valid.
+      Therefore, <m>u^{-3} = \frac{1}{u^3}</m>.
+      In fact, our conclusion of <m>u^{-3} = \frac{1}{u^3}</m> is an example of the exponent rule <m>a^{-n} = \frac{1}{a^n}</m> in <xref ref="principle-exponent-rules-4" /> at play,
+      and this activity gives us reason to believe <m>a^{-n} = \frac{1}{a^n}</m>.
+    </p>
+    <warning>
+      <p>
+        Just a note that <m>\frac{u^3}{u^6}</m> does not become <m>u^{1/2}</m>. For more info, see <xref ref="warning-exponent-division-misconception" />.
+      </p>
+    </warning>
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Rewrite <m>\frac{c^2}{c^7}</m> in two different ways.
+          In one writing, the only exponent fact/concept to use is <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />.
+          In the other writing, the only exponent fact/concept to use is what an exponent means from <xref ref="principle-what-exponent-means" />.
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
+
 
     <example>
       <statement><p>Simplify <m>u^{14} / u^{-2}</m>.</p></statement>
     </example>
+
+    <note>
+      <p>
+        Lead in: how do we simplify <m>3^c 10^c</m> and how can we simplify <m>\frac{20^c}{5^c}</m>?
+      </p>
+      <p>
+        Comparing formulas of the format <m>a^m a^n</m> versus <m>a^n b^n</m>.
+      </p>
+      <p>
+        Comparing formulas of the format <m>\frac{a^m}{a^n}</m> versus <m>\frac{a^n}{b^n}</m>.
+      </p>
+    </note>
+
+    <warning>
+      <statement>
+        <p>
+          <m>(a+b)^n</m>
+        </p>
+      </statement>
+    </warning>
+
+
 
   </subsection>
 
