@@ -277,7 +277,7 @@
     </p>
 
     <principle xml:id="principle-tool-for-exponents">
-      <title>How to keep track of exponent formulas, part 1</title>
+      <title>How to keep track of exponent formulas</title>
       <statement>
         <p>
           For the two formulas we presented in <xref ref="principle-exponent-rules-1" />, the left sides said <m>a^m \cdot a^n</m> and <m>(a^m)^n</m>.
@@ -493,7 +493,7 @@
       </solution>
     </example>
 
-    <example>
+    <example xml:id="exponential-example-product-quantity-to-power">
       <statement>
         <p>
           Simplify <m>(rs)^3</m>.
@@ -957,33 +957,208 @@
       <!-- <response /> --><!-- Commented out the response area where a student can type. -->
     </exercise>
 
+    <example>
+      <statement><p>Simplify <m>\frac{u^{14}}{u^{-2}}</m>.</p></statement>
+      <solution>
+        <p>
+          One option is to use <m>a^{-n} = \frac1{a^n}</m> to turn <m>u^{-2}</m> into <m>\frac1{u^2}</m>.
+          Then the original expression <m>\frac{u^{14}}{u^{-2}}</m> is equal to <m>\frac{u^{14}}{\frac{1}{u^2}}</m>.
+        </p>
+        <p>
+          If we wish to avoid the look of the fraction inside the fraction 
+          (the overall expression is a fraction whose denominator is itself a fraction), we can instead write the expression
+          <m>u^{14} \div \frac{1}{u^2}</m>.
+        </p>
+        <p>
+          Instead of dividing a non-fraction and a fraction, we can rewrite this
+          <m>\frac{u^{14}}{1} \div \frac{1}{u^2}</m>, which is a division of two fractions, which then becomes
+          <m>\frac{u^{14}}{1} \cdot \frac{u^2}{1}</m>, where we multiply across to get 
+          <m>\frac{u^{14} \cdot u^2}{1 \cdot 1} = \frac{u^{16}}{1} = u^{16}</m>.
+        </p>
+        <p>
+          If we present all the work using equal signs (and skipping a reasonable number of steps from above), we have
+          <m>
+            \frac{u^{14}}{u^{-2}}
+            = \frac{u^{14}}{\frac{1}{u^2}}
+            = \frac{u^{14}}{1} \div \frac{1}{u^2}
+            = \frac{u^{14}}{1} \cdot \frac{u^2}{1}
+            = u^{16}
+          </m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Instead of zooming in to replace <m>u^{-2}</m> with <m>\frac1{u^2}</m>, 
+          we can instead completely zoom out, looking at the whole expression,
+          and use the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> to replace the entire expression
+          <m>\frac{u^{14}}{u^{-2}}</m> with <m>u^{14 - (-2)} = u^{14 + 2} = u^{16}</m>.
+          Note that we wrote the exponent first as <m>14 - (-2)</m> before simplifying to <m>14 + 2</m>.
+          Why are there two minus signs?
+          One minus sign is the minus sign that's already built into the formula <m>\frac{a^m}{a^n} = a^{m-n}</m>,
+          and the other minus sign is the one that is part of the exponent <m>-2</m>.
+        </p>
+      </solution>
+    </example>
+    <warning>
+      <p>
+        Just a note that <m>\frac{u^{14}}{u^{-2}}</m> does not become <m>u^{14-2}</m> using <m>\frac{a^m}{a^n} = a^{m-n}</m>.
+        Instead, a different expression, namely <m>\frac{u^{14}}{u^2}</m>, becomes <m>u^{14-2}</m> using <m>\frac{a^m}{a^n} = a^{m-n}</m>.q        
+      </p>
+    </warning>
 
+
+
+
+    <note>
+      <p>
+        In <xref ref="principle-exponent-rules-1" /> we saw the formula <m>a^m a^n = a^{m+n}</m>.
+        In <xref ref="principle-exponent-rules-2" />  we saw the formula <m>(ab)^n=a^n b^n</m>.
+        The first formula tells us that when we have an expression of the form <m>a^m a^n</m> we can replace it with the equal expression <m>a^{m+n}</m>.
+        However, we can also go in reverse: if we see an expression of the form <m>a^{m+n}</m>, we can replace it with the equal expression <m>a^m a^n</m>.
+        The second formula tells us that when we have an expression of the form <m>(ab)^n</m> we can replace it with the equal expression <m>a^n b^n</m>.
+        However, we can also go in reverse: if we see an expression of the form <m>a^n b^n</m>, we can replace it with the equal expression <m>(ab)^n</m>.
+      </p>
+      <p>
+        If we compare the left side of the first formula and the right side of the second formula, they have the same <q>shape</q> to them.
+        What I mean is that both expressions <m>a^m a^n</m> and <m>a^n b^n</m> happen to be a base raised to an exponent, multiplied by a base raised to an exponent.
+        So, we really have to pay attention to which variable(s) are repeated and which variable(s) are not repeated.
+        For example, in <m>a^m a^n</m>, the base <m>a</m> is repeated, while in <m>a^n b^n</m>, the exponent <m>n</m> is repeated.
+      </p>
+      <p>
+        Thus, in the expression <m>3^c 10^c</m>, both exponents are the same, 
+        meaning that the formula which has <m>a^n b^n</m> on one side applies, since <m>a^n b^n</m> also has exponents which match.
+        In the expression <m>\sqrt{7}^k \sqrt{7}^4</m>, the bases are the same,
+        so the formula which has <m>a^m a^n</m> on one side applies, since <m>a^m a^n</m> also has bases which match.
+      </p>
+    </note>
+    <example>
+      <statement>
+        <p>
+          Rewrite <m>3^c 10^c</m> using a relevant exponent formula.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since both exponents are the same, we can use the formula <m>(ab)^n = a^n b^n</m> in <xref ref="principle-exponent-rules-2" /> to rewrite <m>3^c 10^c = (3 \cdot 10)^c = 30^c</m>.
+          While we have practiced using the formula <m>(ab)^n = a^n b^n</m> 
+          to turn an expression of the form <m>(ab)^n</m> into an expression of the form <m>a^n b^n</m> (see for example <xref ref="exponential-example-product-quantity-to-power" />),
+          we can also use the formula in reverse, turning an expression of the form <m>a^n b^n</m> into an expression of the form <m>(ab)^n</m>, like we just did in this example.
+        </p>
+      </solution>
+    </example>
 
     <example>
-      <statement><p>Simplify <m>u^{14} / u^{-2}</m>.</p></statement>
+      <statement>
+        <p>
+          Rewrite <m>\sqrt{7}^k \sqrt{7}^4</m> using a relevant exponent formula.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since both bases are the same (they happen to be <m>\sqrt{7}</m>), we can use the formula <m>a^m a^n = a^{m+n}</m> in <xref ref="principle-exponent-rules-1" /> to rewrite <m>\sqrt{7}^k \sqrt{7}^4 = \sqrt{7}^{k+4}</m>.
+          In this example, the new exponent <m>k+4</m> does not simplify further. In another example like <m>u^3 u^5</m>, we can apply the formula to get <m>u^{3+5}</m>, or even skip writing this step, and in either case we could simplify the new exponent <m>3+5</m> to <m>8</m>.
+        </p>
+      </solution>
     </example>
 
     <note>
       <p>
-        Lead in: how do we simplify <m>3^c 10^c</m> and how can we simplify <m>\frac{20^c}{5^c}</m>?
+        In <xref ref="principle-exponent-rules-2" /> we saw the formula <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m>.
+        In <xref ref="principle-exponent-rules-3" /> we saw the formula <m>\frac{a^m}{a^n} = a^{m-n}</m>.
+        The right side of the first formula and the left side of the second formula have the same <q>shape</q> to them.
+        However, in <m>\frac{a^n}{b^n}</m> the exponents match, while in <m>\frac{a^m}{a^n}</m> the bases match.
       </p>
       <p>
-        Comparing formulas of the format <m>a^m a^n</m> versus <m>a^n b^n</m>.
-      </p>
-      <p>
-        Comparing formulas of the format <m>\frac{a^m}{a^n}</m> versus <m>\frac{a^n}{b^n}</m>.
+        Thus, in the expression <m>\frac{20^c}{5^c}</m>, both exponents are the same, 
+        meaning that the formula which has <m>\frac{a^n}{b^n}</m> on one side applies, since <m>\frac{a^n}{b^n}</m> also has exponents which match.
+        In the expression <m>\frac{p^8}{p^2}</m>, the bases are the same,
+        so the formula which has <m>\frac{a^m}{a^n}</m> on one side applies, since <m>\frac{a^m}{a^n}</m> also has bases which match.
       </p>
     </note>
+    <example>
+      <statement>
+        <p>
+          Rewrite <m>\frac{20^c}{5^c}</m> using a relevant exponent formula.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since both exponents are the same, we can use the formula <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m> in <xref ref="principle-exponent-rules-2" /> 
+          to rewrite <m>\frac{20^c}{5^c} = (\frac{20}{5})^c = 4^c</m>.
+          While we have practiced using the formula <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m> 
+          to turn an expression of the form <m>(\frac{a}{b})^n</m> into an expression of the form <m>\frac{a^n}{b^n}</m> 
+          (see for example AAAAA),
+          we can also use the formula in reverse, turning an expression of the form <m>\frac{a^n}{b^n}</m> into an expression of the form <m>(\frac{a}{b})^n</m>, 
+          like we just did in this example.
+        </p>
+      </solution>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Rewrite <m>\frac{p^8}{p^2}</m> using a relevant exponent formula.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since both bases are the same (they happen to be <m>p</m>), we can use the formula <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" /> 
+          to rewrite <m>\frac{p^8}{p^2} = p^{8-2} = p^6</m>.
+          While we have practiced using the formula <m>\frac{a^m}{a^n} = a^{m-n}</m> 
+          to turn an expression of the form <m>\frac{a^m}{a^n}</m> into an expression of the form <m>a^{m-n}</m> 
+          (see for example AAAA),
+          we can also use the formula in reverse, turning an expression of the form <m>a^{m-n}</m> into an expression of the form <m>\frac{a^m}{a^n}</m>, 
+          like we just did in this example.
+        </p>
+      </solution>
+    </example>
+    <p>
+      Note that a common mistake is to turn <m>\frac{p^8}{p^2}</m> into <m>p^4</m>. However, there is no exponent rule that justifies this. 
+      In fact, among all the exponent rules we have seen up to this point,
+      there is never a time that one exponent gets divided by another exponent.
+    </p>
 
     <warning>
       <statement>
         <p>
-          <m>(a+b)^n</m>
+          It is a very common error to turn an expression of the form <m>(x+y)^n</m> into an expression of the from <m>x^n + y^n</m>.
         </p>
       </statement>
     </warning>
-
-
+    <p>
+      Here are specific examples of what this warning is trying to address:
+      <ul>
+        <li><p>We cannot turn <m>(x+y)^2</m> into <m>x^2 + y^2</m>.</p></li>
+        <li><p>We cannot turn <m>(u+7)^9</m> into <m>u^9 + 7^9</m>.</p></li>
+        <li><p>We cannot turn <m>(2+k)^c</m> into <m>2^c + k^c</m>.</p></li>
+      </ul>
+      We have seen various versions of the distributive property in AAAAAA.
+      For example, specific versions included <m>a(b+c) = ab + ac</m> and <m>(b+c)a = ba + ca</m>.
+      It is true that in our examples where we said that we couldn't <q>distribute</q>, we had addition inside the parentheses.
+      So, what's the problem? Why doesn't the distributive rule apply?
+      The issue is that in the <emph>format</emph> of <m>a(b+c)</m>, we have to be <emph>very</emph> careful to pay attention
+      the operation between <m>a</m> and the content in parentheses.
+      In <m>a(b+c)</m>, the operation between <m>a</m> and <m>(b+c)</m> is multiplication.
+      In other words, <m>a</m> is a factor that is multiplied.
+      The Distributive Law only addresses the situation where a factor is multiplied by a sum or a difference.
+      The point is that it is <emph>not enough</emph> to just think that anything outside of parentheses can be <q>distributed</q> to everything inside the parentheses.
+      In all three of our examples above, the thing outside of parentheses is an exponent, not a factor.
+    </p>
+    <p>
+      The Distributive Law only applies to the situation that it is describing through its formula, and nothing else.
+      This is why we have to pay close attention to the formula as written: 
+      we examine each formula for what operations are occuring, where these operations are occuring, and any repeated variables.
+      If we don't pay close attention to these details, we may misapply a formula.
+    </p>
+    <p>
+      We have introduced the exponent rule <m>(ab)^n = a^n b^n</m> in <xref ref="principle-exponent-rules-2" />.
+      In this formula, the operation between <m>a</m> and <m>b</m> is multiplication, and the role of the thing outside of parentheses <m>is</m> an exponent.
+      So, this formula tells us that if we have multiplication inside the parentheses and an exponent outside, the exponent can apply to each of the factors.
+    </p>
+    <p>
+      We have also introduced the exponent rule <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m> in <xref ref="principle-exponent-rules-2" />.
+      In this formula, the operation between <m>a</m> and <m>b</m> is division, and the role of the thing outside of parentheses <m>is</m> an exponent.
+      So, this formula tells us that if we have division inside the parentheses and an exponent outside, the exponent can apply to both the numerator and denominator.
+    </p>
 
   </subsection>
 
