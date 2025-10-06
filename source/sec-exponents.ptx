@@ -1162,70 +1162,823 @@
 
   </subsection>
 
-  <subsection xml:id="subsec-">
+  <subsection xml:id="subsec-radicals">
     <title>Radicals</title>
     
-    <concept xml:id="radical-mean">
+    <definition xml:id="radical-mean">
       <title>What does a radical mean?</title>
       <statement>
         <p>
           <m>\sqrt[n]{a}</m> asks for the value that fills in the blank:
           <me>(\_\_\_)^n = a</me>.
           If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer.
+          The answer to the radical question identifies the value of the <emph>base</emph>.
         </p>
       </statement>
-    </concept>
+    </definition>
 
     <example>
       <statement><p>Find <m>\sqrt[2]{64}</m>.</p></statement>
+      <solution><p>This asks for the value that fills in the blank: <me>(\_\_\_)^2 = 64</me>. Both <m>8</m> and <m>-8</m> fill in the blank, but by definition, the positive number is the answer. 
+        Therefore, <m>\sqrt[2]{64} = 8</m>.</p></solution>
     </example>
 
     <example>
       <statement><p>Find <m>\sqrt[3]{64}</m>.</p></statement>
+      <solution><p>This asks for the value that fills in the blank: <me>(\_\_\_)^3 = 64</me>. The only number that fills in the blank is <m>4</m>. 
+        (The reason that <m>-4</m> does not fill in the blank is that <m>(-4)^3 = -64</m>, not <m>64</m>.)
+        Therefore, <m>\sqrt[3]{64} = 4</m>.</p></solution>
     </example>
 
-    <concept>
+    
+    <example>
+      <statement><p>Find <m>\sqrt[2]{25}</m>.</p></statement>
+      <solution><p>When we raise the base <m>5</m> to the power <m>2</m>, the result is <m>25</m>. So the base <m>5</m> answers the question. Written as notation with an equal sign properly, <m>\sqrt[2]{25} = 5</m>.</p></solution>
+    </example>
+    <warning xml:id="warning-radical-already-processed-in-2nd-root-5">
+      <p>
+        It would be incorrect to write
+        <me>\sqrt[2]{25} = \sqrt[2]{5}.</me>
+        Of course, the completion to the right of the equal sign should have a <m>5</m>, so when someone writes <m>\sqrt[2]{5}</m>, it is good to see the <m>5</m> present, since they are thinking about the correct base.
+        However, the radical should not surround the <m>5</m> because we have already processed what the radical does.
+      </p>
+    </warning>
+
+    <principle>
+      <title>Radical missing small number</title>
       <statement>
         <p><m>\sqrt{a} = \sqrt[2]{a}</m></p>
-        <p>If the small number outside of the radical is missing, it is a hidden 2.</p>
+        <p>If the small number outside of the radical is missing, it is a hidden <m>2</m>.</p>
       </statement>
-    </concept>
+    </principle>
+    <p>
+      We do this because the small number outside of the radical is often (but not always) a <m>2</m>.
+      In other words, we often need to find the base when the exponent is <m>2</m>, but there are also times we need to find the base when the exponent is something else, like <m>3</m> or <m>4</m> or <m>5</m>, etc.
+    </p>
+    <example>
+      <statement><p>Find <m>\sqrt{25}</m>.</p></statement>
+      <solution><p>This question is asking <m>\sqrt[2]{25}</m>, so <m>\sqrt{25} = \sqrt[2]{25} = 5</m>.</p></solution>
+    </example>
+    <warning xml:id="warning-radical-already-processed-in-square-root-5">
+      <p>
+        Like in <xref ref="warning-radical-already-processed-in-2nd-root-5" />, it would be incorrect to write
+        <me>\sqrt{25} = \sqrt{5}.</me>
+        Instead, we should write
+        <me>\sqrt{25} = 5.</me>
+      </p>
+    </warning>
 
-    <language>
-      <statement><p><m>\sqrt[n]{a}</m> should be said “<q>n-th root of a</q>”.</p></statement>
-    </language>
-    <language>
-      <statement><p><m>\sqrt[2]{a}</m> or <m>\sqrt{a}</m> can be said “2nd root of a” or “square root of a”.</p></statement>
-    </language>
-    <language>
-      <statement><p><m>\sqrt[3]{a}</m> is spoken “3rd root of a” but not “3 square root of a”.</p></statement>
-    </language>
-    <language>
-      <statement><p><m>\sqrt[7]{a}</m> is spoken “7th root of a” but not “7 square root of a”.</p></statement>
-    </language>
+    <example xml:id="example-sqrt-81">
+      <statement><p>Simplify <m>\sqrt{81}</m>.</p></statement>
+      <solution>
+        <p>
+          <m>\sqrt{81} = \sqrt[2]{81} = 9</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          <m>\sqrt{81} = 9</m>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Note, in the second answer, we skipped writing the middle expression <m>\sqrt[2]{81}</m>. 
+      This is fine to do, but it's good to remember that when the little number is missing outside of the radical, it is really a hidden <m>2</m>.
+      The reason we're taking time to say this is that sometimes people breeze through then the hidden number is a <m>2</m>, but then struggle when there's another number there such as a <m>3</m>.
+      The point is that <xref ref="radical-mean" /> gives us a uniform and consistent way to think about <emph>all</emph> radicals, whether the small number outside of the radical is a <m>2</m> (missing or written)
+      or another number is written there such as a <m>3</m> or <m>4</m>. In all cases, a radical is asking us to identify the <emph>base</emph> while the little number outside the radical is telling us the exponent 
+      (and the content inside the radical is telling us the result of taking the base raised to the exponent).
+    </p>
 
-    <formula>
-      <statement><p><m>\sqrt[n]{ab} = \sqrt[n]{a} \sqrt[n]{b}</m></p></statement>
-    </formula>
+    <identity>
+      <title>How to say radicals</title>
+      <statement>
+        <p>
+          <m>\sqrt[n]{a}</m> should be said <q><m>n</m>-th root of <m>a</m></q>.
+          When the value of <m>n</m> is small, there are also special names for these:
+          <ul>
+            <li>
+              <p><m>\sqrt[2]{a}</m> or <m>\sqrt{a}</m> can be said <q><m>2</m>nd root of <m>a</m></q> or <q>square root of <m>a</m></q>.</p>
+            </li>
+            <li>
+              <p><m>\sqrt[3]{a}</m> is spoken <q><m>3</m>rd root of <m>a</m></q> or <q>cube root of <m>a</m></q>, but not <q><m>3</m> square root of <m>a</m></q>.</p>
+            </li>
+          </ul>
+          For other values of <m>n</m>, we just say <q><m>n</m>-th root of <m>a</m></q>. For example:
+          <ul>
+            <li>
+              <p><m>\sqrt[4]{a}</m> is spoken <q><m>4</m>th root of <m>a</m></q> but not <q><m>4</m> square root of <m>a</m></q>.</p>
+            </li>
+            <li>
+              <p><m>\sqrt[7]{a}</m> is spoken <q><m>7</m>th root of <m>a</m></q> but not <q><m>7</m> square root of <m>a</m></q>.</p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </identity>
+    <warning>
+      <p>
+        It is tempting to look at <m>\sqrt[7]{5}</m> and want to say <q>seven square root of five</q>, but saying <q>seven square root of five</q> actually refers to <m>7 \sqrt{5}</m> which can also be written <m>7 \sqrt[2]{5}</m>.
+        The point is that <m>\sqrt[7]{5}</m> and <m>7 \sqrt{5}</m> are different values:
+        <ul>
+          <li>
+            <p>
+              <m>\sqrt[7]{5}</m> asks for what is the base that when raised to the exponent <m>7</m> results in the value of <m>5</m>.
+              Using a calculator, I found this to be approximately <m>1.258</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>7\sqrt{5}</m> asks for what is the base that when raised to the exponent <m>2</m> results in the value of <m>5</m>, and then multiplies that result by <m>7</m>.
+              Using a calculator, I found <m>\sqrt{5}</m> is approximately <m>2.236</m>. I then had to multiply this by <m>7</m>.
+              Thus, the value of <m>7\sqrt{5}</m> is approximately <m>15.652</m>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </warning>
 
-    <formula>
+    <p>
+      Because of what we're about to bring up next, let's revisit some of the problems we've done using a new formula.
+      I admit that most people won't prefer thinking of the problems we've done through this new lens, but it will be helpful for what we're about to do right after this!
+    </p>
+    <principle xml:id="nth-root-of-nth-power">
       <statement><p><m>\sqrt[n]{a^n} = a</m></p></statement>
-    </formula>
+    </principle>
+    <p>
+      In words, this formula says that an <m>n</m>th root and an <m>n</m>th power undo each other.
+    </p>
+    <example xml:id="example-sqrt-81-via-nth-root-of-nth-power">
+      <statement><p>Find <m>\sqrt{81}</m>.</p></statement>
+      <solution>
+        <p>
+          Inside the radical is <m>81</m>, which we can replace with <m>9^2</m>, since <m>9^2</m> and <m>81</m> are equal.
+          That is, <me>\sqrt{81} = \sqrt[2]{81} = \sqrt[2]{9^2}.</me>
+          Note that in the above, we still had to write the second root: we have not processed the root here yet (we have only replaced <m>81</m> with something that is equal to <m>81</m>).
+          Now, we can use the formula <m>\sqrt[n]{a^n} = a</m> to process the radical: <m>\sqrt[2]{9^2} = 9</m>.
+          Presenting all the work with equal signs, we have
+          <me>\sqrt{81} = \sqrt[2]{81} = \sqrt[2]{9^2} = 9.</me>
+        </p>
+      </solution>
+    </example>
+    <p>
+      It may seem strange to include the step of writing <m>\sqrt[2]{9^2}</m> when we already provided two perfectly good solutions in <xref ref="example-sqrt-81" />,
+      but there are two reasons we are doing this: 
+      <ol>
+        <li>
+          <p>
+            Including this step makes it easier to illustrate the use of the formula <m>\sqrt[n]{a^n} = a</m> in <xref ref="nth-root-of-nth-power" />.
+          </p>
+        </li>
+        <li>
+          <p>
+            This gives us yet another way to simplify an expression containing a radical, and while this isn't most people's preferred way of thinking about <m>\sqrt{81}</m>,
+            this new method is preferred by some people for certain problems that we will soon see, including the cube root problem below.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <example>
+      <statement><p>Find <m>\sqrt[3]{64}</m>.</p></statement>
+      <solution>
+        <p>
+          Inside the radical is <m>64</m>, which we can replace with <m>4^3</m>, since <m>4^3</m> and <m>64</m> are equal.
+          That is, <me>\sqrt[3]{64} = \sqrt[3]{4^3}.</me>
+          Note that in the above, we still had to write the third root: we have not processed the root here yet (we have only replaced <m>64</m> with something that is equal to <m>64</m>).
+          Now, we can use the formula <m>\sqrt[n]{a^n} = a</m> to process the radical: <m>\sqrt[3]{4^3} = 4</m>.
+          Presenting all the work with equal signs, we have
+          <me>\sqrt[3]{64} = \sqrt[3]{4^3} = 4.</me>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      In the setting of algebra, we will need to simplify the root of expressions that contain variables.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\sqrt{x^{10}}</m>.      
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since the little number outside the radical is missing, <m>\sqrt{x^{10}} = \sqrt[2]{x^{10}}</m>.
+          So, this is asking for the base that when raised to the exponent <m>2</m> results in the value of <m>x^{10}</m>.
+          That is, we are being asked to fill in the blank in <m>(\_\_\_)^2 = x^{10}</m>.
+          Here are three valid ways that we can think about this:
+          <ul>
+            <li>
+              <p>
+                We can use the exponent rule <m>(a^m)^n = a^{m \cdot n}</m> in <xref ref="principle-exponent-rules-1" /> in reverse.
+                The expression <m>x^{10}</m> can be rewritten as <m>(x^5)^2</m>, since <m>5 \cdot 2 = 10</m>.
+                The missing base is <m>x^5</m>, since <m>(x^5)^2 = x^{10}</m>.
+                Therefore, <m>\sqrt{x^{10}} = \sqrt[2]{(x^5)^2} = x^5</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We can think about what the exponent <m>2</m> means (or in other words, we can think about what squaring means).
+                Squaring a thing means to multiply the thing by itself.
+                So, we ask ourselves: what thing can be multiplied by itself to get <m>x^{10}</m>?
+                More visually, how do we fill in the blanks in <m>(\_\_\_)(\_\_\_) = x^{10}</m> with the restriction that both blanks need to be filled in with the same thing?
+                Informed by the exponent rule <m>a^m a^n = a^{m+n}</m> in <xref ref="principle-exponent-rules-1" /> which says that when we multiply two things with the same base we add the exponents,
+                both blanks can be filled in with <m>x^5</m>.
+                That is, <m>x^5 \cdot x^5 = x^{10}</m>.
+                Therefore, <m>\sqrt{x^{10}} = \sqrt[2]{(x^5)^2} = x^5</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We can also apply the formula <m>\sqrt[n]{a^n} = a</m> in <xref ref="nth-root-of-nth-power" />, and emulate the work we did in <xref ref="example-sqrt-81-via-nth-root-of-nth-power" />.
+                The content inside the radical, which is <m>x^{10}</m>, can be replaced with <m>(x^5)^2</m>, since <m>(x^5)^2</m> and <m>x^{10}</m> are equal.
+                Thus,
+                <me>\sqrt{x^{10}} = \sqrt[2]{x^{10}} = \sqrt[2]{(x^5)^2} = x^5.</me>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          With proper notation, answer both questions below as similarly as possible, using <xref ref="nth-root-of-nth-power" />:
+          <ol>
+            <li>
+              <p>
+                Simplify <m>\sqrt[2]{c^{18}}</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Simplify <m>\sqrt[2]{49}</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>\sqrt[2]{c^{18}} = \sqrt[2]{(c^9)^2} = c^9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>\sqrt[2]{49} = \sqrt[2]{(7)^2} = 7</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+    </example>
+
+    <principle xml:id="nth-root-of-product">
+      <statement><p><m>\sqrt[n]{ab} = \sqrt[n]{a} \sqrt[n]{b}</m></p></statement>
+    </principle>
+    <p>
+      In words, this formula says that an <m>n</m>th root of a product can be rewritten as the product of the <m>n</m>th roots of each factor.
+      In fact, this may be slightly clearer by writing the <emph>same</emph> formula, but including the hidden multiplication signs:
+      <me>\sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}.</me>
+      Either version of the formula (with hidden multiplication signs or written multiplication signs) is very useful when we need to simplify a radical that contains a product inside the radical.
+      The key is that all roots have to be the same kind: this formula doesn't allow mixing a square root and a cube root, for example.
+      To be clear, special cases of this formula include the version for square roots:
+      <me>\sqrt{ab} = \sqrt{a} \sqrt{b}</me>
+      and the version for cube roots:
+      <me>\sqrt[3]{ab} = \sqrt[3]{a} \sqrt[3]{b}</me>
+      but there's also a version for fourth roots and fifth roots and so on.
+      (Each of these special versions can also be written where we write the hidden multiplication signs. I encourage you to write the two previous equations with multiplication signs included, since multiplication needs to be present to apply this formula.)
+    </p>
 
     <example>
       <statement><p>Simplify <m>\sqrt{18}</m>.</p></statement>
+      <solution>
+        <p>
+          We examine the content inside the radical (which in this example is <m>18</m>) and ask how we can write <m>18</m>
+          as the product, where one of the factors of the product is a perfect square.
+          We do need a product (since the left side of the formula in <xref ref="nth-root-of-product" /> says <m>\sqrt[n]{ab}</m> and not <m>\sqrt[n]{a+b}</m>).
+          So, while <m>18=16+2</m> is true and one of the pieces (namely <m>16</m>) is a perfect square, this isn't really going to help us.
+          We want to write <m>18</m> as a <emph>product</emph> with one piece being a perfect square, and a useful way to do that is <m>18= 9 \cdot 2</m>.
+          So,
+          <me>\sqrt{18} = \sqrt{9 \cdot 2}.</me>
+          Note that in the work shown above, we still wrote the square root sign, because all we did was replace <m>18</m> with the equal value of <m>9 \cdot 2</m>. We haven't processed the square root yet.
+          Now, <m>\sqrt{9 \cdot 2}</m> is in the format of the left side of the formula <m>\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}</m> So, we can apply this:
+          <me>\sqrt{9 \cdot 2} = \sqrt{9} \cdot \sqrt{2}.</me>
+          Now, in the writing of <m>\sqrt{9} \cdot \sqrt{2}</m>, we can simplify <m>\sqrt{9}</m> because <m>9</m> is a perfect square, but we have to leave <m>\sqrt{2}</m> alone. That is,
+          <me>\sqrt{9} \cdot \sqrt{2} = 3 \cdot \sqrt{2}.</me>
+          We now present a summary of all the work, writing equal signs where they belong, though we will leave out multiplication symbols where possible to save a little time:
+          <m>\sqrt{18} = \sqrt{9 \cdot 2} = \sqrt{9} \sqrt{2} = 3 \sqrt{2}</m>.
+        </p>
+      </solution>
     </example>
+
+    <p>The example we did suggests the following strategy:</p>
+    <computation xml:id="simplifying-square-root-of-product">
+      <title>Simplifying the square root of a product</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies in any expression which is a square root, and the contents inside the square root is a product (or can be turned into a product).
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Rewrite the content inside the square root as a product with one factor being a perfect square.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Apply the formula <m>\sqrt{ab} = \sqrt{a} \cdot \sqrt{b}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In the resulting expression of the form <m>\sqrt{a} \cdot \sqrt{b}</m>, the factor which is the square root of a perfect square can be simplified into an expression
+                    that does not require writing a square root. (However, the square root of an expression which is <emph>not</emph> a perfect square will always still have a square root symbol.)
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+    
+    <example>
+      <statement><p>Simplify <m>\sqrt{75}</m>.</p></statement>
+      <solution>
+        <p>
+          We need to write the content inside the radical (which in this example is <m>75</m> as the product where one factor is a perfect square.
+          Note <m>75 = 25 \cdot 3</m>.
+          <me>\sqrt{75} = \sqrt{25 \cdot 3}.</me>
+          Note that in the work shown above, we still wrote the square root sign, because all we did was replace <m>75</m> with the equal value of <m>25 \cdot 3</m>. We haven't processed the square root yet.
+          Applying <m>\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}</m>, we have:
+          <me>\sqrt{25 \cdot 3} = \sqrt{25} \cdot \sqrt{3}.</me>
+          In <m>\sqrt{25} \cdot \sqrt{3}</m>, we can simplify <m>\sqrt{25}</m> because <m>25</m> is a perfect square, but we have to leave <m>\sqrt{3}</m> alone. That is,
+          <me>\sqrt{25} \cdot \sqrt{3} = 5 \cdot \sqrt{3}.</me>
+          We now present a summary of all the work, writing equal signs where they belong:
+          <m>\sqrt{75} = \sqrt{25 \cdot 3} = \sqrt{25} \sqrt{3} = 5 \sqrt{3}</m>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\sqrt{1800}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Note that <m>1800 = 100 \cdot 18</m>.
+          So, we have:
+          <me>\sqrt{1800} = \sqrt{100 \cdot 18} = \sqrt{100} \sqrt{18} = 10 \sqrt{18}.</me>
+          While the work that we have shown above is true and correct, we're not quite done yet, because <m>18</m> has a factor which is a perfect square, namely <m>9</m>.
+          So let's take the last expression <m>10\sqrt{18}</m> and zoom in to rewrite the portion that is <m>\sqrt{18}</m>:
+          <me>10\sqrt{18} = 10\sqrt{9 \cdot 2} = 10\sqrt{9}\sqrt{2} = 10 \cdot 3 \sqrt{2} = 30 \sqrt{2}.</me>
+          Presenting all the work from the beginning with equal signs, we have
+          <m>\sqrt{1800} = \sqrt{100 \cdot 18} = \sqrt{100} \sqrt{18} = 10 \sqrt{18} = 10\sqrt{9 \cdot 2} = 10\sqrt{9}\sqrt{2} = 10 \cdot 3 \sqrt{2} = 30 \sqrt{2}</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Alternatively, we could have started by writing <m>1800 = 900 \cdot 2</m>.
+          (The number <m>900</m> is a larger perfect square than <m>100</m>, and the benefit of the work we did in the previous answer was to see perfect square factors of <m>100</m> and <m>9</m>.)
+          Thus, 
+          <me>\sqrt{1800} = \sqrt{900 \cdot 2} = \sqrt{900} \sqrt{2} = 30 \sqrt{2}.</me>
+        </p>
+      </solution>
+    </example>    
+    <p>
+      We gave two answers to the previous question.
+      The second answer gave us a shorter path to the same final answer of <m>30 \sqrt{2}</m>.
+      However, when the contents inside the radical get so large, I struggle to see the <q>best</q> (that is, largest) perfect square that is a factor of the contents inside the radical.
+      In these situations, it's good to just find <emph>some</emph> perfect square factor, even if it's not the largest one.
+      At some point, the original expression gets rewritten as a whole number multiplied by the root of a smaller number.
+      Then, we keep going as long as this smaller number inside the radical has a perfect square factor.
+    </p>
+      
+    <p>
+      We can apply <xref ref="simplifying-square-root-of-product" /> even when the content inside the radical contains variables.
+      Before we get started, there is often a major source of confusion about perfect squares, so let us first clear that up.
+    </p>
+    <definition xml:id="def-perfect-square">
+      <statement>
+        <p>
+          An expression is a <emph>perfect square</emph> if it is the result of squaring an expression.
+        </p>
+      </statement>
+    </definition>
+    <example xml:id="example-perfect-square-constants">
+      <statement>
+        <p>
+          <ul>
+            <li><p><m>0</m> is a perfect square because <m>0=(0)^2</m>.</p></li>
+            <li><p><m>1</m> is a perfect square because <m>1=(1)^2</m>.</p></li>
+            <li><p><m>4</m> is a perfect square because <m>4=(2)^2</m>.</p></li>
+            <li><p><m>9</m> is a perfect square because <m>9=(3)^2</m>.</p></li>
+            <li><p><m>16</m> is a perfect square because <m>16=(4)^2</m>.</p></li>
+            <li><p><m>25</m> is a perfect square because <m>25=(5)^2</m>.</p></li>
+            <li><p><m>36</m> is a perfect square because <m>36=(6)^2</m>.</p></li>
+          </ul>
+          This list continues, following a pattern.
+        </p>
+      </statement>
+    </example>
+
+    <example xml:id="example-perfect-square-with-variables">
+      <statement>
+        <p>
+          <ul>
+            <li><p><m>x^0</m> is a perfect square because <m>x^0=(x^0)^2</m>.</p></li>
+            <li><p><m>x^2</m> is a perfect square because <m>x^2=(x^1)^2</m>.</p></li>
+            <li><p><m>x^4</m> is a perfect square because <m>x^4=(x^2)^2</m>.</p></li>
+            <li><p><m>x^6</m> is a perfect square because <m>x^6=(x^3)^2</m>.</p></li>
+            <li><p><m>x^8</m> is a perfect square because <m>x^8=(x^4)^2</m>.</p></li>
+            <li><p><m>x^{10}</m> is a perfect square because <m>x^{10}=(x^5)^2</m>.</p></li>
+            <li><p><m>x^{12}</m> is a perfect square because <m>x^{12}=(x^6)^2</m>.</p></li>
+          </ul>
+          This list continues, following a pattern.
+        </p>
+      </statement>
+    </example>
+    <note xml:id="note-perfect-square-misuderstanding">
+      <p>
+        It is easy to mishear the discussion above.
+        We said that <m>x^8</m> is a perfect square.
+        We never said that <m>8</m> is a perfect square.
+        The point is that <m>x^8</m> is <emph>should not</emph> be treated the same as <m>8</m> itself.
+        The number <m>8</m> is not a perfect square (it is missing from the list in <xref ref="example-perfect-square-constants" />, where we jump from the perfect square <m>4</m> to the next perfect square <m>9</m>).
+        However, the expression <m>x^8</m> is a perfect square (it is present in the list in <xref ref="example-perfect-square-with-variables" />).
+        We are saying that when we have <m>x</m> as the base, and this is raised to the power <m>8</m>, with emphasis that <m>8</m> is the <emph>exponent</emph>,
+        which is just <emph>part</emph> of the expression <m>x^8</m>.      
+      </p>
+      <p>
+        To further clarify, examine this template:
+        <me>(\_\_\_)^2 = \_\_\_</me>
+        When we fill in the result of the first blank, this will force the value of the second blank on the right side of the equal sign.
+        The content on the right side of the equal sign is the perfect square.
+        For example, from the equation
+        <me>(9)^2 = 81</me>
+        we conclude that <m>81</m> is a perfect square, and in a similar way, from the equation
+        <me>(x^{13})^2 = x^{26}</me> 
+        we conclude that <m>x^{26}</m> is a perfect square. (Note, we are saying that <m>x^{26}</m> is a perfect square, not that <m>26</m> is a perfect square.)
+      </p>
+    </note>
+
+    <p>
+      Now that we have identified a square root, we should clarify how we simplify the square root of a perfect square.
+      What we are about to say is just technically a special case of <xref ref="radical-mean" />, but it is worth stating explicitly to clear up some confusion:
+    </p>
+    <computation>
+      <title>How to simplify the square root of a perfect square</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies in any expression which is a square root, and the contents inside the square root is a perfect square.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Given an expression of the form <m>\sqrt{a}</m>, identify if <m>a</m> is a perfect square. This means that there is some expression <m>b</m> such that <m>b^2 = a</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    From <m>b^2=a</m>, we get <m>\sqrt{a} = b</m>.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+    <example xml:id="sqrt7-sqrt8-sqrt9">
+      <statement>
+        <p>
+          <ul>
+            <li><p>From <m>(7)^2 = 49</m>, we get <m>\sqrt{49} = 7</m>.</p></li>
+            <li><p>From <m>(8)^2 = 64</m>, we get <m>\sqrt{64} = 8</m>.</p></li>
+            <li><p>From <m>(9)^2 = 81</m>, we get <m>\sqrt{81} = 9</m>.</p></li>
+          </ul>
+        </p>
+      </statement>
+    </example>    
+    <p>
+      In all three examples above, the result of the square root was the contents inside the parentheses.
+    </p>    
+    <example xml:id="sqrt0-sqrt1">
+      <statement>
+        <p>
+          <ul>
+            <li><p>From <m>(0)^2 = 0</m>, we get <m>\sqrt{0} = 0</m>.</p></li>
+            <li><p>From <m>(1)^2 = 1</m>, we get <m>\sqrt{1} = 1</m>.</p></li>
+          </ul>
+        </p>
+      </statement>
+    </example>    
+    <note>
+      <p>
+        The two examples we just presented follow the exact same format as the three examples before.
+        The example of <m>\sqrt{0}=0</m> looks confusing because <m>0</m> is written twice.
+        For the reason, the example <m>\sqrt{1}=1</m> looks weird to people, because <m>1</m> is written twice.
+        For all of us (myself included), an example like <m>\sqrt{49}=7</m> is easier to mentally process.
+        We presented more familiar examples in <xref ref="sqrt7-sqrt8-sqrt9" /> before presenting the more confusing examples in <xref ref="sqrt0-sqrt1" />.
+        However, I hope the two examples in <xref ref="sqrt0-sqrt1" /> are convincing, since we did follow <emph>exactly</emph> the same format as in 
+        <xref ref="sqrt7-sqrt8-sqrt9" />.
+      </p>
+      <p>
+        Through the examples of <m>\sqrt{0}=0</m> and <m>\sqrt{1}=1</m>, we see that a number can be its own square root.
+        (In fact, these are the only two numbers that are their own square roots.)
+        This all stems from the fact that <m>0</m> and <m>1</m> are the only two numbers that are their own squares.
+      </p>
+    </note>
+
+    <example xml:id="examples-sqrt-x2-x4-x6-x8-x10-x12">
+      <statement>
+        <p>
+          <ul>
+            <li><p>From <m>(x^1)^2 = x^2</m>, we get <m>\sqrt{x^2} = x^1</m>.</p></li>
+            <li><p>From <m>(x^2)^2 = x^4</m>, we get <m>\sqrt{x^4} = x^2</m>.</p></li>
+            <li><p>From <m>(x^3)^2 = x^6</m>, we get <m>\sqrt{x^6} = x^3</m>.</p></li>
+            <li><p>From <m>(x^4)^2 = x^8</m>, we get <m>\sqrt{x^8} = x^4</m>.</p></li>
+            <li><p>From <m>(x^5)^2 = x^{10}</m>, we get <m>\sqrt{x^{10}} = x^5</m>.</p></li>
+            <li><p>From <m>(x^6)^2 = x^{12}</m>, we get <m>\sqrt{x^{12}} = x^6</m>.</p></li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+    <p>
+      In all six examples above, the result of the square root was the contents inside the parentheses.
+      The work was presented in exactly the same format as in <xref ref="sqrt7-sqrt8-sqrt9" /> as much as possible.
+      The pattern here continues.
+    </p>
+
+    <!-- Try it -->
+    <exercise xml:id="pattern-for-perfect-squares">
+      <statement>
+        <p>
+          When an expression is of the format base raised to an exponent, what do you notice about the exponent when the entire expression is a perfect square?
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
 
     <example>
       <statement><p>Simplify <m>\sqrt{20x^9}</m>.</p></statement>
+      <solution>
+        <p>
+          To follow <xref ref="simplifying-square-root-of-product" />, we examine the contents inside the radical, namely <m>20x^9</m> with the goal of rewriting this as a product, looking for perfect squares:
+          <me>
+            20x^9 = 4 \cdot 5 \cdot x^8 \cdot x^1.
+          </me>
+          In the work above, <m>x^8 \cdot x^{1}</m> is the same as <m>x^9</m> because of the exponent rule <m>a^m a^n = a^{m+n}</m> in <xref ref="principle-exponent-rules-1" />.
+          So,           
+          <me>\sqrt{20x^9} = \sqrt{4 \cdot 5 \cdot x^8 \cdot x}.</me>
+          Since the expression on the right is the root of a product, we can turn this into a product of roots:
+          <me>\sqrt{4 \cdot 5 \cdot x^8 \cdot x} = \sqrt{4} \cdot \sqrt{5} \cdot \sqrt{x^8} \cdot \sqrt{x}.</me>
+          The square roots of perfect squares will simplify:
+          <me>\sqrt{4} \cdot \sqrt{5} \cdot \sqrt{x^8} \cdot \sqrt{x} = 2 \cdot \sqrt{5} \cdot x^4 \cdot \sqrt{x}.</me>
+          And while we can leave our final answer like this, we can also write this in a slightly more compact way:
+          <me>2 \cdot \sqrt{5} \cdot x^4 \cdot \sqrt{x} = 2x^4 \sqrt{5x}.</me>
+          It is typical to write the content that is not in any radical first, primarily to avoid writing a radical symbol too large, and intentionally placing content inside a radical that should not be placed inside a radical.
+          We now present a summary of all the work, with the work slightly reorganized, writing equal signs where they belong:
+          <m>\sqrt{20x^9} = \sqrt{4x^8 \cdot 5x} = \sqrt{4}\sqrt{x^8} \cdot \sqrt{5x} = 2x^4 \cdot \sqrt{5x}</m>.
+        </p>
+      </solution>
     </example>
 
     <example>
-      <statement><p>Simplify <m>\sqrt[3]{80a^9 b^{10} c^{11} d^{12}}</m>.</p></statement>
+      <statement>
+        <p>
+          Simplify <m>\sqrt{8a^{24}b^{25}c^{26}d^{27}}</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can rewrite <m>8</m> as <m>4 \cdot 2</m>.
+          Note that <m>a^{24}</m> and <m>c^{26}</m> are already perfect squares since these exponents are even,
+          but <m>b^{25}</m> and <m>d^{27}</m> are not perfect squares since these exponents are odd.
+          To fix this, we can rewrite <m>b^{25}</m> as <m>b^{24} \cdot b^1</m>, and we can rewrite <m>d^{27}</m> as <m>d^{26} \cdot d^1</m>.
+          (Please note that this example was carefully chosen to have <m>25</m> as an exponent. For details on why <m>b^{25}</m> is not a perfect square, see <xref ref="note-perfect-square-misuderstanding" />.)
+        </p>
+        <p>
+          So, we have
+          <md>
+            <mrow>\amp\sqrt{8a^{24}b^{25}c^{26}d^{27}}</mrow>
+            <mrow>\amp= \sqrt{4 \cdot 2 \cdot a^{24} \cdot b^{24} \cdot b \cdot c^{26} \cdot d^{26} \cdot d}</mrow>
+            <mrow>\amp= \sqrt{4 a^{24}b^{24} c^{26}d^{26} \cdot 2bd}</mrow>
+            <mrow>\amp= \sqrt{4} \cdot \sqrt{a^{24}} \cdot \sqrt{b^{24}} \cdot \sqrt{c^{26}} \cdot \sqrt{d^{26}} \cdot \sqrt{2bd}</mrow>
+            <mrow>\amp= 2 a^{12}  b^{12}  c^{13}  d^{13}  \sqrt{2bd}</mrow>
+          </md>
+        </p>
+      </solution>
     </example>
 
+    <p>
+      After presenting <xref ref="nth-root-of-product" />, we presented the special case of this formula for cube roots, namely
+      <me>\sqrt[3]{ab} = \sqrt[3]{a} \sqrt[3]{b}.</me>
+      Our process for simplifying cube roots is like our process for simplifying square roots, with some minor twists.
+      There are several small twists: we will be looking for cube roots now instead of square roots.
+      To be thorough, let's formally define a perfect cube (analogous to our definition of a perfect square in <xref ref="def-perfect-square" />), give examples, and state the strategy for simplifying.
+    </p>
+    <definition xml:id="def-perfect-cube">
+      <statement>
+        <p>
+          An expression is a <emph>perfect cube</emph> if it is the result of cubing an expression.
+        </p>
+      </statement>
+    </definition>
+    <example xml:id="example-perfect-cube-constants">
+      <statement>
+        <p>
+          <ul>
+            <li><p><m>0</m> is a perfect cube because <m>0=(0)^2</m>.</p></li>
+            <li><p><m>1</m> is a perfect cube because <m>1=(1)^3</m>.</p></li>
+            <li><p><m>8</m> is a perfect square because <m>8=(2)^3</m>.</p></li>
+            <li><p><m>27</m> is a perfect square because <m>27=(3)^3</m>.</p></li>
+            <li><p><m>81</m> is a perfect square because <m>81=(4)^3</m>.</p></li>
+            <li><p><m>125</m> is a perfect square because <m>125=(5)^3</m>.</p></li>
+          </ul>
+          This list continues, following a pattern.
+        </p>
+      </statement>
+    </example>
+    <p>
+      Similar to <xref ref="example-perfect-square-with-variables" />, we present perfect cubes with variables:
+    </p>
+    <example xml:id="example-perfect-cube-with-variables">
+      <statement>
+        <p>
+          <ul>
+            <li><p><m>x^0</m> is a perfect cube because <m>x^0=(x^0)^3</m>.</p></li>
+            <li><p><m>x^3</m> is a perfect cube because <m>x^3=(x^1)^3</m>.</p></li>
+            <li><p><m>x^6</m> is a perfect cube because <m>x^6=(x^2)^3</m>.</p></li>
+            <li><p><m>x^9</m> is a perfect cube because <m>x^9=(x^3)^3</m>.</p></li>
+            <li><p><m>x^{12}</m> is a perfect cube because <m>x^{12}=(x^4)^3</m>.</p></li>
+            <li><p><m>x^{15}</m> is a perfect cube because <m>x^{15}=(x^5)^3</m>.</p></li>
+          </ul>
+          This list continues, following a pattern.
+        </p>
+      </statement>
+    </example>
+
+    <p>
+      In <xref ref="pattern-for-perfect-squares" />, we asked about the pattern for perfect squares.
+      For an expression to be a perfect square, the <emph>exponent</emph> needed to be even, or you could say that the exponent needed to be a multiple of <m>2</m>.
+      Notice the exponents in the previous example were <m>0, 3, 6, 9, 12, 15</m>, and so on.
+      So for an expression to be a perfect cube, the <emph>exponent</emph> needs to be a multiple of <m>3</m>.
+    </p>
+
+    <computation>
+      <title>How to simplify the cube root of a perfect cube</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a perfect cube.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Given an expression of the form <m>\sqrt[3]{a}</m>, identify if <m>a</m> is a perfect cube. This means that there is some expression <m>b</m> such that <m>b^3 = a</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    From <m>b^3=a</m>, we get <m>\sqrt[3]{a} = b</m>.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+
+    <example xml:id="cbrt7-cbrt8-cbrt9">
+      <statement>
+        <p>
+          <ul>
+            <li><p>From <m>(0)^3 = 0</m>, we get <m>\sqrt[3]{0} = 0</m>.</p></li>
+            <li><p>From <m>(1)^3 = 1</m>, we get <m>\sqrt[3]{1} = 1</m>.</p></li>
+            <li><p>From <m>(2)^3 = 8</m>, we get <m>\sqrt[3]{8} = 2</m>.</p></li>
+            <li><p>From <m>(3)^3 = 27</m>, we get <m>\sqrt[3]{27} = 3</m>.</p></li>
+            <li><p>From <m>(4)^3 = 64</m>, we get <m>\sqrt[3]{64} = 4</m>.</p></li>
+            <li><p>From <m>(5)^3 = 125</m>, we get <m>\sqrt[3]{125} = 5</m>.</p></li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          <ul>
+            <li><p>From <m>(x^0)^3 = x^0</m>, we get <m>\sqrt[3]{x^0} = x^0</m>.</p></li>
+            <li><p>From <m>(x^1)^3 = x^3</m>, we get <m>\sqrt[3]{x^3} = x^1</m>.</p></li>
+            <li><p>From <m>(x^2)^3 = x^6</m>, we get <m>\sqrt[3]{x^6} = x^2</m>.</p></li>
+            <li><p>From <m>(x^3)^3 = x^9</m>, we get <m>\sqrt[3]{x^9} = x^3</m>.</p></li>
+            <li><p>From <m>(x^4)^3 = x^{12}</m>, we get <m>\sqrt[3]{x^{12}} = x^4</m>.</p></li>
+            <li><p>From <m>(x^5)^3 = x^{15}</m>, we get <m>\sqrt[3]{x^{15}} = x^5</m>.</p></li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <computation xml:id="simplifying-cube-root-of-product">
+      <title>Simplifying the cube root of a product</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a product (or can be turned into a product).
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Rewrite the content inside the cube root as a product with one factor being a perfect cube.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Apply the formula <m>\sqrt[3]{ab} = \sqrt[3]{a} \cdot \sqrt[3]{b}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In the resulting expression of the form <m>\sqrt[3]{a} \cdot \sqrt[3]{b}</m>, the factor which is the cube root of a perfect cube can be simplified into an expression
+                    that does not require writing a cube root. (However, the cube root of an expression which is <emph>not</emph> a perfect cube will always still have a cube root symbol.)
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+    
+    <example>
+      <statement><p>Simplify <m>\sqrt[3]{80a^9 b^{10} c^{11} d^{12}}</m>.</p></statement>
+      <solution>
+        <p>
+          We can rewrite <m>80</m> as <m>8 \cdot 10</m>.
+          Note that <m>a^{9}</m> and <m>d^{12}</m> are already perfect cubes since these exponents are multiples of <m>3</m>,
+          but <m>b^{10}</m> and <m>c^{11}</m> are not perfect cubes since these exponents are not multiples of <m>3</m>.
+          We can rewrite <m>b^{10}</m> as <m>b^{9} \cdot b^1</m>, and we can rewrite <m>c^{11}</m> as <m>c^{9} \cdot c^2</m>.
+          <md>
+            <mrow>\amp \sqrt[3]{80a^9 b^{10} c^{11} d^{12}}</mrow>
+            <mrow>\amp= </mrow>
+            <mrow>\amp= </mrow>
+            <mrow>\amp= </mrow>
+            <mrow>\amp= </mrow>
+            <mrow>\amp= </mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
+
+
+
+
+
+
+
+
+
+
+
     <formula>
-      <statement><p><m>a^{1/n} = \sqrt[n]{a}</m> (when this makes sense)</p></statement>
+      <statement><p><m>a^{1/n} = \sqrt[n]{a}</m></p></statement>
     </formula>
 
     <warning>
@@ -1281,9 +2034,6 @@
     </example>
 
 
-    <p>The curse of distribution: In general, <m>(x \pm y)^n \neq x^n \pm y^n</m>. For example, <m>(x+y)^2 \neq x^2+y^2</m>. In reality,</p>
-    <me>(x+y)^2 = (x+y)(x+y) = x^2 + 2xy + y^2</me>
-    <p>Exponents do <em>not</em> distribute over addition or subtraction. Since radicals are really exponents, radicals also <em>do not</em> distribute over addition and subtraction.</p>
 
     <warning>
       <statement><p><m>\sqrt[n]{x \pm y} \neq \sqrt[n]{x} \pm \sqrt[n]{y}</m></p></statement>
@@ -1295,11 +2045,19 @@
       <li><m>\sqrt{4+x} = 2+\sqrt{x}</m> False</li>
       <li><m>\sqrt{4 \cdot x} = 2\sqrt{x}</m> True</li>
       <li><m>\sqrt{x^2 y^2} = xy</m> False</li>
-    </ul>
+     </ul>
 
-    <formula>
-      <statement><p>If <m>x \geq 0</m>, then <m>(\sqrt{x})^2 = \sqrt{x^2} = x</m>.</p></statement>
-    </formula>
+     
+    <warning>
+      General confusion: <m>a^{-n}</m> becomes a fraction.
+      When the EXPONENT is a fraction, then the overall expression becomes a root.
+    </warning>
+
+
+    <warning>
+      <m>16^{1/2} \not= 8</m>. Do not treat the exponent like it is a factor instead.
+    </warning>
+
   </subsection>
 
 

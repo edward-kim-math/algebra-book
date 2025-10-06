@@ -79,7 +79,10 @@
   <rename element="assemblage" xml:lang="en-US">Summary</rename>
   <rename element="inlineexercise" xml:lang="en-US">Try it</rename>
   <rename element="aside" xml:lang="en-US">By the way...</rename>
+
+  <!-- EK Customized names -->
   <rename element="computation" xml:lang="en-US">Strategy</rename>
+  <rename element="identity" xml:lang="en-US">Language</rename>
   <!-- <rename element="example" xml:lang="en-US">Example!</rename> -->
   <cross-references text="type-global" />
 
