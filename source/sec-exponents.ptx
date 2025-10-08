@@ -1154,7 +1154,7 @@
       there is never a time that one exponent gets divided by another exponent.
     </p>
 
-    <warning>
+    <warning xml:id="warning-exponents-dont-distribute">
       <statement>
         <p>
           It is a very common error to turn an expression of the form <m>(x+y)^n</m> into an expression of the from <m>x^n + y^n</m>.
@@ -2268,9 +2268,18 @@
         </ul>
       </p>
     </note>
+    <p>
+      We stated earlier that the warning tells us <m>25^{1/2} \neq \frac{1}{25^2}</m>.
+      The left side legitimately can be rewritten <m>25^{1/2}=\sqrt[2]{25}=\sqrt{25}=5</m>, 
+      while the right side can be rewritten as <m>\frac{1}{25^2} = \frac{1}{625}</m>.
+      Just as the warning let us know, these numbers <m>5</m> and <m>\frac{1}{625}</m> are not equal.
+    </p>
 
     <p>
-      Finally, if we take <m>a^{-n}=\frac1{a^n}</m> and <m>\frac{1}{a^{-n}} = a^n</m> from <xref ref="principle-exponent-rules-4" />
+      There are some typical techniques that are used to speed up the simplification of certain expressions with exponents.
+      These techniques are not new formulas, but rather they are combinations of formulas that we've already seen.
+      Let's introduce one of these techinques now.
+      If we take <m>a^{-n}=\frac1{a^n}</m> and <m>\frac{1}{a^{-n}} = a^n</m> from <xref ref="principle-exponent-rules-4" />
       and combine these with <m>\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}</m> from <xref ref="fraction-multiplication" />,
       we have the following, which we describe informally:
     </p>
@@ -2398,9 +2407,72 @@
       In fact, I think in any room full of people, folks will be split 50-50 as to which way they'd like to think about this type of question!
     </p>
 
+    <note>
+      <p>
+        We should be careful to state that both <xref ref="principle-faster-negative-exponents" /> and <xref ref="principle-faster-dividing-exponents-same-base" /> require that we are seeing <emph>factors</emph>.
+        <ul>
+          <li>
+            <p>
+              For example, <xref ref="principle-faster-negative-exponents" /> doesn't apply to <m>\frac{3}{4 + b^{-5}}</m> because <m>b^{-5}</m> is not a factor of the denominator.
+            </p>
+          </li>
+          <li>
+            <p>
+              Similarly, <xref ref="principle-faster-dividing-exponents-same-base" /> doesn't apply to <m>\frac{x^7}{x^2+5}</m>, 
+              because <m>x^2</m> is not a factor of the denominator (though we say <m>x^7</m> is a factor of the numerator, since we can rewrite the numerator as <m>x^7 \cdot 1</m>.)       
+            </p>
+          </li>
+        </ul>
+      </p>
+    </note>
+
+    <p>
+      Let's discuss a common error for radicals which is very much like the error for exponents that we discussed in <xref ref="warning-exponents-dont-distribute" />:
+    </p>
+    <warning xml:id="warning-radicals-dont-distribute">
+      <title>Radicals do not <q>distribute</q> over addition or subtraction</title>
+      <statement>
+        <ul>
+          <li>
+            <p>
+              <m>\sqrt[n]{x + y} \neq \sqrt[n]{x} + \sqrt[n]{y}</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\sqrt[n]{x - y} \neq \sqrt[n]{x} - \sqrt[n]{y}</m> 
+            </p>
+          </li>
+        </ul>
+      </statement>
+    </warning>
+    <p>
+      As examples of what this warning is trying to say,
+      <ul>
+        <li><m>\sqrt{g+h}</m> does not become <m>\sqrt{g}+\sqrt{h}</m>.</li>
+        <li><m>\sqrt{g-h}</m> does not become <m>\sqrt{g}-\sqrt{h}</m>.</li>
+        <li><m>\sqrt[3]{g+h}</m> does not become <m>\sqrt[3]{g}+\sqrt[3]{h}</m>.</li>
+        <li><m>\sqrt{1+x^2}</m> does not become <m>1+x</m>. It seems like someone started with <m>\sqrt{1+x^2}</m> then erroneously distributed the radical to get <m>\sqrt{1}+\sqrt{x^2}</m>, and from this expression got <m>1+x</m>.
+        While it is true that <m>\sqrt{1}+\sqrt{x^2}</m> becomes <m>1+x</m>, the problem is that <m>\sqrt{1+x^2}</m> is not equal to <m>\sqrt{1}+\sqrt{x^2}</m>.</li>
+        <li><m>\sqrt{x^2+y^2}</m> does not become <m>x+y</m>.</li>
+        <li><m>\sqrt{4+x}</m> does not become <m>2+\sqrt{x}</m>.</li>
+      </ul>
+    </p>
+    The warning is adressing the common error of trying to distribute a radical over addition or subtraction.
+    However, we can turn <m>\sqrt{4 \cdot x}</m> into <m>2\sqrt{x}</m> by applying <xref ref="nth-root-of-nth-power" /> then simplifying.
+
+
+
+
+
+    <warning>
+      <m>16^{1/2} \not= 8</m>. Do not treat the exponent like it is a factor instead.
+    </warning>
+
+
 
     <example>
-      <statement><p>Simplify <m>((4a^2b)/(a^3 b^3))((40a^2b)/(2b^4))</m>.</p></statement>
+      <statement><p>Simplify <m>\frac{4a^2b}{a^3 b^3}\cdot\frac{40a^2b}{2b^4}</m>.</p></statement>
     </example>
 
     <example>
@@ -2422,28 +2494,6 @@
     </example>
 
 
-    <warning>
-      <statement><p><m>\sqrt[n]{x \pm y} \neq \sqrt[n]{x} \pm \sqrt[n]{y}</m></p></statement>
-    </warning>
-
-    <ul>
-      <li><m>\sqrt{1+x^2} = 1+x</m> False</li>
-      <li><m>\sqrt{x^2+y^2} = x+y</m> False</li>
-      <li><m>\sqrt{4+x} = 2+\sqrt{x}</m> False</li>
-      <li><m>\sqrt{4 \cdot x} = 2\sqrt{x}</m> True</li>
-      <li><m>\sqrt{x^2 y^2} = xy</m> False</li>
-     </ul>
-
-     
-    <warning>
-      General confusion: <m>a^{-n}</m> becomes a fraction.
-      When the EXPONENT is a fraction, then the overall expression becomes a root.
-    </warning>
-
-
-    <warning>
-      <m>16^{1/2} \not= 8</m>. Do not treat the exponent like it is a factor instead.
-    </warning>
 
   </subsection>
 
