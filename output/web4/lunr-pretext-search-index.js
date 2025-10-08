@@ -2419,7 +2419,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Exponents and Radicals",
-  "body": " Exponents and Radicals    In this section, we learn how to:    .  .  .     Applications  Exponents appear in a variety of applications. Here are some common scenarios where exponent rules are essential:   Compound Interest (Finance)  Scenario: You deposit money in a bank account that compounds interest.  Formula: or for continuous compounding.  Exponent Rule Used:  Example: If $1000 is invested at 5% per year for 3 years: . Using exponent rules: .  Example: Given , , and , simplify the value of . This is a finance problem, and the value answers the following question: if $1000 is deposited now in an account earning 4% interest compounded continuously, what will the account balance be in 5 years?    Population Growth \/ Decay (Biology and Chemistry)  Scenario: Populations, bacteria, or radioactive isotopes grow or decay exponentially.  Formula: or  Exponent Rules Used: ,  Example: A bacteria culture doubles every 3 hours: . After 6 hours: times the initial population.    Physics: Scaling Laws  Scenario: Volume, area, or mass often scale with powers of linear dimensions.  Exponent Rules Used: ,  Example: Volume of a cube with side : . If the side doubles: .    Computer Science: Algorithms and Complexity  Scenario: Exponential growth in possibilities.  Example: A 4-character password with 26 letters: total possibilities.  Exponent Rule: Multiply powers of the same base: .    Chemistry: Solution Dilution  Scenario: Concentration decreases by a fixed ratio with each dilution.  Formula: After n dilutions:  Exponent Rule: to simplify repeated dilutions.    Physics: Sound and Light Intensity  Scenario: Intensity decreases with the square of the distance.  Formula:  Exponent Rule:    Engineering: Material Strength  Scenario: Strength often scales as a power of thickness.  Formula:  Exponent Rules: or to compute effects of scaling dimensions.       Exponents  Writing expressions involving exponents provides a powerful way to describe certain quantifiable phenomena in a variety of applications. We will need some exponent rules that help us rewrite expressions involving exponents. These rules will also help us simplify expressions involving exponents. Before introducing the rules, let's make sure we're on the same page about what an exponent means.   What does an exponent mean?   Exponentiation can be interpreted to mean repeated multiplication . An exponent is a way to represent repeated multiplication of a number by itself: means is multiplied by itself a total of times, where is a positive integer.    This principle only really makes sense when is a positive integer such as . For example, means , and means . We will later talk about situations where the exponent is zero, a negative number, or a fraction. In those stranger situations, doesn't apply.   Exponent rules, part 1                   Reading from left to right, the first formula says that when multiplying two expressions with the same base, we can add the exponents (in which case we write the base once). This is why the left side has where the same base is appears twice, while the right side has where the base appears only once. The first formula's requirement requiring that the two expressions being multiplied together have the same base is analogous to the requirement that two fractions being added or subtracted must have the same denominator. Reading from right to left, an expression of the form can be rewritten as .  Reading from left to right, the second formula says that when taking an exponential expression such as and raise it to a power, we can multiply the exponents. Read from right to left, an expression of the form can be rewritten as , meaning that when we see an expression with an exponent that is a product, we can rewrite it as an expression where the base is raised to one of the factors, and then the entire expression wrapped in parentheses is raised to the other factor.   Simplify .   Using the exponent rule , we have .     Simplify .   Using the exponent rule , we have .      Simplify .    Using the exponent rule , we have . Thus, .  Next, using the exponent rule , we have .  The third term and fourth term are already simplified: and .  Finally, using the exponent rule again, we have .  Now we can combine like terms: .    An example like the one we just did is meant to provide a bit of caution. After applying exponent rules, we get to the expression . It is tempting to say that the final expression is . Combine only what we can (which is just up to like terms).   Simplify .   Using the exponent rule , we have .    In a simpler example, namely , we wrote , though many prefer to skip the middle step and directly go from to . This is fine to do when we can do the simplification in our heads, but in the example we just did, it might be harder to see how the sum of the exponents simplifies. That's why even in the easier problem, we wrote out the step. In a situation like this that's more complicated, it is practical to write the addition (without having simplified yet), and then in the next step(s), we can zoom in focusing only in the exponent area, and simplify the exponent from to to . Even if you see it in this example without writing all the steps, there's definitely eventually going to be a challenging enough example where we can't just picture it all. Being willing to write that two things are added together without immediately simplifying it is a power tool to have.   Simplify .         Simplify .    Unlike the previous question, notice that we had to use both exponent rules in to simplify this expression.    We showed two standard formulas in how they usually look: and . However, these two are often confused for each other, and it's easier to see why people confuse these two formulas when we see all operations written in, with none hidden:            These are actually the same formulas, and I admit they look bulkier with all the operations explicitly shown. But this helps us see why there is confusion! Notice that the formula that has multiplication on the left has addition on the right, while the second formula has multiplication the right. So, it is incorrect to turn into which would eventually be , but I can understand why people would make that error! (Instead, the correct simplification is .)  This leads us to ask a more general question: how are we supposed to know what to do when we see an expression of the form versus what we are supposed to do when we see an expression of the form ? The short answer (just memorize the formulas) is really unsatisfying. It's easy to cross the wires here. Fortunately, there is a tool that we have that can help us remember how each of these formulas end, and more importantly, if we keep practicing the process that we're about to suggest, it actually provides a reason why these formulas are true in the first place! That's a win-win!   How to keep track of exponent formulas   For the two formulas we presented in , the left sides said and . How can know what is on the right side of each formula? What can we do when we've forgotten what's on the right side of each formula? And finally, how can we know why the right sides that get presented are actually legitimate in the first place? The answer to all of these questions is to expand the expression after selecting your own constants for the exponents (but not for the base), and expand based on .      Suppose we recall that there is a formula that starts with , but we can't remember what is on the right side of the formula. Say we also recall there is a formula that starts with , but we can't remember what is on the right side of that formula either. Which of these two expressions involves adding the exponents, and which involes multiplying the exponents? That is, which has a power of and which has a power of ? To figure this out, we can pick our own values for and , and then expand each expression based on . While we can pick and to be as large as we want, let's pick small values to make the expansion easier. That said, we can't pick and to be too small: for example if we picked both and , both and would be equal to , which wouldn't help us distinguish between the two formulas.  Let's pick and , which is about as minimal as we can pick. Based on what exponents mean in :   We can expand as .    We can expand as .   Noting that and , we see that involves adding the exponents, while involves multiplying the exponents.     Note that we never picked a specific value for . It's not that we can't. We can! But, if we did (say we picked ), then we'd be looking at an expression like , and with constants in all places, it's too tempting to work on simplyfing arithmetic, which is both time-consuming, and hides what it is we're trying to get out of this. The point is that we just want to count how many times the base appears as a factor, and record that number of appearances as an exponent.     Say we need to simplify , but forgot how the formulas go. Go through a process to recover the formula, then apply it it to simplify this expression.    Suppose we forgot how the formulas go. The shape of what we have is multiplying to expressions that have the same base: this is addressed by . The question becomes whether we add or multiply the exponents. To figure this out, we can work on the side where we temporarily pick our own values for and . Let's say we pick and , which are relatively small numbers. Then, based on , we can expand as and counting how many times the base is a factor, this is . So, in the case of , we add the exponents, which is why the full formula (which we might forget, but we just recovered through this process) is .  Now we can apply this formula: . Because it is challenging to simplify the addition of these fractions right away, we just first wrote the addition without simplifying it by writing , though we still needed to write as the base in order to ensure that the equal sign truly means equal. In the next step, we focused on simplifying the exponent area (by mentally zooming in) and found a common denominator.    The natural question arises: it's easy to remember what to do to get these formulas when the author or teacher hints to me what to do, but how am I supposed to recall? In the end, the two formulas we introduced (and several more!) all can be recovered using the same tool: select values for exponents (but not for the base), and expand based on asking yourself what exponents mean ( ), then count the number of times the base appears. This works for the two formulas we introduced, and it also works for several more formulas that we will introduce next. Before showing the new formulas, it would be good to put this useful tool into a box!    Based on what exponents mean in    Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)  Expand based on what exponents mean.    Count the number of times the base appears, and rewrite based on what exponents mean.       Let's introduce a couple new formulas where the tool in applies. Let's then demonstrate full examples of how to practice this tool, then do full examples of computations based on the new formulas.   Exponent rules, part 2                 It would be easy to fall into the temptation of saying Well, if I don't remember what's on the other side of one of these exponent formulas, I can just look it up. Let me be the first to admit that, yes, of course you can look it up in certain situations. However, as this algebra course progresses, we will be looking at more involved problems, and in these problems, applyning exponent rules will need to happen as one pieces of the process. It will really slow us down if we don't gain a little bit of familiarity with these formulas. (Imagine if a professional chef who has to keep inventing new recipes works from the assumption of saying I don't want to spend the brain space to think about the differences of the taste of basil, cinnamon, rosemary, and anise. Sure, anyone -- including the chef -- can go online and find descriptions of all four of these spices. But intentionally lacking familiarity is going to slow this cook down.) Just like in speaking a foreign language, learning these exponent formulas is going to take some practice through repetition. It won't stick just looking at them once or studying them once. Before we dig into what's next, in the hopes that you'll really read what's next with effort, I also just want to say that it's hard for anyone to memorize a thing when there's no meaning behind it. It would be hard to go in a room full of thirty strangers and memorize each person's name, address, and phone number if each person told you their info once. The reason is that all the data is just disconnected: the phone number you learn for a stranger will just be a bunch of digits. These exponent formulas can seem the same way if there's no meaning attached to it. And people try doing that! People try to memorize these formulas, and struggle to do so. Instead, let's practice a technique that helps us memorize these formulas better each time we practice what we're about to do, and more importantly, it does the job not only by having us stare (like we often passively do with flashcards), but instead shows us the meaning behind the notation which convinces us why the formula is true in the first place!    Suppose that in the course of working on an algebra problem, we encounter the expression . Based on the shape of that expression, we think about a formula where one side says . If we have forgotten the other side of that formula, how do we recover it? Then, how do we apply the recovered formula to our expression?    The original expression is in the format of because the original expression is a fraction (numerator of denominator) raised to a power.  We want to figure out what goes on the other side of the formula that has on one side. To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for but not for or . Let's pick , which is a small positive integer. Then, reminds us what an exponent means, so we can expand as . Therefore, we have recovered the formula We can apply this formula to and we see that We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting .    Stick with it! This takes practice. You may never have had to do this in algebra before, but I encourage you to try this. This kind of activity actually gives us a real reason to believe the formulas are true in the first place, and it is a lot easier to remember and know a thing that you believe is true with evidence , rather than a thing that someone just told you to believe is true.    A major algebra formula has on one side. How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?    To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for but not for or . Let's pick , which is a small positive integer. Then, reminds us what an exponent means, so we can expand as . Therefore, we have recovered the formula       Simplify .    Using the exponent rule , we have .      Simplify .    Using the exponent rule , we have . Note, in our use of this exponent rule, we treated as and as , since this assignment of values truly captures the idea that the value of and the value of are multiplied together, and that result is taken to the power . When we wrote we could have skipped the parentheses around the and write instead. However, we kept parentheses around . Otherwise, there's too much going on, since in the next step, we use to turn into . It doesn't make sense for us to skip writing the work the very first time we ever need to combine the use of and the the use of . Then, using the exponent rule , we have . Based on the discussion above, a thorough answer would be: while an answwer (that is still based on the discussion above) that skips a little bit more would be:       Simplify .    First, we use the exponent rule to rewrite as . We wrapped both the and the in parentheses, for the same reason we discussed in the previosu example. Then, we use the exponent rule to rewrite each factor and also to rewrite . Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:       Simplify .    First, we use the exponent rule to rewrite as . In the new expression, by arithmetic. We use the exponent rule to rewrite the other two factors: , and also to rewrite . Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:       Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .    In , we saw , which in symbols says that multiplying two expressions that have the same base can be rewrtten as a single expression with that same base, with the exponent being the sum of the two starting exponents. Now, we show a formula for dividing two expressions that have the same base, and we see on the other sid eof the formula that we subtract the two starting exponents:           The algebra formula we just presented has on one side. How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?    To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for and but not for . Let's pick and . Then, reminds us what an exponent means, so we can expand as Then, we can cancel two factors of from the numerator and denominator, getting . We see that in the example where and , this simplified to an expression where, with the base written once, the exponent is . Therefore, we have recovered the formula .      Simplify .    While we can use our new formula in , we can skip this formula and instead apply . Based on , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting .    Using the exponent rule in , we have , which leads to the same final answer.    We found two ways to answer the last example. One answer used the formula given in , while the other answer didn't (and only used what exponents mean from ). We bring this up for several reasons:   One natural reaction to hearing we didn't need the formula in is to ask why bother showing this formula in the first place. In a small enough example, it's fine to expand based on , but if we had a larger example like it would be impractical to expand based on , since nobody wants to write out as a factor 30,000 times in the numerator and 41 times in the denominator. In this case, the formula in is very useful, which lets us quickly write .    It is also good to see that we got the same final answer of both using the new formula and not using the new formula. Getting the same final answer through two different routes (an old route and a new route) gives us more confidence that the new formula is correct.    Finally, it's just good to keep in mind that there are often multiple ways to answer a question. This is true in math, as it is in life. It is good to be flexible and adaptable. There is often more than one way to approach a problem. Especially in the area of exponents (and radicals, which we will see next), there are often multiple ways to answer a question. I bring this up because in several of the practice problems that are to follow, I will be providing several different ways to answer the same question. In fact, for many of the questions we'll see, there are many possible different first steps! This is not to confuse you, but rather to show you that there are often multiple ways to approach a problem. Moreover, if a question naturally has several different answers (with different starts) that are all equally reasonable as answers (none much longer than the other), then I think it does a disservice to you to not show multiple answers: this might lead you to think that the way you're thinking about the problem doesn't work. My experience working with students has shown me that, especially in the area of exponents and radicals, multiple students start the same problem differently with approaches that all work !     Before digging into practice problems that have different answers, let's do just a little more practice with the formula in .    Simplify .    Since we are dividing two exponential expressions that have the same base, the formula in applies. Note that in the second step, we found a common denominator of 6 to subtract the two fractions. In the last step, we simplified the fraction . It was very useful to write the step even though we didn't simplify the exponent right away: we worked on getting a common denominator for the subtraction of fractions in the step after that. I can understand when someone doesn't do this in an easier problem like , skipping the step of writing and going directly to , but that's because it's easier to simplify than it is to simplify in your head. When the simplification of the exponent is not immediate, it's just nicer to take it a little slower and write what the subtraction is first before simplifying the subtraction.      Note turns into , not . (In other words, to simplify , we must subtract the exponents instead of dividing the exponents.)      A common error is to take an expression such as and due to seeing the exponents of and incorrectly conclude that the result is , which someone likely obtains by thinking about . However, .      Simplify .    First, we will zoom in to the portion of the expression that says , where we use the exponent rule to rewrite as . Thus, .  Next, we use the exponent rule to rewrite , and also to rewrite . Thus, .  Finally, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite .  Therefore, .  In summary,     We could have started by using to rewrite .  Then, we use the exponent rule to rewrite . Thus, .  Next, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Next, we do similar work in the denominator: we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  The next step we discuss is often glossed over, but we wanted to be thorough here. Recall that when simplifying the product of two fractions, we can just multiply the numerators and multiply the denominators. We can do this in reverse, too: when we see a single fraction, we can turn this into a product of two fractions:   Next, we use the exponent rule to rewrite , and also to rewrite . Therefore, .  In summary,     We could have started by using to rewrite .  Then, we use the exponent rule to rewrite as . Thus, .  Next, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Similarly, in the denominator, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Applying the multiplication of fractions backwards just as we did in the previous answer,   Next, we use the exponent rule to rewrite , and also to rewrite .  Therefore, .  In summary,   Note that this third solution is very similar to the second solution, except that in the second solution, we first simplified before simplifying , while in this third solution, we first simplified before simplifying . Both approaches work equally well.    An example like this one shows that there are often multiple ways to approach a problem, and that is okay. We just showed three different ways to answer the problem, all leading to the same final answer. These didn't even all start exactly the same way! The first solution started by zooming quite far in, simplifying , while the second and third solutions started by rewriting the entire expression using . All three answers (and in fact, additional answers that we didn't provide) are all great, and each takes about the same amount of time.    Simplify .             There are three last exponent rules that we discuss:      (except possibly if )          Simplify .     by the exponent rule in . The fraction we wrote is saying that we are dividing a quantity by itself, so this equals . Therefore, .    Since , we have . Using the exponent rule in , we have . Therefore, .    Our first answer did not use the new exponent formula , while our second answer did. The fact that both answers led to the same final answer of gives us more confidence that the new formula is correct.   Simplify .  Using the exponent rule in , we have .    Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Using the exponent rule in , we have . The only exponent fact\/concept we used was .  Using , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting . While we applied cancellation rules for fractions, the only exponent fact\/concept we used was what an exponent means from .       Following the instructions, we saw that became either or became . All of our work was valid. Therefore, . In fact, our conclusion of is an example of the exponent rule in at play, and this activity gives us reason to believe .   Just a note that does not become . For more info, see .      Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Simplify .   One option is to use to turn into . Then the original expression is equal to .  If we wish to avoid the look of the fraction inside the fraction (the overall expression is a fraction whose denominator is itself a fraction), we can instead write the expression .  Instead of dividing a non-fraction and a fraction, we can rewrite this , which is a division of two fractions, which then becomes , where we multiply across to get .  If we present all the work using equal signs (and skipping a reasonable number of steps from above), we have     Instead of zooming in to replace with , we can instead completely zoom out, looking at the whole expression, and use the exponent rule to replace the entire expression with . Note that we wrote the exponent first as before simplifying to . Why are there two minus signs? One minus sign is the minus sign that's already built into the formula , and the other minus sign is the one that is part of the exponent .     Just a note that does not become using . Instead, a different expression, namely , becomes using .q    In we saw the formula . In we saw the formula . The first formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression . The second formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression .  If we compare the left side of the first formula and the right side of the second formula, they have the same shape to them. What I mean is that both expressions and happen to be a base raised to an exponent, multiplied by a base raised to an exponent. So, we really have to pay attention to which variable(s) are repeated and which variable(s) are not repeated. For example, in , the base is repeated, while in , the exponent is repeated.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.     Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example ), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.      Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . In this example, the new exponent does not simplify further. In another example like , we can apply the formula to get , or even skip writing this step, and in either case we could simplify the new exponent to .     In we saw the formula . In we saw the formula . The right side of the first formula and the left side of the second formula have the same shape to them. However, in the exponents match, while in the bases match.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.     Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.      Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.    Note that a common mistake is to turn into . However, there is no exponent rule that justifies this. In fact, among all the exponent rules we have seen up to this point, there is never a time that one exponent gets divided by another exponent.    It is a very common error to turn an expression of the form into an expression of the from .    Here are specific examples of what this warning is trying to address:  We cannot turn into .  We cannot turn into .  We cannot turn into .  We have seen various versions of the distributive property in AAAAAA. For example, specific versions included and . It is true that in our examples where we said that we couldn't distribute , we had addition inside the parentheses. So, what's the problem? Why doesn't the distributive rule apply? The issue is that in the format of , we have to be very careful to pay attention the operation between and the content in parentheses. In , the operation between and is multiplication. In other words, is a factor that is multiplied. The Distributive Law only addresses the situation where a factor is multiplied by a sum or a difference. The point is that it is not enough to just think that anything outside of parentheses can be distributed to everything inside the parentheses. In all three of our examples above, the thing outside of parentheses is an exponent, not a factor.  The Distributive Law only applies to the situation that it is describing through its formula, and nothing else. This is why we have to pay close attention to the formula as written: we examine each formula for what operations are occuring, where these operations are occuring, and any repeated variables. If we don't pay close attention to these details, we may misapply a formula.  We have introduced the exponent rule in . In this formula, the operation between and is multiplication, and the role of the thing outside of parentheses an exponent. So, this formula tells us that if we have multiplication inside the parentheses and an exponent outside, the exponent can apply to each of the factors.  We have also introduced the exponent rule in . In this formula, the operation between and is division, and the role of the thing outside of parentheses an exponent. So, this formula tells us that if we have division inside the parentheses and an exponent outside, the exponent can apply to both the numerator and denominator.    Radicals   What does a radical mean?    asks for the value that fills in the blank: . If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer. The answer to the radical question identifies the value of the base .     Find .  This asks for the value that fills in the blank: . Both and fill in the blank, but by definition, the positive number is the answer. Therefore, .    Find .  This asks for the value that fills in the blank: . The only number that fills in the blank is . (The reason that does not fill in the blank is that , not .) Therefore, .    Find .  When we raise the base to the power , the result is . So the base answers the question. Written as notation with an equal sign properly, .    It would be incorrect to write Of course, the completion to the right of the equal sign should have a , so when someone writes , it is good to see the present, since they are thinking about the correct base. However, the radical should not surround the because we have already processed what the radical does.    Radical missing small number    If the small number outside of the radical is missing, it is a hidden .    We do this because the small number outside of the radical is often (but not always) a . In other words, we often need to find the base when the exponent is , but there are also times we need to find the base when the exponent is something else, like or or , etc.   Find .  This question is asking , so .    Like in , it would be incorrect to write Instead, we should write     Simplify .             Note, in the second answer, we skipped writing the middle expression . This is fine to do, but it's good to remember that when the little number is missing outside of the radical, it is really a hidden . The reason we're taking time to say this is that sometimes people breeze through then the hidden number is a , but then struggle when there's another number there such as a . The point is that gives us a uniform and consistent way to think about all radicals, whether the small number outside of the radical is a (missing or written) or another number is written there such as a or . In all cases, a radical is asking us to identify the base while the little number outside the radical is telling us the exponent (and the content inside the radical is telling us the result of taking the base raised to the exponent).   How to say radicals    should be said -th root of . When the value of is small, there are also special names for these:   or can be said nd root of or square root of .    is spoken rd root of or cube root of , but not square root of .   For other values of , we just say -th root of . For example:   is spoken th root of but not square root of .    is spoken th root of but not square root of .        It is tempting to look at and want to say seven square root of five , but saying seven square root of five actually refers to which can also be written . The point is that and are different values:    asks for what is the base that when raised to the exponent results in the value of . Using a calculator, I found this to be approximately .     asks for what is the base that when raised to the exponent results in the value of , and then multiplies that result by . Using a calculator, I found is approximately . I then had to multiply this by . Thus, the value of is approximately .      Because of what we're about to bring up next, let's revisit some of the problems we've done using a new formula. I admit that most people won't prefer thinking of the problems we've done through this new lens, but it will be helpful for what we're about to do right after this!     In words, this formula says that an th root and an th power undo each other.   Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the second root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have     It may seem strange to include the step of writing when we already provided two perfectly good solutions in , but there are two reasons we are doing this:   Including this step makes it easier to illustrate the use of the formula in .    This gives us yet another way to simplify an expression containing a radical, and while this isn't most people's preferred way of thinking about , this new method is preferred by some people for certain problems that we will soon see, including the cube root problem below.      Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the third root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have     In the setting of algebra, we will need to simplify the root of expressions that contain variables.    Simplify .    Since the little number outside the radical is missing, . So, this is asking for the base that when raised to the exponent results in the value of . That is, we are being asked to fill in the blank in . Here are three valid ways that we can think about this:   We can use the exponent rule in in reverse. The expression can be rewritten as , since . The missing base is , since . Therefore, .    We can think about what the exponent means (or in other words, we can think about what squaring means). Squaring a thing means to multiply the thing by itself. So, we ask ourselves: what thing can be multiplied by itself to get ? More visually, how do we fill in the blanks in with the restriction that both blanks need to be filled in with the same thing? Informed by the exponent rule in which says that when we multiply two things with the same base we add the exponents, both blanks can be filled in with . That is, . Therefore, .    We can also apply the formula in , and emulate the work we did in . The content inside the radical, which is , can be replaced with , since and are equal. Thus,          With proper notation, answer both questions below as similarly as possible, using :   Simplify .    Simplify .                          In words, this formula says that an th root of a product can be rewritten as the product of the th roots of each factor. In fact, this may be slightly clearer by writing the same formula, but including the hidden multiplication signs: Either version of the formula (with hidden multiplication signs or written multiplication signs) is very useful when we need to simplify a radical that contains a product inside the radical. The key is that all roots have to be the same kind: this formula doesn't allow mixing a square root and a cube root, for example. To be clear, special cases of this formula include the version for square roots: and the version for cube roots: but there's also a version for fourth roots and fifth roots and so on. (Each of these special versions can also be written where we write the hidden multiplication signs. I encourage you to write the two previous equations with multiplication signs included, since multiplication needs to be present to apply this formula.)   Simplify .   We examine the content inside the radical (which in this example is ) and ask how we can write as the product, where one of the factors of the product is a perfect square. We do need a product (since the left side of the formula in says and not ). So, while is true and one of the pieces (namely ) is a perfect square, this isn't really going to help us. We want to write as a product with one piece being a perfect square, and a useful way to do that is . So, Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Now, is in the format of the left side of the formula So, we can apply this: Now, in the writing of , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong, though we will leave out multiplication symbols where possible to save a little time: .    The example we did suggests the following strategy:   Simplifying the square root of a product      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the square root as a product with one factor being a perfect square.    Apply the formula .    In the resulting expression of the form , the factor which is the square root of a perfect square can be simplified into an expression that does not require writing a square root. (However, the square root of an expression which is not a perfect square will always still have a square root symbol.)          Simplify .   We need to write the content inside the radical (which in this example is as the product where one factor is a perfect square. Note . Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Applying , we have: In , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong: .      Simplify .    Note that . So, we have: While the work that we have shown above is true and correct, we're not quite done yet, because has a factor which is a perfect square, namely . So let's take the last expression and zoom in to rewrite the portion that is : Presenting all the work from the beginning with equal signs, we have .    Alternatively, we could have started by writing . (The number is a larger perfect square than , and the benefit of the work we did in the previous answer was to see perfect square factors of and .) Thus,     We gave two answers to the previous question. The second answer gave us a shorter path to the same final answer of . However, when the contents inside the radical get so large, I struggle to see the best (that is, largest) perfect square that is a factor of the contents inside the radical. In these situations, it's good to just find some perfect square factor, even if it's not the largest one. At some point, the original expression gets rewritten as a whole number multiplied by the root of a smaller number. Then, we keep going as long as this smaller number inside the radical has a perfect square factor.  We can apply even when the content inside the radical contains variables. Before we get started, there is often a major source of confusion about perfect squares, so let us first clear that up.    An expression is a perfect square if it is the result of squaring an expression.        is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.        is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.     It is easy to mishear the discussion above. We said that is a perfect square. We never said that is a perfect square. The point is that is should not be treated the same as itself. The number is not a perfect square (it is missing from the list in , where we jump from the perfect square to the next perfect square ). However, the expression is a perfect square (it is present in the list in ). We are saying that when we have as the base, and this is raised to the power , with emphasis that is the exponent , which is just part of the expression .  To further clarify, examine this template: When we fill in the result of the first blank, this will force the value of the second blank on the right side of the equal sign. The content on the right side of the equal sign is the perfect square. For example, from the equation we conclude that is a perfect square, and in a similar way, from the equation we conclude that is a perfect square. (Note, we are saying that is a perfect square, not that is a perfect square.)   Now that we have identified a square root, we should clarify how we simplify the square root of a perfect square. What we are about to say is just technically a special case of , but it is worth stating explicitly to clear up some confusion:   How to simplify the square root of a perfect square      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a perfect square.     How to apply the strategy    Given an expression of the form , identify if is a perfect square. This means that there is some expression such that .    From , we get .             From , we get .  From , we get .  From , we get .      In all three examples above, the result of the square root was the contents inside the parentheses.      From , we get .  From , we get .       The two examples we just presented follow the exact same format as the three examples before. The example of looks confusing because is written twice. For the reason, the example looks weird to people, because is written twice. For all of us (myself included), an example like is easier to mentally process. We presented more familiar examples in before presenting the more confusing examples in . However, I hope the two examples in are convincing, since we did follow exactly the same format as in .  Through the examples of and , we see that a number can be its own square root. (In fact, these are the only two numbers that are their own square roots.) This all stems from the fact that and are the only two numbers that are their own squares.       From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .      In all six examples above, the result of the square root was the contents inside the parentheses. The work was presented in exactly the same format as in as much as possible. The pattern here continues.     When an expression is of the format base raised to an exponent, what do you notice about the exponent when the entire expression is a perfect square?      Simplify .   To follow , we examine the contents inside the radical, namely with the goal of rewriting this as a product, looking for perfect squares: In the work above, is the same as because of the exponent rule in . So, Since the expression on the right is the root of a product, we can turn this into a product of roots: The square roots of perfect squares will simplify: And while we can leave our final answer like this, we can also write this in a slightly more compact way: It is typical to write the content that is not in any radical first, primarily to avoid writing a radical symbol too large, and intentionally placing content inside a radical that should not be placed inside a radical. We now present a summary of all the work, with the work slightly reorganized, writing equal signs where they belong: .      Simplify .    We can rewrite as . Note that and are already perfect squares since these exponents are even, but and are not perfect squares since these exponents are odd. To fix this, we can rewrite as , and we can rewrite as . (Please note that this example was carefully chosen to have as an exponent. For details on why is not a perfect square, see .)  So, we have     After presenting , we presented the special case of this formula for cube roots, namely Our process for simplifying cube roots is like our process for simplifying square roots, with some minor twists. There are several small twists: we will be looking for cube roots now instead of square roots. To be thorough, let's formally define a perfect cube (analogous to our definition of a perfect square in ), give examples, and state the strategy for simplifying.    An expression is a perfect cube if it is the result of cubing an expression.        is a perfect cube because .  is a perfect cube because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.    Similar to , we present perfect cubes with variables:      is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  This list continues, following a pattern.    In , we asked about the pattern for perfect squares. For an expression to be a perfect square, the exponent needed to be even, or you could say that the exponent needed to be a multiple of . Notice the exponents in the previous example were , and so on. So for an expression to be a perfect cube, the exponent needs to be a multiple of .   How to simplify the cube root of a perfect cube      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a perfect cube.     How to apply the strategy    Given an expression of the form , identify if is a perfect cube. This means that there is some expression such that .    From , we get .             From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .          From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .       Simplifying the cube root of a product      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the cube root as a product with one factor being a perfect cube.    Apply the formula .    In the resulting expression of the form , the factor which is the cube root of a perfect cube can be simplified into an expression that does not require writing a cube root. (However, the cube root of an expression which is not a perfect cube will always still have a cube root symbol.)          Simplify .   We can rewrite as . Note that and are already perfect cubes since these exponents are multiples of , but and are not perfect cubes since these exponents are not multiples of . We can rewrite as , and we can rewrite as .         .    Write with only one radical.    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .    Simplify .       False  False  False  True  False   General confusion: becomes a fraction. When the EXPONENT is a fraction, then the overall expression becomes a root.   . Do not treat the exponent like it is a factor instead.    Take   text  text     Statement text    Solution text       Text      Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Exponents and Radicals    In this section, we learn how to:    .  .  .     Applications  Exponents appear in a variety of applications. Here are some common scenarios where exponent rules are essential:   Compound Interest (Finance)  Scenario: You deposit money in a bank account that compounds interest.  Formula: or for continuous compounding.  Exponent Rule Used:  Example: If $1000 is invested at 5% per year for 3 years: . Using exponent rules: .  Example: Given , , and , simplify the value of . This is a finance problem, and the value answers the following question: if $1000 is deposited now in an account earning 4% interest compounded continuously, what will the account balance be in 5 years?    Population Growth \/ Decay (Biology and Chemistry)  Scenario: Populations, bacteria, or radioactive isotopes grow or decay exponentially.  Formula: or  Exponent Rules Used: ,  Example: A bacteria culture doubles every 3 hours: . After 6 hours: times the initial population.    Physics: Scaling Laws  Scenario: Volume, area, or mass often scale with powers of linear dimensions.  Exponent Rules Used: ,  Example: Volume of a cube with side : . If the side doubles: .    Computer Science: Algorithms and Complexity  Scenario: Exponential growth in possibilities.  Example: A 4-character password with 26 letters: total possibilities.  Exponent Rule: Multiply powers of the same base: .    Chemistry: Solution Dilution  Scenario: Concentration decreases by a fixed ratio with each dilution.  Formula: After n dilutions:  Exponent Rule: to simplify repeated dilutions.    Physics: Sound and Light Intensity  Scenario: Intensity decreases with the square of the distance.  Formula:  Exponent Rule:    Engineering: Material Strength  Scenario: Strength often scales as a power of thickness.  Formula:  Exponent Rules: or to compute effects of scaling dimensions.       Exponents  Writing expressions involving exponents provides a powerful way to describe certain quantifiable phenomena in a variety of applications. We will need some exponent rules that help us rewrite expressions involving exponents. These rules will also help us simplify expressions involving exponents. Before introducing the rules, let's make sure we're on the same page about what an exponent means.   What does an exponent mean?   Exponentiation can be interpreted to mean repeated multiplication . An exponent is a way to represent repeated multiplication of a number by itself: means is multiplied by itself a total of times, where is a positive integer.    This principle only really makes sense when is a positive integer such as . For example, means , and means . We will later talk about situations where the exponent is zero, a negative number, or a fraction. In those stranger situations, doesn't apply.   Exponent rules, part 1                   Reading from left to right, the first formula says that when multiplying two expressions with the same base, we can add the exponents (in which case we write the base once). This is why the left side has where the same base is appears twice, while the right side has where the base appears only once. The first formula's requirement requiring that the two expressions being multiplied together have the same base is analogous to the requirement that two fractions being added or subtracted must have the same denominator. Reading from right to left, an expression of the form can be rewritten as .  Reading from left to right, the second formula says that when taking an exponential expression such as and raise it to a power, we can multiply the exponents. Read from right to left, an expression of the form can be rewritten as , meaning that when we see an expression with an exponent that is a product, we can rewrite it as an expression where the base is raised to one of the factors, and then the entire expression wrapped in parentheses is raised to the other factor.   Simplify .   Using the exponent rule , we have .     Simplify .   Using the exponent rule , we have .      Simplify .    Using the exponent rule , we have . Thus, .  Next, using the exponent rule , we have .  The third term and fourth term are already simplified: and .  Finally, using the exponent rule again, we have .  Now we can combine like terms: .    An example like the one we just did is meant to provide a bit of caution. After applying exponent rules, we get to the expression . It is tempting to say that the final expression is . Combine only what we can (which is just up to like terms).   Simplify .   Using the exponent rule , we have .    In a simpler example, namely , we wrote , though many prefer to skip the middle step and directly go from to . This is fine to do when we can do the simplification in our heads, but in the example we just did, it might be harder to see how the sum of the exponents simplifies. That's why even in the easier problem, we wrote out the step. In a situation like this that's more complicated, it is practical to write the addition (without having simplified yet), and then in the next step(s), we can zoom in focusing only in the exponent area, and simplify the exponent from to to . Even if you see it in this example without writing all the steps, there's definitely eventually going to be a challenging enough example where we can't just picture it all. Being willing to write that two things are added together without immediately simplifying it is a power tool to have.   Simplify .         Simplify .    Unlike the previous question, notice that we had to use both exponent rules in to simplify this expression.    We showed two standard formulas in how they usually look: and . However, these two are often confused for each other, and it's easier to see why people confuse these two formulas when we see all operations written in, with none hidden:            These are actually the same formulas, and I admit they look bulkier with all the operations explicitly shown. But this helps us see why there is confusion! Notice that the formula that has multiplication on the left has addition on the right, while the second formula has multiplication the right. So, it is incorrect to turn into which would eventually be , but I can understand why people would make that error! (Instead, the correct simplification is .)  This leads us to ask a more general question: how are we supposed to know what to do when we see an expression of the form versus what we are supposed to do when we see an expression of the form ? The short answer (just memorize the formulas) is really unsatisfying. It's easy to cross the wires here. Fortunately, there is a tool that we have that can help us remember how each of these formulas end, and more importantly, if we keep practicing the process that we're about to suggest, it actually provides a reason why these formulas are true in the first place! That's a win-win!   How to keep track of exponent formulas   For the two formulas we presented in , the left sides said and . How can know what is on the right side of each formula? What can we do when we've forgotten what's on the right side of each formula? And finally, how can we know why the right sides that get presented are actually legitimate in the first place? The answer to all of these questions is to expand the expression after selecting your own constants for the exponents (but not for the base), and expand based on .      Suppose we recall that there is a formula that starts with , but we can't remember what is on the right side of the formula. Say we also recall there is a formula that starts with , but we can't remember what is on the right side of that formula either. Which of these two expressions involves adding the exponents, and which involes multiplying the exponents? That is, which has a power of and which has a power of ? To figure this out, we can pick our own values for and , and then expand each expression based on . While we can pick and to be as large as we want, let's pick small values to make the expansion easier. That said, we can't pick and to be too small: for example if we picked both and , both and would be equal to , which wouldn't help us distinguish between the two formulas.  Let's pick and , which is about as minimal as we can pick. Based on what exponents mean in :   We can expand as .    We can expand as .   Noting that and , we see that involves adding the exponents, while involves multiplying the exponents.     Note that we never picked a specific value for . It's not that we can't. We can! But, if we did (say we picked ), then we'd be looking at an expression like , and with constants in all places, it's too tempting to work on simplyfing arithmetic, which is both time-consuming, and hides what it is we're trying to get out of this. The point is that we just want to count how many times the base appears as a factor, and record that number of appearances as an exponent.     Say we need to simplify , but forgot how the formulas go. Go through a process to recover the formula, then apply it it to simplify this expression.    Suppose we forgot how the formulas go. The shape of what we have is multiplying to expressions that have the same base: this is addressed by . The question becomes whether we add or multiply the exponents. To figure this out, we can work on the side where we temporarily pick our own values for and . Let's say we pick and , which are relatively small numbers. Then, based on , we can expand as and counting how many times the base is a factor, this is . So, in the case of , we add the exponents, which is why the full formula (which we might forget, but we just recovered through this process) is .  Now we can apply this formula: . Because it is challenging to simplify the addition of these fractions right away, we just first wrote the addition without simplifying it by writing , though we still needed to write as the base in order to ensure that the equal sign truly means equal. In the next step, we focused on simplifying the exponent area (by mentally zooming in) and found a common denominator.    The natural question arises: it's easy to remember what to do to get these formulas when the author or teacher hints to me what to do, but how am I supposed to recall? In the end, the two formulas we introduced (and several more!) all can be recovered using the same tool: select values for exponents (but not for the base), and expand based on asking yourself what exponents mean ( ), then count the number of times the base appears. This works for the two formulas we introduced, and it also works for several more formulas that we will introduce next. Before showing the new formulas, it would be good to put this useful tool into a box!    Based on what exponents mean in    Select values for exponents. (To avoid the temptation to do unnecessary arithmetic, do not select a value for base(s).)  Expand based on what exponents mean.    Count the number of times the base appears, and rewrite based on what exponents mean.       Let's introduce a couple new formulas where the tool in applies. Let's then demonstrate full examples of how to practice this tool, then do full examples of computations based on the new formulas.   Exponent rules, part 2                 It would be easy to fall into the temptation of saying Well, if I don't remember what's on the other side of one of these exponent formulas, I can just look it up. Let me be the first to admit that, yes, of course you can look it up in certain situations. However, as this algebra course progresses, we will be looking at more involved problems, and in these problems, applyning exponent rules will need to happen as one pieces of the process. It will really slow us down if we don't gain a little bit of familiarity with these formulas. (Imagine if a professional chef who has to keep inventing new recipes works from the assumption of saying I don't want to spend the brain space to think about the differences of the taste of basil, cinnamon, rosemary, and anise. Sure, anyone -- including the chef -- can go online and find descriptions of all four of these spices. But intentionally lacking familiarity is going to slow this cook down.) Just like in speaking a foreign language, learning these exponent formulas is going to take some practice through repetition. It won't stick just looking at them once or studying them once. Before we dig into what's next, in the hopes that you'll really read what's next with effort, I also just want to say that it's hard for anyone to memorize a thing when there's no meaning behind it. It would be hard to go in a room full of thirty strangers and memorize each person's name, address, and phone number if each person told you their info once. The reason is that all the data is just disconnected: the phone number you learn for a stranger will just be a bunch of digits. These exponent formulas can seem the same way if there's no meaning attached to it. And people try doing that! People try to memorize these formulas, and struggle to do so. Instead, let's practice a technique that helps us memorize these formulas better each time we practice what we're about to do, and more importantly, it does the job not only by having us stare (like we often passively do with flashcards), but instead shows us the meaning behind the notation which convinces us why the formula is true in the first place!    Suppose that in the course of working on an algebra problem, we encounter the expression . Based on the shape of that expression, we think about a formula where one side says . If we have forgotten the other side of that formula, how do we recover it? Then, how do we apply the recovered formula to our expression?    The original expression is in the format of because the original expression is a fraction (numerator of denominator) raised to a power.  We want to figure out what goes on the other side of the formula that has on one side. To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for but not for or . Let's pick , which is a small positive integer. Then, reminds us what an exponent means, so we can expand as . Therefore, we have recovered the formula We can apply this formula to and we see that We just illustrated using the formula, but because the denominator has no variables, we can simplify slightly, getting .    Stick with it! This takes practice. You may never have had to do this in algebra before, but I encourage you to try this. This kind of activity actually gives us a real reason to believe the formulas are true in the first place, and it is a lot easier to remember and know a thing that you believe is true with evidence , rather than a thing that someone just told you to believe is true.    A major algebra formula has on one side. How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?    To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for but not for or . Let's pick , which is a small positive integer. Then, reminds us what an exponent means, so we can expand as . Therefore, we have recovered the formula       Simplify .    Using the exponent rule , we have .      Simplify .    Using the exponent rule , we have . Note, in our use of this exponent rule, we treated as and as , since this assignment of values truly captures the idea that the value of and the value of are multiplied together, and that result is taken to the power . When we wrote we could have skipped the parentheses around the and write instead. However, we kept parentheses around . Otherwise, there's too much going on, since in the next step, we use to turn into . It doesn't make sense for us to skip writing the work the very first time we ever need to combine the use of and the the use of . Then, using the exponent rule , we have . Based on the discussion above, a thorough answer would be: while an answwer (that is still based on the discussion above) that skips a little bit more would be:       Simplify .    First, we use the exponent rule to rewrite as . We wrapped both the and the in parentheses, for the same reason we discussed in the previosu example. Then, we use the exponent rule to rewrite each factor and also to rewrite . Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:       Simplify .    First, we use the exponent rule to rewrite as . In the new expression, by arithmetic. We use the exponent rule to rewrite the other two factors: , and also to rewrite . Showing all of what was explained above, writing with good notation (see where the equal signs are), we have:       Simplify .    Using the exponent rule , we have . Please note that inside the first parentheses where the text is , we must read this using the Order of Operations, and recognize that the exponent applies only to , and not to . Thus, . Next, using the exponent rule again, we have . Thus, . Now, using the exponent rule , we have . Therefore, .    In , we saw , which in symbols says that multiplying two expressions that have the same base can be rewrtten as a single expression with that same base, with the exponent being the sum of the two starting exponents. Now, we show a formula for dividing two expressions that have the same base, and we see on the other sid eof the formula that we subtract the two starting exponents:           The algebra formula we just presented has on one side. How can we recover what goes on the other side, and in doing so, help reveal why the formula is true in the first place?    To apply , we should only pick values for exponent(s), but not for base(s), so we will select something for and but not for . Let's pick and . Then, reminds us what an exponent means, so we can expand as Then, we can cancel two factors of from the numerator and denominator, getting . We see that in the example where and , this simplified to an expression where, with the base written once, the exponent is . Therefore, we have recovered the formula .      Simplify .    While we can use our new formula in , we can skip this formula and instead apply . Based on , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting .    Using the exponent rule in , we have , which leads to the same final answer.    We found two ways to answer the last example. One answer used the formula given in , while the other answer didn't (and only used what exponents mean from ). We bring this up for several reasons:   One natural reaction to hearing we didn't need the formula in is to ask why bother showing this formula in the first place. In a small enough example, it's fine to expand based on , but if we had a larger example like it would be impractical to expand based on , since nobody wants to write out as a factor 30,000 times in the numerator and 41 times in the denominator. In this case, the formula in is very useful, which lets us quickly write .    It is also good to see that we got the same final answer of both using the new formula and not using the new formula. Getting the same final answer through two different routes (an old route and a new route) gives us more confidence that the new formula is correct.    Finally, it's just good to keep in mind that there are often multiple ways to answer a question. This is true in math, as it is in life. It is good to be flexible and adaptable. There is often more than one way to approach a problem. Especially in the area of exponents (and radicals, which we will see next), there are often multiple ways to answer a question. I bring this up because in several of the practice problems that are to follow, I will be providing several different ways to answer the same question. In fact, for many of the questions we'll see, there are many possible different first steps! This is not to confuse you, but rather to show you that there are often multiple ways to approach a problem. Moreover, if a question naturally has several different answers (with different starts) that are all equally reasonable as answers (none much longer than the other), then I think it does a disservice to you to not show multiple answers: this might lead you to think that the way you're thinking about the problem doesn't work. My experience working with students has shown me that, especially in the area of exponents and radicals, multiple students start the same problem differently with approaches that all work !     Before digging into practice problems that have different answers, let's do just a little more practice with the formula in .    Simplify .    Since we are dividing two exponential expressions that have the same base, the formula in applies. Note that in the second step, we found a common denominator of 6 to subtract the two fractions. In the last step, we simplified the fraction . It was very useful to write the step even though we didn't simplify the exponent right away: we worked on getting a common denominator for the subtraction of fractions in the step after that. I can understand when someone doesn't do this in an easier problem like , skipping the step of writing and going directly to , but that's because it's easier to simplify than it is to simplify in your head. When the simplification of the exponent is not immediate, it's just nicer to take it a little slower and write what the subtraction is first before simplifying the subtraction.      Note turns into , not . (In other words, to simplify , we must subtract the exponents instead of dividing the exponents.)      A common error is to take an expression such as and due to seeing the exponents of and incorrectly conclude that the result is , which someone likely obtains by thinking about . However, .      Simplify .    First, we will zoom in to the portion of the expression that says , where we use the exponent rule to rewrite as . Thus, .  Next, we use the exponent rule to rewrite , and also to rewrite . Thus, .  Finally, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite .  Therefore, .  In summary,     We could have started by using to rewrite .  Then, we use the exponent rule to rewrite . Thus, .  Next, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Next, we do similar work in the denominator: we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  The next step we discuss is often glossed over, but we wanted to be thorough here. Recall that when simplifying the product of two fractions, we can just multiply the numerators and multiply the denominators. We can do this in reverse, too: when we see a single fraction, we can turn this into a product of two fractions:   Next, we use the exponent rule to rewrite , and also to rewrite . Therefore, .  In summary,     We could have started by using to rewrite .  Then, we use the exponent rule to rewrite as . Thus, .  Next, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Similarly, in the denominator, we use the exponent rule to rewrite , and then use the exponent rule to rewrite and also to rewrite . Thus, .  Applying the multiplication of fractions backwards just as we did in the previous answer,   Next, we use the exponent rule to rewrite , and also to rewrite .  Therefore, .  In summary,   Note that this third solution is very similar to the second solution, except that in the second solution, we first simplified before simplifying , while in this third solution, we first simplified before simplifying . Both approaches work equally well.    An example like this one shows that there are often multiple ways to approach a problem, and that is okay. We just showed three different ways to answer the problem, all leading to the same final answer. These didn't even all start exactly the same way! The first solution started by zooming quite far in, simplifying , while the second and third solutions started by rewriting the entire expression using . All three answers (and in fact, additional answers that we didn't provide) are all great, and each takes about the same amount of time.    Simplify .               Simplify     Using the exponent rule in , we have .    A common error for this problem is to write instead of . This is likely because of the negative exponent in the denominator. Note that we need to subtract exponents, even when the exponent in the denominator is negative. To break things down, the way that we can see this is to identify the roles of and and when we view as an expression in the form . Then based on the position of things, and and . Then putting these values into , we get . Our expression is correct, and has two minus signs. Here are the reasons:   The first minus sign (the minus sign right after writing ) is there because the right side of the formula in has a minus sign.    The second minus sign is actually part of writing the number . This is because in the formula's right side, we see the exponent , so we need to subtract the value of , which we already identified was .   As one other way to try to see this, let us think about which expression would lead us to using the formula . If we wanted to use the formula to get , we had to have started with , which is not the same as starting with .  There are three last exponent rules that we discuss:      (except possibly if )          Simplify .     by the exponent rule in . The fraction we wrote is saying that we are dividing a quantity by itself, so this equals . Therefore, .    Since , we have . Using the exponent rule in , we have . Therefore, .    Our first answer did not use the new exponent formula , while our second answer did. The fact that both answers led to the same final answer of gives us more confidence that the new formula is correct.   Simplify .  Using the exponent rule in , we have .    Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Using the exponent rule in , we have . The only exponent fact\/concept we used was .  Using , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting . While we applied cancellation rules for fractions, the only exponent fact\/concept we used was what an exponent means from .       Following the instructions, we saw that became either or became . All of our work was valid. Therefore, . In fact, our conclusion of is an example of the exponent rule in at play, and this activity gives us reason to believe .   Just a note that does not become . For more info, see .      Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Simplify .   One option is to use to turn into . Then the original expression is equal to .  If we wish to avoid the look of the fraction inside the fraction (the overall expression is a fraction whose denominator is itself a fraction), we can instead write the expression .  Instead of dividing a non-fraction and a fraction, we can rewrite this , which is a division of two fractions, which then becomes , where we multiply across to get .  If we present all the work using equal signs (and skipping a reasonable number of steps from above), we have     Instead of zooming in to replace with , we can instead completely zoom out, looking at the whole expression, and use the exponent rule to replace the entire expression with . Note that we wrote the exponent first as before simplifying to . Why are there two minus signs? One minus sign is the minus sign that's already built into the formula , and the other minus sign is the one that is part of the exponent .     Just a note that does not become using . Instead, a different expression, namely , becomes using .q    In we saw the formula . In we saw the formula . The first formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression . The second formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression .  If we compare the left side of the first formula and the right side of the second formula, they have the same shape to them. What I mean is that both expressions and happen to be a base raised to an exponent, multiplied by a base raised to an exponent. So, we really have to pay attention to which variable(s) are repeated and which variable(s) are not repeated. For example, in , the base is repeated, while in , the exponent is repeated.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.     Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example ), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.      Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . In this example, the new exponent does not simplify further. In another example like , we can apply the formula to get , or even skip writing this step, and in either case we could simplify the new exponent to .     In we saw the formula . In we saw the formula . The right side of the first formula and the left side of the second formula have the same shape to them. However, in the exponents match, while in the bases match.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.     Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.      Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.    Note that a common mistake is to turn into . However, there is no exponent rule that justifies this. In fact, among all the exponent rules we have seen up to this point, there is never a time that one exponent gets divided by another exponent.    It is a very common error to turn an expression of the form into an expression of the from .    Here are specific examples of what this warning is trying to address:  We cannot turn into .  We cannot turn into .  We cannot turn into .  We have seen various versions of the distributive property in AAAAAA. For example, specific versions included and . It is true that in our examples where we said that we couldn't distribute , we had addition inside the parentheses. So, what's the problem? Why doesn't the distributive rule apply? The issue is that in the format of , we have to be very careful to pay attention the operation between and the content in parentheses. In , the operation between and is multiplication. In other words, is a factor that is multiplied. The Distributive Law only addresses the situation where a factor is multiplied by a sum or a difference. The point is that it is not enough to just think that anything outside of parentheses can be distributed to everything inside the parentheses. In all three of our examples above, the thing outside of parentheses is an exponent, not a factor.  The Distributive Law only applies to the situation that it is describing through its formula, and nothing else. This is why we have to pay close attention to the formula as written: we examine each formula for what operations are occuring, where these operations are occuring, and any repeated variables. If we don't pay close attention to these details, we may misapply a formula.  We have introduced the exponent rule in . In this formula, the operation between and is multiplication, and the role of the thing outside of parentheses an exponent. So, this formula tells us that if we have multiplication inside the parentheses and an exponent outside, the exponent can apply to each of the factors.  We have also introduced the exponent rule in . In this formula, the operation between and is division, and the role of the thing outside of parentheses an exponent. So, this formula tells us that if we have division inside the parentheses and an exponent outside, the exponent can apply to both the numerator and denominator.    Radicals   What does a radical mean?    asks for the value that fills in the blank: . If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer. The answer to the radical question identifies the value of the base .     Find .  This asks for the value that fills in the blank: . Both and fill in the blank, but by definition, the positive number is the answer. Therefore, .    Find .  This asks for the value that fills in the blank: . The only number that fills in the blank is . (The reason that does not fill in the blank is that , not .) Therefore, .    Find .  When we raise the base to the power , the result is . So the base answers the question. Written as notation with an equal sign properly, .    It would be incorrect to write Of course, the completion to the right of the equal sign should have a , so when someone writes , it is good to see the present, since they are thinking about the correct base. However, the radical should not surround the because we have already processed what the radical does.    Radical missing small number    If the small number outside of the radical is missing, it is a hidden .    We do this because the small number outside of the radical is often (but not always) a . In other words, we often need to find the base when the exponent is , but there are also times we need to find the base when the exponent is something else, like or or , etc.   Find .  This question is asking , so .    Like in , it would be incorrect to write Instead, we should write     Simplify .             Note, in the second answer, we skipped writing the middle expression . This is fine to do, but it's good to remember that when the little number is missing outside of the radical, it is really a hidden . The reason we're taking time to say this is that sometimes people breeze through then the hidden number is a , but then struggle when there's another number there such as a . The point is that gives us a uniform and consistent way to think about all radicals, whether the small number outside of the radical is a (missing or written) or another number is written there such as a or . In all cases, a radical is asking us to identify the base while the little number outside the radical is telling us the exponent (and the content inside the radical is telling us the result of taking the base raised to the exponent).   How to say radicals    should be said -th root of . When the value of is small, there are also special names for these:   or can be said nd root of or square root of .    is spoken rd root of or cube root of , but not square root of .   For other values of , we just say -th root of . For example:   is spoken th root of but not square root of .    is spoken th root of but not square root of .        It is tempting to look at and want to say seven square root of five , but saying seven square root of five actually refers to which can also be written . The point is that and are different values:    asks for what is the base that when raised to the exponent results in the value of . Using a calculator, I found this to be approximately .     asks for what is the base that when raised to the exponent results in the value of , and then multiplies that result by . Using a calculator, I found is approximately . I then had to multiply this by . Thus, the value of is approximately .      Because of what we're about to bring up next, let's revisit some of the problems we've done using a new formula. I admit that most people won't prefer thinking of the problems we've done through this new lens, but it will be helpful for what we're about to do right after this!     In words, this formula says that an th root and an th power undo each other.   Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the second root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have     It may seem strange to include the step of writing when we already provided two perfectly good solutions in , but there are two reasons we are doing this:   Including this step makes it easier to illustrate the use of the formula in .    This gives us yet another way to simplify an expression containing a radical, and while this isn't most people's preferred way of thinking about , this new method is preferred by some people for certain problems that we will soon see, including the cube root problem below.      Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the third root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have     In the setting of algebra, we will need to simplify the root of expressions that contain variables.    Simplify .    Since the little number outside the radical is missing, . So, this is asking for the base that when raised to the exponent results in the value of . That is, we are being asked to fill in the blank in . Here are three valid ways that we can think about this:   We can use the exponent rule in in reverse. The expression can be rewritten as , since . The missing base is , since . Therefore, .    We can think about what the exponent means (or in other words, we can think about what squaring means). Squaring a thing means to multiply the thing by itself. So, we ask ourselves: what thing can be multiplied by itself to get ? More visually, how do we fill in the blanks in with the restriction that both blanks need to be filled in with the same thing? Informed by the exponent rule in which says that when we multiply two things with the same base we add the exponents, both blanks can be filled in with . That is, . Therefore, .    We can also apply the formula in , and emulate the work we did in . The content inside the radical, which is , can be replaced with , since and are equal. Thus,          With proper notation, answer both questions below as similarly as possible, using :   Simplify .    Simplify .                          In words, this formula says that an th root of a product can be rewritten as the product of the th roots of each factor. In fact, this may be slightly clearer by writing the same formula, but including the hidden multiplication signs: Either version of the formula (with hidden multiplication signs or written multiplication signs) is very useful when we need to simplify a radical that contains a product inside the radical. The key is that all roots have to be the same kind: this formula doesn't allow mixing a square root and a cube root, for example. To be clear, special cases of this formula include the version for square roots: and the version for cube roots: but there's also a version for fourth roots and fifth roots and so on. (Each of these special versions can also be written where we write the hidden multiplication signs. I encourage you to write the two previous equations with multiplication signs included, since multiplication needs to be present to apply this formula.)   Simplify .   We examine the content inside the radical (which in this example is ) and ask how we can write as the product, where one of the factors of the product is a perfect square. We do need a product (since the left side of the formula in says and not ). So, while is true and one of the pieces (namely ) is a perfect square, this isn't really going to help us. We want to write as a product with one piece being a perfect square, and a useful way to do that is . So, Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Now, is in the format of the left side of the formula So, we can apply this: Now, in the writing of , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong, though we will leave out multiplication symbols where possible to save a little time: .    The example we did suggests the following strategy:   Simplifying the square root of a product      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the square root as a product with one factor being a perfect square.    Apply the formula .    In the resulting expression of the form , the factor which is the square root of a perfect square can be simplified into an expression that does not require writing a square root. (However, the square root of an expression which is not a perfect square will always still have a square root symbol.)          Simplify .   We need to write the content inside the radical (which in this example is as the product where one factor is a perfect square. Note . Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Applying , we have: In , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong: .      Simplify .    Note that . So, we have: While the work that we have shown above is true and correct, we're not quite done yet, because has a factor which is a perfect square, namely . So let's take the last expression and zoom in to rewrite the portion that is : Presenting all the work from the beginning with equal signs, we have .    Alternatively, we could have started by writing . (The number is a larger perfect square than , and the benefit of the work we did in the previous answer was to see perfect square factors of and .) Thus,     We gave two answers to the previous question. The second answer gave us a shorter path to the same final answer of . However, when the contents inside the radical get so large, I struggle to see the best (that is, largest) perfect square that is a factor of the contents inside the radical. In these situations, it's good to just find some perfect square factor, even if it's not the largest one. At some point, the original expression gets rewritten as a whole number multiplied by the root of a smaller number. Then, we keep going as long as this smaller number inside the radical has a perfect square factor.  We can apply even when the content inside the radical contains variables. Before we get started, there is often a major source of confusion about perfect squares, so let us first clear that up.    An expression is a perfect square if it is the result of squaring an expression.        is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.        is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.     It is easy to mishear the discussion above. We said that is a perfect square. We never said that is a perfect square. The point is that is should not be treated the same as itself. The number is not a perfect square (it is missing from the list in , where we jump from the perfect square to the next perfect square ). However, the expression is a perfect square (it is present in the list in ). We are saying that when we have as the base, and this is raised to the power , with emphasis that is the exponent , which is just part of the expression .  To further clarify, examine this template: When we fill in the result of the first blank, this will force the value of the second blank on the right side of the equal sign. The content on the right side of the equal sign is the perfect square. For example, from the equation we conclude that is a perfect square, and in a similar way, from the equation we conclude that is a perfect square. (Note, we are saying that is a perfect square, not that is a perfect square.)   Now that we have identified a square root, we should clarify how we simplify the square root of a perfect square. What we are about to say is just technically a special case of , but it is worth stating explicitly to clear up some confusion:   How to simplify the square root of a perfect square      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a perfect square.     How to apply the strategy    Given an expression of the form , identify if is a perfect square. This means that there is some expression such that .    From , we get .             From , we get .  From , we get .  From , we get .      In all three examples above, the result of the square root was the contents inside the parentheses.      From , we get .  From , we get .       The two examples we just presented follow the exact same format as the three examples before. The example of looks confusing because is written twice. For the reason, the example looks weird to people, because is written twice. For all of us (myself included), an example like is easier to mentally process. We presented more familiar examples in before presenting the more confusing examples in . However, I hope the two examples in are convincing, since we did follow exactly the same format as in .  Through the examples of and , we see that a number can be its own square root. (In fact, these are the only two numbers that are their own square roots.) This all stems from the fact that and are the only two numbers that are their own squares.       From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .      In all six examples above, the result of the square root was the contents inside the parentheses. The work was presented in exactly the same format as in as much as possible. The pattern here continues.     When an expression is of the format base raised to an exponent, what do you notice about the exponent when the entire expression is a perfect square?      Simplify .   To follow , we examine the contents inside the radical, namely with the goal of rewriting this as a product, looking for perfect squares: In the work above, is the same as because of the exponent rule in . So, Since the expression on the right is the root of a product, we can turn this into a product of roots: The square roots of perfect squares will simplify: And while we can leave our final answer like this, we can also write this in a slightly more compact way: It is typical to write the content that is not in any radical first, primarily to avoid writing a radical symbol too large, and intentionally placing content inside a radical that should not be placed inside a radical. We now present a summary of all the work, with the work slightly reorganized, writing equal signs where they belong: .      Simplify .    We can rewrite as . Note that and are already perfect squares since these exponents are even, but and are not perfect squares since these exponents are odd. To fix this, we can rewrite as , and we can rewrite as . (Please note that this example was carefully chosen to have as an exponent. For details on why is not a perfect square, see .)  So, we have     After presenting , we presented the special case of this formula for cube roots, namely Our process for simplifying cube roots is like our process for simplifying square roots, with some minor twists. There are several small twists: we will be looking for cube roots now instead of square roots. To be thorough, let's formally define a perfect cube (analogous to our definition of a perfect square in ), give examples, and state the strategy for simplifying.    An expression is a perfect cube if it is the result of cubing an expression.        is a perfect cube because .  is a perfect cube because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.    Similar to , we present perfect cubes with variables:      is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  This list continues, following a pattern.    In , we asked about the pattern for perfect squares. For an expression to be a perfect square, the exponent needed to be even, or you could say that the exponent needed to be a multiple of . Notice the exponents in the previous example were , and so on. So for an expression to be a perfect cube, the exponent needs to be a multiple of .   How to simplify the cube root of a perfect cube      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a perfect cube.     How to apply the strategy    Given an expression of the form , identify if is a perfect cube. This means that there is some expression such that .    From , we get .             From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .          From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .         We alreday saw that for expression in the format of base raised to an exponent , the exponent needs to be a multiple of for the entire expression to be a perfect cube. Now, examining the examples given earlier, how do you find the result of the cube root of a perfect cube? Is there a pattern? (This is one of those moments in math where the pattern always works!) Is there a uniform process that you can teach me? How would you explain to somebody how to simplify ?      Simplifying the cube root of a product      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the cube root as a product with one factor being a perfect cube.    Apply the formula .    In the resulting expression of the form , the factor which is the cube root of a perfect cube can be simplified into an expression that does not require writing a cube root. (However, the cube root of an expression which is not a perfect cube will always still have a cube root symbol.)          Simplify .   We can rewrite as . Note that and are already perfect cubes since these exponents are multiples of , but and and are not perfect cubes since the exponents are not multiples of . To fix this, we need to rewrite and and .   For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .         Simplify .   We can rewrite as . Note that is already perfect cubes since the exponent is a multiple of of , but and are not perfect cubes since the exponents and are not multiples of . To fix this, we need to rewrite and .   For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .   So, we have     The formula below is a useful tool for converting a radical expression into an exponential expression:         This formula is telling us that the radical expression can turn into to the exponential expression and like all our formulas, this also works in reverse: we can turn into .  Like with any formula, we should pay attention to which variable appears where. In our formula, was the content inside the radical and also the base of the exponential expression, and was the small number outside the radical and also the denominator of the exponent (and note that the exponent was a fraction ). Then, when we apply this formula to convert , this expression turns into , and not into .    Rewrite using an equal expression consisting of one radical.    Using , we can rewrite the expression as Since we now have the multiplication of two exponential expressions with the same base we can use to add the exponents: Finally, using in reverse, we rewrite this as a radical:   Putting all of the work together, from the first expression to the last expression, writing equal signs where they belong, we have .     Write with only one radical.   Using , we can rewrite the expression as Since we now have the fraction of two exponential expressions with the same base we can use to subtract the exponents: Finally, using in reverse, we rewrite this as a radical:   Putting all of the work together, .    The formula in has two natural extensions, which we can discover by examining: as well as . In both computations above, when we zoomed in to the exponent, we saw the product of a fraction of a non-fraction, so we converted the non-fraction to a fraction and multiplied straight across, as our formula for multiplying fractions tells us in . In the end we see that and both turn into .                  As earlier, the denominator of the fractional exponent becomes the small number outside the radical. What about the numerator of the fractional exponent? The numerator of the exponent stays as a numerator (since content that is not part of a fraction can be thought of as a fraction over ). In reality, the expressions and only differ in the order in which the actions are performed: between raising to the th power and taking an th root, the placement of the writing (and parentheses) just specifies which action is performed first. But in the end, both expressions are equal to .   Simplify .   We can apply from backwards:     Alternatively, we can apply from backwards:     Both answers above worked, giving the same final answer of . However, pause to stare at the steps in both answers, and see which one you prefer. Can I share my thoughts? In the first answer, we had to simplify . Once we did that, we had to take the fourth root of : it was really a trial-and-error that I did to take a number, raise it to the fourth power, and see if I got , and I was thankful that I only had to stop at . If you want my honest preference, I prefer the second answer. The reason is that our first arithmetic step was to find the fourth root of . Once we did that, we had to cube . Overall, the arithmetic there was easier.  Stepping back from the details of the arithmetic, I want to point out that both answers were correct. However, the steps in the second answer were easier for me to do. This is a good reminder that in math, there are often multiple ways to get to the same answer. In the specific case of an expression in the form , we can apply either formula in , and they just differ in whether we should process the th root first or the th power first (note the th root comes from the fact that we can say is one factor of the exponent). If it is possible to simplify the th root, let's try to do this first, because this will lower the overall size of the numbers involved in the arithmetic.   Simplify .   This problem is almost in the format of the question we did, but the exponent introduces a minus sign. We can use from to rewrite as . Then, we can apply from backwards.     There are other possible ways to write steps do to this problem, but this problem involves smaller numbers when prioritizing the th root before the power. The extra complication with the negative exponent makes this a good time to bring up a common error that occurs. First, we bring up the error, and then explain:   .    This warning tells us that .    This warning tells us that .   The kind of error that's occuring when someone incorrectly turns into or vice versa is an attempt at rearranging the things present, by trying to keep the location of certain things in place (for example, the in the denominator of the exponent in was moved to becoming the numeator exponent of an expression where the exponent appeared in the denominator of a fraction.) That explanation may have been confusing, but there was a general attempt to move things around in places that seemed reasonable, but we instead need to follow our formulas. Let's dig into an explanation that I encourage you to read:   We've presented formulas (just a few at a time, so that it's not as overwhelming) and then practiced, but now it's time to place two formulas that we've seen one right after the other, so that we can compare the formulas and make some comments:    from      from    Both formulas have a fraction in them, but we need to pay close attention to where those fractions are. Speaking a little informally: The first formula tells us that when the exponent is a fraction, then the entire expression can be replaced with a radical. The second formula tells us that when the entire expression is a fraction (and we do mean entire expression being a fraction: the left side of the second formula doesn't have a fraction for the exponent) then the entire expression can be replaced with an expression with a negative exponent.  Let's see examples. The expression can be rewritten as . The expression is in its entirety of writing a fraction, and this becomes , which we should note has no fractions in it whatsoever.  These comments apply when reading both formulas from right to left as well:    , so we can turn an expression that is a radical into an exponential expression, where we end up writing a fraction as the exponent .     , so we can turn an expression that has a negative exponent into a fraction, where we end up writing a fraction as the entire replacement expression .      Finally, if we take and from and combine these with from , we have the following, which we describe informally:       A factor in the denominator can be turned into a factor of the numerator by negating its exponent.    A factor in the numerator can be turned into a factor of the denominator by negating its exponent.       In a similar manner, by combining from and :    Given a fraction with as a factor in the numerator and as a factor in the denominator, the two factors can be replaced with a single factor of in the numerator.     Simplify .   All parentheses here can be dropped, since there are no plus or minus signs inside the parentheses. So we have We can apply to replace the in the numerator with an in the denominator, so we have We can simplify the arithmetic of , and our expression is: One option is to now apply from to subtract the exponents of , giving us Putting this work altogether, we have: .    Alternatively, we take the expression from the first step of our previosu answer and apply from to add the exponents of , giving us We can simplify the arithmetic of , and our expression is: Putting this work altogether, we have: .      Rewrite as an expression with no negative exponents.    We can apply to replace the factors of , , and in the numerator and denominator with a single factor in the numerator: Now, to heed to the request that there are no negative exponents, we can replace in the numerator with in the denominator using : Putting this work altogether, we have: .    In case you're a little weary of , let's try this question a little slower: because we can take the expression after the equal sign (a product of fractions) and multiply staright across. In the new expression, we apply to get which matches the expression we saw in the previous answer. (Note that we could say that since any nonzero number divided by itself is .) Then, this turns into using .      Rewrite as an expression with no negative exponents.    We can apply to replace the factor of in the numerator with a factor of in the denominator, and also replace the factor of in the denominator with a factor of in the numerator:     We can instead apply to replace the factor of in the numerator and the factor of in the denominator with a single factor of in the numerator, and also replace the factor of in the numerator and the factor of in the denominator with a single factor of in the numerator:   One key source of confusion is how we got . Note that we need to take the exponent of in the numerator and subtract the exponent of in the denominator. This is why we wrote . It is common here to make the error of writing . Note that from tells us we need to subtract exponents, and the need to subtract exponents remains true even when the exponent in the denominator is negative. (See a similar example earlier in , with a more thorough discussion there.)    For this exercise, we presented two different answers (one starting with and one starting with ) and both answers require basically the same amount of writing. In fact, I think in any room full of people, folks will be split 50-50 as to which way they'd like to think about this type of question!   Simplify .    Simplify .    Simplify .    Simplify .    Simplify .       False  False  False  True  False   General confusion: becomes a fraction. When the EXPONENT is a fraction, then the overall expression becomes a root.   . Do not treat the exponent like it is a factor instead.    Take   text  text     Statement text    Solution text       Text      Text    text     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-exponents-2",
@@ -2692,22 +2692,22 @@ var ptx_lunr_docs = [
   "body": "  Simplify .            "
 },
 {
+  "id": "example-subtracting-negative-exponent",
+  "level": "2",
+  "url": "sec-exponents.html#example-subtracting-negative-exponent",
+  "type": "Example",
+  "number": "1.5.30",
+  "title": "",
+  "body": "  Simplify     Using the exponent rule in , we have .   "
+},
+{
   "id": "principle-exponent-rules-4",
   "level": "2",
   "url": "sec-exponents.html#principle-exponent-rules-4",
   "type": "Principle",
-  "number": "1.5.30",
-  "title": "",
-  "body": "    (except possibly if )       "
-},
-{
-  "id": "sec-exponents-4-49",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-49",
-  "type": "Example",
   "number": "1.5.31",
   "title": "",
-  "body": "  Simplify .     by the exponent rule in . The fraction we wrote is saying that we are dividing a quantity by itself, so this equals . Therefore, .    Since , we have . Using the exponent rule in , we have . Therefore, .   "
+  "body": "    (except possibly if )       "
 },
 {
   "id": "sec-exponents-4-51",
@@ -2716,113 +2716,122 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.5.32",
   "title": "",
-  "body": " Simplify .  Using the exponent rule in , we have .  "
+  "body": "  Simplify .     by the exponent rule in . The fraction we wrote is saying that we are dividing a quantity by itself, so this equals . Therefore, .    Since , we have . Using the exponent rule in , we have . Therefore, .   "
 },
 {
-  "id": "sec-exponents-4-52",
+  "id": "sec-exponents-4-53",
   "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-52",
+  "url": "sec-exponents.html#sec-exponents-4-53",
   "type": "Example",
   "number": "1.5.33",
   "title": "",
-  "body": " Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Using the exponent rule in , we have . The only exponent fact\/concept we used was .  Using , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting . While we applied cancellation rules for fractions, the only exponent fact\/concept we used was what an exponent means from .      "
+  "body": " Simplify .  Using the exponent rule in , we have .  "
 },
 {
   "id": "sec-exponents-4-54",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-54",
-  "type": "Warning",
+  "type": "Example",
   "number": "1.5.34",
   "title": "",
-  "body": " Just a note that does not become . For more info, see .  "
-},
-{
-  "id": "sec-exponents-4-55",
-  "level": "2",
-  "url": "sec-exponents.html#sec-exponents-4-55",
-  "type": "Try it",
-  "number": "1.5.35",
-  "title": "",
-  "body": "  Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .    "
+  "body": " Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .      Using the exponent rule in , we have . The only exponent fact\/concept we used was .  Using , we can expand . Then, we can cancel three factors of from the numerator and denominator, getting . While we applied cancellation rules for fractions, the only exponent fact\/concept we used was what an exponent means from .      "
 },
 {
   "id": "sec-exponents-4-56",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-56",
-  "type": "Example",
-  "number": "1.5.36",
+  "type": "Warning",
+  "number": "1.5.35",
   "title": "",
-  "body": " Simplify .   One option is to use to turn into . Then the original expression is equal to .  If we wish to avoid the look of the fraction inside the fraction (the overall expression is a fraction whose denominator is itself a fraction), we can instead write the expression .  Instead of dividing a non-fraction and a fraction, we can rewrite this , which is a division of two fractions, which then becomes , where we multiply across to get .  If we present all the work using equal signs (and skipping a reasonable number of steps from above), we have     Instead of zooming in to replace with , we can instead completely zoom out, looking at the whole expression, and use the exponent rule to replace the entire expression with . Note that we wrote the exponent first as before simplifying to . Why are there two minus signs? One minus sign is the minus sign that's already built into the formula , and the other minus sign is the one that is part of the exponent .   "
+  "body": " Just a note that does not become . For more info, see .  "
 },
 {
   "id": "sec-exponents-4-57",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-57",
-  "type": "Warning",
-  "number": "1.5.37",
+  "type": "Try it",
+  "number": "1.5.36",
   "title": "",
-  "body": " Just a note that does not become using . Instead, a different expression, namely , becomes using .q  "
+  "body": "  Rewrite in two different ways. In one writing, the only exponent fact\/concept to use is in . In the other writing, the only exponent fact\/concept to use is what an exponent means from .    "
 },
 {
   "id": "sec-exponents-4-58",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-58",
-  "type": "Note",
-  "number": "1.5.38",
+  "type": "Example",
+  "number": "1.5.37",
   "title": "",
-  "body": " In we saw the formula . In we saw the formula . The first formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression . The second formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression .  If we compare the left side of the first formula and the right side of the second formula, they have the same shape to them. What I mean is that both expressions and happen to be a base raised to an exponent, multiplied by a base raised to an exponent. So, we really have to pay attention to which variable(s) are repeated and which variable(s) are not repeated. For example, in , the base is repeated, while in , the exponent is repeated.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.  "
+  "body": " Simplify .   One option is to use to turn into . Then the original expression is equal to .  If we wish to avoid the look of the fraction inside the fraction (the overall expression is a fraction whose denominator is itself a fraction), we can instead write the expression .  Instead of dividing a non-fraction and a fraction, we can rewrite this , which is a division of two fractions, which then becomes , where we multiply across to get .  If we present all the work using equal signs (and skipping a reasonable number of steps from above), we have     Instead of zooming in to replace with , we can instead completely zoom out, looking at the whole expression, and use the exponent rule to replace the entire expression with . Note that we wrote the exponent first as before simplifying to . Why are there two minus signs? One minus sign is the minus sign that's already built into the formula , and the other minus sign is the one that is part of the exponent .   "
 },
 {
   "id": "sec-exponents-4-59",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-59",
-  "type": "Example",
-  "number": "1.5.39",
+  "type": "Warning",
+  "number": "1.5.38",
   "title": "",
-  "body": "  Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example ), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
+  "body": " Just a note that does not become using . Instead, a different expression, namely , becomes using .q  "
 },
 {
   "id": "sec-exponents-4-60",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-60",
-  "type": "Example",
-  "number": "1.5.40",
+  "type": "Note",
+  "number": "1.5.39",
   "title": "",
-  "body": "  Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . In this example, the new exponent does not simplify further. In another example like , we can apply the formula to get , or even skip writing this step, and in either case we could simplify the new exponent to .   "
+  "body": " In we saw the formula . In we saw the formula . The first formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression . The second formula tells us that when we have an expression of the form we can replace it with the equal expression . However, we can also go in reverse: if we see an expression of the form , we can replace it with the equal expression .  If we compare the left side of the first formula and the right side of the second formula, they have the same shape to them. What I mean is that both expressions and happen to be a base raised to an exponent, multiplied by a base raised to an exponent. So, we really have to pay attention to which variable(s) are repeated and which variable(s) are not repeated. For example, in , the base is repeated, while in , the exponent is repeated.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.  "
 },
 {
   "id": "sec-exponents-4-61",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-61",
-  "type": "Note",
-  "number": "1.5.41",
+  "type": "Example",
+  "number": "1.5.40",
   "title": "",
-  "body": " In we saw the formula . In we saw the formula . The right side of the first formula and the left side of the second formula have the same shape to them. However, in the exponents match, while in the bases match.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.  "
+  "body": "  Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example ), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
 },
 {
   "id": "sec-exponents-4-62",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-62",
   "type": "Example",
-  "number": "1.5.42",
+  "number": "1.5.41",
   "title": "",
-  "body": "  Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
+  "body": "  Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . In this example, the new exponent does not simplify further. In another example like , we can apply the formula to get , or even skip writing this step, and in either case we could simplify the new exponent to .   "
 },
 {
   "id": "sec-exponents-4-63",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-63",
+  "type": "Note",
+  "number": "1.5.42",
+  "title": "",
+  "body": " In we saw the formula . In we saw the formula . The right side of the first formula and the left side of the second formula have the same shape to them. However, in the exponents match, while in the bases match.  Thus, in the expression , both exponents are the same, meaning that the formula which has on one side applies, since also has exponents which match. In the expression , the bases are the same, so the formula which has on one side applies, since also has bases which match.  "
+},
+{
+  "id": "sec-exponents-4-64",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-64",
   "type": "Example",
   "number": "1.5.43",
   "title": "",
-  "body": "  Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
+  "body": "  Rewrite using a relevant exponent formula.    Since both exponents are the same, we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
 },
 {
   "id": "sec-exponents-4-65",
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-4-65",
-  "type": "Warning",
+  "type": "Example",
   "number": "1.5.44",
+  "title": "",
+  "body": "  Rewrite using a relevant exponent formula.    Since both bases are the same (they happen to be ), we can use the formula in to rewrite . While we have practiced using the formula to turn an expression of the form into an expression of the form (see for example AAAA), we can also use the formula in reverse, turning an expression of the form into an expression of the form , like we just did in this example.   "
+},
+{
+  "id": "sec-exponents-4-67",
+  "level": "2",
+  "url": "sec-exponents.html#sec-exponents-4-67",
+  "type": "Warning",
+  "number": "1.5.45",
   "title": "",
   "body": "  It is a very common error to turn an expression of the form into an expression of the from .   "
 },
@@ -2831,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#radical-mean",
   "type": "Definition",
-  "number": "1.5.45",
+  "number": "1.5.46",
   "title": "What does a radical mean?",
   "body": " What does a radical mean?    asks for the value that fills in the blank: . If two numbers can fill in the blank (positive and negative), then by definition, the positive number is the answer. The answer to the radical question identifies the value of the base .   "
 },
@@ -2840,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-3",
   "type": "Example",
-  "number": "1.5.46",
+  "number": "1.5.47",
   "title": "",
   "body": " Find .  This asks for the value that fills in the blank: . Both and fill in the blank, but by definition, the positive number is the answer. Therefore, .  "
 },
@@ -2849,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-4",
   "type": "Example",
-  "number": "1.5.47",
+  "number": "1.5.48",
   "title": "",
   "body": " Find .  This asks for the value that fills in the blank: . The only number that fills in the blank is . (The reason that does not fill in the blank is that , not .) Therefore, .  "
 },
@@ -2858,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-5",
   "type": "Example",
-  "number": "1.5.48",
+  "number": "1.5.49",
   "title": "",
   "body": " Find .  When we raise the base to the power , the result is . So the base answers the question. Written as notation with an equal sign properly, .  "
 },
@@ -2867,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#warning-radical-already-processed-in-2nd-root-5",
   "type": "Warning",
-  "number": "1.5.49",
+  "number": "1.5.50",
   "title": "",
   "body": " It would be incorrect to write Of course, the completion to the right of the equal sign should have a , so when someone writes , it is good to see the present, since they are thinking about the correct base. However, the radical should not surround the because we have already processed what the radical does.  "
 },
@@ -2876,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-7",
   "type": "Principle",
-  "number": "1.5.50",
+  "number": "1.5.51",
   "title": "Radical missing small number.",
   "body": " Radical missing small number    If the small number outside of the radical is missing, it is a hidden .   "
 },
@@ -2885,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-9",
   "type": "Example",
-  "number": "1.5.51",
+  "number": "1.5.52",
   "title": "",
   "body": " Find .  This question is asking , so .  "
 },
@@ -2894,7 +2903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#warning-radical-already-processed-in-square-root-5",
   "type": "Warning",
-  "number": "1.5.52",
+  "number": "1.5.53",
   "title": "",
   "body": " Like in , it would be incorrect to write Instead, we should write   "
 },
@@ -2903,7 +2912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-sqrt-81",
   "type": "Example",
-  "number": "1.5.53",
+  "number": "1.5.54",
   "title": "",
   "body": " Simplify .            "
 },
@@ -2912,7 +2921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-13",
   "type": "Language",
-  "number": "1.5.54",
+  "number": "1.5.55",
   "title": "How to say radicals.",
   "body": " How to say radicals    should be said -th root of . When the value of is small, there are also special names for these:   or can be said nd root of or square root of .    is spoken rd root of or cube root of , but not square root of .   For other values of , we just say -th root of . For example:   is spoken th root of but not square root of .    is spoken th root of but not square root of .      "
 },
@@ -2921,7 +2930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-14",
   "type": "Warning",
-  "number": "1.5.55",
+  "number": "1.5.56",
   "title": "",
   "body": " It is tempting to look at and want to say seven square root of five , but saying seven square root of five actually refers to which can also be written . The point is that and are different values:    asks for what is the base that when raised to the exponent results in the value of . Using a calculator, I found this to be approximately .     asks for what is the base that when raised to the exponent results in the value of , and then multiplies that result by . Using a calculator, I found is approximately . I then had to multiply this by . Thus, the value of is approximately .     "
 },
@@ -2930,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#nth-root-of-nth-power",
   "type": "Principle",
-  "number": "1.5.56",
+  "number": "1.5.57",
   "title": "",
   "body": "  "
 },
@@ -2939,7 +2948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-sqrt-81-via-nth-root-of-nth-power",
   "type": "Example",
-  "number": "1.5.57",
+  "number": "1.5.58",
   "title": "",
   "body": " Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the second root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have    "
 },
@@ -2948,7 +2957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-20",
   "type": "Example",
-  "number": "1.5.58",
+  "number": "1.5.59",
   "title": "",
   "body": " Find .   Inside the radical is , which we can replace with , since and are equal. That is, Note that in the above, we still had to write the third root: we have not processed the root here yet (we have only replaced with something that is equal to ). Now, we can use the formula to process the radical: . Presenting all the work with equal signs, we have    "
 },
@@ -2957,7 +2966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-22",
   "type": "Example",
-  "number": "1.5.59",
+  "number": "1.5.60",
   "title": "",
   "body": "  Simplify .    Since the little number outside the radical is missing, . So, this is asking for the base that when raised to the exponent results in the value of . That is, we are being asked to fill in the blank in . Here are three valid ways that we can think about this:   We can use the exponent rule in in reverse. The expression can be rewritten as , since . The missing base is , since . Therefore, .    We can think about what the exponent means (or in other words, we can think about what squaring means). Squaring a thing means to multiply the thing by itself. So, we ask ourselves: what thing can be multiplied by itself to get ? More visually, how do we fill in the blanks in with the restriction that both blanks need to be filled in with the same thing? Informed by the exponent rule in which says that when we multiply two things with the same base we add the exponents, both blanks can be filled in with . That is, . Therefore, .    We can also apply the formula in , and emulate the work we did in . The content inside the radical, which is , can be replaced with , since and are equal. Thus,       "
 },
@@ -2966,7 +2975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-23",
   "type": "Example",
-  "number": "1.5.60",
+  "number": "1.5.61",
   "title": "",
   "body": "  With proper notation, answer both questions below as similarly as possible, using :   Simplify .    Simplify .                      "
 },
@@ -2975,7 +2984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#nth-root-of-product",
   "type": "Principle",
-  "number": "1.5.61",
+  "number": "1.5.62",
   "title": "",
   "body": "  "
 },
@@ -2984,7 +2993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-26",
   "type": "Example",
-  "number": "1.5.62",
+  "number": "1.5.63",
   "title": "",
   "body": " Simplify .   We examine the content inside the radical (which in this example is ) and ask how we can write as the product, where one of the factors of the product is a perfect square. We do need a product (since the left side of the formula in says and not ). So, while is true and one of the pieces (namely ) is a perfect square, this isn't really going to help us. We want to write as a product with one piece being a perfect square, and a useful way to do that is . So, Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Now, is in the format of the left side of the formula So, we can apply this: Now, in the writing of , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong, though we will leave out multiplication symbols where possible to save a little time: .   "
 },
@@ -2993,7 +3002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#simplifying-square-root-of-product",
   "type": "Strategy",
-  "number": "1.5.63",
+  "number": "1.5.64",
   "title": "Simplifying the square root of a product.",
   "body": " Simplifying the square root of a product      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the square root as a product with one factor being a perfect square.    Apply the formula .    In the resulting expression of the form , the factor which is the square root of a perfect square can be simplified into an expression that does not require writing a square root. (However, the square root of an expression which is not a perfect square will always still have a square root symbol.)        "
 },
@@ -3002,7 +3011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-29",
   "type": "Example",
-  "number": "1.5.64",
+  "number": "1.5.65",
   "title": "",
   "body": " Simplify .   We need to write the content inside the radical (which in this example is as the product where one factor is a perfect square. Note . Note that in the work shown above, we still wrote the square root sign, because all we did was replace with the equal value of . We haven't processed the square root yet. Applying , we have: In , we can simplify because is a perfect square, but we have to leave alone. That is, We now present a summary of all the work, writing equal signs where they belong: .   "
 },
@@ -3011,7 +3020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-30",
   "type": "Example",
-  "number": "1.5.65",
+  "number": "1.5.66",
   "title": "",
   "body": "  Simplify .    Note that . So, we have: While the work that we have shown above is true and correct, we're not quite done yet, because has a factor which is a perfect square, namely . So let's take the last expression and zoom in to rewrite the portion that is : Presenting all the work from the beginning with equal signs, we have .    Alternatively, we could have started by writing . (The number is a larger perfect square than , and the benefit of the work we did in the previous answer was to see perfect square factors of and .) Thus,    "
 },
@@ -3020,7 +3029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#def-perfect-square",
   "type": "Definition",
-  "number": "1.5.66",
+  "number": "1.5.67",
   "title": "",
   "body": "  An expression is a perfect square if it is the result of squaring an expression.   "
 },
@@ -3029,7 +3038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-perfect-square-constants",
   "type": "Example",
-  "number": "1.5.67",
+  "number": "1.5.68",
   "title": "",
   "body": "    is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.   "
 },
@@ -3038,7 +3047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-perfect-square-with-variables",
   "type": "Example",
-  "number": "1.5.68",
+  "number": "1.5.69",
   "title": "",
   "body": "    is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.   "
 },
@@ -3047,7 +3056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#note-perfect-square-misuderstanding",
   "type": "Note",
-  "number": "1.5.69",
+  "number": "1.5.70",
   "title": "",
   "body": " It is easy to mishear the discussion above. We said that is a perfect square. We never said that is a perfect square. The point is that is should not be treated the same as itself. The number is not a perfect square (it is missing from the list in , where we jump from the perfect square to the next perfect square ). However, the expression is a perfect square (it is present in the list in ). We are saying that when we have as the base, and this is raised to the power , with emphasis that is the exponent , which is just part of the expression .  To further clarify, examine this template: When we fill in the result of the first blank, this will force the value of the second blank on the right side of the equal sign. The content on the right side of the equal sign is the perfect square. For example, from the equation we conclude that is a perfect square, and in a similar way, from the equation we conclude that is a perfect square. (Note, we are saying that is a perfect square, not that is a perfect square.)  "
 },
@@ -3056,7 +3065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-38",
   "type": "Strategy",
-  "number": "1.5.70",
+  "number": "1.5.71",
   "title": "How to simplify the square root of a perfect square.",
   "body": " How to simplify the square root of a perfect square      When does this strategy apply? This strategy applies in any expression which is a square root, and the contents inside the square root is a perfect square.     How to apply the strategy    Given an expression of the form , identify if is a perfect square. This means that there is some expression such that .    From , we get .        "
 },
@@ -3065,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sqrt7-sqrt8-sqrt9",
   "type": "Example",
-  "number": "1.5.71",
+  "number": "1.5.72",
   "title": "",
   "body": "    From , we get .  From , we get .  From , we get .     "
 },
@@ -3074,7 +3083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sqrt0-sqrt1",
   "type": "Example",
-  "number": "1.5.72",
+  "number": "1.5.73",
   "title": "",
   "body": "    From , we get .  From , we get .     "
 },
@@ -3083,7 +3092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-42",
   "type": "Note",
-  "number": "1.5.73",
+  "number": "1.5.74",
   "title": "",
   "body": " The two examples we just presented follow the exact same format as the three examples before. The example of looks confusing because is written twice. For the reason, the example looks weird to people, because is written twice. For all of us (myself included), an example like is easier to mentally process. We presented more familiar examples in before presenting the more confusing examples in . However, I hope the two examples in are convincing, since we did follow exactly the same format as in .  Through the examples of and , we see that a number can be its own square root. (In fact, these are the only two numbers that are their own square roots.) This all stems from the fact that and are the only two numbers that are their own squares.  "
 },
@@ -3092,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#examples-sqrt-x2-x4-x6-x8-x10-x12",
   "type": "Example",
-  "number": "1.5.74",
+  "number": "1.5.75",
   "title": "",
   "body": "    From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .     "
 },
@@ -3101,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#pattern-for-perfect-squares",
   "type": "Try it",
-  "number": "1.5.75",
+  "number": "1.5.76",
   "title": "",
   "body": "  When an expression is of the format base raised to an exponent, what do you notice about the exponent when the entire expression is a perfect square?    "
 },
@@ -3110,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-46",
   "type": "Example",
-  "number": "1.5.76",
+  "number": "1.5.77",
   "title": "",
   "body": " Simplify .   To follow , we examine the contents inside the radical, namely with the goal of rewriting this as a product, looking for perfect squares: In the work above, is the same as because of the exponent rule in . So, Since the expression on the right is the root of a product, we can turn this into a product of roots: The square roots of perfect squares will simplify: And while we can leave our final answer like this, we can also write this in a slightly more compact way: It is typical to write the content that is not in any radical first, primarily to avoid writing a radical symbol too large, and intentionally placing content inside a radical that should not be placed inside a radical. We now present a summary of all the work, with the work slightly reorganized, writing equal signs where they belong: .   "
 },
@@ -3119,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-47",
   "type": "Example",
-  "number": "1.5.77",
+  "number": "1.5.78",
   "title": "",
   "body": "  Simplify .    We can rewrite as . Note that and are already perfect squares since these exponents are even, but and are not perfect squares since these exponents are odd. To fix this, we can rewrite as , and we can rewrite as . (Please note that this example was carefully chosen to have as an exponent. For details on why is not a perfect square, see .)  So, we have    "
 },
@@ -3128,7 +3137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#def-perfect-cube",
   "type": "Definition",
-  "number": "1.5.78",
+  "number": "1.5.79",
   "title": "",
   "body": "  An expression is a perfect cube if it is the result of cubing an expression.   "
 },
@@ -3137,7 +3146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-perfect-cube-constants",
   "type": "Example",
-  "number": "1.5.79",
+  "number": "1.5.80",
   "title": "",
   "body": "    is a perfect cube because .  is a perfect cube because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  is a perfect square because .  This list continues, following a pattern.   "
 },
@@ -3146,7 +3155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#example-perfect-cube-with-variables",
   "type": "Example",
-  "number": "1.5.80",
+  "number": "1.5.81",
   "title": "",
   "body": "    is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  is a perfect cube because .  This list continues, following a pattern.   "
 },
@@ -3155,7 +3164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-54",
   "type": "Strategy",
-  "number": "1.5.81",
+  "number": "1.5.82",
   "title": "How to simplify the cube root of a perfect cube.",
   "body": " How to simplify the cube root of a perfect cube      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a perfect cube.     How to apply the strategy    Given an expression of the form , identify if is a perfect cube. This means that there is some expression such that .    From , we get .        "
 },
@@ -3164,7 +3173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#cbrt7-cbrt8-cbrt9",
   "type": "Example",
-  "number": "1.5.82",
+  "number": "1.5.83",
   "title": "",
   "body": "    From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .     "
 },
@@ -3173,169 +3182,250 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-56",
   "type": "Example",
-  "number": "1.5.83",
+  "number": "1.5.84",
   "title": "",
   "body": "    From , we get .  From , we get .  From , we get .  From , we get .  From , we get .  From , we get .     "
+},
+{
+  "id": "subsec-radicals-57",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-57",
+  "type": "Try it",
+  "number": "1.5.85",
+  "title": "",
+  "body": "  We alreday saw that for expression in the format of base raised to an exponent , the exponent needs to be a multiple of for the entire expression to be a perfect cube. Now, examining the examples given earlier, how do you find the result of the cube root of a perfect cube? Is there a pattern? (This is one of those moments in math where the pattern always works!) Is there a uniform process that you can teach me? How would you explain to somebody how to simplify ?    "
 },
 {
   "id": "simplifying-cube-root-of-product",
   "level": "2",
   "url": "sec-exponents.html#simplifying-cube-root-of-product",
   "type": "Strategy",
-  "number": "1.5.84",
+  "number": "1.5.86",
   "title": "Simplifying the cube root of a product.",
   "body": " Simplifying the cube root of a product      When does this strategy apply? This strategy applies to simplify any expression which is a cube root, and the contents inside the cube root is a product (or can be turned into a product).     How to apply the strategy    Rewrite the content inside the cube root as a product with one factor being a perfect cube.    Apply the formula .    In the resulting expression of the form , the factor which is the cube root of a perfect cube can be simplified into an expression that does not require writing a cube root. (However, the cube root of an expression which is not a perfect cube will always still have a cube root symbol.)        "
 },
 {
-  "id": "subsec-radicals-58",
+  "id": "subsec-radicals-59",
   "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-58",
+  "url": "sec-exponents.html#subsec-radicals-59",
   "type": "Example",
-  "number": "1.5.85",
+  "number": "1.5.87",
   "title": "",
-  "body": " Simplify .   We can rewrite as . Note that and are already perfect cubes since these exponents are multiples of , but and are not perfect cubes since these exponents are not multiples of . We can rewrite as , and we can rewrite as .    "
+  "body": " Simplify .   We can rewrite as . Note that and are already perfect cubes since these exponents are multiples of , but and and are not perfect cubes since the exponents are not multiples of . To fix this, we need to rewrite and and .   For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .       "
 },
 {
   "id": "subsec-radicals-60",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-60",
-  "type": "Warning",
-  "number": "1.5.86",
-  "title": "",
-  "body": " .  "
-},
-{
-  "id": "subsec-radicals-61",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-61",
-  "type": "Example",
-  "number": "1.5.87",
-  "title": "",
-  "body": " Write with only one radical.  "
-},
-{
-  "id": "subsec-radicals-62",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-62",
   "type": "Example",
   "number": "1.5.88",
   "title": "",
-  "body": " Simplify .  "
+  "body": " Simplify .   We can rewrite as . Note that is already perfect cubes since the exponent is a multiple of of , but and are not perfect cubes since the exponents and are not multiples of . To fix this, we need to rewrite and .   For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .    For , based on the exponent , we are looking for the largest multiple of that is less than , which is . We can rewrite as .   So, we have    "
 },
 {
-  "id": "subsec-radicals-63",
+  "id": "principle-radical-into-exponent",
   "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-63",
-  "type": "Example",
+  "url": "sec-exponents.html#principle-radical-into-exponent",
+  "type": "Principle",
   "number": "1.5.89",
   "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-64",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-64",
-  "type": "Example",
-  "number": "1.5.90",
-  "title": "",
-  "body": " Simplify .  "
+  "body": "      "
 },
 {
   "id": "subsec-radicals-65",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-65",
   "type": "Example",
-  "number": "1.5.91",
+  "number": "1.5.90",
   "title": "",
-  "body": " Simplify .  "
+  "body": "  Rewrite using an equal expression consisting of one radical.    Using , we can rewrite the expression as Since we now have the multiplication of two exponential expressions with the same base we can use to add the exponents: Finally, using in reverse, we rewrite this as a radical:   Putting all of the work together, from the first expression to the last expression, writing equal signs where they belong, we have .   "
 },
 {
   "id": "subsec-radicals-66",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-66",
   "type": "Example",
+  "number": "1.5.91",
+  "title": "",
+  "body": " Write with only one radical.   Using , we can rewrite the expression as Since we now have the fraction of two exponential expressions with the same base we can use to subtract the exponents: Finally, using in reverse, we rewrite this as a radical:   Putting all of the work together, .   "
+},
+{
+  "id": "principle-radical-into-exponent-extended",
+  "level": "2",
+  "url": "sec-exponents.html#principle-radical-into-exponent-extended",
+  "type": "Principle",
   "number": "1.5.92",
   "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-67",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-67",
-  "type": "Example",
-  "number": "1.5.93",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-68",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-68",
-  "type": "Example",
-  "number": "1.5.94",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-69",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-69",
-  "type": "Example",
-  "number": "1.5.95",
-  "title": "",
-  "body": " Simplify .  "
+  "body": "               "
 },
 {
   "id": "subsec-radicals-70",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-70",
   "type": "Example",
-  "number": "1.5.96",
+  "number": "1.5.93",
   "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-71",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-71",
-  "type": "Example",
-  "number": "1.5.97",
-  "title": "",
-  "body": " Simplify .  "
-},
-{
-  "id": "subsec-radicals-72",
-  "level": "2",
-  "url": "sec-exponents.html#subsec-radicals-72",
-  "type": "Example",
-  "number": "1.5.98",
-  "title": "",
-  "body": " Simplify .  "
+  "body": " Simplify .   We can apply from backwards:     Alternatively, we can apply from backwards:    "
 },
 {
   "id": "subsec-radicals-73",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-73",
-  "type": "Warning",
-  "number": "1.5.99",
+  "type": "Example",
+  "number": "1.5.94",
   "title": "",
-  "body": "  "
+  "body": " Simplify .   This problem is almost in the format of the question we did, but the exponent introduces a minus sign. We can use from to rewrite as . Then, we can apply from backwards.    "
 },
 {
   "id": "subsec-radicals-75",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-75",
   "type": "Warning",
-  "number": "1.5.100",
+  "number": "1.5.95",
   "title": "",
-  "body": "General confusion: becomes a fraction. When the EXPONENT is a fraction, then the overall expression becomes a root. "
+  "body": " .  "
 },
 {
   "id": "subsec-radicals-76",
   "level": "2",
   "url": "sec-exponents.html#subsec-radicals-76",
-  "type": "Warning",
+  "type": "Example",
+  "number": "1.5.96",
+  "title": "",
+  "body": " This warning tells us that .  "
+},
+{
+  "id": "subsec-radicals-77",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-77",
+  "type": "Example",
+  "number": "1.5.97",
+  "title": "",
+  "body": " This warning tells us that .  "
+},
+{
+  "id": "subsec-radicals-79",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-79",
+  "type": "Note",
+  "number": "1.5.98",
+  "title": "",
+  "body": " We've presented formulas (just a few at a time, so that it's not as overwhelming) and then practiced, but now it's time to place two formulas that we've seen one right after the other, so that we can compare the formulas and make some comments:    from      from    Both formulas have a fraction in them, but we need to pay close attention to where those fractions are. Speaking a little informally: The first formula tells us that when the exponent is a fraction, then the entire expression can be replaced with a radical. The second formula tells us that when the entire expression is a fraction (and we do mean entire expression being a fraction: the left side of the second formula doesn't have a fraction for the exponent) then the entire expression can be replaced with an expression with a negative exponent.  Let's see examples. The expression can be rewritten as . The expression is in its entirety of writing a fraction, and this becomes , which we should note has no fractions in it whatsoever.  These comments apply when reading both formulas from right to left as well:    , so we can turn an expression that is a radical into an exponential expression, where we end up writing a fraction as the exponent .     , so we can turn an expression that has a negative exponent into a fraction, where we end up writing a fraction as the entire replacement expression .     "
+},
+{
+  "id": "principle-faster-negative-exponents",
+  "level": "2",
+  "url": "sec-exponents.html#principle-faster-negative-exponents",
+  "type": "Principle",
+  "number": "1.5.99",
+  "title": "",
+  "body": "     A factor in the denominator can be turned into a factor of the numerator by negating its exponent.    A factor in the numerator can be turned into a factor of the denominator by negating its exponent.      "
+},
+{
+  "id": "principle-faster-dividing-exponents-same-base",
+  "level": "2",
+  "url": "sec-exponents.html#principle-faster-dividing-exponents-same-base",
+  "type": "Principle",
+  "number": "1.5.100",
+  "title": "",
+  "body": "  Given a fraction with as a factor in the numerator and as a factor in the denominator, the two factors can be replaced with a single factor of in the numerator.   "
+},
+{
+  "id": "subsec-radicals-84",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-84",
+  "type": "Example",
   "number": "1.5.101",
+  "title": "",
+  "body": " Simplify .   All parentheses here can be dropped, since there are no plus or minus signs inside the parentheses. So we have We can apply to replace the in the numerator with an in the denominator, so we have We can simplify the arithmetic of , and our expression is: One option is to now apply from to subtract the exponents of , giving us Putting this work altogether, we have: .    Alternatively, we take the expression from the first step of our previosu answer and apply from to add the exponents of , giving us We can simplify the arithmetic of , and our expression is: Putting this work altogether, we have: .   "
+},
+{
+  "id": "subsec-radicals-85",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-85",
+  "type": "Example",
+  "number": "1.5.102",
+  "title": "",
+  "body": "  Rewrite as an expression with no negative exponents.    We can apply to replace the factors of , , and in the numerator and denominator with a single factor in the numerator: Now, to heed to the request that there are no negative exponents, we can replace in the numerator with in the denominator using : Putting this work altogether, we have: .    In case you're a little weary of , let's try this question a little slower: because we can take the expression after the equal sign (a product of fractions) and multiply staright across. In the new expression, we apply to get which matches the expression we saw in the previous answer. (Note that we could say that since any nonzero number divided by itself is .) Then, this turns into using .   "
+},
+{
+  "id": "subsec-radicals-86",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-86",
+  "type": "Example",
+  "number": "1.5.103",
+  "title": "",
+  "body": "  Rewrite as an expression with no negative exponents.    We can apply to replace the factor of in the numerator with a factor of in the denominator, and also replace the factor of in the denominator with a factor of in the numerator:     We can instead apply to replace the factor of in the numerator and the factor of in the denominator with a single factor of in the numerator, and also replace the factor of in the numerator and the factor of in the denominator with a single factor of in the numerator:   One key source of confusion is how we got . Note that we need to take the exponent of in the numerator and subtract the exponent of in the denominator. This is why we wrote . It is common here to make the error of writing . Note that from tells us we need to subtract exponents, and the need to subtract exponents remains true even when the exponent in the denominator is negative. (See a similar example earlier in , with a more thorough discussion there.)   "
+},
+{
+  "id": "subsec-radicals-88",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-88",
+  "type": "Example",
+  "number": "1.5.104",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "subsec-radicals-89",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-89",
+  "type": "Example",
+  "number": "1.5.105",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "subsec-radicals-90",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-90",
+  "type": "Example",
+  "number": "1.5.106",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "subsec-radicals-91",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-91",
+  "type": "Example",
+  "number": "1.5.107",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "subsec-radicals-92",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-92",
+  "type": "Example",
+  "number": "1.5.108",
+  "title": "",
+  "body": " Simplify .  "
+},
+{
+  "id": "subsec-radicals-93",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-93",
+  "type": "Warning",
+  "number": "1.5.109",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "subsec-radicals-95",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-95",
+  "type": "Warning",
+  "number": "1.5.110",
+  "title": "",
+  "body": "General confusion: becomes a fraction. When the EXPONENT is a fraction, then the overall expression becomes a root. "
+},
+{
+  "id": "subsec-radicals-96",
+  "level": "2",
+  "url": "sec-exponents.html#subsec-radicals-96",
+  "type": "Warning",
+  "number": "1.5.111",
   "title": "",
   "body": " . Do not treat the exponent like it is a factor instead. "
 },
@@ -3344,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-take-3",
   "type": "Example",
-  "number": "1.5.102",
+  "number": "1.5.112",
   "title": "",
   "body": "  Statement text    Solution text   "
 },
@@ -3353,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-take-4",
   "type": "Try it",
-  "number": "1.5.103",
+  "number": "1.5.113",
   "title": "",
   "body": "  Text    "
 },
@@ -3362,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-take-5",
   "type": "Note",
-  "number": "1.5.104",
+  "number": "1.5.114",
   "title": "",
   "body": " Text  "
 },
@@ -3371,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#subsec-take-6",
   "type": "Warning",
-  "number": "1.5.105",
+  "number": "1.5.115",
   "title": "",
   "body": " text  "
 },
@@ -3380,7 +3470,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponents.html#sec-exponents-7-3",
   "type": "Example",
-  "number": "1.5.106",
+  "number": "1.5.116",
   "title": "",
   "body": "  Text    Answer   "
 },

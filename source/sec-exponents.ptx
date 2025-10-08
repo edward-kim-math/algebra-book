@@ -863,6 +863,43 @@
       </solution>
     </example>
 
+    <example xml:id="example-subtracting-negative-exponent">
+      <statement>
+        <p>
+          Simplify <m>\frac{h^{11}}{h^{-2}}</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the exponent rule <m>\frac{a^m}{a^n} = a^{m-n}</m> in <xref ref="principle-exponent-rules-3" />, we have <m>\frac{h^{11}}{h^{-2}} = h^{11-(-2)} = h^{11+2} = h^{13}</m>.          
+        </p>
+      </solution>
+    </example>
+    <p>
+      A common error for this problem is to write <m>h^{11-2}</m> instead of <m>h^{11-(-2)}</m>.
+      This is likely because of the negative exponent in the denominator.
+      Note that we need to subtract exponents, even when the exponent in the denominator is negative.
+      To break things down, the way that we can see this is to identify the roles of <m>a</m> and <m>m</m> and <m>n</m> when we view <m>\frac{h^{11}}{h^{-2}}</m> as an expression in the form <m>\frac{a^m}{a^n}</m>.
+      Then based on the position of things, <m>a=h</m> and <m>m=11</m> and <m>n=-2</m>.
+      Then putting these values into <m>a^{m-n}</m>, we get <m>h^{11-(-2)}</m>. Our expression <m>h^{11-(-2)}</m> is correct, and has two minus signs. Here are the reasons:
+      <ul>
+        <li>
+          <p>
+            The first minus sign (the minus sign right after writing <m>11</m>) is there because the right side of the formula in <xref ref="principle-exponent-rules-3" /> has a minus sign.
+          </p>
+        </li>
+        <li>
+          <p>
+            The second minus sign is actually part of writing the number <m>-2</m>. This is because in the formula's right side, we see the exponent <m>m-n</m>, so we need to subtract the value of <m>n</m>, which we already identified was <m>n=-2</m>.
+          </p>
+        </li>
+      </ul>
+      As one other way to try to see this, let us think about which expression <emph>would</emph> lead us to <m>h^{11-2}</m> using the formula <m>\frac{a^m}{a^n} = a^{m-n}</m>.
+      If we wanted to use the formula to get <m>h^{11-2}</m>, we had to have started with <m>\frac{h^{11}}{h^2}</m>, which is not the same as starting with <m>\frac{h^{11}}{h^{-2}}</m>.
+    </p>
+
+
+
 
     <p>
       There are three last exponent rules that we discuss:
@@ -1910,6 +1947,20 @@
       </statement>
     </example>
 
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          We alreday saw that for expression in the format of <q>base raised to an exponent</q>, the exponent needs to be a multiple of <m>3</m> for the entire expression to be a perfect cube.
+          Now, examining the examples given earlier, how do you find the result of the cube root of a perfect cube?
+          Is there a pattern? (This is one of those moments in math where the pattern <emph>always</emph> works!)
+          Is there a uniform process that you can teach me?
+          How would you explain to somebody how to simplify <m>\sqrt[3]{z^{33}}</m>?
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
     <computation xml:id="simplifying-cube-root-of-product">
       <title>Simplifying the cube root of a product</title>
       <p>
@@ -1948,57 +1999,408 @@
     </computation>
     
     <example>
-      <statement><p>Simplify <m>\sqrt[3]{80a^9 b^{10} c^{11} d^{12}}</m>.</p></statement>
+      <statement><p>Simplify <m>\sqrt[3]{80a^9 b^{10} c^{11} d^{12} e^{13}}</m>.</p></statement>
       <solution>
         <p>
           We can rewrite <m>80</m> as <m>8 \cdot 10</m>.
           Note that <m>a^{9}</m> and <m>d^{12}</m> are already perfect cubes since these exponents are multiples of <m>3</m>,
-          but <m>b^{10}</m> and <m>c^{11}</m> are not perfect cubes since these exponents are not multiples of <m>3</m>.
-          We can rewrite <m>b^{10}</m> as <m>b^{9} \cdot b^1</m>, and we can rewrite <m>c^{11}</m> as <m>c^{9} \cdot c^2</m>.
+          but <m>b^{10}</m> and <m>c^{11}</m> and <m>e^{13}</m> are not perfect cubes since the exponents are not multiples of <m>3</m>.
+          To fix this, we need to rewrite <m>b^{10}</m> and <m>c^{11}</m> and <m>e^{13}</m>.
+          <ul>
+            <li>
+              <p>
+                For <m>b^{10}</m>, based on the exponent <m>10</m>, we are looking for the largest multiple of <m>3</m> that is less than <m>10</m>, which is <m>9</m>. We can rewrite <m>b^{10}</m> as <m>b^{9} \cdot b^1</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                For <m>c^{11}</m>, based on the exponent <m>11</m>, we are looking for the largest multiple of <m>3</m> that is less than <m>11</m>, which is <m>9</m>. We can rewrite <m>c^{11}</m> as <m>c^{9} \cdot c^2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                For <m>e^{13}</m>, based on the exponent <m>13</m>, we are looking for the largest multiple of <m>3</m> that is less than <m>13</m>, which is <m>12</m>. We can rewrite <m>e^{13}</m> as <m>e^{12} \cdot e^1</m>.
+              </p>
+            </li>
+          </ul>
           <md>
-            <mrow>\amp \sqrt[3]{80a^9 b^{10} c^{11} d^{12}}</mrow>
-            <mrow>\amp= </mrow>
-            <mrow>\amp= </mrow>
-            <mrow>\amp= </mrow>
-            <mrow>\amp= </mrow>
-            <mrow>\amp= </mrow>
+            <mrow>\amp \sqrt[3]{80a^9 b^{10} c^{11} d^{12} e^{13}}</mrow>
+            <mrow>\amp= \sqrt[3]{8 \cdot 10 \cdot a^9 \cdot b^{9} \cdot b^1 \cdot c^{9} \cdot c^2 \cdot d^{12} \cdot e^{12} \cdot e^1} </mrow>
+            <mrow>\amp= \sqrt[3]{8 \cdot a^9 \cdot b^{9} \cdot c^{9} \cdot d^{12} \cdot e^{12} \cdot 10 b c^2 e}</mrow>
+            <mrow>\amp= \sqrt[3]{8}\cdot \sqrt[3]{a^9} \cdot \sqrt[3]{b^{9}} \cdot \sqrt[3]{c^{9}} \cdot \sqrt[3]{d^{12}} \cdot \sqrt[3]{e^{12}} \cdot \sqrt[3]{10bc^2e}</mrow>
+            <mrow>\amp = 2a^3b^3c^3d^4e^4 \sqrt[3]{10bc^2e}</mrow>
           </md>
         </p>
       </solution>
     </example>
 
+    <example>
+      <statement><p>Simplify <m>\sqrt[3]{16x^3 y^8 z^4}</m>.</p></statement>
+      <solution>
+        <p>
+          We can rewrite <m>16</m> as <m>8 \cdot 2</m>.
+          Note that <m>x^{3}</m> is already perfect cubes since the exponent <m>3</m> is a multiple of of <m>3</m>,
+          but <m>y^{8}</m> and <m>z^{4}</m> are not perfect cubes since the exponents <m>8</m> and <m>4</m> are not multiples of <m>3</m>.
+          To fix this, we need to rewrite <m>y^{8}</m> and <m>z^{4}</m>.
+          <ul>
+            <li>
+              <p>
+                For <m>y^{8}</m>, based on the exponent <m>8</m>, we are looking for the largest multiple of <m>3</m> that is less than <m>8</m>, which is <m>6</m>. We can rewrite <m>y^{8}</m> as <m>y^{6} \cdot y^2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                For <m>z^{4}</m>, based on the exponent <m>4</m>, we are looking for the largest multiple of <m>3</m> that is less than <m>4</m>, which is <m>3</m>. We can rewrite <m>z^{4}</m> as <m>z^{3} \cdot z^1</m>.
+              </p>
+            </li>
+          </ul>
+          So, we have
+          <md>
+            <mrow>\amp \sqrt[3]{16x^3 y^8 z^4}</mrow>
+            <mrow>\amp= \sqrt[3]{8 \cdot 2 \cdot x^3 \cdot y^{6} \cdot y^2 \cdot z^{3} \cdot z^1} </mrow>
+            <mrow>\amp= \sqrt[3]{8 \cdot x^3 \cdot y^{6} \cdot z^{3} \cdot 2y^2z}</mrow>
+            <mrow>\amp= \sqrt[3]{8}\cdot \sqrt[3]{y^6} \sqrt[3]{z^3} \cdot \sqrt[3]{2y^2z}</mrow>
+            <mrow>\amp= 2yy^2z \sqrt[3]{2y^2z}</mrow>
+          </md>
+        </p>
+      </solution>
+    </example>
 
+    <p>
+      The formula below is a useful tool for converting a radical expression into an exponential expression:
+    </p>
+    <principle xml:id="principle-radical-into-exponent">
+      <statement>
+        <p>
+          <m>\sqrt[n]{a} = a^{1/n}</m>
+        </p>
+      </statement>
+    </principle>
+    <p>
+      This formula is telling us that the radical expression <m>\sqrt[n]{a}</m> can turn into to the exponential expression <m>a^{1/n}</m>
+      and like all our formulas, this also works in reverse: we can turn <m>a^{1/n}</m> into <m>\sqrt[n]{a}</m>.
+    </p>
+    <p>
+      Like with any formula, we should pay attention to which variable appears where.
+      In our formula, <m>a</m> was the content inside the radical and also the base of the exponential expression, and <m>n</m> was the small number outside the radical and also the denominator of the exponent (and note that the exponent was a fraction <m>\frac1n</m>).
+      Then, when we apply this formula to convert <m>\sqrt[3]{4}</m>, this expression turns into <m>4^{1/3}</m>, and not into <m>3^{1/4}</m>.
+    </p>
 
+    <example>
+      <statement>
+        <p>
+          Rewrite <m>\sqrt[7]{c} \sqrt[8]{c}</m> using an equal expression consisting of one radical.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using <xref ref="principle-radical-into-exponent" />, we can rewrite the expression as
+          <me>c^{1/7} \cdot c^{1/8}.</me>
+          Since we now have the multiplication of two exponential expressions with the same base we can use  <m>a^m a^n = a^{m+n}</m> to add the exponents: 
+          <me>c^{1/7} \cdot c^{1/8} = c^{1/7 + 1/8} = c^{15/56}.</me>
+          Finally, using <xref ref="principle-radical-into-exponent" /> in reverse, we rewrite this as a radical:
+          <me>c^{15/56} = \sqrt[56]{c^{15}}.</me>
+        </p>
+        <p>
+          Putting all of the work together, from the first expression to the last expression, writing equal signs where they belong, we have
+          <m>\sqrt[7]{c} \sqrt[8]{c} = c^{1/7} \cdot c^{1/8} = c^{1/7 + 1/8} = c^{15/56} = \sqrt[56]{c^{15}}</m>.
+        </p>
+      </solution>
+    </example>
 
+    <example>
+      <statement><p>Write <m>\frac{\sqrt[3]{x}}{\sqrt[4]{x}}</m> with only one radical.</p></statement>
+      <solution>
+        <p>
+          Using <xref ref="principle-radical-into-exponent" />, we can rewrite the expression as
+          <me>\frac{x^{1/3}}{x^{1/4}}.</me>
+          Since we now have the fraction of two exponential expressions with the same base we can use  <m>\frac{a^m}{a^n} = a^{m-n}</m> to subtract the exponents: 
+          <me>\frac{x^{1/3}}{x^{1/4}} = x^{1/3 - 1/4} = x^{1/12}.</me>
+          Finally, using <xref ref="principle-radical-into-exponent" /> in reverse, we rewrite this as a radical:
+          <me>x^{1/12} = \sqrt[12]{x}</me>
+        </p>
+        <p>
+          Putting all of the work together, 
+          <m>\frac{\sqrt[3]{x}}{\sqrt[4]{x}} = \frac{x^{1/3}}{x^{1/4}} = x^{1/3 - 1/4} = x^{1/12} = \sqrt[12]{x}</m>.
+        </p>
+      </solution>
+    </example>
 
+    <p>
+      The formula in <xref ref="principle-radical-into-exponent" /> has two natural extensions, which we can discover by examining:
+      <me>\sqrt[n]{a^m} = (a^m)^{1/n} = a^{m \cdot \frac{1}{n}} = a^{\frac{m}{1} \cdot \frac{1}{n}} = a^{\frac{m}{n}}</me>
+      as well as
+      <me>(\sqrt[n]{a})^m = (a^{1/n})^m = a^{\frac{1}{n} \cdot m} = a^{\frac{1}{n} \cdot \frac{m}{1}} = a^{\frac{m}{n}}</me>.
+      In both computations above, when we zoomed in to the exponent, we saw the product of a fraction of a non-fraction, so we converted the non-fraction to a fraction and multiplied straight across,
+      as our formula for multiplying fractions tells us in <xref ref="fraction-multiplication" />. In the end we see that <m>\sqrt[n]{a^m}</m> and <m>(\sqrt[n]{a})^m</m> both turn into <m>a^{m/n}</m>.
+    </p>
 
+    <principle xml:id="principle-radical-into-exponent-extended">
+      <statement>
+        <ul>
+          <li>
+            <p>
+              <m>\sqrt[n]{a^m} = a^{m/n}</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>(\sqrt[n]{a})^m = a^{m/n}</m>
+            </p>
+          </li>
+        </ul>          
+      </statement>
+    </principle>
+    <p>
+      As earlier, the denominator of the fractional exponent becomes the small number outside the radical.
+      What about the numerator of the fractional exponent? The numerator of the exponent stays as a numerator (since content that is not part of a fraction can be thought of as a fraction over <m>1</m>).
+      In reality, the expressions <m>\sqrt[n]{a^m}</m> and <m>(\sqrt[n]{a})^m</m> only differ in the order in which the actions are performed:
+      between raising to the <m>m</m>th power and taking an <m>n</m>th root, the placement of the writing (and parentheses) just specifies which action is performed first.
+      But in the end, both expressions are equal to <m>a^{m/n}</m>.
+    </p>
 
+    <example>
+      <statement><p>Simplify <m>16^{3/4}</m>.</p></statement>
+      <solution>
+        <p>
+          We can apply <m>\sqrt[n]{a^m} = a^{m/n}</m> from <xref ref="principle-radical-into-exponent-extended" /> backwards:
+          <me>16^{3/4} = \sqrt[4]{16^3} = \sqrt[4]{4096} = 8.</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Alternatively, we can apply <m>(\sqrt[n]{a})^m = a^{m/n}</m> from <xref ref="principle-radical-into-exponent-extended" /> backwards:
+          <me>16^{3/4} = (\sqrt[4]{16})^3 = (2)^3 = 8.</me>          
+        </p>
+      </solution>
+    </example>
+    <p>
+      Both answers above worked, giving the same final answer of <m>8</m>. However, pause to stare at the steps in both answers, and see which one you prefer.
+      Can I share my thoughts? In the first answer, we had to simplify <m>16^3</m>.
+      Once we did that, we had to take the fourth root of <m>4096</m>: it was really a trial-and-error that I did to take a number, raise it to the fourth power, and see if I got <m>4096</m>, 
+      and I was thankful that I only had to stop at <m>8</m>.
+      If you want my honest preference, I prefer the second answer.
+      The reason is that our first arithmetic step was to find the fourth root of <m>16</m>.
+      Once we did that, we had to cube <m>2</m>. Overall, the arithmetic there was easier.
+    </p>
+    <p>
+      Stepping back from the details of the arithmetic, I want to point out that both answers were correct.
+      However, the steps in the second answer were easier for me to do.
+      This is a good reminder that in math, there are often multiple ways to get to the same answer.
+      In the specific case of an expression in the form <m>a^{m/n}</m>, we can apply either formula in <xref ref="principle-radical-into-exponent-extended" />,
+      and they just differ in whether we should process the <m>n</m>th root first or the <m>m</m>th power first (note the <m>n</m>th root comes from the fact that we can say <m>\frac1n</m> is one factor of the exponent).
+      If it is possible to simplify the <m>n</m>th root, let's try to do this first, because this will lower the overall size of the numbers involved in the arithmetic.
+    </p>
 
-
-
-
-    <formula>
-      <statement><p><m>a^{1/n} = \sqrt[n]{a}</m></p></statement>
-    </formula>
-
+    <example>
+      <statement><p>Simplify <m>32^{-2/5}</m>.</p></statement>
+      <solution>
+        <p>
+          This problem is almost in the format of the question we did, but the exponent introduces a minus sign.
+          We can use <m>a^{-n}=\frac{1}{a^n}</m> from <xref ref="principle-exponent-rules-4" /> to rewrite <m>32^{-2/5}</m> as <m>\frac{1}{32^{2/5}}</m>.
+          Then, we can apply <m>(\sqrt[n]{a})^m = a^{m/n}</m> from <xref ref="principle-radical-into-exponent-extended" /> backwards.
+          <m>32^{-2/5} = \frac{1}{32^{2/5}} = \frac{1}{(\sqrt[5]{32})^2} = \frac{1}{(2)^2} = \frac{1}{4}.</m>
+        </p>
+      </solution>
+    </example>
+    <p>
+      There are other possible ways to write steps do to this problem, but this problem involves smaller numbers when prioritizing the <m>5</m>th root before the <m>2</m> power.
+      The extra complication with the negative exponent makes this a good time to bring up a common error that occurs. First, we bring up the error, and then explain:
+    </p>
     <warning>
-      <statement><p><m>x^{1/2} \neq 1/x^2</m>.</p></statement>
+      <statement><p><m>a^{1/n} \neq \frac{1}{a^n}</m>.</p></statement>
     </warning>
-
     <example>
-      <statement><p>Write <m>(\sqrt[4]{x})/(\sqrt[3]{x})</m> with only one radical.</p></statement>
+      <p>
+        This warning tells us that <m>x^{1/3} \neq \frac{1}{x^3}</m>.
+      </p>
     </example>
-
     <example>
-      <statement><p>Simplify <m>16^{-3/4}</m>.</p></statement>
+      <p>
+        This warning tells us that <m>25^{1/2} \neq \frac{1}{25^2}</m>.
+      </p>
     </example>
+    <p>
+      The kind of error that's occuring when someone incorrectly turns <m>25^{1/2}</m> into <m>\frac{1}{25^2}</m> or vice versa
+      is an attempt at rearranging the things present, by trying to keep the location of certain things in place (for example, the <m>2</m> in the denominator of the exponent in <m>25^{1/2}</m> was moved to becoming the numeator exponent of an expression where the exponent appeared in the denominator of a fraction.)
+      That explanation may have been confusing, but there was a general attempt to move things around in places that seemed reasonable, but we instead need to follow our formulas.
+      Let's dig into an explanation that I encourage you to read:
+    </p>
+    <note>
+      <p>
+        We've presented formulas (just a few at a time, so that it's not as overwhelming) and then practiced, but now it's time to place two formulas that we've seen one right after the other,
+        so that we can compare the formulas and make some comments:
+        <ul>
+          <li>
+            <p>
+              <m>a^{1/n} = \sqrt[n]{a}</m> from <xref ref="principle-radical-into-exponent" />
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\frac{1}{a^n} = a^{-n}</m> from <xref ref="principle-exponent-rules-4" />
+            </p>
+          </li>
+        </ul>
+        Both formulas have a fraction in them, but we need to pay close attention to where those fractions are. Speaking a little informally:
+        The first formula tells us that when the exponent is a fraction, then the entire expression can be replaced with a radical.
+        The second formula tells us that when the entire expression is a fraction (and we do mean entire expression being a fraction: the left side of the second formula doesn't have a fraction for the exponent)
+        then the entire expression can be replaced with an expression with a negative exponent.
+      </p>
+      <p>
+        Let's see examples. 
+        The expression <m>3^{1/4}</m> can be rewritten as <m>\sqrt[4]{3}</m>.
+        The expression <m>\frac1{3^4}</m> is in its entirety of writing a fraction, and this becomes <m>3^{-4}</m>, which we should note has no fractions in it whatsoever.
+      </p>
+      <p>
+        These comments apply when reading both formulas from right to left as well:
+        <ul>
+          <li>
+            <p>
+              <m>\sqrt[n]{a} = a^{1/n}</m>, so we can turn an expression that is a radical into an exponential expression, where we end up writing a fraction as the <emph>exponent</emph>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>a^{-n} = \frac{1}{a^n}</m>, so we can turn an expression that has a negative exponent into a fraction, where we end up writing a fraction as the <emph>entire replacement expression</emph>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </note>
+
+    <p>
+      Finally, if we take <m>a^{-n}=\frac1{a^n}</m> and <m>\frac{1}{a^{-n}} = a^n</m> from <xref ref="principle-exponent-rules-4" />
+      and combine these with <m>\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}</m> from <xref ref="fraction-multiplication" />,
+      we have the following, which we describe informally:
+    </p>
+    <principle xml:id="principle-faster-negative-exponents">
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                A factor in the denominator can be turned into a factor of the numerator by negating its exponent.
+              </p>
+            </li>
+            <li>
+              <p>
+                A factor in the numerator can be turned into a factor of the denominator by negating its exponent.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </principle>
+
+    <p>
+      In a similar manner, by combining <m>\frac{a^m}{a^n}=a^{m-n}</m> from <xref ref="principle-exponent-rules-3" /> and <xref ref="fraction-multiplication" />:
+    </p>
+    <principle xml:id="principle-faster-dividing-exponents-same-base">
+      <statement>
+        <p>
+          Given a fraction with <m>x^m</m> as a <emph>factor</emph> in the numerator
+          and <m>x^n</m> as a <emph>factor</emph> in the denominator,
+          the two factors can be replaced with a single factor of <m>x^{m-n}</m> in the numerator.
+        </p>
+      </statement>
+    </principle>
 
     <example>
       <statement><p>Simplify <m>(-3x^{-2})(4x^4)</m>.</p></statement>
+      <solution>
+        <p>
+          All parentheses here can be dropped, since there are no plus or minus signs inside the parentheses.
+          So we have <me>-3 \cdot x^{-2} \cdot 4 \cdot x^4.</me>
+          We can apply <xref ref="principle-faster-negative-exponents" /> to replace the <m>x^{-2}</m> in the numerator with an <m>x^2</m> in the denominator, so we have
+          <me>\frac{-3 \cdot 4 \cdot x^4}{x^2}.</me>
+          We can simplify the arithmetic of <m>-3 \cdot 4</m>, and our expression is:
+          <me>\frac{-12 x^4}{x^2}.</me>
+          One option is to now apply <m>\frac{a^m}{a^n} = a^{m-n}</m> from <xref ref="principle-exponent-rules-2" /> to subtract the exponents of <m>x</m>, giving us
+          <me>-12x^2.</me>
+          Putting this work altogether, we have:
+          <m>(-3x^{-2})(4x^4) = -3 \cdot x^{-2} \cdot 4 \cdot x^4 = \frac{-3 \cdot 4 \cdot x^4}{x^2} = \frac{-12 x^4}{x^2} = -12x^2</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Alternatively, we take the expression <me>-3 \cdot x^{-2} \cdot 4 \cdot x^4</me> from the first step of our previosu answer and apply <m>a^m a^n = a^{m+n}</m> from <xref ref="principle-exponent-rules-1" /> to add the exponents of <m>x</m>, giving us
+          <me>-3 \cdot 4 \cdot x^{-2 + 4} = -3 \cdot 4 \cdot x^2.</me>
+          We can simplify the arithmetic of <m>-3 \cdot 4</m>, and our expression is:
+          <me>-12x^2.</me>
+          Putting this work altogether, we have:
+          <m>(-3x^{-2})(4x^4) = -3 \cdot 4 \cdot x^{-2 + 4} = -3 \cdot 4 \cdot x^2 = -12x^2</m>.
+        </p>
+      </solution>
     </example>
 
     <example>
-      <statement><p>Simplify <m>((4a^2b)/(a^3 b^3))((5a^2b)/(2b^4))</m>.</p></statement>
+      <statement>
+        <p>
+          Rewrite <m>\frac{a^{3}b^{5}c^{7}d^{10}}{a^{8}c^{7}d^{6}}</m> as an expression with no negative exponents.          
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can apply <xref ref="principle-faster-dividing-exponents-same-base" /> to replace the factors of <m>a</m>, <m>c</m>, and <m>d</m> in the numerator and denominator with a single factor in the numerator:
+          <me>\frac{a^{3}b^{5}c^{7}d^{10}}{a^{8}c^{7}d^{6}} = a^{8-3}b^5 d^{10-6} = a^{-5} b^5 d^4.</me>
+          Now, to heed to the request that there are no negative exponents, we can replace <m>a^{-5}</m> in the numerator with <m>a^5</m> in the denominator using <xref ref="principle-faster-negative-exponents" />:
+          <me>a^{-5} b^5 d^4 = \frac{b^5 d^4}{a^5}.</me>
+          Putting this work altogether, we have:
+          <m>\frac{a^{3}b^{5}c^{7}d^{10}}{a^{8}c^{7}d^{6}} = a^{8-3}b^5 d^{10-6} = a^{-5} b^5 d^4 = \frac{b^5 d^4}{a^5}</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          In case you're a little weary of <xref ref="principle-faster-dividing-exponents-same-base" />, let's try this question a little slower:
+          <me>\frac{a^{3}b^{5}c^{7}d^{10}}{a^{8}c^{7}d^{6}} = \frac{a^3}{a^8} \cdot \frac{b^5}{1} \cdot \frac{c^7}{c^7} \cdot \frac{d^{10}}{d^6}</me>
+          because we can take the expression after the equal sign (a product of fractions) and multiply staright across.
+          In the new expression, we apply <xref ref="principle-exponent-rules-3" /> to get
+          <me>a^{-5} b^5 d^4</me>
+          which matches the expression we saw in the previous answer. (Note that we could say that <m>\frac{c^7}{c^7} = 1</m> since any nonzero number divided by itself is <m>1</m>.)
+          Then, this turns into <m>\frac{b^5 d^4}{a^5}</m> using <xref ref="principle-faster-negative-exponents" />.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Rewrite <m>\frac{2x^{-3}y^4}{5x^2y^{-6}}</m> as an expression with no negative exponents.          
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can apply <xref ref="principle-faster-negative-exponents" /> to replace the factor of <m>x^{-3}</m> in the numerator with a factor of <m>x^3</m> in the denominator,
+          and also replace the factor of <m>y^{-6}</m> in the denominator with a factor of <m>y^6</m> in the numerator:
+          <m>\frac{2x^{-3}y^4}{5x^2y^{-6}} = \frac{2y^4y^6}{5x^2x^3} = \frac{2y^{4+6}}{5x^{2+3}} = \frac{2y^{10}}{5x^5}.</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We can instead apply <xref ref="principle-faster-dividing-exponents-same-base" /> to replace 
+          the factor of <m>x^{-3}</m> in the numerator and the factor of <m>x^2</m> in the denominator with a single factor of <m>x^{-3-2} = x^{-5}</m> in the numerator,
+          and also replace the factor of <m>y^4</m> in the numerator and the factor of <m>y^{-6}</m> in the denominator with a single factor of <m>y^{4-(-6)} = y^{10}</m> in the numerator:
+          <m>\frac{2x^{-3}y^4}{5x^2y^{-6}} = \frac{2x^{-5}y^{10}}{5} = \frac{2y^{10}}{5x^5}.</m>
+        </p>
+        <p>
+          One key source of confusion is how we got <m>y^{10}</m>. Note that we need to take the exponent of <m>4</m> in the numerator and subtract the exponent of <m>-6</m> in the denominator.
+          This is why we wrote <m>y^{4-(-6)}</m>.
+          It is common here to make the error of writing <m>y^{4-6}</m>. Note that <m>\frac{a^m}{a^n} = a^{m-n}</m> from <xref ref="principle-exponent-rules-3" /> 
+          tells us we need to subtract exponents, and the need to subtract exponents remains true even when the exponent in the denominator is negative.
+          (See a similar example earlier in <xref ref="example-subtracting-negative-exponent" />, with a more thorough discussion there.)
+        </p>
+      </solution>
+    </example>
+    <p>
+      For this exercise, we presented two different answers (one starting with <xref ref="principle-faster-negative-exponents" /> and one starting with <xref ref="principle-faster-dividing-exponents-same-base" />) 
+      and both answers require basically the same amount of writing.
+      In fact, I think in any room full of people, folks will be split 50-50 as to which way they'd like to think about this type of question!
+    </p>
+
+
+    <example>
+      <statement><p>Simplify <m>((4a^2b)/(a^3 b^3))((40a^2b)/(2b^4))</m>.</p></statement>
     </example>
 
     <example>
@@ -2009,10 +2411,8 @@
       <statement><p>Simplify <m>((-y^{3/2}/y^{-1/3})^{-3})</m>.</p></statement>
     </example>
 
-    <example>
-      <statement><p>Simplify <m>\sqrt[5]{(3x^{11} y^3)/(9x^2)}</m>.</p></statement>
-    </example>
 
+    
     <example>
       <statement><p>Simplify <m>\sqrt{3a^2b^3}\sqrt{6a^5b}</m>.</p></statement>
     </example>
@@ -2020,19 +2420,6 @@
     <example>
       <statement><p>Simplify <m>\sqrt[3]{320}</m>.</p></statement>
     </example>
-
-    <example>
-      <statement><p>Simplify <m>\sqrt[3]{16x^3 y^8 z^4}</m>.</p></statement>
-    </example>
-
-    <example>
-      <statement><p>Simplify <m>(r^2 s^6)^{1/3}</m>.</p></statement>
-    </example>
-
-    <example>
-      <statement><p>Simplify <m>((2x^{2/3}/y^{1/2})^2 (3x^{-5/6}/y^{1/3}))</m>.</p></statement>
-    </example>
-
 
 
     <warning>
