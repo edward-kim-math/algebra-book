@@ -104,7 +104,7 @@
         There will actually be other times we need to go in reverse, turning <m>p</m> into <m>p^1</m>.
         Informally, we can think of it this way:
         whenever we see an expression, if there is no exponent explicitly written in, we can always write in an exponent of <m>1</m> explicitly.
-        I like to call this the <q>hidden exponent of <m>1</m>.</q>
+        I like to call this the <q>hidden exponent of <m>1</m></q>, analogous to the <q>hidden denominator of <m>1</m></q> that we discussed in <xref ref="hidden-over-1" />.
       </p>
     </note>
 

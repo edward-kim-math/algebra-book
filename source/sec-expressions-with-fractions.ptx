@@ -108,6 +108,30 @@
       </statement>
     </example>
 
+    <note xml:id="hidden-over-1">
+      <p>
+        Before looking at more examples, let's make the following observation. Say we are given the fraction <m>\frac41</m>.
+        To represent this, we can think of having a pizza that's been cut into <m>1</m> slice, but what does that mean? The slice is the whole pizza.
+        So, to eat <m>4</m> of these huge slices, we need <m>4</m> whole pizzas. So <m>\frac41=4</m>.
+      </p>
+      <p>
+        In the same way, <m>\frac51=5</m> and so on. Stated more generally, we write <me>\frac{a}{1}=a.</me>
+        There will be times that it is convenient to simplify <m>\frac{a}{1}</m> to <m>a</m>, but there will also be other times that 
+        we want to replace <m>a</m> with <m>\frac{a}{1}</m> instead. 
+      </p>
+      <p>
+        That is to say, we can turn the non-fraction <m>a</m> into the fraction <m>\frac{a}{1}</m> if it is helpful for our work.
+        We can say that there is a <q>hidden denominator of <m>1</m></q> when we are staring at writing that isn't a fraction.
+        Moreover, even when we have <m>a</m> written without the <q>over <m>1</m></q> explicitly written in, we have <m>a=\frac{a}{1}</m> but <m>a \not= \frac{1}{a}</m>.
+        For this reason, we might informally refer to <m>a</m> as being content <q>in the numerator</q> (but definitely not <q>in the denominator</q>) even when a fraction hasn't explicitly been written,
+        and when we say this, we are prentending to see <m>\frac{a}{1}</m> in place of a plain <m>a</m>.
+      </p>
+    </note>
+    <p>
+      We included this note above about the <q>hidden denominator of <m>1</m></q> just to make sure we've actually said it, instead of just assuming this later.
+      This is in the name of making sure we have really tried to say everything.
+    </p>
+
     <example>
       <statement>
         <p>
@@ -680,7 +704,7 @@
     </example>
 
     <p>
-      How should we add a fraction and a non-fraction together? Anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
+      How should we add a fraction and a non-fraction together? Recall from <xref ref="hidden-over-1" /> that anything that presents as a non-fraction can be written as a fraction with denominator <m>1</m>.
     </p>
     <principle>
       <title>How to add a fraction and a non-fraction</title>
