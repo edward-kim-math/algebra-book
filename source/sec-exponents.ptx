@@ -2205,8 +2205,16 @@
     </example>
     <p>
       There are other possible ways to write steps do to this problem, but this problem involves smaller numbers when prioritizing the <m>5</m>th root before the <m>2</m> power.
-      The extra complication with the negative exponent makes this a good time to bring up a common error that occurs. First, we bring up the error, and then explain:
+      The extra complication with the negative exponent makes this a good time to bring up a common error that occurs. Let's start a section on clarifications and new techniques, and start by bringing up the error, and then explain.
     </p>
+  </subsection>
+
+  <subsection>
+    <title>Clarifications and techniques</title>
+
+    <p>
+      Though we have now seen all the tools we need, the last exercise we did pointed out a common error. So, let's start with that error:
+    </p>    
     <warning>
       <statement><p><m>a^{1/n} \neq \frac{1}{a^n}</m>.</p></statement>
     </warning>
@@ -2457,19 +2465,35 @@
         <li><m>\sqrt{x^2+y^2}</m> does not become <m>x+y</m>.</li>
         <li><m>\sqrt{4+x}</m> does not become <m>2+\sqrt{x}</m>.</li>
       </ul>
+      The warning is adressing the common error of trying to distribute a radical over addition or subtraction.
+      However, we can turn <m>\sqrt{4 \cdot x}</m> into <m>2\sqrt{x}</m> by applying <xref ref="nth-root-of-nth-power" /> then simplifying:
+      <m>\sqrt{4 \cdot x} = \sqrt{4} \cdot \sqrt{x} = 2\sqrt{x}</m>.
     </p>
-    The warning is adressing the common error of trying to distribute a radical over addition or subtraction.
-    However, we can turn <m>\sqrt{4 \cdot x}</m> into <m>2\sqrt{x}</m> by applying <xref ref="nth-root-of-nth-power" /> then simplifying.
-
-
-
-
 
     <warning>
-      <m>16^{1/2} \not= 8</m>. Do not treat the exponent like it is a factor instead.
+      <p>
+      Do not treat <m>a^n</m> as if it is <m>a \cdot n</m>.
+      </p>
     </warning>
+    <p>
+      It is not usually the case that someone will turn <m>3^2</m> into <m>6</m>, but when someone does this, I believe they were reading too quickly, and turned <m>3^2</m> into <m>3 \cdot 2</m> by just going too fast.
+    </p>
+    <p>
+      A more typical version of this error happens when the exponent is a fraction, especially a fraction whose numerator is <m>1</m>.
+      For example, it is not correct to turn <m>16^{1/2}</m> into <m>8</m>.
+      I believe the way that someone gets there is by thinking the following: 
+      <m>16^{1/2}</m> was accidentally turned into <m>16 \cdot \frac12</m> which does equal <m>8</m>, but the problem was going from <m>16^{1/2}</m> to <m>16 \cdot \frac12</m>.
+      It was probably this line of reasoning that got someone to produce a final value of <m>8</m>, even if they didn't actually write <m>16 \cdot \frac12</m> on paper.
+      That is, even if someone didn't write <m>16 \cdot \frac12</m> on paper, they were seeing this in their mind, because <m>16</m> multiplied by <m>\frac12</m> is equal to <m>8</m>.
+      The problem is that we can't just treat the exponent like it's a factor, which is exactly what is warning is trying to address.
+      Now that we've discussed what the error was, in the case of this expression <m>16^{1/2}</m>, let's talk about what we could do instead.
+      Our first step will apply <xref ref="principle-radical-into-exponent" />, and we get <m>16^{1/2} = \sqrt{16} = 4</m>, which is a different final answer than <m>8</m>.
+    </p>
 
-
+    <p>
+      We now end the section by doing a mixed variety of practice problems.
+      Many of these can be done multiple ways, so we present several answers (but know that many of these have even more answer than we show you).
+    </p>
 
     <example>
       <statement><p>Simplify <m>\frac{4a^2b}{a^3 b^3}\cdot\frac{40a^2b}{2b^4}</m>.</p></statement>
@@ -2483,8 +2507,6 @@
       <statement><p>Simplify <m>((-y^{3/2}/y^{-1/3})^{-3})</m>.</p></statement>
     </example>
 
-
-    
     <example>
       <statement><p>Simplify <m>\sqrt{3a^2b^3}\sqrt{6a^5b}</m>.</p></statement>
     </example>
@@ -2492,8 +2514,6 @@
     <example>
       <statement><p>Simplify <m>\sqrt[3]{320}</m>.</p></statement>
     </example>
-
-
 
   </subsection>
 
