@@ -11,76 +11,27 @@
     <date>???? 2025</date>
   </titlepage>
 
-  <colophon>
-    <website>
-      <url href="http://AAAA/" visual="AAAA"/>
-    </website>
 
-    <copyright>
-      <year>2025<ndash/>
-      2026</year>
-      <holder>Edward D. Kim</holder>
-      <!--
-      <minilicense><image source="../images/by-sa.png" />
-      </minilicense>
-      -->
-      <shortlicense>
-        <!-- <image source="../images/by-sa.png" width="15%"/>  --> <!-- This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0"/> AAAA -->
-      </shortlicense>
-    </copyright>
-    <!--
-    <p>
-      This online edition matches the 2nd print edition, published August 2016.
-      <dl width="narrow">
-      <li>
-        <title>ISBN-13:</title>
-
-        978-1534970748
-      </li>
-
-      <li>
-        <title>ISBN-10:</title>
-
-        1534970746
-      </li>
-      </dl>
-    </p>
-
-    <p>
-      Cover image: <em>Tiling with Fibonacci and Pascal</em>.
-    </p>
-    -->
-  </colophon>
-
+  <!-- 
   <dedication>
     <p>
-      <!-- For Madeline and Teagan -->
+      To AAA
     </p>
   </dedication>
+  -->
 
+  <!-- 
   <acknowledgement>
     <p>
-      Insert AAAA
+      Insert AAA
     </p>
-
-    <p>
-    second
-    </p>
-
   </acknowledgement>
-
+  -->
 
   <preface xml:id="preface">
+    <title>Preface to the student</title>
     <p>
-      Hello to <q>you</q> the student.
-      As this course has evolved to support our computer science major, so has the text.  The current version of the book is intended to support  inquiry-based teaching for understanding that is so crucial for future teachers, while also providing the necessary mathematical foundation and application-based motivation for computer science students.  While teaching the course in Spring 2024 using an early version of this edition, I was pleasantly surprised by how many students reported that they, for the first time, saw how useful math could be in the <q>real world.</q>  I hope that this experience can be replicated in other classes using this text.
     </p>
-
-    <p>
-      This book is intended to be used in a class taught using problem-oriented or inquiry-based methods.  Each section begins with a preview of the content that includes an open-ended <em>Investigate!</em> motivating question, as well as a structured preview activity.  The preview activities are carefully scaffolded to provide an entry-point to the section's topic and to prime students to engage deeply in the material.  
-      Depending on the pace of the class, I have found success assigning only the section preview before class, using the preview activity as in-class group work, or assigning the entire section to be read before class (each section concludes with a small set of reading questions that can be assigned to encourage students to actually read).  For those readers using this book for self-study, the organization of the sections will hopefully mimic the style of a rich inquiry-based classroom.
-    </p>
-
 
     <attribution>
     <line>Edward D. Kim</line>
@@ -90,7 +41,7 @@
 
 
   <preface>
-    <title>How to Use This Book</title>
+    <title>Preface to the instructor</title>
 
     <p>
       In addition to expository text, this book has a few features designed to encourage you to interact with the mathematics.

@@ -5,10 +5,10 @@
 		<title>Algebra</title>
 		<subtitle>Applications and Strategies</subtitle>
 		<xi:include href="./frontmatter.ptx" />
-		<xi:include href="./ch_intro.ptx" />
 
 		<xi:include href="./ch-expressions-and-equations.ptx" />
 
+		
 		<!-- <xi:include href="./ch_logic.ptx" /> -->
 
 		<!-- <xi:include href="./backmatter.ptx" /> -->
