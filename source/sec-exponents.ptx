@@ -197,7 +197,7 @@
       <statement><p>Simplify <m>c^7 c^{1/2}</m>.</p></statement>
       <solution>
         <p>
-          Using the exponent rule <m>a^m a^n = a^{m+n}</m>, we have <m>c^7 c^{1/2} = c^{7 + 1/2} = c^{14/2 + 1/2} = c^{15/2}</m>.
+          Using the exponent rule <m>a^m a^n = a^{m+n}</m>, we have <m>c^7 c^{1/2} = c^{7 + \frac12} = c^{\frac{14}{2} + \frac{1}{2}} = c^{\frac{15}{2}}</m>.
         </p>
       </solution>
     </example>
@@ -212,6 +212,25 @@
       Even if you see it in this example without writing all the steps, there's definitely eventually going to be a challenging enough example where we can't just picture it all.
       Being willing to write that two things are added together without immediately simplifying it is a power tool to have.
     </p>
+
+    <note>
+      <p>
+        In this example, we wrote some fractions using a slash notation.
+        Back in <xref ref="principle-slant-fraction" />, we discussed that writing slanted fraction bars can be ambiguous.
+        So, it's not exactly a rule that we can <emph>never</emph> write fractions using a slanted fraction bar, but that we should just be cautious.
+        In the case of <m>c^{\frac12}</m>, because the font for the exponent is tiny, to avoid having someone think that this was <m>c</m> times <m>\frac12</m>,
+        some people prefer to write and/or type <m>c^{1/2}</m>.
+      </p>
+      <p>
+        However, writing slanted fractions for exponents isn't <emph>always</emph> the right choice. See, for instance, the writing below and compare this to the writing in the answer:
+        <m>c^7 c^{1/2} = c^{7 + 1/2} = c^{14/2 + 1/2} = c^{15/2}</m>
+      </p>
+      <p>
+        The point is that writing fractions with a slanted bar is sometimes used to compensate for the small space in an exponent area, making the expression easier to read.
+        However, based on what we learned in <xref ref="principle-slant-fraction" />, we should be mindful of what we write, especially the types of common ambiguities that were 
+        mentioned in the examples after <xref ref="principle-slant-fraction" />.
+      </p>
+    </note>
 
     <example>
       <statement><p>Simplify <m>m^4 m^{\frac{3}{10}} m^{\frac{2}{5}}</m>.</p></statement>
@@ -584,6 +603,60 @@
         </p>
       </solution>
     </example>
+
+    <example>
+      <statement>
+        <p>
+          Simplify <m>\left(\frac{b}{c^2d^4}\right)^3</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the exponent rule <m>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</m>, we have 
+          <m>\left(\frac{b}{c^2d^4}\right)^3 = \frac{b^3}{(c^2 d^4)^3}.</m>
+          Then, using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m>, we have <m>(c^2 d^4)^3 = (c^2)^3 (d^4)^3</m>.
+          Then, using the exponent rule <m>(a^m)^n = a^{mn}</m>, we have <m>(c^2)^3 = c^{2 \cdot 3} = c^6</m> and also <m>(d^4)^3 = d^{4 \cdot 3} = d^{12}</m>.
+          Therefore, <m>\left(\frac{b}{c^2d^4}\right)^3 = \frac{b^3}{c^6 d^{12}}.</m>
+        </p>
+        <p>
+          Putting all our work together, with equal signs where they belong, we have:
+          <m>\left(\frac{b}{c^2d^4}\right)^3 = \frac{b^3}{(c^2 d^4)^3} = \frac{b^3}{(c^2)^3 (d^4)^3} = \frac{b^3}{c^6 d^{12}}</m>.
+        </p>
+      </solution>
+    </example>
+
+    <note>
+      <p>
+        When a fraction is raised to a power, surrounding the fraction in parentheses is required to avoid ambiguous writing. 
+        For example, if we mean that we want to cube the fraction <m>\frac{x}{y}</m>, it would be ambiguous to write as in this figure:
+            <figure>
+            <caption>A picture of ambuiguous writing</caption>
+            <image width="4%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \node at (0,.3) {$x$};
+                    \draw[-] (-.2,0) -- (.2,0);
+                    \node at (0,-.3) {$y$};
+                    \node at (.3,.6) {$3$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Depending on how long the horizontal fraction bar is drawn and the exact placement of the <m>3</m> this might get interpreted as <m>\frac{x^3}{y}</m>.
+          However, this is different than <m>(\frac{x}{y})^3</m> which is <m>\frac{x}{y} \cdot \frac{x}{y} \cdot \frac{x}{y}</m> which is ultimately <m>\frac{x^3}{y^3}</m>,
+          and we note that we could have obtained <m>\frac{x^3}{y^3}</m> directly from <m>(\frac{x}{y})^3</m> using the exponent rule <m>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</m>.           
+          The point here is that <m>\frac{x^3}{y} \not= (\frac{x}{y})^3</m>, calling attention to the fact that the fraction on the right is equal to <m>\frac{x^3}{y^3}</m>.
+      </p>
+      <p>
+        We can also see how this would affect the expression we examined in the previous example: the expression we were given 
+        <m>\left(\frac{b}{c^2d^4}\right)^3</m> is different than <m>\frac{b^3}{c^2d^4}</m>.
+        In the former, the entire fraction is raised to the power of <m>3</m>, and <m>(\frac{a}{b})^n=\frac{a^n}{b^n}</m> 
+        tells us we will eventually apply the exponent to both numerator and denominator,
+        while in the latter, only the numerator is raised to the power of <m>3</m>.
+      </p>
+    </note>
 
     <p>
       In <xref ref="principle-exponent-rules-1" />, we saw <m>a^m a^n = a^{m+n}</m>, which in symbols says that multiplying two expressions that have the same base can be rewrtten as a single expression with that same base, 
