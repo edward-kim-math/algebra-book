@@ -4,8 +4,10 @@
   <title>Expressions and Equations</title>
 
   <introduction>
-    <p> Text before the first section.</p>
-  </introduction>
+    <p>This chapter reviews expressions, with a careful emphasis on how the Order of Operations applies beyond arithmetic in an algebraic context.
+      Expressions involving fractions, exponents, and radicals are covered.
+      In addition, we solve linear equations.</p>
+  </introduction>;
 
   <!-- include sections -->
   <xi:include href="sec-operations.ptx" /> <!-- Operations: geometry, Distribution, terms/factors, common factor -->
@@ -16,6 +18,5 @@
   <xi:include href="sec-factoring-and-expansion.ptx" />
   <xi:include href="sec-rational-expressions.ptx" />
   <xi:include href="sec-solving-equations-revisited.ptx" />
-  <xi:include href="sec-sample-code.ptx" />
 
 </chapter>
