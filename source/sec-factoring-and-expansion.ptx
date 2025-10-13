@@ -10,9 +10,8 @@
 			</p>
 		</introduction>
 		<ol>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
+			<li><p>Expand products of binomials.</p></li>
+			<li><p>Factor expressions into products of binomials</p></li>
     </ol>
 	</objectives>
 
@@ -42,10 +41,139 @@
   </subsection>
 
 	<subsection>
-		<title>subsection title</title>
+		<title>Expansion</title>
 
     <p>
-      Text of section. Systematize the factoring of quadratic trinomials. 
+      Let's take our initial Distributive Law <m>a(b+c) = ab + ac</m>, for the sake of clarity, temporarily replace the letters <m>a</m> and <m>b</m>, and <m>c</m> 
+      with <m>x</m> and <m>y</m> and <m>z</m> instead. It is technically the same formula to have
+      <me>x(y+z) = xy + xz</me>
+      but in this version of the Distributive Law, we will subsitute <m>x=a+b</m> and <m>y=c</m> and <m>z=d</m> to get
+      <me>(a+b)(c+d) = (a+b)c + (a+b)d.</me>
+      Note that in the equation above, the left side is <m>(a+b)(c+d)</m> instead of <m>a+b(c+d)</m> due to the Order of Operations: we really needed the value of <m>x</m>, which is <m>a+b</m>,
+      to be multiplied by <m>(c+d)</m>. Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of <m>a+b</m>,
+      since it is the value of <m>a+b</m> that needs to be multiplied by <m>c+d</m>.
+    </p>
+    <p>
+      On the right side of the equation above, we have <m>(a+b)c + (a+b)d</m>, and we can apply the Distributive Law to rewrite <m>(a+b)c</m> as <m>ac + bc</m>, 
+      and rewrite <m>(a+b)d</m> as <m>ad + bd</m>. Putting all the pieces together, we have
+      <me>(a+b)(c+d) = ac + bc + ad + bd.</me>
+    </p>
+
+    <principle xml:id="FOIL1">
+      <title>Expanding the Product of Two Binomials</title>
+      <p>
+        <me>(a+b)(c+d) = ac + ad + bc + bd</me>
+      </p>
+    </principle>
+    
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+3)(x+5)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use <xref ref="FOIL1" /> with <m>a=x</m> and <m>b=3</m> and <m>c=x</m> and <m>d=5</m> to get
+          <me>(x+3)(x+5) = x\cdot x + x\cdot 5 + 3\cdot x + 3\cdot 5 = x^2 + 5x + 3x + 15 = x^2 + 8x + 15.</me>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Because it will be very useful later, we examine the final expression <m>x^2+8x+15</m>
+      identifying that it is in the form <m>Ax^2+Bx+C</m>
+      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=8</m>, and the constant term is <m>C=15</m>.
+      It is very important to note that the linear coefficient <m>8</m> is the sum of the numbers <m>3</m> and <m>5</m> in the original expression,
+      while the constant term <m>15</m> is the product of the numbers <m>3</m> and <m>5</m> in the original expression.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+4)(x+10)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use <xref ref="FOIL1" /> with <m>a=x</m> and <m>b=4</m> and <m>c=x</m> and <m>d=10</m> to get
+          <me>(x+4)(x+10) = x\cdot x + x\cdot 10 + 4\cdot x + 4\cdot 10 = x^2 + 10x + 4x + 40 = x^2 + 14x + 40.</me>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
+      identifying that it is in the form <m>Ax^2+Bx+C</m>
+      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=14</m>, and the constant term is <m>C=40</m>.
+      It is very important to note that the linear coefficient <m>14</m> is the sum of the numbers <m>4</m> and <m>10</m> in the original expression,
+      while the constant term <m>40</m> is the product of the numbers <m>4</m> and <m>10</m> in the original expression.
+    </p>
+    
+    <example>
+      <statement>
+        <p>
+          INSERT preview to factor by grouping
+        </p>
+      </statement>
+      <solution>
+      </solution>
+    </example>
+
+    <principle xml:id="FOIL2">
+      <statement>
+        <p>
+          <me>(a-b)(c-d) = ac - ad - bc + bd</me>          
+        </p>
+      </statement>
+    </principle>
+    <p>
+      Whether you choose to use this version <m>(a-b)(c-d) = ac - ad - bc + bd</m> directly or think via <xref ref="FOIL1" /> is a matter of personal 
+      choice. Let's demonstrate the two ways to think about this through an example.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-3)(x-8)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The given expression <m>(x-3)(x-8)</m> fits the format of the left side <m>(a-b)(c-d)</m> in <xref ref="FOIL2" />
+          with <m>a=x</m> and <m>b=3</m> and <m>c=x</m> and <m>d=8</m>.
+          In doing these identifications, the confusion may be why the stating of <m>b</m> and <m>d</m> do not have minus signs,
+          but this is because the format of <m>(a-b)(c-d)</m> already includes minus signs. Then, by <xref ref="FOIL2" />,
+          <me>(x-3)(x-8) = x \cdot x - x \cdot 8 - 3 \cdot x + 3 \cdot 8 = x^2 - 8x - 3x + 24 = x^2 - 11x + 24.</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We can rewrite the expression <m>(x-3)(x-8) = (x+(-3))(x+(-8))</m> because <m>(x+(-3))(x+(-8))</m> fits the format of the left
+          side <m>(a+b)(c+d)</m> in <xref ref="FOIL1" />. In this format, <m>a=x</m>, and <m>b</m> should consist of content right after the first plus sign,
+          so <m>b=-3</m>. Similarly, <m>c=x</m>, and <m>d</m> should be all the content after the second plus sign, so <m>d=-8</m>. Then by <xref ref="FOIL1" />,
+          <me>(x+(-3))(x+(-8)) = x \cdot x + x \cdot (-8) + (-3) \cdot x + (-3)(-8) = x^2 - 8x - 3x + 24 = x^2-11x+24.</me>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Because it will be very useful later, we examine the final expression <m>x^2-11x+24</m>
+      identifying that it is in the form <m>Ax^2+Bx+C</m> will need us to first slightly rewrite the final expression as <m>x^2 + (-11)x + 24</m>.
+      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=-11</m>, and the constant term is <m>C=24</m>.
+      It is very important to note that the linear coefficient <m>-11</m> is the sum of the numbers <m>-3</m> and <m>-8</m> in the original expression,
+      while the constant term <m>24</m> is the product of the numbers <m>-3</m> and <m>-8</m> in the original expression.
+      (While we noted <m>(-3)+(-8)=-11</m> we can also note <m>3+8=11</m>.)
+    </p>
+    <p>
+      Before moving on to another example, 
+      we note it is a matter of personal taste whether there really was a need to introduce a separate formula as <xref ref="FOIL2" />.
+      You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of <xref ref="FOIL1" />.
+    </p>
+
+    
+
+
+    <p>
+      Systematize the factoring of quadratic trinomials. 
+      
       Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with
 
       Factor by grouping

@@ -3481,7 +3481,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Factoring and Expansion",
-  "body": " Factoring and Expansion    In this section, we learn how to:    .  .  .     Applications  Intro:   Text    Text    Text       subsection title  Text of section. Systematize the factoring of quadratic trinomials. Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Factoring and Expansion    In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials     Applications  Intro:   Text    Text    Text       Expansion  Let's take our initial Distributive Law , for the sake of clarity, temporarily replace the letters and , and with and and instead. It is technically the same formula to have but in this version of the Distributive Law, we will subsitute and and to get Note that in the equation above, the left side is instead of due to the Order of Operations: we really needed the value of , which is , to be multiplied by . Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of , since it is the value of that needs to be multiplied by .  On the right side of the equation above, we have , and we can apply the Distributive Law to rewrite as , and rewrite as . Putting all the pieces together, we have    Expanding the Product of Two Binomials        Expand and simplify .    We can use with and and and to get     Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.    Expand and simplify .    We can use with and and and to get     Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.    INSERT preview to factor by grouping             Whether you choose to use this version directly or think via is a matter of personal choice. Let's demonstrate the two ways to think about this through an example.    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,     Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)  Before moving on to another example, we note it is a matter of personal taste whether there really was a need to introduce a separate formula as . You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of .  Systematize the factoring of quadratic trinomials. Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-factoring-and-expansion-2",
@@ -3490,104 +3490,158 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.6",
   "title": "",
-  "body": "  In this section, we learn how to:    .  .  .   "
+  "body": "  In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-3",
+  "id": "FOIL1",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-3",
+  "url": "sec-factoring-and-expansion.html#FOIL1",
   "type": "Principle",
   "number": "1.6.1",
-  "title": "text.",
-  "body": " text  text  "
-},
-{
-  "id": "sec-factoring-and-expansion-4-4",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-4",
-  "type": "Example",
-  "number": "1.6.2",
-  "title": "",
-  "body": "  Statement text    Solution text   "
+  "title": "Expanding the Product of Two Binomials.",
+  "body": " Expanding the Product of Two Binomials     "
 },
 {
   "id": "sec-factoring-and-expansion-4-5",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-5",
-  "type": "Try it",
+  "type": "Example",
+  "number": "1.6.2",
+  "title": "",
+  "body": "  Expand and simplify .    We can use with and and and to get    "
+},
+{
+  "id": "sec-factoring-and-expansion-4-7",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-7",
+  "type": "Example",
   "number": "1.6.3",
   "title": "",
-  "body": "  Text    "
-},
-{
-  "id": "sec-factoring-and-expansion-4-6",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-6",
-  "type": "Note",
-  "number": "1.6.4",
-  "title": "",
-  "body": " Text  "
-},
-{
-  "id": "sec-factoring-and-expansion-4-8",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-8",
-  "type": "Warning",
-  "number": "1.6.5",
-  "title": "",
-  "body": " text  "
+  "body": "  Expand and simplify .    We can use with and and and to get    "
 },
 {
   "id": "sec-factoring-and-expansion-4-9",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-9",
+  "type": "Example",
+  "number": "1.6.4",
+  "title": "",
+  "body": "  INSERT preview to factor by grouping     "
+},
+{
+  "id": "FOIL2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#FOIL2",
+  "type": "Principle",
+  "number": "1.6.5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "sec-factoring-and-expansion-4-12",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-12",
+  "type": "Example",
+  "number": "1.6.6",
+  "title": "",
+  "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
+},
+{
+  "id": "sec-factoring-and-expansion-4-16",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-16",
+  "type": "Principle",
+  "number": "1.6.7",
+  "title": "text.",
+  "body": " text  text  "
+},
+{
+  "id": "sec-factoring-and-expansion-4-17",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-17",
+  "type": "Example",
+  "number": "1.6.8",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-factoring-and-expansion-4-18",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-18",
+  "type": "Try it",
+  "number": "1.6.9",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-factoring-and-expansion-4-19",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-19",
+  "type": "Note",
+  "number": "1.6.10",
+  "title": "",
+  "body": " Text  "
+},
+{
+  "id": "sec-factoring-and-expansion-4-21",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-21",
+  "type": "Warning",
+  "number": "1.6.11",
+  "title": "",
+  "body": " text  "
+},
+{
+  "id": "sec-factoring-and-expansion-4-22",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-22",
   "type": "Investigate!",
   "number": "1.1",
   "title": "",
   "body": " knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-10",
+  "id": "sec-factoring-and-expansion-4-23",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-10",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-23",
   "type": "Try it",
-  "number": "1.6.6",
+  "number": "1.6.12",
   "title": "",
   "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-11",
+  "id": "sec-factoring-and-expansion-4-24",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-11",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-24",
   "type": "Definition",
-  "number": "1.6.7",
+  "number": "1.6.13",
   "title": "Argument.",
   "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-12-1",
+  "id": "sec-factoring-and-expansion-4-25-1",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-12-1",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-25-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "argument valid argument sound argument "
 },
 {
-  "id": "sec-factoring-and-expansion-4-13",
+  "id": "sec-factoring-and-expansion-4-26",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-13",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-26",
   "type": "Example",
-  "number": "1.6.8",
+  "number": "1.6.14",
   "title": "",
   "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-14",
+  "id": "sec-factoring-and-expansion-4-27",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-14",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-27",
   "type": "Remark",
-  "number": "1.6.9",
+  "number": "1.6.15",
   "title": "",
   "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
 },
@@ -3596,7 +3650,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-3",
   "type": "Example",
-  "number": "1.6.10",
+  "number": "1.6.16",
   "title": "",
   "body": "  Text    Answer   "
 },
