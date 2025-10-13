@@ -117,6 +117,9 @@
             In math, it's the process that matters.
             It's important to show your work to your instructor, and so it is important for me to show my work to you.
             Thus, all of my work and explanation is what I call an answer, and just the final result is what I call the final answer.
+            In fact, there will be quite a number of examples where I provide two or more answers which have the same final answer.
+            Sometimes this is done simply because students will be split <m>50/50</m> on how they would approach the problem.
+            Other times, this is done to illustrate an important concept.
           </p>
         </li>
         <li>
@@ -264,7 +267,6 @@
     </p>
 
     <p>
-
       This text works to establish clear foundations on things that often never get discussed or get glossed over.
       For example, when a student takes the equation <m>\frac{x}{4} + 3 = \frac{x}{2}</m>, there is a subtle issue
       when the student's next step is to write <m>4 \cdot \frac{x}{4} + 3 = 4 \cdot \frac{x}{2}</m>.
@@ -273,30 +275,89 @@
       but experience has shown me that many students view the Order of Operations having the very narrow scope of being applicable only when simplifying an expression that has no variables.
       Thus, in <xref ref="order-of-operations-variables" />, we introduce how to analyze expressions containing variables via the Order of Operations.
       Historically, students have found this task very challenging, but it's extremely important, so I have included many examples.
+      Imagine how challenging it is to understand algebra with the misconception that the Order of Operations has nothing to say about comparing
+      <m>4 \cdot (\frac{x}{4} + 3)</m> and <m>4 \cdot \frac{x}{4} + 3</m>, and is only applicable in expressions such as 
+      <m>4 \cdot (\frac{80}{4} + 3)</m> is not the same as <m>4 \cdot \frac{08}{4} + 3</m>.
     </p>
+    
     <p>
+      One of the first areas where students may feel like they are going through the motions without complete confidence is in manipulating fractions.
+      We launch into a thorough discussion of fractions, including what can cancel in a fraction.
+      To discuss this fully, we use examples like <m>\frac{x+6}{x+12}</m> to point out cancellation cannot occur 
+      alongside examples like <m>\frac{3(x+6)}{5(x+6)}</m> where cancellation can occur.
+      This discussion brings out the importance of discussing what is a factor, noting that it is not quite enough to say 
+      <q>when we see plus or minus signs in the numerator and denominator, we can't cancel.</q>
+      This leads to <xref ref="assemblage-fraction-top-bottom" />, an important discussion that the entire numerator and entire denominator are each in a set of parentheses
+      that we often do not explicitly write in, called <q>hidden parentheses.</q>
+    </p> 
 
-      Hidden over 1s, exponent 1s
-
-      Speedy ways to do exponent work....
-      AAAA
-      Give you many talking points.... might diverge in language from the text... but that's just an indictment on ....
-      Ordering of content
-
+    <p>
+      To ensure that all students are invited into the conversation, we discuss additional hidden items, such as the hidden denominator of one in non-fractions in <xref ref="hidden-over-1" />.
+      We also discuss that a missing exponent is a hidden <m>1</m> in <xref ref="hidden-exponent-is-1" />.
+      While every algebra text introduces <m>a^1=a</m>, it is often presented without much discussion.
+      It is often the the concepts where there are few <q>moving parts</q> which are the hardest to grasp, so we discuss this property and how it applies.
+      (By contrast, <m>a(b+c)=ab+ac</m> has a sufficient number of moving parts, and so it is easier to apply this, at least in its initial examples.)
     </p>
 
+    <p>
+      As another example of a mathematical concept with few moving parts, consider <m>a^{\log_a(x)}=x</m>.
+      This property gets brought up very early on in introducing logarithms since it is an immediate consequence of the composition of inverse functions.
+      However, by bringing this property up so soon after logarithms are introduced, students are only introduced to examples where
+      the rather-large expression <m>5^{\log_5(c)}</m> simplifies to just <m>c</m>.
+      To the student, it just feels like there are not enough moving parts to make sense of this.
+      Thus, we introduce <m>a^{\log_a(x)}=x</m> only after we have introduced and practiced the Laws of Logarithms so that 
+      we can follow up with examples like <m>25^{\log_5(c)}</m>.
+    </p>
+
+    <p>
+      The traditional pedagogy for exponents introduces all the typical identities for exponents, but then stops a bit too early.
+      It does not really set students up for success in thinking about in larger expressions like <m>\frac{a^{3}b^{5}c^{7}d^{10}}{a^{8}c^{7}d^{6}}</m>
+      and <m>\left(\frac{y^{3/2}}{y^{-1/3}}\right)^{-3}</m>.
+      The traditional approach feels like we give students plenty of hand tools but expect them to build a car without power tools.
+      When a fraction has many exponents, and the base appears in the numerator and denominator, and in the presence of negative exponents,
+      we tend to think about this problems in a much faster manner, which is of course based on the primitive exponent rules.
+      So, in <xref ref="principle-faster-dividing-exponents-same-base" />, we bring up the fact that a fraction with a factor of <m>x^m</m> in the numerator and a factor of <m>x^n</m> 
+      in the denominator can be replaced with a single factor of <m>x^{m-n}</m> in the numerator, and in <xref ref="principle-faster-negative-exponents" />, we also bring up the facts that 
+      a factor in the denominator can be turned into a factor of the numerator by negating its exponent, and
+      a factor in the numerator can be turned into a factor of the denominator by negating its exponent.
+      We complete exercises where one solution uses these principles and one does not, so that students see by example why these principles are valid.
+      It serves our students well to <emph>articulate</emph> the ways we tend to practically think about exponents, giving them the power tools (no pun intended!)
+      and giving them clear connections between these powerful tools and the primitive exponent rules.
+    </p>
+
+    <p>
+      One of the decisions made while writing was to think about what details should get included.
+      Included in deciding what gets included also brings up what doesn't get included.
+      For example, when introducing <m>a^0=1</m> in <xref ref="principle-exponent-rules-4" />, the requirement that <m>a \not= 0</m> was not mentioned.
+      In the midst of learning material, this detail can be distracting.
+      In fact, it is not typical for textbooks to list any requirement regarding the base when introducing <m>a^m a^n = a^{m+n}</m>.
+      We are working from the philosophy of <q>why stop there?</q>
+    </p>
+
+    <p>
+      You may notice quickly that content is not organized in the usual manner, with some traditional content moved to appendices because their inclusion broke the narrative arc of the text.
+      Great care was taken to order the content in a way that builds progression of skills, and builds procedural fluency from conceptual understanding.
+      Warnings and cautions are included without being overdone, and where practical, we launch into discussions of exactly why something doesn't work instead of just saying <q>don't do that</q>.
+      When viewing the text through the lens of an instructor, there are probably going to be many places where the language I use diverges from your personal preference.
+      I believe that this is an indictment on us in the mathematical community for our lack of having universal terminology on the subtle aspects of algebra.
+      (For example, when we label the axes of the <m>xy</m>-plane, draw the line for the equation <m>y=3x+4</m>, and include the point <m>(2,10)</m> on the line, 
+      is <m>x=2</m> because we zoom in to the point <m>(2,10</m>, is <m>x</m> the <q>generic</q> value of <m>x</m> that could be any number in <m>y=3x+4</m>, 
+      or is <m>x</m> any real number by looking at the axis label?)
+      Your language and my language on some of these details may differ, but it my hope that the explanations that happen in diversions, explicit descriptions of strategies,
+      warnings, and discussions of language and notation give you many talking points that lead to student success!      
+    </p>
 
 
     <!-- 
     <paragraphs>
-      <title>Interactive Online Version</title>
+      <title>Paragraph title</title>
 
       <p>
-        You can view the interactive version for free at <url href="https://discrete.openmathbooks.org/" visual="discrete.openmathbooks.org"/> or by scanning the QR code below.
+        Website <url href="https://abcde.org/" visual="abcde.org"/> or by scanning the QR code below.
       </p>
 
       <sidebyside width="25%">
-      <shortdescription>QR Code to https://discrete/openmathbooks.org</shortdescription>
+      <shortdescription>QR Code to https://abcde.org/</shortdescription>
         <image source="images/qrcode.png"/>
       </sidebyside>
       </paragraphs>

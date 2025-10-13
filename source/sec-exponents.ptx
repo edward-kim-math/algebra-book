@@ -179,10 +179,11 @@
           The third term and fourth term are already simplified: <m>10x^6</m> and <m>20x^8</m>.
         </p>
         <p>
-          Finally, using the exponent rule <m>a^m a^n = a^{m+n}</m> again, we have <m>20x^8 = 20x^8</m>.
+          Now we can combine like terms: <m>2x^8 + 5x^6 + 10x^6 + 20x^8 = (2 + 20)x^8 + (5 + 10)x^6 = 22x^8 + 15x^6</m>.
         </p>
         <p>
-          Now we can combine like terms: <m>2x^8 + 5x^6 + 10x^6 + 20x^8 = (2 + 20)x^8 + (5 + 10)x^6 = 22x^8 + 15x^6</m>.
+          Putting all of this together, from the initial expression to our final answer, with equal signs where they belong, we have
+          <m>2(x^4)^2 + 5x^4x^2 + 10x^6 + 20x^8 = 2x^8 + 5x^6 + 10x^6 + 20x^8 = 22x^8 + 15x^6</m>.
         </p>
       </solution>
     </example>
@@ -542,7 +543,7 @@
           Then, using the exponent rule <m>(a^m)^n = a^{mn}</m>, we have <m>(h^2)^5 = h^{2 \cdot 5} = h^{10}</m>.
           Based on the discussion above, a thorough answer would be:
           <me>(gh^2)^5 = g^5(h^2)^5 = g^5 h^{2 \cdot 5} = g^5 h^{10}</me>
-          while an answwer (that is still based on the discussion above) that skips a little bit more would be:
+          while an answer (that is still based on the discussion above) that skips a little bit more would be:
           <me>(gh^2)^5 = g^5h^{10}.</me>
         </p>
       </solution>
@@ -599,7 +600,10 @@
           Next, using the exponent rule <m>(a \cdot b)^n = a^n \cdot b^n</m> again, we have <m>(x^3 z)^{10} = (x^3)^{10} z^{10} = x^{30} z^{10}</m>.
           Thus, <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^{30} z^{10})</m>.
           Now, using the exponent rule <m>a^m a^n = a^{m+n}</m>, we have <me>x^3 x^8 x^{30} = x^{3+8+30} = x^{41}</me>.
-          Therefore, <m>(xy^4)^3 x^8 (x^3 z)^{10} = x^{41} y^{12} z^{10}</m>.
+        </p>
+        <p>
+          Putting all our work together, from starting expression to final answer, with equal signs where they belong, we have:
+          <m>(xy^4)^3 x^8 (x^3 z)^{10} = (x^3 y^{12}) x^8 (x^{30} z^{10}) = x^{3+8+30} y^{12} z^{10} = x^{41} y^{12} z^{10}</m>.          
         </p>
       </solution>
     </example>
@@ -981,7 +985,7 @@
       <statement>
         <p>
           <ul>
-            <li><m>a^0 = 1</m> (except possibly if <m>a=0</m>)</li>
+            <li><m>a^0 = 1</m></li>
             <li><m>a^{-n} = \frac{1}{a^n}</m></li>
             <li><m>a^n = \frac{1}{a^{-n}}</m></li>
           </ul>          
