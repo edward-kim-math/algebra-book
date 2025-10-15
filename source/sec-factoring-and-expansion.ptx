@@ -44,6 +44,23 @@
 		<title>Expansion</title>
 
     <p>
+      In this section, we will look at <emph>products of binomials</emph>, which are expressions of the format <m>(a+b)(c+d)</m>.
+      As before, a product means the result of multiplication, and that multiplication happens between the value of <m>(a+b)</m> and the vaule of <m>(c+d)</m>.
+      By <term>binomial</term>, we mean <m>(a+b)</m> is a binomial, and <m>(c+d)</m> is a binomial.
+      We start with expansion, where we turn this product of binomials <m>(a+b)(c+d)</m> into an expression of the format <m>Ax^2+Bx+C</m>, known as a <term>trinomial</term>.
+      Because the highest power is a <m>2</m>, we note that <m>Ax^2+Bx+C</m> is a <term>quadratic</term>. 
+      In <m>Ax^2+Bx+C</m>, we will call <m>A</m> the <term>quadratic coefficient</term>, call <m>B</m> the <term>linear coefficient</term>, and call <m>C</m> the <term>constant term</term>.
+      For example, in <m>5x^2+6x+7</m>, the quadratic coefficient is <m>5</m>, the linear coefficient is <m>6</m>, and the constant term is <m>7</m>.
+    </p>
+
+    <p>
+      We will start with <m>(a+b)(c+d)</m> where both <m>a</m> and <m>c</m> are the variable <m>x</m>. This will lead to the quadratic coefficient <m>A</m> in <m>Ax^2+Bx+C</m> 
+      always being <m>1</m>. In these all such examples, we will start with expressions of the form <m>(a+b)(c+d)</m>, but then look at the expansion <m>Ax^2+Bx+C</m>, 
+      comparing the expansions from several examples to see if there are any patterns.
+      Spoiler alert: some of the patterns can be come about from examining which coefficients in <m>Ax^2+Bx+C</m> are positive and which coefficients are negative. 
+    </p>
+
+    <p>
       Let's take our initial Distributive Law <m>a(b+c) = ab + ac</m>, for the sake of clarity, temporarily replace the letters <m>a</m> and <m>b</m>, and <m>c</m> 
       with <m>x</m> and <m>y</m> and <m>z</m> instead. It is technically the same formula to have
       <me>x(y+z) = xy + xz</me>
@@ -79,13 +96,15 @@
         </p>
       </solution>
     </example>
-    <p>
-      Because it will be very useful later, we examine the final expression <m>x^2+8x+15</m>
-      identifying that it is in the form <m>Ax^2+Bx+C</m>
-      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=8</m>, and the constant term is <m>C=15</m>.
-      It is very important to note that the linear coefficient <m>8</m> is the sum of the numbers <m>3</m> and <m>5</m> in the original expression,
-      while the constant term <m>15</m> is the product of the numbers <m>3</m> and <m>5</m> in the original expression.
-    </p>
+    <note>
+      <p>
+        Because it will be very useful later, we examine the final expression <m>x^2+8x+15</m>
+        identifying that it is in the form <m>Ax^2+Bx+C</m>
+        by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=8</m>, and the constant term is <m>C=15</m>.
+        It is very important to note that the linear coefficient <m>8</m> is the sum of the numbers <m>3</m> and <m>5</m> in the original expression,
+        while the constant term <m>15</m> is the product of the numbers <m>3</m> and <m>5</m> in the original expression.
+      </p>
+    </note>
 
     <example>
       <statement>
@@ -100,14 +119,48 @@
         </p>
       </solution>
     </example>
-    <p>
-      Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
-      identifying that it is in the form <m>Ax^2+Bx+C</m>
-      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=14</m>, and the constant term is <m>C=40</m>.
-      It is very important to note that the linear coefficient <m>14</m> is the sum of the numbers <m>4</m> and <m>10</m> in the original expression,
-      while the constant term <m>40</m> is the product of the numbers <m>4</m> and <m>10</m> in the original expression.
-    </p>
-    
+    <note>
+      <p>
+        Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
+        identifying that it is in the form <m>Ax^2+Bx+C</m>
+        by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=14</m>, and the constant term is <m>C=40</m>.
+        It is very important to note that the linear coefficient <m>14</m> is the sum of the numbers <m>4</m> and <m>10</m> in the original expression,
+        while the constant term <m>40</m> is the product of the numbers <m>4</m> and <m>10</m> in the original expression.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+5)(x+5)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(x+5)(x+5) = x^2 + 5x + 5x + 25 = x^2 + 10x + 25.</m>
+        </p>
+      </solution>
+    </example>
+
+    <warning>
+      <p>
+        Given the expression <m>(x+8)^2</m> this is not <m>x^2+64</m>. For more information, see <xref ref="warning-exponents-dont-distribute" />.
+      </p>
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+8)^2</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(x+8)^2 = (x+8)(x+8) = x^2 + 8x + 8x + 64 = x^2 + 16x + 64.</m>
+        </p>
+      </solution>
+    </example>
+
     <example>
       <statement>
         <p>
@@ -154,26 +207,235 @@
         </p>
       </solution>
     </example>
-    <p>
-      Because it will be very useful later, we examine the final expression <m>x^2-11x+24</m>
-      identifying that it is in the form <m>Ax^2+Bx+C</m> will need us to first slightly rewrite the final expression as <m>x^2 + (-11)x + 24</m>.
-      by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=-11</m>, and the constant term is <m>C=24</m>.
-      It is very important to note that the linear coefficient <m>-11</m> is the sum of the numbers <m>-3</m> and <m>-8</m> in the original expression,
-      while the constant term <m>24</m> is the product of the numbers <m>-3</m> and <m>-8</m> in the original expression.
-      (While we noted <m>(-3)+(-8)=-11</m> we can also note <m>3+8=11</m>.)
-    </p>
+    <note>
+      <p>
+        Because it will be very useful later, we examine the final expression <m>x^2-11x+24</m>
+        identifying that it is in the form <m>Ax^2+Bx+C</m> will need us to first slightly rewrite the final expression as <m>x^2 + (-11)x + 24</m>.
+        by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=-11</m>, and the constant term is <m>C=24</m>.
+        It is very important to note that the linear coefficient <m>-11</m> is the sum of the numbers <m>-3</m> and <m>-8</m> in the original expression,
+        while the constant term <m>24</m> is the product of the numbers <m>-3</m> and <m>-8</m> in the original expression.
+        (While we noted <m>(-3)+(-8)=-11</m> we can also note <m>3+8=11</m>.)
+      </p>
+    </note>
     <p>
       Before moving on to another example, 
       we note it is a matter of personal taste whether there really was a need to introduce a separate formula as <xref ref="FOIL2" />.
       You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of <xref ref="FOIL1" />.
     </p>
 
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-4)(x-6)</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The given expression <m>(x-4)(x-6)</m> fits the format of the left side <m>(a-b)(c-d)</m> in <xref ref="FOIL2" />
+          with <m>a=x</m> and <m>b=4</m> and <m>c=x</m> and <m>d=6</m>.
+          In doing these identifications, the confusion may be why the stating of <m>b</m> and <m>d</m> do not have minus signs,
+          but this is because the format of <m>(a-b)(c-d)</m> already includes minus signs. Then, by <xref ref="FOIL2" />,
+          <me>(x-4)(x-6) = x \cdot x - x \cdot 6 - 4 \cdot x + 4 \cdot 6 = x^2 - 6x - 4x + 24 = x^2 - 10x + 24.</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We can rewrite the expression <m>(x-4)(x-6) = (x+(-4))(x+(-6))</m> because <m>(x+(-4))(x+(-6))</m> fits the format of the left
+          side <m>(a+b)(c+d)</m> in <xref ref="FOIL1" />. In this format, <m>a=x</m>, and <m>b</m> should consist of content right after the first plus sign,
+          so <m>b=-4</m>. Similarly, <m>c=x</m>, and <m>d</m> should be all the content after the second plus sign, so <m>d=-6</m>. Then by <xref ref="FOIL1" />,
+          <me>(x+(-4))(x+(-6)) = x \cdot x + x \cdot (-6) + (-4) \cdot x + (-4)(-6) = x^2 - 6x - 4x + 24 = x^2-10x+24.</me>
+        </p>
+      </solution>
+    </example>
+    <note>
+      <p>
+        In <m>x^2-10x+24</m>, we can rewrite the final expression as <m>x^2 + (-10)x + 24</m>, which has linear coefficient <m>-10</m> and constant term <m>24</m>.
+        Note that the constant <m>24</m> is the product of the numbers <m>(-4)</m> and <m>(-6)</m> in the original expression
+        (or we can point out that the product of the numbers after the minus signs, namely <m>4</m> and <m>6</m> multiply to <m>24</m>).
+        Thus the linear coefficient <m>-10</m> is the sum of the numbers <m>-4</m> and <m>-6</m>, (or we can point out that the numbers after the minus signs <m>4</m> and <m>6</m> add to <m>10</m>, the number after the minus sign in <m>x^2-10x+24</m>).
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-5)(x-5)</m>.
+        </p>
+      </statement>
+    </example>
+    <solution>
+      <p>
+        <m>(x-5)(x-5) = x^2 - 5x - 5x + 25 = x^2 - 10x + 25.</m>
+      </p>
+    </solution>
     
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-8)^2</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(x-8)^2=(x-8)(x-8) = x^2 - 8x - 8x + 64 = x^2 - 16x + 64.</m>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.
+    </p>
+    <principle xml:id="principle-FOIL3">
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>(a+b)(c-d) = ac - ad + bc - bd</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(a-b)(c+d) = ac + ad - bc - bd</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </principle>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+7)(x-2)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use the first formula in <xref ref="principle-FOIL3" /> with <m>a=x</m> and <m>b=7</m> and <m>c=x</m> and <m>d=2</m> to get
+          <me>(x+7)(x-2) = x\cdot x - x\cdot 2 + 7\cdot x - 7\cdot 2 = x^2 - 2x + 7x - 14 = x^2 + 5x - 14.</me>
+        </p>
+      </solution>
+    </example>
+    <note>
+      <p>
+        For the first time in this section, we end with a quadratic expression <m>x^2 + 5x - 14</m> where the constant term is negative.
+        This happened because we multiplied <m>+7</m> with <m>-2</m>.
+        Recall the product of a real numbers with opposite signs results in a negative number.
+        In the original expression, let's examine the <m>7</m> and the <m>2</m> which appear after the plus sign and the minus sign.
+        The difference between these numbers is <m>5</m>, and note the linear coefficient was <m>5</m>.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-7)(x+2)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can use the second formula in <xref ref="principle-FOIL3" /> with <m>a=x</m> and <m>b=7</m> and <m>c=x</m> and <m>d=2</m> to get
+          <me>(x-7)(x+2) = x\cdot x + x\cdot 2 - 7\cdot x - 7\cdot 2 = x^2 + 2x - 7x - 14 = x^2 - 5x - 14.</me>
+        </p>
+      </solution>      
+    </example>
+    <note>
+      <p>
+        As in our previous example, the final expression <m>x^2 - 5x - 14</m> has a negative constant term, for the same reason as earlier:
+        this was the result of multiplying a negative number (namely <m>-7</m>) together with a positive number (namely <m>+2</m>).
+        The opposite of the linear coefficient <m>-5</m> is <m>5</m>, and that is the difference between the numbers <m>7</m> and <m>2</m> in the original expression.
+        When we subtract <m>2</m> and <m>7</m> in a certain order, we get <m>-5</m>.         
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x-3)(x+10)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(x-3)(x+10) = x^2 + 10x - 3x - 30 = x^2 + 7x - 30</m>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Expand and simplify <m>(x+9)(x-9)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>(x+9)(x-9) = x^2 - 9x + 9x - 81 = x^2 + 0x - 81 = x^2 - 81</m>.
+        </p>
+      </solution>
+    </example>
+    <note>
+      <p>
+        We have been looking at expanding and simplifying the product of binomials.
+        Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms.
+        In this case, we only have two terms in <m>x^2-81</m> because the middle terms <m>-9x+9x</m> simplified to zero.
+      </p>
+    </note>
+  </subsection>
+
+  <subsection>
+    <title>Factoring</title>
+
+    <p>
+      Our goal here is to take a trinomial in the format of <m>Ax^2+Bx+C</m> such as <m>x^2+7x-30</m> and <m>x^2+14x+40</m> and factor this,
+      producing a product of binomials. We start with the situation where <m>A=1</m>. It is helpful to see what happens based on whether the constant term
+      is positive or negative.
+    </p>
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Compare the examples in the previous portion on expansion.
+          What patterns do you notice about the constant term <m>C</m> in the final expression <m>x^2+Bx+C</m>?
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
+    <example>
+      <statement>
+        <p>
+          Will the two binomials in the factored form of <m>x^2+8x+15</m> have the same sign or opposite signs?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because the constant term is positive (namely <m>15</m>), the two binomials will have the same sign.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Will the two binomials in the factored form of <m>x^2+8x-20</m> have the same sign or opposite signs?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because the constant term is negative (namely <m>-20</m>), the two binomials will have opposite signs.
+        </p>
+      </solution>
+    </example>
+
 
 
     <p>
-      Systematize the factoring of quadratic trinomials. 
       
+
+
+
       Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with
 
       Factor by grouping

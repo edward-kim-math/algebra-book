@@ -1242,6 +1242,7 @@
       Here are specific examples of what this warning is trying to address:
       <ul>
         <li><p>We cannot turn <m>(x+y)^2</m> into <m>x^2 + y^2</m>.</p></li>
+        <li><p>We cannot turn <m>(x+8)^2</m> into <m>x^2 + 8^2</m>.</p></li>
         <li><p>We cannot turn <m>(u+7)^9</m> into <m>u^9 + 7^9</m>.</p></li>
         <li><p>We cannot turn <m>(2+k)^c</m> into <m>2^c + k^c</m>.</p></li>
       </ul>

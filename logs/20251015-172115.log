@@ -1,0 +1,8 @@
+WARNING : Using CLI version 2.29.1 but project's `requirements.txt`
+WARNING : is configured to use 2.27.0. Consider either installing
+WARNING : CLI version 2.27.0 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.29.1.
+INFO    : Since no target was supplied, we will use "web4".
+
+INFO    : Building target web4
+INFO    : Generating any needed assets.
