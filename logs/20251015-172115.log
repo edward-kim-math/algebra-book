@@ -6,3 +6,21 @@ INFO    : Since no target was supplied, we will use "web4".
 
 INFO    : Building target web4
 INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl C:\Users\e\Documents\git-local\algebra-book\xsl\dmoi-html.xsl
+INFO    : Preparing to build into C:\Users\e\Documents\git-local\algebra-book\output\web4.
+INFO    : discovering source file's directory name: C:\Users\e\Documents\git-local\algebra-book\source
+INFO    : verifying and expanding input directory: C:\Users\e\Documents\git-local\algebra-book\source\../generated-assets/web
+INFO    : input directory expanded to absolute path: C:\Users\e\Documents\git-local\algebra-book\generated-assets\web
+INFO    : verifying and expanding input directory: C:\Users\e\Documents\git-local\algebra-book\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\e\Documents\git-local\algebra-book\assets
+INFO    : XSL conversion of C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx by C:\Users\e\.ptx\2.29.1\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : successful application of C:\Users\e\.ptx\2.29.1\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.13
+INFO    : Downloading Runestone Services, version 7.9.13
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-denver
+INFO    : converting C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx to HTML in C:\Users\e\AppData\Local\Temp\ptx-p75y6t2c
+INFO    : XSL conversion of C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx by C:\Users\e\AppData\Local\Temp\ptxcli_itycx3vd\cli_xsl\dmoi-html.xsl
