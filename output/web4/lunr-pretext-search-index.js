@@ -3481,7 +3481,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Factoring and Expansion",
-  "body": " Factoring and Expansion    In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials     Applications  Intro:   Text    Text    Text       Expansion  In this section, we will look at products of binomials , which are expressions of the format . As before, a product means the result of multiplication, and that multiplication happens between the value of and the vaule of . By binomial , we mean is a binomial, and is a binomial. We start with expansion, where we turn this product of binomials into an expression of the format , known as a trinomial . Because the highest power is a , we note that is a quadratic .  Let's take our initial Distributive Law , for the sake of clarity, temporarily replace the letters and , and with and and instead. It is technically the same formula to have but in this version of the Distributive Law, we will subsitute and and to get Note that in the equation above, the left side is instead of due to the Order of Operations: we really needed the value of , which is , to be multiplied by . Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of , since it is the value of that needs to be multiplied by .  On the right side of the equation above, we have , and we can apply the Distributive Law to rewrite as , and rewrite as . Putting all the pieces together, we have    Expanding the Product of Two Binomials        Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .          Given the expression this is not . For more information, see .     Expand and simplify .           INSERT preview to factor by grouping             Whether you choose to use this version directly or think via is a matter of personal choice. Let's demonstrate the two ways to think about this through an example.    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)   Before moving on to another example, we note it is a matter of personal taste whether there really was a need to introduce a separate formula as . You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of .    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).     Expand and simplify .           Expand and simplify .         We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.                      Expand and simplify .    We can use the first formula in with and and and to get      For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .     Expand and simplify .    We can use the second formula in with and and and to get      As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .     Expand and simplify .     .      Expand and simplify .     .     We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.   Systematize the factoring of quadratic trinomials. Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Factoring and Expansion    In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials     Applications  Intro:   Text    Text    Text       Expansion  In this section, we will look at products of binomials , which are expressions of the format . As before, a product means the result of multiplication, and that multiplication happens between the value of and the vaule of . By binomial , we mean is a binomial, and is a binomial. We start with expansion, where we turn this product of binomials into an expression of the format , known as a trinomial . Because the highest power is a , we note that is a quadratic . In , we will call the quadratic coefficient , call the linear coefficient , and call the constant term . For example, in , the quadratic coefficient is , the linear coefficient is , and the constant term is .  We will start with where both and are the variable . This will lead to the quadratic coefficient in always being . In these all such examples, we will start with expressions of the form , but then look at the expansion , comparing the expansions from several examples to see if there are any patterns. Spoiler alert: some of the patterns can be come about from examining which coefficients in are positive and which coefficients are negative.  Let's take our initial Distributive Law , for the sake of clarity, temporarily replace the letters and , and with and and instead. It is technically the same formula to have but in this version of the Distributive Law, we will subsitute and and to get Note that in the equation above, the left side is instead of due to the Order of Operations: we really needed the value of , which is , to be multiplied by . Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of , since it is the value of that needs to be multiplied by .  On the right side of the equation above, we have , and we can apply the Distributive Law to rewrite as , and rewrite as . Putting all the pieces together, we have    Expanding the Product of Two Binomials        Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .          Given the expression this is not . For more information, see .     Expand and simplify .           INSERT preview to factor by grouping             Whether you choose to use this version directly or think via is a matter of personal choice. Let's demonstrate the two ways to think about this through an example.    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)   Before moving on to another example, we note it is a matter of personal taste whether there really was a need to introduce a separate formula as . You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of .    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).     Expand and simplify .           Expand and simplify .         We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.                      Expand and simplify .    We can use the first formula in with and and and to get      For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .     Expand and simplify .    We can use the second formula in with and and and to get      As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .     Expand and simplify .     .      Expand and simplify .     .     We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.     Factoring  Our goal here is to take a trinomial in the format of such as and and factor this, producing a product of binomials. We start with the situation where . It is helpful to see what happens based on whether the constant term is positive or negative.     Compare the examples in the previous portion on expansion. What patterns do you notice about the constant term in the final expression ?       Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is positive (namely ), the two binomials will have the same sign.      Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is negative (namely ), the two binomials will have opposite signs.    Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-factoring-and-expansion-2",
@@ -3499,7 +3499,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "binomial "
+  "body": "binomial trinomial quadratic quadratic coefficient linear coefficient constant term "
 },
 {
   "id": "FOIL1",
@@ -3511,72 +3511,72 @@ var ptx_lunr_docs = [
   "body": " Expanding the Product of Two Binomials     "
 },
 {
-  "id": "sec-factoring-and-expansion-4-6",
+  "id": "sec-factoring-and-expansion-4-7",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-6",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-7",
   "type": "Example",
   "number": "1.6.2",
   "title": "",
   "body": "  Expand and simplify .    We can use with and and and to get    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-7",
+  "id": "sec-factoring-and-expansion-4-8",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-7",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-8",
   "type": "Note",
   "number": "1.6.3",
   "title": "",
   "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-8",
+  "id": "sec-factoring-and-expansion-4-9",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-8",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-9",
   "type": "Example",
   "number": "1.6.4",
   "title": "",
   "body": "  Expand and simplify .    We can use with and and and to get    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-9",
+  "id": "sec-factoring-and-expansion-4-10",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-9",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-10",
   "type": "Note",
   "number": "1.6.5",
   "title": "",
   "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-10",
+  "id": "sec-factoring-and-expansion-4-11",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-10",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-11",
   "type": "Example",
   "number": "1.6.6",
   "title": "",
   "body": "  Expand and simplify .        "
 },
 {
-  "id": "sec-factoring-and-expansion-4-11",
+  "id": "sec-factoring-and-expansion-4-12",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-11",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-12",
   "type": "Warning",
   "number": "1.6.7",
   "title": "",
   "body": " Given the expression this is not . For more information, see .  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-12",
+  "id": "sec-factoring-and-expansion-4-13",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-12",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-13",
   "type": "Example",
   "number": "1.6.8",
   "title": "",
   "body": "  Expand and simplify .        "
 },
 {
-  "id": "sec-factoring-and-expansion-4-13",
+  "id": "sec-factoring-and-expansion-4-14",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-13",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-14",
   "type": "Example",
   "number": "1.6.9",
   "title": "",
@@ -3592,54 +3592,54 @@ var ptx_lunr_docs = [
   "body": "      "
 },
 {
-  "id": "sec-factoring-and-expansion-4-16",
+  "id": "sec-factoring-and-expansion-4-17",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-16",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-17",
   "type": "Example",
   "number": "1.6.11",
   "title": "",
   "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-17",
+  "id": "sec-factoring-and-expansion-4-18",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-17",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-18",
   "type": "Note",
   "number": "1.6.12",
   "title": "",
   "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-19",
+  "id": "sec-factoring-and-expansion-4-20",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-19",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-20",
   "type": "Example",
   "number": "1.6.13",
   "title": "",
   "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-20",
+  "id": "sec-factoring-and-expansion-4-21",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-20",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-21",
   "type": "Note",
   "number": "1.6.14",
   "title": "",
   "body": " In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-21",
+  "id": "sec-factoring-and-expansion-4-22",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-21",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-22",
   "type": "Example",
   "number": "1.6.15",
   "title": "",
   "body": "  Expand and simplify .   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-23",
+  "id": "sec-factoring-and-expansion-4-24",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-23",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-24",
   "type": "Example",
   "number": "1.6.16",
   "title": "",
@@ -3655,56 +3655,47 @@ var ptx_lunr_docs = [
   "body": "                 "
 },
 {
-  "id": "sec-factoring-and-expansion-4-26",
+  "id": "sec-factoring-and-expansion-4-27",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-26",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-27",
   "type": "Example",
   "number": "1.6.18",
   "title": "",
   "body": "  Expand and simplify .    We can use the first formula in with and and and to get    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-27",
+  "id": "sec-factoring-and-expansion-4-28",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-27",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-28",
   "type": "Note",
   "number": "1.6.19",
   "title": "",
   "body": " For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-28",
+  "id": "sec-factoring-and-expansion-4-29",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-28",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-29",
   "type": "Example",
   "number": "1.6.20",
   "title": "",
   "body": "  Expand and simplify .    We can use the second formula in with and and and to get    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-29",
+  "id": "sec-factoring-and-expansion-4-30",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-29",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-30",
   "type": "Note",
   "number": "1.6.21",
   "title": "",
   "body": " As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-30",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-30",
-  "type": "Example",
-  "number": "1.6.22",
-  "title": "",
-  "body": "  Expand and simplify .     .   "
-},
-{
   "id": "sec-factoring-and-expansion-4-31",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-31",
   "type": "Example",
-  "number": "1.6.23",
+  "number": "1.6.22",
   "title": "",
   "body": "  Expand and simplify .     .   "
 },
@@ -3712,116 +3703,152 @@ var ptx_lunr_docs = [
   "id": "sec-factoring-and-expansion-4-32",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-32",
+  "type": "Example",
+  "number": "1.6.23",
+  "title": "",
+  "body": "  Expand and simplify .     .   "
+},
+{
+  "id": "sec-factoring-and-expansion-4-33",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-33",
   "type": "Note",
   "number": "1.6.24",
   "title": "",
   "body": " We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-34",
+  "id": "sec-factoring-and-expansion-5-3",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-34",
-  "type": "Principle",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-3",
+  "type": "Try it",
   "number": "1.6.25",
+  "title": "",
+  "body": "  Compare the examples in the previous portion on expansion. What patterns do you notice about the constant term in the final expression ?    "
+},
+{
+  "id": "sec-factoring-and-expansion-5-4",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-4",
+  "type": "Example",
+  "number": "1.6.26",
+  "title": "",
+  "body": "  Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is positive (namely ), the two binomials will have the same sign.   "
+},
+{
+  "id": "sec-factoring-and-expansion-5-5",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-5",
+  "type": "Example",
+  "number": "1.6.27",
+  "title": "",
+  "body": "  Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is negative (namely ), the two binomials will have opposite signs.   "
+},
+{
+  "id": "sec-factoring-and-expansion-5-7",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-7",
+  "type": "Principle",
+  "number": "1.6.28",
   "title": "text.",
   "body": " text  text  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-35",
+  "id": "sec-factoring-and-expansion-5-8",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-35",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-8",
   "type": "Example",
-  "number": "1.6.26",
+  "number": "1.6.29",
   "title": "",
   "body": "  Statement text    Solution text   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-36",
+  "id": "sec-factoring-and-expansion-5-9",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-36",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-9",
   "type": "Try it",
-  "number": "1.6.27",
+  "number": "1.6.30",
   "title": "",
   "body": "  Text    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-37",
+  "id": "sec-factoring-and-expansion-5-10",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-37",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-10",
   "type": "Note",
-  "number": "1.6.28",
+  "number": "1.6.31",
   "title": "",
   "body": " Text  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-39",
+  "id": "sec-factoring-and-expansion-5-12",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-39",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-12",
   "type": "Warning",
-  "number": "1.6.29",
+  "number": "1.6.32",
   "title": "",
   "body": " text  "
 },
 {
-  "id": "sec-factoring-and-expansion-4-40",
+  "id": "sec-factoring-and-expansion-5-13",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-40",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-13",
   "type": "Investigate!",
   "number": "1.1",
   "title": "",
   "body": " knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-41",
+  "id": "sec-factoring-and-expansion-5-14",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-41",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-14",
   "type": "Try it",
-  "number": "1.6.30",
+  "number": "1.6.33",
   "title": "",
   "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
 },
 {
-  "id": "sec-factoring-and-expansion-4-42",
+  "id": "sec-factoring-and-expansion-5-15",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-42",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-15",
   "type": "Definition",
-  "number": "1.6.31",
+  "number": "1.6.34",
   "title": "Argument.",
   "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-43-1",
+  "id": "sec-factoring-and-expansion-5-16-1",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-43-1",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-16-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "argument valid argument sound argument "
 },
 {
-  "id": "sec-factoring-and-expansion-4-44",
+  "id": "sec-factoring-and-expansion-5-17",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-44",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-17",
   "type": "Example",
-  "number": "1.6.32",
+  "number": "1.6.35",
   "title": "",
   "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
 },
 {
-  "id": "sec-factoring-and-expansion-4-45",
+  "id": "sec-factoring-and-expansion-5-18",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-45",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-18",
   "type": "Remark",
-  "number": "1.6.33",
+  "number": "1.6.36",
   "title": "",
   "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
 },
 {
-  "id": "sec-factoring-and-expansion-5-3",
+  "id": "sec-factoring-and-expansion-6-3",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-5-3",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-6-3",
   "type": "Example",
-  "number": "1.6.34",
+  "number": "1.6.37",
   "title": "",
   "body": "  Text    Answer   "
 },
