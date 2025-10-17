@@ -1585,8 +1585,9 @@
     Collecting like terms is actually factoring out the variable from several terms (though we often skip writing that <q>middle step</q> such as <m>(13-7)x</m> and just simplify the part that is in parentheses in our head.)
   </p>
 
-  <note>
+  <note xml:id="collecting-like-terms-justification">
     <p>
+      Collecting like terms is justified by the Distributive Law.
       It may be tempting to ignore this comment about the connection between collecting like terms and the Distributive Law.
       If we ignore the connection, it would be easy to see an expression like <m>3x + \sqrt{7}\,x</m> and feel stuck thinking
       that we <q>can't</q> collect like terms.

@@ -429,6 +429,95 @@
       </solution>
     </example>
 
+    <computation>
+      <title>Factoring a quadratic trinomial into a product of binomials</title>
+      <p>
+        Suppose we are given <m>Ax^2+Bx+C</m> with <m>A=1</m>, meaning we have <m>x^2+Bx+C</m>.
+        To factor <m>x^2+Bx+C</m> as the product of binomials:
+        <ul>
+          <li>
+            <p>
+              If the costant term <m>C</m> is positive, then the signs contained in both binomials match.
+            </p>
+          </li>
+          <li>
+            <p>
+              If the costant term <m>C</m> is negative, then the signs contained in both binomials differ.
+            </p>
+          </li>
+        </ul>
+      </p>      
+    </computation>
+    
+    <p>
+      Now, let's dig in further to see what happens when the constant term is postive.
+      First, let's note that when we have the consstant term positive, then the two binomials have to have the same sign, 
+      meaning that both signs are positive or both signs are negative.
+      But now, we can see two situations:
+      the linear term can be positive or negative.
+      For example, we can have <m>x^2+9x+20</m> or we can have <m>x^2-9x+20</m>.
+    </p>
+    <p>
+      It seems like a reasonable guess (and we'll check if it works) that if we have a <m>+9x</m> term,
+      that the matching sign in both binomials is a plus, while if we have a <m>-9x</m> term,
+      then the matching sign in both binomials is a minus.
+    </p>
+    <p>
+      Let's dig in to see if we can find the missing values in <me>(x+\_\_\_)(x+\_\_\_) = x^2+9x+20.</me>
+      To match the notation earlier, let's fill in these blanks with <m>b</m> and <m>d</m>.
+      That is, let's find the <m>b</m> and <m>d</m> in
+      <me>(x+b)(x+d)=x^2+9x+20</me>
+      by expanding the left side:
+      <me>x^2+dx+bx+bd = x^2+9x+20.</me>
+      Now, the middle two terms <m>dx</m> and <m>bx</m> are like terms, and we can <q>collect like terms</q> here,
+      though what we'll really do is apply <xref ref="collecting-like-terms-justification" /> and factor out <m>x</m> for the middle two terms:
+      <me>x^2+(d+b)x+bd = x^2+9x+20.</me>
+      The last term on the left <m>bd</m> has no <m>x</m>, so this must be what matches up with <m>20</m> on the right.
+      The linear coefficient (the number in front of <m>x</m>) on the left is <m>d+b</m> and on the right is <m>9</m>.
+      This combination of things tells us what we need. The two numbers we need to find (called <m>b</m> and <m>d</m> here)
+      need to multiply to <m>20</m> and need to add to <m>9</m>.
+      Those two numbers are <m>4</m> and <m>5</m> so we can factor <m>x^2+9x+20</m> as either
+      <me>(x+4)(x+5)</me>
+      or 
+      <me>(x+5)(x+4).</me>
+      These are essentially the same (just switching the order of the factors), and we can check our factoring by expanding.
+    </p>
+
+    <p>
+      For <m>x^2-9x+20</m>, we'll need minus signs inside both binomials. That is, our set up looks like:
+      <me>(x-\_\_\_)(x-\_\_\_) = x^2-9x+20.</me>
+      Now, the minus signs are <emph>already</emph> drawn in, so we just need to fill in numbers <emph>after</emph> the minus signs.
+      Based on the <m>20</m> and the number after the minus sign but before the <m>x</m> being <m>9</m>,
+      we are again looking for two numbers whose product is <m>20</m> and whose sum is <m>9</m>, and these are again <m>4</m> and <m>5</m>,
+      which fill in the two blanks:
+      <me>(x-4)(x-5)</me>
+      or alternately,
+      <me>(x-5)(x-4).</me>
+      It is always a little more confusing to describe, which is why we are using the following language: in
+      <me>(x-\_\_\_)(x-\_\_\_) = x^2-9x+20</me>
+      we have <emph>already</emph> written in the minus signs, so we just need to include write <emph>after</emph>
+      the minus signs the two positive numbers that add to <m>9</m> and multiply to <m>20</m>.      
+    </p>
+
+    <computation>
+      <title>Factoring a quadratic trinomial with a positive constant term</title>
+      <p>
+        To factor <m>x^2+Bx+C</m> with constant term <m>C &gt; 0</m>,
+        <ul>
+          <li>
+            <p>
+              
+            </p>
+          </li>
+          <li>
+            <p>
+              If the costant term <m>C</m> is negative, then the signs contained in both binomials differ.
+            </p>
+          </li>
+        </ul>
+      </p>      
+    </computation>
+    
 
 
     <p>
