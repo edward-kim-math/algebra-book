@@ -499,34 +499,159 @@
       the minus signs the two positive numbers that add to <m>9</m> and multiply to <m>20</m>.      
     </p>
 
-    <computation>
+    <computation xml:id="factor-positive-constant">
       <title>Factoring a quadratic trinomial with a positive constant term</title>
       <p>
         To factor <m>x^2+Bx+C</m> with constant term <m>C &gt; 0</m>,
         <ul>
           <li>
             <p>
-              
+              If the linear term <m>B</m> is positive, then the signs contained in both binomials are positive signs.
+            </p>
+            <p>
+              In this template
+              <me>(x+\_\_\_)(x+\_\_\_) = x^2 + Bx + C</me>
+              we need to fill the blanks with positive numbers that multiply to <m>C</m> and add to <m>B</m>.
             </p>
           </li>
           <li>
             <p>
-              If the costant term <m>C</m> is negative, then the signs contained in both binomials differ.
+              If the constant term <m>C</m> is negative, then the signs contained in both binomials differ.
+            </p>
+            <p>
+              In this template
+              <me>(x-\_\_\_)(x-\_\_\_) = x^2 + Bx + C</me>
+              the minus signs are already drawn in the factoring, 
+              and we need to fill the blanks with positive numbers that multiply to <m>C</m> and add to <m>|B|</m>.
             </p>
           </li>
         </ul>
       </p>      
     </computation>
-    
 
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2+11x+24</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we have a quadratic trinomial with positive constant term <m>24</m> and we are being asked to factor,
+          <xref ref="factor-positive-constant" /> applies.
+          We are looking for two numbers to fill in the blanks in
+          <me>(x+\_\_\_)(x+\_\_\_).</me>
+          Examining the constant term <m>24</m> and the linear coefficient <m>11</m>,
+          the two blanks must be filled with positive numbers that multiply to <m>24</m> and add to <m>11</m>.
+          These are <m>3</m> and <m>8</m>, in either order, so we can factor <m>x^2+11x+24</m> as
+          <me>(x+3)(x+8)</me>.
+        </p>
+      </solution>
+    </example>    
+    <warning>
+      <p>
+        When the task is to factor, just factor. Do not factor followed by setting the expression equal to zero.
+        There is a process we will see later where factoring is the first step.
+      </p>      
+      <p>
+        In the previous question, we are just asked to factor the <emph>expression</emph> <m>x^2+11x+24</m>.
+        In a future section, we will be asked to solve the <emph>equation</emph> <m>x^2+11x+24=0</m>, and in that situation,
+        one way to do this is to factor the left side, leading to the equation <m>(x+3)(x+8)=0</m>, and then split this into the two equations
+        <m>x+3=0</m> or <m>x+8=0</m>, then solve each of the smaller equations: <m>x=-3</m> or <m>x=-8</m>.
+      </p>
+      <p>
+        But for now, we are just factoring the expression.
+      </p>
+    </warning>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2-12x+35</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we have a quadratic trinomial with positive constant term <m>35</m> and we are being asked to factor,
+          <xref ref="factor-positive-constant" /> applies. 
+          We are looking for two numbers to fill in the blanks in
+          <me>(x-\_\_\_)(x-\_\_\_).</me>
+          Examining the constant term <m>35</m> and the linear coefficient <m>-12</m>,
+          the two blanks must be filled with positive numbers that multiply to <m>35</m> and add to <m>12</m>.
+          (We are looking at <m>12</m> because the absolute value of <m>-12</m> is <m>12</m>.)
+          These are <m>5</m> and <m>7</m>, in either order, so we can factor <m>x^2-12x+35</m> as
+          <me>(x-5)(x-7)</me>.
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2-8x+15</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Since the constant term <m>15</m> is positive, and the linear coefficient <m>-8</m> is negative, our set up for factoring is
+          <me>(x-\_\_\_)(x-\_\_\_).</me>
+          The blanks must be filled with positive numbers that multiply to <m>15</m> and add to <m>8</m>.
+          (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer.
+          The blanks themselves need to be filled with positive numbers.)
+          These are <m>3</m> and <m>5</m> so our factorization is
+          <me>(x-3)(x-5)</me>.
+        </p>
+      </solution>
+    </example>
+    <p>
+      We can check our work. Starting with our factorization,
+      <md>
+        <mrow>(x-3)(x-5) \amp= x^2- 5 \cdot x - 3 \cdot x + 15</mrow>
+        <mrow>\amp= x^2 - 8x + 15</mrow>
+      </md>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2+14x+40</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we have a quadratic trinomial with positive constant term <m>40</m> and we are being asked to factor,
+          <xref ref="factor-positive-constant" /> applies.
+          We are looking for two numbers to fill in the blanks in
+          <me>(x+\_\_\_)(x+\_\_\_).</me>
+          Examining the constant term <m>40</m> and the linear coefficient <m>14</m>,
+          the two blanks must be filled with positive numbers that multiply to <m>40</m> and add to <m>14</m>.
+          These are <m>4</m> and <m>10</m>, in either order, so we can factor <m>x^2+14x+40</m> as
+          <me>(x+4)(x+10)</me>.
+        </p>
+      </solution>
+    </example>
+    <p>
+      We can check our work. Starting with our factorization,
+      <md>
+        <mrow>(x+4)(x+10) \amp= x^2 + 10 \cdot x + 4 \cdot x + 40</mrow>
+        <mrow>\amp= x^2 + 14x + 40</mrow>
+      </md>
+    </p>
 
     <p>
-      
+      The recipe we gave in <xref ref="factor-positive-constant" /> is very handy for factoring, but only works when the constant term is positive.
+      Let's do a short exploration to develop a strategy for factoring when the constant term is negative.
+    </p>
+
+    <p>
+      eeee
+    </p>
 
 
 
-      Add warning that we shouldn't set an expression equal to zero and create an equation to solve: gently preview what the student is confusing this with
 
+
+    <p>      
       Factor by grouping
     </p>
 

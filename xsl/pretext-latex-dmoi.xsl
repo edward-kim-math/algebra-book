@@ -223,6 +223,25 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 </xsl:template>
 
 
+<!-- EK 2025-10-17 ...   -->
+<xsl:template match="computation" mode="tcb-style">
+    <xsl:text>
+      enhanced, 
+      frame hidden,
+      parbox=false,
+      borderline={1pt}{1pt}{PineGreen!40},
+      sharp corners, 
+      colback=PineGreen!5, 
+      colbacktitle=PineGreen!40, 
+      coltitle=black, 
+      boxed title style={sharp corners, frame hidden},
+      fonttitle=\bfseries, 
+      attach boxed title to top left={xshift=4mm,yshift=-4mm,yshifttext=-2mm},
+      top=3mm,
+      after skip=1em,
+    </xsl:text>
+</xsl:template>
+
 
 
 
