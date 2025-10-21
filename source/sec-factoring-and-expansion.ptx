@@ -15,31 +15,6 @@
     </ol>
 	</objectives>
 
-  <subsection>
-    <title>Applications</title>
-
-    <p>
-      Intro:
-      <ol>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
-        <li>
-          <p>
-            Text
-          </p>
-        </li>
-      </ol>
-    </p>
-  </subsection>
-
 	<subsection>
 		<title>Expansion</title>
 
@@ -119,6 +94,31 @@
         </p>
       </solution>
     </example>
+    <p>
+      Recall from <xref ref="geometric-addition" /> that addition can be represented by gluing sticks together, and from <xref ref="geometric-multiplication" /> that multiplication can be represented by area of a rectangle.
+      So we can represent <m>(x+4)(x+10)=x^2 + 10x +4x + 40 = x^2 + 14x + 40</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+4)(x+10) = x^2 + 10x + 4x + 40</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$40$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$4$};
+                \node at (3,3.25) {$10$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+
     <note>
       <p>
         Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
@@ -388,8 +388,16 @@
 
     <p>
       Our goal here is to take a trinomial in the format of <m>Ax^2+Bx+C</m> such as <m>x^2+7x-30</m> and <m>x^2+14x+40</m> and factor this,
-      producing a product of binomials. We start with the situation where <m>A=1</m>. It is helpful to see what happens based on whether the constant term
-      is positive or negative.
+      producing a product of binomials. There are various techniques, and it is advisable to understand every techinque introduced, not just one technique.
+      We will point out the connections between the techniques: that is, we point out what questions get asked in various ways but actually require us to do the same thinking.
+      Some of the factoring techniques are ideal in certain situations, while some of the techniques work in more general settings.
+    </p>
+    <p>
+      We start with the situation where <m>A=1</m>. That is, we will focus on factoring a quadratic like <m>2x^2+11x-40</m> a little later, since the quadratic coefficient <m>A=2</m>,
+      and for now instead focus on a quadratic such as <m>x^2+7x-30</m>, where the quadratic coefficient <m>A=1</m>, seen more clearly when rewritten as <m>1x^2+7x-30</m>.
+      We mentioned that some techniques only work in certain situations.
+      To be specific, some of the techniques that we'll see only apply when <m>A=1</m>.
+      Let's start digging into techniques. It is helpful to see what happens based on whether the constant term is positive or negative.
     </p>
 
     <!-- Try it -->
@@ -429,7 +437,7 @@
       </solution>
     </example>
 
-    <computation>
+    <computation xml:id="information-from-sign-of-constant-term">
       <title>Factoring a quadratic trinomial into a product of binomials</title>
       <p>
         Suppose we are given <m>Ax^2+Bx+C</m> with <m>A=1</m>, meaning we have <m>x^2+Bx+C</m>.
@@ -497,30 +505,31 @@
       <me>(x-\_\_\_)(x-\_\_\_) = x^2-9x+20</me>
       we have <emph>already</emph> written in the minus signs, so we just need to include write <emph>after</emph>
       the minus signs the two positive numbers that add to <m>9</m> and multiply to <m>20</m>.      
-    </p>
+    </p>  
 
     <computation xml:id="factor-positive-constant">
       <title>Factoring a quadratic trinomial with a positive constant term</title>
       <p>
-        To factor <m>x^2+Bx+C</m> with constant term <m>C &gt; 0</m>,
+        To factor <m>x^2+Bx+C</m> with constant term <m>C &gt; 0</m>, the signs contained in both binomials are the same.
+        Are both signs positive or both signs negative?
         <ul>
           <li>
             <p>
-              If the linear term <m>B</m> is positive, then the signs contained in both binomials are positive signs.
+              If the linear coefficient <m>B</m> is positive, then the signs contained in both binomials are plus signs.
             </p>
             <p>
               In this template
-              <me>(x+\_\_\_)(x+\_\_\_) = x^2 + Bx + C</me>
+              <me>(x+\_\_\_)(x+\_\_\_)</me>
               we need to fill the blanks with positive numbers that multiply to <m>C</m> and add to <m>B</m>.
             </p>
           </li>
           <li>
             <p>
-              If the constant term <m>C</m> is negative, then the signs contained in both binomials differ.
+              If the linear coefficient <m>B</m> is negative, then the signs contained in both binomials are minus signs.
             </p>
             <p>
               In this template
-              <me>(x-\_\_\_)(x-\_\_\_) = x^2 + Bx + C</me>
+              <me>(x-\_\_\_)(x-\_\_\_)</me>
               the minus signs are already drawn in the factoring, 
               and we need to fill the blanks with positive numbers that multiply to <m>C</m> and add to <m>|B|</m>.
             </p>
@@ -529,7 +538,7 @@
       </p>      
     </computation>
 
-    <example>
+    <example xml:id="factor-x2-plus-11x-plus-24">
       <statement>
         <p>
           Factor <m>x^2+11x+24</m>.
@@ -639,19 +648,477 @@
     </p>
 
     <p>
-      The recipe we gave in <xref ref="factor-positive-constant" /> is very handy for factoring, but only works when the constant term is positive.
-      Let's do a short exploration to develop a strategy for factoring when the constant term is negative.
+      We introduce a technique that is known as the Diamond Method, starting with a version that applies when <m>A=1</m>.
     </p>
+    <computation>
+      <p>
+        To factor <m>x^2+Bx+C</m>, draw the following diagram:
+        <figure>
+          <caption>Initial diamond figure</caption>
+          <image width="15%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw (-1,-1) -- (1,1);
+                  \draw (-1,1) -- (1,-1);
+                  \node at (0,.8) {$C$};
+                  \node at (0,-.8) {$B$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+        The remaining two spaces (on the left and right) need to be filled with two numbers that multiply to the number <m>C</m> at the top of the diamond, and add to <m>B</m> at the bottom of the diamond.
+        It is often helpful to write all the factor pairs of <m>C</m>, and then go through the list to see which pair of numbers adds to <m>B</m>.
+        In <xref ref="factor-positive-constant" />, any minus signs were accounted in the structure 
+        by writing <m>(x+\_\_\_)(x+\_\_\_)</m> or <m>(x-\_\_\_)(x-\_\_\_)</m> thus the previous technique only had has think about positive numbers to fill in the blanks, 
+        but in this technique, the numbers themselves that are written in the left and the right of the diamond figure may be negative.
+      </p>
+    </computation>
 
     <p>
-      eeee
+      Before practicing this technique on examples, we introduce one more technique (though this really is displaying the same information in a different visual format).
+      This technique practices the geometric interpretations of addition and multiplication.
+    </p>
+
+    <computation>
+      <p>
+        Recall from <xref ref="geometric-addition" /> that addition can be represented by gluing sticks together, and from <xref ref="geometric-multiplication" /> that multiplication can be represented by area of a rectangle.
+        To factor <m>x^2+Bx+C</m>, draw a rectangle and divide it into four smaller rectangles.
+        Label the first side vertically and the first side horizontally with <m>x</m>.
+        Label the top left rectangle with <m>x^2</m> and the bottom right rectangle with <m>C</m>.
+        The second side vertically and the second side horizontally need to be filled in with numbers so that the two numbers multiply to <m>C</m> and the two unlabeled areas add up to <m>Bx</m>.
+        <figure>
+          <caption>Initial area model figure</caption>
+          <image width="25%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw (0,0) rectangle (4,3);
+                  \draw (2,0) -- (2,3);
+                  \draw (0,1.5) -- (4,1.5);
+                  \node at (1,2.25) {$x^2$};
+                  \node at (3,0.75) {$C$};
+                  \node at (-.5,2.25) {$x$};
+                  \node at (1,3.25) {$x$};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+        In <xref ref="factor-positive-constant" />, any minus signs were accounted in the structure 
+        by writing <m>(x+\_\_\_)(x+\_\_\_)</m> or <m>(x-\_\_\_)(x-\_\_\_)</m> thus the previous technique only had has think about positive numbers to fill in the blanks, 
+        but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative.
+        It is often helpful to write all the factor pairs of <m>C</m>, and then go through the list to see which pair of numbers adds to <m>B</m>.
+      </p>
+    </computation>
+
+    <p>
+      Let's revisit <xref ref="factor-x2-plus-11x-plus-24" /> with these two new techniques.
+    </p>    
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2+11x+24</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$24$};
+                    \node at (0,-.8) {$11$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>24</m> and add to <m>11</m>.
+        </p>
+      </solution>
+    </example>
+
+
+
+    <p>
+      https://www.hancockcollege.edu/mathcenter/documents/Diamond%20Method%20of%20Factoring.pdf
+      OTHER techniques.
+    </p>
+
+
+
+    <p>
+      The recipe we gave in <xref ref="factor-positive-constant" /> is very handy for factoring, but only works when the constant term is positive.
+      Let's do a short exploration to develop a strategy for factoring when the constant term is negative.
+      <ul>
+        <li>
+          <p>
+            When we expand <m>(x-7)(x+2)</m> we get <m>x^2+2x-7x-14 = x^2 - 5x - 14</m>.
+            In the factored version, the numbers after the minus sign and the plus sign are <m>7</m> and <m>2</m>.
+            (Note, by saying the number <emph>after</emph> the minus sign, we mean to intentionally not include the minus sign itself.)
+            The difference between <m>7</m> and <m>2</m> is <m>5</m>, which is the number after the first minus sign in <m>x^2-5x-14</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When we expand <m>(x+7)(x-2)</m> we get <m>x^2-2x+7x-14 = x^2 + 5x - 14</m>.
+            In the factored version, the numbers after the minus sign and plus sign are <m>7</m> and <m>2</m> again, just as they were i nthe previous exploration.
+            The difference between <m>7</m> and <m>2</m> is <m>5</m>, which is the number after the first plus sign in <m>x^2+5x-14</m>.
+          </p>
+        </li>
+      </ul>
+      In both <m>x^2-5x-14</m> and <m>x^2+5x-14</m>, the minus in front of <m>14</m> means that the signs in the middle of the factors
+      for the factorization of <emph>both</emph> of these quadratics must include one minus sign and one plus sign.
+      In both factorizations, we saw the numbers <m>7</m> and <m>2</m> appear, and their difference is <m>5</m>,
+      which appears to be connected to the linear coefficient of either <m>5</m> or <m>-5</m>, depending on which quadratic expression we look at.
+      <ul>
+        <li>
+          <p>
+            In the case of <m>x^2-5x-14</m>, this negative linear coefficient <m>-5</m> in front of <m>x</m> came from collecting the like terms <m>2x-7x</m> in <m>x^2+2x-7x-14</m>, 
+            and for the <m>2x-7x</m> to occur, the factorization required the <m>7</m> to appear after the minus sign and the <m>2</m> to appear after the plus sign.
+            (To say this in the form of a shortcut, because the linear coefficient was negative, we needed more <q>negative <m>x</m></q> than <q>positive <m>x</m></q>.)            
+          </p>
+        </li>
+        <li>
+          <p>
+            In the case of <m>x^2+5x-14</m>, the positive linear coefficient <m>5</m> in front of <m>x</m> came from collecting like terms <m>-2x+7x</m>
+            in <m>x^2-2x+7x-14</m>, which can only occur if the factorization has the <m>2</m> appearing after the minus sign and the <m>7</m> appearing before the minus sign.
+            In short, to get the linear coefficient to be positive, we needed more <emph>positive</emph> than <emph>negative</emph> when we collect like terms.
+          </p>
+        </li>
+      </ul>
+      This creates for us an overall strategy to factor a quadratic when the quadratic coefficient is <m>1</m> (often a hidden <m>1</m>) and the constant term is negative.
+    </p>
+
+    <computation xml:id="factor-negative-constant">
+      <title>Factoring a quadratic trinomial with a negative constant term</title>
+      <p>
+        To factor <m>x^2+Bx-C</m> or <m>x^2-Bx-C</m> with a negative constant term,
+        the signs contained in both binomials will be different.
+        In other words, one set of parentheses will have a plus sign, and the other will have a minus sign.
+        Find two numbers whose product is <m>C</m> and whose difference is <m>B</m>.
+        <ul>
+          <li>
+            <p>
+              If the linear coefficient is positive, place the bigger number after the plus sign and the smaller number after the minus sign.
+            </p>
+          </li>
+          <li>
+            <p>
+              If the linear coefficient is negative, place the bigger number after the minus sign and the smaller number after the plus sign.
+            </p>
+          </li>
+        </ul>
+      </p>      
+    </computation>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 + 5x - 14</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to find two numbers that whose product is <m>14</m> and whose difference is <m>5</m>.
+          These numbers are <m>7</m> and <m>2</m>.
+          Because the linear coefficient <m>5</m> is positive, we place the bigger number <m>7</m> after the plus sign
+          and the smaller number <m>2</m> after the minus sign.
+          <me>x^2 + 5x - 14 = (x+7)(x-2)</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 - 10x - 24</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We need to find two numbers that whose product is <m>24</m> and whose difference is <m>10</m>.
+          These numbers are <m>12</m> and <m>2</m>.
+          Because the linear coefficient <m>-10</m> is negative, we place the bigger number <m>12</m> after the minus sign
+          and the smaller number <m>2</m> after the plus sign.
+          <me>x^2 - 10x - 24 = (x-12)(x+2)</me>
+        </p>
+      </solution>
+    </example>
+
+    <p>
+      When factoring quadratics where the quadratic coefficient is <m>1</m>, we are looking for two numbers to create a certain product,
+      and in addition, the two nummbers need to create a certain sum or a certain difference.
+      (We are looking for a sum when the constant term is positive, and a difference when the constant term is negative.)
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          For each quadratic below, notice the quadratic coefficient is <m>1</m>.
+          Based on the linear and constant terms, identify what we need to look for to factor each expression.
+          (If you wish to practice by factoring, feel free to do so! 
+          However, this question is intentionally worded to get us practicing how to ask the right questions!)
+          <ol>
+            <li>
+              <p><m>x^2 + 6x - 16</m></p>
+              <p><m>x^2 + 14x + 33</m></p>
+              <p><m>x^2 + 16x + 60</m></p>
+              <p><m>x^2 + 4x - 60</m></p>
+              <p><m>x^2 - 8x - 20</m></p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <p>
+              To factor <m>x^2 + 6x - 16</m>, find two numbers whose product is <m>16</m> and whose difference is <m>6</m>.
+              The negative constant term <m>-16</m> told us we need a difference.
+              The negative constant term also tells us the factorization has one sign positive and one sign negative.
+              Because the linear coefficient is positive (namely <m>6</m>), of the two numbers we find, the bigger number goes after the plus sign.
+            </p>
+          </li>
+          <li>
+            <p>
+              To factor <m>x^2 + 14x + 33</m>, find two numbers whose product is <m>33</m> and whose sum is <m>14</m>.
+              The positive constant term <m>33</m> told us we need a sum.
+              The positive constant term also tells us the factorization has the same sign twice, 
+              and the positive linear coefficient (namely <m>14</m>) tells us both signs positive.
+            </p>
+          </li>
+          <li>
+            <p>
+              To factor <m>x^2 + 16x + 60</m>, find two numbers whose product is <m>60</m> and whose sum is <m>16</m>.
+              The positive constant term <m>60</m> told us we need a sum.
+              The positive constant term also tells us the factorization has the same sign twice, 
+              and the positive linear coefficient (namely <m>16</m>) tells us both signs positive.
+            </p>
+          </li>
+          <li>
+            <p>
+              To factor <m>x^2 + 4x - 60</m>, find two numbers whose product is <m>60</m> and whose difference is <m>4</m>.
+              The negative constant term <m>-60</m> told us we need a difference.
+              The negative constant term also tells us the factorization has one sign positive and one sign negative.
+              Because the linear coefficient is positive (namely <m>4</m>), of the two numbers we find, the bigger number goes after the plus sign.
+            </p>
+          </li>
+          <li>
+            <p>
+              To factor <m>x^2 - 8x - 20</m>, find two numbers whose product is <m>20</m> and whose difference is <m>8</m>.
+              The negative constant term <m>-20</m> told us we need a difference.
+              The negative constant term also tells us the factorization has one sign positive and one sign negative.
+              Because the linear coefficient is negative (namely <m>-8</m>), of the two numbers we find, the bigger number goes after the minus sign.
+            </p>
+          </li>
+        </ol>
+      </solution>
+    </example>
+
+  </subsection>
+
+  <subsection xml:id="subsec-special-cases">
+    <title>Special cases</title>
+
+    <p>
+      We will look at a continuation of what we saw before, but there are some problems which may be viewed as their own special cases, or can just fit into the general theory we just saw -- your choice!
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2+10x+25</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We are looking for two numbers whose product is <m>25</m> and whose sum is <m>10</m>.
+          These numbers are <m>5</m> and <m>5</m>. The factorization is 
+          <me>(x+5)(x+5).</me>
+        </p>
+      </solution>
+    </example>
+    <p>The special situation here is that the two numbers we found happen to be the same number twice.</p>
+
+    <principle xml:id="principle-perfect-square-trinomial-plus">
+      <statement>
+        <p>
+          <m>a^2 + 2ab + b^2 = (a+b)^2</m>.
+        </p>
+      </statement>
+    </principle>
+    <p>We can check that this formula is true by taking <m>(a+b)^2</m> and recalling what squaring means:
+      <me>(a+b)^2 = (a+b)(a+b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2.</me>
+      We note that earlier in <xref ref="warning-exponents-dont-distribute" />, we were told <m>(a+b)^2</m> doesn't turn into <m>a^2+b^2</m> (just with different variables).
+      While that earlier warning focused on what we <emph>can't</emph> do, the formula just shown focuses on what we <emph>can</emph> do in this situation.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 + 6x + 9</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can apply earlier principles to find two numbers whose product is <m>9</m> and whose sum is <m>6</m>.
+          These numbers are <m>3</m> and <m>3</m>, so 
+          <me>x^2 + 6x + 9 = (x+3)(x+3)</me>
+          and we can optionally rewrite this as <m>(x+3)^2</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          To apply <xref ref="principle-perfect-square-trinomial-plus" />, we identify <m>a=x</m> and <m>b=3</m>.
+          Then,
+          <me>x^2 + 6x + 9 = (x+3)^2.</me>
+        </p>
+      </solution>
+    </example>
+
+    <principle xml:id="principle-perfect-square-trinomial-minus">
+      <statement>
+        <p>
+          <m>a^2 - 2ab + b^2 = (a-b)^2</m>.
+        </p>
+      </statement>
+    </principle>
+    <p>We can check that this formula is true by taking <m>(a-b)^2</m> and recalling what squaring means:
+      <me>(a-b)^2 = (a-b)(a-b) = a^2 - ab - ba + b^2 = a^2 - 2ab + b^2.</me>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 - 12x + 36</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We are looking for two numbers whose product is <m>36</m> and whose sum is <m>12</m>.
+          These numbers are <m>6</m> and <m>6</m>. The factorization is
+          <me>(x-6)(x-6)</me>
+          and we can optionally rewrite this as <m>(x-6)^2</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          To apply <xref ref="principle-perfect-square-trinomial-minus" />, use <m>a=x</m> and <m>b=6</m>.
+          Then,
+          <me>x^2 - 12x + 36 = (x-6)^2.</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 - 8x + 16</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We are looking for two numbers whose product is <m>16</m> and whose sum is <m>8</m>.
+          These numbers are <m>4</m> and <m>4</m>. The factorization is
+          <me>(x-4)(x-4)</me>
+          and we can optionally rewrite this as <m>(x-4)^2</m>.
+        </p>
+      </solution>
+      <solution>
+        <p>
+          To apply <xref ref="principle-perfect-square-trinomial-minus" />, use <m>a=x</m> and <m>b=4</m>.
+          Then,
+          <me>x^2 - 8x + 16 = (x-4)^2.</me>
+        </p>
+      </solution>
+    </example>
+
+    <principle xml:id="principle-difference-of-squares">
+      <statement>
+        <p>
+          <m>a^2 - b^2 = (a+b)(a-b)</m>.
+        </p>
+      </statement>
+    </principle>
+    <p>
+      To verify this formula, we can expand the right side:
+      <me>(a+b)(a-b) = a^2 - ab + ab - b^2 = a^2 - b^2.</me>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 - 49</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can rewrite the given expression as <m>x^2 + 0x - 49</m>.
+          Based on <xref ref="factor-negative-constant" />, we are looking for two numbers whose product is <m>49</m> and whose difference is <m>0</m>.
+          The fact that the difference is zero means that we need the same number twice (since a number minus itself is zero).
+          Those numbers are <m>7</m> and <m>7</m>, and we place one of these behind a minus sign and the other behind a plus sign:
+          <me>x^2-49 = (x+7)(x-7)</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We can apply <xref ref="principle-difference-of-squares" /> using <m>a=x</m> and <m>b=7</m>.
+          Then,
+          <me>x^2 - 49 = (x+7)(x-7).</me>
+        </p>
+      </solution>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2 - 100</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We can rewrite the given expression as <m>x^2 + 0x - 100</m>.
+          Based on <xref ref="factor-negative-constant" />, we are looking for two numbers whose product is <m>100</m> and whose difference is <m>0</m>.
+          Those numbers are <m>10</m> and <m>10</m>, and we place one of these behind a minus sign and the other behind a plus sign:
+          <me>x^2 - 100 = (x+10)(x-10)</me>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We can apply <xref ref="principle-difference-of-squares" /> using <m>a=x</m> and <m>b=10</m>.
+          Then,
+          <me>x^2 - 100 = (x+10)(x-10).</me>
+        </p>
+      </solution>
+    </example>
+    <p>
+      Recall that we can always check our factoring by distributing and collecting like terms.
+      In fact, practicing this as a habit lets us see why all the strategies we have presented work in the first place,
+      and also helps build our intuition to be able to factor in future problems.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-additional-factoring-techniques">
+    <title>Additional factoring techniques</title>
+
+
+    <p>
+      Geometric technique:
+      https://www.youtube.com/watch?v=hMFVbo1QKPs
     </p>
 
 
 
 
-
-    <p>      
+    <p>
       Factor by grouping
     </p>
 
