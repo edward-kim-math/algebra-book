@@ -3481,7 +3481,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Factoring and Expansion",
-  "body": " Factoring and Expansion    In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials     Expansion  In this section, we will look at products of binomials , which are expressions of the format . As before, a product means the result of multiplication, and that multiplication happens between the value of and the vaule of . By binomial , we mean is a binomial, and is a binomial. We start with expansion, where we turn this product of binomials into an expression of the format , known as a trinomial . Because the highest power is a , we note that is a quadratic . In , we will call the quadratic coefficient , call the linear coefficient , and call the constant term . For example, in , the quadratic coefficient is , the linear coefficient is , and the constant term is .  We will start with where both and are the variable . This will lead to the quadratic coefficient in always being . In these all such examples, we will start with expressions of the form , but then look at the expansion , comparing the expansions from several examples to see if there are any patterns. Spoiler alert: some of the patterns can be come about from examining which coefficients in are positive and which coefficients are negative.  Let's take our initial Distributive Law , for the sake of clarity, temporarily replace the letters and , and with and and instead. It is technically the same formula to have but in this version of the Distributive Law, we will subsitute and and to get Note that in the equation above, the left side is instead of due to the Order of Operations: we really needed the value of , which is , to be multiplied by . Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of , since it is the value of that needs to be multiplied by .  On the right side of the equation above, we have , and we can apply the Distributive Law to rewrite as , and rewrite as . Putting all the pieces together, we have    Expanding the Product of Two Binomials        Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .    We can use with and and and to get     Recall from that addition can be represented by gluing sticks together, and from that multiplication can be represented by area of a rectangle. So we can represent through the following diagram:  Picture of        Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.     Expand and simplify .          Given the expression this is not . For more information, see .     Expand and simplify .           INSERT preview to factor by grouping             Whether you choose to use this version directly or think via is a matter of personal choice. Let's demonstrate the two ways to think about this through an example.    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)   Before moving on to another example, we note it is a matter of personal taste whether there really was a need to introduce a separate formula as . You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of .    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).     Expand and simplify .           Expand and simplify .         We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.                      Expand and simplify .    We can use the first formula in with and and and to get      For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .     Expand and simplify .    We can use the second formula in with and and and to get      As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .     Expand and simplify .     .      Expand and simplify .     .     We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.     Factoring  Our goal here is to take a trinomial in the format of such as and and factor this, producing a product of binomials. There are various techniques, and it is advisable to understand every techinque introduced, not just one technique. We will point out the connections between the techniques: that is, we point out what questions get asked in various ways but actually require us to do the same thinking. Some of the factoring techniques are ideal in certain situations, while some of the techniques work in more general settings.  We start with the situation where . That is, we will focus on factoring a quadratic like a little later, since the quadratic coefficient , and for now instead focus on a quadratic such as , where the quadratic coefficient , seen more clearly when rewritten as . We mentioned that some techniques only work in certain situations. To be specific, some of the techniques that we'll see only apply when . Let's start digging into techniques. It is helpful to see what happens based on whether the constant term is positive or negative.     Compare the examples in the previous portion on expansion. What patterns do you notice about the constant term in the final expression ?       Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is positive (namely ), the two binomials will have the same sign.      Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is negative (namely ), the two binomials will have opposite signs.     Factoring a quadratic trinomial into a product of binomials  Suppose we are given with , meaning we have . To factor as the product of binomials:   If the costant term is positive, then the signs contained in both binomials match.    If the costant term is negative, then the signs contained in both binomials differ.      Now, let's dig in further to see what happens when the constant term is postive. First, let's note that when we have the consstant term positive, then the two binomials have to have the same sign, meaning that both signs are positive or both signs are negative. But now, we can see two situations: the linear term can be positive or negative. For example, we can have or we can have .  It seems like a reasonable guess (and we'll check if it works) that if we have a term, that the matching sign in both binomials is a plus, while if we have a term, then the matching sign in both binomials is a minus.  Let's dig in to see if we can find the missing values in To match the notation earlier, let's fill in these blanks with and . That is, let's find the and in by expanding the left side: Now, the middle two terms and are like terms, and we can collect like terms here, though what we'll really do is apply and factor out for the middle two terms: The last term on the left has no , so this must be what matches up with on the right. The linear coefficient (the number in front of ) on the left is and on the right is . This combination of things tells us what we need. The two numbers we need to find (called and here) need to multiply to and need to add to . Those two numbers are and so we can factor as either or These are essentially the same (just switching the order of the factors), and we can check our factoring by expanding.  For , we'll need minus signs inside both binomials. That is, our set up looks like: Now, the minus signs are already drawn in, so we just need to fill in numbers after the minus signs. Based on the and the number after the minus sign but before the being , we are again looking for two numbers whose product is and whose sum is , and these are again and , which fill in the two blanks: or alternately, It is always a little more confusing to describe, which is why we are using the following language: in we have already written in the minus signs, so we just need to include write after the minus signs the two positive numbers that add to and multiply to .   Factoring a quadratic trinomial with a positive constant term  To factor with constant term , the signs contained in both binomials are the same. Are both signs positive or both signs negative?   If the linear coefficient is positive, then the signs contained in both binomials are plus signs.  In this template we need to fill the blanks with positive numbers that multiply to and add to .    If the linear coefficient is negative, then the signs contained in both binomials are minus signs.  In this template the minus signs are already drawn in the factoring, and we need to fill the blanks with positive numbers that multiply to and add to .        Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . These are and , in either order, so we can factor as .     When the task is to factor, just factor. Do not factor followed by setting the expression equal to zero. There is a process we will see later where factoring is the first step.  In the previous question, we are just asked to factor the expression  . In a future section, we will be asked to solve the equation  , and in that situation, one way to do this is to factor the left side, leading to the equation , and then split this into the two equations or , then solve each of the smaller equations: or .  But for now, we are just factoring the expression.     Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . (We are looking at because the absolute value of is .) These are and , in either order, so we can factor as .      Factor .    Since the constant term is positive, and the linear coefficient is negative, our set up for factoring is The blanks must be filled with positive numbers that multiply to and add to . (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer. The blanks themselves need to be filled with positive numbers.) These are and so our factorization is .    We can check our work. Starting with our factorization,     Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . These are and , in either order, so we can factor as .    We can check our work. Starting with our factorization,   We introduce a technique that is known as the Diamond Method, starting with a version that applies when .   To factor , draw the following diagram:  Initial diamond figure     The remaining two spaces (on the left and right) need to be filled with two numbers that multiply to the number at the top of the diamond, and add to at the bottom of the diamond. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to . In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers themselves that are written in the left and the right of the diamond figure may be negative.   Before practicing this technique on examples, we introduce one more technique (though this really is displaying the same information in a different visual format). This technique practices the geometric interpretations of addition and multiplication.   Recall from that addition can be represented by gluing sticks together, and from that multiplication can be represented by area of a rectangle. To factor , draw a rectangle and divide it into four smaller rectangles. Label the first side vertically and the first side horizontally with . Label the top left rectangle with and the bottom right rectangle with . The second side vertically and the second side horizontally need to be filled in with numbers so that the two numbers multiply to and the two unlabeled areas add up to .  Initial area model figure     In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to .   Let's revisit with these two new techniques.    Factor .    We are looking to fill in the two empty spaces in:  Initial diamond figure     The two numbers must multiply to and add to .    https:\/\/www.hancockcollege.edu\/mathcenter\/documents\/Diamond%20Method%20of%20Factoring.pdf OTHER techniques.  The recipe we gave in is very handy for factoring, but only works when the constant term is positive. Let's do a short exploration to develop a strategy for factoring when the constant term is negative.   When we expand we get . In the factored version, the numbers after the minus sign and the plus sign are and . (Note, by saying the number after the minus sign, we mean to intentionally not include the minus sign itself.) The difference between and is , which is the number after the first minus sign in .    When we expand we get . In the factored version, the numbers after the minus sign and plus sign are and again, just as they were i nthe previous exploration. The difference between and is , which is the number after the first plus sign in .   In both and , the minus in front of means that the signs in the middle of the factors for the factorization of both of these quadratics must include one minus sign and one plus sign. In both factorizations, we saw the numbers and appear, and their difference is , which appears to be connected to the linear coefficient of either or , depending on which quadratic expression we look at.   In the case of , this negative linear coefficient in front of came from collecting the like terms in , and for the to occur, the factorization required the to appear after the minus sign and the to appear after the plus sign. (To say this in the form of a shortcut, because the linear coefficient was negative, we needed more negative than positive .)    In the case of , the positive linear coefficient in front of came from collecting like terms in , which can only occur if the factorization has the appearing after the minus sign and the appearing before the minus sign. In short, to get the linear coefficient to be positive, we needed more positive than negative when we collect like terms.   This creates for us an overall strategy to factor a quadratic when the quadratic coefficient is (often a hidden ) and the constant term is negative.   Factoring a quadratic trinomial with a negative constant term  To factor or with a negative constant term, the signs contained in both binomials will be different. In other words, one set of parentheses will have a plus sign, and the other will have a minus sign. Find two numbers whose product is and whose difference is .   If the linear coefficient is positive, place the bigger number after the plus sign and the smaller number after the minus sign.    If the linear coefficient is negative, place the bigger number after the minus sign and the smaller number after the plus sign.        Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is positive, we place the bigger number after the plus sign and the smaller number after the minus sign.       Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is negative, we place the bigger number after the minus sign and the smaller number after the plus sign.     When factoring quadratics where the quadratic coefficient is , we are looking for two numbers to create a certain product, and in addition, the two nummbers need to create a certain sum or a certain difference. (We are looking for a sum when the constant term is positive, and a difference when the constant term is negative.)    For each quadratic below, notice the quadratic coefficient is . Based on the linear and constant terms, identify what we need to look for to factor each expression. (If you wish to practice by factoring, feel free to do so! However, this question is intentionally worded to get us practicing how to ask the right questions!)               To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is negative (namely ), of the two numbers we find, the bigger number goes after the minus sign.        Special cases  We will look at a continuation of what we saw before, but there are some problems which may be viewed as their own special cases, or can just fit into the general theory we just saw -- your choice!    Factor     We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is     The special situation here is that the two numbers we found happen to be the same number twice.     .    We can check that this formula is true by taking and recalling what squaring means: We note that earlier in , we were told doesn't turn into (just with different variables). While that earlier warning focused on what we can't do, the formula just shown focuses on what we can do in this situation.    Factor .    We can apply earlier principles to find two numbers whose product is and whose sum is . These numbers are and , so and we can optionally rewrite this as .    To apply , we identify and . Then,        .    We can check that this formula is true by taking and recalling what squaring means:     Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,       Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,        .    To verify this formula, we can expand the right side:     Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . The fact that the difference is zero means that we need the same number twice (since a number minus itself is zero). Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,       Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,     Recall that we can always check our factoring by distributing and collecting like terms. In fact, practicing this as a habit lets us see why all the strategies we have presented work in the first place, and also helps build our intuition to be able to factor in future problems.    Additional factoring techniques  Geometric technique: https:\/\/www.youtube.com\/watch?v=hMFVbo1QKPs  Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Factoring and Expansion    In this section, we learn how to:    Expand products of binomials.  Factor expressions into products of binomials     Expansion  In this section, we will look at products of binomials , which are expressions of the format . As before, a product means the result of multiplication, and that multiplication happens between the value of and the vaule of . By binomial , we mean is a binomial, and is a binomial. We start with expansion, where we turn this product of binomials into an expression of the format , known as a trinomial . Because the highest power is a , we note that is a quadratic . In , we will call the quadratic coefficient , call the linear coefficient , and call the constant term . For example, in , the quadratic coefficient is , the linear coefficient is , and the constant term is .  We will start with where both and are the variable . This will lead to the quadratic coefficient in always being . In these all such examples, we will start with expressions of the form , but then look at the expansion , comparing the expansions from several examples to see if there are any patterns. Spoiler alert: some of the patterns can be come about from examining which coefficients in are positive and which coefficients are negative.  Let's take our initial Distributive Law , for the sake of clarity, temporarily replace the letters and , and with and and instead. It is technically the same formula to have but in this version of the Distributive Law, we will subsitute and and to get Note that in the equation above, the left side is instead of due to the Order of Operations: we really needed the value of , which is , to be multiplied by . Due to the fact that the Order of Operations says to do multiplication before addition, we need to use parentheses to protect the value of , since it is the value of that needs to be multiplied by .  On the right side of the equation above, we have , and we can apply the Distributive Law to rewrite as , and rewrite as . Putting all the pieces together, we have    Expanding the Product of Two Binomials        Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.   Recall from that addition can be represented by gluing sticks together, and from that multiplication can be represented by area of a rectangle. So we can represent through the following diagram:  Picture of     Note the figure is not to scale. Lengths of sides are labeled right next to the side. Areas of rectangles are written in the middle of each rectangle.    Expand and simplify .    We can use with and and and to get      Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.   We can represent through the following diagram:  Picture of     Like before, the figure is not to scale.    Expand and simplify .         We can represent through the following diagram:  Picture of        Given the expression this is not . For more information, see .     Expand and simplify .         We can represent through the following diagram:  Picture of         INSERT preview to factor by grouping             Whether you choose to use this version directly or think via is a matter of personal choice. Let's demonstrate the two ways to think about this through an example.    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)   We can represent through the following diagram:  Picture of     It definitely feels a little strange to label the length of a stick by a negative number, but everything still works: Vertically, we have . Horizontally, we have . The four small rectangles are labeled with their areas, namely, and and and   Before moving on to another example, we note it is a matter of personal taste whether there really was a need to introduce a separate formula as . You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of .    Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,      In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).   We can represent through the following diagram:  Picture of         Expand and simplify .         We can represent through the following diagram:  Picture of         Expand and simplify .         We can represent through the following diagram:  Picture of       We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.                      Expand and simplify .    We can use the first formula in with and and and to get      For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .   We can represent through the following diagram:  Picture of     The vertical length is and the horizontal length is . The four small rectangles are labeled with their areas, namely, and and and     Expand and simplify .    We can use the second formula in with and and and to get      As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .   We can represent through the following diagram:  Picture of     The vertical length is and the horizontal length is . The four small rectangles are labeled with their areas, namely, and and and     Expand and simplify .     .    We can represent through the following diagram:  Picture of         Expand and simplify .     .     We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.   We can represent through the following diagram:  Picture of         Factoring  Our goal here is to take a trinomial in the format of such as and and factor this, producing a product of binomials. There are various techniques, and it is advisable to understand every techinque introduced, not just one technique. We will point out the connections between the techniques: that is, we point out what questions get asked in various ways but actually require us to do the same thinking. Some of the factoring techniques are ideal in certain situations, while some of the techniques work in more general settings.  We start with the situation where . That is, we will focus on factoring a quadratic like a little later, since the quadratic coefficient , and for now instead focus on a quadratic such as , where the quadratic coefficient , seen more clearly when rewritten as . We mentioned that some techniques only work in certain situations. To be specific, some of the techniques that we'll see only apply when . Let's start digging into techniques. It is helpful to see what happens based on whether the constant term is positive or negative.     Compare the examples in the previous portion on expansion. What patterns do you notice about the constant term in the final expression ?       Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is positive (namely ), the two binomials will have the same sign.      Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is negative (namely ), the two binomials will have opposite signs.     Factoring a quadratic trinomial into a product of binomials  Suppose we are given with , meaning we have . To factor as the product of binomials:   If the costant term is positive, then the signs contained in both binomials match.    If the costant term is negative, then the signs contained in both binomials differ.      Now, let's dig in further to see what happens when the constant term is postive. First, let's note that when we have the consstant term positive, then the two binomials have to have the same sign, meaning that both signs are positive or both signs are negative. But now, we can see two situations: the linear term can be positive or negative. For example, we can have or we can have .  It seems like a reasonable guess (and we'll check if it works) that if we have a term, that the matching sign in both binomials is a plus, while if we have a term, then the matching sign in both binomials is a minus.  Let's dig in to see if we can find the missing values in To match the notation earlier, let's fill in these blanks with and . That is, let's find the and in by expanding the left side: Now, the middle two terms and are like terms, and we can collect like terms here, though what we'll really do is apply and factor out for the middle two terms: The last term on the left has no , so this must be what matches up with on the right. The linear coefficient (the number in front of ) on the left is and on the right is . This combination of things tells us what we need. The two numbers we need to find (called and here) need to multiply to and need to add to . Those two numbers are and so we can factor as either or These are essentially the same (just switching the order of the factors), and we can check our factoring by expanding. Earlier, we found the two numbers which multiply to and add to . Here is a systematic way that we can do that: list pairs of numbers whose product is :  and  and  and  To be systematic, we started with the smallest whole number as a factor, and kept working our way up. Then, look through the list to see which pair of numbers adds up to . In this case, it happens to be and .  For , we'll need minus signs inside both binomials. That is, our set up looks like: Now, the minus signs are already drawn in, so we just need to fill in numbers after the minus signs. Based on the and the number after the minus sign but before the being , we are again looking for two numbers whose product is and whose sum is , and these are again and , which fill in the two blanks: or alternately, It is always a little more confusing to describe, which is why we are using the following language: in we have already written in the minus signs, so we just need to include write after the minus signs the two positive numbers that add to and multiply to .   Factoring a quadratic trinomial with a positive constant term  To factor with constant term , the signs contained in both binomials are the same. Are both signs positive or both signs negative?   If the linear coefficient is positive, then the signs contained in both binomials are plus signs.  In this template we need to fill the blanks with positive numbers that multiply to and add to .    If the linear coefficient is negative, then the signs contained in both binomials are minus signs.  In this template the minus signs are already drawn in the factoring, and we need to fill the blanks with positive numbers that multiply to and add to .        Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . To do this, we can list pairs of numbers whose product is :  and  and  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .     When the task is to factor, just factor. Do not factor followed by setting the expression equal to zero. There is a process we will see later where factoring is the first step.  In the previous question, we are just asked to factor the expression  . In a future section, we will be asked to solve the equation  , and in that situation, one way to do this is to factor the left side, leading to the equation , and then split this into the two equations or , then solve each of the smaller equations: or .  But for now, we are just factoring the expression.     Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . (We are looking at because the absolute value of is .) We list the pairs of numbers whose product is :  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .      Factor .    Since the constant term is positive, and the linear coefficient is negative, our set up for factoring is The blanks must be filled with positive numbers that multiply to and add to . (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer. The blanks themselves need to be filled with positive numbers.) We list the pairs of numbers whose product is :  and  and  Then, look through the list to see which pair of numbers adds up to . These are and so our factorization is .    We can check our work. Starting with our factorization,     Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . We list the pairs of numbers whose product is :  and  and  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .    We can check our work. Starting with our factorization,   We introduce a technique that is known as the Diamond Method, starting with a version that applies when .   To factor , draw the following diagram:  Initial diamond figure     The remaining two spaces (on the left and right) need to be filled with two numbers that multiply to the number at the top of the diamond, and add to at the bottom of the diamond. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to . In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers themselves that are written in the left and the right of the diamond figure may be negative.   Before practicing this technique on examples, we introduce one more technique (though this really is displaying the same information in a different visual format). This technique practices the geometric interpretations of addition and multiplication.   Recall from that addition can be represented by gluing sticks together, and from that multiplication can be represented by area of a rectangle. To factor , draw a rectangle and divide it into four smaller rectangles. Label the first side vertically and the first side horizontally with . Label the top left rectangle with and the bottom right rectangle with . The second side vertically and the second side horizontally need to be filled in with numbers so that the two numbers multiply to and the two unlabeled areas add up to .  Initial area model figure     In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to .   Let's revisit with these two new techniques.    Factor .    We are looking to fill in the two empty spaces in:  Initial diamond figure     The two numbers must multiply to and add to . We list the pairs of numbers whose product is :    and      and      and      and    Then, look through the list to see which pair of numbers adds up to . These are and , so we can fill in the diamond figure as follows:  Completed diamond figure     Thus     We are looking to fill in the two empty sides in:  Initial area model figure     The two unlabeled rectangles must have areas that multiply to and add to ..... The two numbers must multiply to and add to . We list the pairs of numbers whose product is :    and      and      and      and    Then, look through the list to see which pair of numbers adds up to . These are and , so we can fill in the area model figure as follows:  Completed area model figure         https:\/\/www.hancockcollege.edu\/mathcenter\/documents\/Diamond%20Method%20of%20Factoring.pdf OTHER techniques.  The recipe we gave in is very handy for factoring, but only works when the constant term is positive. Let's do a short exploration to develop a strategy for factoring when the constant term is negative.   When we expand we get . In the factored version, the numbers after the minus sign and the plus sign are and . (Note, by saying the number after the minus sign, we mean to intentionally not include the minus sign itself.) The difference between and is , which is the number after the first minus sign in .    When we expand we get . In the factored version, the numbers after the minus sign and plus sign are and again, just as they were i nthe previous exploration. The difference between and is , which is the number after the first plus sign in .   In both and , the minus in front of means that the signs in the middle of the factors for the factorization of both of these quadratics must include one minus sign and one plus sign. In both factorizations, we saw the numbers and appear, and their difference is , which appears to be connected to the linear coefficient of either or , depending on which quadratic expression we look at.   In the case of , this negative linear coefficient in front of came from collecting the like terms in , and for the to occur, the factorization required the to appear after the minus sign and the to appear after the plus sign. (To say this in the form of a shortcut, because the linear coefficient was negative, we needed more negative than positive .)    In the case of , the positive linear coefficient in front of came from collecting like terms in , which can only occur if the factorization has the appearing after the minus sign and the appearing before the minus sign. In short, to get the linear coefficient to be positive, we needed more positive than negative when we collect like terms.   This creates for us an overall strategy to factor a quadratic when the quadratic coefficient is (often a hidden ) and the constant term is negative.   Factoring a quadratic trinomial with a negative constant term  To factor or with a negative constant term, the signs contained in both binomials will be different. In other words, one set of parentheses will have a plus sign, and the other will have a minus sign. Find two numbers whose product is and whose difference is .   If the linear coefficient is positive, place the bigger number after the plus sign and the smaller number after the minus sign.    If the linear coefficient is negative, place the bigger number after the minus sign and the smaller number after the plus sign.        Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is positive, we place the bigger number after the plus sign and the smaller number after the minus sign.       Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is negative, we place the bigger number after the minus sign and the smaller number after the plus sign.     When factoring quadratics where the quadratic coefficient is , we are looking for two numbers to create a certain product, and in addition, the two nummbers need to create a certain sum or a certain difference. (We are looking for a sum when the constant term is positive, and a difference when the constant term is negative.)    For each quadratic below, notice the quadratic coefficient is . Based on the linear and constant terms, identify what we need to look for to factor each expression. (If you wish to practice by factoring, feel free to do so! However, this question is intentionally worded to get us practicing how to ask the right questions!)               To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is negative (namely ), of the two numbers we find, the bigger number goes after the minus sign.        Special cases  We will look at a continuation of what we saw before, but there are some problems which may be viewed as their own special cases, or can just fit into the general theory we just saw -- your choice!    Factor     We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is     The special situation here is that the two numbers we found happen to be the same number twice.     .    We can check that this formula is true by taking and recalling what squaring means: We note that earlier in , we were told doesn't turn into (just with different variables). While that earlier warning focused on what we can't do, the formula just shown focuses on what we can do in this situation.    Factor .    We can apply earlier principles to find two numbers whose product is and whose sum is . These numbers are and , so and we can optionally rewrite this as .    To apply , we identify and . Then,        .    We can check that this formula is true by taking and recalling what squaring means:     Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,       Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,        .    To verify this formula, we can expand the right side:     Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . The fact that the difference is zero means that we need the same number twice (since a number minus itself is zero). Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,       Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,     Recall that we can always check our factoring by distributing and collecting like terms. In fact, practicing this as a habit lets us see why all the strategies we have presented work in the first place, and also helps build our intuition to be able to factor in future problems.    Additional factoring techniques  Geometric technique: https:\/\/www.youtube.com\/watch?v=hMFVbo1QKPs  Factor by grouping   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference       Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-factoring-and-expansion-2",
@@ -3529,22 +3529,22 @@ var ptx_lunr_docs = [
   "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.  "
 },
 {
-  "id": "sec-factoring-and-expansion-3-9",
+  "id": "sec-factoring-and-expansion-3-9-4",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-9",
-  "type": "Example",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-9-4",
+  "type": "Figure",
   "number": "1.6.4",
   "title": "",
-  "body": "  Expand and simplify .    We can use with and and and to get    "
+  "body": " Picture of     "
 },
 {
-  "id": "sec-factoring-and-expansion-3-10-4",
+  "id": "sec-factoring-and-expansion-3-10",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-10-4",
-  "type": "Figure",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-10",
+  "type": "Example",
   "number": "1.6.5",
   "title": "",
-  "body": " Picture of     "
+  "body": "  Expand and simplify .    We can use with and and and to get    "
 },
 {
   "id": "sec-factoring-and-expansion-3-11",
@@ -3556,38 +3556,65 @@ var ptx_lunr_docs = [
   "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression.  "
 },
 {
-  "id": "sec-factoring-and-expansion-3-12",
+  "id": "sec-factoring-and-expansion-3-12-2",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-12",
-  "type": "Example",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-12-2",
+  "type": "Figure",
   "number": "1.6.7",
   "title": "",
-  "body": "  Expand and simplify .        "
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-3-13",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-13",
-  "type": "Warning",
+  "type": "Example",
   "number": "1.6.8",
   "title": "",
-  "body": " Given the expression this is not . For more information, see .  "
+  "body": "  Expand and simplify .        "
 },
 {
-  "id": "sec-factoring-and-expansion-3-14",
+  "id": "sec-factoring-and-expansion-3-14-2",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-14",
-  "type": "Example",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-14-2",
+  "type": "Figure",
   "number": "1.6.9",
   "title": "",
-  "body": "  Expand and simplify .        "
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-3-15",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-15",
-  "type": "Example",
+  "type": "Warning",
   "number": "1.6.10",
+  "title": "",
+  "body": " Given the expression this is not . For more information, see .  "
+},
+{
+  "id": "sec-factoring-and-expansion-3-16",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-16",
+  "type": "Example",
+  "number": "1.6.11",
+  "title": "",
+  "body": "  Expand and simplify .        "
+},
+{
+  "id": "sec-factoring-and-expansion-3-17-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-17-2",
+  "type": "Figure",
+  "number": "1.6.12",
+  "title": "",
+  "body": " Picture of     "
+},
+{
+  "id": "sec-factoring-and-expansion-3-18",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-18",
+  "type": "Example",
+  "number": "1.6.13",
   "title": "",
   "body": "  INSERT preview to factor by grouping     "
 },
@@ -3596,34 +3623,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#FOIL2",
   "type": "Principle",
-  "number": "1.6.11",
+  "number": "1.6.14",
   "title": "",
   "body": "      "
-},
-{
-  "id": "sec-factoring-and-expansion-3-18",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-18",
-  "type": "Example",
-  "number": "1.6.12",
-  "title": "",
-  "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
-},
-{
-  "id": "sec-factoring-and-expansion-3-19",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-19",
-  "type": "Note",
-  "number": "1.6.13",
-  "title": "",
-  "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)  "
 },
 {
   "id": "sec-factoring-and-expansion-3-21",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-21",
   "type": "Example",
-  "number": "1.6.14",
+  "number": "1.6.15",
   "title": "",
   "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
 },
@@ -3632,106 +3641,196 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-22",
   "type": "Note",
-  "number": "1.6.15",
-  "title": "",
-  "body": " In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).  "
-},
-{
-  "id": "sec-factoring-and-expansion-3-23",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-23",
-  "type": "Example",
   "number": "1.6.16",
   "title": "",
-  "body": "  Expand and simplify .   "
+  "body": " Because it will be very useful later, we examine the final expression identifying that it is in the form will need us to first slightly rewrite the final expression as . by noting the quadratic coefficient is , the linear coefficient , and the constant term is . It is very important to note that the linear coefficient is the sum of the numbers and in the original expression, while the constant term is the product of the numbers and in the original expression. (While we noted we can also note .)  "
+},
+{
+  "id": "sec-factoring-and-expansion-3-23-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-23-2",
+  "type": "Figure",
+  "number": "1.6.17",
+  "title": "",
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-3-25",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-25",
   "type": "Example",
-  "number": "1.6.17",
-  "title": "",
-  "body": "  Expand and simplify .        "
-},
-{
-  "id": "principle-FOIL3",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#principle-FOIL3",
-  "type": "Principle",
   "number": "1.6.18",
   "title": "",
-  "body": "                 "
+  "body": "  Expand and simplify     The given expression fits the format of the left side in with and and and . In doing these identifications, the confusion may be why the stating of and do not have minus signs, but this is because the format of already includes minus signs. Then, by ,     We can rewrite the expression because fits the format of the left side in . In this format, , and should consist of content right after the first plus sign, so . Similarly, , and should be all the content after the second plus sign, so . Then by ,    "
+},
+{
+  "id": "sec-factoring-and-expansion-3-26",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-26",
+  "type": "Note",
+  "number": "1.6.19",
+  "title": "",
+  "body": " In , we can rewrite the final expression as , which has linear coefficient and constant term . Note that the constant is the product of the numbers and in the original expression (or we can point out that the product of the numbers after the minus signs, namely and multiply to ). Thus the linear coefficient is the sum of the numbers and , (or we can point out that the numbers after the minus signs and add to , the number after the minus sign in ).  "
+},
+{
+  "id": "sec-factoring-and-expansion-3-27-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-27-2",
+  "type": "Figure",
+  "number": "1.6.20",
+  "title": "",
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-3-28",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-28",
   "type": "Example",
-  "number": "1.6.19",
-  "title": "",
-  "body": "  Expand and simplify .    We can use the first formula in with and and and to get    "
-},
-{
-  "id": "sec-factoring-and-expansion-3-29",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-29",
-  "type": "Note",
-  "number": "1.6.20",
-  "title": "",
-  "body": " For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .  "
-},
-{
-  "id": "sec-factoring-and-expansion-3-30",
-  "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-30",
-  "type": "Example",
   "number": "1.6.21",
   "title": "",
-  "body": "  Expand and simplify .    We can use the second formula in with and and and to get    "
+  "body": "  Expand and simplify .   "
+},
+{
+  "id": "sec-factoring-and-expansion-3-30-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-30-2",
+  "type": "Figure",
+  "number": "1.6.22",
+  "title": "",
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-3-31",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-31",
+  "type": "Example",
+  "number": "1.6.23",
+  "title": "",
+  "body": "  Expand and simplify .        "
+},
+{
+  "id": "sec-factoring-and-expansion-3-32-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-32-2",
+  "type": "Figure",
+  "number": "1.6.24",
+  "title": "",
+  "body": " Picture of     "
+},
+{
+  "id": "principle-FOIL3",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#principle-FOIL3",
+  "type": "Principle",
+  "number": "1.6.25",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "sec-factoring-and-expansion-3-35",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-35",
+  "type": "Example",
+  "number": "1.6.26",
+  "title": "",
+  "body": "  Expand and simplify .    We can use the first formula in with and and and to get    "
+},
+{
+  "id": "sec-factoring-and-expansion-3-36",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-36",
   "type": "Note",
-  "number": "1.6.22",
+  "number": "1.6.27",
+  "title": "",
+  "body": " For the first time in this section, we end with a quadratic expression where the constant term is negative. This happened because we multiplied with . Recall the product of a real numbers with opposite signs results in a negative number. In the original expression, let's examine the and the which appear after the plus sign and the minus sign. The difference between these numbers is , and note the linear coefficient was .  "
+},
+{
+  "id": "sec-factoring-and-expansion-3-37-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-37-2",
+  "type": "Figure",
+  "number": "1.6.28",
+  "title": "",
+  "body": " Picture of     "
+},
+{
+  "id": "sec-factoring-and-expansion-3-38",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-38",
+  "type": "Example",
+  "number": "1.6.29",
+  "title": "",
+  "body": "  Expand and simplify .    We can use the second formula in with and and and to get    "
+},
+{
+  "id": "sec-factoring-and-expansion-3-39",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-39",
+  "type": "Note",
+  "number": "1.6.30",
   "title": "",
   "body": " As in our previous example, the final expression has a negative constant term, for the same reason as earlier: this was the result of multiplying a negative number (namely ) together with a positive number (namely ). The opposite of the linear coefficient is , and that is the difference between the numbers and in the original expression. When we subtract and in a certain order, we get .  "
 },
 {
-  "id": "sec-factoring-and-expansion-3-32",
+  "id": "sec-factoring-and-expansion-3-40-2",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-32",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-40-2",
+  "type": "Figure",
+  "number": "1.6.31",
+  "title": "",
+  "body": " Picture of     "
+},
+{
+  "id": "sec-factoring-and-expansion-3-41",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-41",
   "type": "Example",
-  "number": "1.6.23",
+  "number": "1.6.32",
   "title": "",
   "body": "  Expand and simplify .     .   "
 },
 {
-  "id": "sec-factoring-and-expansion-3-33",
+  "id": "sec-factoring-and-expansion-3-42-2",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-33",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-42-2",
+  "type": "Figure",
+  "number": "1.6.33",
+  "title": "",
+  "body": " Picture of     "
+},
+{
+  "id": "sec-factoring-and-expansion-3-43",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-43",
   "type": "Example",
-  "number": "1.6.24",
+  "number": "1.6.34",
   "title": "",
   "body": "  Expand and simplify .     .   "
 },
 {
-  "id": "sec-factoring-and-expansion-3-34",
+  "id": "sec-factoring-and-expansion-3-44",
   "level": "2",
-  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-34",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-44",
   "type": "Note",
-  "number": "1.6.25",
+  "number": "1.6.35",
   "title": "",
   "body": " We have been looking at expanding and simplifying the product of binomials. Typically in these questions, the expansion creates four terms and then collecting of like terms leads to a total of three terms. In this case, we only have two terms in because the middle terms simplified to zero.  "
+},
+{
+  "id": "sec-factoring-and-expansion-3-45-2",
+  "level": "2",
+  "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-3-45-2",
+  "type": "Figure",
+  "number": "1.6.36",
+  "title": "",
+  "body": " Picture of     "
 },
 {
   "id": "sec-factoring-and-expansion-4-4",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-4",
   "type": "Try it",
-  "number": "1.6.26",
+  "number": "1.6.37",
   "title": "",
   "body": "  Compare the examples in the previous portion on expansion. What patterns do you notice about the constant term in the final expression ?    "
 },
@@ -3740,7 +3839,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-5",
   "type": "Example",
-  "number": "1.6.27",
+  "number": "1.6.38",
   "title": "",
   "body": "  Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is positive (namely ), the two binomials will have the same sign.   "
 },
@@ -3749,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-6",
   "type": "Example",
-  "number": "1.6.28",
+  "number": "1.6.39",
   "title": "",
   "body": "  Will the two binomials in the factored form of have the same sign or opposite signs?    Because the constant term is negative (namely ), the two binomials will have opposite signs.   "
 },
@@ -3758,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#information-from-sign-of-constant-term",
   "type": "Strategy",
-  "number": "1.6.29",
+  "number": "1.6.40",
   "title": "Factoring a quadratic trinomial into a product of binomials.",
   "body": " Factoring a quadratic trinomial into a product of binomials  Suppose we are given with , meaning we have . To factor as the product of binomials:   If the costant term is positive, then the signs contained in both binomials match.    If the costant term is negative, then the signs contained in both binomials differ.     "
 },
@@ -3767,7 +3866,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#factor-positive-constant",
   "type": "Strategy",
-  "number": "1.6.30",
+  "number": "1.6.41",
   "title": "Factoring a quadratic trinomial with a positive constant term.",
   "body": " Factoring a quadratic trinomial with a positive constant term  To factor with constant term , the signs contained in both binomials are the same. Are both signs positive or both signs negative?   If the linear coefficient is positive, then the signs contained in both binomials are plus signs.  In this template we need to fill the blanks with positive numbers that multiply to and add to .    If the linear coefficient is negative, then the signs contained in both binomials are minus signs.  In this template the minus signs are already drawn in the factoring, and we need to fill the blanks with positive numbers that multiply to and add to .     "
 },
@@ -3776,16 +3875,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#factor-x2-plus-11x-plus-24",
   "type": "Example",
-  "number": "1.6.31",
+  "number": "1.6.42",
   "title": "",
-  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . These are and , in either order, so we can factor as .   "
+  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . To do this, we can list pairs of numbers whose product is :  and  and  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .   "
 },
 {
   "id": "sec-factoring-and-expansion-4-14",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-14",
   "type": "Warning",
-  "number": "1.6.32",
+  "number": "1.6.43",
   "title": "",
   "body": " When the task is to factor, just factor. Do not factor followed by setting the expression equal to zero. There is a process we will see later where factoring is the first step.  In the previous question, we are just asked to factor the expression  . In a future section, we will be asked to solve the equation  , and in that situation, one way to do this is to factor the left side, leading to the equation , and then split this into the two equations or , then solve each of the smaller equations: or .  But for now, we are just factoring the expression.  "
 },
@@ -3794,34 +3893,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-15",
   "type": "Example",
-  "number": "1.6.33",
+  "number": "1.6.44",
   "title": "",
-  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . (We are looking at because the absolute value of is .) These are and , in either order, so we can factor as .   "
+  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . (We are looking at because the absolute value of is .) We list the pairs of numbers whose product is :  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .   "
 },
 {
   "id": "sec-factoring-and-expansion-4-16",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-16",
   "type": "Example",
-  "number": "1.6.34",
+  "number": "1.6.45",
   "title": "",
-  "body": "  Factor .    Since the constant term is positive, and the linear coefficient is negative, our set up for factoring is The blanks must be filled with positive numbers that multiply to and add to . (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer. The blanks themselves need to be filled with positive numbers.) These are and so our factorization is .   "
+  "body": "  Factor .    Since the constant term is positive, and the linear coefficient is negative, our set up for factoring is The blanks must be filled with positive numbers that multiply to and add to . (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer. The blanks themselves need to be filled with positive numbers.) We list the pairs of numbers whose product is :  and  and  Then, look through the list to see which pair of numbers adds up to . These are and so our factorization is .   "
 },
 {
   "id": "sec-factoring-and-expansion-4-18",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-18",
   "type": "Example",
-  "number": "1.6.35",
+  "number": "1.6.46",
   "title": "",
-  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . These are and , in either order, so we can factor as .   "
+  "body": "  Factor .    Because we have a quadratic trinomial with positive constant term and we are being asked to factor, applies. We are looking for two numbers to fill in the blanks in Examining the constant term and the linear coefficient , the two blanks must be filled with positive numbers that multiply to and add to . We list the pairs of numbers whose product is :  and  and  and  and  Then, look through the list to see which pair of numbers adds up to . These are and , in either order, so we can factor as .   "
 },
 {
   "id": "sec-factoring-and-expansion-4-21",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-21",
   "type": "Strategy",
-  "number": "1.6.36",
+  "number": "1.6.47",
   "title": "",
   "body": " To factor , draw the following diagram:  Initial diamond figure     The remaining two spaces (on the left and right) need to be filled with two numbers that multiply to the number at the top of the diamond, and add to at the bottom of the diamond. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to . In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers themselves that are written in the left and the right of the diamond figure may be negative.  "
 },
@@ -3830,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-23",
   "type": "Strategy",
-  "number": "1.6.38",
+  "number": "1.6.49",
   "title": "",
   "body": " Recall from that addition can be represented by gluing sticks together, and from that multiplication can be represented by area of a rectangle. To factor , draw a rectangle and divide it into four smaller rectangles. Label the first side vertically and the first side horizontally with . Label the top left rectangle with and the bottom right rectangle with . The second side vertically and the second side horizontally need to be filled in with numbers so that the two numbers multiply to and the two unlabeled areas add up to .  Initial area model figure     In , any minus signs were accounted in the structure by writing or thus the previous technique only had has think about positive numbers to fill in the blanks, but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative. It is often helpful to write all the factor pairs of , and then go through the list to see which pair of numbers adds to .  "
 },
@@ -3839,16 +3938,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-25",
   "type": "Example",
-  "number": "1.6.40",
+  "number": "1.6.51",
   "title": "",
-  "body": "  Factor .    We are looking to fill in the two empty spaces in:  Initial diamond figure     The two numbers must multiply to and add to .   "
+  "body": "  Factor .    We are looking to fill in the two empty spaces in:  Initial diamond figure     The two numbers must multiply to and add to . We list the pairs of numbers whose product is :    and      and      and      and    Then, look through the list to see which pair of numbers adds up to . These are and , so we can fill in the diamond figure as follows:  Completed diamond figure     Thus     We are looking to fill in the two empty sides in:  Initial area model figure     The two unlabeled rectangles must have areas that multiply to and add to ..... The two numbers must multiply to and add to . We list the pairs of numbers whose product is :    and      and      and      and    Then, look through the list to see which pair of numbers adds up to . These are and , so we can fill in the area model figure as follows:  Completed area model figure        "
 },
 {
   "id": "factor-negative-constant",
   "level": "2",
   "url": "sec-factoring-and-expansion.html#factor-negative-constant",
   "type": "Strategy",
-  "number": "1.6.42",
+  "number": "1.6.56",
   "title": "Factoring a quadratic trinomial with a negative constant term.",
   "body": " Factoring a quadratic trinomial with a negative constant term  To factor or with a negative constant term, the signs contained in both binomials will be different. In other words, one set of parentheses will have a plus sign, and the other will have a minus sign. Find two numbers whose product is and whose difference is .   If the linear coefficient is positive, place the bigger number after the plus sign and the smaller number after the minus sign.    If the linear coefficient is negative, place the bigger number after the minus sign and the smaller number after the plus sign.     "
 },
@@ -3857,7 +3956,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-29",
   "type": "Example",
-  "number": "1.6.43",
+  "number": "1.6.57",
   "title": "",
   "body": "  Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is positive, we place the bigger number after the plus sign and the smaller number after the minus sign.    "
 },
@@ -3866,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-30",
   "type": "Example",
-  "number": "1.6.44",
+  "number": "1.6.58",
   "title": "",
   "body": "  Factor .    We need to find two numbers that whose product is and whose difference is . These numbers are and . Because the linear coefficient is negative, we place the bigger number after the minus sign and the smaller number after the plus sign.    "
 },
@@ -3875,7 +3974,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-4-32",
   "type": "Example",
-  "number": "1.6.45",
+  "number": "1.6.59",
   "title": "",
   "body": "  For each quadratic below, notice the quadratic coefficient is . Based on the linear and constant terms, identify what we need to look for to factor each expression. (If you wish to practice by factoring, feel free to do so! However, this question is intentionally worded to get us practicing how to ask the right questions!)               To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose sum is . The positive constant term told us we need a sum. The positive constant term also tells us the factorization has the same sign twice, and the positive linear coefficient (namely ) tells us both signs positive.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is positive (namely ), of the two numbers we find, the bigger number goes after the plus sign.    To factor , find two numbers whose product is and whose difference is . The negative constant term told us we need a difference. The negative constant term also tells us the factorization has one sign positive and one sign negative. Because the linear coefficient is negative (namely ), of the two numbers we find, the bigger number goes after the minus sign.     "
 },
@@ -3884,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-3",
   "type": "Example",
-  "number": "1.6.46",
+  "number": "1.6.60",
   "title": "",
   "body": "  Factor     We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is    "
 },
@@ -3893,7 +3992,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#principle-perfect-square-trinomial-plus",
   "type": "Principle",
-  "number": "1.6.47",
+  "number": "1.6.61",
   "title": "",
   "body": "   .   "
 },
@@ -3902,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-7",
   "type": "Example",
-  "number": "1.6.48",
+  "number": "1.6.62",
   "title": "",
   "body": "  Factor .    We can apply earlier principles to find two numbers whose product is and whose sum is . These numbers are and , so and we can optionally rewrite this as .    To apply , we identify and . Then,    "
 },
@@ -3911,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#principle-perfect-square-trinomial-minus",
   "type": "Principle",
-  "number": "1.6.49",
+  "number": "1.6.63",
   "title": "",
   "body": "   .   "
 },
@@ -3920,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-10",
   "type": "Example",
-  "number": "1.6.50",
+  "number": "1.6.64",
   "title": "",
   "body": "  Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,    "
 },
@@ -3929,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-11",
   "type": "Example",
-  "number": "1.6.51",
+  "number": "1.6.65",
   "title": "",
   "body": "  Factor .    We are looking for two numbers whose product is and whose sum is . These numbers are and . The factorization is and we can optionally rewrite this as .    To apply , use and . Then,    "
 },
@@ -3938,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#principle-difference-of-squares",
   "type": "Principle",
-  "number": "1.6.52",
+  "number": "1.6.66",
   "title": "",
   "body": "   .   "
 },
@@ -3947,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-14",
   "type": "Example",
-  "number": "1.6.53",
+  "number": "1.6.67",
   "title": "",
   "body": "  Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . The fact that the difference is zero means that we need the same number twice (since a number minus itself is zero). Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,    "
 },
@@ -3956,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-special-cases-15",
   "type": "Example",
-  "number": "1.6.54",
+  "number": "1.6.68",
   "title": "",
   "body": "  Factor .    We can rewrite the given expression as . Based on , we are looking for two numbers whose product is and whose difference is . Those numbers are and , and we place one of these behind a minus sign and the other behind a plus sign:     We can apply using and . Then,    "
 },
@@ -3965,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-4",
   "type": "Principle",
-  "number": "1.6.55",
+  "number": "1.6.69",
   "title": "text.",
   "body": " text  text  "
 },
@@ -3974,7 +4073,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-5",
   "type": "Example",
-  "number": "1.6.56",
+  "number": "1.6.70",
   "title": "",
   "body": "  Statement text    Solution text   "
 },
@@ -3983,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-6",
   "type": "Try it",
-  "number": "1.6.57",
+  "number": "1.6.71",
   "title": "",
   "body": "  Text    "
 },
@@ -3992,7 +4091,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-7",
   "type": "Note",
-  "number": "1.6.58",
+  "number": "1.6.72",
   "title": "",
   "body": " Text  "
 },
@@ -4001,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-9",
   "type": "Warning",
-  "number": "1.6.59",
+  "number": "1.6.73",
   "title": "",
   "body": " text  "
 },
@@ -4019,7 +4118,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-11",
   "type": "Try it",
-  "number": "1.6.60",
+  "number": "1.6.74",
   "title": "",
   "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
 },
@@ -4028,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-12",
   "type": "Definition",
-  "number": "1.6.61",
+  "number": "1.6.75",
   "title": "Argument.",
   "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
 },
@@ -4046,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-14",
   "type": "Example",
-  "number": "1.6.62",
+  "number": "1.6.76",
   "title": "",
   "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
 },
@@ -4055,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#subsec-additional-factoring-techniques-15",
   "type": "Remark",
-  "number": "1.6.63",
+  "number": "1.6.77",
   "title": "",
   "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
 },
@@ -4064,7 +4163,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-factoring-and-expansion.html#sec-factoring-and-expansion-7-3",
   "type": "Example",
-  "number": "1.6.64",
+  "number": "1.6.78",
   "title": "",
   "body": "  Text    Answer   "
 },

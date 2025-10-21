@@ -80,6 +80,35 @@
         while the constant term <m>15</m> is the product of the numbers <m>3</m> and <m>5</m> in the original expression.
       </p>
     </note>
+    <p>
+      Recall from <xref ref="geometric-addition" /> that addition can be represented by gluing sticks together, and from <xref ref="geometric-multiplication" /> that multiplication can be represented by area of a rectangle.
+      So we can represent <m>(x+3)(x+5)=x^2 + 8x + 15</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+3)(x+5) = x^2 + 8x + 15</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$15$};
+                \node at (3, 2.25) {$5x$};
+                \node at (1,0.75) {$3x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$3$};
+                \node at (3,3.25) {$5$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      Note the figure is not to scale.
+      Lengths of sides are labeled right next to the side.
+      Areas of rectangles are written in the middle of each rectangle.
+    </p>
 
     <example>
       <statement>
@@ -94,9 +123,17 @@
         </p>
       </solution>
     </example>
+    <note>
+      <p>
+        Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
+        identifying that it is in the form <m>Ax^2+Bx+C</m>
+        by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=14</m>, and the constant term is <m>C=40</m>.
+        It is very important to note that the linear coefficient <m>14</m> is the sum of the numbers <m>4</m> and <m>10</m> in the original expression,
+        while the constant term <m>40</m> is the product of the numbers <m>4</m> and <m>10</m> in the original expression.
+      </p>
+    </note>
     <p>
-      Recall from <xref ref="geometric-addition" /> that addition can be represented by gluing sticks together, and from <xref ref="geometric-multiplication" /> that multiplication can be represented by area of a rectangle.
-      So we can represent <m>(x+4)(x+10)=x^2 + 10x +4x + 40 = x^2 + 14x + 40</m> through the following diagram:
+      We can represent <m>(x+4)(x+10)=x^2 + 10x +4x + 40 = x^2 + 14x + 40</m> through the following diagram:
       <figure>
         <caption>Picture of <m>(x+4)(x+10) = x^2 + 10x + 4x + 40</m></caption>
         <image width="25%">
@@ -108,6 +145,8 @@
                 \draw (0,1.5) -- (4,1.5);
                 \node at (1,2.25) {$x^2$};
                 \node at (3,0.75) {$40$};
+                \node at (3, 2.25) {$10x$};
+                \node at (1,0.75) {$4x$};
                 \node at (-.5,2.25) {$x$};
                 \node at (1,3.25) {$x$};
                 \node at (-.5,0.75) {$4$};
@@ -117,17 +156,8 @@
           </latex-image>
         </image>
       </figure>
+      Like before, the figure is not to scale.
     </p>
-
-    <note>
-      <p>
-        Because it will be very useful later, we examine the final expression <m>x^2+14x+40</m>
-        identifying that it is in the form <m>Ax^2+Bx+C</m>
-        by noting the quadratic coefficient is <m>A=1</m>, the linear coefficient <m>B=14</m>, and the constant term is <m>C=40</m>.
-        It is very important to note that the linear coefficient <m>14</m> is the sum of the numbers <m>4</m> and <m>10</m> in the original expression,
-        while the constant term <m>40</m> is the product of the numbers <m>4</m> and <m>10</m> in the original expression.
-      </p>
-    </note>
 
     <example>
       <statement>
@@ -141,7 +171,31 @@
         </p>
       </solution>
     </example>
-
+    <p>
+      We can represent <m>(x+5)(x+5)=x^2 + 5x +5x + 25 = x^2 + 10x + 25</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+5)(x+5) = x^2 + 5x + 5x + 25</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$25$};
+                \node at (3, 2.25) {$5x$};
+                \node at (1,0.75) {$5x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$5$};
+                \node at (3,3.25) {$5$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
     <warning>
       <p>
         Given the expression <m>(x+8)^2</m> this is not <m>x^2+64</m>. For more information, see <xref ref="warning-exponents-dont-distribute" />.
@@ -160,6 +214,31 @@
         </p>
       </solution>
     </example>
+    <p>
+      We can represent <m>(x+8)(x+8)=x^2 + 8x + 8x + 64 = x^2 + 16x + 64</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+8)(x+8) = x^2 + 8x + 8x + 64</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$64$};
+                \node at (3, 2.25) {$8x$};
+                \node at (1,0.75) {$8x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$8$};
+                \node at (3,3.25) {$8$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
 
     <example>
       <statement>
@@ -218,6 +297,38 @@
       </p>
     </note>
     <p>
+      We can represent <m>(x-3)(x-8)= x^2 - 8x - 3x + 24 = x^2 - 11x + 24</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-3)(x-8) = x^2 - 8x - 3x + 24</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$24$};
+                \node at (3, 2.25) {$-8x$};
+                \node at (1,0.75) {$-3x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-3$};
+                \node at (3,3.25) {$-8$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      It definitely feels a little strange to label the length of a stick by a negative number,
+      but everything still works:
+      Vertically, we have <m>x + (-3) = x- 3</m>.
+      Horizontally, we have <m>x + (-8) = x - 8</m>.
+      The four small rectangles are labeled with their areas, namely, 
+      <m>x \cdot x = x^2</m> and <m>x \cdot -8 = -8x</m> and <m>-3 \cdot x = -3x</m> and <m>(-3)(-8) = 24</m>
+    </p>
+
+    <p>
       Before moving on to another example, 
       we note it is a matter of personal taste whether there really was a need to introduce a separate formula as <xref ref="FOIL2" />.
       You may prefer to apply principles such as a negative times a negative results in a positive, without needing to introduce a variant of <xref ref="FOIL1" />.
@@ -255,6 +366,34 @@
         Thus the linear coefficient <m>-10</m> is the sum of the numbers <m>-4</m> and <m>-6</m>, (or we can point out that the numbers after the minus signs <m>4</m> and <m>6</m> add to <m>10</m>, the number after the minus sign in <m>x^2-10x+24</m>).
       </p>
     </note>
+    <p>
+      We can represent <m>(x-4)(x-6)= x^2 - 6x - 4x + 24 = x^2 - 10x + 24</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-4)(x-6) = x^2 - 6x - 4x + 24</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$24$};
+                \node at (3, 2.25) {$-6x$};
+                \node at (1,0.75) {$-4x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-4$};
+                \node at (3,3.25) {$-6$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+
+
+
 
     <example>
       <statement>
@@ -268,6 +407,32 @@
         <m>(x-5)(x-5) = x^2 - 5x - 5x + 25 = x^2 - 10x + 25.</m>
       </p>
     </solution>
+    <p>
+      We can represent <m>(x-5)(x-5)=x^2 - 5x - 5x + 25 = x^2 - 10x + 25</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-5)(x-5) = x^2 - 5x - 5x + 25</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$25$};
+                \node at (3, 2.25) {$-5x$};
+                \node at (1,0.75) {$-5x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-5$};
+                \node at (3,3.25) {$-5$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+
     
     <example>
       <statement>
@@ -281,6 +446,32 @@
         </p>
       </solution>
     </example>
+    <p>
+      We can represent <m>(x-8)(x-8)=x^2 - 8x - 8x + 64 = x^2 - 16x + 64</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-8)(x-8) = x^2 - 8x - 8x + 64</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$64$};
+                \node at (3, 2.25) {$-8x$};
+                \node at (1,0.75) {$-8x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-8$};
+                \node at (3,3.25) {$-8$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+
 
     <p>
       We present two formulas together because they are similar: in each, the left side is a product of two binomials, with one binomial having a plus sign in between, and one binomial having a minus sign in between.
@@ -326,6 +517,34 @@
         The difference between these numbers is <m>5</m>, and note the linear coefficient was <m>5</m>.
       </p>
     </note>
+    <p>
+      We can represent <m>(x+7)(x-2)=x^2 - 2x + 7x - 14 = x^2 + 5x - 14</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+7)(x-2) = x^2 -2x + 7x - 14</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$-14$};
+                \node at (3, 2.25) {$7x$};
+                \node at (1,0.75) {$-2x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$7$};
+                \node at (3,3.25) {$-2$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      The vertical length is <m>x+7</m> and the horizontal length is <m>x+(-2)=x-2</m>.
+      The four small rectangles are labeled with their areas, namely,
+      <m>x \cdot x = x^2</m> and <m>x \cdot -2 = -2x</m> and <m>7 \cdot x = 7x</m> and <m>7 \cdot -2 = -14</m>
+    </p>
 
     <example>
       <statement>
@@ -348,6 +567,35 @@
         When we subtract <m>2</m> and <m>7</m> in a certain order, we get <m>-5</m>.         
       </p>
     </note>
+    <p>
+      We can represent <m>(x-7)(x+2)=x^2 + 2x - 7x - 14 = x^2 - 5x - 14</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-7)(x+2) = x^2 - 5x - 14</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$-14$};
+                \node at (3, 2.25) {$2x$};
+                \node at (1,0.75) {$-7x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-7$};
+                \node at (3,3.25) {$2$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+      The vertical length is <m>x+(-7)=x-7</m> and the horizontal length is <m>x+2</m>.
+      The four small rectangles are labeled with their areas, namely,
+      <m>x \cdot x = x^2</m> and <m>x \cdot -2 = -2x</m> and <m>-7 \cdot x = -7x</m> and <m>-7 \cdot -2 = 14</m>
+    </p>
+
 
     <example>
       <statement>
@@ -361,6 +609,32 @@
         </p>
       </solution>
     </example>
+    <p>
+      We can represent <m>(x-3)(x+10)=x^2 + 10x - 3x - 30 = x^2 + 7x - 30</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x-3)(x+10) = x^2 + 7x - 30</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$-30$};
+                \node at (3, 2.25) {$10x$};
+                \node at (1,0.75) {$-3x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-3$};
+                \node at (3,3.25) {$10$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+    
 
     <example>
       <statement>
@@ -381,6 +655,32 @@
         In this case, we only have two terms in <m>x^2-81</m> because the middle terms <m>-9x+9x</m> simplified to zero.
       </p>
     </note>
+    <p>
+      We can represent <m>(x+9)(x-9)= x^2 + -9x + 9x - 81 = x^2 + 0x - 81 = x^2 - 81</m> through the following diagram:
+      <figure>
+        <caption>Picture of <m>(x+9)(x-9) = x^2 - 81</m></caption>
+        <image width="25%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) rectangle (4,3);
+                \draw (2,0) -- (2,3);
+                \draw (0,1.5) -- (4,1.5);
+                \node at (1,2.25) {$x^2$};
+                \node at (3,0.75) {$-81$};
+                \node at (3, 2.25) {$9x$};
+                \node at (1,0.75) {$-9x$};
+                \node at (-.5,2.25) {$x$};
+                \node at (1,3.25) {$x$};
+                \node at (-.5,0.75) {$-9$};
+                \node at (3,3.25) {$9$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+    </p>
+    
   </subsection>
 
   <subsection>
@@ -489,6 +789,16 @@
       or 
       <me>(x+5)(x+4).</me>
       These are essentially the same (just switching the order of the factors), and we can check our factoring by expanding.
+      Earlier, we found the two numbers which multiply to <m>20</m> and add to <m>9</m>.
+      Here is a systematic way that we can do that: list pairs of numbers whose product is <m>20</m>:
+      <ul>
+        <li><p><m>1</m> and <m>20</m></p></li>
+        <li><p><m>2</m> and <m>10</m></p></li>
+        <li><p><m>4</m> and <m>5</m></p></li>
+      </ul>
+      To be systematic, we started with the smallest whole number as a factor, and kept working our way up.
+      Then, look through the list to see which pair of numbers adds up to <m>9</m>.
+      In this case, it happens to be <m>4</m> and <m>5</m>.
     </p>
 
     <p>
@@ -552,6 +862,14 @@
           <me>(x+\_\_\_)(x+\_\_\_).</me>
           Examining the constant term <m>24</m> and the linear coefficient <m>11</m>,
           the two blanks must be filled with positive numbers that multiply to <m>24</m> and add to <m>11</m>.
+          To do this, we can list pairs of numbers whose product is <m>24</m>:
+          <ul>
+            <li><p><m>1</m> and <m>24</m></p></li>
+            <li><p><m>2</m> and <m>12</m></p></li>
+            <li><p><m>3</m> and <m>8</m></p></li>
+            <li><p><m>4</m> and <m>6</m></p></li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>11</m>.
           These are <m>3</m> and <m>8</m>, in either order, so we can factor <m>x^2+11x+24</m> as
           <me>(x+3)(x+8)</me>.
         </p>
@@ -588,6 +906,12 @@
           Examining the constant term <m>35</m> and the linear coefficient <m>-12</m>,
           the two blanks must be filled with positive numbers that multiply to <m>35</m> and add to <m>12</m>.
           (We are looking at <m>12</m> because the absolute value of <m>-12</m> is <m>12</m>.)
+          We list the pairs of numbers whose product is <m>35</m>:
+          <ul>
+            <li><p><m>1</m> and <m>35</m></p></li>
+            <li><p><m>5</m> and <m>7</m></p></li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>12</m>.
           These are <m>5</m> and <m>7</m>, in either order, so we can factor <m>x^2-12x+35</m> as
           <me>(x-5)(x-7)</me>.
         </p>
@@ -607,6 +931,12 @@
           The blanks must be filled with positive numbers that multiply to <m>15</m> and add to <m>8</m>.
           (Note again, we are looking for positive numbers: the minus signs have already been drawn in, and those minus signs will be included in our final answer.
           The blanks themselves need to be filled with positive numbers.)
+          We list the pairs of numbers whose product is <m>15</m>:
+          <ul>
+            <li><p><m>1</m> and <m>15</m></p></li>
+            <li><p><m>3</m> and <m>5</m></p></li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>8</m>.
           These are <m>3</m> and <m>5</m> so our factorization is
           <me>(x-3)(x-5)</me>.
         </p>
@@ -634,6 +964,14 @@
           <me>(x+\_\_\_)(x+\_\_\_).</me>
           Examining the constant term <m>40</m> and the linear coefficient <m>14</m>,
           the two blanks must be filled with positive numbers that multiply to <m>40</m> and add to <m>14</m>.
+          We list the pairs of numbers whose product is <m>40</m>:
+          <ul>
+            <li><p><m>1</m> and <m>40</m></p></li>
+            <li><p><m>2</m> and <m>20</m></p></li>
+            <li><p><m>4</m> and <m>10</m></p></li>
+            <li><p><m>5</m> and <m>8</m></p></li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>14</m>.
           These are <m>4</m> and <m>10</m>, in either order, so we can factor <m>x^2+14x+40</m> as
           <me>(x+4)(x+10)</me>.
         </p>
@@ -663,6 +1001,8 @@
                   \draw (-1,1) -- (1,-1);
                   \node at (0,.8) {$C$};
                   \node at (0,-.8) {$B$};
+                  \node at (-.8, 0) {};
+                  \node at (.8, 0) {};
                 \end{tikzpicture}
               ]]>
             </latex-image>
@@ -699,8 +1039,13 @@
                   \draw (0,1.5) -- (4,1.5);
                   \node at (1,2.25) {$x^2$};
                   \node at (3,0.75) {$C$};
+                  \node at (3, 2.25) {}; % upper right area
+                  \node at (1,0.75) {}; % lower left area
+                  %
                   \node at (-.5,2.25) {$x$};
                   \node at (1,3.25) {$x$};
+                  \node at (-.5,0.75) {}; % 2nd vertical side
+                  \node at (3,3.25) {}; % 2nd horizontal side
                 \end{tikzpicture}
               ]]>
             </latex-image>
@@ -741,6 +1086,115 @@
             </image>
           </figure>
           The two numbers must multiply to <m>24</m> and add to <m>11</m>.
+          We list the pairs of numbers whose product is <m>24</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>24</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>6</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>11</m>.
+          These are <m>3</m> and <m>8</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$24$};
+                    \node at (0,-.8) {$11$};
+                    \node at (-.8, 0) {$3$};
+                    \node at (.8, 0) {$8$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+11x+24= (x+3)(x+8)</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We are looking to fill in the two empty sides in:
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$24$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two unlabeled rectangles must have areas that multiply to <m>24</m> and add to <m>11x</m>.....
+          The two numbers must multiply to <m>24</m> and add to <m>11</m>.
+          We list the pairs of numbers whose product is <m>24</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>24</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>6</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>11</m>.
+          These are <m>3</m> and <m>8</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$24$};
+                    \node at (3, 2.25) {$8x$}; % upper right area
+                    \node at (1,0.75) {$3x$}; % lower left area
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
         </p>
       </solution>
     </example>
