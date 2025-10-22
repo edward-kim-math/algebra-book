@@ -64,12 +64,12 @@
           Expand and simplify <m>(x+3)(x+5)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can use <xref ref="FOIL1" /> with <m>a=x</m> and <m>b=3</m> and <m>c=x</m> and <m>d=5</m> to get
           <me>(x+3)(x+5) = x\cdot x + x\cdot 5 + 3\cdot x + 3\cdot 5 = x^2 + 5x + 3x + 15 = x^2 + 8x + 15.</me>
         </p>
-      </solution>
+      </answer  >
     </example>
     <note>
       <p>
@@ -116,12 +116,12 @@
           Expand and simplify <m>(x+4)(x+10)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can use <xref ref="FOIL1" /> with <m>a=x</m> and <m>b=4</m> and <m>c=x</m> and <m>d=10</m> to get
           <me>(x+4)(x+10) = x\cdot x + x\cdot 10 + 4\cdot x + 4\cdot 10 = x^2 + 10x + 4x + 40 = x^2 + 14x + 40.</me>
         </p>
-      </solution>
+      </answer>
     </example>
     <note>
       <p>
@@ -165,11 +165,11 @@
           Expand and simplify <m>(x+5)(x+5)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>(x+5)(x+5) = x^2 + 5x + 5x + 25 = x^2 + 10x + 25.</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can represent <m>(x+5)(x+5)=x^2 + 5x +5x + 25 = x^2 + 10x + 25</m> through the following diagram:
@@ -208,11 +208,11 @@
           Expand and simplify <m>(x+8)^2</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>(x+8)^2 = (x+8)(x+8) = x^2 + 8x + 8x + 64 = x^2 + 16x + 64.</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can represent <m>(x+8)(x+8)=x^2 + 8x + 8x + 64 = x^2 + 16x + 64</m> through the following diagram:
@@ -246,8 +246,8 @@
           INSERT preview to factor by grouping
         </p>
       </statement>
-      <solution>
-      </solution>
+      <answer>
+      </answer>
     </example>
 
     <principle xml:id="FOIL2">
@@ -268,7 +268,7 @@
           Expand and simplify <m>(x-3)(x-8)</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The given expression <m>(x-3)(x-8)</m> fits the format of the left side <m>(a-b)(c-d)</m> in <xref ref="FOIL2" />
           with <m>a=x</m> and <m>b=3</m> and <m>c=x</m> and <m>d=8</m>.
@@ -276,15 +276,15 @@
           but this is because the format of <m>(a-b)(c-d)</m> already includes minus signs. Then, by <xref ref="FOIL2" />,
           <me>(x-3)(x-8) = x \cdot x - x \cdot 8 - 3 \cdot x + 3 \cdot 8 = x^2 - 8x - 3x + 24 = x^2 - 11x + 24.</me>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We can rewrite the expression <m>(x-3)(x-8) = (x+(-3))(x+(-8))</m> because <m>(x+(-3))(x+(-8))</m> fits the format of the left
           side <m>(a+b)(c+d)</m> in <xref ref="FOIL1" />. In this format, <m>a=x</m>, and <m>b</m> should consist of content right after the first plus sign,
           so <m>b=-3</m>. Similarly, <m>c=x</m>, and <m>d</m> should be all the content after the second plus sign, so <m>d=-8</m>. Then by <xref ref="FOIL1" />,
           <me>(x+(-3))(x+(-8)) = x \cdot x + x \cdot (-8) + (-3) \cdot x + (-3)(-8) = x^2 - 8x - 3x + 24 = x^2-11x+24.</me>
         </p>
-      </solution>
+      </answer>
     </example>
     <note>
       <p>
@@ -340,7 +340,7 @@
           Expand and simplify <m>(x-4)(x-6)</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The given expression <m>(x-4)(x-6)</m> fits the format of the left side <m>(a-b)(c-d)</m> in <xref ref="FOIL2" />
           with <m>a=x</m> and <m>b=4</m> and <m>c=x</m> and <m>d=6</m>.
@@ -348,15 +348,15 @@
           but this is because the format of <m>(a-b)(c-d)</m> already includes minus signs. Then, by <xref ref="FOIL2" />,
           <me>(x-4)(x-6) = x \cdot x - x \cdot 6 - 4 \cdot x + 4 \cdot 6 = x^2 - 6x - 4x + 24 = x^2 - 10x + 24.</me>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We can rewrite the expression <m>(x-4)(x-6) = (x+(-4))(x+(-6))</m> because <m>(x+(-4))(x+(-6))</m> fits the format of the left
           side <m>(a+b)(c+d)</m> in <xref ref="FOIL1" />. In this format, <m>a=x</m>, and <m>b</m> should consist of content right after the first plus sign,
           so <m>b=-4</m>. Similarly, <m>c=x</m>, and <m>d</m> should be all the content after the second plus sign, so <m>d=-6</m>. Then by <xref ref="FOIL1" />,
           <me>(x+(-4))(x+(-6)) = x \cdot x + x \cdot (-6) + (-4) \cdot x + (-4)(-6) = x^2 - 6x - 4x + 24 = x^2-10x+24.</me>
         </p>
-      </solution>
+      </answer>
     </example>
     <note>
       <p>
@@ -402,11 +402,11 @@
         </p>
       </statement>
     </example>
-    <solution>
+    <answer>
       <p>
         <m>(x-5)(x-5) = x^2 - 5x - 5x + 25 = x^2 - 10x + 25.</m>
       </p>
-    </solution>
+    </answer>
     <p>
       We can represent <m>(x-5)(x-5)=x^2 - 5x - 5x + 25 = x^2 - 10x + 25</m> through the following diagram:
       <figure>
@@ -440,11 +440,11 @@
           Expand and simplify <m>(x-8)^2</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>(x-8)^2=(x-8)(x-8) = x^2 - 8x - 8x + 64 = x^2 - 16x + 64.</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can represent <m>(x-8)(x-8)=x^2 - 8x - 8x + 64 = x^2 - 16x + 64</m> through the following diagram:
@@ -501,12 +501,12 @@
           Expand and simplify <m>(x+7)(x-2)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can use the first formula in <xref ref="principle-FOIL3" /> with <m>a=x</m> and <m>b=7</m> and <m>c=x</m> and <m>d=2</m> to get
           <me>(x+7)(x-2) = x\cdot x - x\cdot 2 + 7\cdot x - 7\cdot 2 = x^2 - 2x + 7x - 14 = x^2 + 5x - 14.</me>
         </p>
-      </solution>
+      </answer>
     </example>
     <note>
       <p>
@@ -552,12 +552,12 @@
           Expand and simplify <m>(x-7)(x+2)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can use the second formula in <xref ref="principle-FOIL3" /> with <m>a=x</m> and <m>b=7</m> and <m>c=x</m> and <m>d=2</m> to get
           <me>(x-7)(x+2) = x\cdot x + x\cdot 2 - 7\cdot x - 7\cdot 2 = x^2 + 2x - 7x - 14 = x^2 - 5x - 14.</me>
         </p>
-      </solution>      
+      </answer>      
     </example>
     <note>
       <p>
@@ -603,11 +603,11 @@
           Expand and simplify <m>(x-3)(x+10)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>(x-3)(x+10) = x^2 + 10x - 3x - 30 = x^2 + 7x - 30</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can represent <m>(x-3)(x+10)=x^2 + 10x - 3x - 30 = x^2 + 7x - 30</m> through the following diagram:
@@ -642,11 +642,11 @@
           Expand and simplify <m>(x+9)(x-9)</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>(x+9)(x-9) = x^2 - 9x + 9x - 81 = x^2 + 0x - 81 = x^2 - 81</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <note>
       <p>
@@ -717,11 +717,11 @@
           Will the two binomials in the factored form of <m>x^2+8x+15</m> have the same sign or opposite signs?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because the constant term is positive (namely <m>15</m>), the two binomials will have the same sign.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -730,11 +730,11 @@
           Will the two binomials in the factored form of <m>x^2+8x-20</m> have the same sign or opposite signs?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because the constant term is negative (namely <m>-20</m>), the two binomials will have opposite signs.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <computation xml:id="information-from-sign-of-constant-term">
@@ -854,7 +854,7 @@
           Factor <m>x^2+11x+24</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we have a quadratic trinomial with positive constant term <m>24</m> and we are being asked to factor,
           <xref ref="factor-positive-constant" /> applies.
@@ -873,7 +873,7 @@
           These are <m>3</m> and <m>8</m>, in either order, so we can factor <m>x^2+11x+24</m> as
           <me>(x+3)(x+8)</me>.
         </p>
-      </solution>
+      </answer>
     </example>    
     <warning>
       <p>
@@ -897,7 +897,7 @@
           Factor <m>x^2-12x+35</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we have a quadratic trinomial with positive constant term <m>35</m> and we are being asked to factor,
           <xref ref="factor-positive-constant" /> applies. 
@@ -915,7 +915,7 @@
           These are <m>5</m> and <m>7</m>, in either order, so we can factor <m>x^2-12x+35</m> as
           <me>(x-5)(x-7)</me>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -924,7 +924,7 @@
           Factor <m>x^2-8x+15</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Since the constant term <m>15</m> is positive, and the linear coefficient <m>-8</m> is negative, our set up for factoring is
           <me>(x-\_\_\_)(x-\_\_\_).</me>
@@ -940,7 +940,7 @@
           These are <m>3</m> and <m>5</m> so our factorization is
           <me>(x-3)(x-5)</me>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can check our work. Starting with our factorization,
@@ -956,7 +956,7 @@
           Factor <m>x^2+14x+40</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we have a quadratic trinomial with positive constant term <m>40</m> and we are being asked to factor,
           <xref ref="factor-positive-constant" /> applies.
@@ -975,7 +975,7 @@
           These are <m>4</m> and <m>10</m>, in either order, so we can factor <m>x^2+14x+40</m> as
           <me>(x+4)(x+10)</me>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       We can check our work. Starting with our factorization,
@@ -1074,9 +1074,9 @@
           Factor <m>x^2+11x+24</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          We are looking to fill in the two empty spaces in:
+          We are looking to fill in:
           <figure>
             <caption>Initial diamond figure</caption>
             <image width="15%">
@@ -1137,8 +1137,8 @@
           </figure>
           Thus <m>x^2+11x+24= (x+3)(x+8)</m>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We are looking to fill in the two empty sides in:
           <figure>
@@ -1208,7 +1208,7 @@
           </figure>
           Thus <m>x^2+11x+24= (x+3)(x+8)</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       Notice that both techniques involve finding two numbers that multiply to <m>24</m> and add to <m>11</m>,
@@ -1224,9 +1224,9 @@
           Factor <m>x^2-12x+35</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          We are looking to fill in the two empty spaces in:
+          We are looking to fill in:
           <figure>
             <caption>Initial diamond figure</caption>
             <image width="15%">
@@ -1280,8 +1280,8 @@
           </figure>
           Thus <m>x^2-12x+35= (x-5)(x-7)</m>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We are looking to fill in the two empty sides in:
           <figure>
@@ -1342,7 +1342,7 @@
           </figure>
           Thus <m>x^2-12x+35= (x-5)(x-7)</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       Notice that both techniques involve finding two numbers that multiply to <m>35</m> and add to <m>-12</m>,
@@ -1422,7 +1422,7 @@
           Factor <m>x^2 + 5x - 14</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to find two numbers that whose product is <m>14</m> and whose difference is <m>5</m>.
           These numbers are <m>7</m> and <m>2</m>.
@@ -1430,11 +1430,11 @@
           and the smaller number <m>2</m> after the minus sign.
           <me>x^2 + 5x - 14 = (x+7)(x-2)</me>
         </p>
-      </solution>
+      </answer>
 
-      <solution>
+      <answer>
         <p>
-          We are looking to fill in the two empty spaces in:
+          We are looking to fill in:
           <figure>
             <caption>Initial diamond figure</caption>
             <image width="15%">
@@ -1499,8 +1499,8 @@
           </figure>
           Thus <m>x^2+5x-14= (x-2)(x+7)</m>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We are looking to fill in the two empty sides in:
           <figure>
@@ -1564,7 +1564,7 @@
           </figure>
           Thus <m>x^2+5x-14 = (x-2)(x+7)</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       Notice that both techniques involve finding two numbers that multiply to <m>-14</m> and add to <m>5</m>,
@@ -1582,7 +1582,7 @@
           Factor <m>x^2 - 10x - 24</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to find two numbers that whose product is <m>24</m> and whose difference is <m>10</m>.
           These numbers are <m>12</m> and <m>2</m>.
@@ -1590,11 +1590,11 @@
           and the smaller number <m>2</m> after the plus sign.
           <me>x^2 - 10x - 24 = (x-12)(x+2)</me>
         </p>
-      </solution>
+      </answer>
 
-      <solution>
+      <answer>
         <p>
-          We are looking to fill in the two empty spaces in:
+          We are looking to fill in:
           <figure>
             <caption>Initial diamond figure</caption>
             <image width="15%">
@@ -1658,8 +1658,8 @@
           </figure>
           Thus <m>x^2-10x-24= (x-12)(x+2)</m>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           Here is our initial diagram:
           <figure>
@@ -1731,7 +1731,7 @@
           </figure>
           Thus <m>x^2-10x-24= (x+2)(x-12)</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       Notice that both techniques involve finding two numbers that multiply to <m>-24</m> and add to <m>-10</m>,
@@ -1752,17 +1752,15 @@
           (If you wish to practice by factoring, feel free to do so! 
           However, this question is intentionally worded to get us practicing how to ask the right questions!)
           <ol>
-            <li>
-              <p><m>x^2 + 6x - 16</m></p>
-              <p><m>x^2 + 14x + 33</m></p>
-              <p><m>x^2 + 16x + 60</m></p>
-              <p><m>x^2 + 4x - 60</m></p>
-              <p><m>x^2 - 8x - 20</m></p>
-            </li>
+            <li><p><m>x^2 + 6x - 16</m></p></li>
+            <li><p><m>x^2 + 14x + 33</m></p></li>
+            <li><p><m>x^2 + 16x + 60</m></p></li>
+            <li><p><m>x^2 + 4x - 60</m></p></li>
+            <li><p><m>x^2 - 8x - 20</m></p></li>
           </ol>
         </p>
       </statement>
-      <solution>
+      <answer>
         <ol>
           <li>
             <p>
@@ -1805,7 +1803,7 @@
             </p>
           </li>
         </ol>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
@@ -1823,13 +1821,13 @@
           Factor <m>x^2+10x+25</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We are looking for two numbers whose product is <m>25</m> and whose sum is <m>10</m>.
           These numbers are <m>5</m> and <m>5</m>. The factorization is 
           <me>(x+5)(x+5).</me>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>The special situation here is that the two numbers we found happen to be the same number twice.</p>
 
@@ -1852,22 +1850,142 @@
           Factor <m>x^2 + 6x + 9</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can apply earlier principles to find two numbers whose product is <m>9</m> and whose sum is <m>6</m>.
           These numbers are <m>3</m> and <m>3</m>, so 
           <me>x^2 + 6x + 9 = (x+3)(x+3)</me>
           and we can optionally rewrite this as <m>(x+3)^2</m>.
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           To apply <xref ref="principle-perfect-square-trinomial-plus" />, we identify <m>a=x</m> and <m>b=3</m>.
           Then,
           <me>x^2 + 6x + 9 = (x+3)^2.</me>
         </p>
-      </solution>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$9$};
+                    \node at (0,-.8) {$6$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>9</m> and add to <m>6</m>.
+          We list the pairs of numbers whose product is <m>9</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>3</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>6</m>.
+          These are <m>3</m> and <m>3</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$9$};
+                    \node at (0,-.8) {$6$};
+                    \node at (-.8, 0) {$3$};
+                    \node at (.8, 0) {$3$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+6x+9= (x+3)(x+3)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in the two empty sides in:
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$9$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>9 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>9x^2</m> where each factor contains an <m>x</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1x</m> and <m>9x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3x</m> and <m>3x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair adds up to <m>6x</m>.
+          These are <m>3x</m> and <m>3x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$9$};
+                    \node at (3, 2.25) {$3x$}; % upper right area
+                    \node at (1,0.75) {$3x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$3$}; % 2nd vertical side
+                    \node at (3,3.25) {$3$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+6x+9= (x+3)(x+3)</m>
+        </p>
+      </answer>
     </example>
+    <p>
+      Notice that both techniques involve finding two numbers that multiply to <m>24</m> and add to <m>11</m>,
+      though in the geometric solution, we were looking for two expressions that multiply to <m>24x^2</m> and add to <m>11x</m>.
+    </p>
+
 
     <principle xml:id="principle-perfect-square-trinomial-minus">
       <statement>
@@ -1886,21 +2004,170 @@
           Factor <m>x^2 - 12x + 36</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We are looking for two numbers whose product is <m>36</m> and whose sum is <m>12</m>.
           These numbers are <m>6</m> and <m>6</m>. The factorization is
           <me>(x-6)(x-6)</me>
           and we can optionally rewrite this as <m>(x-6)^2</m>.
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           To apply <xref ref="principle-perfect-square-trinomial-minus" />, use <m>a=x</m> and <m>b=6</m>.
           Then,
           <me>x^2 - 12x + 36 = (x-6)^2.</me>
         </p>
-      </solution>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$36$};
+                    \node at (0,-.8) {$-12$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>36</m> and add to <m>-12</m>.
+          Because the product must be positive, the two numbers we look for must have the same sign.
+          Since the numbers we look for must add to <m>-12</m>, both numbers will have negative sign.
+          We list the pairs of <emph>negative</emph> numbers whose product is <m>36</m>:
+          <ul>
+            <li>
+              <p>
+                <m>-1</m> and <m>-36</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2</m> and <m>-18</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-3</m> and <m>-12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4</m> and <m>-9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-6</m> and <m>-6</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>-12</m>.
+          These are <m>-6</m> and <m>-6</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$36$};
+                    \node at (0,-.8) {$-12$};
+                    \node at (-.8, 0) {$-6$};
+                    \node at (.8, 0) {$-6$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-12x+36 = (x-6)(x-6)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$36$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>36 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>36x^2</m> where each factor contains an <m>x</m>,
+          noting that both coefficients will need to have the same sign (because the product needs to be <m>36x^2</m>)
+          and both coefficients will be negative (because the sum needs to be <m>-12x</m>).
+          <ul>
+            <li>
+              <p>
+                <m>-1x</m> and <m>-36x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2x</m> and <m>-18x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-3x</m> and <m>-12x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4x</m> and <m>-9x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-6x</m> and <m>-6x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair adds up to <m>-12x</m>.
+          These are <m>-6x</m> and <m>-6x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$36$};
+                    \node at (3, 2.25) {$-6x$}; % upper right area
+                    \node at (1,0.75) {$-6x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$-6$}; % 2nd vertical side
+                    \node at (3,3.25) {$-6$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-12x+36= (x-6)(x-6)</m>.
+        </p>
+      </answer>
     </example>
 
     <example>
@@ -1909,21 +2176,146 @@
           Factor <m>x^2 - 8x + 16</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We are looking for two numbers whose product is <m>16</m> and whose sum is <m>8</m>.
           These numbers are <m>4</m> and <m>4</m>. The factorization is
           <me>(x-4)(x-4)</me>
           and we can optionally rewrite this as <m>(x-4)^2</m>.
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           To apply <xref ref="principle-perfect-square-trinomial-minus" />, use <m>a=x</m> and <m>b=4</m>.
           Then,
           <me>x^2 - 8x + 16 = (x-4)^2.</me>
         </p>
-      </solution>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$16$};
+                    \node at (0,-.8) {$-8$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>16</m> and add to <m>-8</m>.
+          We list the pairs of numbers whose product is <m>16</m>, noting that both numbers will have negative sign (because the sum needs to be <m>-8</m>):
+          <ul>
+            <li>
+              <p>
+                <m>-1</m> and <m>-16</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2</m> and <m>-8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4</m> and <m>-4</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>-8</m>.
+          These are <m>-4</m> and <m>-4</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$16$};
+                    \node at (0,-.8) {$-8$};
+                    \node at (-.8, 0) {$-4$};
+                    \node at (.8, 0) {$-4$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-8x+16 = (x-4)(x-4)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$16$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>16 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>16x^2</m> where each factor contains an <m>x</m>, and both factors have negative coefficient:
+          <ul>
+            <li>
+              <p>
+                <m>-1x</m> and <m>-16x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2x</m> and <m>-8x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4x</m> and <m>-4x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair adds up to <m>-8x</m>.
+          These are <m>-4x</m> and <m>-4x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$16$};
+                    \node at (3, 2.25) {$-4x$}; % upper right area
+                    \node at (1,0.75) {$-4x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$-4$}; % 2nd vertical side
+                    \node at (3,3.25) {$-4$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-8x+16= (x-4)(x-4)</m>.
+        </p>
+      </answer>
     </example>
 
     <principle xml:id="principle-difference-of-squares">
@@ -1944,7 +2336,7 @@
           Factor <m>x^2 - 49</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can rewrite the given expression as <m>x^2 + 0x - 49</m>.
           Based on <xref ref="factor-negative-constant" />, we are looking for two numbers whose product is <m>49</m> and whose difference is <m>0</m>.
@@ -1952,14 +2344,142 @@
           Those numbers are <m>7</m> and <m>7</m>, and we place one of these behind a minus sign and the other behind a plus sign:
           <me>x^2-49 = (x+7)(x-7)</me>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We can apply <xref ref="principle-difference-of-squares" /> using <m>a=x</m> and <m>b=7</m>.
           Then,
           <me>x^2 - 49 = (x+7)(x-7).</me>
         </p>
-      </solution>
+      </answer>
+      <answer>
+        <p>
+          We can write in the missing middle term: <m>x^2-49 = x^2 + 0x - 49</m>, which will be useful for the Diamond problem.
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-49$};
+                    \node at (0,-.8) {$0$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>-49</m> and add to <m>0</m>.
+          Because the product must be negative, the two numbers we look for must have opposite signs.
+          We list the pairs of numbers whose product is <m>-49</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>-49</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>7</m> and <m>-7</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>49</m> and <m>-1</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>0</m>.
+          These are <m>7</m> and <m>-7</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-49$};
+                    \node at (0,-.8) {$0$};
+                    \node at (-.8, 0) {$7$};
+                    \node at (.8, 0) {$-7$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2 + 0x - 49 = (x+7)(x-7)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-49$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>-49 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>-49x^2</m> where each factor contains an <m>x</m>,
+          and due to the product being negative, the coefficients will need to have opposite signs:
+          <ul>
+            <li>
+              <p>
+                <m>1x</m> and <m>-49x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>7x</m> and <m>-7x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>49x</m> and <m>-1x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair adds up to <m>0x</m>.
+          These are <m>-7x</m> and <m>7x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-49$};
+                    \node at (3, 2.25) {$-7x$}; % upper right area
+                    \node at (1,0.75) {$7x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$7$}; % 2nd vertical side
+                    \node at (3,3.25) {$-7$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2 + 0x - 49 = (x+7)(x-7)</m>.
+        </p>
+      </answer>
     </example>
 
     <example>
@@ -1968,36 +2488,213 @@
           Factor <m>x^2 - 100</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can rewrite the given expression as <m>x^2 + 0x - 100</m>.
           Based on <xref ref="factor-negative-constant" />, we are looking for two numbers whose product is <m>100</m> and whose difference is <m>0</m>.
           Those numbers are <m>10</m> and <m>10</m>, and we place one of these behind a minus sign and the other behind a plus sign:
           <me>x^2 - 100 = (x+10)(x-10)</me>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           We can apply <xref ref="principle-difference-of-squares" /> using <m>a=x</m> and <m>b=10</m>.
           Then,
           <me>x^2 - 100 = (x+10)(x-10).</me>
         </p>
-      </solution>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-100$};
+                    \node at (0,-.8) {$0$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers multiply to a negative, so must have opposite signs. All examples of such pairs of numbers with a product of <m>-100</m> are:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>-100</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>-50</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>-25</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>5</m> and <m>-20</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>10</m> and <m>-10</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>20</m> and <m>-5</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>25</m> and <m>-4</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>50</m> and <m>-2</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>100</m> and <m>-1</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>0</m>.
+          These are <m>10</m> and <m>-10</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$100$};
+                    \node at (0,-.8) {$0$};
+                    \node at (-.8, 0) {$10$};
+                    \node at (.8, 0) {$-10$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2 + 0x - 100 = (x+10)(x-10)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We are looking to fill in
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-100$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>-100 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>-100x^2</m> where each factor contains an <m>x</m>, and coefficients have opposite signs:
+          <ul>
+            <li>
+              <p>
+                <m>1x</m> and <m>-100x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2x</m> and <m>-50x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4x</m> and <m>-25x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>5x</m> and <m>-20x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>10x</m> and <m>-10x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>20x</m> and <m>-5x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>25x</m> and <m>-4x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>50x</m> and <m>-2x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>100x</m> and <m>-1x</m>
+              </p>
+            </li>
+          </ul>
+          The pair which adds to <m>0x</m> is <m>10x</m> and <m>-10x</m>. So
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-100$};
+                    \node at (3, 2.25) {$-10x$}; % upper right area
+                    \node at (1,0.75) {$10x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$10$}; % 2nd vertical side
+                    \node at (3,3.25) {$-10$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2 + 0x - 100 = (x+10)(x-10)</m>.
+        </p>
+      </answer>
+
     </example>
     <p>
       Recall that we can always check our factoring by distributing and collecting like terms.
       In fact, practicing this as a habit lets us see why all the strategies we have presented work in the first place,
       and also helps build our intuition to be able to factor in future problems.
+      In fact, even in the example we just did, we can check our work by distributing:
+      <me>(x+10)(x-10) = x^2 - 10x + 10x - 100 = x^2 - 100.</me>
     </p>
-
-    <p>
-      Incorporate this content ABOVE.
-      https://www.hancockcollege.edu/mathcenter/documents/Diamond%20Method%20of%20Factoring.pdf
-
-      Geometric technique:
-      https://www.youtube.com/watch?v=hMFVbo1QKPs
-    </p>
-
 
   </subsection>
 
@@ -2006,8 +2703,96 @@
     <title>Additional factoring techniques</title>
 
     <p>
-      Factor by grouping, cubic
+      We now introduce a strategy that often applies when factoring
+      an expression consisting of four terms:
     </p>
+    <!-- Strategy -->
+    <computation xml:id="factor-by-grouping">
+      <title>Factor by grouping</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy usually (but not always) applies 
+              when factoring an expression consisting of four terms.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Factor an expression out of the first two terms
+                    and factor an expression out of the last two terms.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In the resulting expression, if both terms have the 
+                    same binomial factor,
+                    then factor this binomial out of both terms.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+    <p>
+      Please note that this strategy does not <emph>always</emph> apply.
+      However, it <emph>often</emph> does.
+      So much so, that whenever there are four terms,
+      please consider applying the technique of Factoring by Grouping.
+    </p>
+    <p>
+      In fact, at this point in the course, you have seen a number
+      of strategies get introduced.
+      Do you ever feel like you get to a quiz or test
+      and forget all of the techniques for every style of math problem you were asked?
+      You might be already doing this, but if you're not,
+      I suggest that you create some index cards,
+      one index card for each strategy.
+      On the front of an index card, write when the strategy applies.
+      (You will note that in each strategy box, the first thing that 
+      is mentioned is under the heading <q>When does this strategy apply?</q>)
+      On the back of the index card, write how to apply the strategy.
+      For example, for the strategy that was just mentioned,
+      the front of the index card might say
+      <q>This strategy applies 
+      when factoring an expression consisting of four terms</q>
+      and the back of the card outlines how to apply the strategy.
+    </p>
+    <p>
+      If you've been doing this, and want to add one more layer to
+      increase success on quizzes, then may I suggest the following?
+      Every time you go through the index cards for review,
+      for each index card, come up with a new problem for which the strategy would apply.
+      Then, answer the question you created.
+    </p>
+
+    <example>
+      
+    </example>
+
+
+
+    <p>
+      Factor by grouping: <m>() ()^2</m> error
+      Factor by grouping: bad parenthesization
+    </p>
+
+    <p>
+      cubic
+    </p>
+
+    <p>
+      Geometric and other methods when the quadratic coefficient is not 1.
+      https://www.youtube.com/watch?v=hMFVbo1QKPs
+    </p>
+
 
     <principle>
       <title>text</title>
@@ -2022,11 +2807,11 @@
           Statement text       
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Solution text
         </p>
-      </solution>
+      </answer>
     </example>
 
     <!-- Try it -->
@@ -2186,7 +2971,7 @@
 				</p>
 			</statement>
 
-			<solution>
+			<answer>
 				<p>
 					Do you agree that the first argument is valid but the second argument is not?
 					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
@@ -2208,7 +2993,7 @@
 					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
 					In mathematics, we never get that luxury.
 				</p>
-			</solution>
+			</answer>
 		</example>
 
 		<remark>
@@ -2224,27 +3009,6 @@
 
   </subsection>
 
-  <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
-
-  </subsection>
 
 	<subsection>
 		<title>Summary</title>

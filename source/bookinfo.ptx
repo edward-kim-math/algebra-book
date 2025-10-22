@@ -86,7 +86,6 @@
   <!-- <rename element="example" xml:lang="en-US">Example!</rename> -->
   <cross-references text="type-global" />
 
-
   <!-- Various third-party add-ons need some sort of token -->
   <!-- Using an element here serves two purposes -->
   <!-- (1) it is a flag to enable the addon -->

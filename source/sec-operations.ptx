@@ -203,7 +203,7 @@
         </p>
       </statement>
 
-      <solution>
+      <answer>
         <p>
         We will simplify the expression by following the Order of Operations.
         First, notice that there are no parentheses, so we move on to the next part of the Order of Operations.
@@ -248,7 +248,7 @@
         Note that when presenting our work <em>vertically</em> we still include the equal signs to indicate 
         that each expression is equal to the previous expression.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <principle>
@@ -270,12 +270,12 @@
           Simplify the expression <m>3 \cdot (6 - 4)^2 \div 2</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
           <p>
           We can present our work horizontally, continuing to always write to the right of an equal sign like this <m>3 \cdot (6 - 4)^2 \div 2 = 3 \cdot 2^2 \div 2 = 3 \cdot 4 \div 2 = 12 \div 2 = 6</m>.
           </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
           <p>
           We can instead present our work vertically
           <md>
@@ -285,7 +285,7 @@
           <mrow>\amp = 6</mrow> 
           </md>
           </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -295,7 +295,7 @@
         </p>
       </statement>
 
-      <solution>
+      <answer>
         <p>
           We can present our work horizontally, always writing to the right of the equal sign like this:
           <m>
@@ -307,9 +307,9 @@
           = 196
           </m>.
         </p>
-      </solution>
+      </answer>
 
-      <solution>
+      <answer>
         <p>
           We can instead present our work vertically:
           <md>
@@ -320,7 +320,7 @@
             <mrow>\amp = 196</mrow>
           </md>
         </p>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
@@ -370,7 +370,7 @@
           What order are the operations performed in the expression <m>z^3 - xy</m>?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
         The expression <m>z^3 - xy</m> has three operations.
         Scanning from left to right, we see the following operations present: exponentiation, subtraction, and multiplication.
@@ -389,7 +389,7 @@
           <li>Finally, we would perform the subtraction: we would take whatever the value of <m>z^3</m> and subtract from this whatever the vaule of <m>x \cdot y</m> is to get <m>z^3 - (x \cdot y)</m>.</li>
         </ul>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -414,7 +414,7 @@
           What order are the operations performed in the expression <m>(a+b) \cdot c^6</m>?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           First, we identify the operations present, which are an addition, a multiplication written as a dot, and exponentiation.
           In addition, a part of the expression is contained inside parentheses.
@@ -427,7 +427,7 @@
           <li>Finally, we'd take whatever the value of <m>(a+b)</m> is and whatever the value of <m>c^6</m> is and multiply these values together.</li>
         </ul>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -445,7 +445,7 @@
           What order are the operations performed in the expression <m>a(b-c)^4+7d</m>?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           To make it clearer where the operations are, let's rewrite the expression as <m>a \cdot (b-c)^4 + 7 \cdot d</m>.
         </p>
@@ -464,7 +464,7 @@
           and add to this whatever the value of <m>7 \cdot d</m> is.</li>
         </ul>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -479,7 +479,7 @@
           Based only on the Order of Operations, are <m>x-(y \cdot z)</m> and <m>x - y \cdot z</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -496,7 +496,7 @@
         In both expressions, we perform the multiplication <m>y \cdot z</m> first, and then we perform the subtraction of <m>x</m> and <m>y \cdot z</m> next.
         Based only on the Order of Operations, the two expressions are equal.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -505,7 +505,7 @@
           Based only on the Order of Operations, are <m>(a+b) \cdot c^6</m> and <m>a + b \cdot c^6</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -527,7 +527,7 @@
         (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations.
         If these expressions happened to be equal, this would have to be explained by something <em>other</em> than the Order of Operations.)   
         </p>
-      </solution> 
+      </answer> 
     </example> 
 
     <example>
@@ -536,7 +536,7 @@
           Based only on the Order of Operations, are <m>a + b \cdot c - d</m> and <m>a + (b \cdot c) - d</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -555,7 +555,7 @@
         In both expressions, we perform the multiplication first, then the addition, and finally the subtraction.
         Based only on the Order of Operations, the two expressions are equal.
         </p>
-      </solution> 
+      </answer> 
     </example>
 
     <example>
@@ -564,7 +564,7 @@
           Based only on the Order of Operations, are <m>a \div (b+c) \times 7</m> and <m>a \div b + c \times 7</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -584,7 +584,7 @@
         In the second expression, we perform the division first, then the multiplication, and finally the addition.
         Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -593,7 +593,7 @@
           Based only on the Order of Operations, are <m>(w + x) \div (y + z)</m> and <m>w + x \div y + z</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -616,7 +616,7 @@
         and in the second expression the value of <m>x</m> is divided by whatever the value of <m>y</m> is.
         Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
         </p>  
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -625,7 +625,7 @@
           Based only on the Order of Operations, are <m>a \cdot (b-c)^4+7 \cdot d</m> and <m>a \cdot b - c^4 + 7 \cdot d</m> equal or do we not have enough information?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <ul>
             <li>
@@ -649,7 +649,7 @@
         In the second expression, we perform an exponentiation first, then two multiplications, then a subtraction, and finally an addition.
         Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
         </p>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
@@ -711,12 +711,12 @@
           Is <m>2a(b+c)(d+e)</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
         </p>
       </statement> 
-      <solution>
+      <answer>
         <p>
           The expression <m>2a(b+c)(d+e)</m> is a product.
           The three factors in this product are <m>2a</m>, <m>(b+c)</m>, and <m>(d+e)</m>.
         </p> 
-      </solution> 
+      </answer> 
     </example>
 
     <example>
@@ -725,12 +725,12 @@
           Is <m>4x^2 + 3y - 7\div z</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
         </p>
       </statement> 
-      <solution>
+      <answer>
         <p>
           The expression <m>4x^2 + 3y - 7\div z</m> is a sum.
           The three terms in this sum are <m>4x^2</m>, <m>3y</m>, and <m>7\div z</m>.
         </p> 
-      </solution> 
+      </answer> 
     </example>
 
     <example>
@@ -739,12 +739,12 @@
           Is <m>(a-b)^2 + (c+d)^2</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
         </p>
       </statement> 
-      <solution>
+      <answer>
         <p>
           The expression <m>(a-b)^2 + (c+d)^2</m> is a sum.
           The two terms in this sum are <m>(a-b)^2</m> and <m>(c+d)^2</m>.
         </p> 
-      </solution> 
+      </answer> 
     </example>
 
   </subsection>
@@ -803,7 +803,7 @@
         Represent <m>3+4</m> geometrically.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         <figure>
           <caption>A picture of <m>3+4</m></caption>
@@ -826,7 +826,7 @@
           </image>
         </figure>        
       </p>
-    </solution>  
+    </answer>  
   </example>
 
   <example>
@@ -835,7 +835,7 @@
         Represent <m>2+0.5</m> geometrically.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         <figure>
           <caption>A picture of <m>2+0.5</m></caption>
@@ -858,7 +858,7 @@
           </image>
         </figure>        
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -867,7 +867,7 @@
         Represent <m>x+2</m> geometrically.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         <figure>
           <caption>A picture of <m>x+2</m></caption>
@@ -889,7 +889,7 @@
           </image>
         </figure>        
       </p>
-    </solution> 
+    </answer> 
   </example>
 
   <p>
@@ -909,7 +909,7 @@
       Give a geometric explanation of why <m>a+b = b+a</m> is true.
     </p>
     </statement>
-    <solution>
+    <answer>
     <p>
       To see why this is true, we can represent both sides of the equation geometrically.
       <figure>
@@ -945,7 +945,7 @@
       In both cases, the resulting stick has the same length, so the two expressions are equal.
       (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m>.)
     </p>
-  </solution>
+  </answer>
   </example>
 
   <p>
@@ -971,7 +971,7 @@
       Give a geometric explanation of why <m>(a+b)+c = a+(b+c)</m> is true.
     </p>
     </statement>
-    <solution>
+    <answer>
     <p>
       To see why this is true, we can represent both sides of the equation geometrically.
       <figure>
@@ -1022,7 +1022,7 @@
       In both cases, the resulting stick has the same length, so the two expressions are equal.
       (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m> or <m>c</m>.)
     </p>
-  </solution>
+  </answer>
   </example>
 
   <p>
@@ -1074,7 +1074,7 @@
         Represent <m>3 \cdot 4</m> geometrically.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         <figure>
           <caption>A picture of <m>3 \cdot 4</m></caption>
@@ -1091,7 +1091,7 @@
           </image>
         </figure>        
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1100,7 +1100,7 @@
         Represent <m>2 \cdot 0.5</m> geometrically.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         <figure>
           <caption>A picture of <m>2 \cdot 0.5</m></caption>
@@ -1117,7 +1117,7 @@
           </image>
         </figure>        
       </p>
-    </solution>
+    </answer>
   </example>
 
   <p>
@@ -1137,7 +1137,7 @@
       Give a geometric explanation of why <m>ab = ba</m> is true.
     </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         To see why this is true, we can represent both sides of the equation geometrically.
         <figure>
@@ -1163,7 +1163,7 @@
         Since the two areas are equal, the two expressions they represent, namely <m>ab</m> and <m>ba</m>, are equal.
         (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m>.)
       </p>
-    </solution>
+    </answer>
   </example>
 
   <principle xml:id="associative-property-multiplication">
@@ -1236,7 +1236,7 @@
       Give a geometric explanation of why <m>a(b+c)=ab+ac</m> is true.
     </p>
     </statement>
-    <solution>
+    <answer>
     <p>
       To see why this is true, we can represent both sides of the equation geometrically.
       <figure>
@@ -1273,7 +1273,7 @@
       the two expressions they represent, namely <m>a(b+c)</m> and <m>ab+ac</m>, are equal.
       (Note that in providing our geometric explanation, we <em>never</em> plug in numbers for <m>a</m> or <m>b</m> or <m>c</m>.)
     </p>
-  </solution>
+  </answer>
   </example>
 
   <p>
@@ -1309,7 +1309,7 @@
         Use the Distributive Law to rewrite <m>5(x + 2)</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=5</m>, <m>b=x</m>, and <m>c=2</m>.
         Then we have
@@ -1317,7 +1317,7 @@
           5(x + 2) = 5 \cdot x + 5 \cdot 2 = 5x + 10.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1326,7 +1326,7 @@
         Use the Distributive Law to rewrite <m>10(h^2 + t^3)</m>
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=10</m>, <m>b=h^2</m>, and <m>c=t^3</m>.
         Then we have
@@ -1334,7 +1334,7 @@
           10(h^2 + t^3) = 10 \cdot h^2 + 10 \cdot t^3 = 10h^2 + 10t^3.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <p>
@@ -1350,7 +1350,7 @@
         Use the Distributive Law to factor <m>4c + 4d</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=4</m>, <m>b=c</m>, and <m>c=d</m>.
         Then we have
@@ -1358,7 +1358,7 @@
           4c + 4d = 4(c + d).
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1367,7 +1367,7 @@
         Use the Distributive Law to factor <m>12x^2 + 18x</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=6x</m>, <m>b=2x</m>, and <m>c=3</m>.
         Then we have
@@ -1376,7 +1376,7 @@
         </me>
         The selection of <m>6x</m> occured by looking for the greatest common factor of <m>12x^2</m> and <m>18x</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1385,7 +1385,7 @@
         Use the Distributive Law to factor <m>15xy + 6y</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=3y</m>, <m>b=5x</m>, and <m>c=2</m>.
         Then we have
@@ -1394,7 +1394,7 @@
         </me>
         The selection of <m>3y</m> occured by looking for the greatest common factor of <m>15xy</m> and <m>6y</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1403,7 +1403,7 @@
         Use the Distributive Law to factor <m>9x + 9</m>. 
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=9</m>, <m>b=x</m>, and <m>c=1</m>.
         Then we have
@@ -1411,7 +1411,7 @@
           9x + 9 = 9(x + 1).
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <warning>
@@ -1433,7 +1433,7 @@
         Factor the expression <m>71x + 71</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b+c)=ab+ac</m>, we can let <m>a=71</m>, <m>b=x</m>, and <m>c=1</m>.
         Then we have
@@ -1446,7 +1446,7 @@
         which applies the same reasoning for why an <m>x</m> appears as the first term in parentheses because this answers
         <q><m>71</m> times <em>what</em> equals the first term <m>71x</m> in the original expression</q>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <principle xml:id="distributive-multiplication-subtraction">
@@ -1469,7 +1469,7 @@
         Use the Distributive Law to rewrite <m>4(x - 3)</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b-c)=ab-ac</m>, we can let <m>a=4</m>, <m>b=x</m>, and <m>c=3</m>.
         Then we have
@@ -1477,7 +1477,7 @@
           4(x - 3) = 4 \cdot x - 4 \cdot 3 = 4x - 12.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1486,7 +1486,7 @@
         Use the Distributive Law to rewrite <m>30x - 42x^2</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>a(b-c)=ab-ac</m>, we can let <m>a=6x</m>, <m>b=5</m>, and <m>c=7x</m>.
         Then we have
@@ -1495,7 +1495,7 @@
         </me>
         The selection of <m>6x</m> occured by looking for the greatest common factor of <m>30x</m> and <m>42x^2</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
 
@@ -1534,7 +1534,7 @@
         Use the Distributive Law to rewrite <m>7 - 14y</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>(b-c)a=ba-ca</m>, we can let <m>a=7</m>, <m>b=1</m>, and <m>c=2y</m>.
         Then we have
@@ -1542,7 +1542,7 @@
           7 - 14y = 1 \cdot 7 - 2y \cdot 7 = (1 - 2y)7.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>  
 
   <example>
@@ -1551,7 +1551,7 @@
         Use the Distributive Law to rewrite <m>13x + 7x</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>(b+c)a=ba+ca</m>, we can let <m>a=x</m>, <m>b=13</m>, and <m>c=7</m>.
         Then we have
@@ -1559,7 +1559,7 @@
           13x + 7x = (13 + 7)x = 20x.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1568,7 +1568,7 @@
         Use the Distributive Law to rewrite <m>13x - 7x</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         Using the Distributive Law <m>(b-c)a=ba-ca</m>, we can let <m>a=x</m>, <m>b=13</m>, and <m>c=7</m>.
         Then we have
@@ -1576,7 +1576,7 @@
           13x - 7x = (13 - 7)x = 6x.
         </me>
       </p>
-    </solution>
+    </answer>
   </example>
 
   <p>
@@ -1633,7 +1633,7 @@
         Simplify <m>(16x+8)-(6x-6)</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         The first set of parentheses can be dropped. So, the given expression is equal to <m>16x+8-(6x-6)</m>.
         Now, the minus sign in front of the parentheses is often casually called <q>distributing the minus sign</q>.
@@ -1641,8 +1641,8 @@
         We have provided explanations, but to now provide a good presentation of work which includes equal signs where they should belong, 
         we should write <m>(16x+8)-(6x-6) = 16x+8-(6x-6) = 16x+8-6x+6=10x+14</m>.
       </p>
-    </solution>
-    <solution>
+    </answer>
+    <answer>
       <p>
         For some, the explanation given above was sufficient.
         However, I think that if I had seen this for the first time (or if I've always been confused by this in the past), then I'd love to have a more detailed explanation.
@@ -1662,7 +1662,7 @@
         So the previous expression is equal to <m>16x+8 -6x + 6</m>.
         Putting this altogether: <m>(16x+8)-(6x-6) = 16x+8+(-1)(6x-6)=16x+8+(-1)(6x)+(-1)(-6)=16x+8-6x+6=10x+14</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1671,19 +1671,19 @@
         Simplify <m>10x + 9 - (3x + 5)</m>
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         One view is to <q>distribute the minus sign</q> and have
         <m>10x+9-(3x+5)=10x+9-3x-5=7x+4</m>
       </p>
-    </solution>
-    <solution>
+    </answer>
+    <answer>
       <p>
         We can turn <m>a-b</m> as <m>a + (-1)(b)</m>, or in reverse turn <m>a + (-1)(b)</m> into <m>a-b</m>. Using both of these ideas (and really, the second idea is the first idea in reverse),
         we write
         <m>10x + 9 - (3x + 5) = 10x + 9 + (-1)(3x + 5) = 10x + 9 + (-1)(3x) + (-1)(5) = 10x + 9 - 3x - 5 = 7x + 4</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <p>
@@ -1697,19 +1697,19 @@
         Simplify <m>7x - 3(2x + 4)</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         One view is to distribute <m>-3</m>
         <m>7x - 3(2x + 4) = 7x - 3(2x) - 3(4) = 7x - 6x - 12 = x - 12</m>.
       </p>
-    </solution>
-    <solution>
+    </answer>
+    <answer>
       <p>
         The answer we gave may be unsatisfying to some folks, so here's a version where the subtracting is rewritten as adding a negative.
         Visually, we still will have the same amount of minus signs: where the minus sign used to be will be replaced with a plus sign followed by a minus sign (it's just that the minus sign will be right in front of the <m>3</m>).
         We have <m>7x-3(2x+4) = 7x+(-3)(2x+4) = 7x + (-3)(2x) + (-3)(4) = 7x-6x-12 = x-12</m>.
       </p>
-    </solution>
+    </answer>
   </example>
 
   <example>
@@ -1718,18 +1718,18 @@
         Simplify <m>7x - 3(2x - 4)</m>.
       </p>
     </statement>
-    <solution>
+    <answer>
       <p>
         One view is to distribute <m>-3</m>
         <m>7x - 3(2x + 4) = 7x - 3(2x) + 3(4) = 7x - 6x + 12 = x + 12</m>.
       </p>
-    </solution>
-    <solution>
+    </answer>
+    <answer>
       <p>
         Here's a version where the subtracting is rewritten as adding a negative.
         We have <m>7x-3(2x-4) = 7x+(-3)(2x-4) = 7x + (-3)(2x) + (-3)(-4) = 7x-6x+12 = x+12</m>.
       </p>
-    </solution>
+    </answer>
   </example>
   <p>
     Perhaps the slightly longer second answer convinces you that the first answer worked.

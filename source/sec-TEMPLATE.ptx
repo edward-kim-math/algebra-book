@@ -127,6 +127,60 @@
       </p>
 		</investigation>
 
+    <!-- Strategy -->
+    <computation>
+      <title>Solving an equation with fractions</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies in any equation we are asked to solve when there is one or more fractions.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Inventory all of the fractions, whether they appear on the left side, the right side, or both.
+                    In particular, identify all of the denominators present.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Off to the side, compute the least common denominator (LCD) of all of the fractions.
+                    This phrase <term>least common denominator</term>
+                    is shorthand to mean the <term>least common multiple</term> of all of the denominators.
+                    (See APPENDIX for details on least common multiples.)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
+                    (Because we have to multiply the entire left side and the entire right side, 
+                    it may be necessary to use parentheses due to the Order of Operations.)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    On each side, distribute if applicable.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In each term on each side, cancel where applicable.
+                    This always results in an equation which has no fractions.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+
 
     <!-- Try it -->
     <exercise>

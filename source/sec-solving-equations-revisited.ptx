@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-solving-equations-revisited" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Solving Equations Revisited</title>
+  <title>Expressions and Equations Revisited</title>
 
-  <p> Text of section. 
-    More applications, 
-    more challenging (up to linear) equations, 
-    and fractional equations (checking denominator). 
-    Applications where the variable appears more than once: transfer bonuses, mixtures, distance, percentages
-    Literal equations (multiple variables)
+  <p>
+    Expressions about percents (percentages, transfer bonuses)
+
+    Equations about percents
+
     Systems of equations
-    Justifying cross-multiplication 
+
+    Distance, rate, time (solve using one variable, solve using two variables)
+
+    Mixture problems (one var, two var)
+
+    Literal equations (multiple variables)
   </p>
 
   <p>A flight requires 12,500 miles, but your credit card offers a 10% bonus when transferring. How many miles should you transfer to meet the requirement while taking advantage of the transfer bonus?</p>
