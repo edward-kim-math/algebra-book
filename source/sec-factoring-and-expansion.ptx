@@ -656,7 +656,7 @@
       </p>
     </note>
     <p>
-      We can represent <m>(x+9)(x-9)= x^2 + -9x + 9x - 81 = x^2 + 0x - 81 = x^2 - 81</m> through the following diagram:
+      We can represent <m>(x+9)(x-9)= x^2 - 9x + 9x - 81 = x^2 + 0x - 81 = x^2 - 81</m> through the following diagram:
       <figure>
         <caption>Picture of <m>(x+9)(x-9) = x^2 - 81</m></caption>
         <image width="25%">
@@ -668,12 +668,12 @@
                 \draw (0,1.5) -- (4,1.5);
                 \node at (1,2.25) {$x^2$};
                 \node at (3,0.75) {$-81$};
-                \node at (3, 2.25) {$9x$};
-                \node at (1,0.75) {$-9x$};
+                \node at (3, 2.25) {$-9x$};
+                \node at (1,0.75) {$9x$};
                 \node at (-.5,2.25) {$x$};
                 \node at (1,3.25) {$x$};
-                \node at (-.5,0.75) {$-9$};
-                \node at (3,3.25) {$9$};
+                \node at (-.5,0.75) {$9$};
+                \node at (3,3.25) {$-9$};
               \end{tikzpicture}
             ]]>
           </latex-image>
@@ -891,7 +891,7 @@
       </p>
     </warning>
 
-    <example>
+    <example xml:id="factor-x2-minus-12x-plus-35">
       <statement>
         <p>
           Factor <m>x^2-12x+35</m>.
@@ -1051,9 +1051,16 @@
             </latex-image>
           </image>
         </figure>
+        While our description above the figure is accurate, it is easier to do repackage it by saying
+        that we are looking for two expressions to multiply to <m>Cx^2</m> and add to <m>Bx</m>.
+        Here's a practical way to do this:
+        Consider the expression <m>C \cdot x^2</m>.
+        Write down all pairs of factors that multiply to <m>C \cdot x^2</m>, 
+        with an <m>x</m> appearing in each factor.
+        Then, among this list of pairs, find the pair that adds to <m>Bx</m>.
         In <xref ref="factor-positive-constant" />, any minus signs were accounted in the structure 
         by writing <m>(x+\_\_\_)(x+\_\_\_)</m> or <m>(x-\_\_\_)(x-\_\_\_)</m> thus the previous technique only had has think about positive numbers to fill in the blanks, 
-        but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative.
+        but in this technique, the numbers labeling the second vertical side or the second horizontal side may be negative, and areas may also be negative.
         It is often helpful to write all the factor pairs of <m>C</m>, and then go through the list to see which pair of numbers adds to <m>B</m>.
       </p>
     </computation>
@@ -1150,33 +1157,32 @@
               </latex-image>
             </image>
           </figure>
-          The two unlabeled rectangles must have areas that multiply to <m>24</m> and add to <m>11x</m>............FIX ...
-          The two numbers must multiply to <m>24</m> and add to <m>11</m>.
-          We list the pairs of numbers whose product is <m>24</m>:
+          We consider the product of the first term and last term, <m>24 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>24x^2</m> where each factor contains an <m>x</m>:
           <ul>
             <li>
               <p>
-                <m>1</m> and <m>24</m>
+                <m>1x</m> and <m>24x</m>
               </p>
             </li>
             <li>
               <p>
-                <m>2</m> and <m>12</m>
+                <m>2x</m> and <m>12x</m>
               </p>
             </li>
             <li>
               <p>
-                <m>3</m> and <m>8</m>
+                <m>3x</m> and <m>8x</m>
               </p>
             </li>
             <li>
               <p>
-                <m>4</m> and <m>6</m>
+                <m>4x</m> and <m>6x</m>
               </p>
             </li>
           </ul>
-          Then, look through the list to see which pair of numbers adds up to <m>11</m>.
-          These are <m>3</m> and <m>8</m>, so we can fill in the area model figure as follows:
+          Then, look through the list to find which pair adds up to <m>11x</m>.
+          These are <m>3x</m> and <m>8x</m>, so we can fill in the area model figure as follows:
           <figure>
             <caption>Completed area model figure</caption>
             <image width="25%">
@@ -1190,27 +1196,164 @@
                     \node at (3,0.75) {$24$};
                     \node at (3, 2.25) {$8x$}; % upper right area
                     \node at (1,0.75) {$3x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$3$}; % 2nd vertical side
+                    \node at (3,3.25) {$8$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+11x+24= (x+3)(x+8)</m>.
+        </p>
+      </solution>
+    </example>
+    <p>
+      Notice that both techniques involve finding two numbers that multiply to <m>24</m> and add to <m>11</m>,
+      though in the geometric solution, we were looking for two expressions that multiply to <m>24x^2</m> and add to <m>11x</m>.
+    </p>
+
+    <p>
+      Let's revisit <xref ref="factor-x2-minus-12x-plus-35" /> with these two new techniques.
+    </p>    
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^2-12x+35</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$35$};
+                    \node at (0,-.8) {$-12$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>35</m> and add to <m>-12</m>.
+          We list the pairs of numbers whose product is <m>35</m>, but with the following twist.
+          Note that the sum of the two numbers needs to be negative.
+          So each number must be negative. 
+          (It still works to have each pair of numbers multiplying to positive <m>35</m>, since a negative times a negative is a positive.)
+          <ul>
+            <li>
+              <p>
+                <m>-1</m> and <m>-35</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-5</m> and <m>-7</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>-12</m>.
+          These are <m>-5</m> and <m>-7</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$35$};
+                    \node at (0,-.8) {$-12$};
+                    \node at (-.8, 0) {$-5$};
+                    \node at (.8, 0) {$-7$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-12x+35= (x-5)(x-7)</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We are looking to fill in the two empty sides in:
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$35$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>35 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>35x^2</m> where each factor contains an <m>x</m>,
+          and each factor is written with a minus sign, because we'll need the sum to be <m>-12x</m>.
+          <ul>
+            <li>
+              <p>
+                <m>-1x</m> and <m>-35x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-5x</m> and <m>-7x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to find the pair adds up to <m>-12x</m>.
+          These are <m>-5x</m> and <m>-7x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$35$};
+                    \node at (3, 2.25) {$-7x$}; % upper right area
+                    \node at (1,0.75) {$-5x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$-5$}; % 2nd vertical side
+                    \node at (3,3.25) {$-7$}; % 2nd horizontal side
                   \end{tikzpicture}
                 ]]>>
               </latex-image>
             </image>
           </figure>
+          Thus <m>x^2-12x+35= (x-5)(x-7)</m>.
         </p>
       </solution>
     </example>
-
-
-
     <p>
-      https://www.hancockcollege.edu/mathcenter/documents/Diamond%20Method%20of%20Factoring.pdf
-      OTHER techniques.
+      Notice that both techniques involve finding two numbers that multiply to <m>35</m> and add to <m>-12</m>,
+      though in the geometric solution, we were looking for two expressions that multiply to <m>35x^2</m> and add to <m>-12x</m>.
     </p>
-
 
 
     <p>
       The recipe we gave in <xref ref="factor-positive-constant" /> is very handy for factoring, but only works when the constant term is positive.
       Let's do a short exploration to develop a strategy for factoring when the constant term is negative.
+      In the strategy that we're about to develop, we will be creating a template in which minus signs and plus signs are already in place.
       <ul>
         <li>
           <p>
@@ -1288,7 +1431,150 @@
           <me>x^2 + 5x - 14 = (x+7)(x-2)</me>
         </p>
       </solution>
+
+      <solution>
+        <p>
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-14$};
+                    \node at (0,-.8) {$5$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>-14</m> and add to <m>5</m>.
+          We list the pairs of numbers whose product is <m>-14</m>:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>-14</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-1</m> and <m>14</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>-7</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2</m> and <m>7</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to find which pair of numbers adds up to <m>5</m>.
+          These are <m>-2</m> and <m>7</m>. 
+          (In the list above, since the product has to be negative, we have two numbers of opposite signs.
+          In the future, we could have taken a bit of a shortcut in writing the list above by only writing pairs where the bigger number is positive,
+          since we know the sum is positive.)
+          We can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-14$};
+                    \node at (0,-.8) {$5$};
+                    \node at (-.8, 0) {$-2$};
+                    \node at (.8, 0) {$7$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+5x-14= (x-2)(x+7)</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          We are looking to fill in the two empty sides in:
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-14$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>-14 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>-14x^2</m> where each factor contains an <m>x</m>,
+          but knowing that the sum needs to be positive, namely positive <m>5x</m>, we know the bigger factor must be positive and the smaller factor must be negative.
+          <ul>
+            <li>
+              <p>
+                <m>-1x</m> and <m>+14x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2x</m> and <m>7x</m>
+              </p>
+            </li>
+          </ul>
+          We did not list the pair <m>1x</m> and <m>-14x</m>, and we also didn't list the pair <m>2x</m> and <m>-7x</m>, 
+          because the sum needs to be <m>5x</m> which has a positive coefficient, so we know that we need more
+          <q>positive <m>x</m></q> than <q>negative <m>x</m></q>.
+          Then, look through the list to see which pair adds up to <m>5x</m>.
+          These are <m>-2x</m> and <m>7x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-14$};
+                    \node at (3, 2.25) {$7x$}; % upper right area
+                    \node at (1,0.75) {$-2$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$-2$}; % 2nd vertical side
+                    \node at (3,3.25) {$7$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2+5x-14 = (x-2)(x+7)</m>.
+        </p>
+      </solution>
     </example>
+    <p>
+      Notice that both techniques involve finding two numbers that multiply to <m>-14</m> and add to <m>5</m>,
+      though in the geometric solution, we were looking for two expressions that multiply to <m>-14x^2</m> and add to <m>5x</m>.
+      In the first solution, the structure of the factorization was already determined to be <m>(x+\_\_\_)(x-\_\_\_)</m>
+      and with the plus and minus signs in place, we filled in the blanks with positive numbers (and all of the thought process involved positive numbers).
+      In the second and third solutions, we took much more literally the concepts of product and sum,
+      never doing subtraction. For example, we mean that we added <m>7</m> and <m>-2</m> together to get <m>5</m> in the second solution,
+      and we added <m>7x</m> and <m>-2x</m> together to get <m>5x</m> in the third solution.
+    </p>
 
     <example>
       <statement>
@@ -1305,7 +1591,152 @@
           <me>x^2 - 10x - 24 = (x-12)(x+2)</me>
         </p>
       </solution>
+
+      <solution>
+        <p>
+          We are looking to fill in the two empty spaces in:
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-24$};
+                    \node at (0,-.8) {$-10$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          The two numbers must multiply to <m>-24</m> and add to <m>-10</m>.
+          We list the pairs of numbers whose product is <m>-24</m>,
+          meaning that there must be one positive number and one negative number in each pair,
+          but knowing that the sum needs to be negative, namely negative <m>-10</m>,
+          we know the bigger factor must be negative and the smaller factor must be positive.
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>-24</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>-12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>-8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>-6</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair of numbers adds up to <m>-10</m>.
+          These are <m>2</m> and <m>-12</m>, so we can fill in the diamond figure as follows:
+          <figure>
+            <caption>Completed diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-24$};
+                    \node at (0,-.8) {$-10$};
+                    \node at (-.8, 0) {$-12$};
+                    \node at (.8, 0) {$2$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-10x-24= (x-12)(x+2)</m>
+        </p>
+      </solution>
+      <solution>
+        <p>
+          Here is our initial diagram:
+          <figure>
+            <caption>Initial area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-24$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          We consider the product of the first term and last term, <m>-24 \cdot x^2</m>. 
+          Let's list all pairs of factors of <m>-24x^2</m> where each factor contains an <m>x</m>,
+          but knowing that the sum needs to be <m>-10x</m>, we know the bigger factor must have a negative coefficient
+          and the smaller factor have a positive coefficient.
+          <ul>
+            <li>
+              <p>
+                <m>1x</m> and <m>-24x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2x</m> and <m>-12x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3x</m> and <m>-8x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4x</m> and <m>-6x</m>
+              </p>
+            </li>
+          </ul>
+          Then, look through the list to see which pair adds up to <m>-10x</m>.
+          These are <m>2x</m> and <m>-12x</m>, so we can fill in the area model figure as follows:
+          <figure>
+            <caption>Completed area model figure</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$x^2$};
+                    \node at (3,0.75) {$-24$};
+                    \node at (3, 2.25) {$-12x$}; % upper right area
+                    \node at (1,0.75) {$2x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$x$};
+                    \node at (1,3.25) {$x$};
+                    \node at (-.5,0.75) {$2$}; % 2nd vertical side
+                    \node at (3,3.25) {$-12$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>>
+              </latex-image>
+            </image>
+          </figure>
+          Thus <m>x^2-10x-24= (x+2)(x-12)</m>
+        </p>
+      </solution>
     </example>
+    <p>
+      Notice that both techniques involve finding two numbers that multiply to <m>-24</m> and add to <m>-10</m>,
+      though in the geometric solution, we were looking for two expressions that multiply to <m>-24x^2</m> and add to <m>-10x</m>.
+    </p>
 
     <p>
       When factoring quadratics where the quadratic coefficient is <m>1</m>, we are looking for two numbers to create a certain product,
@@ -1558,22 +1989,24 @@
       In fact, practicing this as a habit lets us see why all the strategies we have presented work in the first place,
       and also helps build our intuition to be able to factor in future problems.
     </p>
-  </subsection>
-
-  <subsection xml:id="subsec-additional-factoring-techniques">
-    <title>Additional factoring techniques</title>
-
 
     <p>
+      Incorporate this content ABOVE.
+      https://www.hancockcollege.edu/mathcenter/documents/Diamond%20Method%20of%20Factoring.pdf
+
       Geometric technique:
       https://www.youtube.com/watch?v=hMFVbo1QKPs
     </p>
 
 
+  </subsection>
 
+
+  <subsection xml:id="subsec-additional-factoring-techniques">
+    <title>Additional factoring techniques</title>
 
     <p>
-      Factor by grouping
+      Factor by grouping, cubic
     </p>
 
     <principle>
