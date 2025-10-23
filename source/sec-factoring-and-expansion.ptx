@@ -2774,18 +2774,167 @@
     </p>
 
     <example>
-      
+      <statement>
+        <p>
+          Factor <m>x^3 + 5x^2 + 2x + 10</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Because we are being asked to factor an expression with four terms,
+          we should consider <xref ref="factor-by-grouping" />, 
+          the strategy of Factoring by Grouping.
+          We first group the first two terms and the last two terms:
+          <me>x^3 + 5x^2 + 2x + 10 = (x^3 + 5x^2) + (2x + 10).</me>
+          Next, we factor an expression out of each group:
+          <me>(x^3 + 5x^2) + (2x + 10) = x^2(x + 5) + 2(x + 5).</me>
+          Now, both terms have the same binomial factor, so we can factor this binomial out:
+          <me>x^2(x + 5) + 2(x + 5) = (x^2 + 2)(x + 5).</me>
+          Putting all of the work together, we have <m>x^3 + 5x^2 + 2x + 10 = x^2(x+5) + 2(x+5) = (x^2+2)(x+5)</m>.
+        </p>
+      </solution>
     </example>
+    <p>
+      As always, we can check our factoring work by distributing:
+      <m>(x^2+2)(x+5) = x^3 + 5x^2 + 2x + 10</m>.
+    </p>
+
+    <note>
+      <p>
+        Before doing another example,
+        let's discuss several matters that often arise
+        when applying the strategy of Factoring by Grouping.
+        <ul>
+          <li>
+            <p>
+              Strictly speaking, there is no need to actually
+              write parentheses around the two groups of terms.
+              That is, from <me>x^3 + 5x^2 + 2x + 10</me>
+              we can skip writing <me>(x^3 + 5x^2) + (2x + 10)</me>
+              and go directly to <me>x^2(x + 5) + 2(x + 5)</me>
+              instead.
+            </p>
+            <p>
+              When going from <me>x^3 + 5x^2 + 2x + 10</me> directly to 
+              <me>x^2(x + 5) + 2(x + 5),</me>
+              we are essentially factoring by grouping without explicitly 
+              writing parentheses to draw the groups.
+              Often, an additional question arises when <emph>not</emph> drawing
+              in the parentheses: are we allowed to selectively factor like this,
+              where we factor the first two terms together and the last two terms together?
+              The answer is yes, and the most convincing way to see this is to
+              think about what happens backwards.
+              If we were given <me>x^2(x + 5) + 2(x + 5)</me> and asked to 
+              write this expression differently, we'd distribute to get
+              <me>x^3 + 5x^2 + 2x + 10.</me>
+            </p>
+          </li>
+          <li>
+            <p>
+              Once we have <me>x^2(x + 5) + 2(x + 5),</me>
+              it's important to not stop here.
+              Yes, this step is good, but we should factor completely.
+              (In fact, whenever we see the instructions to a math problem 
+              is to <q>factor</q>, we should factor <emph>completely</emph>.))
+            </p>
+          </li>
+          <li>
+            <p>
+              One <emph>extremely</emph> common confusion is how we got 
+              from <m>x^2(x+5) + 2(x+5)</m> to <m>(x^2 + 2)(x+5)</m>.
+              Why didn't we get <m>(x^2+2)(x+5)^2</m> instead?
+              There are four different ways that I wish to address this.
+              I hope that you will earnestly read through all four responses:
+              <ul>
+                <li>
+                  <p>
+                    First, let us note that in a different problem, if we had <m>y^2u + 2u</m> and we were asked to factor out <m>u</m>,
+                    we'd write either <m>u(y^2+2)</m> or <m>(y^2+2)u</m>, but we wouldn't write <m>(y^2+2)u^2</m>.
+                    The thing that gets factored out doesn't get an exponent of <m>2</m> attached to it, whether in this example or in our more 
+                    complicated example. In fact, the formula we are referencing here is <m>(b+c)a=bc+ca</m>, but note that the left side 
+                    is <m>(b+c)a</m> and not <m>(b+c)a^2</m>.
+                  </p>
+                  <p>
+                    So, how does this comment apply to our example? In <m>x^2(x+5) + 2(x+5)</m>, the expression we are factoring out is <m>(x+5)</m>, 
+                    and this expression <emph>is</emph> admittedly more complicated than factoring out a single variable like <m>u</m>,
+                    but it is still true that the thing that gets factored out doesn't get an exponent of <m>2</m> attached to it.
+                  </p>
+                  <p>
+                    If you'll continue with me for a second, let's take <m>x^2(x+5) + 2(x+5)</m> and temporarily replace each <m>(x+5)</m> with <m>u</m>,
+                    as a bookkeeping device. Then, we have <m>x^2u + 2u</m>, and factoring out <m>u</m> gives <m>u(x^2 + 2)</m> or <m>(x^2+2)u</m>.
+                    Now, we said that the replacement was temporary. Since we replaced <m>(x+5)</m> with <m>u</m>, 
+                    we now replace <m>u</m> with <m>(x+5)</m> in <m>(x^2+2)u</m> to get <m>(x^2+2)(x+5)</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    As a second explanation, note that we had already checked our factoring by distributing:
+                    <m>(x^2+2)(x+5) = x^3 + 5x^2 + 2x + 10</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    As a third explanation, what would happen if we took the expression that I'm claiming is incorrect, namely <m>(x^2+2)(x+5)^2</m>, and distributed?
+                    We'd get 
+                    <md>
+                      <mrow>(x^2+2)(x+5)^2 &amp;= (x^2+2)(x^2 + 10x + 25)</mrow>
+                      <mrow>&amp;= x^4 + 10x^3 + 25x^2 + 2x^2 + 20x + 50</mrow>
+                      <mrow>&amp;= x^4 + 10x^3 + 27x^2 + 20x + 50</mrow>
+                    </md>
+                    which is not equal to <m>x^3 + 5x^2 + 2x + 10</m>, the expression we started with.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    As a fourth explanation, we can represent <m>(x^2+2)(x+5)</m> geometrically:
+                    <figure>
+                      <caption>Geometric interpretation of factoring by grouping</caption>
+                      <image width="40%">
+                        <latex-image>
+                          <![CDATA[
+                            \begin{tikzpicture}
+                              \draw (0,0) rectangle (4,3);
+                              \draw (2,0) -- (2,3);
+                              \draw (0,1.5) -- (4,1.5);
+                              \node at (1,2.25) {$x^3$};
+                              \node at (3,2.25) {$5x^2$};
+                              \node at (1,0.75) {$2x$};
+                              \node at (3,0.75) {$10$};
+                              %
+                              \node at (-.5,2.25) {$x^2$};
+                              \node at (1,3.25) {$x$};
+                              \node at (-.5,0.75) {$2$};
+                              \node at (3,3.25) {$5$};
+                            \end{tikzpicture}
+                          ]]>
+                        </latex-image>
+                      </image>
+                    </figure>
+                    The big rectangle has area <m>x^3 + 5x^2 + 2x + 10</m>, by summing the areas of the four non-overlapping small rectangles, which matches the original expression we started with.
+                    For a geometric interpretation of what factoring by grouping does, it is putting the four small rectangles into two groups (in this diagram, one group is the two top rectangles, and the other group is the
+                    two bottom rectangles).
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </note>    
+
+
+
+
+
 
 
 
     <p>
-      Factor by grouping: <m>() ()^2</m> error
       Factor by grouping: bad parenthesization
     </p>
 
     <p>
-      cubic
+      Factoring cubics
     </p>
 
     <p>
