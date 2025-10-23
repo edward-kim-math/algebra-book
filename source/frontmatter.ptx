@@ -213,9 +213,15 @@
     </p>
 
     <p>
+      We intentionally do not address every error, because that would be overwhelming. However, we address many common errors -- ones that instructors sometimes only run into after grading
+      a major quiz or exam. This means that the errors we do address are often the ones that many students struggle with the most. For example, in <xref ref="factoring-missing-1-inside-parentheses" />,
+      we address the common error of forgetting to include the <m>+1</m> inside parentheses when factoring <m>71x+71</m>.
+    </p>
+
+    <p>
       If every student in your class is super-enthusiastic about the prospect of taking this algebra class, great!
-      However, I suspect that there are people who are dreading the class, and only taking it for a gen ed requiremnt, 
-      or because the course is a prerequisit to some course they need for their major.
+      However, I suspect that there are people who are dreading the class, and only taking it for a gen ed requirement,
+      or because the course is a prerequisite to some course they need for their major.
       I suspect that a significant number of students may have a rocky relationship with mathematics in general, and perhaps a distaste for algebra specifically.
       This text takes a number of unorthodox decisions to serve these students.
       For a new and better experience in mathematics, something has to change, so why not start with the textbook that's selected?

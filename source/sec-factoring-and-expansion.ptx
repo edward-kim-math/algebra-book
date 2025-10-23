@@ -19,6 +19,17 @@
 		<title>Expansion</title>
 
     <p>
+      Before we dig in, let's just point out that the last section had a <emph>lot</emph> of content. Hang in there. I know that it was a lot to take in.
+      Don't give up! I encourage you to focus on understanding one new big thing each day. If you want to get good at basketball, you have to practice.
+      If you want to become fluent in speaking Japanese, you have to practice. Math is the same.
+      You have to practice.
+      Some days, it will feel very frustrating to practice. That's okay. Just keep going.
+      When you feel confused, find a resource that is helpful and sustainable for getting help and getting your questions answered.
+      One of the things that this book tries to do is to provide you with useful sample language. Emulate this language, and when you are confused, see if you can build the words of a question you have
+      based on the language you read in this text.
+    </p>
+
+    <p>
       In this section, we will look at <emph>products of binomials</emph>, which are expressions of the format <m>(a+b)(c+d)</m>.
       As before, a product means the result of multiplication, and that multiplication happens between the value of <m>(a+b)</m> and the vaule of <m>(c+d)</m>.
       By <term>binomial</term>, we mean <m>(a+b)</m> is a binomial, and <m>(c+d)</m> is a binomial.
@@ -85,7 +96,7 @@
       So we can represent <m>(x+3)(x+5)=x^2 + 8x + 15</m> through the following diagram:
       <figure>
         <caption>Picture of <m>(x+3)(x+5) = x^2 + 8x + 15</m></caption>
-        <image width="25%">
+        <image width="30%">
           <latex-image>
             <![CDATA[
               \begin{tikzpicture}
@@ -108,6 +119,7 @@
       Note the figure is not to scale.
       Lengths of sides are labeled right next to the side.
       Areas of rectangles are written in the middle of each rectangle.
+      We filled in the areas <m>5x</m> and <m>3x</m> first, and then it was natural to fill in the side lengths <m>5</m> and <m>3</m> after.
     </p>
 
     <example>
@@ -240,15 +252,20 @@
       </figure>
     </p>
 
-    <example>
+    <example xml:id="preview-factor-by-grouping">
       <statement>
         <p>
-          INSERT preview to factor by grouping
+          Expand and simplify <m>(x^2+2)(x+5)</m>.
         </p>
       </statement>
       <answer>
+        <m>(x^2+2)(x+5) = x^3 + 5x^2 + 2x + 10.</m>
       </answer>
     </example>
+    <p>
+      This example is a little different in that the first term in the first factor is <m>x^2</m> instead of <m>x</m>. Nevertheless, <xref ref="FOIL1" /> still applies.
+      Once we applied this expansion, there were no like terms to combine, thus no further simplification to be done.
+    </p>
 
     <principle xml:id="FOIL2">
       <statement>
@@ -988,7 +1005,7 @@
     <p>
       We introduce a technique that is known as the Diamond Method, starting with a version that applies when <m>A=1</m>.
     </p>
-    <computation>
+    <computation xml:id="diamond-method-basic">
       <p>
         To factor <m>x^2+Bx+C</m>, draw the following diagram:
         <figure>
@@ -1021,7 +1038,7 @@
       This technique practices the geometric interpretations of addition and multiplication.
     </p>
 
-    <computation>
+    <computation xml:id="geometric-factoring-basic">
       <p>
         Recall from <xref ref="geometric-addition" /> that addition can be represented by gluing sticks together, and from <xref ref="geometric-multiplication" /> that multiplication can be represented by area of a rectangle.
         To factor <m>x^2+Bx+C</m>, draw a rectangle and divide it into four smaller rectangles.
@@ -1185,7 +1202,7 @@
           These are <m>3x</m> and <m>8x</m>, so we can fill in the area model figure as follows:
           <figure>
             <caption>Completed area model figure</caption>
-            <image width="25%">
+            <image width="30%">
               <latex-image>
                 <![CDATA[
                   \begin{tikzpicture}
@@ -1206,6 +1223,7 @@
               </latex-image>
             </image>
           </figure>
+          We filled in the areas <m>3x</m> and <m>8x</m> first. Then the sides <m>3</m> and <m>8</m> were filled in.
           Thus <m>x^2+11x+24= (x+3)(x+8)</m>.
         </p>
       </answer>
@@ -1340,6 +1358,7 @@
               </latex-image>
             </image>
           </figure>
+          We filled in the areas <m>-5x</m> and <m>-7x</m> first. Then the sides <m>-5</m> and <m>-7</m> were filled in.
           Thus <m>x^2-12x+35= (x-5)(x-7)</m>.
         </p>
       </answer>
@@ -1541,7 +1560,7 @@
           These are <m>-2x</m> and <m>7x</m>, so we can fill in the area model figure as follows:
           <figure>
             <caption>Completed area model figure</caption>
-            <image width="25%">
+            <image width="30%">
               <latex-image>
                 <![CDATA[
                   \begin{tikzpicture}
@@ -1562,6 +1581,7 @@
               </latex-image>
             </image>
           </figure>
+          We filled in <m>7x</m> and <m>-2x</m> first, and then the side lengths <m>7</m> and <m>-2</m> after.
           Thus <m>x^2+5x-14 = (x-2)(x+7)</m>.
         </p>
       </answer>
@@ -2779,7 +2799,7 @@
           Factor <m>x^3 + 5x^2 + 2x + 10</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we are being asked to factor an expression with four terms,
           we should consider <xref ref="factor-by-grouping" />, 
@@ -2792,11 +2812,11 @@
           <me>x^2(x + 5) + 2(x + 5) = (x^2 + 2)(x + 5).</me>
           Putting all of the work together, we have <m>x^3 + 5x^2 + 2x + 10 = x^2(x+5) + 2(x+5) = (x^2+2)(x+5)</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       As always, we can check our factoring work by distributing:
-      <m>(x^2+2)(x+5) = x^3 + 5x^2 + 2x + 10</m>.
+      <m>(x^2+2)(x+5) = x^3 + 5x^2 + 2x + 10</m>, which we saw in <xref ref="preview-factor-by-grouping" />.
     </p>
 
     <note>
@@ -2835,7 +2855,8 @@
               it's important to not stop here.
               Yes, this step is good, but we should factor completely.
               (In fact, whenever we see the instructions to a math problem 
-              is to <q>factor</q>, we should factor <emph>completely</emph>.))
+              is to <q>factor</q>, we should factor <emph>completely</emph>.
+              This means that we keep factoring until we can factor no more.)
             </p>
           </li>
           <li>
@@ -2922,239 +2943,887 @@
       </p>
     </note>    
 
-
-
-
-
-
-
-
-    <p>
-      Factor by grouping: bad parenthesization
-    </p>
-
-    <p>
-      Factoring cubics
-    </p>
-
-    <p>
-      Geometric and other methods when the quadratic coefficient is not 1.
-      https://www.youtube.com/watch?v=hMFVbo1QKPs
-    </p>
-
-
-    <principle>
-      <title>text</title>
+    <warning>
       <p>
-        text
+        We mentioned that certain parentheses can be thrown in optionally, just to visually keep the two groups together. When we do this, we should be careful about exactly where the parentheses go.
+        Using our previous question to illustrate, we can turn <m>x^3 + 5x^2 + 2x + 10</m> into <me>(x^3 + 5x^2) + (2x + 10)</me>, but we should not write <me>(x^3 + 5x^2) (+ 2x + 10).</me>
+        The difference here is so slight (the second left parenthesis was placed <emph>before</emph> the plus sign), but this changes the meaning. What's the issue here? In writing
+        <me>(x^3 + 5x^2) (+ 2x + 10)</me>
+        even if there were extra spaces between the two factors:
+        <me>(x^3 + 5x^2)\,\,(+ 2x + 10).</me> 
+        a missing operation symbol is a hidden multiplication sign.
       </p>
-    </principle>
+    </warning>
 
     <example>
       <statement>
         <p>
-          Statement text       
+          Factor <m>5x^3 - 10x^2 + 7x - 14</m>.
         </p>
       </statement>
       <answer>
         <p>
-          Solution text
+          <m>(5x^3 - 10x^2) + (7x - 14) = 5x^2(x - 2) + 7(x - 2) = (5x^2 + 7)(x - 2).</m>
+        </p>
+        <p>
+          Note that writing <m>(5x^3 - 10x^2)(+7x - 14)</m> suggests a multiplication that we did not intend.
+          Also note the final expression is <m>(5x^2 + 7)(x - 2)</m> instead of <m>(5x^2 + 7)(x - 2)^2</m>.
+          To convince yourself this works, let's distribute <m>(5x^2 + 7)(x - 2)</m> to check:
+          <m>(5x^2 + 7)(x - 2) = 5x^3 - 10x^2 + 7x - 14</m>.
         </p>
       </answer>
     </example>
 
-    <!-- Try it -->
-    <exercise>
+    <example>
       <statement>
         <p>
-          Text
+          Factor <m>2x^3 + 4x^2 + 3x + 6</m>.
         </p>
       </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
+      <answer>
         <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
+          <m>(2x^3 + 4x^2) + (3x + 6) = 2x^2(x + 2) + 3(x + 2) = (2x^2 + 3)(x + 2).</m>
         </p>
-
         <p>
-          Troll 2: Troll 1 is lying.
+          As before, we should not write <m>(2x^3 + 4x^2) (+ 3x + 6) </m> as our first expression, and we should not write <m>(2x^2+3)(x+2)^2</m> as our last expression.
         </p>
+      </answer>
+    </example>
 
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
+    <p>
+      We will need to be slightly more cautious when applying the strategy of Factoring by Grouping if the middle symbol out of the four terms is a minus sign.
+    </p>
 
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-
-    <!-- Try it -->
-    <exercise>
+    <example>
       <statement>
         <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
+          Factor <m>4x^3 + 8x^2 - 3x - 6</m>.
         </p>
       </statement>
-      <response />
-    </exercise>
+      <answer>
+        <p>
+          <m>4x^3 + 8x^2 - 3x - 6 = (4x^3 + 8x^2) - (3x + 6) = 4x^2(x + 2) - 3(x + 2) = (4x^2 - 3)(x + 2).</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4x^3 + 8x^2 - 3x - 6 = 4x^2(x + 2) - 3(x + 2) = (4x^2 - 3)(x + 2).</m>
+        </p>
+      </answer>
+    </example>
+    <p>
+      The second answer skips explicitly writing the parentheses that shows the grouping. To explain what happened:
+      <ul>
+        <li>
+          <p>
+            From the earlier discussion, we shouldn't write parentheses <m>(4x^3 + 8x^2) (-3x + 6)</m> because this suggests a multiplication that is not actually supposed to be there,
+            for exactly the same reason as before. There is a temptation to write <me>(4x^3 + 8x^2) - (3x - 6)</me> instead.
+          </p>
+        </li>
+        <li>
+          <p>
+            The information about what's going on here is actually an example of <xref ref="sec-distributing-negatives" /> and the examples that followed.
+            In <m>4x^3 + 8x^2 - 3x - 6</m>, we factored out <m>4x^2</m> from the first two terms and factored out <m>-3</m> from the last two terms.
+            When factoring out <m>-3</m>, to figure out what are the two terms inside parentheses, we ask these questions:
+            <ul>
+              <li>
+                <p>
+                  <emph>What</emph> times <m>-3</m> equals <m>-3x</m>? The answer is positive <m>x</m>, here emphasizng that a positive (what we filled in), multiplied by a negative, results in a negative.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <emph>What</emph> times <m>-3</m> equals <m>-6</m>? The answer is positive <m>2</m>, here emphasizng that a positive (what we filled in), multiplied by a negative, results in a negative.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+      </ul>
+    </p>
 
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
+    <example>
+      <statement>
+        <p>
+          Factor <m>4x^3 - 8x^2 - 3x + 6</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>
+            4x^3 - 8x^2 - 3x + 6 = (4x^3 - 8x^2) - (3x - 6) = 4x^2(x - 2) - 3(x - 2) = (4x^2 - 3)(x - 2).
+          </m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>
+            4x^3 - 8x^2 - 3x + 6 = 4x^2(x - 2) - 3(x - 2) = (4x^2 - 3)(x - 2).
+          </m>
+        </p>
+      </answer>
+    </example>
 
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
+    <example>
+      <statement>
+        <p>
+          Factor <m>p^3−3p^2−4p+12</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>p^3−3p^2−4p+12 = (p^3−3p^2)−(4p−12) = p^2(p−3)−4(p−3) = (p^2−4)(p−3)</m>
+          However, our work is not complete, because we can factor <m>p^2-4</m> further:
+          <m>(p^2−4)(p−3) = (p+2)(p−2)(p−3)</m>.
+          Putting all our work together, we have <m>p^3-3p^2−4p+12 = p^2(p-3)-4(p-3)= (p^2-4)(p-3) = (p+2)(p−2)(p−3)</m>.
+        </p>
+      </answer>
+    </example>
 
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
+    <p>
+      The last example shows an important point: after applying the strategy of Factoring by Grouping,
+      we should always check to see if the factors we obtained can be factored further.
+      It can also occur that we make our work easier if we factor out a greatets common factor from <emph>all</emph> four terms first, and then apply Factoring by Grouping.
+    </p>
 
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
+    <example>
+      <statement>
+        <p>
+          Factor <m>4m^8 - 8m^7 - 60m^5 + 120m^4</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          All four terms have a common factor of <m>4m^4</m>, so we factor this out first:
+          <me>4m^8 - 8m^7 - 60m^5 + 120m^4 = 4m^4(m^4 - 2m^3 - 15m + 30).</me>
+          Next, we apply Factoring by Grouping to the expression in parentheses, so
+          <me>4m^4(m^4 - 2m^3 - 15m + 30) = 4m^4((m^4 - 2m^3) - (15m - 30)) = 4m^4(m^3(m - 2) - 15(m - 2)) = 4m^4(m^3 - 15)(m - 2).</me>
+        </p>
+      </answer>
+    </example>
 
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
+    <p>
+      As part of the process of factoring completely, it is always helpful to see if there is a greatest common factor of all terms first, whether or not Factoring by Grouping follows next.
+      This is because factoring out a greatest common factor first can often make the remaining expression easier to factor, because the pieces that we'll see will involve smaller numbers.
+    </p>
 
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
+    <example>
+      <statement>
+        <p>
+          Factor <m>x^7 + 10x^6 + 24x^5</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Because there's three terms instead of four, we won't be using Factoring by Grouping for this question. However, all three terms have a factor of <m>x^5</m>, so we factor this out first:
+          <me>x^7 + 10x^6 + 24x^5 = x^5(x^2 + 10x + 24).</me>
+          Next, we factor the quadratic expression in parentheses:
+          <me>x^5(x^2 + 10x + 24) = x^5(x+4)(x+6).</me>
+          Putting all our work together, we have <m>x^7 + 10x^6 + 24x^5 = x^5(x^2 + 10x + 24) = x^5(x+4)(x+6)</m>.
+        </p>
+      </answer>
+    </example>
 
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
+    <p>
+      There are a handful of other special case factoring formulas, but we include these in an appendix.
+    </p>
 
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
+  </subsection>
 
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
+  <subsection xml:id="subsec-">
+    <title>Factoring quadratics revisited</title>
 
-			<answer>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
+    <!-- https://www.youtube.com/watch?v=hMFVbo1QKPs -->
 
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</answer>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
+    <p>
+      So far when we've factored quadratics <m>Ax^2 + Bx + C</m>, we have focused on situations when the quadratic coefficient is <m>A=1</m> as in 
+      <m>x^2 + 8x+15</m> or <m>x^2 - 5x - 14</m>. Now we look at situations where <m>A \ne 1</m>, such as <m>4x^2 + 11x + 6</m>.
+      We have to slightly modify two of our existing techniques. These are the more general versions of two techniques we saw earlier.
+    </p>
 
 
+    <p>
+      First, we generalize the method of factoring quadratics from <xref ref="geometric-factoring-basic" /> that works regardless of the value of <m>A</m>.
+    </p>
+    <computation xml:id="geometric-factoring-general">
+      <p>
+        To factor <m>Ax^2+Bx+C</m>, draw a rectangle and divide it into four smaller rectangles.
+        Label the top left rectangle with <m>Ax^2</m> and the bottom right rectangle with <m>C</m>.
+        In the preliminary version of this method, we labeled two side lengths with <m>x</m>, but we don't do that here.
+        <figure>
+          <caption>Initial area model figure</caption>
+          <image width="25%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw (0,0) rectangle (4,3);
+                  \draw (2,0) -- (2,3);
+                  \draw (0,1.5) -- (4,1.5);
+                  \node at (1,2.25) {$x^2$};
+                  \node at (3,0.75) {$C$};
+                  \node at (3, 2.25) {}; % upper right area
+                  \node at (1,0.75) {}; % lower left area
+                  %
+                  \node at (-.5,2.25) {};
+                  \node at (1,3.25) {};
+                  \node at (-.5,0.75) {}; % 2nd vertical side
+                  \node at (3,3.25) {}; % 2nd horizontal side
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+        Consider the expression <m>(A \cdot C) \cdot x^2</m>, which can also be written <m>ACx^2</m>.
+        We need to find two expressions that multiply to <m>ACx^2</m> and add to <m>Bx</m>.
+        To do this, it's helpful to first focus on <m>ACx^2</m>. Write a list of pairs of factors that multiply to <m>ACx^2</m> with each factor containing an <m>x</m>.
+        In writing the list, note if the two factors will have the same sign or different sign based on the sign of <m>AC</m>.
+        Optionally, use the sign of <m>Bx</m> to determine if certain pairs can be left out of the list.
+        Then, from this list, find the pair that adds to <m>Bx</m>.
+        Once the two expressions are found, place them in the two empty rectangles, since they will represent areas.
+        To label the side lengths, in each row and column, find the greatest common factor of the two areas in that row or column.
+        Finally, write the factored form using the side lengths, and applying the geometric interpretation of addition (as the gluing together of sticks).
+      </p>
+    </computation>
+    
+    <p>
+      We generalize the method of factoring quadratics from <xref ref="diamond-method-basic" /> that works regardless of the value of <m>A</m>.
+    </p>
+    <computation xml:id="diamond-method-general">
+      <p>
+        To factor <m>Ax^2+Bx+C</m>, draw the following diagram:
+        <figure>
+          <caption>Initial diamond figure</caption>
+          <image width="15%">
+            <latex-image>
+              <![CDATA[
+                \begin{tikzpicture}
+                  \draw (-1,-1) -- (1,1);
+                  \draw (-1,1) -- (1,-1);
+                  \node at (0,.8) {$AC$};
+                  \node at (0,-.8) {$B$};
+                  \node at (-.8, 0) {};
+                  \node at (.8, 0) {};
+                \end{tikzpicture}
+              ]]>
+            </latex-image>
+          </image>
+        </figure>
+        The remaining two spaces (on the left and right) need to be filled with two numbers that multiply to the number <m>AC</m> at the top of the diamond, and add to <m>B</m> at the bottom of the diamond.
+        It is often helpful to write all the factor pairs of <m>AC</m>, and then go through the list to see which pair of numbers adds to <m>B</m>,
+        using the signs of <m>AC</m> and <m>B</m> to help narrow down the possibilities.
+        Once the two numbers are found, multiply each by <m>x</m>, and then consider the sum of these together with <m>Ax^2</m> and <m>C</m>.
+        This will consist of four terms, so we can apply <xref ref="factor-by-grouping" /> to factor the expression completely.
+      </p>
+    </computation>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>4x^2 + 11x + 6</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          To practice <xref ref="geometric-factoring-general" />, we draw a rectangle that is divided into four smaller rectangles, with the upper left area labeled <m>4x^2</m> and the lower right area labeled <m>6</m>.
+          <figure>
+            <caption>Initial area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$4x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {}; % upper right area
+                    \node at (1,0.75) {}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Next <xref ref="geometric-factoring-general" /> asks us to look at <m>ACx^2</m> which here is <m>(4 \cdot 6)x^2 = 24x^2</m>.
+          Let's write pairs of factors that multiply to <m>24x^2</m> where each factor contains an <m>x</m>. In addition, because <m>24x^2</m> has a positive coefficient, both factors must have the same sign.
+          The fact that the linear term <m>11x</m> has a positive coefficient means that bost factors must be positive. So, the pairs of factors we have are:
+          <ul>
+            <li>
+              <p>
+                <m>1x</m> and <m>24x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2x</m> and <m>12x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3x</m> and <m>8x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4x</m> and <m>6x</m>
+              </p>
+            </li>
+          </ul>
+          As we mentioned, we didn't include pairs like <m>-2x</m> and <m>-12x</m> because both factors would be negative, which would make their sum negative, which won't help for this problem since we need the sum to be <m>11x</m>.
+          In our list of four pairs, we need a pair that adds to <m>11x</m>, and this is the pair <m>3x</m> and <m>8x</m>.
+          The two empty areas should be labeled with <m>3x</m> and <m>8x</m> respectively. It doesn't matter which of <m>3x</m> and <m>8x</m> goes in which empty area, but for this example, let's put <m>3x</m> in the lower left area and <m>8x</m> in the upper right area.
+          <figure>
+            <caption>Second area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$4x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {$8x$}; % upper right area
+                    \node at (1,0.75) {$3x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Next, we label the side lengths.
+          <ul>
+            <li>
+              <p>
+                The upper vertical side is the greatest common factor of <m>4x^2</m> and <m>8x</m>, which is <m>4x</m>.       
+              </p>
+            </li>
+            <li>
+              <p>
+                The lower vertical side is the greatest common factor of <m>3x</m> and <m>6</m>, which is <m>3</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The left horizontal side is the greatest common factor of <m>4x^2</m> and <m>3x</m>, which is <m>x</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The right horizontal side is the greatest common factor of <m>8x</m> and <m>6</m>, which is <m>2</m>.
+              </p>
+            </li>
+          </ul>
+          <figure>
+            <caption>Final area diagram</caption>
+            <image width="30%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$4x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {$8x$}; % upper right area
+                    \node at (1,0.75) {$3x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$4x$}; % 2nd vertical side
+                    \node at (-.5,0.75) {$3$}; % 2nd vertical side
+                    \node at (1,3.25) {$x$};
+                    \node at (3,3.25) {$2$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Based on the labeled side lengths, we have a geometric representation of <m>(4x+3)(x+2)</m>, and this is our factorization of <m>4x^2 + 11x + 6</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          To apply <xref ref="diamond-method-general" />, we draw the diamond diagram with <m>AC = 4 \cdot 6 = 24</m> at the top and <m>B = 11</m> at the bottom.
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$24$};
+                    \node at (0,-.8) {$11$};
+                    \node at (-.8, 0) {};
+                    \node at (.8, 0) {};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>`
+          </figure>
+          We are looking for pairs of numbers that multiply to <m>24</m> and add to <m>11</m>, so both factors need to be positive.
+          Here are the pairs of factors of <m>24</m> that are both positive:
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>24</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>8</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>6</m>
+              </p>
+            </li>
+          </ul>
+          The pair that adds to <m>11</m> is <m>3</m> and <m>8</m>. So, we consider the expression <m>3x+8x</m>, but we intentionally do not collect like terms yet,
+          instead adding this to the original expression's first term <m>4x^2</m> and last term <m>6</m> to get four terms, though for convenience we reordered the terms so that the quadratic term is first,
+          the two linear terms in the middle, and the constant term last:
+          <me>4x^2 + 3x + 8x + 6.</me>
+          Applying Factoring by Grouping,
+          <m>4x^2 + 3x + 8x + 6 = (4x^2 + 3x) + (8x + 6) =  x(4x + 3) + 2(4x + 3) = (x + 2)(4x + 3).</m>
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>6x^2 - 13x + 6</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Our drawing starts with the upper left area labeled <m>6x^2</m> and the lower right area labeled <m>6</m>.
+          <figure>
+            <caption>Initial area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$6x ^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {}; % upper right area
+                    \node at (1,0.75) {}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Let's write pairs of factors that multiply to <m>ACx^2 = 36x^2</m> where each factor contains an <m>x</m>. In addition, because <m>36x^2</m> has a positive coefficient, both factors must have the same sign.
+          The fact that the linear term <m>-13x</m> has a negative coefficient means that both factors must be negative. So, the pairs of factors we have are:
+          <ul>
+            <li>
+              <p>
+                <m>-1x</m> and <m>-36x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2x</m> and <m>-18x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-3x</m> and <m>-12x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4x</m> and <m>-9x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-6x</m> and <m>-6x</m>
+              </p>
+            </li>
+          </ul>
+          The pair that adds to <m>-13x</m> is <m>-4x</m> and <m>-9x</m>, so we write these in the empty areas.
+          <figure>
+            <caption>Second area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$6x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {$-4x$}; % upper right area
+                    \node at (1,0.75) {$-9x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Next, we label the side lengths.
+          <ul>
+            <li>
+              <p>
+                The upper vertical side is the greatest common factor of <m>6x^2</m> and <m>-4x</m>, which is <m>2x</m>.       
+              </p>
+            </li>
+            <li>
+              <p>
+                The lower vertical side is the greatest common factor of <m>-9x</m> and <m>6</m>, which is <m>3</m>, but from the structure of signs in <m>6x^2 - 13x + 6</m>, the side will need to be labeled <m>-3</m>..
+              </p>
+            </li>
+            <li>
+              <p>
+                The left horizontal side is the greatest common factor of <m>6x^2</m> and <m>-9x</m>, which is <m>3x</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The right horizontal side is the greatest common factor of <m>-4x</m> and <m>6</m>, which is <m>2</m>, but due to the signs, the side will be labeled <m>-2</m>.
+              </p>
+            </li>
+          </ul>
+          <figure>
+            <caption>Final area diagram</caption>
+            <image width="30%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$4x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {$-4x$}; % upper right area
+                    \node at (1,0.75) {$-9x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$2x$}; % 2nd vertical side
+                    \node at (-.5,0.75) {$-3$}; % 2nd vertical side
+                    \node at (1,3.25) {$3x$};
+                    \node at (3,3.25) {$-2$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Based on the labeled side lengths, we have a geometric representation of <m>(2x-3)(3x-2)</m>, and this is our factorization of <m>6x^2 - 13x + 6</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          To apply <xref ref="diamond-method-general" />, we draw the diamond diagram with <m>AC = 6 \cdot 6 = 36</m> at the top and <m>B = -13</m> at the bottom.
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$36$};
+                    \node at (0,-.8) {$-13$};
+                    \node at (-.8, 0) {};
+                    \node at (.8, 0) {};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>`
+          </figure>
+          We are looking for pairs of numbers that multiply to <m>36</m> and add to <m>-13</m>, so both factors need to be negative.
+          Here are the pairs of factors of <m>36</m> that are both negative:
+          <ul>
+            <li>
+              <p>
+                <m>-1</m> and <m>-36</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-2</m> and <m>-18</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-3</m> and <m>-12</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-4</m> and <m>-9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-6</m> and <m>-6</m>
+              </p>
+            </li>
+          </ul>
+          The pair that adds to <m>-13</m> is <m>-4</m> and <m>-9</m>. So, we consider the expression <m>-4x-9x</m>, but we intentionally do not collect like terms yet,
+          instead adding this to the original expression's first term <m>6x^2</m> and last term <m>6</m> to get four terms, though for convenience we reordered the terms so that the quadratic term is first,
+          the two linear terms in the middle, and the constant term last:
+          <me>6x^2 - 4x - 9x + 6.</me>
+          Applying Factoring by Grouping,
+          <m>6x^2 - 4x - 9x + 6 = (6x^2 - 4x) + (-9x + 6) = 2x(3x - 2) - 3(3x - 2) = (2x - 3)(3x - 2).</m>
+        </p>
+      </answer>
+
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Factor <m>6x^2-7x-20</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Our drawing starts with the upper left area labeled <m>6x^2</m> and the lower right area labeled <m>-20</m>.
+          <figure>
+            <caption>Initial area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$6x ^2$};
+                    \node at (3,0.75) {$-20$};
+                    \node at (3, 2.25) {}; % upper right area
+                    \node at (1,0.75) {}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Let's write pairs of factors that multiply to <m>ACx^2 = (6)(-20)x^2 = -120x^2</m> where each factor contains an <m>x</m>. 
+          In addition, because <m>-120x^2</m> has a negative coefficient, the factors must have opposite signs.
+          The fact that the linear term <m>-7x</m> has a negative coefficient means that the bigger coeffcient must be negative.
+          So, we don't write the pair <m>-1x</m> with <m>120x</m>. In fact, let's instead start with <m>-120x</m> and <m>1x</m>
+          <ul>
+            <li>
+              <p>
+                <m>-120x</m> and <m>1x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-60x</m> and <m>2x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-40x</m> and <m>3x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-24x</m> and <m>5x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-20x</m> and <m>6x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-15x</m> and <m>8x</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>-12x</m> and <m>10x</m>
+              </p>
+            </li>
+          </ul>
+          The pair that adds to <m>-13x</m> is <m>-15x</m> and <m>8x</m>, so we write these in the empty areas.
+          <figure>
+            <caption>Second area diagram</caption>
+            <image width="25%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$6x^2$};
+                    \node at (3,0.75) {$-20$};
+                    \node at (3, 2.25) {$-15x$}; % upper right area
+                    \node at (1,0.75) {$8x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {};
+                    \node at (1,3.25) {};
+                    \node at (-.5,0.75) {}; % 2nd vertical side
+                    \node at (3,3.25) {}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          Next, we label the side lengths.
+          <ul>
+            <li>
+              <p>
+                The upper vertical side is the greatest common factor of <m>6x^2</m> and <m>-15x</m>, which is <m>3x</m>      
+              </p>
+            </li>
+            <li>
+              <p>
+                The lower vertical side is the greatest common factor of <m>8x</m> and <m>-20</m>, which is <m>4</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The left horizontal side is the greatest common factor of <m>6x^2</m> and <m>8x</m>, which is <m>2x</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The right horizontal side is the greatest common factor of <m>-15x</m> and <m>-20</m>, which is <m>-5</m>
+              </p>
+            </li>
+          </ul>
+          <figure>
+            <caption>Final area diagram</caption>
+            <image width="30%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (0,0) rectangle (4,3);
+                    \draw (2,0) -- (2,3);
+                    \draw (0,1.5) -- (4,1.5);
+                    \node at (1,2.25) {$4x^2$};
+                    \node at (3,0.75) {$6$};
+                    \node at (3, 2.25) {$-4x$}; % upper right area
+                    \node at (1,0.75) {$-9x$}; % lower left area
+                    %
+                    \node at (-.5,2.25) {$3x$}; % 2nd vertical side
+                    \node at (-.5,0.75) {$4$}; % 2nd vertical side
+                    \node at (1,3.25) {$2x$};
+                    \node at (3,3.25) {$-5$}; % 2nd horizontal side
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+          </figure>
+          One potential confusion is if we should have <m>(3x+4)(2x-5)</m> or <m>(3x-4)(2x+5)</m>.
+          To resolve, we can check by expanding. In addition, the placement of minus signs can usually be argued by examining the areas to determine which sides should have a minus sign.
+          Based on the labeled side lengths, we have a geometric representation of <m>(3x+4)(2x-5)</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          To apply <xref ref="diamond-method-general" />, we draw the diamond diagram with <m>AC = (6)(-20) = -120</m> at the top and <m>B = -7</m> at the bottom.
+          <figure>
+            <caption>Initial diamond figure</caption>
+            <image width="15%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw (-1,-1) -- (1,1);
+                    \draw (-1,1) -- (1,-1);
+                    \node at (0,.8) {$-120$};
+                    \node at (0,-.8) {$-7$};
+                    \node at (-.8, 0) {};
+                    \node at (.8, 0) {};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>`
+          </figure>
+          We are looking for pairs of numbers that multiply to <m>-120</m> and add to <m>-7</m>, so the factors must have opposite signs, with the number of greater weight being negative.
+          <ul>
+            <li>
+              <p>
+                <m>1</m> and <m>-120</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>2</m> and <m>-60</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>3</m> and <m>-40</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>4</m> and <m>-30</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>5</m> and <m>-24</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>6</m> and <m>-20</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>8</m> and <m>-15</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>10</m> and <m>-12</m>
+              </p>
+            </li>
+          </ul>
+          The pair that adds to <m>-7</m> is <m>8</m> and <m>-15</m>. We factor
+          <me>6x^2 + 8x - 15x - 20.</me>
+          Applying Factoring by Grouping,
+          <m>6x^2 + 8x - 15x - 20 = (6x^2 + 8x) + (-15x - 20) = 2x(3x + 4) - 5(3x + 4) = (2x - 5)(3x + 4).</m>
+        </p>
+      </answer>
+
+    </example>
+    <p>
+      Now that this is our third example, we point out that, in the last answer of the last example, someone may have listed the two numbers <m>8</m> and <m>-15</m> in reverse order, in which case 
+      they likely would be looking at factoring
+      <me>6x^2 - 15x + 8x - 20.</me>
+      This is perfectly acceptable, and when we apply Factoring by Grouping, we get
+      <m>6x^2 - 15x + 8x - 20 = (6x^2 - 15x) + (8x - 20) = 3x(2x - 5) + 4(2x - 5) = (3x + 4)(2x - 5),</m>
+      which is the same final result as before, just with the two factors in reverse order.
+    </p>
 
   </subsection>
 
@@ -3166,17 +3835,24 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            When asked to factor, be sure to factor completely.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            To factor quadratics, in the case of a quadratic coefficient of <m>A=1</m>, 
+            there is a shortcut method that establishes the signs first and allows us to then only think about placing positive numbers, with the signs already in place.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            More generally, the Diamond Method and the Geometric Method for factoring both address quadratics with any quadratic coefficient, including <m>A=1</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When asked to factor an expression with four terms, please consider using Factoring by Grouping.
+            Though this technique is not guaranteed to work, it is often the right tool when there are four terms.
           </p>
         </li>
       </ol>
@@ -3187,42 +3863,72 @@
   <subsection>
 		<title>Exercises</title>
 
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
+    <!--
+    Construct 25 factoring exercises. Techniques that may be included employ factoring a^2-b^2=(a+b)(a-b) and a^2+2ab+b^2=(a+b)^2 and a^2-2ab+b^2=(a-b)^2. In addition, exercises should include factoring by grouping as well as factoring out the GCF from all terms present, such as x^5 + 2x^4 + x^3. Combining these factoring techniques should be included in the harder questions that appear towards the end. Do not include any problems that require the factoring formulas for a^3+b^3 or for a^3-b^3. In other words, the only way that cubics or higher should appear would be for problems involving Factoring by Grouping or factoring out the GCF from all terms present.
+    -->  
     <p>
       <ol>
 
         <li>
           <p>
-            Text.
+            Factor each expression.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+<li><p><m>6x + 9</m></p></li>
+<li><p><m>x^2 + 6x + 9</m></p></li>
+<li><p><m>x^2 - 16</m></p></li>
+<li><p><m>3x^2 + 12x</m></p></li>
+<li><p><m>x^2 + 10x + 25</m></p></li>
+<li><p><m>9x^2 - 25</m></p></li>
+<li><p><m>x^2 - 2x + 1</m></p></li>
+<li><p><m>4x^2 - 9</m></p></li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Factor each quadratic, applying the sign structure method, the diamond method, and the geometric method.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+<li><p><m>x^2 + 5x + 6</m></p></li>
+<li><p><m>x^2 + 7x + 10</m></p></li>
+<li><p><m>x^2 + 9x + 14</m></p></li>
+<li><p><m>x^2 + 2x - 15</m></p></li>
+<li><p><m>x^2 - 3x - 28</m></p></li>
+<li><p><m>x^2 - 10x + 24</m></p></li>
+<li><p><m>x^2 + 11x + 18</m></p></li>
+<li><p><m>x^2 - 5x + 6</m></p></li>
+<li><p><m>x^2 + 8x + 12</m></p></li>
+<li><p><m>x^2 - 9x + 20</m></p></li>
+<li><p><m>x^2 + 3x - 18</m></p></li>
+<li><p><m>x^2 - 6x - 16</m></p></li>
+<li><p><m>x^2 + 12x + 35</m></p></li>
+<li><p><m>x^2 - 7x + 10</m></p></li>
+<li><p><m>x^2 + 4x - 21</m></p></li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Factor each expression.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+<li><p><m>2x^3 + 4x^2</m></p></li>
+<li><p><m>x^2 - 49</m></p></li>
+
+<li><p><m>3x^2 + 6x + 3</m></p></li>
+<li><p><m>x^4 - 16</m></p></li>
+<li><p><m>x^2 + 14x + 49</m></p></li>
+<li><p><m>8x^2 - 18</m></p></li>
+<li><p><m>x^3 + 3x^2 + 2x</m></p></li>
+<li><p><m>4x^2 + 12x + 9</m></p></li>
+<li><p><m>9x^4 - 4y^4</m></p></li>
+<li><p><m>2x^2 + 10x + 12</m></p></li>
+<li><p><m>x^3 - 2x^2 - 3x + 6</m></p></li>
+<li><p><m>a^4 - 81b^4</m></p></li>
+
+<li><p><m>3x^3 + 6x^2 + 2x + 4</m></p></li>
+<li><p><m>x^4 + 2x^3 + x^2</m></p></li>
+<li><p><m>4x^2 - 12x + 9</m></p></li>
+<li><p><m>2x^3 - 4x^2 - 3x + 6</m></p></li>
+<li><p><m>x^5 + 2x^4 + x^3</m></p></li>
             </ol>
           </p>
         </li>

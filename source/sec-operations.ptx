@@ -1414,7 +1414,7 @@
     </answer>
   </example>
 
-  <warning>
+  <warning xml:id="factoring-missing-1-inside-parentheses">
     <p>
       When factoring <m>9x + 9</m> it is common to make the mistake of saying that this expression is equal to <m>9(x)</m> instead of <m>9(x + 1)</m>.
       When we see <m>9x+9</m>, to successfully factor out a <m>9</m> we will write an expression in the format <m>9(? + ?)</m>, 
