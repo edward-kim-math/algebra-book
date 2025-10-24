@@ -3067,15 +3067,15 @@
     <example>
       <statement>
         <p>
-          Factor <m>p^3−3p^2−4p+12</m>
+          Factor <m>p^3-3p^2-4p+12</m>.
         </p>
       </statement>
       <answer>
         <p>
-          <m>p^3−3p^2−4p+12 = (p^3−3p^2)−(4p−12) = p^2(p−3)−4(p−3) = (p^2−4)(p−3)</m>
+          <m>p^3-3p^2-4p+12 = (p^3-3p^2)-(4p-12) = p^2(p-3)-4(p-3) = (p^2-4)(p-3)</m>
           However, our work is not complete, because we can factor <m>p^2-4</m> further:
-          <m>(p^2−4)(p−3) = (p+2)(p−2)(p−3)</m>.
-          Putting all our work together, we have <m>p^3-3p^2−4p+12 = p^2(p-3)-4(p-3)= (p^2-4)(p-3) = (p+2)(p−2)(p−3)</m>.
+          <m>(p^2-4)(p-3) = (p+2)(p-2)(p-3)</m>.
+          Putting all our work together, we have <m>p^3-3p^2-4p+12 = p^2(p-3)-4(p-3)= (p^2-4)(p-3) = (p+2)(p-2)(p-3)</m>.
         </p>
       </answer>
     </example>

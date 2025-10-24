@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix-factoring-and-expansion-revisited" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Factoring and Expansion Revisited</title>
+
+  <p>
+    Some portions of this appendix rely on content from <xref ref="sec-exponents" /> on radicals and <xref ref="sec-factoring-and-expansion" /> on factoring and expansion.
+    This material can be skipped if there is a time constraint, and without any significant loss in the essence of algebra as a whole.
+    This appendix is currently UNDER CONSTRUCTION, and below we see some sample problems that will be included in the final version.
+  </p>
+
+  <p>
+    Rationalize the denominator of <m>\frac{2}{\sqrt{7}}</m>.
+  </p>
+
+  <p>
+    Rationalize the denominator of <m>\frac{2}{\sqrt[3]{7}}</m>.
+  </p>
+
+  <p>
+    Rationalize the denominator of <m>\frac{2}{10-\sqrt{7}}</m>.
+  </p>
+
+  <p>
+    Factor <m>c^2 + 8</m>.
+  </p>
+
+  <p>
+    Factor <m>c^2 - 8</m>.
+  </p>
+
+</appendix>

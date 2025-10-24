@@ -5,6 +5,8 @@
 
   <!-- <xi:include href="peer-instruction.ptx" /> -->
 
+  <xi:include href="appendix-factoring-and-expansion-revisited.ptx" />
+
   <solutions divisional="hint">
     <title>Selected Hints</title>
   </solutions>
