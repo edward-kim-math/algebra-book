@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix-gcf-lcm" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Details on GCF and LCM</title>
+
+  <p>
+    The roles of greatest common factor (GCF) and least common multiple (LCM) appear in various contexts in algebra.
+    For this reason, we will start by reviewing how to find the GCF and LCM of two expressions, starting with integers, and moving to more complex algebraic expressions, including expressions
+    which require factoring techniques from <xref ref="sec-factoring-and-expansion" />, and oddly, some forms of factoring require GCF computations.
+    Then, we will discuss how GCF and LCM are used in algebraic contexts.
+    This appendix is currently UNDER CONSTRUCTION, and below we see some sample problems (and topics) that will be included in the final version.
+  </p>
+
+  <p>
+    Explain GCF and LCM for integers.
+  </p>
+
+  <p>
+    Explain GCF and LCM for contexts such as <m>15x^2y</m> with <m>6xy^5</m>.
+  </p>
+
+  <p>
+    Factor out the GCF from <m>15x^2y + 6xy^5</m>.
+  </p>
+
+  <p>
+    Articulate the connection between the GCF and simplifying <m>\frac{15x^2y}{6xy^5}</m>.
+  </p>
+
+  <p>
+    Use the LCM to rewrite <m>\frac{1}{15x^2y} + \frac{1}{6xy^5}</m> as a single fraction.
+  </p>
+
+  <p>
+    Write an equation equivalent to <m>\frac{1}{15x^2y} + \frac{1}{6xy^5} = 1</m> without fractions.
+  </p>
+
+</appendix>

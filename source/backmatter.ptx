@@ -5,7 +5,14 @@
 
   <!-- <xi:include href="peer-instruction.ptx" /> -->
 
+  <xi:include href="appendix-gcf-lcm.ptx" />
   <xi:include href="appendix-factoring-and-expansion-revisited.ptx" />
+
+  <!-- 
+  <appendix>
+    <title>List of Symbols</title>
+    <notation-list />
+  </appendix>
 
   <solutions divisional="hint">
     <title>Selected Hints</title>
@@ -15,11 +22,6 @@
     <title>Selected Solutions</title>
   </solutions>
 
-  <appendix>
-    <title>List of Symbols</title>
-    <notation-list />
-  </appendix>
-
   <index>
     <title>Index</title>
     <index-list />
@@ -28,5 +30,8 @@
   <colophon>
     <p> This book was authored in <pretext />. </p>
   </colophon>
+
+  -->
+  
 </backmatter>
 

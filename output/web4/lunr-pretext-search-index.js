@@ -4231,58 +4231,22 @@ var ptx_lunr_docs = [
   "body": " Expressions and Equations Revisited  Expressions about percents (percentages, transfer bonuses) Equations about percents Systems of equations Distance, rate, time (solve using one variable, solve using two variables) Mixture problems (one var, two var) Literal equations (multiple variables) Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.  A flight requires 12,500 miles, but your credit card offers a 10% bonus when transferring. How many miles should you transfer to meet the requirement while taking advantage of the transfer bonus?  "
 },
 {
+  "id": "appendix-gcf-lcm",
+  "level": "1",
+  "url": "appendix-gcf-lcm.html",
+  "type": "Appendix",
+  "number": "A",
+  "title": "Details on GCF and LCM",
+  "body": " Details on GCF and LCM  The roles of greatest common factor (GCF) and least common multiple (LCM) appear in various contexts in algebra. For this reason, we will start by reviewing how to find the GCF and LCM of two expressions, starting with integers, and moving to more complex algebraic expressions, including expressions which require factoring techniques from , and oddly, some forms of factoring require GCF computations. Then, we will discuss how GCF and LCM are used in algebraic contexts. This appendix is currently UNDER CONSTRUCTION, and below we see some sample problems (and topics) that will be included in the final version.  Explain GCF and LCM for integers.  Explain GCF and LCM for contexts such as with .  Factor out the GCF from .  Articulate the connection between the GCF and simplifying .  Use the LCM to rewrite as a single fraction.  Write an equation equivalent to without fractions.  "
+},
+{
   "id": "appendix-factoring-and-expansion-revisited",
   "level": "1",
   "url": "appendix-factoring-and-expansion-revisited.html",
   "type": "Appendix",
-  "number": "A",
+  "number": "B",
   "title": "Factoring and Expansion Revisited",
   "body": " Factoring and Expansion Revisited  Some portions of this appendix rely on content from on radicals and on factoring and expansion. This material can be skipped if there is a time constraint, and without any significant loss in the essence of algebra as a whole. This appendix is currently UNDER CONSTRUCTION, and below we see some sample problems that will be included in the final version.  Rationalize the denominator of .  Rationalize the denominator of .  Rationalize the denominator of .  Factor .  Factor .  "
-},
-{
-  "id": "backmatter-3",
-  "level": "1",
-  "url": "backmatter-3.html",
-  "type": "Appendix",
-  "number": "B",
-  "title": "Selected Hints",
-  "body": " Selected Hints  "
-},
-{
-  "id": "backmatter-4",
-  "level": "1",
-  "url": "backmatter-4.html",
-  "type": "Appendix",
-  "number": "C",
-  "title": "Selected Solutions",
-  "body": " Selected Solutions  "
-},
-{
-  "id": "backmatter-5",
-  "level": "1",
-  "url": "backmatter-5.html",
-  "type": "Appendix",
-  "number": "D",
-  "title": "List of Symbols",
-  "body": " List of Symbols   "
-},
-{
-  "id": "backmatter-6",
-  "level": "1",
-  "url": "backmatter-6.html",
-  "type": "Index",
-  "number": "",
-  "title": "Index",
-  "body": " Index   "
-},
-{
-  "id": "backmatter-7",
-  "level": "1",
-  "url": "backmatter-7.html",
-  "type": "Colophon",
-  "number": "",
-  "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
 }
 ]
 
