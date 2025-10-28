@@ -499,6 +499,35 @@
       </answer>
     </example>
 
+    <example xml:id="first-perhaps-unequal">
+      <statement>
+        <p>
+          Based only on the Order of Operations, are <m>(x-y) \cdot z</m> and <m>x - y \cdot z</m> equal or do we not have enough information?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              In the first expression <m>(x-y) \cdot z</m>, 
+              we perform the subtraction <m>x - y</m> first because the subtraction is in parentheses. 
+              Then we perform the multiplication of the result and <m>z</m> to get <m>(x - y) \cdot z</m>.
+            </li>
+            <li>
+              In the second expression <m>x - y \cdot z</m>, there are no parentheses.
+              We perform the multiplication <m>y \cdot z</m> first.
+              Then we perform the subtraction of <m>x</m> and <m>y \cdot z</m> to get <m>x - y \cdot z</m>.
+            </li>
+          </ul>
+        In the first expression, we perform the subtraction first, and then the multiplication next. 
+        In the second expression, we perform the multiplication first, and then the subtraction next. 
+        Based only on the Order of Operations, we do not have enough information to determine if the two expressions are equal.
+        (These expressions might be equal or they might not, but we cannot determine this based only on the Order of Operations.
+        If these expressions happened to be equal, this would have to be explained by something <em>other</em> than the Order of Operations.)
+        </p>
+      </answer>
+    </example>
+
     <example>
       <statement>
         <p>
@@ -683,7 +712,7 @@
       </p>
     </example>  
 
-    <definition>
+    <definition xml:id="definition-product-factor">
       <statement>
         <p>
           An expression that is the result of multiplying two or more expressions together is called a <term>product</term>.
@@ -746,6 +775,64 @@
         </p> 
       </answer> 
     </example>
+
+
+    <p>
+      For our next two examples, let's analyze the expressions which appeared in <xref ref="first-perhaps-unequal" />.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Is <m>(x-y) \cdot z</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Because the final operation that occurs is multiplication, the expression <m>(x-y) \cdot z</m> is a product.
+          The two factors in this product are <m>(x-y)</m> and <m>z</m>.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Is <m>x - y \cdot z</m> a sum, a product, or neither? If it is a sum, what are the terms? If it is a product, what are the factors?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Because the final operation that occurs is subtraction, the expression <m>x - y \cdot z</m> is a sum.
+          The two terms in this sum are <m>x</m> and <m>y \cdot z</m>.
+          (Though the question didn't ask this, if we zoom in on the second term <m>y \cdot z</m>, we see that it is a product with factors <m>y</m> and <m>z</m>.)
+        </p>
+      </answer>
+    </example>
+    <note xml:id="factor-of-what">
+      <p>
+        When we say an expressions is a <emph>factor</emph>, we should be clear what it is a factor <emph>of</emph>.
+        <ul>
+          <li>
+            <p>
+              <m>z</m> is a factor of the product <m>y \cdot z</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>z</m> is a not factor of the entire expression <m>x - y \cdot z</m>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        For clarification, in the last example which had <m>x - y \cdot z</m>, 
+        we would say that <m>z</m> is a factor of the product <m>y \cdot z</m> which came from <emph>part</emph> of the expression, 
+        but we would not say that <m>z</m> is a factor of the entire expression <m>x - y \cdot z</m>.
+      </p>
+      <p>
+        Similarly (and using an expression of the same format), <m>2</m> is not a factor of <m>x - 4 \cdot 2</m>, but <m>2</m> is a factor of <m>4 \cdot 2</m>.
+      </p>
+    </note>
 
   </subsection>
 
@@ -1360,6 +1447,24 @@
       </p>
     </answer>
   </example>
+
+  <principle xml:id="principle-factoring-produces-factors">
+    <title>Factoring Produces Factors</title>
+    <statement>
+      <p>
+        The process of factoring produces factors.
+        Recall from <xref ref="definition-product-factor" /> that a factor is a piece of a product.
+        Even in the example we just did, we ended with the expression <m>4(c+d)</m> which is equal to the original expression <m>4c+4d</m>.
+        In the new expression, <m>4</m> is a factor and <m>(c+d)</m> is a factor, since these are the pieces of the multiplication in the product <m>4 \cdot (c+d)</m>.
+      </p>
+      <p>
+        In short, <emph>factoring</emph> creates <emph>factors</emph>.
+      </p>
+    </statement>
+  </principle>
+  <p>
+    This principle that factoring produces factors will be useful in the future, because there will be many times that we will need factors to further our mathematics.
+  </p>
 
   <example>
     <statement>

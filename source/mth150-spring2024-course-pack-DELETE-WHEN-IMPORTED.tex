@@ -283,38 +283,8 @@ Consider the expression $\frac2{3x}$.
 \vskip10pt
 
 
-\begin{exm}
-State the factors of $6xy$
-\end{exm}
-\vskip30pt
-
-\begin{exm}
-State the factors of $3x^2$
-\end{exm}
-\vskip30pt
-
-\begin{exmref}\label{3xsquared6xycommonfactors}
-What are the common factors of $3x^2$ and $6xy$? What is the greatest common factor of $3x^2$ and $6xy$?
-\end{exmref}
-\vskip30pt
-
-
-\begin{bconcept}{Factoring produces factors}{factor-factor}
-The process of factoring results in having factors (things that are multiplied together).
-\end{bconcept}
-\begin{exm}
-Factor $36$
-\end{exm}
-
-% NEXT TIME, more robust GCD, LCM
-% NEXT TIME: integer exponents
-
-
 There are two ways to compute the entire area. First, the large rectangle has one side length of $a$, and due to the fact that the picture form of adding is ``gluing sticks together'' the other side length of the big rectangle is $b+c$. So, the area of the big rectangle is the product of these side lengths, namely $a(b+c)$. The other way to compute the big area is to add the areas of the two smaller rectangles: the rectangle on the left has area $ab$ and the rectangle on the right has area $ac$. So, the combined area is $ab+ac$. Setting equal the two different ways we computed the same area, $a(b+c)=ab+ac$.
 
-
-
-%
 %\subsection{Showing a formula is false}
 %
 %Unlike showing that a formula is true where you should \emph{not} plug in numbers (with the exception of the exponential formulas as mentioned earlier), when showing a formula is false, you \emph{must} plug in numbers and show the left and right side are not equal. (Simplify using the order of operations: never use the formula in question.)
@@ -334,11 +304,6 @@ There are two ways to compute the entire area. First, the large rectangle has on
 %I don't want you to trust in the arrows that you might draw yourself, or that someone else might. This is faulty reasoning and I don't want you to convince yourself that $(x+y)^n=x^n+y^n$ is true, because $(x+y)^n=x^n+y^n$ is actually false. Why is $(x+y)^n=x^n+y^n$ false? If we chose $x=3$ and $y=4$ and $n=2$, then the left side is $(x+y)^n=(3+4)^2=7^2=49$ if we simplify using the order of operations\footnote{Be sure to simplify using the order of operations: it is too tempting to write $(3+4)^2$, followed by an equal sign, followed by $3^2+4^2$, but that would be using the formula $(x+y)^n=x^n+y^n$ to try to prove $(x+y)^n=x^n+y^n$ itself. That's circular reasoning.}, and the right side is $x^n+y^n=3^2+4^2=9+16=25$, which is a different number.
 
 
-\begin{exm}
-Factor $3x^2 + 6xy$
-\end{exm}
-{\bf Answer:} We saw in Example~\ref{3xsquared6xycommonfactors} that $3x$ is a common factor of $3x^2$ and $6xy$. So $3x^2+6xy=3x(x+2y)$
-
 Give a geometric explanation why\\ $(a+b)(c+d)=ac+ad+bc+bd$ is true.
 
 
@@ -356,31 +321,6 @@ The way we presented FOIL (\textbf{F}irst, \textbf{O}uter, \textbf{I}nner, \text
 
 
 
-
-
-\section{Factoring}
-Factoring is the opposite of distribution. 
- We have the following properties:
-
-\begin{bformula}{}{}
-$x^2+2xy+y^2=(x+y)(x+y)$
-\end{bformula}
-\begin{bformula}{}{}
-$x^2-2xy+y^2=(x-y)(x-y)$
-\end{bformula}
-\begin{bformula}{Difference of Squares}{difference-of-squares}
-$x^2-y^2=(x+y)(x-y)$ 
-\end{bformula}
-
-Notice that going left to right we are factoring, but going right to left we are distributing.
-
-\begin{bwarning}{}{}
-$(x+y)^2 \not= x^2+y^2$
-\end{bwarning}
-Instead, $(x+y)^2 = x^2+2xy+y^2$.
-
-%\newpage
-
 \everymath{\displaystyle}
 \begin{exm}{}Factor $x^2 + 10x+ 21$
 \end{exm}\vskip10pt
@@ -391,71 +331,6 @@ Instead, $(x+y)^2 = x^2+2xy+y^2$.
 \begin{exm}{}Factor $4x^2-12x+9$
 \end{exm}\vskip10pt
 
-
-\begin{exm}
-Factor $x^3+5x^2-14x$
-\end{exm}
-\begin{exm}
-Factor $4x^3-12x^2+5x-15$
-\end{exm}
-
-
-\newcommand{\fraction}[2]{
-	\pgfmathsetmacro{\last}{#2-1}
-	\foreach \i in {0,...,\last}
-	{
-		\ifthenelse{\i < #1}
-			{\draw[ultra thick,fill=blue!70] (0,0) -- (\i*360/#2:2) arc (\i*360/#2:(1+\i)*360/#2:2) -- cycle;}
-			{\draw[ultra thick,fill=black!10] (0,0) -- (\i*360/#2:2) arc (\i*360/#2:(1+\i)*360/#2:2) -- cycle;}
-		\pgfmathsetmacro{\filled}{\i};
-	}
-}
-
-
-\begin{exm}
-SAVE this for AFTER quadratic factoring
-Simplify $\frac{x-5}{x^2-25}$
-\end{exm}
-
-When multiplying two fractions, just multiply straight across, just as we saw in Formula~\ref{formula:multiplying-fractions}. We still do this, even when there are variables in fractions:
-	\begin{align*}\frac{(x+2)}{(2x-3)}\cdot \frac{(2x^2-3x)}{(x^2-4)}&=  \frac{(x+2)(2x^2-3x)}{(2x-3)(x^2-4)}\\
-	&=  \frac{(x+2)x(2x-3)}{(2x-3)(x-2)(x+2)}\\
-	&= \frac{\cancel{(x+2)}x\cancel{(2x-3)}}{\cancel{(2x-3)}(x-2)\cancel{(x+2)}}\\
-	&=\frac{x}{x-2}\\
-	\end{align*}
-
-When dividing two fraction expressions, ``flip and multiply'', as we saw in Formula~\ref{formula:dividing-fractions}:	
-	\begin{align*}\frac{4x^2-9}{2x^2+7x+6}\div&\frac{27x^4+8x}{9x^4-6x^3+4x^2}=\frac{4x^2-9}{2x^2+7x+6}\cdot\frac{9x^4-6x^3+4x^2}{27x^4+8x}\\
-	&=\frac{(4x^2-9)(9x^4-6x^3+4x^2)}{(2x^2+7x+6)(27x^4+8x)}\\
-	&=\frac{(2x-3)(2x+3)x^2(9x^2-6x+4)}{(2x^2+7x+6)x(27x^3+8)}\\
-	&=\frac{(2x-3)(2x+3)x^2(9x^2-6x+4)}{(2x+3)(x+2)x(3x+2)(9x^2-6x+4)}\\
-	&=\frac{(2x-3)\cancel{(2x+3)}x^{\cancelto{1}{2}}\cancel{(9x^2-6x+4)}}{\cancel{(2x+3)}(x+2)\cancel{x}(3x+2)\cancel{(9x^2-6x+4)}}\\
-	&=\frac{(2x-3)x}{(x+2)(3x+2)}\\
-	\end{align*}
-
-When adding or subtracting two fractional expressions, remember to get a common denominator, as we saw in Formula~\ref{formula:adding-fractions}:
-	\begin{align*}\frac{t}{t+3}+\frac{4t}{t-3}-\frac{18}{t^2-9}&=\frac{t}{t+3}\cdot\frac{t-3}{t-3}+\frac{4t}{t-3}\cdot\frac{t+3}{t+3}-\frac{18}{t^2-9}\\
-	&=\frac{t(t-3)}{t^2-9}+\frac{4t(t+3)}{t^2-9}-\frac{18}{t^2-9}\\
-	&=\frac{t(t-3)+4t(t+3)-18}{t^2-9}\\
-	&=\frac{t^2-3t+4t^2+12t-18}{t^2-9}\\
-		&=\frac{5t^2+9t-18}{t^2-9}\\
-	\end{align*}
-
- %\newpage
-\everymath{\displaystyle}
-\begin{exm}{Simplify $\frac{4}{(5s-2)^2}+\frac{s}{5s-2}$.}
-\end{exm}\vskip10pt
-
-\begin{exm}{Simplify $\frac{4x+12}{x^2+6x+9}+\frac{5x}{x^2-9}+\frac{7}{x-3}$.}
-\end{exm}\vskip10pt
-
-%\newpage
-\everymath{\displaystyle}
-\begin{exm}{Simplify $\frac{\frac{r}{s}+\frac{s}{r}}{\frac{r^2}{s^2}-\frac{s^2}{r^2}}$.}
-\end{exm}\vskip10pt
-
-\begin{exm}{Simplify $\frac{\frac{1}{x+h}-\frac{1}{x}}{h}$.}
-\end{exm}\vskip10pt
 
 
 

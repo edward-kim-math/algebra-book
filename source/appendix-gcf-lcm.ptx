@@ -35,4 +35,53 @@
     Write an equation equivalent to <m>\frac{1}{15x^2y} + \frac{1}{6xy^5} = 1</m> without fractions.
   </p>
 
+
+<example xml:id="ex-factors-6xy">
+  <statement>
+    <p>State the factors of <m>6xy</m>.</p>
+  </statement>
+</example>
+
+<example xml:id="ex-factors-3x2">
+  <statement>
+    <p>State the factors of <m>3x^2</m>.</p>
+  </statement>
+</example>
+
+<example xml:id="ex-common-factors-3x2-6xy">
+  <statement>
+    <p>
+      What are the common factors of <m>3x^2</m> and <m>6xy</m>? 
+      What is the greatest common factor of <m>3x^2</m> and <m>6xy</m>?
+    </p>
+  </statement>
+</example>
+
+<definition xml:id="def-factoring-produces-factors" key="factor-factor">
+  <title>Factoring produces factors</title>
+  <statement>
+    <p>
+      The process of factoring results in having factors (things that are multiplied together).
+    </p>
+  </statement>
+</definition>
+
+<example xml:id="ex-factor-36">
+  <statement>
+    <p>Factor <m>36</m>.</p>
+  </statement>
+</example>
+
+<example xml:id="ex-factor-3x2plus6xy">
+  <statement>
+    <p>Factor <m>3x^2 + 6xy</m>.</p>
+  </statement>
+  <solution>
+    <p>
+      We saw in <xref ref="ex-common-factors-3x2-6xy" /> that <m>3x</m> is a common factor of <m>3x^2</m> and <m>6xy</m>. So <m>3x^2+6xy=3x(x+2y)</m>.
+    </p>
+  </solution>
+</example>
+  
+
 </appendix>

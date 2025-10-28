@@ -138,7 +138,7 @@
           What fraction is equal to <m>\frac13</m> but has <m>6</m> in the denominator? Draw pictures of <m>\frac13</m> and the resulting fraction to convince yourself.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The fraction <m>\frac13</m> represents taking a pizza that has been cut into <m>3</m> equal slices and eating <m>1</m> of those slices.
           <figure>
@@ -179,7 +179,7 @@
           If we step back and ignore where the cuts were made by a pizza cutter, the blue shaded part (representing the eaten pizza) looks to be the same amount in both pictures.
           So <m>\frac13=\frac26</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -188,7 +188,7 @@
           What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? Draw pictures of <m>\frac34</m> and the resulting fraction to convince yourself.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The fraction <m>\frac34</m> represents taking a pizza that has been cut into <m>4</m> equal slices and eating <m>3</m> of those slices.
           <figure>
@@ -230,7 +230,7 @@
             </image>
           </figure>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <!-- Try it -->
@@ -277,7 +277,7 @@
           Using the Equal Fractions formula, What fraction is equal to <m>\frac35</m> but has <m>20</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           To get a denominator of <m>20</m>, we need to multiply the denominator of <m>\frac35</m> by <m>4</m>.
           So we also need to multiply the numerator by <m>4</m>.
@@ -286,7 +286,7 @@
           That said, we may find a future example more complicated and writing the middle step (which <em>indicates</em> multiplication on top and on bottom, but does not <em>simplify</em> the multiplication) is good to practice,
           even in cases where we might not feel we need it.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -295,13 +295,13 @@
           Using the Equal Fractions formula, What fraction is equal to <m>\frac23</m> but has <m>12</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           To get a denominator of <m>12</m>, we need to multiply the denominator of <m>\frac23</m> by <m>4</m>.
           So we also need to multiply the numerator by <m>4</m>.
           <me>\frac23=\frac{2 \cdot 4}{3 \cdot 4}=\frac{8}{12}.</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <warning>
@@ -354,12 +354,12 @@
           What fraction is equal to <m>\frac23</m> but has <m>3x</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to multiply the denominator by <m>x</m>, so we also multiply the numerator by <m>x</m>.
           <me>\frac23 = \frac{2x}{3x}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -368,13 +368,13 @@
           What fraction is equal to <m>\frac23</m> but has <m>3(10x+2)</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to multiply the denominator by <m>(10x+2)</m> so we also multiply the numerator by <m>(10x+2)</m>.
           <me>\frac23=\frac{2(10x+2)}{3(10x+2)}</me>
           Here, if we wanted, we can distribute in both the numerator and denominator. However, we stopped where we did because we wanted to highlight the role of the Equal Fractions formula.
         </p>
-      </solution>
+      </answer>
     </example>
 
 
@@ -384,12 +384,12 @@
           What fraction is equal to <m>\frac{5x}{2y}</m> but has <m>10y</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to multiply the denominator by <m>5</m>, so we also multiply the numerator by <m>5</m>.
           <me>\frac{5x}{2y}=\frac{5 \cdot 5x}{5 \cdot 2y}=\frac{25x}{10y}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -412,7 +412,7 @@
           What fraction is equal to <m>\frac{8}{20}</m> but has <m>5</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The numerator and denominator both have a factor of <m>4</m>. For the first several examples, we will intentionally slow down and rewrite the numerator and denominator in factored form to highlight the common factor,
           which helps highlight exactly the role taken by the <em>Reducing Fractions</em> process we just described.
@@ -421,7 +421,7 @@
           </me>
           We cancelled the common factor of <m>4</m> in the numerator and denominator.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -430,14 +430,14 @@
           What fraction is equal to <m>\frac{12}{27}</m> but has <m>9</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>
             \frac{12}{27}=\frac{4 \cdot 3}{9 \cdot 3}=\frac{4}{9}.
           </me>
           We cancelled the common factor of <m>3</m> in the numerator and denominator.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -446,12 +446,12 @@
           What fraction is equal to <m>\frac{18x}{24y}</m> but has <m>4y</m> in the denominator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{18x}{24y}=\frac{3x \cdot 6}{4y \cdot 6}=\frac{3x}{4y}.</me>
           Now we can cancel the common factor of <m>6</m> in the numerator and denominator.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -460,15 +460,15 @@
           Reduce the fraction <m>\frac{3x^2}{6xy}</m> as much as possible.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{3x^2}{6xy}=\frac{x \cdot 3x}{2y \cdot 3x}=\frac{x}{2y}.</me>
           Now we can cancel the common factor of <m>3x</m> in the numerator and denominator.
         </p>
-      </solution>
+      </answer>
     </example>
 
-    <warning>
+    <warning xml:id="fraction-cannot-cancel-terms">
       <p>
         While we can cancel common <em>factors</em> in a fraction, we cannot cancel common <em>terms</em>.
         In other words, <me>\frac{a + c}{b + c} \not= \frac{a}{b}.</me>
@@ -498,7 +498,7 @@
           Reduce the fraction <m>\frac{20x+60}{14x+30}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           There is a temptation to want to cancel part of the <m>60</m> with the <m>30</m>, but these are terms. We can only cancel factors. First, we rewrite the numerator and denominator in factored form:
           <me>
@@ -506,8 +506,8 @@
           </me>
           We cancelled the common factor of <m>2</m> in the numerator and denominator.
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           You may prefer to factor a larger factor out of the numerator. (Note, we still cannot cancel terms.)
           <me>
@@ -518,7 +518,7 @@
           (In this example, you may feel comfortable skipping the writing the third expression, jumping directly from the second expression to the fourth expression.
           We included the third expression because going from the third expression to the fourth expression highlights the role of the <em>Reducing Fractions</em> process we described earlier.)
         </p>
-      </solution>
+      </answer>
     </example>
 
 
@@ -617,7 +617,7 @@
       </p>
     </warning>
     <p>
-      To show why this warning is here, in <xref ref="fraction5649" />, we saw <m>\frac56+\frac49</m> simplifies to <m>\frac{23}{18}</m> but if we added straight across (using the <q>fake formula</q> meantion in the warning), 
+      To show why this warning is here, in <xref ref="fraction5649" />, we saw <m>\frac56+\frac49</m> simplifies to <m>\frac{23}{18}</m> but if we added straight across (using the <q>fake formula</q> mentioned in the warning), 
       we would have gotten <m>\frac{9}{15}</m>. You can check that <m>\frac{23}{18}</m> and <m>\frac{9}{15}</m> are different answers with a calculator, 
       or without a calculator, we can notice that <m>\frac{23}{18}</m> is greater than <m>1</m>, while <m>\frac{9}{15}</m> is less than <m>1</m>.
     </p>
@@ -628,26 +628,37 @@
           Simplify <m>\frac35 + \frac14</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac35 + \frac14 = \frac{12}{20} + \frac{5}{20} = \frac{12+5}{20} = \frac{17}{20}</me>
           The third expression may be skipped if you feel comfortable, but this is a nice technique to practice in smaller situations (beacuse in some larger situations, it may be harder for us to simplify the addition of the numerators in our head).
           The purpose of showing the second expression <m>\frac{12}{20}+\frac{5}{20}</m> being equal to the third expression <m>\frac{12+5}{20}</m> is also helpful in seeing the Adding Fractions formula apply as literally as possible.
         </p>
-      </solution>
+      </answer>
     </example>    
 
-    <example>
+    <example xml:id="add-fractions-smaller-denominator">
       <statement>
         <p>
           Simplify <m>\frac{3}{10} + \frac{4}{15}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
+          <me>\frac{3}{10} + \frac{4}{15} = \frac{45}{150} + \frac{40}{150} = \frac{45+40}{150} = \frac{85}{150} = \frac{17}{30}</me>
+          For this answer, we multiplied the top and bottom of the first braction by <m>15</m> because this was the second fraction's denominator,
+          and we similarly multiplied the top and bottom of the second fraction by <m>10</m> because this was the first fraction's denominator.
+          This gave us a common denominator of <m>150</m>.
+          The fraction <m>\frac{85}{150}</m> reduced by cancelling a factor of <m>5</m> on top and bottom, giving us the final answer of <m>\frac{17}{30}</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          It turns out that we can do something a little bit easier than multiplying the top and bottom of each fraction by the other fraction's denominator.
+          This will keep the numbers smaller. For the two denominators <m>10</m> and <m>15</m>, we can use the least common multiple of these numbers, which is <m>30</m>.
           <me>\frac{3}{10} + \frac{4}{15} = \frac{9}{30} + \frac{8}{30} = \frac{9+8}{30} = \frac{17}{30}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -660,11 +671,11 @@
           Simplify <m>\frac{2x}{3} + \frac{5x}{4}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{2x}{3} + \frac{5x}{4} = \frac{8x}{12} + \frac{15x}{12} = \frac{8x+15x}{12} = \frac{23x}{12}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -673,7 +684,7 @@
           Simplify <m>\frac{3}{2x^2y} + \frac{5}{4x}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Recall that <m>x^2</m> means <m>x \cdot x</m>. 
           To achieve a common denominator of <m>4x^2y</m>, 
@@ -684,7 +695,7 @@
           the denominator is a product (the result of multiplication) so its pieces (called factors) are <em>eligible</em> to be cancelled,
           but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -693,7 +704,7 @@
           Simplify <m>\frac{4a}{3bcd} + \frac{2b}{5acd^2}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Recall that <m>d^2</m> means <m>d \cdot d</m>. 
           To achieve a common denominator of <m>15abcd^2</m>, 
@@ -702,7 +713,7 @@
           (Be sure to read <m>15abcd^2</m> using the Order of Operations: the exponent does not apply to all variables, just to <m>d</m>.)
           <me>\frac{4a}{3bcd} + \frac{2b}{5acd^2} = \frac{20ad}{15abcd^2} + \frac{6b^2}{15abcd^2} = \frac{20ad + 6b^2}{15abcd^2}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -721,13 +732,13 @@
           Simplify <m>2 + \frac{3}{5}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We rewrite <m>2</m> as <m>\frac{2}{1}</m>.
           Then we can use the Adding Fractions formula, noting that we need a common denominator.
           <me>2 + \frac{3}{5} = \frac{2}{1} + \frac{3}{5} = \frac{10}{5} + \frac{3}{5} = \frac{10+3}{5} = \frac{13}{5}.</me>
         </p>
-      </solution>    
+      </answer>    
     </example>
 
     <example>
@@ -736,12 +747,12 @@
           Simplify <m>\frac27 + 3</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We rewrite <m>3</m> as <m>\frac31</m>.
           <me>\frac27 + 3 = \frac27 + \frac31 = \frac27 + \frac{21}{7} = \frac{2+21}{7} = \frac{23}{7}.</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -761,7 +772,7 @@
           Simplify <m>\frac56 - \frac29</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac56 - \frac29 = \frac{15}{18} - \frac{4}{18} = \frac{15-4}{18} = \frac{11}{18}</me>
           The third expression <m>\frac{15-4}{18}</m> may be skipped if you feel comfortable,
@@ -769,7 +780,7 @@
           from the second expression <m>\frac{15}{18}-\frac{4}{18}</m> 
           to the third expression <m>\frac{15-4}{18}</m> highlights the role of the <em>Subtracting Fractions</em> formula.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -778,7 +789,7 @@
           Simplify <m>\frac{5}{12a} - \frac{3}{8ab}</m> 
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{5}{12a} - \frac{3}{8ab} = \frac{10b}{24ab} - \frac{9a}{24ab} = \frac{10b-9a}{24ab}</me>
           In this example, to achieve a common denominator of <m>24ab</m>, 
@@ -790,7 +801,7 @@
           the denominator is a product (the result of multiplication) so its pieces (called factors) are <em>eligible</em> to be cancelled,
           but the numerator is not a product, and so we cannot cancel any common factors on top and bottom (since the top is not written as a product).
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -799,14 +810,14 @@
           Simplify <m>\frac{4a}{3bc} - \frac{2b}{5ac}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{4a}{3bc} - \frac{2b}{5ac} = \frac{20a^2}{15abc} - \frac{6b^2}{15abc} = \frac{20a^2 - 6b^2}{15abc}</me>
           In this example, to achieve a common denominator of <m>15abc</m>, 
           the top and bottom of the first fraction both got multiplied by <m>5a</m>, 
           while the top and bottom of the second fraction both got multiplied by <m>3b</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     Subtraction that occurs between a fraction and a non-fraction is a lot like addition: turn the non-fraction into a fraction.
@@ -825,12 +836,12 @@
           Simplify <m>8 - \frac{3}{10}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Rewrite <m>8</m> as <m>\frac81</m>.
           <me>8 - \frac{3}{10} = \frac81 - \frac{3}{10} = \frac{80}{10} - \frac{3}{10} = \frac{80-3}{10} = \frac{77}{10}.</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
@@ -850,7 +861,7 @@
           Represent <m>2 \times 3</m> geometrically.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <figure>
             <caption>A picture of <m>2 \times 3</m></caption>
@@ -881,7 +892,7 @@
             </image>
           </figure>          
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -896,7 +907,7 @@
           Represent <m>\frac14 \cdot \frac23</m> geometrically. Use the picture to determine the value of <m>\frac14 \cdot \frac23</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           It can be a little more challenging to represent the area.
           To standardize things, let's copy (to scale) one of the unit squares from the previous example.
@@ -943,7 +954,7 @@
           From our starting square and uncut pizza, the cuts end up creating <m>12</m> equal slices (arranged in <m>4</m> rows and <m>3</m> columns).
           Then the blue rectange (representing the eaten part of the pizza) is made up of <m>2</m> of those <m>12</m> equal slices, so the area of the blue rectangle is <m>\frac{2}{12}</m> which we can reduce to <m>\frac16</m>.
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       This is a profound first example that uses a lot of ideas, so be patient with yourself!
@@ -960,7 +971,7 @@
           Represent <m>\frac15 \cdot \frac34</m> geometrically. Use the picture to determine the value of <m>\frac15 \cdot \frac34</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height <m>\frac15</m> and width <m>\frac34</m>.
           A height of <m>\frac15</m> is achieved by dividing square's height of <m>1</m> into <m>5</m> equal parts (achieved by creating <m>4</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>1</m> of those parts.
@@ -1005,7 +1016,7 @@
           The shaded part represents taking <m>3</m> of those slices.
           Thus, the product is <m>\frac{3}{20}</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example xml:id="example-25-37">
@@ -1014,7 +1025,7 @@
           Represent <m>\frac25 \cdot \frac37</m> geometrically. Use the picture to determine the value of <m>\frac25 \cdot \frac37</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Starting from the exact same size unit square used in the last examples, we draw inside a rectangle with height <m>\frac25</m> and width <m>\frac37</m>.
           A height of <m>\frac25</m> is achieved by dividing square's height of <m>1</m> into <m>5</m> equal parts (achieved by creating <m>4</m> equally-spaced apart cuts in the interior of this line segment) and taking <m>2</m> of those parts.
@@ -1053,7 +1064,7 @@
           The shaded part represents taking <m>6</m> of those slices.
           Thus, the product is <m>\frac{6}{35}</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -1129,11 +1140,11 @@
           Simplify <m>\frac{3}{7} \cdot \frac{10}{11}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{3}{7} \cdot \frac{10}{11} = \frac{3 \cdot 10}{7 \cdot 11} = \frac{30}{77}</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       In the example above, we showed the second expression <m>\frac{3 \cdot 10}{7 \cdot 11}</m> becauuse going from the first expression to the second expression literally highlights the use of the Multiplying Fractions formula.
@@ -1146,17 +1157,17 @@
           Simplify <m>\frac{5}{9} \cdot \frac{4}{7}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{5}{9} \cdot \frac{4}{7} = \frac{5 \cdot 4}{9 \cdot 7} = \frac{20}{63}</m>
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           If we felt comfortable skipping the second expression, our work would look like this:
           <m>\frac{5}{9} \cdot \frac{4}{7} = \frac{20}{63}</m>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -1180,12 +1191,12 @@
           Simplify <m>2 \cdot \frac{3}{5}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We rewrite <m>2</m> as <m>\frac{2}{1}</m>.
           <me>2 \cdot \frac{3}{5} = \frac{2}{1} \cdot \frac{3}{5} = \frac{2 \cdot 3}{1 \cdot 5} = \frac{6}{5}</me>
         </p>
-      </solution>    
+      </answer>    
     </example>
 
     <p>
@@ -1198,7 +1209,7 @@
           Simplify <m>\frac{4}{9} \cdot \frac{3}{8}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{4}{9} \cdot \frac{3}{8} = \frac{12}{72} = \frac{1}{6}</m>
         </p>
@@ -1206,7 +1217,7 @@
           In this example, we reduced the fraction <m>\frac{12}{72}</m> to <m>\frac{1}{6}</m> in the final step.
           (Remember that we can only cancel common <em>factors</em>, not common <em>terms</em>. We canceled a factor of <m>12</m> from the numerator and denominator.)
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -1218,7 +1229,7 @@
           Simplify <m>\frac{4}{9} \cdot \frac{3}{8}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{4}{9} \cdot \frac{3}{8} = \frac{4 \cdot 3}{9 \cdot 8}</m>
         </p>
@@ -1233,7 +1244,7 @@
           This technique can be really helpful especially when simplifying the multiplications in the numerator and/or denominator would lead to large numbers:
           we avoid needing to do large-number multiplication, and also, it can be easier to spot common factors before multiplying.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1242,7 +1253,7 @@
             Simplify <m>\frac{5}{12} \cdot \frac{8}{15}</m>
           </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{5}{12} \cdot \frac{8}{15} = \frac{5 \cdot 8}{12 \cdot 15}</m>
         </p>
@@ -1252,7 +1263,7 @@
         <p>
           <m>\frac{5 \cdot 8}{12 \cdot 15} = \frac{\cancel{4} \cdot \cancel{5} \cdot 2}{\cancel{4} \cdot \cancel{5} \cdot 9} = \frac{2}{9}</m>
         </p>
-      </solution>
+      </answer>
     </example>
     <p>
       Please note that you don't have to do it this way, but it can be convenient.
@@ -1266,7 +1277,7 @@
           Simplify <m>\frac{20}{27} \cdot \frac{9}{14}</m>
         </p>
       </statement>
-        <solution>
+        <answer>
         <p>
           <m>\frac{20}{27} \cdot \frac{9}{14} = \frac{20 \cdot 9}{27 \cdot 14} = \frac{180}{378} = \frac{10}{21}</m>
         </p>
@@ -1275,8 +1286,8 @@
           Then, due to the numbers being large, it takes considerable effort to reduce this fraction to its equal value <m>\frac{10}{21}</m>.
           This solution is completely valid, but the second solution below shows how we can avoid the large-number multiplications by canceling common factors before simplifying the multiplication.
         </p>
-      </solution>
-      <solution>
+      </answer>
+      <answer>
         <p>
           <m>\frac{20}{27} \cdot \frac{9}{14} = \frac{20 \cdot 9}{27 \cdot 14}</m>
         </p>
@@ -1286,7 +1297,7 @@
         <p>
           <m>\frac{20 \cdot 9}{27 \cdot 14} = \frac{\cancel{9} \cdot \cancel{2} \cdot 10}{\cancel{9} \cdot 3 \cdot \cancel{2} \cdot 7} = \frac{10}{21}</m>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1295,7 +1306,7 @@
           Simplify <m>\frac{3ab}{10c} \cdot \frac{55bc}{21a^2}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           First we indicate the multiplication without simplifying:
         </p>
@@ -1314,7 +1325,7 @@
           </m>
           where we rewrote <m>b \cdot b</m> as <m>b^2</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <warning xml:id="warning-multiplying-fractions-does-not-need-common-denominator">
@@ -1385,11 +1396,11 @@
           Simplify <m>\frac{2}{3} \div \frac{5}{7}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{2}{3} \div \frac{5}{7} = \frac{2}{3} \cdot \frac{7}{5} = \frac{14}{15}</m>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1398,7 +1409,7 @@
           Simplify <m>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Although the question didn't write the division symbol <m>\div</m>, the fraction bar indicates division.
           (So we could rewrite the problem as <m>\frac{4}{9} \div \frac{2}{3}</m>, and we'll say this is asking the same question.)
@@ -1406,7 +1417,7 @@
           <me>\frac{\,\frac{4}{9}\,}{\,\frac{2}{3}\,} = \frac{4}{9} \cdot \frac{3}{2} = \frac{12}{18} = \frac{2}{3}.</me>
           From the second-to-last expression to the last expression, we reduced the fraction.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <warning>
@@ -1432,11 +1443,11 @@
           Simplify <m>\frac{\,\frac{3}{4ac}\,}{\,\frac{5b}{6a}\,}</m>
         </p>
         </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{\,\frac{3}{4ac}\,}{\,\frac{5b}{6a}\,} = \frac{3}{4ac} \cdot \frac{6a}{5b} = \frac{18a}{20abc} = \frac{9}{10bc}</me>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -1449,12 +1460,12 @@
           Simplify <m>2 \div \frac{3}{5}</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We rewrite <m>2</m> as <m>\frac{2}{1}</m>. Then:
           <me>2 \div \frac{3}{5} = \frac{2}{1} \div \frac{3}{5} = \frac{2}{1} \cdot \frac{5}{3} = \frac{10}{3}</me>
         </p>
-      </solution>
+      </answer>
     </example>
   </subsection>
 
@@ -1467,7 +1478,7 @@
           Simplify <m>\frac{3}{4} + \frac{2}{5} \cdot \frac{7}{8}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>
             \frac{3}{4} + \frac{2}{5} \cdot \frac{7}{8} = \frac{3}{4} + \frac{14}{40} = \frac{3}{4} + \frac{7}{20} = \frac{15}{20} + \frac{7}{20} = \frac{22}{20} = \frac{11}{10}.
@@ -1476,7 +1487,7 @@
           It is easy to fall into the trap of simplifying addition (that is, working on simplifying <m>\frac34 + \frac25</m>) first, because we see the addition written first.
           However, we still need to read expressions based on the Order of Operations, even if the expression contains fractions.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1485,7 +1496,7 @@
           Simplify <m>\frac{2}{3} - \frac{6}{7} \div \frac{5}{2}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The division must be simplified before the subtraction.
           We turn dividing by <m>\frac52</m> into multiplying by <m>\frac25</m> instead.
@@ -1493,7 +1504,7 @@
             \frac{2}{3} - \frac{6}{7} \div \frac{5}{2} = \frac{2}{3} - \frac{6}{7} \cdot \frac{2}{5} = \frac{2}{3} - \frac{12}{35} = \frac{70}{105} - \frac{36}{105} = \frac{34}{105}.
           </me>          
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1502,7 +1513,7 @@
           Simplify <m>\frac{2}{3x} - \frac{6y}{7} \cdot \frac{1}{2x}</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>
             \frac{2}{3x} - \frac{6y}{7} \cdot \frac{1}{2x} 
@@ -1514,7 +1525,7 @@
           Note that we cannot cancel part of the <m>14</m> with part of the <m>21</m> because <m>14</m> is not a factor of the numerator.
           Similarly, we cannot cancel part of the <m>9</m> with part of the <m>21</m> because <m>9</m> is not a factor of the numerator.
         </p>
-      </solution>
+      </answer>
     </example>    
 
     <example>
@@ -1523,7 +1534,7 @@
           Simplify <m>\frac{2x}{3y} + \frac{\,\frac{3x}{4y}\,}{\,\frac{5y}{6x}\,}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can simplify the division of fractions before simplifying addition:
           <me>
@@ -1538,7 +1549,7 @@
             \frac{20xy + 27x^2y}{30y^2} = \frac{y(20x + 27x^2)}{30y^2} = \frac{20x + 27x^2}{30y}.
           </me>
         </p>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
@@ -1660,7 +1671,7 @@
           Simplify <m>2 \frac{3}{5} \cdot 3 \frac{7}{10}</m> where we interpret <m>2 \frac{3}{5}</m> and <m>3 \frac{7}{10}</m> as mixed fractions.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We rewrite the first mixed fraction <m>2 \frac{3}{5}</m> as <m>\frac{13}{5}</m>.
           We rewrite the second mixed fraction <m>3 \frac{7}{10}</m> as <m>\frac{37}{10}</m>.
@@ -1671,7 +1682,7 @@
           It would be more convenient to do any further task working the improper fraction <m>\frac{481}{50}</m>, 
           so that's why we don't really bother converting this into a mixed fraction.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <note>
@@ -1741,13 +1752,13 @@
           How should this be entered on a calculator?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           There are two sets of parentheses in the denominator already, but we should insert a set of parentheses around the entire denominator.
           We should also insert a set of parentheses around the numerator.
           Therefore, we should enter <m>(3.6 \cdot 10^{-5}) \div ((4.0 \cdot 10^{-2})(2.5 \cdot 10^{-2}))</m> into the calculator.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1759,12 +1770,12 @@
           as the balance. How should this be input into the calculator so that we can really understand what the balance will be?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Insert the entire numerator and denominator of the fraction in parentheses. In a calculator, we would type 
           <m>100 * ((1+(0.06/12))^((12)(10))-1) / (0.06/12)</m>.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <p>
@@ -1778,7 +1789,7 @@
           Simplify <m>\frac{4(x+2)}{x+2}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Let's draw in the hidden parentheses to surround the entire denominator.
           <me>\frac{4(x+2)}{x+2} = \frac{4(x+2)}{(x+2)} = \frac41 = 4</me>
@@ -1791,7 +1802,7 @@
           <me>\frac{4(x+2)}{x+2} = \frac{4 \cdot (x+2)}{1 \cdot (x+2)} = \frac41 = 4</me>
           In fact, writing this level of detail explains why we have a <m>1</m> instead of a <m>0</m> in the denominator after the cancellation happened.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1800,7 +1811,7 @@
           Simplify <m>\frac{(x+8)^2}{x+8}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Recall that squaring a thing means to multiply the thing by itself, even if that ``thing'' is longer to write, like <m>x+8</m>, so <m>(x+8)^2=(x+8) \cdot (x+8)</m>.
           Let's make that replacement in the numerator, and then also surround the denominator in parentheses, making those hidden parentheses visible.
@@ -1809,7 +1820,7 @@
           However, since the numerator was <m>(x+8)</m>, I wanted to practice the principle that the numerator of a fraction is always in a hidden set of parentheses, but <q>backwards</q> in a sense:
           just as much as we can draw in the hidden parentheses around the entire top or entire bottom, we can remove parentheses that surround the entire top or entire bottom.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1818,7 +1829,7 @@
           Simplify <m>\frac{x+8}{(x+8)^2}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <me>\frac{x+8}{(x+8)^2} = \frac{(x+8)}{(x+8) \cdot (x+8)} = \frac1{(x+8)} = \frac{1}{x+8}</me>
           We canceled the factor of <m>(x+8)</m> in the numerator and denominator.
@@ -1827,7 +1838,7 @@
           However, a common error that occurs right at the moment of cancellation is that it's temtping to put the factor of <m>(x+8)</m> in the numerator.
           Note that after cancellation, the <m>(x+8)</m> factor that didn't cancel was in the denominator, and shouldn't move up to the numerator.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <warning>
@@ -1845,11 +1856,11 @@
           Simplify <m>\frac{(x+3)(x+5)}{(x+3)(x+5)(x+7)}</m>
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           <m>\frac{(x+3)(x+5)}{(x+3)(x+5)(x+7)} = \frac{1}{(x+7)} = \frac1{x+7}</m>
         </p>
-      </solution>
+      </answer>
     </example>
 
     <principle xml:id="principle-slant-fraction">
@@ -1957,7 +1968,7 @@
           How many cups of flour do you need?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           The original recipe needs <m>5\frac{1}{4}</m> cups of flour, but we need to make <m>3\frac{1}{2}</m> times the recipe.
           We have to multiply both of these numbers, which (at least through context) we can see are both mixed fractions.
@@ -1969,7 +1980,7 @@
           We need <m>18\frac{3}{8}</m> cups of flour, as a mixed fraction.
           As a reminder of what  mixed fraction is, if we wanted, we could actually write this quantity unambigously by writing <m>18+ \frac38</m> cups of flour.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -1980,7 +1991,7 @@
           But you'll need to go to the store to make three other legs of the same height. How long is each leg?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we are gluing one piece of lumber to another, we need to add their measurements.
           From context, both numbers provided are mixed fractions, so we convert them:
@@ -1993,7 +2004,7 @@
           Now, given that the problem is about measuring lumber, it makes a lot of sense to convert our final answer into a mixed fraction, since that's how lumber is typically measured:
           Each leg will be <m>4\frac{3}{8}</m> feet long, as a mixed fraction.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -2002,7 +2013,7 @@
           A swimming pool is being filled at a rate of <m>8\frac{1}{4}</m> gallons per hour. How many gallons of water will be in the pool after <m>2\frac{1}{4}</m> hours?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we are filling the pool at a rate of <m>8\frac{1}{4}</m> gallons per hour, and we are filling it for <m>2\frac{1}{4}</m> hours,
           we need to multiply these two numbers.
@@ -2013,7 +2024,7 @@
           The pool will have <m>\frac{297}{16}</m> gallons of water, or <m>18 \frac{8}{16}</m> gallons of water as a mixed fraction.
           Note that when we simiplified <m>\frac{33}{4} \cdot \frac{9}{4}</m>, we need to multiply the two denominators together (even though they matched).
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -2022,7 +2033,7 @@
           A car is traveling at a speed of <m>60</m> miles per hour. How far will the car travel in <m>4\frac{1}{2}</m> hours?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Because we are traveling at a rate of <m>60</m> miles per hour, and we are traveling for <m>4\frac{1}{2}</m> hours,
           we need to multiply these two numbers.
@@ -2032,7 +2043,7 @@
           <me>60 \cdot \frac{9}{2} = \frac{60}{1} \cdot \frac{9}{2} = \frac{540}{2} = 270.</me>
           The car will travel <m>270</m> miles.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -2041,7 +2052,7 @@
           A group of <m>5</m> friends go out to dinner. The bill comes to <m> \$48.75</m>. If they split the bill evenly, how much does each person pay?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We can think of <m>48.75</m> as the mixed fraction <m>48\frac{75}{100}</m> or by reducing the fraction, we can say this is the mixed fraction <m>48\frac34</m>, 
           and for the sake of nice computation, as an improper fraction, this is <m>\frac{195}{4}</m>.
@@ -2050,7 +2061,7 @@
           <me>\frac{195}{4} \div 5 = \frac{195}{4} \div \frac{5}{1} = \frac{195}{4} \cdot \frac{1}{5} = \frac{195}{20} = \frac{39}{4}.</me>
           Each person's share is <m>\frac{39}{4}</m> dollars, and this as a mixed fraction is <m>9\frac34</m> dollars and as a decimal is <m>9.75</m> dollars.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -2059,14 +2070,14 @@
           A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You have a <m>\frac{1}{3}</m> cup measuring cup. How many <m>\frac{1}{3}</m> cups of sugar do you need to use to get the correct amount?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           We need to find the value of <m>\frac{3}{4} \div \frac{1}{3}</m>, which is the same as <m>\frac{3}{4} \cdot \frac{3}{1}</m>.
           <me>\frac{3}{4} \div \frac{1}{3} = \frac{3}{4} \cdot \frac{3}{1} = \frac{9}{4}.</me>
           We need to fill the one-third cup measuring cup that we have <m>\frac{9}{4}</m> times, or as a mixed fraction, <m>2\frac14</m> times.
           So, to fulfill what the recipe wants, we should fill our <m>\frac{1}{3}</m> cup measuring cup full two times, and then do our best to estimate filling this measuring cup to one-fourth full.
         </p>
-      </solution>
+      </answer>
     </example>
 
     <example>
@@ -2075,14 +2086,14 @@
           A recipe calls for <m>\frac{3}{4}</m> cup of sugar. You put in <m>\frac{1}{3}</m> cup of sugar by accident. How much more sugar do you need to put in to get back on track in following the recipe?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
           Since we already put in <m>\frac{1}{3}</m> cup of sugar, we need to find out what's left of the <m>\frac34</m> cup of sugar that we haven't put in yet.
           That is, we need to find the value of <m>\frac{3}{4} - \frac{1}{3}</m>.
           <me>\frac34 - \frac13 = \frac{9}{12} - \frac{4}{12} = \frac{5}{12}.</me>
           We need to put in <m>\frac{5}{12}</m> cup of sugar to get back on track.
         </p>
-      </solution>
+      </answer>
     </example>
 
   </subsection>
