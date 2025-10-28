@@ -12,8 +12,6 @@
 		<ol>
 			<li><p>Add, subtract, multiply, and divide rational expressions.</p></li>
 			<li><p>Simplify complex fractions.</p></li>
-			<li><p>Find difference quotients.</p></li>
-			<li><p>Apply difference quotients to the average rate of change.</p></li>
     </ol>
 	</objectives>
 
@@ -191,124 +189,28 @@
       </answer>
     </example>
 
+  <!-- Exercises inserted below as list items inside the Exercises subsection -->
+
   </subsection>
 
 	<subsection>
 		<title>Compound Fractions</title>
 
-
-
-    <example xml:id="ex-simplify-complex-fraction-rs">
-      <statement>
-        <p>Simplify <m>\frac{\frac{r}{s}+\frac{s}{r}}{\frac{r^2}{s^2}-\frac{s^2}{r^2}}</m>.</p>
-      </statement>
-    </example>
-
-    <example xml:id="ex-simplify-difference-quotient">
-      <statement>
-        <p>Simplify <m>\frac{\frac{1}{x+h}-\frac{1}{x}}{h}</m>.</p>
-      </statement>
-    </example>
-
-  </subsection>
-  
-	<subsection>
-		<title>Difference Quotients</title>
-
-
-
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
-
-    <example>
-      <statement>
-        <p>
-          Statement text       
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
+    <p>
+      <xref ref="assemblage-dividing-fractions" /> tells us that to do one fraction divided by another fraction, 
+      we can take the first fraction and instead multiply it by the reciprocal of the second fraction.
+      The application of reciprocals will be useful in all situations where we have a <term>compound fraction</term>, which is a fraction where the numerator, the denominator, or both are themselves contain fractions.
+    </p>
 
     <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
+    <computation xml:id="compound-fraction">
+      <title>Simplifying a fraction with fractions inside</title>
       <p>
         <ul>
           <li>
             <p>
               <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
+              This strategy applies any time we need to simplify a compound fraction, which is a fraction where the numerator and/or the denominator contain fractions.
             </p>
           </li>
           <li>
@@ -317,34 +219,12 @@
               <ol>
                 <li>
                   <p>
-                    Inventory all of the fractions, whether they appear on the left side, the right side, or both.
-                    In particular, identify all of the denominators present.
+                    Independently simplify the numerator into a single fraction and simplify the denominator into a single fraction.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Off to the side, compute the least common denominator (LCD) of all of the fractions.
-                    This phrase <term>least common denominator</term>
-                    is shorthand to mean the <term>least common multiple</term> of all of the denominators.
-                    (See APPENDIX for details on least common multiples.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
+                    Once both the numerator and denominator are single fractions, rewrite fraction divided by fraction instead as fraction multiplied by the reciprocal of the second fraction.
                   </p>
                 </li>
               </ol>
@@ -354,159 +234,87 @@
       </p>
     </computation>
 
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
-
-  </subsection>
-
-  <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
-
+    <q>
+      In a moment, we will be asked to simplify <m>\frac{\frac{3}{x+2} + \frac{x}{x+2}}{\frac{5x}{x^2-4} + \frac{3}{x-2}}</m>, and we could reinterpret this expression as 
+      <me>\left( \frac{3}{x+2} + \frac{x}{x+2} \right) \div \left( \frac{5x}{x^2-4} + \frac{3}{x-2} \right)</me> where the parentheses are required (due to order of operations, 
+      and recalling that the entire numerator and entire denominator of a fraction are both in a hidden sets of parentheses).
+      While we need the reciprocal of the denominator, the problem is the denominator <m>\frac{5x}{x^2-4} + \frac{3}{x-2}</m> is not a single fraction.
+      It is incorrect to say that the reciprocal is <m>\frac{x^2-4}{5x} + \frac{x-2}{3}</m>. That is, we cannot just reciprocate each term separately.
+      We can only reciprocate a single fraction, which is why <xref ref="compound-fraction" /> tells us to first simplify the numerator into a single fraction and the denominator into a single fraction.
+      This is exactly what we will do as we present the full example:
+    </q>
     <example>
       <statement>
         <p>
-          Text
+          Simplify <m>\frac{\frac{3}{x+2} + \frac{x}{x+2}}{\frac{5x}{x^2-4} + \frac{1}{x-2}}</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          Answer
+          First, simplify the numerator and denominator separately.
+          The numerator is <m>\frac{3}{x+2} + \frac{x}{x+2}</m>, which can be combined since they have the same denominator:
+          <m>\frac{3 + x}{x+2}</m>.
+          Independently, we will simplify the denominator. (By independent, we mean that none of the work in the numerator and none of the work in the denominator influence each other.)
+          The denominator is <m>\frac{5x}{x^2-4} + \frac{3}{x-2}</m>.
+          Note that <m>x^2 - 4 = (x-2)(x+2)</m>, so the common denominator is <m>(x-2)(x+2)</m>.
+          Rewrite each term with this common denominator:
+          <m>\frac{5x}{(x-2)(x+2)} + \frac{3(x+2)}{(x-2)(x+2)}</m>.
+          Combine the numerators:
+          <m>\frac{5x + 3(x+2)}{(x-2)(x+2)} = \frac{5x + 3x + 6}{(x-2)(x+2)} = \frac{8x + 6}{(x-2)(x+2)}</m>.
+          Now, the original expression is
+          <m>\frac{\frac{3 + x}{x+2}}{\frac{8x + 6}{(x-2)(x+2)}}</m>.
+          Rewrite as multiplication by the reciprocal:
+          <m>\frac{3 + x}{x+2} \cdot \frac{(x-2)(x+2)}{8x + 6}</m>.
+          Cancel the common factor <m>x+2</m>:
+          <m>\frac{3 + x}{\cancel{x+2}} \cdot \frac{(x-2)\cancel{(x+2)}}{8x + 6} = \frac{3 + x}{1} \cdot \frac{x-2}{8x + 6}</m>.
+          Simplify the numerator of the second fraction:
+          <m>8x + 6 = 2(4x + 3)</m>.
+          So the expression becomes
+          <m>(3 + x) \cdot \frac{x-2}{2(4x + 3)}</m>.
         </p>
-      </solution>
+      </answer>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>Simplify <m>\frac{\frac{r}{s}+\frac{s}{r}}{\frac{r^2}{s^2}-\frac{s^2}{r^2}}</m>.</p>
+      </statement>
+      <answer>
+        <p>
+          <md>
+            <mrow>\frac{\frac{r}{s}+\frac{s}{r}}{\frac{r^2}{s^2}-\frac{s^2}{r^2}} \amp= \frac{ \frac{r^2}{rs} + \frac{s^2}{rs}}{ \frac{r^4}{s^2 r^2} - \frac{s^4}{r^2 s^2}}</mrow>
+            <mrow>\amp= \frac{ \frac{r^2+s^2}{rs}}{ \frac{r^4-s^4}{r^2 s^2}}</mrow>
+            <mrow>\amp= \frac{r^2+s^2}{rs} \cdot \frac{r^2 s^2}{r^4 - s^4}</mrow>
+            <mrow>\amp= \frac{(r^2+s^2)r^2s^2}{rs(r^4-s^4)}</mrow>
+            <mrow>\amp= \frac{(r^2+s^2)rs}{r^4-s^4}</mrow>
+            <mrow>\amp= \frac{(r^2+s^2)rs}{(r^2+s^2)(r^2-s^2)}</mrow>
+            <mrow>\amp= \frac{rs}{r^2-s^2}</mrow>
+          </md>
+        </p>
+      </answer>
+    </example>
+
+    <example xml:id="ex-simplify-difference-quotient">
+      <statement>
+        <p>Simplify <m>\frac{\frac{1}{x+h}-\frac{1}{x}}{h}</m>.</p>
+      </statement>
+      <answer>
+        <p>
+          <m>
+            \frac{\frac{1}{x+h}-\frac{1}{x}}{h} 
+            = \frac{\frac{x - (x+h)}{(x+h)x}}{h} 
+            = \frac{\frac{-h}{(x+h)x}}{h} 
+            = \frac{-h}{(x+h)x} \cdot \frac{1}{h} 
+            = \frac{-\cancel{h}}{(x+h)x\cancel{h}} 
+            = \frac{-1}{(x+h)x}
+          </m>
+        </p>
+      </answer>
     </example>
 
   </subsection>
+
 
 	<subsection>
 		<title>Summary</title>
@@ -515,17 +323,27 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            We can take a fraction (including a fraction with variables in the numerator and/or denominator) and create a fraction of the same value by multiplying by the same quantity on the top and bottom, or undo this as well (we can cancel common factors on top and bottom, though we may need to factor first).
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            To simplify adding or subtracting fractions (including a fraction with variables in the numerator and/or denominator), we need a common denominator first.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            To multiply fractions (including a fraction with variables in the numerator and/or denominator), multiply straight across whether we have a common denominator or not.
+          </p>
+        </li>
+        <li>
+          <p>
+            To divide two fractions (including a fraction with variables in the numerator and/or denominator), note that dividing by a fraction is the same thing as multiplying by its reciprocal.
+          </p>
+        </li>        
+        <li>
+          <p>
+            When fractions appear in the numerator or denominator of a larger fraction, we can simplify by multiplying by the reciprocal, but we first need to turn the top and bottom into single fractions first.
           </p>
         </li>
       </ol>
@@ -536,46 +354,127 @@
   <subsection>
 		<title>Exercises</title>
 
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
     <p>
       <ol>
-
         <li>
           <p>
-            Text.
+            Simplify each expression:
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li>
+                <p> <m>\frac{2x}{x^2-4} + \frac{3}{x+2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{x^2-1}{x+1} - \frac{2}{x+1}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{(a+b)^2}{a^2-b^2} - \frac{2ab}{a^2-b^2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{3x+6}{x^2-4} \cdot \frac{x-2}{9}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{x^2-9}{x^2-6x+9} \div \frac{x+3}{x-3}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{4t}{t^2-1} + \frac{t+1}{t-1}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{x^2-4x+4}{x-2} - (x-2)</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{(x-1)^2}{x^2-1} + \frac{1}{x+1}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{5}{y+2} - \frac{y-3}{y+2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{a^2-b^2}{a^2+2ab+b^2} \cdot \frac{a-b}{a}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{2x^2+5x+2}{x^2-1} - \frac{x+2}{x-1}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{(m+1)^2}{m^2-1} \div \frac{m+1}{2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{6}{x^2-4} + \frac{x}{x-2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{x^2-2x}{x} \cdot \frac{x+3}{x^2+3x}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{b^2-4}{b^2-2b} - \frac{2}{b}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{x+1}{x^2-1} \div \frac{1}{x-1}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{3x^2-12}{x^2-4} + \frac{2}{x-2}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{(p-q)^2}{p^2-2pq+q^2} - \frac{p-q}{p-q}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{4x^2-9}{2x+3} \div \frac{2x-3}{x}</m>.</p>
+              </li>
+              <li>
+                <p> <m>\frac{(x+2)^2 - (x-2)^2}{x^2-4}</m>.</p>
+              </li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Simplify the following compound fractions:
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li>
+                <p>
+                  <m>\frac{\frac{2}{x} + \frac{3}{x}}{\frac{5}{x} - \frac{1}{x}}</m>.
+                </p>
+              </li>
+              <li>
+                  <p>
+                     <m>\dfrac{\tfrac{2}{x}}{\tfrac{4}{x^2}}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{x+2}{3}}{\tfrac{x}{6}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{2x}{5} + \tfrac{3}{10}}{\tfrac{x}{2}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{x}{2} - \tfrac{1}{3}}{\tfrac{x}{3} + \tfrac{1}{2}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{1}{x} + \tfrac{2}{y}}{\tfrac{3}{x} - \tfrac{1}{y}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{x+1}{x-1}}{\tfrac{2x}{x+1}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{x}{x+2} - \tfrac{1}{x}}{\tfrac{3}{x+2}}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                     <m>\dfrac{\tfrac{x^2 - 9}{x+3}}{\tfrac{x}{3} - 1}</m>
+                  </p>
+                </li>              
             </ol>
           </p>
         </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
       </ol>
     </p>
   </subsection>

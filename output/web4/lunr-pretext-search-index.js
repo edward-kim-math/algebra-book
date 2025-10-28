@@ -4264,7 +4264,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Fractions Revisited",
-  "body": " Fractions Revisited    In this section, we learn how to:    Add, subtract, multiply, and divide rational expressions.  Simplify complex fractions.  Find difference quotients.  Apply difference quotients to the average rate of change.    This section extends our previous work with fractions that have more involved expressions containing variables in the numerator and denominator. We will practice the techniques of adding, subtracting, multiplying, and dividing fractions that we learned in in this new context. We will combine this with the factoring techniques we learned in . In the end, this section is meant to have no surprises: it is a good opportunity to revisit concepts to have seen, though portions of each problem will feel new, because we are combining concepts from two previous sections in ways that we never have been able to yet.   Rational Expressions  When we saw fractions that had constants in the numerator and denominator, we could rewrite a fraction by multiplying by the same value on top and on bottom, or cancel a factor (it had to be a factor, because we're undoing multiplication) that appeared on both top and bottom. For example, by cancelling the common factor of . The work above explicitly showed , but we could have written directly. We apply the same concept (canceling common factors) when variables appear in the numerator and denominator.    Simplify .    As written, we cannot cancel anything (because we can only cancel common factors). We need factors, and recall from that factoring produces factors. As a first step, we will factor the denominator.       To clarify why we cannot cancel in the initial fraction , the on top does not cancel with one of the s on bottom, and neither does the on top partially with the on bottom: recall from that we can only cancel factors, not terms.     Simplify .     One potential temptation is to try to cancel the appearing on top and bottom, but these are not factors, so they cannot cancel. So, as our first step, we will factor in the numerator and factor in the denominator. .  In our final answer we could have kept parentheses around the numerator and parentheses around the denominator, but we chose to drop both sets for simplicity: recall from that the top of every fraction is in a hidden set of parentheses and the bottom of every fraction is in a hidden set of parentheses.  We could not simplify any further than . The on top and bottom are not factors. In addition, even if we wrote and in , we still could not cancel the s because they are not factors of the numerator and denominator. (In we noted that is not a factor of .)    The formulas for simplifying addition and subtraction of fractions in and required getting a common denominator. This remains true when fractions contain variables.    Simplify .       Since no additional canceling is possible, the denominator could also be written or .      Simplify .       Since no additional canceling is possible, the denominator could also be written .      Simplify .         When multiplying two fractions, tells us to just multiply straight across. We still do this even when there are variables in the fractions    Simplify .         When dividing two fractional expressions, “flip and multiply”:     Compound Fractions    Simplify .      Simplify .      Difference Quotients   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference      Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.            Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Fractions Revisited    In this section, we learn how to:    Add, subtract, multiply, and divide rational expressions.  Simplify complex fractions.    This section extends our previous work with fractions that have more involved expressions containing variables in the numerator and denominator. We will practice the techniques of adding, subtracting, multiplying, and dividing fractions that we learned in in this new context. We will combine this with the factoring techniques we learned in . In the end, this section is meant to have no surprises: it is a good opportunity to revisit concepts to have seen, though portions of each problem will feel new, because we are combining concepts from two previous sections in ways that we never have been able to yet.   Rational Expressions  When we saw fractions that had constants in the numerator and denominator, we could rewrite a fraction by multiplying by the same value on top and on bottom, or cancel a factor (it had to be a factor, because we're undoing multiplication) that appeared on both top and bottom. For example, by cancelling the common factor of . The work above explicitly showed , but we could have written directly. We apply the same concept (canceling common factors) when variables appear in the numerator and denominator.    Simplify .    As written, we cannot cancel anything (because we can only cancel common factors). We need factors, and recall from that factoring produces factors. As a first step, we will factor the denominator.       To clarify why we cannot cancel in the initial fraction , the on top does not cancel with one of the s on bottom, and neither does the on top partially with the on bottom: recall from that we can only cancel factors, not terms.     Simplify .     One potential temptation is to try to cancel the appearing on top and bottom, but these are not factors, so they cannot cancel. So, as our first step, we will factor in the numerator and factor in the denominator. .  In our final answer we could have kept parentheses around the numerator and parentheses around the denominator, but we chose to drop both sets for simplicity: recall from that the top of every fraction is in a hidden set of parentheses and the bottom of every fraction is in a hidden set of parentheses.  We could not simplify any further than . The on top and bottom are not factors. In addition, even if we wrote and in , we still could not cancel the s because they are not factors of the numerator and denominator. (In we noted that is not a factor of .)    The formulas for simplifying addition and subtraction of fractions in and required getting a common denominator. This remains true when fractions contain variables.    Simplify .       Since no additional canceling is possible, the denominator could also be written or .      Simplify .       Since no additional canceling is possible, the denominator could also be written .      Simplify .         When multiplying two fractions, tells us to just multiply straight across. We still do this even when there are variables in the fractions    Simplify .         Recall that to divide two fractions, tells us to multiply by the reciprocal of the second fraction.    Simplify .            Compound Fractions   tells us that to do one fraction divided by another fraction, we can take the first fraction and instead multiply it by the reciprocal of the second fraction. The application of reciprocals will be useful in all situations where we have a compound fraction , which is a fraction where the numerator, the denominator, or both are themselves contain fractions.    Simplifying a fraction with fractions inside      When does this strategy apply? This strategy applies any time we need to simplify a compound fraction, which is a fraction where the numerator and\/or the denominator contain fractions.     How to apply the strategy    Independently simplify the numerator into a single fraction and simplify the denominator into a single fraction.    Once both the numerator and denominator are single fractions, rewrite fraction divided by fraction instead as fraction multiplied by the reciprocal of the second fraction.         In a moment, we will be asked to simplify , and we could reinterpret this expression as where the parentheses are required (due to order of operations, and recalling that the entire numerator and entire denominator of a fraction are both in a hidden sets of parentheses). While we need the reciprocal of the denominator, the problem is the denominator is not a single fraction. It is incorrect to say that the reciprocal is . That is, we cannot just reciprocate each term separately. We can only reciprocate a single fraction, which is why tells us to first simplify the numerator into a single fraction and the denominator into a single fraction. This is exactly what we will do as we present the full example:    Simplify .    First, simplify the numerator and denominator separately. The numerator is , which can be combined since they have the same denominator: . Independently, we will simplify the denominator. (By independent, we mean that none of the work in the numerator and none of the work in the denominator influence each other.) The denominator is . Note that , so the common denominator is . Rewrite each term with this common denominator: . Combine the numerators: . Now, the original expression is . Rewrite as multiplication by the reciprocal: . Cancel the common factor : . Simplify the numerator of the second fraction: . So the expression becomes .      Simplify .           Simplify .           Summary     We can take a fraction (including a fraction with variables in the numerator and\/or denominator) and create a fraction of the same value by multiplying by the same quantity on the top and bottom, or undo this as well (we can cancel common factors on top and bottom, though we may need to factor first).    To simplify adding or subtracting fractions (including a fraction with variables in the numerator and\/or denominator), we need a common denominator first.    To multiply fractions (including a fraction with variables in the numerator and\/or denominator), multiply straight across whether we have a common denominator or not.    To divide two fractions (including a fraction with variables in the numerator and\/or denominator), note that dividing by a fraction is the same thing as multiplying by its reciprocal.    When fractions appear in the numerator or denominator of a larger fraction, we can simplify by multiplying by the reciprocal, but we first need to turn the top and bottom into single fractions first.       Exercises     Simplify each expression:    .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .       Simplify the following compound fractions:    .     .                                            "
 },
 {
   "id": "sec-fractions-revisited-2",
@@ -4273,7 +4273,7 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "1.7",
   "title": "",
-  "body": "  In this section, we learn how to:    Add, subtract, multiply, and divide rational expressions.  Simplify complex fractions.  Find difference quotients.  Apply difference quotients to the average rate of change.   "
+  "body": "  In this section, we learn how to:    Add, subtract, multiply, and divide rational expressions.  Simplify complex fractions.   "
 },
 {
   "id": "ex-simplify-xminus5",
@@ -4330,139 +4330,58 @@ var ptx_lunr_docs = [
   "body": "  Simplify .        "
 },
 {
-  "id": "ex-simplify-complex-fraction-rs",
+  "id": "sec-fractions-revisited-4-13",
   "level": "2",
-  "url": "sec-fractions-revisited.html#ex-simplify-complex-fraction-rs",
+  "url": "sec-fractions-revisited.html#sec-fractions-revisited-4-13",
   "type": "Example",
   "number": "1.7.7",
   "title": "",
-  "body": "  Simplify .   "
+  "body": "  Simplify .        "
+},
+{
+  "id": "sec-fractions-revisited-5-2",
+  "level": "2",
+  "url": "sec-fractions-revisited.html#sec-fractions-revisited-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "compound fraction "
+},
+{
+  "id": "compound-fraction",
+  "level": "2",
+  "url": "sec-fractions-revisited.html#compound-fraction",
+  "type": "Strategy",
+  "number": "1.7.8",
+  "title": "Simplifying a fraction with fractions inside.",
+  "body": " Simplifying a fraction with fractions inside      When does this strategy apply? This strategy applies any time we need to simplify a compound fraction, which is a fraction where the numerator and\/or the denominator contain fractions.     How to apply the strategy    Independently simplify the numerator into a single fraction and simplify the denominator into a single fraction.    Once both the numerator and denominator are single fractions, rewrite fraction divided by fraction instead as fraction multiplied by the reciprocal of the second fraction.        "
+},
+{
+  "id": "sec-fractions-revisited-5-5",
+  "level": "2",
+  "url": "sec-fractions-revisited.html#sec-fractions-revisited-5-5",
+  "type": "Example",
+  "number": "1.7.9",
+  "title": "",
+  "body": "  Simplify .    First, simplify the numerator and denominator separately. The numerator is , which can be combined since they have the same denominator: . Independently, we will simplify the denominator. (By independent, we mean that none of the work in the numerator and none of the work in the denominator influence each other.) The denominator is . Note that , so the common denominator is . Rewrite each term with this common denominator: . Combine the numerators: . Now, the original expression is . Rewrite as multiplication by the reciprocal: . Cancel the common factor : . Simplify the numerator of the second fraction: . So the expression becomes .   "
+},
+{
+  "id": "sec-fractions-revisited-5-6",
+  "level": "2",
+  "url": "sec-fractions-revisited.html#sec-fractions-revisited-5-6",
+  "type": "Example",
+  "number": "1.7.10",
+  "title": "",
+  "body": "  Simplify .        "
 },
 {
   "id": "ex-simplify-difference-quotient",
   "level": "2",
   "url": "sec-fractions-revisited.html#ex-simplify-difference-quotient",
   "type": "Example",
-  "number": "1.7.8",
-  "title": "",
-  "body": "  Simplify .   "
-},
-{
-  "id": "sec-fractions-revisited-6-2",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-2",
-  "type": "Principle",
-  "number": "1.7.9",
-  "title": "text.",
-  "body": " text  text  "
-},
-{
-  "id": "sec-fractions-revisited-6-3",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-3",
-  "type": "Example",
-  "number": "1.7.10",
-  "title": "",
-  "body": "  Statement text    Solution text   "
-},
-{
-  "id": "sec-fractions-revisited-6-4",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-4",
-  "type": "Try it",
   "number": "1.7.11",
   "title": "",
-  "body": "  Text    "
-},
-{
-  "id": "sec-fractions-revisited-6-5",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-5",
-  "type": "Note",
-  "number": "1.7.12",
-  "title": "",
-  "body": " Text  "
-},
-{
-  "id": "sec-fractions-revisited-6-7",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-7",
-  "type": "Warning",
-  "number": "1.7.13",
-  "title": "",
-  "body": " text  "
-},
-{
-  "id": "sec-fractions-revisited-6-8",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-8",
-  "type": "Investigate!",
-  "number": "1.1",
-  "title": "",
-  "body": " knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference   "
-},
-{
-  "id": "sec-fractions-revisited-6-9",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-9",
-  "type": "Strategy",
-  "number": "1.7.14",
-  "title": "Solving an equation with fractions.",
-  "body": " Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Inventory all of the fractions, whether they appear on the left side, the right side, or both. In particular, identify all of the denominators present.    Off to the side, compute the least common denominator (LCD) of all of the fractions. This phrase least common denominator is shorthand to mean the least common multiple of all of the denominators. (See APPENDIX for details on least common multiples.)    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.        "
-},
-{
-  "id": "sec-fractions-revisited-6-10",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-10",
-  "type": "Try it",
-  "number": "1.7.15",
-  "title": "",
-  "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
-},
-{
-  "id": "sec-fractions-revisited-6-11",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-11",
-  "type": "Definition",
-  "number": "1.7.16",
-  "title": "Argument.",
-  "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
-},
-{
-  "id": "sec-fractions-revisited-6-12-1",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-12-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "argument valid argument sound argument "
-},
-{
-  "id": "sec-fractions-revisited-6-13",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-13",
-  "type": "Example",
-  "number": "1.7.17",
-  "title": "",
-  "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
-},
-{
-  "id": "sec-fractions-revisited-6-14",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-6-14",
-  "type": "Remark",
-  "number": "1.7.18",
-  "title": "",
-  "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
-},
-{
-  "id": "sec-fractions-revisited-7-3",
-  "level": "2",
-  "url": "sec-fractions-revisited.html#sec-fractions-revisited-7-3",
-  "type": "Example",
-  "number": "1.7.19",
-  "title": "",
-  "body": "  Text    Answer   "
+  "body": "  Simplify .        "
 },
 {
   "id": "sec-solving-equations-revisited",
