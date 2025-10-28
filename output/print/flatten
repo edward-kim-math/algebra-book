@@ -1,0 +1,1 @@
+gs -o output_flattened.pdf -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress dmoi.pdf
