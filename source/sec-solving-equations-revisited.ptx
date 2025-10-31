@@ -45,9 +45,358 @@
 
   <subsection>
     <title>Expressions representing contextual quantities</title>
+
+    <example>
+      <statement>
+        <p>
+          A shirt has a price of <m>\$21.50</m> but a <m>20\%</m> discount is being offered.
+          <ol>
+            <li>
+              <p>
+                How much money do you save off the original price?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the amount you actually pay for the shirt?
+              </p>
+            </li>
+          </ol> 
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                The amount of discount is <m>20\%</m> of <m>\$21.50</m>, which is <m>0.20 \times 21.50</m> dollars, which we can simplify to <m>4.30</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The amount you actually pay is the original price minus the discount, which is <m>21.50 - 0.20 \times 21.50</m> dollars.
+                We can also write this as <m>21.50 - 4.30</m> dollars, or going back to the original expression, 
+                we can factor out <m>21.50</m> and write as <m>(1 - 0.20)21.50</m> dollars, or even <m>0.80(21.50)</m> dollars.
+                Finally, we can take any of the above and fully simplify the final answer to <m>17.20</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note xml:id="note-percent1">
+      <p>
+        It is extremely important to point out that the original expression in part 2 is <m>21.50 - 0.20 \times 21.50</m>, 
+        which is where all of the other answers (including <m>17.20</m>) come from.
+        The specific thing to pay attention to is that the original price of <m>21.50</m> dollars appears <emph>twice</emph> in the first expression.
+        This actually makes sense: we would have paid <m>21.50</m> dollars if there was no discount, 
+        but because of the discount, we are paying less 
+        (and the amount that we are paying less is <emph>proportional</emph> to the original price, 
+        and so it makes sense that the amount we are subtracting also involves the original price of <m>21.50</m> dollars).
+      </p>
+    </note>
+    
+    <example xml:id="example-discount-toaster">
+      <statement>
+        <p>
+          A toaster has a price of <m>\$8.40</m> but a <m>8\%</m> discount is being offered.
+          <ol>
+            <li>
+              <p>
+                How much money do you save off the original price?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the amount you actually pay for the toaster?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>0.08 \times 8.40</m> dollars, which we can simplify to <m>0.672</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>8.40 - 0.08 \times 8.40</m> dollars, which we can also write as <m>(1 - 0.08)8.40</m> dollars, or <m>0.92(8.40)</m> dollarsor <m>8.40 - 0.672</m> dollars or <m>7.728</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note xml:id="note-percent2">
+      <p>
+        The initial expression in part 2 is <m>8.40 - 0.08 \times 8.40</m>, which mentions <m>8.40</m> twice.
+        It is tempting to skip to the other answers, but it is important to understand where they come from:
+        <m>8.40 - 0.08 \times 8.40</m> is the original expression, and the original price <m>8.40</m> appears twice.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          A hat has a price of <m>h</m> dollars but a <m>6\%</m> discount is being offered.
+          <ol>
+            <li>
+              <p>
+                How much money do you save off the original price?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the amount you actually pay for the hat?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You save <m>0.06 \times h</m> dollars. This cannot be simplified any further because we do not know the value of <m>h</m>.
+                (Note that in Part 1 of <xref ref="example-discount-toaster" />, 
+                we multiplied the decimal version of the percentage <m>0.08</m> by the original amount of <m>8.40</m> to get <m>0.08 \cdot 8.40</m>.
+                In this problem, we also multiply the decimal version of the percentage <m>0.06</m> by the original amount of <m>h</m> to get <m>0.06 \cdot h</m>.
+                Conceptually, we are doing the same thing, but the difference is that in this problem, the original amount is represented by a variable <m>h</m> rather than a constant like <m>8.40</m>.)
+              </p>
+            </li>
+            <li>
+              <p>
+                You pay <m>h - 0.06 \times h</m> dollars, which we can also write as <m>(1 - 0.06)h</m> dollars, or <m>0.94h</m> dollars.
+                (Note that in Part 2 of <xref ref="example-discount-toaster" />, 
+                we subtracted the amount saved from the original price to get the final price.
+                In this problem, we are also subtracting the amount saved from the original amount of <m>h</m> to get the final price.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note>
+      <p>
+        Just like in <xref ref="note-percent1" /> and <xref ref="note-percent2" />, the initial expression in part 2 mentions the original price twice.
+        In this case, the initial expression in part 2 is <m>h - 0.06 \times h</m>, which mentions <m>h</m> twice.
+        Especially in the case of an unknown original price, the original price (represented by a variable, like <m>h</m> in the previous example) will appear twice in the initial expression.
+      </p>
+    </note>
+
     <p>
-      percents, transfer bonuses
+      We have just examined examples of expressions involving percentages coming from discounts.
+      Now, let's look at examples involving taxes.
     </p>
+
+    <example>
+      <statement>
+        <p>
+          A laptop has a price of <m>\$1400</m> and <m>4\%</m> sales tax will be added.
+          <ol>
+            <li>
+              <p>
+                How much money do you pay in sales tax? 
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total amount you pay, including sales tax?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>0.04 \times 1400</m> dollars is paid in sales tax, which we can simplify to <m>56</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total amount paid, including sales tax, is <m>1400 + 0.04 \times 1400</m> dollars, which we can also write as <m>(1 + 0.04)1400</m> dollars, 
+                or <m>1.04 \cdot 1400</m> dollars, or <m>1400 + 56</m> dollars, or <m>1456</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note>
+      <p>
+        The initial expression for the final amount paid is <m>1400 + 0.04 \times 1400</m>, which mentions the original price <m>1400</m> twice.
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          A laptop has a price of <m>L</m> and <m>4\%</m> sales tax will be added.
+          <ol>
+            <li>
+              <p>
+                How much money do you pay in sales tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total amount you pay, including sales tax?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You pay <m>0.04 \times L</m> dollars in sales tax.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total amount paid, including sales tax, is <m>L + 0.04 \times L</m> dollars.
+                There are, of course, additional ways to write this amount, but <m>L + 0.04 \times L</m> really captures what's going on.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Examine the second part of all the questions we've seen so far. Why is the operation (plus versus minus) different for taxes than for discounts?
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
+    <p>
+      After examining why the operation is different for taxes than for discounts,
+      let's exercise our conceptual understanding with what feels like a different example.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          You will transfer <m>30,000</m> miles for a flight.
+          Your credit card usually transfers miles at a <m>1:1</m> ratio, but is currently offering a <m>10\%</m> bonus on all transfers.
+          <ol>
+            <li>
+              <p>
+                How many bonus miles do you receive?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total number of miles you will have after the transfer and bonus?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          You will transfer <m>M</m> miles for a flight.
+          Your credit card usually transfers miles at a <m>1:1</m> ratio, but is currently offering a <m>10\%</m> bonus on all transfers.
+          <ol>
+            <li>
+              <p>
+                How many bonus miles do you receive?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total number of miles you will have after the transfer and bonus?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </example>
+
+    <p>
+      Let's examine a series of examples which combine taxes and tips, which is extremely common in restaurant settings.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          A restaurant meal has a price of <m>\$15.80</m>.
+          A <m>5\%</m> tax must be paid, and <m>15\%</m> tip will be included on the post-tax amount.
+          <ol>
+            <li>
+              <p>
+                How much money is paid in tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid for the meal and tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid in tip?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid in meal, tax, and tip?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A restaurant meal has a price of <m>M</m>.
+          A <m>5\%</m> tax must be paid, and <m>15\%</m> tip will be included on the post-tax amount.
+          <ol>
+            <li>
+              <p>
+                How much money is paid in tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid for the meal and tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid in tip?
+              </p>
+            </li>
+            <li>
+              <p>
+                How much total money is paid in meal, tax, and tip?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </example>
+
   </subsection>
 
   <subsection>
