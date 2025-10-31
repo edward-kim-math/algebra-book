@@ -4390,7 +4390,133 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Expressions and Equations Revisited",
-  "body": " Expressions and Equations Revisited  Expressions about percents (percentages, transfer bonuses) Equations about percents Systems of equations Distance, rate, time (solve using one variable, solve using two variables) Mixture problems (one var, two var) Literal equations (multiple variables) Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.  A flight requires 12,500 miles, but your credit card offers a 10% bonus when transferring. How many miles should you transfer to meet the requirement while taking advantage of the transfer bonus?  "
+  "body": " Expressions and Equations Revisited    In this section, we learn how to:    Translate various contextual situations into equations.  Interpret the solutions of equations in context.  Solve equations and systems of equations involving multiple variables.     Applications  Intro:   You need miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers. How many miles should you transfer to book the flight while taking advantage of the transfer bonus?        Text       Expressions representing contextual quantities  percents, transfer bonuses    Equations involving percentages      Systems of equations      Distance, rate, and time  Solve using one variable, solve using two variables    Mixture  One var, two vars    Literal Equations  Literal equations (multiple variables)    Equations with Rational Expressions  Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference      Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Step 1 text    Step 2 text    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.            Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+},
+{
+  "id": "sec-solving-equations-revisited-2",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-2",
+  "type": "Objectives",
+  "number": "1.8",
+  "title": "",
+  "body": "  In this section, we learn how to:    Translate various contextual situations into equations.  Interpret the solutions of equations in context.  Solve equations and systems of equations involving multiple variables.   "
+},
+{
+  "id": "sec-solving-equations-revisited-11-2",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-2",
+  "type": "Principle",
+  "number": "1.8.1",
+  "title": "text.",
+  "body": " text  text  "
+},
+{
+  "id": "sec-solving-equations-revisited-11-3",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-3",
+  "type": "Example",
+  "number": "1.8.2",
+  "title": "",
+  "body": "  Statement text    Solution text   "
+},
+{
+  "id": "sec-solving-equations-revisited-11-4",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-4",
+  "type": "Try it",
+  "number": "1.8.3",
+  "title": "",
+  "body": "  Text    "
+},
+{
+  "id": "sec-solving-equations-revisited-11-5",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-5",
+  "type": "Note",
+  "number": "1.8.4",
+  "title": "",
+  "body": " Text  "
+},
+{
+  "id": "sec-solving-equations-revisited-11-7",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-7",
+  "type": "Warning",
+  "number": "1.8.5",
+  "title": "",
+  "body": " text  "
+},
+{
+  "id": "sec-solving-equations-revisited-11-8",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-8",
+  "type": "Investigate!",
+  "number": "1.1",
+  "title": "",
+  "body": " knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference   "
+},
+{
+  "id": "sec-solving-equations-revisited-11-9",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-9",
+  "type": "Strategy",
+  "number": "1.8.6",
+  "title": "Solving an equation with fractions.",
+  "body": " Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Step 1 text    Step 2 text    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.        "
+},
+{
+  "id": "sec-solving-equations-revisited-11-10",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-10",
+  "type": "Try it",
+  "number": "1.8.7",
+  "title": "",
+  "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
+},
+{
+  "id": "sec-solving-equations-revisited-11-11",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-11",
+  "type": "Definition",
+  "number": "1.8.8",
+  "title": "Argument.",
+  "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
+},
+{
+  "id": "sec-solving-equations-revisited-11-12-1",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-12-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "argument valid argument sound argument "
+},
+{
+  "id": "sec-solving-equations-revisited-11-13",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-13",
+  "type": "Example",
+  "number": "1.8.9",
+  "title": "",
+  "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
+},
+{
+  "id": "sec-solving-equations-revisited-11-14",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-14",
+  "type": "Remark",
+  "number": "1.8.10",
+  "title": "",
+  "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
+},
+{
+  "id": "sec-solving-equations-revisited-12-3",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-12-3",
+  "type": "Example",
+  "number": "1.8.11",
+  "title": "",
+  "body": "  Text    Answer   "
 },
 {
   "id": "appendix-gcf-lcm",
