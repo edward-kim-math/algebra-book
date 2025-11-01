@@ -4390,7 +4390,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Expressions and Equations Revisited",
-  "body": " Expressions and Equations Revisited    In this section, we learn how to:    Translate various contextual situations into equations.  Interpret the solutions of equations in context.  Solve equations and systems of equations involving multiple variables.     Applications  Intro:   You need miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers. How many miles should you transfer to book the flight while taking advantage of the transfer bonus?        Text       Expressions representing contextual quantities    A shirt has a price of but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the shirt?          The amount of discount is of , which is dollars, which we can simplify to dollars.    The amount you actually pay is the original price minus the discount, which is dollars. We can also write this as dollars, or going back to the original expression, we can factor out and write as dollars, or even dollars. Finally, we can take any of the above and fully simplify the final answer to dollars.        It is extremely important to point out that the original expression in part 2 is , which is where all of the other answers (including ) come from. The specific thing to pay attention to is that the original price of dollars appears twice in the first expression. This actually makes sense: we would have paid dollars if there was no discount, but because of the discount, we are paying less (and the amount that we are paying less is proportional to the original price, and so it makes sense that the amount we are subtracting also involves the original price of dollars).     A toaster has a price of but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the toaster?           dollars, which we can simplify to dollars.     dollars, which we can also write as dollars, or dollarsor dollars or dollars.        The initial expression in part 2 is , which mentions twice. It is tempting to skip to the other answers, but it is important to understand where they come from: is the original expression, and the original price appears twice.     A hat has a price of dollars but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the hat?          You save dollars. This cannot be simplified any further because we do not know the value of . (Note that in Part 1 of , we multiplied the decimal version of the percentage by the original amount of to get . In this problem, we also multiply the decimal version of the percentage by the original amount of to get . Conceptually, we are doing the same thing, but the difference is that in this problem, the original amount is represented by a variable rather than a constant like .)    You pay dollars, which we can also write as dollars, or dollars. (Note that in Part 2 of , we subtracted the amount saved from the original price to get the final price. In this problem, we are also subtracting the amount saved from the original amount of to get the final price.)        Just like in and , the initial expression in part 2 mentions the original price twice. In this case, the initial expression in part 2 is , which mentions twice. Especially in the case of an unknown original price, the original price (represented by a variable, like in the previous example) will appear twice in the initial expression.   We have just examined examples of expressions involving percentages coming from discounts. Now, let's look at examples involving taxes.    A laptop has a price of and sales tax will be added.   How much money do you pay in sales tax?    What is the total amount you pay, including sales tax?           dollars is paid in sales tax, which we can simplify to dollars.    The total amount paid, including sales tax, is dollars, which we can also write as dollars, or dollars, or dollars, or dollars.        The initial expression for the final amount paid is , which mentions the original price twice.     A laptop has a price of and sales tax will be added.   How much money do you pay in sales tax?    What is the total amount you pay, including sales tax?          You pay dollars in sales tax.    The total amount paid, including sales tax, is dollars. There are, of course, additional ways to write this amount, but really captures what's going on.          Examine the second part of all the questions we've seen so far. Why is the operation (plus versus minus) different for taxes than for discounts?     After examining why the operation is different for taxes than for discounts, let's exercise our conceptual understanding with what feels like a different example.    You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?         You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?       Let's examine a series of examples which combine taxes and tips, which is extremely common in restaurant settings.    A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?         A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?         Equations involving percentages      Systems of equations      Distance, rate, and time  Solve using one variable, solve using two variables    Mixture  One var, two vars    Literal Equations  Literal equations (multiple variables)    Equations with Rational Expressions  Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference      Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Step 1 text    Step 2 text    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.            Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
+  "body": " Expressions and Equations Revisited    In this section, we learn how to:    Translate various contextual situations into equations.  Interpret the solutions of equations in context.  Solve equations and systems of equations involving multiple variables.     Applications  Intro:   You need miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers. How many miles should you transfer to book the flight while taking advantage of the transfer bonus?        Text       Expressions representing contextual quantities    A shirt has a price of but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the shirt?          The amount of discount is of , which is dollars, which we can simplify to dollars.    The amount you actually pay is the original price minus the discount, which is dollars. We can also write this as dollars, or going back to the original expression, we can factor out and write as dollars, or even dollars. Finally, we can take any of the above and fully simplify the final answer to dollars.        It is extremely important to point out that the original expression in part 2 is , which is where all of the other answers (including ) come from. The specific thing to pay attention to is that the original price of dollars appears twice in the first expression. This actually makes sense: we would have paid dollars if there was no discount, but because of the discount, we are paying less (and the amount that we are paying less is proportional to the original price, and so it makes sense that the amount we are subtracting also involves the original price of dollars).     A toaster has a price of but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the toaster?           dollars, which we can simplify to dollars.     dollars, which we can also write as dollars, or dollarsor dollars or dollars.        The initial expression in part 2 is , which mentions twice. It is tempting to skip to the other answers, but it is important to understand where they come from: is the original expression, and the original price appears twice.     A hat has a price of dollars but a discount is being offered.   How much money do you save off the original price?    What is the amount you actually pay for the hat?          You save dollars. This cannot be simplified any further because we do not know the value of . (Note that in Part 1 of , we multiplied the decimal version of the percentage by the original amount of to get . In this problem, we also multiply the decimal version of the percentage by the original amount of to get . Conceptually, we are doing the same thing, but the difference is that in this problem, the original amount is represented by a variable rather than a constant like .)    You pay dollars, which we can also write as dollars, or dollars. (Note that in Part 2 of , we subtracted the amount saved from the original price to get the final price. In this problem, we are also subtracting the amount saved from the original amount of to get the final price.)        Just like in and , the initial expression in part 2 mentions the original price twice. In this case, the initial expression in part 2 is , which mentions twice. Especially in the case of an unknown original price, the original price (represented by a variable, like in the previous example) will appear twice in the initial expression.   We have just examined examples of expressions involving percentages coming from discounts. Now, let's look at examples involving taxes.    A laptop has a price of and sales tax will be added.   How much money do you pay in sales tax?    What is the total amount you pay, including sales tax?           dollars is paid in sales tax, which we can simplify to dollars.    The total amount paid, including sales tax, is dollars, which we can also write as dollars, or dollars, or dollars, or dollars.        The initial expression for the final amount paid is , which mentions the original price twice.     A laptop has a price of and sales tax will be added.   How much money do you pay in sales tax?    What is the total amount you pay, including sales tax?          You pay dollars in sales tax.    The total amount paid, including sales tax, is dollars. There are, of course, additional ways to write this amount, but really captures what's going on.          Examine the second part of all the questions we've seen so far. Why is the operation (plus versus minus) different for taxes than for discounts?     After examining why the operation is different for taxes than for discounts, let's exercise our conceptual understanding with what feels like a different example.    You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?          You receive bonus miles.    The total number of miles is miles.         You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?          You receive bonus miles.    The total number of miles is miles.        Examine how Part 1 of this example and Part 1 of the previous example are similar. Likewise, notice how Part 2 of this example is a parallel to Part 2 of the previous example.   Let's examine a series of examples which combine taxes and tips, which is extremely common in restaurant settings.    A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?           dollars is paid in tax.     dollars represents the amount paid for the meal and the tax. (This is the post-tax amount, which will be needed for the next part.)    The post-tax amount is dollars. To compute the amount of tip to pay, we need to take of this post-tax amount. In other words, the amount paid in tip is dollars.    We have to pay for all three parts. To name the pieces (and how much each piece is), we pay for the meal (which is dollars), and we pay for the tax (which is dollars), and we pay for the tip (which is dollars). Since we have to pay for all three parts, we add these together to get the total amount paid: dollars.         A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?          The tax to pay is dollars.    The post-tax amount is dollars, which is the sum of the meal and the tax.    The tip is of the post-tax amount from the previous part. So, the tip is dollars.    The total paid is dollars.        It is important to really pay close attention to how similar the answers to the four parts in this example are in the same format of the answers to the four parts in the previous example. Each time the previous question had the number , this question has the variable instead.     Equations involving percentages    You are willing to spend a maximum of dollars to buy a hat. Hats are being offered at a discount off original prices. What is the maximum original price of a hat we can afford?    We will let represent the original price of the had it dollars. In , we had seen that the final amount spent on the hat is dollars. In the question here, we have the additional information that the final amount spent on the hat is dollars. Therefore, we can build an equation by setting these two expressions equal to each other: AAAAA\"      You have allocated dollars to buy a laptop, but have to also pay a sales tax. What is the pre-tax price of a laptop that you can afford?      Systems of equations      Distance, rate, and time  Solve using one variable, solve using two variables    Mixture  One var, two vars    Literal Equations  Literal equations (multiple variables)    Equations with Rational Expressions  Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.    subsection title   text  text     Statement text    Solution text       Text      Text    Title  Text    text    knights and knaves  puzzle knights and knaves  While walking through a fictional forest, you encounter three trolls guarding a bridge. Each is either a knight , who always tells the truth, or a knave , who always lies. The trolls will not let you pass until you correctly identify each as either a knight or a knave. Each troll makes a single statement:   Troll 1: If I am a knave, then there are exactly two knights here.  Troll 2: Troll 1 is lying.  Troll 3: Either we are all knaves, or at least one of us is a knight.   Which troll is which? self reference reference, self  reference, self self reference      Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Step 1 text    Step 2 text    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.            Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.      Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.     Our definitions of argument , valid argument , and sound argument are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.    cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.     The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!     Applications Revisited  Let's revisit the applications we introduced at the beginning of this section.    Text    Answer      Summary     Summary point.    Summary point.    Summary point.       Exercises        Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart      Text.  Subpart  Subpart  Subpart        "
 },
 {
   "id": "sec-solving-equations-revisited-2",
@@ -4438,9 +4438,9 @@ var ptx_lunr_docs = [
   "body": " The initial expression in part 2 is , which mentions twice. It is tempting to skip to the other answers, but it is important to understand where they come from: is the original expression, and the original price appears twice.  "
 },
 {
-  "id": "sec-solving-equations-revisited-4-6",
+  "id": "example-discount-hat-expressions",
   "level": "2",
-  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-4-6",
+  "url": "sec-solving-equations-revisited.html#example-discount-hat-expressions",
   "type": "Example",
   "number": "1.8.5",
   "title": "",
@@ -4498,7 +4498,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.8.11",
   "title": "",
-  "body": "  You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?      "
+  "body": "  You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?          You receive bonus miles.    The total number of miles is miles.      "
 },
 {
   "id": "sec-solving-equations-revisited-4-15",
@@ -4507,16 +4507,16 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.8.12",
   "title": "",
-  "body": "  You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?      "
+  "body": "  You will transfer miles for a flight. Your credit card usually transfers miles at a ratio, but is currently offering a bonus on all transfers.   How many bonus miles do you receive?    What is the total number of miles you will have after the transfer and bonus?          You receive bonus miles.    The total number of miles is miles.      "
 },
 {
-  "id": "sec-solving-equations-revisited-4-17",
+  "id": "sec-solving-equations-revisited-4-16",
   "level": "2",
-  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-4-17",
-  "type": "Example",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-4-16",
+  "type": "Note",
   "number": "1.8.13",
   "title": "",
-  "body": "  A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?      "
+  "body": " Examine how Part 1 of this example and Part 1 of the previous example are similar. Likewise, notice how Part 2 of this example is a parallel to Part 2 of the previous example.  "
 },
 {
   "id": "sec-solving-equations-revisited-4-18",
@@ -4525,14 +4525,50 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.8.14",
   "title": "",
-  "body": "  A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?      "
+  "body": "  A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?           dollars is paid in tax.     dollars represents the amount paid for the meal and the tax. (This is the post-tax amount, which will be needed for the next part.)    The post-tax amount is dollars. To compute the amount of tip to pay, we need to take of this post-tax amount. In other words, the amount paid in tip is dollars.    We have to pay for all three parts. To name the pieces (and how much each piece is), we pay for the meal (which is dollars), and we pay for the tax (which is dollars), and we pay for the tip (which is dollars). Since we have to pay for all three parts, we add these together to get the total amount paid: dollars.      "
+},
+{
+  "id": "sec-solving-equations-revisited-4-19",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-4-19",
+  "type": "Example",
+  "number": "1.8.15",
+  "title": "",
+  "body": "  A restaurant meal has a price of . A tax must be paid, and tip will be included on the post-tax amount.   How much money is paid in tax?    How much total money is paid for the meal and tax?    How much total money is paid in tip?    How much total money is paid in meal, tax, and tip?          The tax to pay is dollars.    The post-tax amount is dollars, which is the sum of the meal and the tax.    The tip is of the post-tax amount from the previous part. So, the tip is dollars.    The total paid is dollars.      "
+},
+{
+  "id": "sec-solving-equations-revisited-4-20",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-4-20",
+  "type": "Note",
+  "number": "1.8.16",
+  "title": "",
+  "body": " It is important to really pay close attention to how similar the answers to the four parts in this example are in the same format of the answers to the four parts in the previous example. Each time the previous question had the number , this question has the variable instead.  "
+},
+{
+  "id": "sec-solving-equations-revisited-5-2",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-5-2",
+  "type": "Example",
+  "number": "1.8.17",
+  "title": "",
+  "body": "  You are willing to spend a maximum of dollars to buy a hat. Hats are being offered at a discount off original prices. What is the maximum original price of a hat we can afford?    We will let represent the original price of the had it dollars. In , we had seen that the final amount spent on the hat is dollars. In the question here, we have the additional information that the final amount spent on the hat is dollars. Therefore, we can build an equation by setting these two expressions equal to each other: AAAAA\"   "
+},
+{
+  "id": "sec-solving-equations-revisited-5-3",
+  "level": "2",
+  "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-5-3",
+  "type": "Example",
+  "number": "1.8.18",
+  "title": "",
+  "body": "  You have allocated dollars to buy a laptop, but have to also pay a sales tax. What is the pre-tax price of a laptop that you can afford?   "
 },
 {
   "id": "sec-solving-equations-revisited-11-2",
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-2",
   "type": "Principle",
-  "number": "1.8.15",
+  "number": "1.8.19",
   "title": "text.",
   "body": " text  text  "
 },
@@ -4541,7 +4577,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-3",
   "type": "Example",
-  "number": "1.8.16",
+  "number": "1.8.20",
   "title": "",
   "body": "  Statement text    Solution text   "
 },
@@ -4550,7 +4586,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-4",
   "type": "Try it",
-  "number": "1.8.17",
+  "number": "1.8.21",
   "title": "",
   "body": "  Text    "
 },
@@ -4559,7 +4595,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-5",
   "type": "Note",
-  "number": "1.8.18",
+  "number": "1.8.22",
   "title": "",
   "body": " Text  "
 },
@@ -4568,7 +4604,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-7",
   "type": "Warning",
-  "number": "1.8.19",
+  "number": "1.8.23",
   "title": "",
   "body": " text  "
 },
@@ -4586,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-9",
   "type": "Strategy",
-  "number": "1.8.20",
+  "number": "1.8.24",
   "title": "Solving an equation with fractions.",
   "body": " Solving an equation with fractions      When does this strategy apply? This strategy applies in any equation we are asked to solve when there is one or more fractions.     How to apply the strategy    Step 1 text    Step 2 text    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression. (Because we have to multiply the entire left side and the entire right side, it may be necessary to use parentheses due to the Order of Operations.)    On each side, distribute if applicable.    In each term on each side, cancel where applicable. This always results in an equation which has no fractions.        "
 },
@@ -4595,7 +4631,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-10",
   "type": "Try it",
-  "number": "1.8.21",
+  "number": "1.8.25",
   "title": "",
   "body": "  Spend a few minutes thinking about the Investigate problem above. What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)? Share your initial thoughts on this.    "
 },
@@ -4604,7 +4640,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-11",
   "type": "Definition",
-  "number": "1.8.22",
+  "number": "1.8.26",
   "title": "Argument.",
   "body": " Argument  argument  premise  conclusion  valid  sound  proof   An argument  argument is a sequence of statements, the last of which is called the conclusion  conclusion and the rest of which are called premises . premises   An argument is said to be valid  valid provided the conclusion must be true whenever the premises are all true. An argument is invalid if it is not valid; that is, all the premises can be true, and the conclusion could still be false.  An argument is sound provided it is valid and all the premises are true. A proof of a statement is a sound argument whose conclusion is the statement.   "
 },
@@ -4622,7 +4658,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-13",
   "type": "Example",
-  "number": "1.8.23",
+  "number": "1.8.27",
   "title": "",
   "body": " cookie   Consider the following two arguments:     If Edith eats her vegetables, then she can have a cookie.     Edith eats her vegetables.     Edith gets a cookie.       Florence must eat her vegetables to get a cookie.     Florence eats her vegetables.     Florence gets a cookie.    (The symbol    therefore  means therefore )  Are these arguments valid?    Do you agree that the first argument is valid but the second argument is not? We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.  Notice the two arguments look almost identical. Edith and Florence both eat their vegetables. In both cases, there is a connection between the eating of vegetables and cookies. Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does. The difference must be in the connection between eating vegetables and getting cookies. We need to be skilled at reading and comprehending these sentences. Do the two sentences mean the same thing?  Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent. But notice that just because Florence must eat her vegetables, we have not claimed that doing so would be enough (she might also need to clean her room, for example). In everyday (non-mathematical) practice, you might be tempted to say this other direction is implied. In mathematics, we never get that luxury.   "
 },
@@ -4631,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-11-14",
   "type": "Remark",
-  "number": "1.8.24",
+  "number": "1.8.28",
   "title": "",
   "body": " The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful. And even if you don't want to give your grandmother a cookie. If you are using mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct. You better have a good argument that it is!  "
 },
@@ -4640,7 +4676,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-solving-equations-revisited.html#sec-solving-equations-revisited-12-3",
   "type": "Example",
-  "number": "1.8.25",
+  "number": "1.8.29",
   "title": "",
   "body": "  Text    Answer   "
 },

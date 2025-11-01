@@ -139,7 +139,7 @@
       </p>
     </note>
 
-    <example>
+    <example xml:id="example-discount-hat-expressions">
       <statement>
         <p>
           A hat has a price of <m>h</m> dollars but a <m>6\%</m> discount is being offered.
@@ -308,6 +308,22 @@
           </ol>
         </p>
       </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You receive <m>0.10 \times 30000</m> bonus miles.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total number of miles is <m>30000 + 0.10 \times 30000</m> miles.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
     </example>
 
     <example>
@@ -329,7 +345,29 @@
           </ol>
         </p>
       </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You receive <m>0.10 \times M</m> bonus miles.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total number of miles is <m>M + 0.10 \times M</m> miles.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
     </example>
+    <note>
+      <p>
+        Examine how Part 1 of this example and Part 1 of the previous example are similar.
+        Likewise, notice how Part 2 of this example is a parallel to Part 2 of the previous example.
+      </p>
+    </note>
 
     <p>
       Let's examine a series of examples which combine taxes and tips, which is extremely common in restaurant settings.
@@ -338,7 +376,7 @@
     <example>
       <statement>
         <p>
-          A restaurant meal has a price of <m>\$15.80</m>.
+          A restaurant meal has a price of <m>\$14.80</m>.
           A <m>5\%</m> tax must be paid, and <m>15\%</m> tip will be included on the post-tax amount.
           <ol>
             <li>
@@ -364,6 +402,37 @@
           </ol>
         </p>
       </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>0.05 \cdot 14.80</m> dollars is paid in tax.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>14.80 + 0.05 \cdot 14.80</m> dollars represents the amount paid for the meal and the tax. (This is the post-tax amount, which will be needed for the next part.)
+              </p>
+            </li>
+            <li>
+              <p>
+                The post-tax amount is <m>14.80 + 0.05 \cdot 14.80</m> dollars.
+                To compute the amount of tip to pay, we need to take <m>15\%</m> of this post-tax amount.
+                In other words, the amount paid in tip is <m>0.15 \cdot (14.80 + 0.05 \cdot 14.80)</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                We have to pay for all three parts. To name the pieces (and how much each piece is), we pay for the meal (which is <m>14.80</m> dollars), 
+                and we pay for the tax (which is <m>0.05 \cdot 14.80</m> dollars), and we pay for the tip (which is <m>0.15 \cdot (14.80 + 0.05 \cdot 14.80)</m> dollars).
+                Since we have to pay for all three parts, we add these together to get the total amount paid:
+                <m>14.80 + 0.05 \cdot 14.80 + 0.15 \cdot (14.80 + 0.05 \cdot 14.80)</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
     </example>
 
     <example>
@@ -395,14 +464,78 @@
           </ol>
         </p>
       </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                The tax to pay is <m>0.05 \cdot M</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The post-tax amount is <m>M + 0.05 \cdot M</m> dollars, which is the sum of the meal and the tax.
+              </p>
+            </li>
+            <li>
+              <p>
+                The tip is <m>15\%</m> of the post-tax amount from the previous part.
+                So, the tip is <m>0.15 \cdot (M + 0.05 \cdot M)</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total paid is
+                <m>M + 0.05 \cdot M + 0.15 \cdot (M + 0.05 \cdot M)</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>      
     </example>
+    <note>
+      <p>
+        It is important to really pay close attention to how similar the answers to the four parts in this example 
+        are in the same format of the answers to the four parts in the previous example.
+        Each time the previous question had the number <m>14.80</m>, this question has the variable <m>M</m> instead.
+      </p>
+    </note>
 
   </subsection>
 
   <subsection>
     <title>Equations involving percentages</title>
-    <p>
-    </p>
+
+    <example>
+      <statement>
+        <p>
+          You are willing to spend a maximum of <m>10</m> dollars to buy a hat.
+          Hats are being offered at a <m>6\%</m> discount off original prices. 
+          What is the maximum original price of a hat we can afford?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We will let <m>h</m> represent the original price of the had it dollars.
+          In <xref ref="example-discount-hat-expressions" />, we had seen that the final amount spent on the hat is <m>h - 0.06 \cdot h</m> dollars.
+          In the question here, we have the additional information that the final amount spent on the hat is <m>10</m> dollars.
+          Therefore, we can build an equation by setting these two expressions equal to each other:
+          <me>h - 0.06h = 10</me>
+          AAAAA"
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          You have allocated <m>1,600</m> dollars to buy a laptop, but have to also pay a <m>4\%</m> sales tax. 
+          What is the pre-tax price of a laptop that you can afford?
+        </p>
+      </statement>
+    </example>
+
+
   </subsection>
 
   <subsection>
