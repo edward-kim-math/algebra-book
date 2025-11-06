@@ -46,6 +46,144 @@
   <subsection>
     <title>Expressions representing contextual quantities</title>
 
+
+    <example>
+      <statement>
+        <p>
+          A laptop has a price of <m>\$1400</m> and <m>4\%</m> sales tax will be added.
+          <ol>
+            <li>
+              <p>
+                How much money do you pay in sales tax? 
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total amount you pay, including sales tax?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>0.04 \times 1400</m> dollars is paid in sales tax, which we can simplify to <m>56</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total amount paid, including sales tax, is <m>1400 + 0.04 \times 1400</m> dollars, which we can also write as <m>(1 + 0.04)1400</m> dollars, 
+                or <m>1.04 \cdot 1400</m> dollars, or <m>1400 + 56</m> dollars, or <m>1456</m> dollars.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note>
+      <p>
+        The initial expression for the final amount paid is <m>1400 + 0.04 \cdot 1400</m>, which mentions the original price <m>1400</m> twice.
+      </p>
+    </note>
+    <p>
+      Before looking at another example, it is very important to see that the unsimplified and original expression for the total amount paid <me>1400 + 0.04 \cdot 1400</me> mentions the original price of <m>1400</m> dollars twice.
+      The amount of tax paid (in this case <m>56</m> dollars) is proportional to the subtotal of <m>1400</m> dollars. So, to come up with the number <m>56</m>, we had to compute <m>0.04 \cdot 1400</m>.
+      Similarly, the total paid on an item that is originally priced at <m>100</m> dollars that has a <m>4\%</m> sales tax is <m>100 + 0.04 \cdot 100</m> dollars: in this case, the amount of tax paid is <m>0.04 \cdot 100</m> dollars, which is <m>4</m> dollars.
+      (A less expensive item has lower tax, assuming that the tax rate of <m>4\%</m> remains the same.)
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          An espresso machine has a base price of <m>130</m> dollars, but a sales tax of <m>6\%</m> must also be paid at checkout.
+          <ul>
+            <li>
+              <p>
+                How much money is paid in sales tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total amount paid, including sales tax?
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              <p>
+                The amount paid in sales tax is <m>0.06 \cdot 130</m> dollars, which we can simplify to <m>7.80</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total amount paid, including sales tax, is <m>130 + 0.06 \cdot 130</m> dollars, which we can also write as <m>(1 + 0.06)130</m> dollars, or <m>1.06 \cdot 130</m> dollars, or <m>130 + 7.80</m> dollars, or <m>137.80</m> dollars.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>    
+    <note xml:id="note-percent0">
+      <p>
+        It is extremely important to point out that the original expression in part 2 is <m>130 + 0.06 \cdot 130</m>, 
+        which is where all of the other answers (including <m>137.80</m>) come from.
+        The specific thing to pay attention to is that the original price of <m>130</m> dollars appears <emph>twice</emph> in the first expression.
+        This actually makes sense: we would have paid <m>130</m> dollars if there was no sales tax, 
+        but because of the sales tax, we are paying more 
+        (and the amount that we are paying more is <emph>proportional</emph> to the original price, 
+        and so it makes sense that the amount we are adding also involves the original price of <m>130</m> dollars).
+      </p>
+    </note>
+
+    <example>
+      <statement>
+        <p>
+          A laptop has a price of <m>L</m> and <m>4\%</m> sales tax will be added.
+          <ol>
+            <li>
+              <p>
+                How much money do you pay in sales tax?
+              </p>
+            </li>
+            <li>
+              <p>
+                What is the total amount you pay, including sales tax?
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                You pay <m>0.04 \times L</m> dollars in sales tax.
+              </p>
+            </li>
+            <li>
+              <p>
+                The total amount paid, including sales tax, is <m>L + 0.04 \times L</m> dollars.
+                There are, of course, additional ways to write this amount, but <m>L + 0.04 \times L</m> really captures what's going on.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <note>
+      <p>
+        The initial expression for the final amount paid is <m>L + 0.04 \times L</m>, which mentions the original price <m>L</m> twice.
+      </p>
+    </note>
+
     <example>
       <statement>
         <p>
@@ -190,89 +328,9 @@
     </note>
 
     <p>
-      We have just examined examples of expressions involving percentages coming from discounts.
-      Now, let's look at examples involving taxes.
+      We have just examined examples of expressions involving percentages coming from taxes.
+      Now, let's look at examples involving discounts.
     </p>
-
-    <example>
-      <statement>
-        <p>
-          A laptop has a price of <m>\$1400</m> and <m>4\%</m> sales tax will be added.
-          <ol>
-            <li>
-              <p>
-                How much money do you pay in sales tax? 
-              </p>
-            </li>
-            <li>
-              <p>
-                What is the total amount you pay, including sales tax?
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          <ol>
-            <li>
-              <p>
-                <m>0.04 \times 1400</m> dollars is paid in sales tax, which we can simplify to <m>56</m> dollars.
-              </p>
-            </li>
-            <li>
-              <p>
-                The total amount paid, including sales tax, is <m>1400 + 0.04 \times 1400</m> dollars, which we can also write as <m>(1 + 0.04)1400</m> dollars, 
-                or <m>1.04 \cdot 1400</m> dollars, or <m>1400 + 56</m> dollars, or <m>1456</m> dollars.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </answer>
-    </example>
-    <note>
-      <p>
-        The initial expression for the final amount paid is <m>1400 + 0.04 \times 1400</m>, which mentions the original price <m>1400</m> twice.
-      </p>
-    </note>
-
-    <example>
-      <statement>
-        <p>
-          A laptop has a price of <m>L</m> and <m>4\%</m> sales tax will be added.
-          <ol>
-            <li>
-              <p>
-                How much money do you pay in sales tax?
-              </p>
-            </li>
-            <li>
-              <p>
-                What is the total amount you pay, including sales tax?
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          <ol>
-            <li>
-              <p>
-                You pay <m>0.04 \times L</m> dollars in sales tax.
-              </p>
-            </li>
-            <li>
-              <p>
-                The total amount paid, including sales tax, is <m>L + 0.04 \times L</m> dollars.
-                There are, of course, additional ways to write this amount, but <m>L + 0.04 \times L</m> really captures what's going on.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </answer>
-    </example>
-
 
     <!-- Try it -->
     <exercise>
