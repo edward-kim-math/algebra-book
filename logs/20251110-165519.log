@@ -1,0 +1,274 @@
+WARNING : Using CLI version 2.29.1 but project's `requirements.txt`
+WARNING : is configured to use 2.27.0. Consider either installing
+WARNING : CLI version 2.27.0 or running `pretext update`
+WARNING : to update `requirements.txt` and other managed files to match 2.29.1.
+INFO    : Since no target was supplied, we will use "web4".
+
+INFO    : Building target web4
+INFO    : Generating any needed assets.
+INFO    : converting latex-image pictures from C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx to svg graphics for placement in C:\Users\e\Documents\git-local\algebra-book\generated-assets\web\latex-image
+INFO    : extracting latex-image pictures from C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx
+INFO    : string parameters passed to extraction stylesheet: {'html.css.extra': 'external/custom-styles.css', 'cli.version': '2.29', 'publisher': 'C:/Users/e/Documents/git-local/algebra-book/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\e\Documents\git-local\algebra-book\source
+INFO    : verifying and expanding input directory: C:\Users\e\Documents\git-local\algebra-book\source\../generated-assets/web
+INFO    : input directory expanded to absolute path: C:\Users\e\Documents\git-local\algebra-book\generated-assets\web
+INFO    : verifying and expanding input directory: C:\Users\e\Documents\git-local\algebra-book\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\e\Documents\git-local\algebra-book\assets
+INFO    : XSL conversion of C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx by C:\Users\e\.ptx\2.29.1\core\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\e\.ptx\2.29.1\core\xsl\extract-latex-image.xsl
+INFO    : converting diamond-method-general-1-2-2.tex to diamond-method-general-1-2-2.pdf
+INFO    : cropping diamond-method-general-1-2-2.pdf to cropped-diamond-method-general-1-2-2.pdf
+INFO    : renaming cropped-diamond-method-general-1-2-2.pdf to diamond-method-general-1-2-2.pdf
+INFO    : converting diamond-method-general-1-2-2.pdf to diamond-method-general-1-2-2.svg
+INFO    : converting geometric-factoring-general-1-5-2.tex to geometric-factoring-general-1-5-2.pdf
+INFO    : cropping geometric-factoring-general-1-5-2.pdf to cropped-geometric-factoring-general-1-5-2.pdf
+INFO    : renaming cropped-geometric-factoring-general-1-5-2.pdf to geometric-factoring-general-1-5-2.pdf
+INFO    : converting geometric-factoring-general-1-5-2.pdf to geometric-factoring-general-1-5-2.svg
+INFO    : converting sec-factoring-and-expansion-3-47-2-2.tex to sec-factoring-and-expansion-3-47-2-2.pdf
+INFO    : cropping sec-factoring-and-expansion-3-47-2-2.pdf to cropped-sec-factoring-and-expansion-3-47-2-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-3-47-2-2.pdf to sec-factoring-and-expansion-3-47-2-2.pdf
+INFO    : converting sec-factoring-and-expansion-3-47-2-2.pdf to sec-factoring-and-expansion-3-47-2-2.svg
+INFO    : converting sec-factoring-and-expansion-4-25-3-1-9-2.tex to sec-factoring-and-expansion-4-25-3-1-9-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-25-3-1-9-2.pdf to cropped-sec-factoring-and-expansion-4-25-3-1-9-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-25-3-1-9-2.pdf to sec-factoring-and-expansion-4-25-3-1-9-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-25-3-1-9-2.pdf to sec-factoring-and-expansion-4-25-3-1-9-2.svg
+INFO    : converting sec-factoring-and-expansion-4-28-2-1-1-2.tex to sec-factoring-and-expansion-4-28-2-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-28-2-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-28-2-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-28-2-1-1-2.pdf to sec-factoring-and-expansion-4-28-2-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-28-2-1-1-2.pdf to sec-factoring-and-expansion-4-28-2-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-28-2-1-10-2.tex to sec-factoring-and-expansion-4-28-2-1-10-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-28-2-1-10-2.pdf to cropped-sec-factoring-and-expansion-4-28-2-1-10-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-28-2-1-10-2.pdf to sec-factoring-and-expansion-4-28-2-1-10-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-28-2-1-10-2.pdf to sec-factoring-and-expansion-4-28-2-1-10-2.svg
+INFO    : converting sec-factoring-and-expansion-4-28-3-1-1-2.tex to sec-factoring-and-expansion-4-28-3-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-28-3-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-28-3-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-28-3-1-1-2.pdf to sec-factoring-and-expansion-4-28-3-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-28-3-1-1-2.pdf to sec-factoring-and-expansion-4-28-3-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-28-3-1-10-2.tex to sec-factoring-and-expansion-4-28-3-1-10-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-28-3-1-10-2.pdf to cropped-sec-factoring-and-expansion-4-28-3-1-10-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-28-3-1-10-2.pdf to sec-factoring-and-expansion-4-28-3-1-10-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-28-3-1-10-2.pdf to sec-factoring-and-expansion-4-28-3-1-10-2.svg
+INFO    : converting sec-factoring-and-expansion-4-32-3-1-1-2.tex to sec-factoring-and-expansion-4-32-3-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-32-3-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-32-3-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-32-3-1-1-2.pdf to sec-factoring-and-expansion-4-32-3-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-32-3-1-1-2.pdf to sec-factoring-and-expansion-4-32-3-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-32-3-1-9-2.tex to sec-factoring-and-expansion-4-32-3-1-9-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-32-3-1-9-2.pdf to cropped-sec-factoring-and-expansion-4-32-3-1-9-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-32-3-1-9-2.pdf to sec-factoring-and-expansion-4-32-3-1-9-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-32-3-1-9-2.pdf to sec-factoring-and-expansion-4-32-3-1-9-2.svg
+INFO    : converting sec-factoring-and-expansion-4-32-4-1-1-2.tex to sec-factoring-and-expansion-4-32-4-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-32-4-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-32-4-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-32-4-1-1-2.pdf to sec-factoring-and-expansion-4-32-4-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-32-4-1-1-2.pdf to sec-factoring-and-expansion-4-32-4-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-32-4-1-17-2.tex to sec-factoring-and-expansion-4-32-4-1-17-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-32-4-1-17-2.pdf to cropped-sec-factoring-and-expansion-4-32-4-1-17-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-32-4-1-17-2.pdf to sec-factoring-and-expansion-4-32-4-1-17-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-32-4-1-17-2.pdf to sec-factoring-and-expansion-4-32-4-1-17-2.svg
+INFO    : converting sec-factoring-and-expansion-4-34-3-1-1-2.tex to sec-factoring-and-expansion-4-34-3-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-34-3-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-34-3-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-34-3-1-1-2.pdf to sec-factoring-and-expansion-4-34-3-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-34-3-1-1-2.pdf to sec-factoring-and-expansion-4-34-3-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-34-3-1-10-2.tex to sec-factoring-and-expansion-4-34-3-1-10-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-34-3-1-10-2.pdf to cropped-sec-factoring-and-expansion-4-34-3-1-10-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-34-3-1-10-2.pdf to sec-factoring-and-expansion-4-34-3-1-10-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-34-3-1-10-2.pdf to sec-factoring-and-expansion-4-34-3-1-10-2.svg
+INFO    : converting sec-factoring-and-expansion-4-34-4-1-1-2.tex to sec-factoring-and-expansion-4-34-4-1-1-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-34-4-1-1-2.pdf to cropped-sec-factoring-and-expansion-4-34-4-1-1-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-34-4-1-1-2.pdf to sec-factoring-and-expansion-4-34-4-1-1-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-34-4-1-1-2.pdf to sec-factoring-and-expansion-4-34-4-1-1-2.svg
+INFO    : converting sec-factoring-and-expansion-4-34-4-1-10-2.tex to sec-factoring-and-expansion-4-34-4-1-10-2.pdf
+INFO    : cropping sec-factoring-and-expansion-4-34-4-1-10-2.pdf to cropped-sec-factoring-and-expansion-4-34-4-1-10-2.pdf
+INFO    : renaming cropped-sec-factoring-and-expansion-4-34-4-1-10-2.pdf to sec-factoring-and-expansion-4-34-4-1-10-2.pdf
+INFO    : converting sec-factoring-and-expansion-4-34-4-1-10-2.pdf to sec-factoring-and-expansion-4-34-4-1-10-2.svg
+INFO    : converting sec-solving-equations-revisited-6-16-2.tex to sec-solving-equations-revisited-6-16-2.pdf
+ERROR   : LaTeX compilation of sec-solving-equations-revisited-6-16-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+WARNING : LaTeX compilation of sec-solving-equations-revisited-6-16-2.tex failed
+INFO    : converting subsec--7-2-1-25-2.tex to subsec--7-2-1-25-2.pdf
+INFO    : cropping subsec--7-2-1-25-2.pdf to cropped-subsec--7-2-1-25-2.pdf
+INFO    : renaming cropped-subsec--7-2-1-25-2.pdf to subsec--7-2-1-25-2.pdf
+INFO    : converting subsec--7-2-1-25-2.pdf to subsec--7-2-1-25-2.svg
+INFO    : converting subsec--7-2-1-27-2.tex to subsec--7-2-1-27-2.pdf
+INFO    : cropping subsec--7-2-1-27-2.pdf to cropped-subsec--7-2-1-27-2.pdf
+INFO    : renaming cropped-subsec--7-2-1-27-2.pdf to subsec--7-2-1-27-2.pdf
+INFO    : converting subsec--7-2-1-27-2.pdf to subsec--7-2-1-27-2.svg
+INFO    : converting subsec--7-2-1-4-2.tex to subsec--7-2-1-4-2.pdf
+INFO    : cropping subsec--7-2-1-4-2.pdf to cropped-subsec--7-2-1-4-2.pdf
+INFO    : renaming cropped-subsec--7-2-1-4-2.pdf to subsec--7-2-1-4-2.pdf
+INFO    : converting subsec--7-2-1-4-2.pdf to subsec--7-2-1-4-2.svg
+INFO    : converting subsec--7-3-1-4-2.tex to subsec--7-3-1-4-2.pdf
+INFO    : cropping subsec--7-3-1-4-2.pdf to cropped-subsec--7-3-1-4-2.pdf
+INFO    : renaming cropped-subsec--7-3-1-4-2.pdf to subsec--7-3-1-4-2.pdf
+INFO    : converting subsec--7-3-1-4-2.pdf to subsec--7-3-1-4-2.svg
+INFO    : converting subsec--8-2-1-12-2.tex to subsec--8-2-1-12-2.pdf
+INFO    : cropping subsec--8-2-1-12-2.pdf to cropped-subsec--8-2-1-12-2.pdf
+INFO    : renaming cropped-subsec--8-2-1-12-2.pdf to subsec--8-2-1-12-2.pdf
+INFO    : converting subsec--8-2-1-12-2.pdf to subsec--8-2-1-12-2.svg
+INFO    : converting subsec--8-2-1-14-2.tex to subsec--8-2-1-14-2.pdf
+INFO    : cropping subsec--8-2-1-14-2.pdf to cropped-subsec--8-2-1-14-2.pdf
+INFO    : renaming cropped-subsec--8-2-1-14-2.pdf to subsec--8-2-1-14-2.pdf
+INFO    : converting subsec--8-2-1-14-2.pdf to subsec--8-2-1-14-2.svg
+INFO    : converting subsec--8-2-1-3-2.tex to subsec--8-2-1-3-2.pdf
+INFO    : cropping subsec--8-2-1-3-2.pdf to cropped-subsec--8-2-1-3-2.pdf
+INFO    : renaming cropped-subsec--8-2-1-3-2.pdf to subsec--8-2-1-3-2.pdf
+INFO    : converting subsec--8-2-1-3-2.pdf to subsec--8-2-1-3-2.svg
+INFO    : converting subsec--8-3-1-4-2.tex to subsec--8-3-1-4-2.pdf
+INFO    : cropping subsec--8-3-1-4-2.pdf to cropped-subsec--8-3-1-4-2.pdf
+INFO    : renaming cropped-subsec--8-3-1-4-2.pdf to subsec--8-3-1-4-2.pdf
+INFO    : converting subsec--8-3-1-4-2.pdf to subsec--8-3-1-4-2.svg
+INFO    : converting subsec--9-2-1-16-2.tex to subsec--9-2-1-16-2.pdf
+INFO    : cropping subsec--9-2-1-16-2.pdf to cropped-subsec--9-2-1-16-2.pdf
+INFO    : renaming cropped-subsec--9-2-1-16-2.pdf to subsec--9-2-1-16-2.pdf
+INFO    : converting subsec--9-2-1-16-2.pdf to subsec--9-2-1-16-2.svg
+INFO    : converting subsec--9-2-1-18-2.tex to subsec--9-2-1-18-2.pdf
+INFO    : cropping subsec--9-2-1-18-2.pdf to cropped-subsec--9-2-1-18-2.pdf
+INFO    : renaming cropped-subsec--9-2-1-18-2.pdf to subsec--9-2-1-18-2.pdf
+INFO    : converting subsec--9-2-1-18-2.pdf to subsec--9-2-1-18-2.svg
+INFO    : converting subsec--9-2-1-3-2.tex to subsec--9-2-1-3-2.pdf
+INFO    : cropping subsec--9-2-1-3-2.pdf to cropped-subsec--9-2-1-3-2.pdf
+INFO    : renaming cropped-subsec--9-2-1-3-2.pdf to subsec--9-2-1-3-2.pdf
+INFO    : converting subsec--9-2-1-3-2.pdf to subsec--9-2-1-3-2.svg
+INFO    : converting subsec--9-3-1-4-2.tex to subsec--9-3-1-4-2.pdf
+INFO    : cropping subsec--9-3-1-4-2.pdf to cropped-subsec--9-3-1-4-2.pdf
+INFO    : renaming cropped-subsec--9-3-1-4-2.pdf to subsec--9-3-1-4-2.pdf
+INFO    : converting subsec--9-3-1-4-2.pdf to subsec--9-3-1-4-2.svg
+INFO    : converting subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.tex to subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf
+INFO    : cropping subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf to cropped-subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf
+INFO    : renaming cropped-subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf to subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf
+INFO    : converting subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.pdf to subsec-additional-factoring-techniques-9-1-1-3-1-5-4-1-2-2.svg
+INFO    : converting subsec-special-cases-11-4-1-1-2.tex to subsec-special-cases-11-4-1-1-2.pdf
+INFO    : cropping subsec-special-cases-11-4-1-1-2.pdf to cropped-subsec-special-cases-11-4-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-11-4-1-1-2.pdf to subsec-special-cases-11-4-1-1-2.pdf
+INFO    : converting subsec-special-cases-11-4-1-1-2.pdf to subsec-special-cases-11-4-1-1-2.svg
+INFO    : converting subsec-special-cases-11-4-1-11-2.tex to subsec-special-cases-11-4-1-11-2.pdf
+INFO    : cropping subsec-special-cases-11-4-1-11-2.pdf to cropped-subsec-special-cases-11-4-1-11-2.pdf
+INFO    : renaming cropped-subsec-special-cases-11-4-1-11-2.pdf to subsec-special-cases-11-4-1-11-2.pdf
+INFO    : converting subsec-special-cases-11-4-1-11-2.pdf to subsec-special-cases-11-4-1-11-2.svg
+INFO    : converting subsec-special-cases-11-5-1-1-2.tex to subsec-special-cases-11-5-1-1-2.pdf
+INFO    : cropping subsec-special-cases-11-5-1-1-2.pdf to cropped-subsec-special-cases-11-5-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-11-5-1-1-2.pdf to subsec-special-cases-11-5-1-1-2.pdf
+INFO    : converting subsec-special-cases-11-5-1-1-2.pdf to subsec-special-cases-11-5-1-1-2.svg
+INFO    : converting subsec-special-cases-11-5-1-11-2.tex to subsec-special-cases-11-5-1-11-2.pdf
+INFO    : cropping subsec-special-cases-11-5-1-11-2.pdf to cropped-subsec-special-cases-11-5-1-11-2.pdf
+INFO    : renaming cropped-subsec-special-cases-11-5-1-11-2.pdf to subsec-special-cases-11-5-1-11-2.pdf
+INFO    : converting subsec-special-cases-11-5-1-11-2.pdf to subsec-special-cases-11-5-1-11-2.svg
+INFO    : converting subsec-special-cases-12-4-1-1-2.tex to subsec-special-cases-12-4-1-1-2.pdf
+INFO    : cropping subsec-special-cases-12-4-1-1-2.pdf to cropped-subsec-special-cases-12-4-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-12-4-1-1-2.pdf to subsec-special-cases-12-4-1-1-2.pdf
+INFO    : converting subsec-special-cases-12-4-1-1-2.pdf to subsec-special-cases-12-4-1-1-2.svg
+INFO    : converting subsec-special-cases-12-4-1-10-2.tex to subsec-special-cases-12-4-1-10-2.pdf
+INFO    : cropping subsec-special-cases-12-4-1-10-2.pdf to cropped-subsec-special-cases-12-4-1-10-2.pdf
+INFO    : renaming cropped-subsec-special-cases-12-4-1-10-2.pdf to subsec-special-cases-12-4-1-10-2.pdf
+INFO    : converting subsec-special-cases-12-4-1-10-2.pdf to subsec-special-cases-12-4-1-10-2.svg
+INFO    : converting subsec-special-cases-12-5-1-1-2.tex to subsec-special-cases-12-5-1-1-2.pdf
+INFO    : cropping subsec-special-cases-12-5-1-1-2.pdf to cropped-subsec-special-cases-12-5-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-12-5-1-1-2.pdf to subsec-special-cases-12-5-1-1-2.pdf
+INFO    : converting subsec-special-cases-12-5-1-1-2.pdf to subsec-special-cases-12-5-1-1-2.svg
+INFO    : converting subsec-special-cases-12-5-1-9-2.tex to subsec-special-cases-12-5-1-9-2.pdf
+INFO    : cropping subsec-special-cases-12-5-1-9-2.pdf to cropped-subsec-special-cases-12-5-1-9-2.pdf
+INFO    : renaming cropped-subsec-special-cases-12-5-1-9-2.pdf to subsec-special-cases-12-5-1-9-2.pdf
+INFO    : converting subsec-special-cases-12-5-1-9-2.pdf to subsec-special-cases-12-5-1-9-2.svg
+INFO    : converting subsec-special-cases-15-4-1-10-2.tex to subsec-special-cases-15-4-1-10-2.pdf
+INFO    : cropping subsec-special-cases-15-4-1-10-2.pdf to cropped-subsec-special-cases-15-4-1-10-2.pdf
+INFO    : renaming cropped-subsec-special-cases-15-4-1-10-2.pdf to subsec-special-cases-15-4-1-10-2.pdf
+INFO    : converting subsec-special-cases-15-4-1-10-2.pdf to subsec-special-cases-15-4-1-10-2.svg
+INFO    : converting subsec-special-cases-15-4-1-2-2.tex to subsec-special-cases-15-4-1-2-2.pdf
+INFO    : cropping subsec-special-cases-15-4-1-2-2.pdf to cropped-subsec-special-cases-15-4-1-2-2.pdf
+INFO    : renaming cropped-subsec-special-cases-15-4-1-2-2.pdf to subsec-special-cases-15-4-1-2-2.pdf
+INFO    : converting subsec-special-cases-15-4-1-2-2.pdf to subsec-special-cases-15-4-1-2-2.svg
+INFO    : converting subsec-special-cases-15-5-1-1-2.tex to subsec-special-cases-15-5-1-1-2.pdf
+INFO    : cropping subsec-special-cases-15-5-1-1-2.pdf to cropped-subsec-special-cases-15-5-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-15-5-1-1-2.pdf to subsec-special-cases-15-5-1-1-2.pdf
+INFO    : converting subsec-special-cases-15-5-1-1-2.pdf to subsec-special-cases-15-5-1-1-2.svg
+INFO    : converting subsec-special-cases-15-5-1-9-2.tex to subsec-special-cases-15-5-1-9-2.pdf
+INFO    : cropping subsec-special-cases-15-5-1-9-2.pdf to cropped-subsec-special-cases-15-5-1-9-2.pdf
+INFO    : renaming cropped-subsec-special-cases-15-5-1-9-2.pdf to subsec-special-cases-15-5-1-9-2.pdf
+INFO    : converting subsec-special-cases-15-5-1-9-2.pdf to subsec-special-cases-15-5-1-9-2.svg
+INFO    : converting subsec-special-cases-16-4-1-1-2.tex to subsec-special-cases-16-4-1-1-2.pdf
+INFO    : cropping subsec-special-cases-16-4-1-1-2.pdf to cropped-subsec-special-cases-16-4-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-16-4-1-1-2.pdf to subsec-special-cases-16-4-1-1-2.pdf
+INFO    : converting subsec-special-cases-16-4-1-1-2.pdf to subsec-special-cases-16-4-1-1-2.svg
+INFO    : converting subsec-special-cases-16-4-1-7-2.tex to subsec-special-cases-16-4-1-7-2.pdf
+INFO    : cropping subsec-special-cases-16-4-1-7-2.pdf to cropped-subsec-special-cases-16-4-1-7-2.pdf
+INFO    : renaming cropped-subsec-special-cases-16-4-1-7-2.pdf to subsec-special-cases-16-4-1-7-2.pdf
+INFO    : converting subsec-special-cases-16-4-1-7-2.pdf to subsec-special-cases-16-4-1-7-2.svg
+INFO    : converting subsec-special-cases-16-5-1-1-2.tex to subsec-special-cases-16-5-1-1-2.pdf
+INFO    : cropping subsec-special-cases-16-5-1-1-2.pdf to cropped-subsec-special-cases-16-5-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-16-5-1-1-2.pdf to subsec-special-cases-16-5-1-1-2.pdf
+INFO    : converting subsec-special-cases-16-5-1-1-2.pdf to subsec-special-cases-16-5-1-1-2.svg
+INFO    : converting subsec-special-cases-16-5-1-9-2.tex to subsec-special-cases-16-5-1-9-2.pdf
+INFO    : cropping subsec-special-cases-16-5-1-9-2.pdf to cropped-subsec-special-cases-16-5-1-9-2.pdf
+INFO    : renaming cropped-subsec-special-cases-16-5-1-9-2.pdf to subsec-special-cases-16-5-1-9-2.pdf
+INFO    : converting subsec-special-cases-16-5-1-9-2.pdf to subsec-special-cases-16-5-1-9-2.svg
+INFO    : converting subsec-special-cases-7-4-1-1-2.tex to subsec-special-cases-7-4-1-1-2.pdf
+INFO    : cropping subsec-special-cases-7-4-1-1-2.pdf to cropped-subsec-special-cases-7-4-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-7-4-1-1-2.pdf to subsec-special-cases-7-4-1-1-2.pdf
+INFO    : converting subsec-special-cases-7-4-1-1-2.pdf to subsec-special-cases-7-4-1-1-2.svg
+INFO    : converting subsec-special-cases-7-4-1-9-2.tex to subsec-special-cases-7-4-1-9-2.pdf
+INFO    : cropping subsec-special-cases-7-4-1-9-2.pdf to cropped-subsec-special-cases-7-4-1-9-2.pdf
+INFO    : renaming cropped-subsec-special-cases-7-4-1-9-2.pdf to subsec-special-cases-7-4-1-9-2.pdf
+INFO    : converting subsec-special-cases-7-4-1-9-2.pdf to subsec-special-cases-7-4-1-9-2.svg
+INFO    : converting subsec-special-cases-7-5-1-1-2.tex to subsec-special-cases-7-5-1-1-2.pdf
+INFO    : cropping subsec-special-cases-7-5-1-1-2.pdf to cropped-subsec-special-cases-7-5-1-1-2.pdf
+INFO    : renaming cropped-subsec-special-cases-7-5-1-1-2.pdf to subsec-special-cases-7-5-1-1-2.pdf
+INFO    : converting subsec-special-cases-7-5-1-1-2.pdf to subsec-special-cases-7-5-1-1-2.svg
+INFO    : converting subsec-special-cases-7-5-1-9-2.tex to subsec-special-cases-7-5-1-9-2.pdf
+INFO    : cropping subsec-special-cases-7-5-1-9-2.pdf to cropped-subsec-special-cases-7-5-1-9-2.pdf
+INFO    : renaming cropped-subsec-special-cases-7-5-1-9-2.pdf to subsec-special-cases-7-5-1-9-2.pdf
+INFO    : converting subsec-special-cases-7-5-1-9-2.pdf to subsec-special-cases-7-5-1-9-2.svg
+ERROR   : Unable to generate some latex-image assets:
+ LaTeX compilation failed for 1 "latex-image"(s).
+Review the log for error messages, and LaTeX transcripts.
+Images are:
+  sec-solving-equations-revisited-6-16-2.tex
+INFO    : Removing temporary directory C:\Users\e\AppData\Local\Temp\ptx-w144mfae
+INFO    : Finished generating assets.
+
+INFO    : Building with custom xsl C:\Users\e\Documents\git-local\algebra-book\xsl\dmoi-html.xsl
+INFO    : Preparing to build into C:\Users\e\Documents\git-local\algebra-book\output\web4.
+INFO    : XSL conversion of C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx by C:\Users\e\.ptx\2.29.1\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : successful application of C:\Users\e\.ptx\2.29.1\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.18
+INFO    : Downloading Runestone Services, version 7.9.18
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-denver
+INFO    : converting C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx to HTML in C:\Users\e\AppData\Local\Temp\ptx-4zeq69iv
+INFO    : XSL conversion of C:\Users\e\Documents\git-local\algebra-book\source\dmoi.ptx by C:\Users\e\AppData\Local\Temp\ptxcli_dc2ezq1l\cli_xsl\dmoi-html.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING: In a section containing subsections, any content that is not inside a subsection needs to be inside an <introduction> and/or  <conclusion>.
+INFO    : *              located within: "sec-operations" (xml:id), "Operations" (title)
+INFO    : *              located within: "sec-fractions-revisited" (xml:id), "Fractions Revisited" (title)
+WARNING : * PTX:WARNING: In a subsection containing subsubsections, any content that is not inside a subsubsection needs to be inside an <introduction> and/or  <conclusion>.
+INFO    : *              located within: "Equations when the variable is written once" (title)
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located within: "frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:WARNING:    An <xref> wants to build text using a number to identify the target, but the target (which has @xml:id "action-to-entire-side") does not have a number. You could try 'text="title"' or 'text="custom"' on the "xref".
+INFO    : *              located within: "subsubsec-equations-with-several-operations" (xml:id), "Equations with several operations" (title)
+WARNING : * PTX:WARNING: A cross-reference (<xref>) must have a @ref attribute, a @first/@last attribute pair, or a @provisional attribute
+INFO    : *              located within: "subsec-24375623987698" (xml:id), "A new strategy" (title)
+INFO    : *              located within: "Clarifications, Cautions, and Connections" (title)
+WARNING : * PTX:WARNING: Unstructured content within a list item is being ignored ("You have an empty bucket. An")
+INFO    : *              located within: "Extra practice problems" (title)
+WARNING : * PTX:WARNING: Unstructured content within a list item is being ignored ("liter jar which is")
+WARNING : * PTX:WARNING: Unstructured content within a list item is being ignored ("acid is dumped into the bucket. A")
+WARNING : * PTX:WARNING: Unstructured content within a list item is being ignored ("acid is also dumped into the bucket.")
+INFO    : successful application of C:\Users\e\AppData\Local\Temp\ptxcli_dc2ezq1l\cli_xsl\dmoi-html.xsl
+INFO    : Removing temporary directory C:\Users\e\AppData\Local\Temp\ptx-4zeq69iv
+INFO    : Removing temporary directory C:\Users\e\AppData\Local\Temp\ptx-rjaf65om
+INFO    : 
+Finished build for target web4. Run `pretext view web4` to see the results.
+
+CRITICAL: There were errors during the build.  See above.
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

@@ -895,6 +895,109 @@
     <title>Systems of equations</title>
     <p>
     </p>
+
+    <example>
+      <statement>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x+y=1</m> and <m>3x+4y=14</m>.</statement>
+    </example>
+
+    <example>
+      <statement>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x-y=5</m> and <m>x+4y=7</m>.</statement>
+    </example>
+
+    <formula xml:id="formula-drt">
+      <title><m>d=rt</m></title>
+      <statement><m>(\text{distance}) = (\text{rate}) \times (\text{time})</m></statement>
+    </formula>
+
+    <warning>
+      <p>If there are two journeys:</p>
+      <ul>
+        <li>do not assume the two journeys have the same distance</li>
+        <li>do not assume the two journeys have the same rate</li>
+        <li>do not assume the two journeys have the same time</li>
+      </ul>
+    </warning>
+
+    <example>
+      <statement>Two cyclists, <m>63</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?</statement>
+    </example>
+
+    <example>
+      <statement>Wendy took a trip whose total distance was <m>80</m> miles. She traveled part of the way by bus, which arrived at the train station just in time for Wendy to complete her journey by train. The bus averaged <m>25</m> miles per hour, and the train averaged <m>60</m> miles per hour. The entire trip took <m>1.5</m> hours. How long did Wendy spend on the train?</statement>
+    </example>
+
+    <example>
+      <statement>Google says the distance between La Crosse and Milwaukee is <m>210</m> miles. How much faster do you get to Milwaukee from here by driving <m>75</m> mph instead of the speed limit? (The speed limit on I-90 is <m>70</m> mph.) Out of curiosity, what is the final answer in minutes?</statement>
+    </example>
+
+    <example>
+      <statement>I have a beaker (Beaker 1) with <m>8</m> liters of fluid. If <m>50\%</m> of the fluid in the beaker is acid, how many liters of acid are in the beaker?</statement>
+    </example>
+
+    <formula xml:id="formula-concentration">
+      <title>Concentration equation</title>
+      <statement><m>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</m></statement>
+    </formula>
+
+    <p>This concentration equation can be used on every container.</p>
+
+    <example>
+      <statement>Beaker 2 contains <m>12</m> liters of liquid. If <m>75\%</m> of the liquid is acid, how many liters of acid are in Beaker 2?</statement>
+    </example>
+
+    <example>
+      <statement>Beaker 1 contains <m>8</m> liters of liquid, and <m>50\%</m> of the liquid in the beaker is acid. Beaker 2 contains <m>12</m> liters of liquid, and <m>75\%</m> of the liquid is acid. If the contents of Beaker 1 and Beaker 2 are dumped into an empty bucket, what percentage of the bucket is acid?</statement>
+    </example>
+
+    <warning>
+      <p>The percentages of concentration cannot be added.</p>
+    </warning>
+
+    <p>
+      Insert figure
+    </p>
+    
+
+    <example>
+      <statement>How many liters of a <m>20\%</m> acid solution should be mixed with <m>80</m> liters of a <m>61\%</m> acid solution to make a <m>45\%</m> acid solution?</statement>
+    </example>
+
+    <example>
+      <statement>How many liters of a <m>20\%</m> acid solution and how many liters of a <m>61\%</m> acid solution should be mixed together to make <m>80</m> liters of a <m>45\%</m> acid solution?</statement>
+    </example>
+
+    <method>
+      <title>Mixture</title>
+      <p>Every mixture problem can be rephrased as taking the contents of one beaker and the contents of another beaker and dumping both into a bucket. Since the concentration equation must be applied to each container, for each container, you must keep track of the <em>amount of solution</em>, the <em>concentration of acid</em>, and the <em>amount of acid</em>. Be sure to address the following:</p>
+      <ul>
+        <li>Apply the concentration equation to Beaker 1.</li>
+        <li>Apply the concentration equation to Beaker 2.</li>
+        <li>Apply the concentration equation to the final bucket.</li>
+        <li>The amount of solution in the bucket is the sum of the amounts in Beaker 1 and Beaker 2.</li>
+        <li>The amount of acid in the bucket is the sum of the amounts in Beaker 1 and Beaker 2.</li>
+        <li>You will always obtain two expressions for the amount of acid in the bucket, so equate these.</li>
+      </ul>
+    </method>
+
+    <list>
+      <title>Extra practice problems</title>
+      <ol>
+        <li>A jar has liquid. Some of the liquid is acid, and some of the liquid is non-acid. If the jar has <m>8</m> liters of liquid and <m>50\%</m> of the jar is acid, how many liters of acid are in the jar?</li>
+        <li>If a <m>5</m> liter jar is <m>84\%</m> acid, how much of the jar (in liters) is acid?</li>
+        <li>You have an empty bucket. An <m>8</m> liter jar which is <m>50\%</m> acid is dumped into the bucket. A <m>5</m> liter jar which is <m>84\%</m> acid is also dumped into the bucket.
+          <ol>
+            <li>What is the total volume of liquid in the bucket (in liters)?</li>
+            <li>How many liters of acid are in the bucket?</li>
+            <li>What is the concentration (as a percent) of acid in the bucket?</li>
+          </ol>
+        </li>
+        <li>What amount of a <m>60\%</m> acid solution must be mixed with a <m>30\%</m> solution to produce <m>24</m> liters of a <m>50\%</m> solution?</li>
+        <li>A manufacturer of soft drinks advertises their orange soda as “naturally flavored,” although it contains only <m>5\%</m> orange juice. A new federal regulation stipulates that to be called “natural,” a drink must contain at least <m>10\%</m> fruit juice. How much pure orange juice must this manufacturer add to <m>500</m> gallons of orange soda to conform to the new regulation?</li>
+      </ol>
+    </list>
+
+
+
   </subsection>
 
   <subsection>
@@ -1256,9 +1359,14 @@
           <p>
             Text.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+
+              <li>On Monday, you go to Culver's. The Mushroom &amp; Swiss Burger Value Basket is listed as costing <m>\$8.75</m>, but that is the pre-tax amount. If there is a <m>6\%</m> sales tax, then how much total needs to be paid?</li>
+              <li>On Tuesday, you return to Culver's. Suppose you have exactly <m>\$15</m> in your wallet. If there is a <m>6\%</m> sales tax, then what is the maximum <q>pre-tax</q> amount of food you can afford to pay in cash?</li>
+              <li>During a trip to Oregon, you go to a department store and find a shirt you really like. The shirt has a <m>\$15</m> price tag on it, but there is a <m>6\%</m> off sale. What is the final price you end up needing to pay for the shirt? (Oregon has no sales tax.)</li>
+              <li>During a trip to Montana, you go to a department store and have decided in advance that you will spend no more than <m>\$130</m>. Luckily, everything in the store is part of a <m>20\%</m> off sale. What is the maximum amount that you can have (as the amounts of all price tags added together) to stay within your <m>\$130</m> spending limit? (Montana has no sales tax.)</li>
+              <li>Sydney is going to a restaurant and they have <m>30</m> dollars with them. If Sydney plans to tip <m>18\%</m>, then what is the largest bill (prior to calculating the tip) that they can afford? (Assume that there is no sales tax.)</li>
+              <li>A couple does not wish to spend more than <m>\$50</m> for dinner at a restaurant. If a sales tax of <m>8\%</m> is added to the bill, and they plan to tip <m>15\%</m> after the tax has been added, what is the most they can spend for the meal?</li>
+              <li>A worker's weekly take-home pay is <m>\$120</m> from a part-time job, after deductions totaling <m>30\%</m> of the gross pay have been subtracted. What is the weekly gross pay?</li>
             </ol>
           </p>
         </li>
@@ -1266,9 +1374,15 @@
           <p>
             Text.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <!---
+        <li><p>A woman earns <m>15\%</m> more than her husband. Together they make <m>\$69{,}875</m>. What is the husband's salary?</statement>
+        <li><p>A plumber and his assistant work together. The plumber charges <m>\$45</m> an hour and his assistant charges <m>\$25</m> an hour. The plumber works twice as long as his assistant on a job and the final bill for both workers is <m>\$4{,}025</m>. How long did the plumber and his assistant work?</statement>
+        <statement>A man is walking away from a lamppost with a light source 6 meters above the ground. The man is 2 meters tall. How long is the man's shadow when he is 10 meters from the lamppost?</statement>
+        <statement>A pot contains <m>6</m> liters of brine at a concentration of <m>120</m> g/L. How much water should be boiled off to increase the concentration to <m>200</m> g/L?</statement>
+        <statement>Two cyclists, <m>90</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?</statement>
+        <statement>If Ben invests <m>\$4000</m> at <m>4\%</m> interest per year, how much additional money must he invest at <m>5.5\%</m> annual interest to ensure that the interest he receives each year is <m>4.5\%</m> of the total amount invested?</statement>
+            -->
+        <li><p></p></li>
             </ol>
           </p>
         </li>
@@ -1286,5 +1400,7 @@
       </ol>
     </p>
   </subsection>
+
+
 
 </section>
