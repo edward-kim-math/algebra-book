@@ -804,7 +804,7 @@
     <example>
       <statement>
         <p>
-          A <m>5\^%</m> tax must be paid on the pre-tax price of a restaurant meal, 
+          A <m>5\%</m> tax must be paid on the pre-tax price of a restaurant meal, 
           and a <m>15\%</m> tip will be included on the post-tax amount.
           If you want the total amount paid (including meal, tax, and tip) to be exactly <m>21</m> dollars,
           what is the pre-tax price of the meal?
@@ -904,6 +904,16 @@
       <statement>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x-y=5</m> and <m>x+4y=7</m>.</statement>
     </example>
 
+
+
+
+  </subsection>
+
+  <subsection>
+    <title>Distance, rate, and time</title>
+    <p>
+      Solve using one variable, solve using two variables
+    </p>
     <formula xml:id="formula-drt">
       <title><m>d=rt</m></title>
       <statement><m>(\text{distance}) = (\text{rate}) \times (\text{time})</m></statement>
@@ -930,6 +940,16 @@
       <statement>Google says the distance between La Crosse and Milwaukee is <m>210</m> miles. How much faster do you get to Milwaukee from here by driving <m>75</m> mph instead of the speed limit? (The speed limit on I-90 is <m>70</m> mph.) Out of curiosity, what is the final answer in minutes?</statement>
     </example>
 
+
+
+  </subsection>
+
+  <subsection>
+    <title>Mixture</title>
+    <p>
+      One var, two vars
+    </p>
+
     <example>
       <statement>I have a beaker (Beaker 1) with <m>8</m> liters of fluid. If <m>50\%</m> of the fluid in the beaker is acid, how many liters of acid are in the beaker?</statement>
     </example>
@@ -954,7 +974,46 @@
     </warning>
 
     <p>
-      Insert figure
+      <figure>
+        <caption>Visualization of beakers</caption>
+        <image width="90%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \fill[blue] (-1,0) -- (-2,0) -- (-2,.4) -- (-1,.4) -- cycle;
+                \fill[red] (-1,.4) -- (-2,.4) -- (-2,.8) -- (-1,.8) -- cycle;
+                \draw[ultra thick] (-1,2) -- (-1,0) -- (-2,0) -- (-2,2);
+                %
+                \fill[blue] (1,0) -- (2,0) -- (2,.3) -- (1,.3) -- cycle;
+                \fill[red] (1,.3) -- (2,.3) -- (2,1.2) -- (1,1.2) -- cycle;
+                \draw[ultra thick] (1,2) -- (1,0) -- (2,0) -- (2,2);
+                %
+                \fill[blue] (-.5,-3) -- (.5,-3) -- (.5,-2.6) -- (-.5,-2.6) -- cycle;
+                \fill[red] (-.5,-2.6) -- (.5,-2.6) -- (.5,-2.2) -- (-.5,-2.2) -- cycle;
+                \fill[blue] (-.5,-2.2) -- (.5,-2.2) -- (.5,-1.9) -- (-.5,-1.9) -- cycle;
+                \fill[red] (-.5,-1.9) -- (.5,-1.9) -- (.5,-1) -- (-.5,-1) -- cycle;
+                \draw[ultra thick] (-.5,-0.8) -- (-.5,-3) -- (.5,-3) -- (.5,-0.8);
+                %
+                \draw[->] (-1.5, 1.9) -- (-1.5,2.1) -- (-0.25,2.1) -- (-0.25,-0.5);
+                \draw[->] (1.5, 1.9) -- (1.5,2.1) -- (0.25,2.1) -- (0.25,-0.5);
+                % draw arrow heads
+                %
+                \node at (-4,1.5) {amount solution $= 8$};
+                \node at (-4,1.0) {concentration $= 0.50$};
+                \node at (-4,0.5) {amount acid $= 4$};
+                %
+                \node at (4,1.5) {amount solution $= 12$};
+                \node at (4,1.0) {concentration $= 0.75$};
+                \node at (4,0.5) {amount acid $= 9$};
+                %
+                \node at (0,-3.5) {amount solution $= 8+12$};
+                \node at (0,-4.0) {concentration $= 0.65$};
+                \node at (0,-4.5) {amount acid $= 4+9$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
     </p>
     
 
@@ -996,22 +1055,6 @@
       </ol>
     </list>
 
-
-
-  </subsection>
-
-  <subsection>
-    <title>Distance, rate, and time</title>
-    <p>
-      Solve using one variable, solve using two variables
-    </p>
-  </subsection>
-
-  <subsection>
-    <title>Mixture</title>
-    <p>
-      One var, two vars
-    </p>
   </subsection>
 
   <subsection>
