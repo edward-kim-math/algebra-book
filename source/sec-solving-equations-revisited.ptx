@@ -46,7 +46,6 @@
   <subsection>
     <title>Expressions representing contextual quantities</title>
 
-
     <example>
       <statement>
         <p>
@@ -142,7 +141,7 @@
       </p>
     </note>
 
-    <example>
+    <example xml:id="example-tax-laptop-expressions">
       <statement>
         <p>
           A laptop has a price of <m>L</m> and <m>4\%</m> sales tax will be added.
@@ -384,7 +383,7 @@
       </answer>
     </example>
 
-    <example>
+    <example xml:id="example-miles-transfer-expressions">
       <statement>
         <p>
           You will transfer <m>M</m> miles for a flight.
@@ -493,7 +492,7 @@
       </answer>
     </example>
 
-    <example>
+    <example xml:id="example-meal-tax-tip-expressions">
       <statement>
         <p>
           A restaurant meal has a price of <m>M</m>.
@@ -564,6 +563,88 @@
   <subsection>
     <title>Equations involving percentages</title>
 
+    <p>
+      We now build on the previous examples that just involved expressions.
+      The expressions that we built will end up being one side of equations that we build and then solve.
+      One of the most powerful aspects of algebra is that we can represent an unknown quantity with a variable, and that variable can appear more than once in an equation.
+      It is tempting to try to ignoe the algebra processes and try to build our own recipes for doing arithmetic only, 
+      but there is danger in doing this.
+      Writing an equation with a variable is meant to <emph>naturally</emph> write about the situations that we encounter.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          You have allocated <m>1,600</m> dollars to buy a laptop, but have to also pay a <m>4\%</m> sales tax. 
+          What is the pre-tax price of a laptop that you can afford?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let's have <m>L</m> represent the pre-tax price (in dollars) of the laptop.
+          In <xref ref="example-tax-laptop-expressions" />, 
+          we wrote <m>L + 0.04 \cdot L</m> to represent the total dollar amount paid for the laptop, including sales tax.
+          Information that wasn't in the earlier question (since it wasn't needed then) but is included here is that
+          <m>1,600</m> dollars is the total amount spent on the laptop.
+          Both <m>L + 0.04 \cdot L</m> and <m>1,600</m> represent the same concept: namely, the total amount spent on the laptop.
+
+          In the question here, we have the additional information that the total amount spent on the laptop is <m>1,600</m> dollars.
+          Therefore, we can build an equation by setting these two expressions equal to each other:
+          <me>L + 0.04 \cdot L = 1,600.</me>
+          Since <m>L</m> represents the pre-tax price, and this is what the question asked about, 
+          we will solve for <m>L</m>.
+          There are various things that someone may wish to emphasize in solving this equation, so we'll present several options:
+          <ul>
+            <li>
+              <p>
+                From <m>L + 0.04 \cdot L = 1600</m> we can factor out <m>L</m> on the left side to get
+                <me>L(1 + 0.04) = 1600.</me>
+                Dividing both sides by <m>1 + 0.04</m>, we get
+                <me>L = \frac{1600}{1 + 0.04}.</me>
+                If there was no requirement to simplify,
+                we can say that the pre-tax price of the laptop is <m>\frac{1600}{1 + 0.04}</m> dollars.
+                If we need to simplify, typing <c>1600 / (1 + 0.04)</c> into a calculator gives approximately <m>1538.46</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                From <m>L + 0.04 \cdot L = 1600</m> we can collect like terms on the left side to get
+                <me>1.04 L = 1600.</me>
+                Dividing both sides by <m>1.04</m>, we get
+                <me>L = \frac{1600}{1.04}.</me>
+                If there was no requirement to simplify,
+                we can say that the pre-tax price of the laptop is <m>\frac{1600}{1.04}</m> dollars.
+                If we need to simplify, typing <c>1600 / 1.04</c> into a calculator gives approximately <m>1538.46</m> dollars.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>
+    <note>
+      <p>
+        Though it was said implicitly earlier, let's just make clear that in the equtation
+        <me>L + 0.04L = 1600</me>
+        exactly what's happening. The left side has two terms. The first term <m>L</m> represents the dollar amount of the pre-tax price of the laptop.
+        The second term represents the dollar amount of taxes paid.
+        Since both of these things need to get paid, we add these together, to represent the dollar amount of the total paid.
+        The right side, <m>1600</m>, represents the total dollar amount that can be spent on the laptop.
+      </p>
+      <p>
+        The temptation is to try to examine only a more simplied version of this equation such as <me>1.04L = 1600</me> and then try to 
+        say something like <q>when we see <m>4</m> percent, then the number <m>1.04</m> must appear</q> but this is not not always true, 
+        and it's hiding what's really happening.
+      </p>
+    </note>
+    <warning>
+      <p>
+        There is a temptation to state that the final answer should be 
+        <m>1600 - 0.04 \cdot 1600</m> dollars.
+        AAAAAA explain what's happening.!!!!!!!!!!!!!!! AAAA
+      </p>
+    </warning>
+
+
     <example>
       <statement>
         <p>
@@ -579,7 +660,28 @@
           In the question here, we have the additional information that the final amount spent on the hat is <m>10</m> dollars.
           Therefore, we can build an equation by setting these two expressions equal to each other:
           <me>h - 0.06h = 10</me>
-          AAAAA"
+          We will solve this equation, both in a format where we do not need to simplify the expression appearing in the final answer, and one where we do.
+          <ul>
+            <li>
+              <p>
+                From <m>h - 0.06h = 10</m>, we can factor out <m>h</m> on the left side to get
+                <me>h(1 - 0.06) = 10.</me>
+                Dividing both sides by <m>1 - 0.06</m>, we get
+                <me>h = \frac{10}{1 - 0.06}.</me>
+                The original price of the hat is <m>\frac{10}{1 - 0.06}</m> dollars.
+              </p>
+            </li>
+            <li>
+              <p>
+                From <m>h - 0.06h = 10</m>, we can collect like terms on the left side to get
+                <me>0.94h = 10.</me>
+                Dividing both sides by <m>0.94</m>, we get
+                <me>h = \frac{10}{0.94}.</me>
+                The original price of the hat is <m>\frac{10}{0.94}</m> dollars.
+                Putting <c>10 / 0.94</c> into a calculator gives approximately <m>10.64</m> dollars.
+              </p>
+            </li>
+          </ul>
         </p>
       </answer>
     </example>
@@ -587,12 +689,57 @@
     <example>
       <statement>
         <p>
-          You have allocated <m>1,600</m> dollars to buy a laptop, but have to also pay a <m>4\%</m> sales tax. 
-          What is the pre-tax price of a laptop that you can afford?
+          A <m>5\^%</m> tax must be paid on the pre-tax price of a restaurant meal, 
+          and a <m>15\%</m> tip will be included on the post-tax amount.
+          If you want the total amount paid (including meal, tax, and tip) to be exactly <m>21</m> dollars,
+          what is the pre-tax price of the meal?
         </p>
       </statement>
-    </example>
+      <answer>
+        <p>
+          Let <m>M</m> represent the pre-tax price of the meal (in dollars).
+          In <xref ref="example-meal-tax-tip-expressions" />, we wrote <m>M + 0.05 \cdot M + 0.15 \cdot (M + 0.05 \cdot M)</m> to represent the total dollar amount paid for the meal, including tax and tip.
+          Information that wasn't in the earlier question (since it wasn't needed then) but is included here is that
+          <m>21</m> dollars is the total amount spent on the meal.
+          Both <m>M + 0.05 \cdot M + 0.15 \cdot (M + 0.05 \cdot M)</m> and <m>21</m> represent the same concept: namely, the total amount spent on the meal.
 
+          In the question here, we have the additional information that the total amount spent on the meal is <m>21</m> dollars.
+          Therefore, we can build an equation by setting these two expressions equal to each other:
+          <me>M + 0.05 \cdot M + 0.15 \cdot (M + 0.05 \cdot M) = 21.</me>
+          Since <m>M</m> represents the pre-tax price, and this is what the question asked about, 
+          we will solve for <m>M</m>.
+          Here are several options for solving this equation:
+          <ul>
+            <li>
+              <p>
+                We can choose to distribute <m>0.15</m> where applicable to get
+                <me>M + 0.05M + 0.15M + (0.15\cdot0.05)M = 21.</me>
+                The portion that says <m>0.15 \cdot 0.05</m> is a number, which can be simplified in a calculator, but to make a point, let's just leave it as is.
+                It is some number. On the left side, all four terms contain <m>M</m>, so we can factor out <m>M</m> to get
+                <me>M(1 + 0.05 + 0.15 + 0.15 \cdot 0.05) = 21.</me>
+                Dividing both sides by <m>1 + 0.05 + 0.15 + 0.15 \cdot 0.05</m>, we get
+                <me>M = \frac{21}{1 + 0.05 + 0.15 + 0.15 \cdot 0.05}.</me>
+                If there was no requirement to simplify,
+                we can say that the pre-tax price of the meal is <m>\frac{21}{1 + 0.05 + 0.15 + 0.15 \cdot 0.05}</m> dollars, with no use of a calculator.
+              </p>
+            </li>
+            <li>
+              <p>
+                We can take <me>M(1 + 0.05 + 0.15 + 0.15 \cdot 0.05) = 21</me> from the previous answer and put <c>1 + 0.05 + 0.15 + 0.15 * 0.05</c> 
+                into a calculator to get <m>1.2075</m>. So, the equation becomes
+                <me>1.2075 M = 21.</me>
+                Dividing both sides by <m>1.2075</m>, we get
+                <me>M = \frac{21}{1.2075}.</me>
+                If there was no requirement to simplify,
+                we can say that the pre-tax price of the meal is <m>\frac{21}{1.2075}</m> dollars.
+                Putting <c>21 / 1.2075</c> into a calculator gives approximately <m>17.39</m> dollars
+              </p>
+            </li>
+          </ul>
+
+        </p>
+      </answer>
+    </example>
 
   </subsection>
 
