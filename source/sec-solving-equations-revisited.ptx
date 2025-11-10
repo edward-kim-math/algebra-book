@@ -20,6 +20,13 @@
     <title>Applications</title>
 
     <p>
+      Before we get going too far, let's just point out that the previous two sections didn't mention applications.
+      Those sections are instead foundational skills for mathematics we will see in this and future sections.
+      It will happen from time to time that there are sections without applications, and instead the math there builds to other math we need.
+      I hope you will see it as the intention of being honest with you in which sections have more direct applications and which sections only will have indirect applications.
+    </p>
+
+    <p>
       Intro:
       <ol>
         <li>
@@ -45,6 +52,19 @@
 
   <subsection>
     <title>Expressions representing contextual quantities</title>
+
+    <p>
+      We start by looking at some expressions that involve percentages.
+      First, we examine expressions involving percentages, and then our work will get brought up when we set up equations involving percentages in the next part of this section.
+      Before we begin, there is an important principle about percentages to mention.
+    </p>
+
+    <principle xml:id="principle-percentage-of-what">
+      <p>
+        As we build expressions, whenever there is a percentage involved, ask and keep track: what are we taking a percentage <emph>of</emph>.
+        We will end up multiplying the decimal version of a percentage by another quantity in the problem: the quantity that we multiply the decimal by is the direct answer to what we are taking a percentage <emph>of</emph>.
+      </p>
+    </principle>
 
     <example>
       <statement>
@@ -85,6 +105,7 @@
     <note>
       <p>
         The initial expression for the final amount paid is <m>1400 + 0.04 \cdot 1400</m>, which mentions the original price <m>1400</m> twice.
+        To touch on what <xref ref="principle-percentage-of-what" /> is discussing, we are taking <m>4\%</m> of <m>1400</m> in this question.
       </p>
     </note>
     <p>
@@ -139,6 +160,9 @@
         (and the amount that we are paying more is <emph>proportional</emph> to the original price, 
         and so it makes sense that the amount we are adding also involves the original price of <m>130</m> dollars).
       </p>
+      <p>
+        As an example of <xref ref="principle-percentage-of-what" />, we are taking <m>6\%</m> of <m>130</m>.
+      </p>
     </note>
 
     <example xml:id="example-tax-laptop-expressions">
@@ -180,6 +204,9 @@
     <note>
       <p>
         The initial expression for the final amount paid is <m>L + 0.04 \times L</m>, which mentions the original price <m>L</m> twice.
+      </p>
+      <p>
+        As an example of <xref ref="principle-percentage-of-what" />, we are taking <m>4\%</m> of an unknown quantity called <m>L</m>.
       </p>
     </note>
 
@@ -231,6 +258,9 @@
         (and the amount that we are paying less is <emph>proportional</emph> to the original price, 
         and so it makes sense that the amount we are subtracting also involves the original price of <m>21.50</m> dollars).
       </p>
+      <p>
+        As an example of <xref ref="principle-percentage-of-what" />, we are taking <m>20\%</m> percent of <m>21.50</m>.
+      </p>
     </note>
     
     <example xml:id="example-discount-toaster">
@@ -273,6 +303,9 @@
         The initial expression in part 2 is <m>8.40 - 0.08 \times 8.40</m>, which mentions <m>8.40</m> twice.
         It is tempting to skip to the other answers, but it is important to understand where they come from:
         <m>8.40 - 0.08 \times 8.40</m> is the original expression, and the original price <m>8.40</m> appears twice.
+      </p>
+      <p>
+        As an example of <xref ref="principle-percentage-of-what" />, we are taking <m>8\%</m> of <m>8.40</m>.
       </p>
     </note>
 
@@ -323,6 +356,9 @@
         Just like in <xref ref="note-percent1" /> and <xref ref="note-percent2" />, the initial expression in part 2 mentions the original price twice.
         In this case, the initial expression in part 2 is <m>h - 0.06 \times h</m>, which mentions <m>h</m> twice.
         Especially in the case of an unknown original price, the original price (represented by a variable, like <m>h</m> in the previous example) will appear twice in the initial expression.
+      </p>
+      <p>
+        As an example of <xref ref="principle-percentage-of-what" />, we are taking <m>6</m> percent of <m>h</m>.
       </p>
     </note>
 
@@ -491,6 +527,13 @@
         </p>
       </answer>
     </example>
+    <p>
+      Questions that involve two percentages can be confusing.
+      Let's think of <m>14.80</m> as the <q>normal price</q>.
+      Instead of paying the normal price, we first see the need to pay a tax of <m>0.05 \cdot 14.80</m>, but we can't just pay the tax:
+      we have to pay for the meal <emph>and</emph> the tax. To speak informally, let's call <m>14.80 + 0.05 \cdot 14.80</m> the <q>affected price</q>.
+      The important point to make here is that we need to then take <m>15\%</m> of the <emph>affected price</emph> instead of <m>15\%</m> of the <q>normal price</q>.
+    </p>
 
     <example xml:id="example-meal-tax-tip-expressions">
       <statement>
@@ -557,6 +600,34 @@
         Each time the previous question had the number <m>14.80</m>, this question has the variable <m>M</m> instead.
       </p>
     </note>
+    <p>
+      This question is more challenging than the other questions we've seen.
+      We end up needing to take <m>15\%</m> of the post-tax amount, which is typically how tips are calculated in restaurants.
+      <xref ref="principle-percentage-of-what" /> reminds us that we should always ask what we're taking <m>15\%</m> <emph>of</emph>.
+      In this example, we need <m>15\%</m> of the post-tax amount, and the post-tax amount was <m>M + 0.05 \cdot M</m>, 
+      which is why we wrote <m>0.15 \cdot (M + 0.05 \cdot M)</m> in the expression for the amount of tip paid.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          A game store has a board game available for <m>40</m> dollars.
+          The store is offering <m>5\%</m> off, but based on the discount price, there is a <m>5\%</m> tax that needs to be paid.
+          What is the final amount paid?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The store is taking off <m>5\%</m> of <m>40</m> dollars. So, if there was no tax, the amount to pay is <m>40 - 0.05 \cdot 40</m> dollars.
+          However, based on this amount of <m>40 - 0.05 \cdot 40</m>, we have to pay <m>5\%</m> of <m>40 - 0.05 \cdot 40</m> as a tax.
+          That is, the amount of tax we need to pay is <m>0.05(40 - 0.05 \cdot 40)</m>.
+        </p>
+        <p>
+          Thus, the total to pay is <m>40 - 0.05 \cdot 40 + 0.05(40 - 0.05 \cdot 40)</m>. Using a calculator, this is equal to <m>39.90</m> dollars.
+        </p>
+      </answer>
+    </example>
+
 
   </subsection>
 
@@ -640,10 +711,38 @@
       <p>
         There is a temptation to state that the final answer should be 
         <m>1600 - 0.04 \cdot 1600</m> dollars.
-        AAAAAA explain what's happening.!!!!!!!!!!!!!!! AAAA
+        There are several things we should say about this as an answer. As usual, we don't just jump to quick words to say <q>oh, don't do this</q>. It's good to first focus on analyzing the answer given here without first bringing up a different answer.
+        <ul>
+          <li>
+            <p>
+              Let's articulate what <m>1600 - 0.04 \cdot 1600</m> represents. We are starting with <m>1600</m>, then subtracting off something. The amount that is being subtracted off is <m>4\%</m> of <m>1600</m>.
+              So, this expression represents what would be paid for a product that originally has a price of <m>1600</m> but then a <m>4\%</m> discount applied.
+            </p>
+          </li>
+          <li>
+            <p>
+              The key thing to note in <m>1600 - 0.04 \cdot 1600</m> is to see what we're taking <m>4\%</m> <emph>of</emph>, a concept we introduced in <xref ref="principle-percentage-of-what" />.
+              Writing <m>1600 - 0.04 \cdot 1600</m> means that we're taking <m>4\%</m> of <m>1600</m>, but <m>1600</m> represents the total (final) amount paid, but we instead need to compute <m>4\%</m> of the pre-tax price.
+            </p>
+          </li>
+          <li>
+            <p>
+              It is true that we need <m>4\%</m> of the pre-tax price, and at the beginning of the qustion, we don't know what the pre-tax price is.
+              The pre-tax price was represented by the variable <m>L</m>.
+              So, to express <m>4\%</m> of the pre-tax price, we write <m>0.04 \cdot L</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Finally, we should note that <m>\frac{1600}{1 + 0.04}</m> and <m>1600 - 0.04 \cdot 1600</m> are different in a calculator.
+              That is to say: it's not the case that arrving at <m>1600 - 0.04 \cdot 1600</m> provides an alternative approach to thinking abou the question.
+              That process doesn't work out. Instead, we really do need to think about <xref ref="principle-percentage-of-what" />.
+              So, if we need to take <m>4\%</m> of an unknown amount, then we end up writing <m>0.04</m> times a variable.
+            </p>
+          </li>
+        </ul>
       </p>
     </warning>
-
 
     <example>
       <statement>
@@ -685,6 +784,22 @@
         </p>
       </answer>
     </example>
+    <note>
+      <p>
+        Please note that <m>10 + 0.06 \cdot 10</m> does not produce the same value as <m>\frac{10}{1 - 0.06}</m>.
+        The difference between the incorrect expression <m>10 + 0.06 \cdot 10</m> and the helpful equation <m>h - 0.06h = 10</m>
+        is really in paying attention to what we're taking <m>6\%</m> of, as encouraged by <xref ref="principle-percentage-of-what" />.
+        In the case of <m>10 + 0.06 \cdot 10</m>, this expression discusses taking <m>6\%</m> of <m>10</m>, but if we re-read the question, there was no instruction to take <m>6\%</m> of <m>10</m>.
+      </p>
+      <p>
+        Instead, in the equation <m>h - 0.06h = 10</m>, we are taking <m>6\%</m> of <m>h</m>, which is the original price of the hat. Instead of paying the full price of <m>h</m> dollars,
+        the store is letting us not pay for <m>0.06h</m> dollars, which is why we subtract that amaount that we don't have to pay.
+      </p>
+    </note>
+    <p>
+      Doing the process of setting up a natural equation may feel new to you, but it is worth thinking about.
+      There is too much temptation to want to create an equationless recipe and coach ourselves into
+    </p>
 
     <example>
       <statement>
@@ -737,6 +852,39 @@
             </li>
           </ul>
 
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          A store is offering a <m>12\%</m> discount on the original price of a jacket, 
+          followed by a <m>5\%</m> sales tax on the discounted price.
+          If the final price of the jacket (after discount and tax) is <m>60</m> dollars,
+          what is the original price of the jacket?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let <m>p</m> represent the original price of the jacket in dollars, before discount and tax have applied.
+          The discount (the amount not needing to be paid) is <m>0.12p</m> dollars.
+          So, <m>p - 0.12p</m> dollars represents the amount to pay if the discount exists but tax doesn't.
+          Next, we have to apply the sales tax of <m>5\%</m> of this discounted price. (Remember from <xref ref="principle-percentage-of-what" /> that we always have to ask what we're taking <m>5\%</m> <emph>of</emph>, and in this case, it's <m>5\%</m> of the discounted price.)
+          That is, the amount of sales tax to pay is <m>0.05(p - 0.12p)</m> dollars.
+          The tax needs to be paid <emph>in addition</emph> to the discounted price of <m>p - 0.12p</m>, so we need to add these together:
+          <me>(p - 0.12p) + 0.05(p - 0.12p)</me>
+          represents the final price of the jacket, after discount and tax.
+          The final amount (after discount and tax) is also told to us in the question, namely <m>60</m> dollars, so we set these two different-looking but actually equal quantities equal to each other, which forms a relevant equation:
+          <me>p - 0.12p + 0.05(p - 0.12p) = 60.</me>
+          As one way to solve this equation, we can distribute <m>0.05</m>:
+          <me>p - 0.12p + 0.05p - (0.05)(0.12)p = 60</me>
+          We can factor out the variable from all four terms on the left side:
+          <me>p(1 - 0.12 + 0.05p - 0.05 \cdot 0.12) = 60.</me>
+          After dividing both sides by what's in parentheses we get
+          <me>p = \frac{60}{1 - 0.12 + 0.05 - 0.05 \cdot 0.12}</me>
+          dollars. If we are not required to simplify any expression, we can leave it like this: we have solved the equation (a single copy of the variable is isolated on one side, with none of that variable appearing on the other side).
+          If we needed a decimal answer, using a calculator we obtain the pre-discount pre-tax price of the jacket to be approximately <m>64.9350649351</m> dollars.
         </p>
       </answer>
     </example>
