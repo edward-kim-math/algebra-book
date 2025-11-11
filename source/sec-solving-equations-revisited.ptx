@@ -893,31 +893,191 @@
 
   <subsection>
     <title>Systems of equations</title>
+
     <p>
+      We will now look at two techniques for solving sysstems of equations.
+      By systems of equations, we mean that there will be more than one equation, and typically, each equation will have several variables.
+      This is what happens in general, but we will stick to two equations which each have the variables <m>x</m> and <m>y</m>.
     </p>
 
     <example>
-      <statement>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x+y=1</m> and <m>3x+4y=14</m>.</statement>
+      <statement>
+        <p>
+          Solve the system of equations <m>2x+y=1</m> and <m>3x+4y=14</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We can solve for any of the two variables in either equation. For example, we can solve the first equation for <m>y</m>:
+          <me>y = 1 - 2x</me>
+          Now, we will write the equation <m>3x+4y=14</m> with the one exception that <m>y</m> is replaced with <m>1 - 2x</m>. 
+          <me>3x + 4(1 - 2x) = 14</me>
+          What we just did was replace <m>y</m> with something that is equal to <m>y</m> that we discovered earlier.
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
+          Now we take that equation and solve for <m>x</m>:
+          <me>3x + 4 - 8x = 14</me>
+          <me>-5x + 4 = 14</me>
+          <me>-5x = 10</me>
+          <me>x = -2</me>
+          Now we can substitute this value of <m>x</m> in <m>y = 1 - 2x</m> to get:
+          <me>y = 1 - 2(-2) = 5</me>
+          So the solution to the system of equations is <m>(x,y)=(-2, 5)</m>.
+        </p>
+      </answer>
     </example>
+    <note>
+      <p>
+        The phrasing of the question was <q>Solve the system of equations <m>2x+y=1</m> and <m>3x+4y=14</m></q> but we could have also said <q>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x+y=1</m> and <m>3x+4y=14</m></q>.
+        Both phrasings are equivalent. The point is that <m>(x,y)=(-3,7)</m> satisfies the first equation <m>2x+y=1</m>, but not the second equation <m>3x+4y=14</m>.
+      </p>
+      <p>
+        The solution <m>(x,y)=(-2,5)</m> satisfies both equations simultaneously: that is, if we substitute <m>x=-2</m> and <m>y=5</m> into each both equations, the left side equals the right side.
+      </p>
+    </note>
+
 
     <example>
-      <statement>Find values for <m>x</m> and <m>y</m> that satisfy both <m>2x-y=5</m> and <m>x+4y=7</m>.</statement>
+      <statement>
+        <p>
+          Solve the system of equations: <m>2x-y=5</m> and <m>x+4y=7</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We can solve for any of the two variables in either equation. For example, we can solve the first equation for <m>y</m>:
+          <me>2x-5 = y</me>
+          Now, we will write the equation <m>x+4y=7</m> with the one exception that <m>y</m> is replaced with <m>2x - 5</m>. 
+          <me>x + 4(2x - 5) = 7</me>
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
+          Now we take that equation and solve for <m>x</m>:
+          <me>x + 8x - 20 = 7</me>
+          <me>9x - 20 = 7</me>
+          <me>9x = 27</me>
+          <me>x = 3</me>
+          Now we can substitute this value of <m>x</m> in <m>2x - 5 = y</m> to get:
+          <me>y = 2(3) - 5 = 1</me>
+          So the solution to the system of equations is <m>(x,y)=(3, 1)</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We can start by solving for <m>x</m> in the second equation instead:
+          <me>x = 7 - 4y</me>
+          Now, we will write the equation <m>2x - y = 5</m> with the one exception that <m>x</m> is replaced with <m>7 - 4y</m>. 
+          <me>2(7 - 4y) - y = 5</me>
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>y</m>.
+          Now we take that equation and solve for <m>y</m>:
+          <me>14 - 8y - y = 5</me>
+          <me>14 - 9y = 5</me>
+          <me>-9y = -9</me>
+          <me>y = 1</me>
+          Now we can substitute this value of <m>y</m> in <m>x = 7 - 4y</m> to get:
+          <me>x = 7 - 4(1) = 3</me>
+          So the solution to the system of equations is <m>(x,y)=(3, 1)</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We can start by solving for <m>y</m> in the second equation:
+          <me>4y = 7 - x</me>
+          <me>y = \frac{7 - x}{4}</me>
+          Now, we will write the equation <m>2x - y = 5</m> with the one exception that <m>y</m> is replaced with <m>\frac{7 - x}{4}</m>. 
+          <me>2x - \frac{7 - x}{4} = 5</me>
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
+          Because this is an equation with fractions, we multiply both sides by the only denominator we see (which is <m>4</m>) to get:
+          <me>4\left(2x - \frac{7 - x}{4}\right) = (5)4</me>
+          Distributing <m>4</m>, get a cancelation of a factor of <m>4</m> on top and bottom of the fraction:
+          <me>4(2x) - (7 - x) = 20</me>
+          Now we take that equation and solve for <m>x</m>:
+          <me>8x - (7 - x) = 20</me>
+          <me>8x - 7 + x = 20</me>
+          <me>9x - 7 = 20</me>
+          <me>9x = 27</me>
+          <me>x = 3</me>
+          Now we can substitute this value of <m>x</m> in <m>y = \frac{7 - x}{4}</m> to get:
+          <me>y = \frac{7 - 3}{4} = \frac44 = 1</me>
+          So the solution to the system of equations is <m>(x,y)=(3, 1)</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We can also solve the system of equations using the addition method.
+          First, we will multiply the first equation by <m>4</m> so that the coefficients of <m>y</m> in both equations are opposites:
+          <me>8x - 4y = 20</me>
+          <me>x + 4y = 7</me>
+          Now, we can add the two equations together to eliminate <m>y</m>:
+          <me>9x = 27</me>
+          <me>x = 3</me>
+          Now we can substitute this value of <m>x</m> in the first original equation <m>2x - y = 5</m> to get:
+          <me>2(3) - y = 5</me>
+          <me>6 - y = 5</me>
+          <me>-y = -1</me>
+          <me>y = 1</me>
+          So the solution to the system of equations is <m>(x,y)=(3, 1)</m>.
+        </p>
+      </answer>
     </example>
+    <p>
+      The third answer is admittedly more complicated than the first and the second answers.
+      When solving for a variable, it is helpful to focus on a solving for a variable which has a coefficient of <m>1</m> or <m>-1</m>, if possible.
+      Doing this will help fractions. (That said, sometimes fractions are unavoidable.)
+    </p>
 
-
-
+    <example>
+      <statement>
+        <p>
+          Solve the system of equations: <m>3x + 2y = 16</m> and <m>5x - y = 9</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          If we are going to first solve for a variable to do substitution, the only one that's truly convenient is to solve for <m>y</m> in the second equation, since its coefficient is <m>-1</m>:
+          <me>5x-9 = y</me>
+          Now, we will write the equation <m>3x + 2y = 16</m> with the one exception that <m>y</m> is replaced with <m>5x - 9</m>. 
+          <me>3x + 2(5x - 9) = 16</me>
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
+          Now we take that equation and solve for <m>x</m>:
+          <me>3x + 10x - 18 = 16</me>
+          <me>13x - 18 = 16</me>
+          <me>13x = 34</me>
+          <me>x = \frac{34}{13}</me>
+          Now we can substitute this value of <m>x</m> in <m>5x - 9 = y</m> to get:
+          <me>y = 5\left(\frac{34}{13}\right) - 9 = \frac{170}{13} - \frac{117}{13} = \frac{53}{13}</me>
+          Thus, the solution to the system of equations is <m>(x,y)=\left(\frac{34}{13}, \frac{53}{13}\right)</m>.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          We can also solve the system of equations using the addition method.
+          First, we will multiply the second equation by <m>2</m> so that the coefficients of <m>y</m> in both equations are opposites:
+          <me>3x + 2y = 16</me>
+          <me>10x - 2y = 18</me>
+          Now, we can add the two equations together to eliminate <m>y</m>:
+          <me>13x = 34</me>
+          <me>x = \frac{34}{13}</me>
+          Now we can substitute this value of <m>x</m> in the first original equation <m>3x + 2y = 16</m> to get:
+          <me>3\left(\frac{34}{13}\right) + 2y = 16</me>
+          <me>\frac{102}{13} + 2y = 16</me>
+          <me>2y = 16 - \frac{102}{13} = \frac{208}{13} - \frac{102}{13} = \frac{106}{13}</me>
+          <me>y = \frac{53}{13}</me>
+          Thus, the solution to the system of equations is <m>(x,y)=\left(\frac{34}{13}, \frac{53}{13}\right)</m>.          
+        </p>
+      </answer>
+    </example>
 
   </subsection>
 
   <subsection>
     <title>Distance, rate, and time</title>
+
+    <principle xml:id="formula-drt">
+      <title>Distance is the product of rate and time</title>
+      <p><m>(\text{distance}) = (\text{rate}) \times (\text{time})</m></p>
+    </principle>
     <p>
-      Solve using one variable, solve using two variables
+      In the formula above, the word <q>rate</q> is often used, but the word could have been <q>speed</q> or <q>velocity</q> instead.
     </p>
-    <formula xml:id="formula-drt">
-      <title><m>d=rt</m></title>
-      <statement><m>(\text{distance}) = (\text{rate}) \times (\text{time})</m></statement>
-    </formula>
+    
 
     <warning>
       <p>If there are two journeys:</p>
