@@ -1219,7 +1219,22 @@
           <me>25x + 60y = 80.</me>
         </p>
         <p>
-          The equations <m>x+y=1.5</m> and <m>25x+60y=80</m> create a system of eqautions. In the first equation, we can
+          The equations <m>x+y=1.5</m> and <m>25x+60y=80</m> create a system of eqautions. 
+          The nicest options at this point are to solve for either <m>x</m> or <m>y</m> in the first equation and substitute into the second equation.
+          Let's solve for <m>y</m> in the first equation:
+          <me>y = 1.5 - x.</me>
+          Now, we will write the equation <m>25x + 60y = 80</m> with the one exception that <m>y</m> is replaced with <m>1.5 - x</m>. 
+          <me>25x + 60(1.5 - x) = 80</me>
+          The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
+          Now we take that equation and solve for <m>x</m>:
+          <me>25x + 90 - 60x = 80</me>
+          <me>-35x + 90 = 80</me>
+          <me>-35x = -10</me>
+          <me>x = \frac{10}{35} = \frac{2}{7}</me>
+          So, Wendy spent <m>\frac27</m> hours on the bus.
+          Now we can substitute this value of <m>x</m> in <m>y = 1.5 - x</m> to get:
+          <me>y = 1.5 - \frac27 = \frac{15}{10} - \frac{20}{70} = \frac{105}{70} - \frac{20}{70} = \frac{85}{70} = \frac{17}{14}</me>
+          Thus, Wendy spent <m>\frac{17}{14}</m> hours on the train.
         </p>
       </answer>
     </example>
