@@ -1201,8 +1201,8 @@
     <example>
       <statement>
         <p>
-          Wendy took a trip whose total distance was <m>80</m> miles. She traveled part of the way by bus, which arrived at the train station just in time for Wendy to complete her journey by train. 
-          The bus averaged <m>25</m> miles per hour, and the train averaged <m>60</m> miles per hour. The entire trip took <m>1.5</m> hours. How long did Wendy spend on the train?
+          Wendy took a trip whose total distance was <m>135</m> miles. She traveled part of the way by bus, which arrived at the train station just in time for Wendy to complete her journey by train. 
+          The bus averaged <m>25</m> miles per hour, and the train averaged <m>60</m> miles per hour. The entire trip took <m>4</m> hours. How long did Wendy spend on the train?
         </p>
       </statement>
       <answer>
@@ -1210,35 +1210,72 @@
           We will identify the two trips. The first trip is the journey made by bus. The second trip is the journey made by train.
           The first trip has rate <m>25</m> and the second trip has rate <m>60</m>.
           We don't know the time of either trip, so let's create variables: <m>x</m> will represent the time (in hours) spent on the bus and <m>y</m> will represent the time (in hours) spent on the train.
-          Because the total time was <m>1.5</m> hours, this is an example where the times from the two trips add up to a total known time, so <m>x+y=1.5</m>.
+          Because the total time was <m>4</m> hours, this is an example where the times from the two trips add up to a total known time, so <m>x+y=4</m>.
         </p>
         <p>
           We have <m>25</m> for the rate of the first trip and <m>x</m> for the time of the first trip, so we can mulitply these together to get <m>25x</m> for the distance of the first trip.
           Similarly, we have <m>60</m> for the rate of the second trip and <m>y</m> for the time of the second trip, so we can mulitply these together to get <m>60y</m> for the distance of the second trip.
-          Because the total distance was <m>80</m> miles, this is an example where the distances from the two trips  add up to a total known distance. We write the equation:
-          <me>25x + 60y = 80.</me>
+          Because the total distance was <m>135</m> miles, this is an example where the distances from the two trips  add up to a total known distance. We write the equation:
+          <me>25x + 60y = 135.</me>
         </p>
         <p>
-          The equations <m>x+y=1.5</m> and <m>25x+60y=80</m> create a system of eqautions. 
+          The equations <m>x+y=4</m> and <m>25x+60y=135</m> create a system of eqautions. 
           The nicest options at this point are to solve for either <m>x</m> or <m>y</m> in the first equation and substitute into the second equation.
           Let's solve for <m>y</m> in the first equation:
-          <me>y = 1.5 - x.</me>
-          Now, we will write the equation <m>25x + 60y = 80</m> with the one exception that <m>y</m> is replaced with <m>1.5 - x</m>. 
-          <me>25x + 60(1.5 - x) = 80</me>
+          <me>y = 4 - x.</me>
+          Now, we will write the equation <m>25x + 60y = 135</m> with the one exception that <m>y</m> is replaced with <m>4 - x</m>. 
+          <me>25x + 60(4 - x) = 135</me>
           The new equation that we just got no longer has a mix of <m>x</m> and <m>y</m>; it only has <m>x</m>.
           Now we take that equation and solve for <m>x</m>:
-          <me>25x + 90 - 60x = 80</me>
-          <me>-35x + 90 = 80</me>
-          <me>-35x = -10</me>
-          <me>x = \frac{10}{35} = \frac{2}{7}</me>
-          So, Wendy spent <m>\frac27</m> hours on the bus.
-          Now we can substitute this value of <m>x</m> in <m>y = 1.5 - x</m> to get:
-          <me>y = 1.5 - \frac27 = \frac{15}{10} - \frac{20}{70} = \frac{105}{70} - \frac{20}{70} = \frac{85}{70} = \frac{17}{14}</me>
-          Thus, Wendy spent <m>\frac{17}{14}</m> hours on the train.
+          <me>25x + 240 - 60x = 135</me>
+          <me>-35x + 240 = 135</me>
+          <me>-35x = -105</me>
+          <me>x = 3</me>
+          So, Wendy spent <m>3</m> hours on the bus.
+          Now we can substitute this value of <m>x</m> in <m>y = 4 - x</m> to get:
+          <me>y = 4 - 3 = 1</me>
+          Thus, Wendy spent <m>1</m> hour on the train.
         </p>
       </answer>
+      <answer>
+        <p>
+          Because some students will prefer it, we discuss an alterate answer. Like in the previous answer, the first trip is on the bus and has a rate <m>25</m> while the second trip is on the train and has rate <m>60</m>.
+          We will again use <m>x</m> to represent the time (in hours) spent on the bus. Knowing that the time on the total time s <m>4</m> hours, the time spent on the train must be <m>4 - x</m> hours.
+          In fact, at this point, when we don't know what the value of <m>x</m> is, we can still say that adding <m>x</m> and <m>4-x</m> together is going to result in the total of <m>4</m> hours.
+          (Look for the similarities here with the <m>4-x</m> that came up in the previous answer.)
+          What we are doing is implmenting the information that the times for the two trips need to add up to <m>4</m> hours, just as we did in the previous answer, but it looks different in appearance in that we never introduce a second variable in this answer.
+        </p>
+        <p>
+          We have <m>25</m> for the rate of the first trip and <m>x</m> for the time of the first trip, so we can mulitply these together to get <m>25x</m> for the distance of the first trip.
+          Similarly, we have <m>60</m> for the rate of the second trip and <m>4-x</m> for the time of the second trip, so we can mulitply these together to get <m>60(4-x)</m> for the distance of the second trip.
+          Because the total distance was <m>135</m> miles, this is an example where the distances from the two trips add up to a total known distance:
+          <me>25x + 60(4-x) = 135.</me>
+          <me>25x + 240 - 60x = 135</me>
+          <me>-35x + 240 = 135</me>
+          <me>-35x = -105</me>
+          <me>x = 3</me>
+          So, Wendy spent <m>3</m> hours on the bus.
+          Recall <m>4-x</m> represented the time on the train. Now we can substitute this value of <m>x</m> in <m>4 - x</m> to get:
+          <me>4 - 3 = 1</me> hour on the train.
+        </p>
+       </answer>
     </example>
-
+    <p>
+      Just to be clear, in either answer, we can't just assume that the <m>4</m> hours was equally split as <m>2</m> hours on the bus and <m>2</m> hours on the train. 
+      Nothing in how the question was stated told us that the amount of time on each trip was the same, so we shouldn't add in that assumption.
+      This is why we have two separate variables <m>x</m> and <m>y</m> to represent the times for the two trips in the first answer, and wrote <m>x</m> and <m>4-x</m> as the times in the second answer.
+    </p>
+    <p>
+      We also could not use <m>x</m> to represent the time on the bus and also used <m>x</m> to represent the time on the train, this is essentially the same problem.
+      We shoouldn't assume that the times for the two trips are the same unless that informaiton is given in the question.
+      (If we had a situation where a traveler spent the same amount of time on vehicle <m>1</m> ando on vehicle <m>2</m>, 
+      but we don't know how much time was spent on each vehicle, then it <emph>would</emph> make sense to write <m>x</m> for both times, but we would have to be told that the same amount of time was spent on each vehicle.)
+    </p>
+    <p>
+      Finally, in the second answer, we cannot write <m>4-x</m> as the time for both trips.
+      Please note that <emph>one</emph> trip had time <m>x</m> and the <emph>other</emph> trip had time <m>4-x</m> because <m>(x) + (4-x) = 4</m>.
+      We should be clear that <m>x</m> itself repreented the time for the first trip, and writing <m>4-x</m> as the time for the second trip means that the time for the second trip is <m>4</m> minus whatever the time for the first trip is.
+    </p>
 
 
 
