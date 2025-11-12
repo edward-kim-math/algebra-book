@@ -1277,9 +1277,26 @@
       We should be clear that <m>x</m> itself repreented the time for the first trip, and writing <m>4-x</m> as the time for the second trip means that the time for the second trip is <m>4</m> minus whatever the time for the first trip is.
     </p>
 
+
     <example>
-      Need example where times are different by a constant.
-      Catch up.
+      <statement>
+        <p>
+          One car leaves from Town A to Town B at an average speed of <m>50</m> miles per hour.
+          Another car leaves from Town A one hour later at an average speed of <m>70</m> miles per hour.
+          If the two cars arrive at Town B at the same time, what is the distance between the two towns?
+        </p>
+      </statement>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          A car travels from Town A to Town B at an average speed of <m>60</m> miles per hour. 
+          On the return trip from Town B to Town A, the car travels at an average speed of <m>40</m> miles per hour. 
+          If the return trip takes <m>1.5</m> hours longer than the trip from Town A to Town B, what is the distance between the two towns?
+        </p>
+      </statement>
     </example>
 
 
