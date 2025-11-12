@@ -1277,6 +1277,10 @@
       We should be clear that <m>x</m> itself repreented the time for the first trip, and writing <m>4-x</m> as the time for the second trip means that the time for the second trip is <m>4</m> minus whatever the time for the first trip is.
     </p>
 
+    <example>
+      Need example where times are different by a constant.
+      Catch up.
+    </example>
 
 
   </subsection>
