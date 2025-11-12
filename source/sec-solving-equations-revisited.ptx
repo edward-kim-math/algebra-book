@@ -1070,35 +1070,160 @@
   <subsection>
     <title>Distance, rate, and time</title>
 
+    <p>The following formula is applicable in questions about distance, rate, and time:</p>
     <principle xml:id="formula-drt">
       <title>Distance is the product of rate and time</title>
       <p><m>(\text{distance}) = (\text{rate}) \times (\text{time})</m></p>
     </principle>
     <p>
-      In the formula above, the word <q>rate</q> is often used, but the word could have been <q>speed</q> or <q>velocity</q> instead.
+      In the formula above, the word <term>rate</term> is often used, but the word could have been <term>speed</term> or <term>velocity</term> instead.
+      The units for each of the three parts need to be compatible with each other. For example, if the distance is in miles and the time is in hours, then the rate must be in miles per hour.
+      Similarly, if the distance is in meters and the time is in seconds, then the rate is in meters per second.
     </p>
     
-
-    <warning>
-      <p>If there are two journeys:</p>
-      <ul>
-        <li>do not assume the two journeys have the same distance</li>
-        <li>do not assume the two journeys have the same rate</li>
-        <li>do not assume the two journeys have the same time</li>
-      </ul>
-    </warning>
+    <note>
+      <title>Clarification</title>
+      <p>
+        In questions that about distance, rate, and time, there are often two trips.
+        The two trips might be two different vehicles going towards each other, or two vehicles traveling away from each other, or even two vehicles traveling in the same direction.
+        In addition, the two trips might just all be two legs of the same overall journey: for example, someone might drive part of the way at one speed, and then take a bus from a parking lot to their final destination at a different speed.
+        It is helpful to identify the two trips. I encourage you to articulate each trip using more than a single word, especially if it's one person involved in both trips.
+      </p>
+      <p>
+        Each trip has a distance, earch trip has a rate, and each trip has a time.
+        When we have question involving two trips, here are some guidelines about distance, rate, and time.
+        The following lists don't give the only possibilities, but these are the most frequent situations:
+        <ul>
+          <li>
+            <p>
+              <alert>Distance</alert>
+              <ul>
+                <li>
+                  <p>
+                    The two trips might have the same distance.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The distances from the two trips might add up to a total known distance.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Time</alert>
+              <ul>
+                <li>
+                  <p>
+                    The two trips might have the same timee.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The times from the two trips might add up to a total known time.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The time for one trip might be obtained from the time for the other trip by adding or subtracting a known amount of time.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>Rate</alert>
+              <ul>
+                <li>
+                  <p>
+                    The two trips might have the same rate.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The rate for one trip might be obtained from the rate for the other trip by multiplying or dividing by a known factor.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </note>
 
     <example>
-      <statement>Two cyclists, <m>63</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?</statement>
+      <statement>
+        <p>
+          Two cyclists, <m>63</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?  
+        </p>
+      </statement>
+      <answer>
+        <p>
+          First, let's carefully identify the two trips. One trip is the journey made by the first cyclist. The second trip is the journey made by the second cyclist.
+          We don't have much that distinguishes the two cyclists from each other, except that one is traveling faster than the other.
+          Let's say that the first trip is the trip made by the slower cyclist, and the second trip is the trip made by the faster cyclist.
+          Both trips have the same time, which is <m>2</m> hours.
+        </p>
+        <p>
+          Let's use <m>r</m> to represent the rate (in miles per hour) of the slower cyclist.
+          Then, the rate of the faster cyclist is <m>2r</m> miles per hour.
+          (This is an example of when the rate for one trip is obtained from the rate for the other trip by multiplying by a known factor.)
+        </p>
+        <p>
+          We have <m>r</m> for the rate of the first trip and <m>2</m> for the time of the first trip, so we can mulitply these together to get <m>2r</m> for the distance of the first trip.
+          Similarly, we have <m>2r</m> for the rate of the second trip and <m>2</m> for the time of the second trip, so we can mulitply these together to get <m>2 \cdot 2r</m> which is <m>4r</m> for the distance of the second trip.
+        </p>
+        <p>
+          In this question, the two cyclist ride towards each other starting <m>63</m> miles apart, and this experiment ends when they meet each other.
+          Thus, this is an example of a situation where the two distances from the two trips add up to a total known distance.
+          Therefore, we can write the equation:
+          <me>2r + 4r = 63.</me>
+          Combining like terms on the left side gives:
+          <me>6r = 63.</me>
+          Dividing both sides by <m>6</m>, we get:
+          <me>r = \frac{63}{6}.</me>
+          The rate of the slower cyclist is <m>\frac{63}{6}</m> miles per hour, which simplifies to <m>10.5</m> miles per hour.
+          The rate of the faster cyclist is <m>2r = 2 \cdot \frac{63}{6} = \frac{126}{6}</m> miles per hour, which simplifies to <m>21</m> miles per hour.
+        </p>
+      </answer>
     </example>
+    <p>
+      We had made the choice to write <m>r</m> for the rate of the slower cyclist and <m>2r</m> for the rate of the faster cyclist.
+      We could have made the opposite choice, writing <m>r</m> for the rate of the faster cyclist and <m>\frac{r}{2}</m> for the rate of the slower cyclist.
+      This would have led to a different equation, but solving that equation would have led to the same final answers for the rates of the two cyclists.
+      We made the choice to have <m>r</m> represent the rate of the slower cyclist because it made the equation a little simpler by not introducing fractions.
+      The key thing was to be clear: we shouldn't just say <q><m>r</m> is the rate.</q> Instead, said <q><m>r</m> is the rate of the <emph>slower</emph> cyclist.</q>
+    </p>
 
     <example>
-      <statement>Wendy took a trip whose total distance was <m>80</m> miles. She traveled part of the way by bus, which arrived at the train station just in time for Wendy to complete her journey by train. The bus averaged <m>25</m> miles per hour, and the train averaged <m>60</m> miles per hour. The entire trip took <m>1.5</m> hours. How long did Wendy spend on the train?</statement>
+      <statement>
+        <p>
+          Wendy took a trip whose total distance was <m>80</m> miles. She traveled part of the way by bus, which arrived at the train station just in time for Wendy to complete her journey by train. 
+          The bus averaged <m>25</m> miles per hour, and the train averaged <m>60</m> miles per hour. The entire trip took <m>1.5</m> hours. How long did Wendy spend on the train?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We will identify the two trips. The first trip is the journey made by bus. The second trip is the journey made by train.
+          The first trip has rate <m>25</m> and the second trip has rate <m>60</m>.
+          We don't know the time of either trip, so let's create variables: <m>x</m> will represent the time (in hours) spent on the bus and <m>y</m> will represent the time (in hours) spent on the train.
+          Because the total time was <m>1.5</m> hours, this is an example where the times from the two trips add up to a total known time, so <m>x+y=1.5</m>.
+        </p>
+        <p>
+          We have <m>25</m> for the rate of the first trip and <m>x</m> for the time of the first trip, so we can mulitply these together to get <m>25x</m> for the distance of the first trip.
+          Similarly, we have <m>60</m> for the rate of the second trip and <m>y</m> for the time of the second trip, so we can mulitply these together to get <m>60y</m> for the distance of the second trip.
+          Because the total distance was <m>80</m> miles, this is an example where the distances from the two trips  add up to a total known distance. We write the equation:
+          <me>25x + 60y = 80.</me>
+        </p>
+        <p>
+          The equations <m>x+y=1.5</m> and <m>25x+60y=80</m> create a system of eqautions. In the first equation, we can
+        </p>
+      </answer>
     </example>
 
-    <example>
-      <statement>Google says the distance between La Crosse and Milwaukee is <m>210</m> miles. How much faster do you get to Milwaukee from here by driving <m>75</m> mph instead of the speed limit? (The speed limit on I-90 is <m>70</m> mph.) Out of curiosity, what is the final answer in minutes?</statement>
-    </example>
 
 
 
