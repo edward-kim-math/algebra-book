@@ -633,7 +633,7 @@
 
   <subsection>
     <title>Equations involving percentages</title>
-
+    
     <p>
       We now build on the previous examples that just involved expressions.
       The expressions that we built will end up being one side of equations that we build and then solve.
@@ -642,6 +642,16 @@
       but there is danger in doing this.
       Writing an equation with a variable is meant to <emph>naturally</emph> write about the situations that we encounter.
     </p>
+
+    <principle xml:id="principle-meaning-of-variable">
+      <title>Variables</title>
+      <statement>
+        <p>
+          A variable can be created to represent an unknown quantity in a problem.
+          It is important to always keep track of what each created variable represents, and apply that meaning consistently throughout our process.
+        </p>
+      </statement>
+    </principle>
 
     <example>
       <statement>
@@ -1357,17 +1367,71 @@
         </p>
       </answer>      
     </example>
+    <p>
+      The various answers we have given illustrate what we mean in <xref ref="principle-meaning-of-variable" />.
+      In our first answer <m>x</m> represented the time for the first trip and <m>y</m> represented the time for the second trip, and said <m>x=y+1</m>.
+      In the second answer, we used <m>x</m> to represent the time for the first trip, and then wrote the time for the second trip in terms of <m>x</m>: the time for the second trip is <m>x-1</m>.
+      In the third answer, we used <m>t</m> to represent the time for the second trip, and then wrote the time for the first trip in terms of <m>t</m>: the time for the first trip is <m>t+1</m>.
+      All three answers are valid, because we kept track of what each variable represents.
+      In fact, the <m>t</m> in the third answer represents the same quantity as the <m>y</m> in the first answer.
+    </p>
 
-
-
+    <example>
+      <statement>
+        <p>
+          One car leaves from Town A to Town B at a speed of <m>60</m> miles per hour.
+          The return ride from Town B to Town A is made at a speed of <m>40</m> miles per hour due to heavy traffic, and took <m>2</m> hours longer than the trip from Town A to Town B.
+          What was the total time spent driving?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The first trip is the ride from Town A to Town B, and the second trip is the ride back.
+          The first trip has rate <m>60</m> miles per hour, and the second trip has rate <m>40</m> miles per hour.
+          We don't know the amount of time for either of the trips.
+          We cannot use <m>x</m> to represent the time of both trips.
+          Here are some options:
+          <ul>
+            <li>
+              <p>
+                We could use <m>x</m> to represent the time for the first trip, and then the time for the second trip would be <m>x+2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We could use <m>x</m> to represent the time for the first trip, and another variable <m>y</m> to represent the time for the second trip, and then we would have the equation <m>y = x + 2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We could introduce a variable <m>c</m> to represent the time for the second trip, and then the time for the first trip would be <m>c-2</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We could use <m>c</m> to represent the time for the second trip, and another variable <m>d</m> to represent the time for the first trip, and then we would have the equation <m>d = c - 2</m>.
+              </p>
+            </li>
+          </ul>
+          Any one of these four options would work, as long as we stuck kept track of what each and every variable means. Let's go ahead with the first option.
+          Then, the distance for the first trip is <m>60x</m> and the distance for the second trip is <m>40(x+2)</m>.
+          Both trips must cover the same distance (because going from B to A should cover the same distance as going from A to B). So, we can set these two distances equal to create our equation:
+          <me>60x = 40(x+2)</me>
+          <me>60x = 40x + 80</me>
+          <me>20x = 80</me>
+          <me>x = 4</me>
+          So, the time for the first trip is <m>4</m> hours.
+          However, the question asks how much <emph>total</emph> time was spent driving.
+          The value of <m>x</m> is the time for the first trip, and the time for the second trip is <m>x+2 = 4 + 2 = 6</m> hours.
+          Thus, the total time spent driving is <m>4 + 6 = 10</m> hours.
+        </p>
+      </answer>
+    </example>
 
   </subsection>
 
   <subsection>
     <title>Mixture</title>
-    <p>
-      One var, two vars
-    </p>
 
     <example>
       <statement>I have a beaker (Beaker 1) with <m>8</m> liters of fluid. If <m>50\%</m> of the fluid in the beaker is acid, how many liters of acid are in the beaker?</statement>
