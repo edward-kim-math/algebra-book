@@ -1281,23 +1281,84 @@
     <example>
       <statement>
         <p>
-          One car leaves from Town A to Town B at an average speed of <m>50</m> miles per hour.
-          Another car leaves from Town A one hour later at an average speed of <m>70</m> miles per hour.
+          One car leaves from Town A to Town B at a speed of <m>50</m> miles per hour.
+          Another car leaves from Town A one hour later at a speed of <m>70</m> miles per hour.
           If the two cars arrive at Town B at the same time, what is the distance between the two towns?
         </p>
       </statement>
-    </example>
-
-
-    <example>
-      <statement>
+      <answer>
         <p>
-          A car travels from Town A to Town B at an average speed of <m>60</m> miles per hour. 
-          On the return trip from Town B to Town A, the car travels at an average speed of <m>40</m> miles per hour. 
-          If the return trip takes <m>1.5</m> hours longer than the trip from Town A to Town B, what is the distance between the two towns?
+          Let's identify the two trips. The first trip is the journey made by the first car. The second trip is the journey made by the second car.
+          The first trip has rate <m>50</m> miles per hour, and the second trip has rate <m>70</m> miles per hour.
+          We don't know the time of either trip, so let's create variables: <m>x</m> will represent the time (in hours) spent on the first trip and <m>y</m> will represent the time (in hours) spent on the second trip.
+          Because the second car leaves one hour later but both cars arrive at Town B at the same time, this is an example where the time for one trip is obtained from the time for the other trip by adding a known amount of time.
+          Thus, we can write the equation:
+          <me>x = y + 1.</me>
+          Before going any further, let's make clear why we have <m>x = y + 1</m> instead of <m>y = x + 1</m>. 
+          The thing is, the first car gets to travel an extra hour more than the second car, so this is why the value of <m>x</m> has to be larger than the value of <m>y</m>.
         </p>
-      </statement>
+        <p>
+          Since the first trip has a rate of <m>50</m> and a time of <m>x</m>, we can multiply these together to get <m>50x</m> for the distance of the first trip.
+          Since the second trip has a rate of <m>70</m> and a time of <m>y</m>, we can multiply these together to get <m>70y</m> for the distance of the second trip.
+          Because both cars arrive at Town B, the distances for the two trips are the same, so we can write the equation:
+          <me>50x = 70y.</me>
+          Since we earlier had <m>x = y + 1</m>, we can replace every <m>x</m> with <m>y+1</m> in the equation <m>50x = 70y</m> to get:
+          <me>50(y + 1) = 70y.</me>
+          (Please note that when we replaced <m>x</m> with <m>y+1</m>, we wrote the left side to be <m>50(y+1)</m> with emphasis on the parentheses
+          because we really need the rate <m>50</m> to be multiplied by the time <m>y+1</m>. If we wrote <m>50 \cdot y + 1</m> without parentheses instead, what is written is not a product
+          accourding to the Order of Operations.)
+          Now we take that equation and solve for <m>y</m>:
+          <me>50y + 50 = 70y</me>
+          <me>50 = 20y</me>
+          <me>\frac52 = y</me>
+        </p>
+        <p>
+          We have the value of <m>y</m> which represents the time in hours for the second trip.
+          However, the question asked about the distance between the two towns.
+          We have both <m>50x</m> and <m>70y</m> as representations for the distance, but since we have the value of <m>y</m>, it will be more convenient for us to think of the distance as <m>70y</m>.
+          So, the distance between the two towns is <m>70y = 70 \cdot \frac52 = 175</m> miles.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Let's identify the two trips. The first trip is the journey made by the first car. The second trip is the journey made by the second car.
+          The first trip has rate <m>50</m> miles per hour, and the second trip has rate <m>70</m> miles per hour.
+          We can introduce <m>x</m> to mean the time for the first trip.
+          Since the second car left one hour later, it has one less hour to travel, so we can represent the time for the second trip with <m>x-1</m>.          
+        </p>
+        <p>
+          Then the distance for the first trip is <m>50x</m> and the distance for the second trip is <m>70(x-1)</m>. Note that we needed <m>x-1</m> in parentheses due to the Order of Operations.
+          Both cars leave Town A and go to Town B, so these distances must equal each other, and this is how we get our equation:
+          <me>50x = 70(x-1)</me>
+          <me>50x = 70x - 70</me>
+          <me>70 = 20x</me>
+          <me>\frac72 = x</me>
+          We have the value of <m>x = \frac72</m>, and this represents the hours spent by the first car, but we were asked about the distance.
+          While both <m>50x</m> and <m>70(x-1)</m> represent the distance, but it will be more convenient for us to think of the distance as <m>50x</m>.
+          So, the distance between the two cities is <m>50x = 50 \cdot \frac72 = 175</m> miles.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Let's identify the two trips. The first trip is the journey made by the first car. The second trip is the journey made by the second car.
+          The first trip has rate <m>50</m> miles per hour, and the second trip has rate <m>70</m> miles per hour.
+          We can introduce <m>t</m> to mean the time for the second trip.
+          Since the first car left one hour earlier, it has one extra hour to travel, so we can represent the time for the first trip with <m>t+1</m>.          
+        </p>
+        <p>
+          Then the distance for the first trip is <m>50(t+1)</m> and the distance for the second trip is <m>70t</m>. Note that <m>t+1</m> needed to be in parentheses due to the Order of Operations.
+          Both cars leave Town A and go to Town B, so these distances must equal each other, and this is how we get our equation:
+          <me>50(t+1) = 70t</me>
+          <me>50t+50 = 70t</me>
+          <me>50 = 20t</me>
+          <me>\frac52 = t</me>
+          We haveu the value of <m>t = \frac52</m>, and this represents the hours spent by the second car, but we were asked about the distance.
+          The distance between the two cities is <m>70t = 70 \cdot \frac52 = 175</m> miles.
+        </p>
+      </answer>      
     </example>
+
+
 
 
   </subsection>
@@ -1746,6 +1807,11 @@
 
   <subsection>
 		<title>Exercises</title>
+        <p>
+          A car travels from Town A to Town B at an average speed of <m>60</m> miles per hour. 
+          On the return trip from Town B to Town A, the car travels at an average speed of <m>40</m> miles per hour. 
+          If the return trip takes <m>1.5</m> hours longer than the trip from Town A to Town B, what is the distance between the two towns?
+        </p>
 
     <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
 
