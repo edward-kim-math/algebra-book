@@ -34,11 +34,26 @@
         </li>
         <li>
           <p>
-            Text
+            Text 3
           </p>
         </li>
       </ol>
     </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>3x+1 = 9</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          First, we subtract <m>1</m> from both sides to get <m>3x = 8</m>.
+          Next, we divide both sides by <m>3</m> to get <m>x = \frac{8}{3}</m>.
+        </p>
+      </answer>
+    </example>
+
   </subsection>
 
 	<subsection>
