@@ -1362,7 +1362,7 @@
           <me>50t+50 = 70t</me>
           <me>50 = 20t</me>
           <me>\frac52 = t</me>
-          We haveu the value of <m>t = \frac52</m>, and this represents the hours spent by the second car, but we were asked about the distance.
+          We have the value of <m>t = \frac52</m>, and this represents the hours spent by the second car, but we were asked about the distance.
           The distance between the two cities is <m>70t = 70 \cdot \frac52 = 175</m> miles.
         </p>
       </answer>      
@@ -1433,29 +1433,122 @@
   <subsection>
     <title>Mixture</title>
 
+    <p>
+      We will examine questions where one or more containers contain liquid 
+      (which can also be referred to as <term>fluid</term> or <term>solution</term>).
+      In each container, we will typically have the following situation:
+      a container will be filled with a certain amount of liquid (which we call the <term>amount of solution</term>)
+      but some fraction of that liquid (which we call the <term>concentration</term>)
+      will be a specially-identified liquid, which will often be <term>acid</term>.
+      To be clear, we mean to say that a container will have some liquid that is acid as well as some liquid that is not acid.
+    </p>
+
     <example>
-      <statement>I have a beaker (Beaker 1) with <m>8</m> liters of fluid. If <m>50\%</m> of the fluid in the beaker is acid, how many liters of acid are in the beaker?</statement>
+      <statement>
+        <p>
+          I have a beaker (Beaker 1) with <m>8</m> liters of fluid. 
+          If <m>50\%</m> of the fluid in the beaker is acid, 
+          how many liters of acid are in the beaker?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Because the concentration is <m>50\%</m>, this means that have of the liquid in the container is acid.
+          Since the container has <m>8</m> total liters of liquid, we conclude that there are <m>4</m> liters of acid in Beaker 1.
+        </p>
+      </answer>
     </example>
 
-    <formula xml:id="formula-concentration">
+
+    <principle xml:id="formula-concentration">
       <title>Concentration equation</title>
-      <statement><m>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</m></statement>
-    </formula>
-
-    <p>This concentration equation can be used on every container.</p>
+      <statement>
+        <p>
+          <m>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</m>
+        </p>
+        <p>
+          When applying this formula, the concentration should be a fraction/decimal between <m>0</m> and <m>1</m>.
+        </p>        
+      </statement>
+    </principle>
+    <p>
+      The exercise we already worked through is actually an example of this concentration equation:
+      we had <m>8</m> total liters of solution, and the concentration turned into a decimal is <m>0.50</m>.
+      And following the concentration equation, 
+      <me>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</me>
+      turns into
+      <me>8 \cdot 0.50 = 4</me>
+      This concentration equation can be used on every container.
+      In fact, this concentration equation should be used on each container in a mixture problem.
+      Before we dig any further, let's lead up to ideas with a couple more questions as warm ups.
+    </p>
 
     <example>
-      <statement>Beaker 2 contains <m>12</m> liters of liquid. If <m>75\%</m> of the liquid is acid, how many liters of acid are in Beaker 2?</statement>
+      <statement>
+        <p>
+          Beaker 2 contains <m>12</m> liters of liquid. 
+          If <m>75\%</m> of the liquid is acid, how many liters of acid are in Beaker 2?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We apply the concentration equation with the amount of solution <m>12</m> 
+          and the concentration <m>0.75</m>. So
+          <me>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</me>
+          turns into
+          <me>12 \cdot 0.75 = (\text{amount acid})</me>
+          and using a calculator, we see that there will be <m>9</m> liters of acid.
+        </p>
+      </answer>
     </example>
+    <p>
+      Though we are completely done with this question, 
+      let's just point out that in this container that had <m>12</m> liters of total liquid, 
+      <m>9</m> of the liters are acid, meaning that the remaining <m>3</m> liters is non-acid liquid.
+    </p>
+
+    <p>
+      What would happen if we took Beakers 1 and 2 above, and combined their contents?
+      That is, what if we dumped the contents of both beakers into an empty bucket.
+      Then, what would be the concentration for the bucket?
+      What would we get if we added the two concertations together?
+      Well, <m>50\%</m> plus <m>75\%</m> would be <m>125\%</m>, so something seems incorrect about this awfully large percent.
+    </p>
+    <p>
+      There is a way to imagine what's happening, but it's a little harder with liquid.
+      To make things much more concrete, let's do the following.
+      Beaker 1 had <m>8</m> liters of liquid, of which <m>4</m> liters were acid (meaning the remaining <m>4</m> liters are non-acid).
+      Let's imagine we have a cup with <m>8</m> Skittles, and <m>4</m> of the Skittles are green (with each green skittle representing a liter of acid), and then the remaining <m>4</m> Skittles are blue (to represent the non-acid part, which we may just as well pretend is water).
+      Beaker 2 had <m>12</m> liters of liquid, <m>9</m> of which was acid and <m>3</m> of which was water.
+      To represent Beaker 2, say we have a second cup with <m>12</m> total Skittles, broken down as <m>9</m> green ones and <m>3</m> blue ones.
+      Then, we can more easily think about what happens when we take the contents of both cups and dump them into an empty mug.
+    </p>
 
     <example>
-      <statement>Beaker 1 contains <m>8</m> liters of liquid, and <m>50\%</m> of the liquid in the beaker is acid. Beaker 2 contains <m>12</m> liters of liquid, and <m>75\%</m> of the liquid is acid. If the contents of Beaker 1 and Beaker 2 are dumped into an empty bucket, what percentage of the bucket is acid?</statement>
+      <statement>
+        <p>
+          Beaker 1 contains <m>8</m> liters of liquid, and <m>50\%</m> of the liquid in the beaker is acid. 
+          Beaker 2 contains <m>12</m> liters of liquid, and <m>75\%</m> of the liquid is acid. 
+          The contents of Beaker 1 and Beaker 2 are dumped into an empty bucket. 
+          What percentage of the bucket is acid? (That is, what is the concentration of the bucket?)
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The bucket will have <m>20</m> total liters of liquid, coming from <m>8 + 12</m>.
+          The bucket will have <m>13</m> total liters of acid, coming from <m>4 + 9</m>, 
+          since we recall from earlier that Beaker 1 had <m>4</m> liters of acid, and Beaker 2 had <m>9</m> liters of acid.
+          So, for the bucket,
+          <me>(\text{amount solution})(\text{concentration}) = (\text{amount acid})</me>
+          turns into
+          <me>20 \cdot (\text{concentration}) = 13</me>
+          The question asked about the concentration, so we divide both sides by <m>20</m> to get 
+          <me>\text{concentration} = \frac{13}{20}</me>
+          While we can leave our answer like this, a calculator tells us the concentration is <m>0.65</m>, 
+          and we can restate the concentration of the bucket to be <m>65\%</m>.
+        </p>
+      </answer>
     </example>
-
-    <warning>
-      <p>The percentages of concentration cannot be added.</p>
-    </warning>
-
     <p>
       <figure>
         <caption>Visualization of beakers</caption>
@@ -1498,7 +1591,91 @@
         </image>
       </figure>
     </p>
-    
+ 
+    <p>
+      Even when we have questions that are worded otherwise, we will generally be able to restate questions to 
+      follow the general format of liquid from two separate beakers being dumped into an empty bucket.
+      We must apply the concentration equation to each of the three containers:
+      <ul>
+        <li>
+          <p>
+            Apply the concentration equation to Beaker 1 (before the contents are put in the bucket)
+          </p>
+        </li>
+        <li>
+          <p>
+            Apply the concentration equation to Beaker 2 (before the contents are put in the bucket)
+          </p>
+        </li>
+        <li>
+          <p>
+            Apply the concentration equation to the bucket (once the contents of both beakers have been dumped in)
+          </p>
+        </li>
+      </ul>
+      From the example we already saw (especially when we visulize what's happening using Skittles), 
+      here are the connections between the containers:
+      <ul>
+        <li>
+          <p>
+            The amount of solution can be added: the amount of solution from Beaker 1 plus the amount of solution from Beaker 2 is the amount of solution in the bucket.
+          </p>
+        </li>
+        <li>
+          <p>
+            The amount of acid can be added: the amount of acid from Beaker 1 plus the amount of acid from Beaker 2 is the amount of acid in the bucket.
+          </p>
+        </li>
+        <li>
+          <p>
+            The concentrations cannot be added.
+          </p>
+        </li>
+      </ul>
+      That last point is important enough that we want to clearly state it in a warning box:
+    </p>
+    <warning>
+      <p>The percentages of concentration cannot be added. Doing this produces a number that has no relevance in a mixture problem.</p>
+    </warning>
+
+    <computation>
+      <statement>
+        <p>
+          When presented a mixture problem, if the question is not already formulated as the contents of two beakers being dumped into a single bucket,
+          restructure the problem to be able to be thought of this way. Then all five of these actions <emph>must</emph>
+          occur to be successful:
+          <ul>
+            <li>
+              <p>
+                Apply the concentration equation to Beaker 1
+              </p>
+            </li>
+            <li>
+              <p>
+                Apply the concentration equation to Beaker 2
+              </p>
+            </li>
+            <li>
+              <p>
+                Apply the concentration equation to the bucket
+              </p>
+            </li>
+            <li>
+              <p>
+                The amount of solution in Beaker 1 plus the amount of solution in Beaker 2 is the amount of solution in the bucket.
+              </p>
+            </li>
+            <li>
+              <p>
+                The amount of acid in Beaker 1 plus the amount of acid in Beaker 2 is the amount of acid in the bucket.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </computation>
+
+   
 
     <example>
       <statement>How many liters of a <m>20\%</m> acid solution should be mixed with <m>80</m> liters of a <m>61\%</m> acid solution to make a <m>45\%</m> acid solution?</statement>
