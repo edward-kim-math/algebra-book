@@ -1675,45 +1675,248 @@
       </statement>
     </computation>
 
-   
+    <note>
+      <p>
+        Before digging in too far, we will take a moment to clarify exactly what each of the three quantities in the concentration equation mean.
+        First, let's discuss what it means for a container's amount of solution to be <m>0.5</m> liters. Here are some possibile situations:
+        <ul>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>0.0</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.4</m> liters of acid and <m>0.1</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.3</m> liters of acid and <m>0.2</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.2</m> liters of acid and <m>0.3</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.1</m> liters of acid and <m>0.4</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.0</m> liters of acid and <m>0.5</m> liters of water.</p></li>
+        </ul>
+        These are just some of the possibilities. The first of these six in the list above is the case of pure acid, while the last list item is the example of pure water.
+      </p>
+      <p>
+        Now, let's discuss what it means for a container's amount of acid to be <m>0.5</m> liters. Here are some possible situations:
+        <ul>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>0.0</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>0.5</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>1.8</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>3.2</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>27.0</m> liters of water.</p></li>
+        </ul>
+        There are many other possibilities, but the point is that there's always a half liter of acid, and then any amount of water (including no water at all).
+      </p>
+      <p>
+        What about having a concentration of <m>0.5</m>? This means we have a concentration of <m>50\%</m>, which means that 
+        when we take the amount of acid and divide by the total amount of liquid (which includes the acid and the water combined), we need to get <m>0.5</m>.
+        In other words, half of the container is acid, and half is non-acid (let's say water). Here are some possible situations:
+        <ul>
+          <li><p>It could be that the container has <m>0.5</m> liters of acid and <m>0.5</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>1.0</m> liters of acid and <m>1.0</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>1.9</m> liters of acid and <m>1.8</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>59.5</m> liters of acid and <m>59.5</m> liters of water.</p></li>
+          <li><p>It could be that the container has <m>110.2</m> liters of acid and <m>110.2</m> liters of water.</p></li>
+        </ul>
+      </p>
+    </note>
 
     <example>
-      <statement>How many liters of a <m>20\%</m> acid solution should be mixed with <m>80</m> liters of a <m>61\%</m> acid solution to make a <m>45\%</m> acid solution?</statement>
+      <statement>
+        <p>
+          How many liters of a <m>20\%</m> acid solution should be mixed with <m>80</m> liters of a <m>61\%</m> acid solution 
+          to make a <m>45\%</m> acid solution?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let's say that Beaker 1 is the container with the <m>20\%</m> acid solution, and Beaker 2 is the container with the <m>61\%</m> acid solution.
+          We don't know how many liters are in Beaker 1, so let's introduce a variable <m>x</m> to represent the amount of solution (in liters) in Beaker 1.
+          The amount of solution in Beaker 2 is <m>80</m> liters. The concentration in Beaker 1 is <m>0.20</m>, and the concentration in Beaker 2 is <m>0.61</m>.
+        </p>
+        <p>
+          We need to apply the concentration equation to Beaker 1, and this tells us the amount of acid in Beaker 1 is <m>0.20x</m>.
+          We need to apply the concentration equation to Beaker 2, and this tells us the amount of acid in Beaker 2 is <m>0.61(80)</m>.
+        </p>
+        <p>
+          The amount of solution in the bucket is the sum of the amounts of soultion in Beaker 1 and Beaker 2, so the amount of solution in the bucket is <m>x + 80</m>.
+          The concentration in the bucket is <m>0.45</m>.
+          Applying the concentration equation to the bucket tells us that the amount of acid in the bucket is <m>0.45(x + 80)</m>.
+          The amount of acid in the bucket is the sum of the amounts of acid in Beaker 1 and Beaker 2, so the amount of acid in the bucket is <m>0.20x + 0.61(80)</m>.
+      <figure>
+        <caption>Visualization of beakers</caption>
+        <image width="90%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[ultra thick] (-1,2) -- (-1,0) -- (-2,0) -- (-2,2);
+                %
+                \draw[ultra thick] (1,2) -- (1,0) -- (2,0) -- (2,2);
+                %
+                \draw[ultra thick] (-.5,-0.8) -- (-.5,-3) -- (.5,-3) -- (.5,-0.8);
+                %
+                \draw[->] (-1.5, 1.9) -- (-1.5,2.1) -- (-0.25,2.1) -- (-0.25,-0.5);
+                \draw[->] (1.5, 1.9) -- (1.5,2.1) -- (0.25,2.1) -- (0.25,-0.5);
+                % draw arrow heads
+                %
+                \node at (-4,1.5) {amount solution $= x$};
+                \node at (-4,1.0) {concentration $= 0.20$};
+                \node at (-4,0.5) {amount acid $= 0.20x$};
+                %
+                \node at (4,1.5) {amount solution $= 80$};
+                \node at (4,1.0) {concentration $= 0.61$};
+                \node at (4,0.5) {amount acid $= 0.61(80)$};
+                %
+                \node at (0,-3.5) {amount solution $= x + 80$};
+                \node at (0,-4.0) {concentration $= 0.45$};
+                \node at (0,-4.5) {amount acid $= 0.45(x + 80)$};
+                \node at (0,-5.0) {amount acid $= 0.20x + 0.61(80)$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+        </p>
+        <p>
+          We now have two expressions for the amount of acid in the bucket, so we can set these equal to each other:
+          <me>0.45(x + 80) = 0.20x + 0.61(80)</me>
+          <me>0.45x + 36 = 0.20x + 48.8</me>
+          <me>0.25x = 12.8</me>
+          <me>x = 51.2</me>
+          So, we need to mix <m>51.2</m> liters of the <m>20\%</m> acid solution with <m>80</m> liters of the <m>61\%</m> acid solution to make a <m>45\%</m> acid solution.
+        </p>
+      </answer>
     </example>
+    <p>
+      Some of the steps above used in solving the equation <m>0.45(x + 80) = 0.20x + 0.61(80)</m> applied some simplification along the way, with the aid of a calculator.
+      Without a calculator, and without worrying about simplifying, here's a way that we could solve for <m>x</m>:
+      <me>0.45(x + 80) = 0.20x + 0.61(80)</me>
+      <me>0.45x + 0.45(80) = 0.20x + 0.61(80)</me>
+      <me>0.45x - 0.20x = 0.61(80) - 0.45(80)</me>
+      <me>(0.45-0.20)x = 0.61(80) - 0.45(80)</me>
+      <me>x = \frac{0.61(80) - 0.45(80)}{0.45-0.20}</me>
+      So we need to have <m>\frac{0.61(80) - 0.45(80)}{0.45-0.20}</m> liters of the <m>20\%</m> acid solution.
+    </p>
+
+    <computation>
+      <p>
+        In these mixture problems, there will be two different ways to obtain the amount of acid in the bucket:
+        <ul>
+          <li>
+            <p>
+              Multiply the amount of solution in the bucket by the concentration of the bucket.
+            </p>
+          </li>
+          <li>
+            <p>
+              Add the amount of acid in Beaker 1 to the amount of acid in Beaker 2.
+            </p>
+          </li>
+        </ul>
+        There will <emph>always</emph> be these two different ways to obtain the amount of acid in the bucket.
+        These will always be these two different-looking expressions for the amount of acid in the bucket.
+        These will look different because one is a product while the other is a sum.
+        Though these look different, both represent the amount of acid in the bucket, so we will always set these two expressions equal to each other to create the relevant equation.
+        For every problem where the contents of two beakers is dumped into an empty bucket, this will <emph>always</emph> end up being how we create the relevant equation.
+      </p>
+    </computation>
+    <p>
+      The methodology we described will always apply, but in the details, things maay look a little different from one problem to the next.
+      So, let's look for which patterns are always present, and avoid discovering patterns which only work sometimes.
+    </p>    
 
     <example>
-      <statement>How many liters of a <m>20\%</m> acid solution and how many liters of a <m>61\%</m> acid solution should be mixed together to make <m>80</m> liters of a <m>45\%</m> acid solution?</statement>
+      <statement>
+        <p>
+          How many liters of a <m>20\%</m> acid solution and how many liters of a <m>61\%</m> acid solution should be mixed together 
+          to make <m>80</m> liters of a <m>45\%</m> acid solution?  
+        </p>
+      </statement>
+      <answer>
+        <p>
+          This problem has all the same numbers as in the previous problem, but some of the numbers appear in different places.
+          Beaker 1 has a concentration of <m>0.20</m> and Beaker 2 has a concentration of <m>0.61</m>.
+          We don't have the total amount of solution for either beaker, but the beakers combined have <m>80</m> liters of solution.
+          Let's write <m>x</m> for the amount of solution in Beaker 1, which means that <m>80-x</m> liters of solution are in Beaker 2.
+        </p>
+        <p>
+          The amount of acid in Beaker 1 is <m>0.20x</m> and the amount of acid in Beaker 2 is <m>0.61(80-x)</m>.
+          We can get the amount of acid in the bucket two ways: one is by adding the amounts of acid from the beakers, so we have <m>0.20x + 0.61(80-x)</m>,
+          and the other way is by multiplying the desired concentration <m>0.45</m> by the amount of fluid <m>80</m> to get <m>0.45(80)</m>.
+        </p>
+        <p>
+          We set equal these two ways of writing the amount of acid in the bucket:
+          <me>0.20x + 0.61(80-x) = 0.45(80)</me>
+          <me>0.20x + 0.61(80) - 0.61x = 0.45(80)</me>
+          <me>0.20x - 0.61x = 0.45(80) - 0.61(80)</me>
+          <me>(0.20 - 0.61)x = 0.45(80) - 0.61(80)</me>
+          <me>x = \frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</me>
+          We need <m>\frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</m> liters of the first solution.
+          Since <m>80-x</m> represents the number of liters of the second solution, we need <m>80 - \frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</m> liters of the second solution.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          This problem has all the same numbers as in the previous problem, but some of the numbers appear in different places.
+          Beaker 1 has a concentration of <m>0.20</m> and Beaker 2 has a concentration of <m>0.61</m>.
+          We don't have the total amount of solution for either beaker, but the beakers combined have <m>80</m> liters of solution.
+          Let's write <m>x</m> for the amount of solution in Beaker 1 and <m>y</m> for the amount of solution in Beaker 2.
+          The previous answer had implemented that the sum should be <m>80</m> by writing <m>80-x</m>.
+        I Instead, we implement this information by writing <m>x+y=80</m>.
+        </p>
+        <p>
+          The amount of acid in Beaker 1 is <m>0.20x</m> and the amount of acid in Beaker 2 is <m>0.61y</m>.
+          We can get the amount of acid in the bucket two ways: one is by adding the amounts of acid from the beakers, so we have <m>0.20x + 0.61y</m>,
+          and the other way is by multiplying the desired concentration <m>0.45</m> by the amount of fluid <m>80</m> to get <m>0.45(80)</m>.
+        </p>
+        <p>
+          We set equal these two ways of writing the amount of acid in the bucket:
+          <me>0.20x + 0.61y = 0.45(80)</me>
+          From <m>x+y=80</m>, we get <m>y=80-x</m>
+          <me>0.20x + 0.61(80-x) = 0.45(80)</me>
+          <me>0.20x + 0.61(80) - 0.61x = 0.45(80)</me>
+          <me>0.20x - 0.61x = 0.45(80) - 0.61(80)</me>
+          <me>(0.20 - 0.61)x = 0.45(80) - 0.61(80)</me>
+          <me>x = \frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</me>
+          We need <m>\frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</m> liters of the first solution.
+          Since <m>y</m> represents the number of liters of the second solution, and <m>y=80-x</m>, we need <m>80 - \frac{0.45(80) - 0.61(80)}{0.20 - 0.61}</m> liters of the second solution.
+        </p>
+      </answer>
     </example>
-
-    <method>
-      <title>Mixture</title>
-      <p>Every mixture problem can be rephrased as taking the contents of one beaker and the contents of another beaker and dumping both into a bucket. Since the concentration equation must be applied to each container, for each container, you must keep track of the <em>amount of solution</em>, the <em>concentration of acid</em>, and the <em>amount of acid</em>. Be sure to address the following:</p>
-      <ul>
-        <li>Apply the concentration equation to Beaker 1.</li>
-        <li>Apply the concentration equation to Beaker 2.</li>
-        <li>Apply the concentration equation to the final bucket.</li>
-        <li>The amount of solution in the bucket is the sum of the amounts in Beaker 1 and Beaker 2.</li>
-        <li>The amount of acid in the bucket is the sum of the amounts in Beaker 1 and Beaker 2.</li>
-        <li>You will always obtain two expressions for the amount of acid in the bucket, so equate these.</li>
-      </ul>
-    </method>
-
-    <list>
-      <title>Extra practice problems</title>
-      <ol>
-        <li>A jar has liquid. Some of the liquid is acid, and some of the liquid is non-acid. If the jar has <m>8</m> liters of liquid and <m>50\%</m> of the jar is acid, how many liters of acid are in the jar?</li>
-        <li>If a <m>5</m> liter jar is <m>84\%</m> acid, how much of the jar (in liters) is acid?</li>
-        <li>You have an empty bucket. An <m>8</m> liter jar which is <m>50\%</m> acid is dumped into the bucket. A <m>5</m> liter jar which is <m>84\%</m> acid is also dumped into the bucket.
-          <ol>
-            <li>What is the total volume of liquid in the bucket (in liters)?</li>
-            <li>How many liters of acid are in the bucket?</li>
-            <li>What is the concentration (as a percent) of acid in the bucket?</li>
-          </ol>
-        </li>
-        <li>What amount of a <m>60\%</m> acid solution must be mixed with a <m>30\%</m> solution to produce <m>24</m> liters of a <m>50\%</m> solution?</li>
-        <li>A manufacturer of soft drinks advertises their orange soda as “naturally flavored,” although it contains only <m>5\%</m> orange juice. A new federal regulation stipulates that to be called “natural,” a drink must contain at least <m>10\%</m> fruit juice. How much pure orange juice must this manufacturer add to <m>500</m> gallons of orange soda to conform to the new regulation?</li>
-      </ol>
-    </list>
+    <note>
+      <p>
+        Both answers validly implement the information that the sum of the amounts of solutions needs to be <m>80</m>.
+        <ul>
+          <li>
+            <p>
+              The first answer had <m>x</m> and <m>80-x</m> as the amounts of solution, since these two quantities add to <m>80</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The second answer had <m>x</m> and <m>y</m> as the amounts of solution, and includes the equaiton <m>x+y=80</m> to create a system of equations.
+            </p>
+          </li>
+        </ul>
+        However, we should be careful to not do the following:
+        <ul>
+          <li>
+            <p>
+              It is incorrect to say that both beakers have <m>40</m> as the amount of solution.
+              While it is true that <m>40+40=80</m>, we cannot assume that both containers have the same amount of solution.
+            </p>
+          </li>
+          <li>
+            <p>
+              It is incorrect to say that both beakers have <m>x</m> as the amount of solution.
+              Doing this assumes that both containers have the same amount of solution, because <m>x</m> was used to label the amount of solution for both containers.
+            </p>
+          </li>
+          <li>
+            <p>
+              It is incorrect to say that both beakers have <m>80-x</m> as the amount of solution.
+              This, implicitly, is another way that the same value (namely <m>80-x</m>) appears as the amount of solution for both of the beakers.
+              This is often the result of reading too much into the pattern: in our second answer to the previous question, <emph>one</emph> container had <m>x</m> for the amount of solution, while the <emph>other</emph> container had <m>80-x</m> as the amount of solution. The two expressions <m>x</m> and <m>80-x</m> add up to <m>80</m>, which you can verify experimentally by picking any number you want for <m>x</m>, then seeing what happens when you add <m>x</m> and <m>80-x</m> together, or we can provide the following argument where we don't plug anything in for <m>x</m> and just simplify the sum of <m>x</m> and <m>(80-x)</m>, obtaining:
+              <me>(x) + (80-x) = x + 80 - x = 80</me>
+            </p>
+          </li>
+        </ul>
+        Note that in both answers, the variable <m>x</m> itself is meant to <emph>represent something</emph>, and in this case, <m>x</m> represents the amount of liquid in Beaker 1.
+      </p>
+    </note>
 
   </subsection>
 
@@ -2059,6 +2262,20 @@
     <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
 
     <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+      <ol>
+        <li>A jar has liquid. Some of the liquid is acid, and some of the liquid is non-acid. If the jar has <m>8</m> liters of liquid and <m>50\%</m> of the jar is acid, how many liters of acid are in the jar?</li>
+        <li>If a <m>5</m> liter jar is <m>84\%</m> acid, how much of the jar (in liters) is acid?</li>
+        <li>You have an empty bucket. An <m>8</m> liter jar which is <m>50\%</m> acid is dumped into the bucket. A <m>5</m> liter jar which is <m>84\%</m> acid is also dumped into the bucket.
+          <ol>
+            <li>What is the total volume of liquid in the bucket (in liters)?</li>
+            <li>How many liters of acid are in the bucket?</li>
+            <li>What is the concentration (as a percent) of acid in the bucket?</li>
+          </ol>
+        </li>
+        <li>What amount of a <m>60\%</m> acid solution must be mixed with a <m>30\%</m> solution to produce <m>24</m> liters of a <m>50\%</m> solution?</li>
+        <li>A manufacturer of soft drinks advertises their orange soda as “naturally flavored,” although it contains only <m>5\%</m> orange juice. A new federal regulation stipulates that to be called “natural,” a drink must contain at least <m>10\%</m> fruit juice. How much pure orange juice must this manufacturer add to <m>500</m> gallons of orange soda to conform to the new regulation?</li>
+      </ol>
 
     <p>
       <ol>
