@@ -27,23 +27,35 @@
     </p>
 
     <p>
-      Intro:
+      This section reviews the math skills we've learned, using these skills after we discuss how to represent information from various contexts in the form of expressions and equations. We will be able to answer a variety of application questions:
       <ol>
         <li>
           <p>
             You need <m>12,500</m> miles for a flight.
             Your credit card usually transfers miles at a <m>1:1</m> ratio, but is currently offering a <m>10\%</m> bonus on all transfers.
+            That is, when you transfer <m>1,000</m> miles to the airline, instead of getting the usual <m>1,000</m> miles, you will get <m>1,100</m> miles because of the <m>10\%</m> bonus.
             How many miles should you transfer to book the flight while taking advantage of the transfer bonus?
           </p>
         </li>
         <li>
           <p>
-            
+            You have a scholarship which allocates spending <m>1500</m> dollars on a laptop, including the tax. 
+            Assuming that tax is <m>4\%</m>, what is the pre-tax price of the laptop you can afford using this scholarship?
           </p>
         </li>
         <li>
           <p>
-            Text
+            Alice leaves from City X to head to City Y starting at noon traveling at <m>50</m> miles per hour. 
+            City X and City Y are <m>200</m> miles apart.
+            Beth leaves from City Y to head to City X at <m>30</m> minutes past noon traveling at <m>60</m> miles per hour.
+            How much time does Beth drive for?
+          </p>
+        </li>
+        <li>
+          <p>
+            The CDC recommends hand sanitizer that's at least <m>60\%</m> alcohol to deactivate the virus that causes COVID-19, but stores are out of stock due to overpurchasing.
+            You have a <m>32</m> fl oz bottle of <m>91\%</m> isopropyl alcohol at home. It's a good thing you bought this years ago, but since its strength is more than enough, you don't want to waste it.
+            How much lotion (with no alcohol in it) should you mix in to create a homemade hand sanitizer that's <m>60\%</m> alcohol?
           </p>
         </li>
       </ol>
@@ -1922,307 +1934,407 @@
 
   <subsection>
     <title>Literal Equations</title>
+
     <p>
-            Literal equations (multiple variables)
+      Due to applications in science, it is very typical to need to take an equation that has multiple variables (often more than two) and solve for one of the variables in terms of the others.
+      These are called <emph>literal equations</emph>, since the variables are often thought of as "letters" (or "literals") rather than specific unknown numbers.
+      Before looking at examples, let us look at an equation that only has one variable, and provided two different-looking answers:
     </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve <m>3x + 5 = 11</m> for <m>x</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          One way to solve for <m>x</m> is as follows:
+          <me>3x + 5 = 11</me>
+          <me>3x = 6</me>
+          <me>x = 2</me>
+          After performing an action on both sides, we simplified where possible.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Another way to solve for <m>x</m> is as follows:
+          <me>3x + 5 = 11</me>
+          <me>3x = 11 - 5</me>
+          <me>x = \frac{11 - 5}{3}</me>
+          After performing an action on both sides, we did not simplify.
+        </p>
+      </answer>
+    </example>
+    <p>
+      Both answers are correct.
+      The first answer simplified where possible, while the second answer did not simplify.
+      Both answers correctly solved for <m>x</m>.
+      It would be very natural to ask why we even provide the second answer.
+      This is because literal equations often put us in situations where we cannot simplify.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve <m>ax + b = c</m> for <m>x</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <me>ax + b = c</me>
+          <me>ax = c - b</me>
+          <me>x = \frac{c - b}{a}</me>
+        </p>
+      </answer>
+    </example>
+    <p>
+      Examine how similar the steps to solving this equation are like to the steps in the second answer of the previous example.
+      While this process may feel strange at first, please note that the key steps are the same as solving equations with one variable: apply the same action to both sides.
+      The thing that is different is that we are often unable to perform any simplification work after performing the action on both sides.
+      (This is because the variables represent unknown numbers, and we cannot simplify without knowing what those numbers are.)
+    </p>
+    <p>
+      Earlier in this section we examined solving systems of equations. We in fact already practiced solving literal equations when we solved those systems of equations.
+      For example, if we were asked to solve <m>3x + y = 17</m> and <m>2x - 9y = 40</m>, our first step might take the first equation and subtract <m>3x</m> from both sides to get <m>y = 17 - 3x</m>, noting that no simplification occured. 
+      We would then substitute this expression for <m>y</m> into the second equation to get <m>2x - 9(17 - 3x) = 40</m>, and then proceed to solve for <m>x</m>.
+      We won't continue on this example any further: this was just to illustrate that we have already dealt with multiple variables in an equation, and the specific situation of being unable to simplify further after performing an action on both sides.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve <m>w</m> in the perimeter equation for a rectangle: <m>P = 2\ell  + 2w</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <me>P = 2\ell + 2w</me>
+          <me>P - 2\ell = 2w</me>
+          <me>w = \frac{P - 2\ell}{2}</me>
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Solve for <m>h</m> in the surface area equation for a rectangular prism: <m>A = 2\ell w + 2 \ell h + 2wh</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <me>A = 2\ell w + 2 \ell h + 2wh</me>
+          <me>A - 2\ell w = 2 \ell h + 2wh</me>
+          <me>A - 2\ell w = 2h(\ell + w)</me>
+          <me>h = \frac{A - 2\ell w}{2(\ell + w)}</me>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <me>A = 2\ell w + 2 \ell h + 2wh</me>
+          <me>A - 2\ell w = 2 \ell h + 2wh</me>
+          <me>A - 2\ell w = h(2\ell + 2w)</me>
+          <me>h = \frac{A - 2\ell w}{2\ell + 2w}</me>
+        </p>
+      </answer>
+    </example>
+    <p>
+      Both answers to the previous example are correct. The first answer factored out a <m>2</m> as well as <m>h</m>, then divided both sides by <m>2(\ell + w)</m>.
+      The second answer only factored out <m>h</m>, then divided both sides by <m>2\ell + 2w</m>.
+      Both answers correctly solved for <m>h</m>.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve for <m>F</m> in the equation for kinetic energy: <m>E = \frac{1}{2} m v^2 + F d</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          First, notice that the variable <m>F</m> appears in one of the two terms on the right side.
+          (The focus here is on the word <term>term</term>, recalling that terms are separated by plus or minus signs.)
+          We subtract the term other term <m>\frac12 m v^2</m> from both sides to isolate the term with <m>F</m>:
+          <me>E = \frac{1}{2} m v^2 + F d</me>
+          <me>E - \frac{1}{2} m v^2 = F d</me>
+          <me>F = \frac{E - \frac{1}{2} m v^2}{d}</me>
+          From the starting equation <m>E = \frac{1}{2} m v^2 + F d</m> it is tempting to start by dividing both sides by <m>d</m>. However, doing this leads to <m>\frac{E}{d} = \frac{\frac12 m v^2 + Fd}{d}</m>
+          and we cannot cancel <m>d</m> on top with <m>d</m> on bottom since the <m>d</m> on top is not a factor of the entire numerator.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Solve for <m>h</m> in the formula for the volume of a cylinder: <m>V = \pi r^2 h</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <me>V = \pi r^2 h</me>
+          Note that on the right side, <m>\pi</m> and <m>r^2</m> and <m>h</m> are all factors. So, if we were to divide by something on both sides, cancellations would be possible (recall that by divding on both sides, we'll create a fraction, and in the fraction we create, only factors will cancel: fortunately, what we see on the right side -- which will eventually be the numerator of our fraction -- consists of factors!)
+          <me>\frac{V}{\pi r^2} = \frac{\pi r^2 h}{\pi r^2}</me>
+          The fraction on the right side has <m>\pi</m> as a factor on top and bottom, so these cancel.
+          The fraction on the right side also has <m>r^2</m> as a factor on top and bottom, so these cancel.
+          <me>\frac{V}{\pi r^2} = h</me>
+        </p>
+      </answer>
+    </example>
+
+
   </subsection>
+
+
+
 
   <subsection>
     <title>Equations with Rational Expressions</title>
     <p>
-      Equations with rational expressions .... practice the previous section, and remind people about variables in the denominator requiring a CHECK.
+      We previously simplified rational expressions, so now let's solve equations that have rational expressions.
+      Recall that a rational expression is a fraction where the numerator and denominator are both polynomials.
+      When solving equations with rational expressions, there are two key ideas from the past to keep in mind:
+      <ol>
+        <li>
+          <p>
+            <xref ref="strategy-equations-with-fractions" /> still applies: it is always fastest to solve an equation with fractions by first computing the least common multiple of all denominators, then multiplying both sides of the equation by this expression to eliminate all fractions.
+          </p>
+        </li>
+        <li>
+          <p>
+            <xref ref="expectation-variable-in-denominator" /> still applies: if a variable appears in the denominator, we need to check  our solutions to make sure that we are not getting any values that would cause any denominator equal to zero.
+          </p>
+        </li>
+      </ol>
+      As long as we keep these two ideas from the past in mind, we solve these new types of equations using the same techniques as we have seen for other equations: namely, we apply the same action to both sides.
     </p>
-  </subsection>
-  
-	<subsection>
-		<title>subsection title</title>
-
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
 
     <example>
       <statement>
         <p>
-          Statement text       
+          Solve <m>\frac{2x + 3}{x - 1} = 4</m>.
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          Solution text
+          The only denominator in this equation is <m>x-1</m> since we have only one fraction so we multiply both sides by <m>x-1</m> to eliminate the fraction:
+          <me>\frac{2x + 3}{x - 1} (x-1) = 4(x-1)</me>
+          On the left side, the <m>x-1</m> cancels, leaving:
+          <me>2x + 3 = 4(x-1)</me>
+          We now have an equation without fractions, so we can proceed as usual:
+          <me>2x + 3 = 4x - 4</me>
+          <me>3 + 4 = 4x - 2x</me>
+          <me>7 = 2x</me>
+          <me>x = \frac72</me>
+          Finally, we need to check that our solution does not cause any denominator to be zero.
+          The only denominator in the original equation was <m>x-1</m>, and substituting in our solution gives <m>\frac72 - 1 = \frac52</m>, which is not zero.
+          Therefore, our solution of <m>x = \frac72</m> is valid.
         </p>
-      </solution>
+      </answer>
     </example>
 
-    <!-- Try it -->
-    <exercise>
+    <example>
       <statement>
         <p>
-          Text
+          Solve <m>\frac{3}{x+2} + \frac{4}{x-1} = \frac{6}{x^2 + x - 2}</m>.
         </p>
       </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
+      <answer>
         <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
+          The denominators in this equation are <m>x+2</m>, <m>x-1</m>, and <m>x^2 + x - 2</m>.
+          Factoring the last denominator gives <m>(x+2)(x-1)</m>, so the least common multiple of all denominators is <m>(x+2)(x-1)</m>.
+          We multiply both sides by <m>(x+2)(x-1)</m> to eliminate all fractions:
+          <me> (x+2)(x-1)  \left(\frac{3}{x+2}  + \frac{4}{x-1}\right)= \frac{6}{(x+2)(x-1)} (x+2)(x-1)</me>
+          <me> (x+2)(x-1) \frac{3}{x+2}  +  (x+2)(x-1)  \frac{4}{x-1}= \frac{6}{(x+2)(x-1)} (x+2)(x-1)</me>
+          On the left side, the <m>x+2</m> cancels in the first term and the <m>x-1</m> cancels in the second term, leaving:
+          <me>3(x-1) + 4(x+2) = 6</me>
+          We now have an equation without fractions, so we can proceed as usual:
+          <me>3x - 3 + 4x + 8 = 6</me>
+          <me>7x + 5 = 6</me>
+          <me>7x = 1</me>
+          <me>x = \frac17</me>
+          Finally, we need to check that our solution does not cause any denominator to be zero.
+          The denominators in the original equation were <m>x+2</m>, <m>x-1</m>, and <m>(x+2)(x-1)</m>.
+          Substituting in our solution gives:
+          <me>\frac17 + 2 = \frac{15}{7}</me>
+          <me>\frac17 - 1 = \frac{-6}{7}</me>
+          and
+          <me>\left(\frac17 + 2\right)\left(\frac17 - 1\right) = \frac{15}{7} \cdot \frac{-6}{7} = \frac{-90}{49}</me>
+          None of these three denominators are zero, so our solution of <m>x = \frac17</m> is valid.
         </p>
+      </answer>
+    </example>
 
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
-
-
-    <!-- Try it -->
-    <exercise>
+    <example>
       <statement>
         <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
+          Solve <m>\frac{2}{x-2} + \frac{4}{x+3} = \frac{x+1}{x^2 + x - 6}</m>.
         </p>
       </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
+      <answer>
+        <p>
+          The denominators in this equation are <m>x-2</m>, <m>x+3</m>, and <m>x^2 + x - 6</m>.
+          Factoring the last denominator gives <m>(x-2)(x+3)</m>, so the least common multiple of all denominators is <m>(x-2)(x+3)</m>.
+          We multiply both sides by <m>(x-2)(x+3)</m> to eliminate all fractions:
+          <me> (x-2)(x+3)  \left(\frac{2}{x-2}  + \frac{4}{x+3}\right)= \frac{x+1}{(x-2)(x+3)} (x-2)(x+3)</me>
+          <me> (x-2)(x+3) \frac{2}{x-2}  +  (x-2)(x+3)  \frac{4}{x+3}= \frac{x+1}{(x-2)(x+3)} (x-2)(x+3)</me>
+          On the left side, the <m>x-2</m> cancels in the first term and the <m>x+3</m> cancels in the second term, leaving:
+          <me>2(x+3) + 4(x-2) = x + 1</me>
+          We now have an equation without fractions, so we can proceed as usual:
+          <me>2x + 6 + 4x - 8 = x + 1</me>
+          <me>6x - 2 = x + 1</me>
+          <me>5x - 2 = 1</me>
+          <me>5x = 3</me>
+          <me>x = \frac35</me>
+          Finally, we need to check that our solution does not cause any denominator to be zero.
+          The denominators in the original equation were <m>x-2</m>, <m>x+3</m>, and <m>(x-2)(x+3)</m>.
+          Substituting in our solution gives:
+          <me>\frac35 - 2 = \frac{-7}{5}</me>
+          <me>\frac35 + 3 = \frac{18}{5}</me>
+          and
+          <me>\left(\frac35 - 2\right)\left(\frac35 + 3\right) = \frac{-7}{5} \cdot \frac{18}{5} = \frac{-126}{25}</me>
+          None of these three denominators are zero, so our solution of <m>x = \frac35</m> is valid.
+        </p>
+      </answer>
+    </example>
 
   </subsection>
 
   <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
+    <title>Applications revisited</title>
 
     <example>
       <statement>
         <p>
-          Text
+          You need <m>12,500</m> miles for a flight.
+          Your credit card usually transfers miles at a <m>1:1</m> ratio, but is currently offering a <m>10\%</m> bonus on all transfers.
+          That is, when you transfer <m>1,000</m> miles to the airline, instead of getting the usual <m>1,000</m> miles, you will get <m>1,100</m> miles because of the <m>10\%</m> bonus.
+          How many miles should you transfer to book the flight while taking advantage of the transfer bonus?
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          Answer
+          Let <m>x</m> be the number of miles you should transfer. Then, because of the <m>10\%</m> bonus, you will receive <m>x + 0.10x</m> miles.
+          We want this to equal <m>12,500</m> miles:
+          <me>x + 0.10x = 12500</me>
+          <me>(1+0.10)x= 12500</me>
+          Dividing both sides by <m>1 + 0.10</m> gives:
+          <me>x = \frac{12,500}{1+0.10} = 11,363.64</me>
+          So you should transfer approximately <m>11,364</m> miles to book the flight.
         </p>
-      </solution>
+      </answer>
     </example>
 
+    <example>
+      <statement>
+        <p>
+          You have a scholarship which allocates spending <m>1500</m> dollars on a laptop, including the tax. 
+          Assuming that tax is <m>4\%</m>, what is the pre-tax price of the laptop you can afford using this scholarship?          
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let <m>p</m> be the pre-tax price of the laptop.
+          Then, including tax, the total price of the laptop is <m>p + 0.04p</m>.
+          We want this to equal <m>1500</m> dollars:
+          <me>p + 0.04p = 1500</me>
+          <me>(1 + 0.04)p = 1500</me>
+          Dividing both sides by <m>1 + 0.04</m> gives:
+          <me>p = \frac{1500}{1 + 0.04} = 1442.31</me>
+          So the pre-tax price of the laptop you can afford is approximately <m>1442.31</m> dollars.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Alice leaves from City X to head to City Y starting at noon traveling at <m>50</m> miles per hour. 
+          City X and City Y are <m>200</m> miles apart.
+          Beth leaves from City Y to head to City X at <m>30</m> minutes past noon traveling at <m>60</m> miles per hour.
+          How much time does Beth drive for?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let's let <m>t</m> represent the amount of hours that Alice drives.
+          Since Alice drives at <m>50</m> miles per hour for <m>t</m> hours, the distance she drives is <m>50t</m>.
+          Since Beth drives at <m>60</m> miles per hour, and she starts <m>0.5</m> hours after Alice, she drives for <m>t - 0.5</m> hours, so the distance she drives is <m>60(t - 0.5)</m>.
+          Since the two cities are <m>200</m> miles apart, we have:
+          <me>50t + 60(t - 0.5) = 200</me>
+          <me>50t + 60t - 30 = 200</me>
+          <me>110t = 230</me>
+          <me>t = \frac{230}{110} = 2.09</me>
+          So Alice drives for approximately <m>2.09</m> hours.
+          Since Beth starts <m>0.5</m> hours after Alice, Beth drives for approximately <m>2.09 - 0.5 = 1.59</m> hours.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Let's let <m>s</m> represent the amount of hours that Beth drives.
+          Since Beth drives at <m>60</m> miles per hour for <m>s</m> hours, the distance she drives is <m>60s</m>.
+          Since Alice drives at <m>50</m> miles per hour, and she starts <m>0.5</m> hours before Beth, she drives for <m>s + 0.5</m> hours, so the distance she drives is <m>50(s + 0.5)</m>.
+          Since the two cities are <m>200</m> miles apart, we have:
+          <me>50(s + 0.5) + 60s = 200</me>
+          <me>50s + 25 + 60s = 200</me>
+          <me>110s = 175</me>
+          <me>s = \frac{175}{110} = 1.59</me>
+          So Beth drives for approximately <m>1.59</m> hours.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Let's let <m>t</m> represent the amount of hours that Alice drives, and <m>s</m> represent the amount of hours that Beth drives.
+          Since Alice drives at <m>50</m> miles per hour for <m>t</m> hours, the distance she drives is <m>50t</m>.
+          Since Beth drives at <m>60</m> miles per hour for <m>s</m> hours, the distance she drives is <m>60s</m>.
+          Since the two cities are <m>200</m> miles apart, we have:
+          <me>50t + 60s = 200</me>
+          Additionally, since Beth starts <m>0.5</m> hours after Alice, we have:
+          <me>s = t - 0.5</me>
+          Substituting this into the first equation gives:
+          <me>50t + 60(t - 0.5) = 200</me>
+          <me>50t + 60t - 30 = 200</me>
+          <me>110t = 230</me>
+          <me>t = \frac{230}{110} = 2.09</me>
+          So Alice drives for approximately <m>2.09</m> hours.
+          Since Beth starts <m>0.5</m> hours after Alice, Beth drives for approximately <m>2.09 - 0.5 = 1.59</m> hours.
+        </p>
+      </answer>
+    </example>
+    
+    <example>
+      <statement>
+        <p>
+        The CDC recommends hand sanitizer that's at least <m>60\%</m> alcohol to deactivate the virus that causes COVID-19, but stores are out of stock due to overpurchasing.
+        You have a <m>32</m> fl oz bottle of <m>91\%</m> isopropyl alcohol at home. It's a good thing you bought this years ago, but since its strength is more than enough, you don't want to waste it.
+        How much lotion (with no alcohol in it) should you mix in to create a homemade hand sanitizer that's <m>60\%</m> alcohol?          
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let <m>x</m> be the amount of lotion (in fl oz) to mix in. (Note that the lotion has no alcohol: in other words, the concentration of alcohol in the lotion is <m>0\%</m>.)
+          The first container (the bottle of isopropyl alcohol) has <m>32</m> fl oz of liquid, with a concentration of <m>91\%</m> which can be written <m>0.91</m>, so the amount of alcohol is <m>0.91 \cdot 32</m> fl oz.
+          The second container (the lotion) has <m>x</m> fl oz of liquid, with a concentration of <m>0\%</m> which can be written <m>0.00</m>, so the amount of alcohol is <m>0.00 \cdot x = 0</m> fl oz.
+        </p>
+        <p>
+          After mixing, the total amount of liquid is <m>32 + x</m> fl oz, and we want the concentration of alcohol to be <m>60\%</m> which can be written <m>0.60</m>.
+          Therefore, the amount of alcohol after mixing should be <m>0.60(32 + x)</m> fl oz.
+        </p>
+        <p>
+          Also, we know that the first container is contributing <m>0.91 \cdot 32</m> fl oz of alcohol, and the second container is contributing <m>0</m> fl oz of alcohol, so the total amount of alcohol after mixing is:
+          <me>0.91 \cdot 32 + 0 = 0.62(32+x)</me>
+          <me>0.91(32) = 0.62(32) + 0.62x</me>
+          <me>0.91(32) - 0.62(32) = 0.62x</me>
+          <me>\frac{0.91(32) - 0.62(32)}{0.62} = x</me>
+          Calculating the right side gives approximately <m>15.16</m>.
+          So you should mix in approximately <m>15.16</m> fl oz of lotion.
+        </p>
+      </answer>
+    </example>     
+
   </subsection>
+
 
 	<subsection>
 		<title>Summary</title>
@@ -2231,17 +2343,36 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            When writing expressions involving percentages, always ask what we are taking a percentage <emph>of</emph>.
+            (For example, if we are taking <m>20\%</m> of the original price, and <m>x</m> represents the original price, then we write <m>0.20x</m>.)
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            An expression such as <m>0.20x</m> may then need to be adjusted depending on the context.
+            For example <m>x + 0.20x</m> represents the original price plus a <m>20\%</m> increase (which would apply when paying more, such as a tax), 
+            while <m>x - 0.20x</m> represents the original price minus a <m>20\%</m> decrease (which would apply when paying less, such as getting a discount).
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            Apply the distance formula to each trip in a distance problem.
+          </p>
+        </li>
+        <li>
+          <p> 
+            Apply the concentration formula to each container in a mixture problem.
+          </p>
+        </li>
+        <li>
+          <p>
+            To solve literal equations, apply the usual technique of solving equations (performing the same action on both sides of an equation), but without simplifying expressions after each step.
+          </p>
+        </li>
+        <li>
+          <p>
+            To solve equations with rational expressions, first multiply both sides by the least common multiple of all denominators to eliminate all fractions, then proceed to solve the resulting equation as usual.
+            If a variable appears in the denominator, check that your solutions do not cause any denominator in the original equation to be zero.
           </p>
         </li>
       </ol>
@@ -2251,73 +2382,157 @@
 
   <subsection>
 		<title>Exercises</title>
-        <p>
-          A car travels from Town A to Town B at an average speed of <m>60</m> miles per hour. 
-          On the return trip from Town B to Town A, the car travels at an average speed of <m>40</m> miles per hour. 
-          If the return trip takes <m>1.5</m> hours longer than the trip from Town A to Town B, what is the distance between the two towns?
-        </p>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-      <ol>
-        <li>A jar has liquid. Some of the liquid is acid, and some of the liquid is non-acid. If the jar has <m>8</m> liters of liquid and <m>50\%</m> of the jar is acid, how many liters of acid are in the jar?</li>
-        <li>If a <m>5</m> liter jar is <m>84\%</m> acid, how much of the jar (in liters) is acid?</li>
-        <li>You have an empty bucket. An <m>8</m> liter jar which is <m>50\%</m> acid is dumped into the bucket. A <m>5</m> liter jar which is <m>84\%</m> acid is also dumped into the bucket.
-          <ol>
-            <li>What is the total volume of liquid in the bucket (in liters)?</li>
-            <li>How many liters of acid are in the bucket?</li>
-            <li>What is the concentration (as a percent) of acid in the bucket?</li>
-          </ol>
-        </li>
-        <li>What amount of a <m>60\%</m> acid solution must be mixed with a <m>30\%</m> solution to produce <m>24</m> liters of a <m>50\%</m> solution?</li>
-        <li>A manufacturer of soft drinks advertises their orange soda as “naturally flavored,” although it contains only <m>5\%</m> orange juice. A new federal regulation stipulates that to be called “natural,” a drink must contain at least <m>10\%</m> fruit juice. How much pure orange juice must this manufacturer add to <m>500</m> gallons of orange soda to conform to the new regulation?</li>
-      </ol>
 
     <p>
+      While a number of these applications have been directly addressed, when you see a question whose context is totally different, introduce a variable where needed and make clear in your writing what the variable represents.
+      Then, set up an equation(s) based on the meaning of the variable(s).
       <ol>
-
         <li>
           <p>
-            Text.
-            <ol>
-
-              <li>On Monday, you go to Culver's. The Mushroom &amp; Swiss Burger Value Basket is listed as costing <m>\$8.75</m>, but that is the pre-tax amount. If there is a <m>6\%</m> sales tax, then how much total needs to be paid?</li>
-              <li>On Tuesday, you return to Culver's. Suppose you have exactly <m>\$15</m> in your wallet. If there is a <m>6\%</m> sales tax, then what is the maximum <q>pre-tax</q> amount of food you can afford to pay in cash?</li>
-              <li>During a trip to Oregon, you go to a department store and find a shirt you really like. The shirt has a <m>\$15</m> price tag on it, but there is a <m>6\%</m> off sale. What is the final price you end up needing to pay for the shirt? (Oregon has no sales tax.)</li>
-              <li>During a trip to Montana, you go to a department store and have decided in advance that you will spend no more than <m>\$130</m>. Luckily, everything in the store is part of a <m>20\%</m> off sale. What is the maximum amount that you can have (as the amounts of all price tags added together) to stay within your <m>\$130</m> spending limit? (Montana has no sales tax.)</li>
-              <li>Sydney is going to a restaurant and they have <m>30</m> dollars with them. If Sydney plans to tip <m>18\%</m>, then what is the largest bill (prior to calculating the tip) that they can afford? (Assume that there is no sales tax.)</li>
-              <li>A couple does not wish to spend more than <m>\$50</m> for dinner at a restaurant. If a sales tax of <m>8\%</m> is added to the bill, and they plan to tip <m>15\%</m> after the tax has been added, what is the most they can spend for the meal?</li>
-              <li>A worker's weekly take-home pay is <m>\$120</m> from a part-time job, after deductions totaling <m>30\%</m> of the gross pay have been subtracted. What is the weekly gross pay?</li>
-            </ol>
+            A store is having a <m>25\%</m> off sale on all items. If an item has a price tag of <m>p</m>, write an expression representing the final price for the item.
           </p>
         </li>
         <li>
           <p>
-            Text.
-            <ol>
-              <!---
-        <li><p>A woman earns <m>15\%</m> more than her husband. Together they make <m>\$69{,}875</m>. What is the husband's salary?</statement>
-        <li><p>A plumber and his assistant work together. The plumber charges <m>\$45</m> an hour and his assistant charges <m>\$25</m> an hour. The plumber works twice as long as his assistant on a job and the final bill for both workers is <m>\$4{,}025</m>. How long did the plumber and his assistant work?</statement>
-        <statement>A man is walking away from a lamppost with a light source 6 meters above the ground. The man is 2 meters tall. How long is the man's shadow when he is 10 meters from the lamppost?</statement>
-        <statement>A pot contains <m>6</m> liters of brine at a concentration of <m>120</m> g/L. How much water should be boiled off to increase the concentration to <m>200</m> g/L?</statement>
-        <statement>Two cyclists, <m>90</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?</statement>
-        <statement>If Ben invests <m>\$4000</m> at <m>4\%</m> interest per year, how much additional money must he invest at <m>5.5\%</m> annual interest to ensure that the interest he receives each year is <m>4.5\%</m> of the total amount invested?</statement>
-            -->
-        <li><p></p></li>
-            </ol>
+            A store has to charge a <m>3\%</m> fee on credit card purchases. If the cash charge for an item is <m>p</m>, write an expression representing the final price for the item when paying by credit card.
           </p>
         </li>
         <li>
           <p>
-            Text.
+            A restaurant bill is <m>b</m> dollars before tax and tip. Write an expression representing the total amount to be paid if there is a <m>7\%</m> sales tax and a <m>15\%</m> tip (calculated after tax).
+          </p>
+        </li>
+        <li>
+          <p>
+            On Monday, you go to Culver's. The Mushroom &amp; Swiss Burger Value Basket is listed as costing <m>\$8.75</m>, but that is the pre-tax amount. If there is a <m>6\%</m> sales tax, then how much total needs to be paid?
+          </p>
+        </li>
+        <li>
+          <p>
+            On Tuesday, you return to Culver's. Suppose you have exactly <m>\$15</m> in your wallet. If there is a <m>6\%</m> sales tax, then what is the maximum <q>pre-tax</q> amount of food you can afford to pay in cash?
+          </p>
+        </li>
+        <li>
+          <p>
+            During a trip to Oregon, you go to a department store and find a shirt you really like. The shirt has a <m>\$15</m> price tag on it, but there is a <m>6\%</m> off sale. What is the final price you end up needing to pay for the shirt? (Oregon has no sales tax.)
+          </p>
+        </li>
+        <li>
+          <p>
+            During a trip to Montana, you go to a department store and have decided in advance that you will spend no more than <m>\$130</m>. Luckily, everything in the store is part of a <m>20\%</m> off sale. What is the maximum amount that you can have (as the amounts of all price tags added together) to stay within your <m>\$130</m> spending limit? (Montana has no sales tax.)
+          </p>
+        </li>
+        <li>
+          <p>
+            Sydney is going to a restaurant and they have <m>30</m> dollars with them. If Sydney plans to tip <m>18\%</m>, then what is the largest bill (prior to calculating the tip) that they can afford? (Assume that there is no sales tax.)
+          </p>
+        </li>
+        <li>
+          <p>
+            A couple does not wish to spend more than <m>\$50</m> for dinner at a restaurant. If a sales tax of <m>8\%</m> is added to the bill, and they plan to tip <m>15\%</m> after the tax has been added, what is the most they can spend for the meal?
+          </p>
+        </li>
+        <li>
+          <p>
+            A worker's weekly take-home pay is <m>\$120</m> from a part-time job, after deductions totaling <m>30\%</m> of the gross pay have been subtracted. What is the weekly gross pay?
+          </p>
+        </li>
+        <li>
+          <p>
+            A woman earns <m>15\%</m> more than her husband. Together they make <m>\$69{,}875</m>. What is the husband's salary?
+          </p>
+        </li>
+        <li>
+          <p>
+            A plumber and his assistant work together. The plumber charges <m>\$45</m> an hour and his assistant charges <m>\$25</m> an hour. The plumber works twice as long as his assistant on a job and the final bill for both workers is <m>\$4{,}025</m>. How long did the plumber and his assistant work?
+          </p>
+        </li>
+        <li>
+          <p>
+            A car travels from Town A to Town B at an average speed of <m>60</m> miles per hour. 
+            On the return trip from Town B to Town A, the car travels at an average speed of <m>40</m> miles per hour. 
+            If the return trip takes <m>1.5</m> hours longer than the trip from Town A to Town B, what is the distance between the two towns?
+          </p>
+        </li>
+        <li>
+          <p>
+            A boat travels <m>30</m> miles downstream in the same time it takes to travel <m>18</m> miles upstream. 
+            If the speed of the current is <m>3</m> miles per hour, what is the speed of the boat in still water?
+          </p>
+        </li>
+        <li>
+          <p>
+            Two cyclists, <m>90</m> miles apart, start riding toward each other at the same time. One cycles twice as fast as the other. If they meet <m>2</m> hours later, at what average speed is each cyclist traveling?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            This question will walk through the process of a mixture problem step-by-step, so be sure to go through each of the parts:
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p>A jar has liquid. Some of the liquid is acid, and some of the liquid is non-acid. If the jar has <m>8</m> liters of liquid and <m>50\%</m> of the jar is acid, how many liters of acid are in the jar?</p></li>
+              <li><p>If a <m>5</m> liter jar is <m>84\%</m> acid, how much of the jar (in liters) is acid?</p></li>
+              <li><p>You have an empty bucket. An <m>8</m> liter jar which is <m>50\%</m> acid is dumped into the bucket. A <m>5</m> liter jar which is <m>84\%</m> acid is also dumped into the bucket.
+                <ol>
+                  <li><p>What is the total volume of liquid in the bucket (in liters)?</p></li>
+                  <li><p>How many liters of acid are in the bucket?</p></li>
+                  <li><p>What is the concentration (as a percent) of acid in the bucket?</p></li>
+                </ol>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+
+        <li><p>What amount of a <m>60\%</m> acid solution must be mixed with a <m>30\%</m> solution to produce <m>24</m> liters of a <m>50\%</m> solution?</p></li>
+        <li><p>A manufacturer of soft drinks advertises their orange soda as “naturally flavored,” although it contains only <m>5\%</m> orange juice. A new federal regulation stipulates that to be called “natural,” a drink must contain at least <m>10\%</m> fruit juice. How much pure orange juice must this manufacturer add to <m>500</m> gallons of orange soda to conform to the new regulation?</p></li>
+
+        <li> 
+          <p>
+            A pot contains <m>6</m> liters of brine at a concentration of <m>120</m> g/L. How much water should be boiled off to increase the concentration to <m>200</m> g/L?
+          </p>
+        </li>
+
+        <li>
+          <p>
+            If Ben invests <m>\$4000</m> at <m>4\%</m> interest per year, how much additional money must he invest at <m>5.5\%</m> annual interest to ensure that the interest he receives each year is <m>4.5\%</m> of the total amount invested?
+          </p>
+        </li>
+        
+        <li>
+          <p>
+            Solve the following rational equations:
+            <ol>
+              <li>
+                <p>
+                  <m>\frac{2x + 5}{x - 3} = \frac{4x - 1}{x + 2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\frac{3x - 4}{x + 1} + \frac{2}{x - 2} = \frac{5x + 1}{x^2 - x - 2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\frac{4}{x - 5} - \frac{2}{x + 3} = \frac{6}{x^2 - 2x - 15}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\frac{x + 2}{x - 1} + \frac{x - 3}{x + 4} = 2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\frac{2x + 1}{x + 2} - \frac{x - 4}{x - 3} = \frac{3x + 5}{x^2 - x - 6}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\frac{5}{x - 4} + \frac{3}{x + 2} = \frac{4x + 1}{x^2 - 2x - 8}</m>
+                </p>
+              </li>
             </ol>
           </p>
         </li>
