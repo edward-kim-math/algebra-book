@@ -81,7 +81,8 @@
         <!-- @colors currently unimplementd.                       -->
 
         <!-- Removed the css theme to denver (so, default-modern) so that Surface Go compiled. -->
-        <!-- <css theme="denver" color-main="#2e1657" color-do="#163c57" color-fact="#162957" color-meta="#571657" primary-color-dark="#9482b3"/> -->
+        <!-- Reinserted css theme 2025-12-02 -->
+        <css theme="denver" color-main="#2e1657" color-do="#163c57" color-fact="#162957" color-meta="#571657" primary-color-dark="#9482b3"/>
 
         <!-- Magic IDs identify HTML pages to analytics services   -->
         <!-- Presence implies relevant Javascript will be added    -->
