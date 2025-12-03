@@ -7,6 +7,7 @@
 		<xi:include href="./frontmatter.ptx" />
 
 		<xi:include href="./ch-expressions-and-equations.ptx" />
+		<xi:include href="./ch-analytic-geometry.ptx" />
 		
 		<xi:include href="./backmatter.ptx" />
 	</book>

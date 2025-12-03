@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-analytic-geometry" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Analytic Geometry</title>
+
+  <introduction>
+    <p>
+      This chapter examines the <m>xy</m>-plane, discussing axes, quadrants, points, and distance.
+      We examine specific equations in the plane, including lines, circles, and parabolas.
+      Along the way, we develop additional techniques for solving quadratic equations.</p>
+  </introduction>;
+
+  <!-- include sections -->
+  <xi:include href="sec-xy-plane.ptx" />
+
+</chapter>
