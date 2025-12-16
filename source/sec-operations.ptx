@@ -468,6 +468,12 @@
     </example>
 
     <p>
+      AAAA Insert QR code here
+      <url href="https://www.google.com/">Video link</url>
+    </p>
+
+
+    <p>
       The activity we just went through leads up to the following new type of activity.
       We will be given two expressions which will only differ from each other in the inclusion or removal of a set of parentheses.
       Then, we will determine if the two expressions are equal, or if we don't know based only on the Order of Operations.
