@@ -17,28 +17,107 @@
 	</objectives>
 
   <subsection>
-    <title>Applications</title>
+    <title>Why bother with the <m>xy</m>-plane?</title>
 
     <p>
-      Intro:
+    It is rare to have an application where we only deal with one quantity (one number) at a time.
+    Often, the value of one quantity has a relationship to the value of another quantity.
       <ol>
         <li>
           <p>
-            Text
+            For example, suppose you are driving on a road where travel at <m>60</m> miles per hour.
+            If <m>x</m> represents the number of hours you have been driving and <m>y</m> represents the number of miles you have traveled, 
+            then we have the relationship <m>y = 60x</m>. 
+            Having an equation like this involving two variables <m>x</m> and <m>y</m> allows us to describe the specific connection between these two quantities.
+            In this example, we will later see that the point <m>(x,y) = (31,1860)</m> is relevant for the equation <m>y=60x</m>, and this means that 
+            having this point be relevant means that if you drove a total of <m>31</m> hours on a road trip, then you would have traveled a total of <m>1860</m> miles.
           </p>
         </li>
         <li>
           <p>
-            Text
-          </p>
-        </li>
-        <li>
-          <p>
-            Text 3
+            As another example, suppose you need to track the height of a plant as it grows.
+            If <m>x</m> represents the number of weeks since you planted the seed and <m>y</m> represents the height of the plant in inches, 
+            the relationship between these two quantities might be described by the equation <m>y = 0.04x^2</m> mentioning both variables <m>x</m> and <m>y</m>.
+            In this example, the point <m>(x,y) = (10,4)</m> is relevant for the equation <m>y = 0.04x^2</m>, 
+            which means that <m>10</m> weeks after planting the seed, the height of the plant is <m>4</m> inches.
+            The point <m>(x,y) = (30,36)</m> is also relevant, which means that <m>30</m> weeks after planting the seed, the height of the plant is <m>36</m> inches.
           </p>
         </li>
       </ol>
+      The last example hints at the power of having an equation with two variables.
+      We can plug in a number for <m>x</m> and get a number for <m>y</m>.
+      But then we can plug in a <emph>different</emph> number for <m>x</m> and get the relevant <m>y</m>-value for this new <m>x</m>-value.
+      The idea that each <m>x</m>-value leads to a different <m>y</m>-value means that this relationship can be described algebraically with an equation, but also geometrically with a graph on the <m>xy</m>-plane.
     </p>
+
+  </subsection>
+
+	<subsection>
+		<title>The <m>xy</m>-plane</title>
+
+    <p>
+      The <m>xy</m>-plane (also called the Cartesian plane) has two lines (which are called axes) that are perpendicular to each other.
+      The horizontal line is called the <em><m>x</m>-axis</em> and the vertical line is called the <em><m>y</m>-axis</em>.
+      Each axis is labeled with the letter of the variable it represents: the <m>x</m>-axis is labeled on the right and the <m>y</m>-axis is labeled at the top.
+      The two axes meet at a point called the <em>origin</em>, which can be labeled with the letter <m>O</m>. Here is a minimal picture of the <m>xy</m>-plane:
+      
+      <figure>
+        <caption>Minimal picture of the <m>xy</m>-plane</caption>
+        <image width="35%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[white] (-2,2) rectangle (2,2);
+                \draw[<->] (-2,0) -- (2,0);
+                \node at (2,.4) {$x$};
+                \draw[<->] (0,-2) -- (0,2);
+                \node at (.4,2) {$y$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+
+      The axes divide the plane into four regions called <em>quadrants</em>.
+      Quadrant I is the upper right region, Quadrant II is the upper left region, Quadrant III is the lower left region, and Quadrant IV is the lower right region.
+      The axes themselves are not part of any quadrant.
+    </p>
+
+    <p>
+      Once the axes are drawn, we can draw points in the plane.
+      A point is communicated by writing what is called an <em>ordered pair</em>.
+      An ordered pair is written in the form <m>(x,y)</m>, where <m>x</m> is the <em><m>x</m>-coordinate</em> of the point and <m>y</m> is the <em><m>y</m>-coordinate</em> of the point.
+      For clarity, we will always write the <m>x</m>-coordinate first and the <m>y</m>-coordinate second (so note that these are in alphabetical order: x followed by y next), with a comma between the numbers to separate, and surrounded in parentheses.
+      The <m>x</m>-coordinate is a number, and the <m>y</m>-coordinate is a number.
+      So, when a point is written, we always write a left parenthesis, then a number for the <m>x</m>-coordinate, then a comma, then a number for the <m>y</m>-coordinate, and then a right parenthesis.
+      For example, writing <m>(7,2)</m> is an example of a point, and for this point, the <m>x</m>-coordinate is <m>7</m> and the <m>y</m>-coordinate is <m>2</m>.
+      <ol>
+        <li>
+          <p>
+            The <m>x</m>-coordinate is the horizontal coordinate, since it tells us how far to the left and right the point is from the origin.
+            If the <m>x</m>-coordinate is positive, then the point is to the right of the origin;
+            if the <m>x</m>-coordinate is negative, then the point is to the left of the origin;
+            and if the <m>x</m>-coordinate is zero, then we do not need to move to the left or right from the origin, so the point would be on the <m>y</m>-axis.
+          </p>
+        </li>
+        <li>
+          <p>
+            The <m>y</m>-coordinate is the vertical coordinate, since it tells us how far up and down the point is from the origin.
+            If the <m>y</m>-coordinate is positive, then the point is above the origin;
+            if the <m>y</m>-coordinate is negative, then the point is below the origin;
+            and if the <m>y</m>-coordinate is zero, then we do not need to move up or down from the origin, so the point would be on the <m>x</m>-axis.
+          </p>
+        </li>
+      </ol>
+      
+    </p>
+
+    <principle>
+      <title>text</title>
+      <p>
+        text
+      </p>
+    </principle>
 
     <example>
       <statement>
@@ -53,18 +132,6 @@
         </p>
       </answer>
     </example>
-
-  </subsection>
-
-	<subsection>
-		<title>subsection title</title>
-
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
 
     <example>
       <statement>
