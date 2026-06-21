@@ -91,44 +91,319 @@
       The <m>x</m>-coordinate is a number, and the <m>y</m>-coordinate is a number.
       So, when a point is written, we always write a left parenthesis, then a number for the <m>x</m>-coordinate, then a comma, then a number for the <m>y</m>-coordinate, and then a right parenthesis.
       For example, writing <m>(7,2)</m> is an example of a point, and for this point, the <m>x</m>-coordinate is <m>7</m> and the <m>y</m>-coordinate is <m>2</m>.
-      <ol>
+      <ul>
         <li>
           <p>
             The <m>x</m>-coordinate is the horizontal coordinate, since it tells us how far to the left and right the point is from the origin.
-            If the <m>x</m>-coordinate is positive, then the point is to the right of the origin;
-            if the <m>x</m>-coordinate is negative, then the point is to the left of the origin;
+            If the <m>x</m>-coordinate is positive, then the point is to the right;
+            if the <m>x</m>-coordinate is negative, then the point is to the left;
             and if the <m>x</m>-coordinate is zero, then we do not need to move to the left or right from the origin, so the point would be on the <m>y</m>-axis.
           </p>
         </li>
         <li>
           <p>
             The <m>y</m>-coordinate is the vertical coordinate, since it tells us how far up and down the point is from the origin.
-            If the <m>y</m>-coordinate is positive, then the point is above the origin;
-            if the <m>y</m>-coordinate is negative, then the point is below the origin;
+            If the <m>y</m>-coordinate is positive, then the point is up;
+            if the <m>y</m>-coordinate is negative, then the point is down;
             and if the <m>y</m>-coordinate is zero, then we do not need to move up or down from the origin, so the point would be on the <m>x</m>-axis.
           </p>
         </li>
-      </ol>
-      
+      </ul>
     </p>
 
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
+    <principle xml:id="principle-point-requires-two-coordinates">
+      <title>A point requires two coordinates</title>
+      <statement>
+        <p>
+          Describing a point requires two numbers: the <m>x</m>-coordinate and the <m>y</m>-coordinate.
+          The <m>x</m>-coordinate tells us how much to move horizontally, and the <m>y</m>-coordinate tells us how much to move vertically.
+        </p>
+      </statement>
     </principle>
+
+    <example>
+      <p>
+        To plot the point <m>(7,2)</m>, we start at the origin and move to the right (because the <m>x</m>-coordinate is positive) a distance of <m>7</m>, and then we move up (because the <m>y</m>-coordinate is positive) a distance of <m>2</m>. This point is in Quadrant I.
+      </p>
+      <p>
+        To plot the point <m>(-3,4)</m>, we start at the origin and move to the left <m>3</m> units, and then we move up <m>4</m> units. This point is in Quadrant II.
+      </p>
+      <p>
+        To plot the point <m>(-6,-5)</m>, we start at the origin and move to the left <m>6</m> units, and then we move down <m>5</m> units. This point is in Quadrant III.
+      </p>
+      <p>
+        To plot the point <m>(2,-3)</m>, we start at the origin and move to the right <m>2</m> units, and then we move down <m>3</m> units. This point is in Quadrant IV.
+      </p>
+      <p>
+        To plot the point <m>(0,8)</m>, we start at the origin and do not move left or right (because the <m>x</m>-coordinate is zero), and then we move up <m>8</m> units.
+      </p>
+      <p>
+        All five of the points we discussed are plotted in Figure <xref refid="fig-points-on-xy-plane"/>.
+        We also included tick marks at <m>x=5</m> and <m>y=5</m> to help give a sense of scale.
+        (Instead of providing so few tick marks, we could have provided a tick mark at each unit.)
+      </p>
+      <figure xml:id="fig-points-on-xy-plane">
+        <image width="80%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[white] (-6.5,-6.5) rectangle (9.5,9.5);
+                \draw[<->] (-6.5,0) -- (7,0);
+                \node at (7,.4) {$x$};
+                \draw[<->] (0,-6.5) -- (0,9.0);
+                \node at (.4,9.0) {$y$};
+                \node at (7,2) [circle,fill,inner sep=1.5pt]{};
+                \node at (7,2) [above] {$(7,2)$};
+                \node at (-3,4) [circle,fill,inner sep=1.5pt]{};
+                \node at (-3,4) [above] {$(-3,4)$};
+                \node at (-6,-5) [circle,fill,inner sep=1.5pt]{};
+                \node at (-6,-5) [below] {$(-6,-5)$};
+                \node at (2,-3) [circle,fill,inner sep=1.5pt]{};
+                \node at (2,-3) [below] {$(2,-3)$};
+                \node at (0,8) [circle,fill,inner sep=1.5pt]{};
+                \node at (0.75,8) [above] {$(0,8.0)$}; % We have to move the label for this point to the right a little bit because it would otherwise overlap with the y-axis.
+                % Tick marks at x=5 and y=5
+                \draw (5,-.1) -- (5,.1);
+                \node at (5,-.4) {$5$};
+                \draw (-.1,5) -- (.1,5);
+                \node at (-.4,5) {$5$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Several points on the <m>xy</m>-plane</caption>
+      </figure>
+    </example>
+    <p>
+      One of the points we plotted above was <m>(0,8)</m>.
+      Because the <m>x</m>-coordinate of this point is zero, we did not move to the left or right from the origin, so the point we drew ended up on the on the <m>y</m>-axis.
+      It always happens that if the <m>x</m>-coordinate of a point is zero, then the point is on the <m>y</m>-axis:
+    </p>
+    <principle xml:id="principle-point-on-y-axis">
+      <title>A point on the <m>y</m>-axis</title>
+      <statement>
+        <p>
+          A point is on the <m>y</m>-axis if and only if its <m>x</m>-coordinate is zero.
+          (Recall that the <m>x</m>-coordinate is the horizontal coordinate, and when <m>x=0</m>, there is no horizontal movement relative to the origin.)
+        </p>
+      </statement>
+    </principle>
+    <principle xml:id="principle-point-on-x-axis">
+      <title>A point on the <m>x</m>-axis</title>
+      <statement>
+        <p>
+          A point is on the <m>x</m>-axis if and only if its <m>y</m>-coordinate is zero.
+          (Recall that the <m>y</m>-coordinate is the vertical coordinate, and when <m>y=0</m>, there is no vertical movement relative to the origin.)
+        </p>
+      </statement>
+    </principle>
+
+    <p>
+      If we are asked to graph one or more points and they are all in the same quadrant, we can draw our axes in such a way that only the relevant quadrant is visible.
+      For example, if all the points we are asked to plot have no negative coordinates, we can draw our axes in such a way that only Quadrant I is visible.
+    </p>
 
     <example>
       <statement>
         <p>
-          Solve the equation <m>3x+1 = 9</m>
+          Graph the points <m>(4,0)</m> and <m>(5,2)</m> and <m>(6,4)</m> and <m>(7,6)</m>.
+          What do you notice about these points?
         </p>
       </statement>
       <answer>
         <p>
-          First, we subtract <m>1</m> from both sides to get <m>3x = 8</m>.
-          Next, we divide both sides by <m>3</m> to get <m>x = \frac{8}{3}</m>.
+          Since there are no negative coordinates, we will draw our axes in such a way that only Quadrant I is visible.
+          (Our earlier graph showed tick marks at <m>x=5</m> and <m>y=5</m>. To show acceptable variations, this time we label tick marks at every unit on both axes.)
+          <figure xml:id="fig-points-on-xy-plane-quadrantI">
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[white] (-0.5,-0.5) rectangle (9.5,9.5);
+                    \draw[->] (-0.5,0) -- (7.5,0);
+                    \node at (7.5,.4) {$x$};
+                    \draw[->] (0,-0.5) -- (0,7.5);
+                    \node at (.4,7.5) {$y$};
+                    \node at (4,0) [circle,fill,inner sep=1.5pt]{};
+                    \node at (4,0) [above] {$(4,0)$};
+                    \node at (5,2) [circle,fill,inner sep=1.5pt]{};
+                    \node at (5,2) [above] {$(5,2)$};
+                    \node at (6,4) [circle,fill,inner sep=1.5pt]{};
+                    \node at (6,4) [above] {$(6,4)$};
+                    \node at (7,6) [circle,fill,inner sep=1.5pt]{};
+                    \node at (7,6) [above] {$(7,6)$};
+
+                    \draw (1,-.1) -- (1,.1);
+                    \node at (1,-.4) {$1$};
+                    \draw (2,-.1) -- (2,.1);
+                    \node at (2,-.4) {$2$};
+                    \draw (3,-.1) -- (3,.1);
+                    \node at (3,-.4) {$3$};
+                    \draw (4,-.1) -- (4,.1);
+                    \node at (4,-.4) {$4$};
+                    \draw (5,-.1) -- (5,.1);
+                    \node at (5,-.4) {$5$};
+                    \draw (6,-.1) -- (6,.1);
+                    \node at (6,-.4) {$6$};
+                    \draw (7,-.1) -- (7,.1);
+                    \node at (7,-.4) {$7$};
+
+                    \draw (-.1,1) -- (.1,1);
+                    \node at (-.4,1) {$1$};
+                    \draw (-.1,2) -- (.1,2);
+                    \node at (-.4,2) {$2$};
+                    \draw (-.1,3) -- (.1,3);
+                    \node at (-.4,3) {$3$};
+                    \draw (-.1,4) -- (.1,4);
+                    \node at (-.4,4) {$4$};
+                    \draw (-.1,5) -- (.1,5);
+                    \node at (-.4,5) {$5$};
+                    \draw (-.1,6) -- (.1,6);
+                    \node at (-.4,6) {$6$};
+                    \draw (-.1,7) -- (.1,7);
+                    \node at (-.4,7) {$7$};
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Several points in the first quadrant</caption>
+          </figure>          
+          There are many possible things to notice about these points, but one thing that we might notice is that all of the points that we drew are on the same [straight] line.
+          The reason that all four points are on the same line is due to another possible thing that we might notice: going from one point to the next, the <m>x</m>-coordinate always increases by <m>1</m> while the <m>y</m>-coordinate always increases by <m>2</m>.
+        </p>
+      </answer>
+    </example>
+
+  </subsection>
+
+
+  <subsection>
+    <title>Distance between points</title>
+
+    <p>
+      Given one point <m>(x_1,y_1)</m> and another point <m>(x_2,y_2)</m>, we can find the distance between these two points.
+      Because each point has an <m>x</m>-coordinate, we have labeled <m>x_1</m> for the <m>x</m>-coordinate of the first point, 
+      and <m>x_2</m> for the <m>x</m>-coordinate of the second point.
+      Similarly, because each point has a <m>y</m>-coordinate, we have labeled <m>y_1</m> for the <m>y</m>-coordinate of the first point,
+      and <m>y_2</m> for the <m>y</m>-coordinate of the second point.
+    </p>
+
+    When two points have the same <m>y</m>-coordinate, the distance between the two points can be found by subtraction: take the larger <m>x</m>-value and subtract the smaller <m>x</m>-value.
+    <example>
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                To find the distance between <m>(3,8)</m> and <m>(7,8)</m>, since the two points have the same <m>y</m>-coordinate, the distance is <m>7-3=4</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                To find the distance between <m>(3,8)</m> and <m>(1,8)</m>, since the two points have the same <m>y</m>-coordinate, the distance is <m>3-1=2</m>. Note the order of subtraction: <m>3</m> is a larger <m>x</m>-value than <m>1</m> is.
+              </p>
+            </li>
+            <li>
+              <p>
+                To find the distance between <m>(3,6)</m> and <m>(-2,6)</m>, since the two points have the same <m>y</m>-coordinate, the distance is <m>3-(-2)=3+2=5</m>.
+                Note the order of subtraction: <m>3</m> is a larger <m>x</m>-value than <m>-2</m> is. We still subtract the <m>x</m>-coordinates, even though one of the <m>x</m>-values is negative.
+              </p>
+            </li>
+            <li>
+              <p>
+                To find the distance between <m>(-3,6)</m> and <m>(-7,6)</m>, since the two points have the same <m>y</m>-coordinate, the distance is <m>-3-(-7)=-3+7=4</m>.
+                Note the order of subtraction: <m>-3</m> is a larger <m>x</m>-value than <m>-7</m> is. We still subtract the <m>x</m>-coordinates, even though both of the <m>x</m>-values are negative.
+              </p>
+            </li>
+            <li>
+              <p>
+                Suppose we have a first point <m>(x_1,z)</m> and a second point <m>(x_2,z)</m>. Note that <m>z</m> is the stated <m>y</m>-coordinate for both points, so the points would be drawn at the same height.
+                We can subtract <m>x</m>-values to find the distance.
+                If <m>x_1</m> is larger than <m>x_2</m>, then the distance is <m>x_1-x_2</m>.
+                If <m>x_2</m> is larger than <m>x_1</m>, then the distance is <m>x_2-x_1</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    When two points have the same <m>x</m>-coordinate, the distance between them is the absolute value of the difference of their <m>y</m>-coordinates.
+    <example>
+      <statement>
+        <p>
+          Find the distance between <m>(8,9)</m> and <m>(8,6)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the two points have the same <m>x</m>-coordinate, 
+          the distance is <m>9-6=3</m>.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Find the distance between <m>(8,9)</m> and <m>(8,16)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the two points have the same <m>x</m>-coordinate, 
+          the distance is <m>16-9=7</m>.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Find the distance between <m>(8,9)</m> and <m>(8,-6)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the two points have the same <m>x</m>-coordinate, 
+          the distance is <m>9-(-6)=9+6=15</m>.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Find the distance between <m>(8,y_1)</m> and <m>(8,y_2)</m>, under the assumption <m>y_2>y_1</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the two points have the same <m>x</m>-coordinate, 
+          the distance is <m>y_2-y_1</m>.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Find the distance between <m>(z,y_1)</m> and <m>(z,y_2)</m>, under the assumption <m>y_2>y_1</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the two points have the same <m>x</m>-coordinate, 
+          the distance is <m>y_2-y_1</m>.
+        </p>
+      </answer>
+    </example>
+
+
+
+
+    <example>
+      <statement>
+        <p>
+          Statement text       
+        </p>
+      </statement>
         </p>
       </answer>
     </example>
@@ -390,6 +665,17 @@
 
 
   </subsection>
+
+  <subsection>
+    <title>Midpoint</title>
+  </subsection>
+
+
+  <subsection>
+    <title>Application: Interpreting graphs in context</title>
+  </subsection>
+
+
 
   <subsection>
     <title>Applications Revisited</title>
