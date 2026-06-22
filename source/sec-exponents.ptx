@@ -1264,6 +1264,13 @@
         <li><p>We cannot turn <m>(u+7)^9</m> into <m>u^9 + 7^9</m>.</p></li>
         <li><p>We cannot turn <m>(2+k)^c</m> into <m>2^c + k^c</m>.</p></li>
       </ul>
+    <warning xml:id="warning-exponents-dont-distribute-minus">
+      <statement>
+        <p>
+          It is a very common error to turn an expression of the form <m>(x-y)^n</m> into an expression of the from <m>x^n - y^n</m>.
+        </p>
+      </statement>
+    </warning>
       We have seen various versions of the distributive property in AAAAAA.
       For example, specific versions included <m>a(b+c) = ab + ac</m> and <m>(b+c)a = ba + ca</m>.
       It is true that in our examples where we said that we couldn't <q>distribute</q>, we had addition inside the parentheses.
