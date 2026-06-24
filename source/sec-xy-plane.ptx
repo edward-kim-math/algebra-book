@@ -701,7 +701,95 @@
 
     <p>
       In this section, we explain how to interpret graphs in real-world contexts.
+      To begin, we may be given a graph like this
+      <figure>
+        <image>
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (5,0);
+                \node at (5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,5);
+                \node at (.4,5) {$y$};
+                \draw (4,1) -- (1,4);
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>A line graph showing a relationship between two variables</caption>
+      </figure>
+      along with a description of what the <m>x</m> variable means and what <m>y</m> variable means.
+      Given the graph and the description of the variables, we can provide an interpretation that specifically discusses what the variables mean.
     </p>
+    <p>
+      To warm up, we discuss this graph without introducing meanings for the <m>x</m> and <m>y</m> variables.
+      In the graph above, we see a line drawn from the point <m>(4,1)</m> to the point <m>(1,4)</m>.
+      (For clarification, when we say "graph", we are talking about this line segment, and the axes themselves are not points on the graph: the axes just help clarify the location of points.)
+      Start by picking a point on the middle of the graph. In other words, pick a point between <m>(4,1)</m> and <m>(1,4)</m>.
+      Starting at a point on the graph and moving in any of the four cardinal directions (up, down, left, right), we would not stay on the graph.
+      If we were to try to move to the right, we should also move down in order to stay on the graph.
+      To summarize our options, starting from a point on the graph
+      <ol>
+        <li>
+          <p>
+            If we move right, we must also move down.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we move left, we must also move up.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we move down, we must also move right.
+          </p>
+        </li>
+        <li>
+          <p>
+            If we move up, we must also move left.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      Recall that the <m>x</m>-coordinate is the horizontal coordinate, and bigger <m>x</m>-coordinates are to the right, so smaller <m>x</m>-coordinates are to the left:
+      <principle xml:id="principle-x-left-right">
+        <p>
+          <ul>
+            <li>
+              <p>
+                Moving to the right means <m>x</m> increases.
+              </p>
+            </li>
+            <li>
+              <p>
+                Moving to the left means <m>x</m> decreases.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </principle>
+      Similarly, the <m>y</m>-coordinate is the vertical coordinate, and bigger <m>y</m>-coordinates are higher, so smaller <m>y</m>-coordinates are lower:
+      <principle xml:id="principle-y-up-down">
+        <p>
+          <ul>
+            <li>
+              <p>
+                Moving up means <m>y</m> increases.
+              </p>
+            </li>
+            <li>
+              <p>
+                Moving down means <m>y</m> decreases.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </principle>
+    </p>
+
+
 
   </subsection>
 
