@@ -1544,15 +1544,79 @@
         </solution>
       </example>
 
-
-    <p>
-      AAAA NOTE ON WRITING: dividing on both sides in a LAZY way: making the existing equation part of a fraction.
-    </p>
-    <p>
-      AAAA NOTE ON WRITING: indicating action on only ONE side.
-    </p>
-
-
+      <p>
+        When solving an equation, there are several habits in writing that can cause some trouble or confusion. Here are some specific cautions to keep in mind:
+        <ul>
+          <li>
+            <p>
+              When dividing on both sides, avoid writing the existing equation as part of a fraction. For example, if we have
+              <me>(\sqrt{7} - 2)x = 35</me>
+              and divide both sides by <m>\sqrt{7} - 2</m>, we should write:
+              <me>\frac{(\sqrt{7} - 2)x}{\sqrt{7} - 2} = \frac{35}{\sqrt{7} - 2}</me>
+              instead of writing
+              <me>\frac{(\sqrt{7} - 2)x=35}{\sqrt{7} - 2}.</me>
+              So, we should avoid taking the existing equation and drawing a long fraction bar through the entire equation. 
+              The result of doing this is that the equal sign ends up in the numerator of an equation, and it is strange to see an equal sign in the numerator of a fraction.
+              The bigger issue is that it hides the real story that we are dividing <em>both</em> sides of the equation by <m>\sqrt{7} - 2</m>.
+              So to be accurate, we write the division by <m>\sqrt{7} - 2</m> on both sides.
+            </p>
+          </li>
+          <li>
+            <p>
+              Examine the following steps for solving an equation, which has a line with some potentially confusing writing, which is technically an error:
+              <me>3x+2=17</me>
+              <me>3x=15</me>
+              <me>\frac{3x}{3} = 15</me>
+              <me>x = 5</me>
+              On the third line that says <m>\frac{3x}{3}=15</m>, this appears like the action of dividing by <m>3</m>
+              was only applied to the left side. Of course, the fact that the next line has <m>5</m>
+              on the right side shows evidence that the person who wrote this work actually did divide by <m>3</m>
+              on both sides. However, it is incorrect to only write the action of dividing by <m>3</m>
+              on the left side. So, instead, the steps should have been:
+              <me>3x+2=17</me>
+              <me>3x=15</me>
+              <me>\frac{3x}{3} = \frac{15}{3}</me>
+              <me>x = 5</me>
+              In fact, there is the option of not writing the action on either side, but writing the result of the action on both sides. This is actually shown in the first step: we subtracted both sides by <m>2</m>,
+              but we didn't write that action on either side, and instead wrote the result of that action on both sides. If we wrote out more, another way to show correct steps with good habits is:
+              <me>3x+2=17</me>
+              <me>3x+2-2=17-2</me>
+              <me>3x=15</me>
+              <me>\frac{3x}{3} = \frac{15}{3}</me>
+              <me>x=5</me>
+              Our other option is to not show either of the steps that explicitly list which action occurred on both sides, so we could also write:
+              <me>3x+2=17</me>
+              <me>3x=15</me>
+              <me>x=5</me>
+              The point is that we can write about the action of subtracting or divdiding on both sides (and the result of that action on both sides), 
+              or skip to writing the <em>result</em> of the action on both sides, but that it is an error to write the action on only one side of the equation. In fact, someone who receives <m>\frac{3x}{3} = 15</m>
+              out of context without any other information would simplify the left side and write <m>x=15</m> as their next step.
+            </p>
+          </li>
+          <li>
+            <p>
+              There is often an attempt to put too much in one step. Specifically, sometimes people will take the result of a previous action and then write their next action on the result of the previous action. 
+              This especially happens when dividing on both sides. 
+              Let's see an example of the steps where someone may have written in this way, starting from <m>3x+2=17</m>:
+              <me>3x+2=17</me>
+              <me>\frac{3x}{3} = \frac{15}{3}</me>
+              <me>x=5</me>
+              While there is techincally no error above, the potential danger is that the end of one step begins to blend with the begninning of the next step.
+              For the three lines of equations written above, it appears like someone initially wrote <m>3x=15</m>
+              as their second line of work, but then added to that line by also indicating dividing by <m>3</m>
+              on both sides on that line. That is, the result of the first action blended with showing the beginninhg of the next action. It would be preferrable to write these steps instead:
+              <me>3x+2=17</me>
+              <me>3x=15</me>
+              <me>\frac{3x}{3} = \frac{15}{3}</me>
+              <me>x=5</me>
+              Notice the new second line. (In fact, we took the three lines from earlier, and just inserted a line of work.) Writing like this is cleaner:
+              when we have completed a step, we're not piling on additional writing on top of that line of work and beginning our next step. Admittedly, it is more writing to look at <m>3x=15</m>
+              on one line and then intentionally take a new line to write <m>\frac{3x}{3} = \frac{15}{3}</m>
+              on the next line, but it makes the work clearer, and it fits the general philosophy of communicating clearly. Focus on completing one step before beginning the next step.
+            </p>
+          </li>
+        </ul>
+      </p>
 
   </subsection>
 
