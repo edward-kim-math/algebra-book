@@ -933,7 +933,7 @@
     <example>
       <statement>
         <p>
-          Interpret Figure <xref ref="fig-positive-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
+          Interpret <xref ref="fig-positive-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
         </p>
       </statement>
       <answer>
@@ -945,7 +945,7 @@
     <example xml:id="negative-correlation-example-1">
       <statement>
         <p>
-          Interpret Figure <xref ref="fig-negative-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
+          Interpret <xref ref="fig-negative-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
         </p>
       </statement>
       <answer>
@@ -962,7 +962,7 @@
     <example>
       <statement>
         <p>
-          Interpret Figure <xref ref="fig-positive-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
+          Interpret <xref ref="fig-positive-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
         </p>
       </statement>
       <answer>
@@ -974,7 +974,7 @@
     <example xml:id="negative-correlation-example-2">
       <statement>
         <p>
-          Interpret Figure <xref ref="fig-negative-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
+          Interpret <xref ref="fig-negative-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
         </p>
       </statement>
       <answer>
@@ -984,16 +984,214 @@
       </answer>
     </example>
     <p>
-      Notice that both Example <xref ref="negative-correlation-example-1" /> and <xref ref="negative-correlation-example-2" /> both
+      Notice that both Example <xref ref="negative-correlation-example-1" /> and <xref ref="negative-correlation-example-2" /> both could be described by the sentence "As <m>x</m> increases, <m>y</m> decreases." 
+      However, that languangage is too generic and it ignores what the axes in each example represent:
+      the first example relates a cat's distance (to City Hall) and temperature, while the second example relates a car's temperature and speed.
+      <principle xml:id="principle-axes-specific">
+        <title>Expectation</title>
+        <statement>
+          <p>
+            When interpreting a graph, use language that is specific to what the variables mean.
+          </p>
+        </statement>
+      </principle>
+      We should also use comparative words to make the language plain and simple.
+      (A comparative word typically ends in the letters "er". For example: hotter, colder, faster, slower, taller, shorter.)
+      In <xref ref="negative-correlation-example-1" />, saying "As the distance of the cat from City Hall increases, the temperature of the cat decreases" accurately describes what is happening, 
+      but writing writing the words "increases" and "decreases" (or substitutes such as "bigger" and "smaller") makes the sentence longer, and it would be harder to understand for younger people.
+      When we use comparative words, we create language that would be easier for, say, someone in elementary school.
+      Moreover, whenever concepts can be described to someone in elementary school, forcing ourselves to do this shows that we <em>really</em> understand!
+      This is why we wrote "As the cat gets further from City Hall, the cat gets colder" instead of "As the distance of the cat from City Hall increases, the temperature of the cat decreases."
+      If we wanted to get to the point (and maybe leave out the mention of the cat), we could even say "Further means colder".
+      Similarly, for <xref ref="negative-correlation-example-2" />, we could say "Hotter means slower".
+      <principle xml:id="principle-comparative-words">
+        <title>Expectation</title>
+        <statement>
+          <p>
+            When interpreting a graph, use comparative words that are specific to what each variable means. (Instead of using generic words such as "increases" and "decreases" and "bigger" and "smaller", use words such as "hotter", "colder", "faster", "slower", etc. where possible.)
+          </p>
+        </statement>
+      </principle>
     </p>
 
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-positive-correlation" /> if <m>x</m> represents the brightness of a screen and <m>y</m> represents the price of the screen.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The brighter the screen, the pricier the screen is.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Brighter means pricier.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-negative-correlation" /> if <m>x</m> represents the brightness of a screen and <m>y</m> represents the price of the screen.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The brighter the screen, the cheaper the screen is.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Brighter means cheaper.
+        </p>
+      </answer>
+      <answer>
+        <p>
+          Brighter translates into cheaper.
+        </p>
+      </answer>
+    </example>
 
+    <p>
+      The word "volume" can refer to loudness or the amount of space that an object takes up. In the following examples, we will use "volume" to mean loudness.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-positive-correlation" /> if <m>x</m> represents the volume of a Bluetooth speaker and <m>y</m> represents the thickness of the speaker.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Louder means thicker.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-negative-correlation" /> if <m>x</m> represents the volume of a Bluetooth speaker and <m>y</m> represents the thickness of the speaker.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Louder means thinner.
+        </p>
+      </answer>
+    </example>
 
+    <p>
+      We can also interpret graphs that are curves instead of lines. For example, consider the following graph:
+      <figure xml:id="fig-curve-peak">
+        <image width="45%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (5,0);
+                \node at (5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,5);
+                \node at (.4,5) {$y$};
+                \draw plot[smooth] coordinates {(1,1) (2,3.5) (3,3.5) (4,1)};
+                \draw (2.5,.1) -- (2.5,-.1);
+                \node at (2.5,-.4) {$20$};
+                \draw (.1,3.7) -- (-.1,3.7);
+                \node at (-.4,3.7) {$43$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>A curve graph with a peak</caption>
+      </figure>
+      Before we examine any specific examples with axes labels, let's describe the graph by mentioning the <m>x</m> and <m>y</m> coordinates.
+      As always, we scan the graph from left to right, so <m>x</m> is increasing.
+      Because we are going to move to the right, start at the point on the very left.
+      As we slowly move our eyes to the right, we see that <m>y</m> is increasing, at least at first.
+      At some moment, <m>y</m> stops increasing (this happens at the peak when <m>x=20</m>) and then starts decreasing.
+      In this specific picture, <m>y</m> increases until <m>x=20</m>, reaching a maximum value of <m>y=43</m> and then <m>y</m> decreases after <m>x=20</m>.
+    </p>
+    <p>
+      We could also have a graph that looks similar, but is upside down:
+      <figure xml:id="fig-curve-valley">
+        <image width="45%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (5,0);
+                \node at (5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,5);
+                \node at (.4,5) {$y$};
+                \draw plot[smooth] coordinates {(1,3.5) (2,1) (3,1) (4,3.5)};
+                \draw (2.5,.1) -- (2.5,-.1);
+                \node at (2.5,-.4) {$31$};
+                \draw (.1,3.7) -- (-.1,3.7);
+                \node at (-.4,.7) {$8$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>A curve graph with a valley</caption>
+      </figure> 
+      As <m>x</m> increases (in other words, as we move to the right), <m>y</m> decreases until <m>x=31</m>, reaching a minimum value of <m>y=8</m>, and then <m>y</m> increases after <m>x=31</m>.
+      Please note that the special values of <m>x</m> and <m>y</m> that we mentioned for the peak in the first graph and the valley in the second graph have changed, just to add a little more to the conversation.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-curve-peak" /> if <m>x</m> represents the speed of a dog and <m>y</m> represents the temperature of the dog.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the dog gets faster, the dog gets hotter until the dog reaches a speed of <m>20</m>, where it reaches a maximum temperature of <m>43</m>. As the dog gets any faster than <m>20</m>, the dog gets colder.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-curve-valley" /> if <m>x</m> represents the speed of a dog and <m>y</m> represents the temperature of the dog.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the dog gets faster, the dog gets colder until the dog reaches a speed of <m>31</m>, where it reaches a minimum temperature of <m>8</m>. As the dog gets any faster than <m>31</m>, the dog gets hotter.
+        </p>
+      </answer>
+    </example>
+
+    <p>
+      In business, <xref ref="fig-curve-peak" /> is typical for a graph of profit versus price when demand depends on quantity.
+    </p>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-curve-peak" /> if <m>x</m> represents the quantity of sales and <m>y</m> represents the profit from selling the product.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the quantity of sales increases, the profit from selling the product increases until the quantity reaches <m>20</m>, where it reaches a maximum profit of <m>43</m>. As the quantity of sales increases beyond <m>20</m>, the profit from selling the product decreases.
+        </p>
+      </answer>
+    </example>
+    <p>In the previous example, there are no comparative words that are specific to the variables, so we just use the words "increases" and "decreases". While the example above is typical, for practice, let's interpret the other graph using these axes labels as well.</p>
+    <example>
+      <statement>
+        <p>
+          Interpret <xref ref="fig-curve-valley" /> if <m>x</m> represents the quantity of sales and <m>y</m> represents the profit from selling the product.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the quantity of sales increases, the profit from selling the product decreases until the quantity reaches <m>31</m>, where it reaches a minimum profit of <m>8</m>. As the quantity of sales increases beyond <m>31</m>, the profit from selling the product increases.
+        </p>
+      </answer>
+    </example>
 
   </subsection>
-
-
-
 
 
 	<subsection>
@@ -1003,17 +1201,31 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            Each point in the <m>xy</m>-plane consists of two numbers: an <m>x</m>-value and a <m>y</m>-value, formatted as <m>(x, y)</m> with parentheses.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            The <m>x</m>-axis represents the horizontal direction, and the <m>y</m>-axis represents the vertical direction. 
+            Larger <m>x</m>-values are to the right, and larger <m>y</m>-values are higher.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            The distance between the point <m>(x_1,y_1)</m> and the point <m>(x_2,y_2)</m> is given <m>\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}</m>, and the square root does not distribute either before or after plugging in numbers.
+            A simplified formula is available if the two points have the same <m>x</m>-coordinate or the same <m>y</m>-coordinate: larger value minus smaller value.
+          </p>
+        </li>
+        <li>
+          <p>
+            The midpoint of the line segment connecting the points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> is given by <m>\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)</m>.
+            The resulting point is the result of averaging the <m>x</m>-coordinates and averaging the <m>y</m>-coordinates.
+          </p>
+        </li>
+        <li>
+          <p>
+            Many points together may come together to form a graph, such as a line or curve.
+            We interpret graphs by describing what happens to <m>y</m> as <m>x</m> increases, and we use language that is specific to the variables, and write with comparative words (words ending in "er") whenever possible.
           </p>
         </li>
       </ol>
@@ -1024,7 +1236,7 @@
   <subsection>
 		<title>Exercises</title>
 
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+    
 
     <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
 
@@ -1035,36 +1247,83 @@
 
         <li>
           <p>
-            Text.
+            Find the distance between the given pair of points. 
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>(0,0)</m> and <m>(3,4)</m></p></li>
+              <li><p><m>(1,2)</m> and <m>(5,6)</m></p></li>
+              <li><p><m>(2,-3)</m> and <m>(7,8)</m></p></li> 
+              <li><p><m>(-1,5)</m> and <m>(4,-2)</m></p></li>
+              <li><p><m>(6,1)</m> and <m>(2,1)</m></p></li>
+              <li><p><m>(0,-4)</m> and <m>(8,-4)</m></p></li>
+              <li><p><m>(-3,-1)</m> and <m>(1,5)</m></p></li>
+              <li><p><m>(2,2)</m> and <m>(-2,-2)</m></p></li>
+              <li><p><m>(5,0)</m> and <m>(0,5)</m></p></li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Find the midpoint of the line segment connecting the given pair of points. 
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>(0,0)</m> and <m>(3,4)</m></p></li>
+              <li><p><m>(1,2)</m> and <m>(5,6)</m></p></li>
+              <li><p><m>(2,-3)</m> and <m>(7,8)</m></p></li> 
+              <li><p><m>(-1,5)</m> and <m>(4,-2)</m></p></li>
+              <li><p><m>(6,1)</m> and <m>(2,1)</m></p></li>
+              <li><p><m>(0,-4)</m> and <m>(8,-4)</m></p></li>
+              <li><p><m>(-3,-1)</m> and <m>(1,5)</m></p></li>
+              <li><p><m>(2,2)</m> and <m>(-2,-2)</m></p></li>
+              <li><p><m>(5,0)</m> and <m>(0,5)</m></p></li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Interpret <xref ref="fig-positive-correlation" /> based on the description of the variables:
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>x</m> represents the temperature of the house, and <m>y</m> represents the price of the house.</p></li>
+              <li><p><m>x</m> represents the distance of a dog from the fire hydrant, and <m>y</m> represents the temperature of the dog.</p></li>
+              <li><p><m>x</m> represents the price of a Bluetooth speaker, and <m>y</m> represents the volume of the speaker.</p></li>
+              <li><p><m>x</m> represents the weight of a screen, and <m>y</m> represents the brightness of the screen.</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret <xref ref="fig-negative-correlation" /> based on the description of the variables:
+            <ol>
+              <li><p><m>x</m> represents the temperature of the house, and <m>y</m> represents the price of the house.</p></li>
+              <li><p><m>x</m> represents the distance of a dog from the fire hydrant, and <m>y</m> represents the temperature of the dog.</p></li>
+              <li><p><m>x</m> represents the price of a Bluetooth speaker, and <m>y</m> represents the volume of the speaker.</p></li>
+              <li><p><m>x</m> represents the weight of a screen, and <m>y</m> represents the brightness of the screen.</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret <xref ref="fig-curve-peak" /> based on the description of the variables:
+            <ol>
+              <li><p><m>x</m> represents the temperature of the house, and <m>y</m> represents the price of the house.</p></li>
+              <li><p><m>x</m> represents the distance of a dog from the fire hydrant, and <m>y</m> represents the temperature of the dog.</p></li>
+              <li><p><m>x</m> represents the price of a Bluetooth speaker, and <m>y</m> represents the volume of the speaker.</p></li>
+              <li><p><m>x</m> represents the weight of a screen, and <m>y</m> represents the brightness of the screen.</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret <xref ref="fig-curve-valley" /> based on the description of the variables:
+            <ol>
+              <li><p><m>x</m> represents the temperature of the house, and <m>y</m> represents the price of the house.</p></li>
+              <li><p><m>x</m> represents the distance of a dog from the fire hydrant, and <m>y</m> represents the temperature of the dog.</p></li>
+              <li><p><m>x</m> represents the price of a Bluetooth speaker, and <m>y</m> represents the volume of the speaker.</p></li>
+              <li><p><m>x</m> represents the weight of a screen, and <m>y</m> represents the brightness of the screen.</p></li>
             </ol>
           </p>
         </li>
 
       </ol>
+      
     </p>
   </subsection>
 
