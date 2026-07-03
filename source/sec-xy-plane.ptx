@@ -702,8 +702,8 @@
     <p>
       In this section, we explain how to interpret graphs in real-world contexts.
       To begin, we may be given a graph like this
-      <figure>
-        <image>
+      <figure xml:id="fig-negative-correlation">
+        <image width="45%">
           <latex-image>
             <![CDATA[
               \begin{tikzpicture}
@@ -716,7 +716,7 @@
             ]]>
           </latex-image>
         </image>
-        <caption>A line graph showing a relationship between two variables</caption>
+        <caption>A line graph showing a negative correlation</caption>
       </figure>
       along with a description of what the <m>x</m> variable means and what <m>y</m> variable means.
       Given the graph and the description of the variables, we can provide an interpretation that specifically discusses what the variables mean.
@@ -788,6 +788,205 @@
         </p>
       </principle>
     </p>
+    <p>
+      Based on these principles, we can rewrite each of the four options in the earlier numbered list. Following the same order:
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> decreases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>x</m> decreases, then <m>y</m> increases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>y</m> decreases, then <m>x</m> increases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>y</m> increases, then <m>x</m> decreases.
+          </p>
+        </li>
+      </ol>
+      With these four texts getting shorter, let's point out that the first and third statement are saying the same thing.
+      Both mention <m>x</m> increases and <m>y</m> decreases.
+      So, we don't need to include both.
+      Similarly, the second and fourth statements are saying the same thing. Both mention <m>x</m> decreases and <m>y</m> increases.
+      In the future, to avoid any need repeating the information in different language, we make the decision now to mention the letters in alphabetical order. We will talk about <m>x</m> first, and then <m>y</m> next.
+      So, our list is shortened to two statements:
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> decreases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>x</m> decreases, then <m>y</m> increases.
+          </p>
+        </li>
+      </ol>
+      Now, we should notice that both statement are <em>still</em> saying the same thing.
+      One is just talking about moving up and to the left, while the other is talking about moving down and to the right.
+      If you pull up a map of South Korea, you'll see that Seoul is northwest of Busan, so Busan is southeast of Seoul.
+      The two cities are connected by National Highway 1, and while it is not straight, overall it has the same direction as the line drawn in Figure <xref ref="fig-negative-correlation"/>.
+      Driving from Seoul to Busan, you drive primarily southeast, so if we placed <m>xy</m>-axes on the map, as <m>x</m> increases, <m>y</m> decreases.
+      If you drive from Busan to Seoul, you drive northwest: as <m>x</m> decreases, <m>y</m> increases.
+      So, in the end, we make the convention to start by talking about <m>x</m> first, and specifically about <m>x</m> increasing. Then we examine the graph to see what happens to <m>y</m>.
+      We describe whether <m>y</m> increases or decreases in order to stay on the graph.
+      That is, as we travel to the right (so <m>x</m> increases), we describe whether <m>y</m> increases or decreases (do we also travel up or down).
+      In this case:
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> decreases.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      Let's compare this to the following graph:
+      <figure xml:id="fig-positive-correlation">
+        <image width="45%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (5,0);
+                \node at (5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,5);
+                \node at (.4,5) {$y$};
+                \draw (1,1) -- (4,3);
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>A line graph showing a positive correlation</caption>
+      </figure>
+      In this graph,       
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> increases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>x</m> decreases, then <m>y</m> decreases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>y</m> decreases, then <m>x</m> decreases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>y</m> increases, then <m>x</m> increases.
+          </p>
+        </li>
+      </ol>
+      Just like before, the third statement has the same information as the first statement. The fourth statement says the same as the second statement. We shorten the list by only keeping the statements that talk about <m>x</m> first:
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> increases.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>x</m> decreases, then <m>y</m> decreases.
+          </p>
+        </li>
+      </ol>
+      Both of these statements say the same thing.
+      If you examine a map of Texas, you will see that, relative to each other, San Antonio is southwest of Austin, so Austin is northeast of San Antonio.
+      Driving on Interstate 35 from San Antonio to Austin, you drive primarily northeast, so if we placed <m>xy</m>-axes on the map, as <m>x</m> increases, <m>y</m> increases.
+      If you drive from Austin to San Antonio, you drive southwest: as <m>x</m> decreases, <m>y</m> decreases.
+      Recall earlier we will keep the convention to start by talking about <m>x</m> first, and specifically about <m>x</m> increasing. Then we examine the graph to see what happens to <m>y</m>.
+      In this case:
+      <ol>
+        <li>
+          <p>
+            If <m>x</m> increases, then <m>y</m> increases.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      As we analyze the graph of a line, we discuss <m>x</m> first, specifically about <m>x</m> increasing.
+      Then, we ask to stay on the line, do we need to also move up or down. If we need to move up as we move right, then <m>y</m> increases. If we need to move down, then <m>y</m> decreases.
+    </p>
+
+    <p>
+      Finally, we perform this activity in the context of having each axis labeled with a quantity.
+      For example, the <m>y</m>-coordinate might represent the temperature of a cat.
+      Then <m>y</m> increasing in this context would mean the cat gets hotter (or the cat gets warmer),
+      and <m>y</m> decreasing would mean the cat gets colder (or the cat gets cooler).
+      When we answer questions about graph interpretation, our response should be accurate but also use language that is specific to the labelings on each axis.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Interpret Figure <xref ref="fig-positive-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the cat gets further from City Hall, the cat gets hotter.
+        </p>
+      </answer>
+    </example>
+    <example xml:id="negative-correlation-example-1">
+      <statement>
+        <p>
+          Interpret Figure <xref ref="fig-negative-correlation" /> if <m>x</m> represents the distance of a cat from City Hall and <m>y</m> represents the temperature of the cat.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the cat gets further from City Hall, the cat gets colder.
+        </p>
+      </answer>
+    </example>
+
+    <p>
+      Let's try examples using new axes labels.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Interpret Figure <xref ref="fig-positive-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the car gets warmer, the car gets faster (or quicker).
+        </p>
+      </answer>
+    </example>
+    <example xml:id="negative-correlation-example-2">
+      <statement>
+        <p>
+          Interpret Figure <xref ref="fig-negative-correlation" /> if <m>x</m> represents the temperature of a car and <m>y</m> represents the speed of the car.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          As the car gets hotter, the car gets slower.
+        </p>
+      </answer>
+    </example>
+    <p>
+      Notice that both Example <xref ref="negative-correlation-example-1" /> and <xref ref="negative-correlation-example-2" /> both
+    </p>
+
 
 
 
