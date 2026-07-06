@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-lines" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lines</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+      <li><p>Articulate the connection between an equation in <m>x</m> and <m>y</m> and its graph.</p></li>
+      <li><p>Determine the slope of a line given two points on the line.</p></li>
+			<li><p>Determine an equation for a line given some information about the line.</p></li>
+			<li><p>Graph a line given its equation.</p></li>
+			<li><p>Interpret the slope and <m>y</m>-intercept of a line in context.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      The skills we learn in this section are useful for predictive purposes. At the end of this section, we will use what we learn to answer the following questions.
+      <ol>
+        <li>
+          <p>
+            A studio apartment has a monthly rent of <m>\$600</m> in the year 2010. Its monthly rent is <m>\$875</m> in the year 2021. If the rent increases by the same amount each year, what would be the monthly rent in 2025? 
+          </p>
+        </li>
+        <li>
+          <p>
+            A car rental company charges <m>\$25</m> per day to rent a car, plus a one-time fee of <m>\$49</m> for insurance. If the final bill for renting a car is <m>\$174</m>, how many days was the car rented?
+          </p>
+        </li>
+        <li>
+          <p>
+            A local coffee shop sells drip coffee for <m>\$2.25</m> in 2020 and <m>\$2.75</m> in 2023. If the price of coffee increases by the same amount each year, what was the price back in 2015?
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+
+	<subsection>
+		<title>Equations in <m>x</m> and <m>y</m></title>
+
+    <p>
+      The primary focus of this section is on lines, which the nicest examples of graphs of equations in two variables <m>x</m> and <m>y</m>.
+      Before introducing lines, we first discuss equations in <m>x</m> and <m>y</m> in general.
+      An equation in <m>x</m> and <m>y</m> is an equation that mentions the variables <m>x</m> and <m>y</m>. Typically, both variables appear at least once, but it is possible to just have one of the variables missing.
+      Here are ten examples of equations in <m>x</m> and <m>y</m>: 
+      <ol>
+        <li><p><m>y^2-x^3-8=x+y+2</m></p></li>
+        <li><p><m>y = 2x + 1</m></p></li>
+        <li><p><m>y = -3x + 4</m></p></li>
+        <li><p><m>x^2 + 6x + y^2 - 8y = 3</m></p></li>
+        <li><p><m>y = 5</m></p></li>
+        <li><p><m>x = -2</m></p></li>
+        <li><p><m>y = x^2 + 3x - 4</m></p></li>
+        <li><p><m>y = \frac{1}{x}</m></p></li>
+        <li><p><m>y = \sqrt{x} + 4</m></p></li>
+        <li><p><m>x = y^3 + 1</m></p></li>
+      </ol>
+      The list above may look intimidating, but at the moment, we are not conerned with extracting any information out of these yet.
+      Notice that each example is an equation (and not an expression) because there is an equal sign.
+      Each is an equation in <m>x</m> and <m>y</m> because one or both of these variables appear.
+      In the fifth equation, <m>y</m> appears but <m>x</m> does not: this is allowed.
+      In the sixth equation, <m>x</m> appears but <m>y</m> does not: this is also allowed.
+      The first and fourth equations are examples where both <m>x</m> and <m>y</m> appear multiple times.
+    </p>
+
+    <p>
+      Every equation in <m>x</m> and <m>y</m> has a graph, which is the set of all points <m>(x,y)</m> that satisfy the equation.
+      <principle xml:id="connection-graph-of-equation">
+        <title>Connection between an equation in <m>x</m> and <m>y</m> and its graph</title>
+        <p>
+          Every equation in <m>x</m> and <m>y</m> has a graph, which is the set of all points <m>(x,y)</m> that satisfy the equation.
+          The point <m>(x,y)</m> is on the graph of the equation if and only if it satisfies the equation.
+        </p>
+      </principle>
+
+      To make sense of this principle, we will explain it by looking more closely at the first equation from the list <m>y^2-x^3-8=x+y+2</m>.
+      <example>
+        <statement>
+          <p>
+            Is the point <m>(1,5)</m> on the graph of the equation <m>y^2-x^3-8=x+y+2</m>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            To determine if the point <m>(1,5)</m> is on the graph of the equation <m>y^2-x^3-8=x+y+2</m>, we need to check if it satisfies the equation.
+            We do this by substituting <m>x=1</m> and <m>y=5</m> into the equation and seeing if both sides are equal.
+            <ol>
+              <li>
+                <p>
+                  The left side of the equation becomes
+                  <m>y^2-x^3-8 = 5^2 - 1^3 - 8 = 25 - 1 - 8 = 16.</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side of the equation becomes
+                  <m>x+y+2 = 1 + 5 + 2 = 8.</m>
+                </p>
+              </li>
+            </ol>
+            Since the two sides are not equal, the point <m>(1,5)</m> does not satisfy the equation, and therefore <m>(1,5)</m> is not on the graph of the equation.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Is the point <m>(2,5)</m> on the graph of the equation <m>y^2-x^3-8=x+y+2</m>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We substitute <m>x=2</m> and <m>y=5</m> into the equation, and independently simplify each side according to the Order of Operations.
+            <ol>
+              <li>
+                <p>
+                  The left side of the equation becomes
+                  <m>y^2-x^3-8 = 5^2 - 2^3 - 8 = 25 - 8 - 8 = 9.</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side of the equation becomes
+                  <m>x+y+2 = 2 + 5 + 2 = 9.</m>
+                </p>
+              </li>
+            </ol>
+            Since the two sides are equal, the point <m>(2,5)</m> satisfies the equation, and therefore <m>(2,5)</m> is on the graph of the equation.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Is the point <m>(1,4)</m> on the graph of the equation <m>y^2-x^3-8=x+y+2</m>?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We substitute <m>x=1</m> and <m>y=4</m> into the equation:
+            <ol>
+              <li>
+                <p>
+                  The left side of the equation becomes
+                  <m>y^2-x^3-8 = 4^2 - 1^3 - 8 = 16 - 1 - 8 = 7.</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side of the equation becomes
+                  <m>x+y+2 = 1 + 4 + 2 = 7.</m>
+                </p>
+              </li>
+            </ol>
+            Since the two sides are equal, the point <m>(1,4)</m> satisfies the equation, and therefore <m>(1,4)</m> is on the graph of the equation.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      The previous two examples show us that there are many points that are part of the graph of the equation <m>y^2-x^3-8=x+y+2</m>, and many points that are not part of the graph.
+      As another way to really see that the graph of an equation in <m>x</m> and <m>y</m> has many points, consider the followiing exercise:
+      <example>
+        <statement>
+          <p>
+            Find three points on the graph of the equation <m>y = \sqrt{x} + 4</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can find points on the graph by choosing values for <m>x</m> and calculating the corresponding <m>y</m> values.
+            <ol>
+              <li>
+                <p>
+                  If <m>x = 9</m>, then <m>y = \sqrt{9} + 4 = 3 + 4 = 7</m>. So, the point <m>(9,7)</m> is on the graph of <m>y = \sqrt{x} + 4</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If <m>x = 16</m>, then <m>y = \sqrt{16} + 4 = 4 + 4 = 8</m>. So, the point <m>(16,8)</m> is on the graph of <m>y = \sqrt{x} + 4</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If <m>x = 25</m>, then <m>y = \sqrt{25} + 4 = 5 + 4 = 9</m>. So, the point <m>(25,9)</m> is on the graph of <m>y = \sqrt{x} + 4</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+      We can select any value of <m>x \geq 0</m>, but to ensure that the <m>y</m> value is nice, we only picked numbers that are perfect squares.
+      There are so many more valid answers to this question. For example <m>(36,10)</m> is another point on the graph. Can you find three more points?
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find three points on the graph of the equation <m>x = y^3 + 1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In the previous example, we picked <m>x</m>-values, and each time, this gave us a value of <m>y</m>.
+            However, in this equation, it is easier to pick <m>y</m>-values, and then calculate the corresponding <m>x</m>-values, since <m>x</m> is the variable that is isolated on its own.
+            <ol>
+              <li>
+                <p>
+                  If <m>y = 2</m>, then <m>x = 2^3 + 1 = 9</m>. So, the point <m>(9,2)</m> is on the graph of <m>x = y^3 + 1</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If <m>y = 4</m>, then <m>x = 4^3 + 1 = 65</m>. So, the point <m>(65,4)</m> is on the graph of <m>x = y^3 + 1</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  If <m>y = 10</m>, then <m>x = 10^3 + 1 = 1001</m>. So, the point <m>(1001,10)</m> is on the graph of <m>x = y^3 + 1</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>      
+    </p>
+
+    <p>
+      Before moving to the main event for this section, we discuss <m>x</m>-intercepts and <m>y</m>-intercepts.
+      An <m>x</m>-intercept is a point on the graph where the graph intersects the <m>x</m>-axis.
+      An <m>y</m>-intercept is a point on the graph where the graph intersects the <m>y</m>-axis.
+      <principle xml:id="principle-x-intercepts">
+        <title>Finding <m>x</m>-intercepts</title>
+        <statement>
+          <p>
+            Given an equation in <m>x</m> and <m>y</m>, set <m>y=0</m> and solve for <m>x</m> in the resulting equation.
+          </p>
+        </statement>
+      </principle>
+      This may seem a little backwards at first.
+      Why would we set <m>y</m> equal to zero when we're trying to find <m>x</m>-intercepts?
+      We just introduced that an <m>x</m>-intercept is a point on the <m>x</m>-axis, and we saw in <xref ref="principle-point-on-x-axis"/> that a point is on the <m>x</m>-axis if and only if its <m>y</m>-coordinate is zero, because <m>y=0</m> corresponds to no vertical movement:
+      it was having no vertical movement (<m>y=0</m>) which is what leads to a point being on the <m>x</m>-axis.
+      <principle xml:id="principle-y-intercepts">
+        <title>Finding <m>y</m>-intercepts</title>
+        <statement>
+          <p>
+            Given an equation in <m>x</m> and <m>y</m>, set <m>x=0</m> and solve for <m>y</m> in the resulting equation.
+          </p>
+        </statement>
+      </principle>
+      This procedure for finding <m>y</m>-intercepts is justified similarly. Recall <xref ref="principle-point-on-y-axis"/> which says that a point is on the <m>y</m>-axis if and only if its <m>x</m>-coordinate is zero.
+      <example>
+        <statement>
+          <p>
+            Find the <m>x</m>-intercept(s) and <m>y</m>-intercept(s) of the graph of <m>2x+3y=12</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            To find the <m>x</m>-intercept(s), set <m>y=0</m> and solve for <m>x</m>:
+            <m>2x+3(0)=12</m> turns into <m>2x=12</m> so <m>x=6</m>.
+            So, the only <m>x</m>-intercept is <m>(6,0)</m>.
+          </p>
+          <p>
+            To find the <m>y</m>-intercept(s), set <m>x=0</m> and solve for <m>y</m>:
+            <m>2(0)+3y=12 \Rightarrow 3y=12 \Rightarrow y=4</m>.
+            So, the only <m>y</m>-intercept is <m>(0,4)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Slope</title>
+
+    <p>
+      Now that we have examined equations in <m>x</m> and <m>y</m> in general, we will focus on lines, which are some of the nicest examples of graphs in the <m>xy</m>-plane.
+      Moreover, lines are very practical for noticing behavior and making predictions.
+      In every day language, we often will say the word "line" for something that is not a line in the mathematical sense.
+      Even in mathematics, sometimes people will informally call something that is slightly wavy a "line", but we will be careful in our language:
+      when we talk about a line, we mean a geometric object that is perfectly straight and extends forever in both directions.
+    </p>
+    <p>
+      Whenever you have two points, we can draw a line through them.
+      So, a line is determined by any two of its points.
+      One key calculation for a line is its slope, which measures how steep the line is.
+      <principle xml:id="principle-slope">
+        <title>Slope</title>
+        <statement>
+          <p>
+            The slope of the line going through the point <m>(x_1,y_1)</m> and the point <m>(x_2,y_2)</m> is given by the formula
+            <m>m = \frac{y_2-y_1}{x_2-x_1}.</m>
+          </p>
+        </statement>
+      </principle>
+      It is traditional to use the letter <m>m</m> to represent slope.
+      We are subtracting the <m>y</m>-coordinates in the numerator, and doing one <m>y</m>-value minus the other is called the "change in slope", denoted <m>\Delta y</m>.
+      Similarly, <m>\Delta x</m> represents the change in the <m>x</m>-coordinates. So, we can also write the formula for slope like this:
+      <principle xml:id="principle-slope-change">
+        <title>Slope: Change in coordinates</title>
+        <statement>
+          <p>
+            <m>m = \frac{\Delta y}{\Delta x}.</m>
+          </p>
+        </statement>
+      </principle>
+      In either of the versions, the important thing to remember is that the subtraction of <m>y</m>-values is in the numerator, and the subtraction of <m>x</m>-values is in the denominator.
+      An easy way to remember this is to think of slope as "rise over run", where the rise is the change in <m>y</m> and the run is the change in <m>x</m>.
+      From past experience, students often find "run over rise" sounds strange, and that's good! The correct phras "rise over run" will help us remember that subtraction of the <m>y</m>-values happens in the numerator: after all, "rise" refers to how much you go up, and <m>y</m> is the vertical coordinate!
+
+      <example>
+        <statement>
+          <p>
+            Find the slope of the line going through the points <m>(1,5)</m> and <m>(4,11)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can use the formula for slope to find the slope of the line going through the points <m>(1,5)</m> and <m>(4,11)</m>.
+            We can let <m>(x_1,y_1) = (1,5)</m> and <m>(x_2,y_2) = (4,11)</m>, and then we have
+            <m>m = \frac{y_2-y_1}{x_2-x_1} = \frac{11-5}{4-1} = \frac{6}{3} = 2.</m>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            We can use the formula for slope to find the slope of the line going through the points <m>(1,5)</m> and <m>(4,11)</m>.
+            This time, we switch which point is Point 1 and which point is Point 2.
+            So we can let <m>(x_1,y_1) = (1,5)</m> and <m>(x_2,y_2) = (4,11)</m>, and then we have
+            <m>m = \frac{y_2-y_1}{x_2-x_1} = \frac{11-5}{4-1} = \frac{6}{3} = 2.</m>
+          </p>
+        </answer>
+      </example>
+      In the end, it does not matter which point is considered Point 1 and which is considered Point 2.
+      We get the same slope either way.
+      We just need to be cautious that if the <m>y</m>-coordinate for one point appears first in the numerator, then the <m>x</m>-coordinate for that same point must appear first in the denominator.
+      For example, the following is incorrect:
+      <m>m = \frac{11-5}{1-4} = \frac{6}{-3} = -2.</m>
+    </p>
+
+    <p>
+      We now look at several examples of lines, and will refer back to these examples.
+      <example xml:id="example-positive-slope">
+        <statement>
+          <p>
+            Find the slope of the line going through the points <m>(-3,2)</m> and <m>(4,10)</m>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \frac{10-2}{4-(-3)} = \frac{10-2}{4+3} = \frac{8}{7}.</m>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            <m>m = \frac{2-10}{-3-4} = \frac{-8}{-7} = \frac{8}{7}.</m>
+          </p>
+        </answer>
+      </example>
+      In our first answer, we are careful that we are still subtracting: we have <m>x=4</m> minus <m>x=-3</m>. 
+      The fact that <m>4-(-3)</m> becomes <m>4+3</m> is due to facts about how subtracting a negative number works. 
+      Even though we are doing <m>4+3</m>, we aren't adding the <m>x</m>-coordinates. We really did take the <m>x</m>-value of <m>4</m> and subtract the <m>x</m>-value of <m>-3</m>.
+      Especially when there are minus signs appearing for the coordinates of either point, it's best to be careful and follow the formula exactly to avoid mistakes.
+      If there are any places where subtracting a negative ends up getting rewritten as adding a positive, it is best to save that for the next step: errors in finding slope ofter occur just from working too fast.
+    </p>
+
+    <p>
+      <example xml:id="example-negative-slope">
+        <statement>
+          <p>
+            Find the slope of the line going through the points <m>(7,2)</m> and <m>(4,10)</m>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \frac{10-2}{4-7} = \frac{8}{-3}.</m>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            <m>m = \frac{2-10}{7-4} = \frac{-8}{3}.</m>
+          </p>
+        </answer>
+      </example>
+      Both of the answers to this example are correct. We can have the minus sign in the denominator or in the numerator, but not both. We can also rewrite either fraction to have the minus sign in front of the fraction as in <m>m=-\frac{8}{3}</m>.
+      While all the coordinates were positive in the previous example, it is still possible for the slope to be negative.
+
+      <example xml:id="example-zero-slope">
+        <statement>
+          <p>
+            Find the slope of the line going through the points <m>(-3,2)</m> and <m>(4,2)</m>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \frac{2-2}{4-(-3)} = \frac{2-2}{4+3} = \frac{0}{7} = 0.</m>
+            We say that line has zero slope, or a slope of <m>0</m>.
+          </p>
+        </answer>
+      </example>
+
+      <example xml:id="example-no-slope">
+        <statement>
+          <p>
+            Find the slope of the line going through the points <m>(-3,2)</m> and <m>(-3,10)</m>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>m = \frac{10-2}{-3-(-3)} = \frac{10-2}{-3+3} = \frac{8}{0}.</m>
+            This is undefined, so we say that this line does not have a slope.
+            We can also say that this line has no slope.
+          </p>
+        </answer>
+      </example>
+      The caution to point out is that in <xref ref="example-no-slope"/>, zero was in the denominator, and so the slope does not exist (also: no slope), but in <xref ref="example-zero-slope"/>, zero was in the numerator, and so the slope is zero.
+      It is an error to say that we have "no slope" in example <xref ref="example-zero-slope"/>: here, we have to be very cautious about zero slope versus no slope.
+    </p>
+
+    <p>
+      The following figures illustrate graphs of the last four examples. What do you notice about slope?
+      First is the line from <xref ref="example-positive-slope"/>, which has positive slope.
+      <figure xml:id="fig-positive-slope">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0);
+                \node at (10,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10) {$y$};
+                \draw[<->] (-3.3,1.65) -- (4.3,10.34);
+                \filldraw (-3,2) circle (2pt);
+                \node at (-3,2.5) {(-3,2)};
+                \filldraw (4,10) circle (2pt);
+                \node at (4,9.5) {(4,10)};
+                \draw (5,.1) -- (5,-.1);
+                \draw (.1,5) -- (-.1,5);
+                \node at (5,-.4) {5};
+                \node at (-.4,5) {5};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>The line through <m>(-3,2)</m> and <m>(4,10)</m></caption>
+      </figure>
+      Since lines go on forover in both directions, this drawing of a line (like all drawings of lines) include arrows on each end to indicate that the drawing goes on forever.
+    </p>
+    <p>
+      Next is the line from <xref ref="example-negative-slope"/>, which has negative slope.
+      <figure xml:id="fig-negative-slope">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0);
+                \node at (10,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10) {$y$};
+                \draw[<->] (7.5,0.667) -- (3.7,10.8);
+                \filldraw (7,2) circle (2pt);
+                \node at (6.5,1.5) {(7,2)};
+                \filldraw (4,10) circle (2pt);
+                \node at (4.5,10.5) {(4,10)};
+                \draw (5,.1) -- (5,-.1);
+                \draw (.1,5) -- (-.1,5);
+                \node at (5,-.4) {5};
+                \node at (-.4,5) {5};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>The line through <m>(7,2)</m> and <m>(4,10)</m></caption>
+      </figure> 
+      In the previous section, we gave interpretations of graphs of lines in context when axes were labeled with specific meanings.
+      In that section, our figures were called lines of positive correlation and negative correlation, and our graphs remained in the first quadrant to keep things clean.
+      Here, our drawings may be in any quadrant, but the connection is that positive correlation from earlier is a line with positive slope here, and negative correlation corresponds to negative slope.
+      Here's another way to say this: when a line has positive slope, as <m>x</m> grows <m>y</m> also grows, and when a line has negative slope, as <m>x</m> grows <m>y</m> shrinks.
+    </p>
+    <p>
+      The line from <xref ref="example-zero-slope"/> has zero slope:
+      <figure xml:id="fig-zero-slope">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0);
+                \node at (10,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10) {$y$};
+                \draw (-3.3,2) -- (4.5,2);
+                \filldraw (-3,2) circle (2pt);
+                \node at (-3,1.5) {(-3,2)};
+                \filldraw (4,2) circle (2pt);
+                \node at (4,2.5) {(4,2)};
+                \draw (5,.1) -- (5,-.1);
+                \draw (.1,5) -- (-.1,5);
+                \node at (5,-.4) {5};
+                \node at (-.4,5) {5};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>The line through <m>(-3,2)</m> and <m>(4,2)</m></caption>
+      </figure>
+      Like all lines with zero slope, this line is completely horizontal.
+      Informally, a line with zero slope is described as "flat", but the word "flat" has the ambiguity of potentially meaning "straight" (as all lines are), or "horizontal" (where we talk about a "flat" part of a hill, for example).
+      To avoid this confusion, we will say horizontal.
+    </p>
+    <p>
+      The line from <xref ref="example-no-slope"/> has no slope:
+      <figure xml:id="fig-no-slope">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0);
+                \node at (10,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10) {$y$};
+                \draw[<->] (-3,1.5) -- (-3,10.2);
+                \filldraw (-3,2) circle (2pt);
+                \node at (-2.5,2) {(-3,2)};
+                \filldraw (-3,10) circle (2pt);
+                \node at (-2.5,10) {(-3,10)};
+                \draw (5,.1) -- (5,-.1);
+                \draw (.1,5) -- (-.1,5);
+                \node at (5,-.4) {5};
+                \node at (-.4,5) {5};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>The line through <m>(-3,2)</m> and <m>(-3,10)</m></caption>
+      </figure>
+      Like all lines with no slope, this line is completely vertical.
+    </p>
+
+
+    <p>
+      One of the important tasks in algebra is to be able to categorize lines as having positive slope, negative slope, zero slope, or no slope.
+      If we only need to take a given line and categorize it into one fo four buckets, we should attempt to do this without doing any computation.
+      Lines of zero slope and the lines of no slope are the easiest to identify.
+      Informally, we can also identify lines of positive slope and negative slope by looking at what we can informally call their "tilt". As we move along the line to the right (so <m>x</m> is increasing), is <m>y</m> increasing or decreasing?
+      If <m>y</m> is increasing, the line has positive slope. If <m>y</m> is decreasing, the line has negative slope.      
+      <example>
+        <statement>
+          <p>
+            In the following figure, several lines are drawn and labeled with letters. For each line, determine if it has positive slope, negative slope, zero slope, or no slope.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10) {$y$};
+
+                      \draw[<->] (1,8-3) -- (2,10.2-3);
+                      \node at (1.3,9.5-3) {A};
+
+                      \draw[<->] (3,10) -- (4,8);
+                      \node at (3.8,9) {B};
+
+                      \draw[<->] (5,2) -- (6,2);
+                      \node at (5.5,2.5) {C};
+
+                      \draw[<->] (7,8) -- (8,10.2);
+                      \node at (7.8,9.1) {D};
+
+                      \draw[<->] (8,4) -- (8,6);
+                      \node at (8.4,5) {E};
+
+                      \draw[<->] (1,1) -- (2,2);
+                      \node at (1.5,1.8) {F};
+
+                      \draw[<->] (3+5,2+5) -- (4+5,1+5);
+                      \node at (3.5+5,1.6+5.4) {G};                      
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Various lines</caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Lines A, D, and F have positive slope.
+            Lines B and G have negative slope.
+            Line C has zero slope.
+            Line E has no slope.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+        <p>
+          Determine if the line shown has positive slope, negative slope, zero slope, or no slope.
+          <figure xml:id="fig-slope-estimation">
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                    \draw[<->] (-1,0) -- (11,0); 
+                    \node at (10,.4) {$x$};
+                    \draw[<->] (0,-1) -- (0,11);
+                    \node at (.4,10) {$y$};
+                    \draw (5,.1) -- (5,-.1);
+                    \draw (.1,5) -- (-.1,5);
+                    \node at (5,-.4) {5};
+                    \node at (-.4,5) {5};
+                    \draw (10,.1) -- (10,-.1);
+                    \draw (.1,10) -- (-.1,10);
+                    \node at (10,-.4) {10};
+                    \node at (-.4,10) {10};
+                    \draw[<->] (3-.5,8+3/2) -- (5+.5,2-3/2);
+                  \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Slope: estimation versus exact calculation</caption>
+          </figure>
+        </p>
+      </statement>     
+      <answer>
+        <p>
+          The line has negative slope, even without needing to compute the slope exactly.
+        </p>
+      </answer>
+    </example>
+
+      <example>
+        <statement>
+          <p>
+            Find the exact slope of the line in <xref ref="fig-slope-estimation"/>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The line appears to go through the points <m>(3,8)</m> and <m>(5,2)</m>.
+            So <m>m = \frac{2-8}{5-3} = \frac{-6}{2} = -3.</m>.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            The line appears to go through the points <m>(3,8)</m> and <m>(5,2)</m>.
+            So <m>m = \frac{8-2}{3-5} = \frac{6}{-2} = -3.</m>.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            The line appears to go through the points <m>(3,8)</m> and <m>(4,5)</m>.
+            So <m>m = \frac{8-5}{3-4} = \frac{3}{-1} = -3.</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      Slope is a number that tells us how steep a line is.
+      The larger the number, the steeper the line.
+      Just like we categorized lines as having positive slope, negative slope, zero slope, or no slope without computation, to practice the idea that steeper lines have larger slope,
+      we can take two lines of positive slope and determine which line has larger slope <em>without</em> computation.
+      <example>
+        <statement>
+          <p>
+            In the following figure, two lines with positive slope are drawn and labeled with letters. Which line has larger slope?
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10) {$y$};
+
+                      \draw[<->] (1,2) -- (2,6);
+                      \node at (2,4) {A};
+
+                      \draw[<->] (5,5) -- (9,7);
+                      \node at (7,5.5) {B};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Two lines of positive slope</caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Line A is steeper than line B, so line A has larger slope than line B.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            In the following figure, two lines with positive slope are drawn and labeled with letters. Which line has larger slope?
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10) {$y$};
+
+                      \draw[<->] (1,2) -- (2,5);
+                      \node at (2,3.5) {A};
+
+                      \draw[<->] (5,5) -- (6,8);
+                      \node at (6,6.5) {B};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Two lines of positive slope</caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Line A and Line B actually have the same steepeness, so this was a bit of a trick question. Both lines have the same slope.
+            This previews a later topic: parallel lines have the same slope.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Equations of lines</title>
+
+    <p>
+      There are several common formats for equations for a line, but we will focus on one that is directly built from the slope formula.
+      This format for an equation of a line is both nice to use and is the most useful in most applications involving lines.
+      Recall first that given two points <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>, the slope of the line through these points is given by <m>m = \frac{y_2-y_1}{x_2-x_1}</m>.
+      The subscripts are used to indicate a specific point. But, we also write <m>(x,y)</m> to represent any point on the line (that is, <m>(x,y)</m> represents a generic point on the line or a typical point on the line).
+      So, let's replace <m>(x_2,y_2)</m> with <m>(x,y)</m> in the slope formula.
+      We have <m>m = \frac{y-y_1}{x-x_1}</m>.
+      Then, multiplying both sides by the denominator <m>x-x_1</m>, we have <m>m(x-x_1) = y-y_1</m>. Note that the parentheses here are necessary, due to order of operations.
+      Only because it is typically done, we swap the two sides of the equation: <m>y-y_1 = m(x-x_1)</m>.
+      <principle xml:id="principle-point-slope-form">
+        <title>Point-slope form</title>
+        <statement>
+          <p>
+            If a line has slope <m>m</m> and goes through the point <m>(x_1,y_1)</m>, then an equation for the line is
+            <me>y-y_1 = m(x-x_1).</me>
+            To present a line in this format, substitute the known slope for <m>m</m> and the known point <m>(x_1,y_1)</m> in for <m>x_1</m> and <m>y_1</m>, but do not substitue for <m>x</m> or <m>y</m>, which will remain variables.
+          </p>
+        </statement>
+      </principle>
+      <example>
+        <statement>
+          <p>
+            Find an equation of the line with slope <m>3</m> that goes through the point <m>(2,5)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>y-5 = 3(x-2).</m>
+          </p>
+        </answer>
+      </example>
+      <example>
+        <statement>
+          <p>
+            Identify the slope and a point on the line given by the equation <m>y-4 = -2(x+3)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We rewrite <m>y-4 = -2(x+3)</m> as <m>y-4 = -2(x-(-3))</m>.
+            The equation is in point-slope form, so we can directly identify the slope and a point on the line.
+            The slope is <m>-2</m>, and a point on the line is <m>(-3,4)</m>.
+          </p>
+        </answer>
+      </example>
+      One of the things that may feel intimidating about point-slope form is that it feels longer to write (thus harder to memorize) than another form of an equation for a line.
+      Sometimes, dealing with something that appears slightly harder pays off: in many situations, point-slope form is the fastest way to write an equation for a line, and the one that leads to the fewest number of errors.
+      Here are two ways recall point-slope form, and these will also help us be convinced this works in the first place:
+      <ul>
+        <li>
+          <p>
+            Start from the slope formula <m>m = \frac{y_2-y_1}{x_2-x_1}</m>.
+            Replace <m>(x_2,y_2)</m> with <m>(x,y)</m> to get <m>m = \frac{y-y_1}{x-x_1}</m>.
+            Then multiply both sides by <m>x-x_1</m> to get <m>m(x-x_1) = y-y_1</m>.
+            Swap the two sides to get <m>y-y_1 = m(x-x_1)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Our second approach is essentially the work above done backwards, but adding in a guess-and-check element.
+            If we cannot recall whether the formula is <m>y-y_1 = m(x-x_1)</m> or <m>x-x_1 = m(y-y_1)</m>, we can take both of these equation (on is correct and one is not), and quickly find out.
+            Take each equation and divide both sides by what's in parentheses: 
+            in the case of the first equation, this gives us <m>\frac{y-y_1}{x-x_1}=m</m> which looks like the slope formula (rise over run), 
+            while doing this to the second equation gives us <m>\frac{x-x_1}{y-y_1}=m</m> which suggests run over rise, and is not right.
+            So, of the two equations we initally wrote, we keep <m>y-y_1 = m(x-x_1)</m>.
+          </p>
+        </li>
+      </ul>
+
+      <principle xml:id="principle-slope-intercept-form">
+        <title>Slope-intercept form</title>
+        <statement>
+          <p>
+            If a line has slope <m>m</m> and has <m>y</m>-intercept <m>b</m>, then an equation for the line is
+            <me>y = mx + b.</me>
+            To present a line in this format, substitute the known slope for <m>m</m> and the known <m>y</m>-intercept for <m>b</m>.
+            In the final answer in slope-intercept form, do not substitue for <m>x</m> or <m>y</m>, which will remain variables.
+          </p>
+        </statement>
+      </principle>
+      <example>
+        <statement>
+          <p>
+            Find an equation of the line with slope <m>13</m> that has <m>y</m>-intercept <m>5</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>y = 13x + 5.</m>
+          </p>
+        </answer>
+      </example>
+      <example>
+        <statement>
+          <p>
+            Identify the slope and a point on the line given by the equation <m>y = \frac34x - 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We rewrite <m>y= \frac34x -8</m> as <m>y = \frac34x + (- 8)</m>.
+            The slope is <m>\frac34</m>. 
+            Since the <m>y</m>-intercept is <m>-8</m>,
+            a point on the line is <m>(0, -8)</m>.
+          </p>
+        </answer>
+      </example>      
+
+      <!-- Strategy -->
+      <computation xml:id="selecting-fastest-line-form">
+        <title>Selecting the fastest form of a line</title>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <alert>When does this strategy apply?</alert> 
+                This strategy describes which form of line to select when a question gives you data about a line and asks for an equation of the line (and the question does not require the final answer in a specific formrat).
+              </p>
+            </li>
+            <li>
+              <p>
+                <ul>
+                  <li>
+                    <p>
+                      If you know the slope and the <m>y</m>-intercept, use slope-intercept form.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If the combination of data you are given is anything else, use point-slope form. (In fact, in all but the situation above, you will know a poin on the line and a slope, so use point-slope form.)
+                    </p>
+                  </li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+          Why is point-slope form called point-slope form?
+          This is because if you know a point on the line and you know the slope of the line, point-slope form is the fastest way to write an equation for the line.
+        </p>
+      </computation>
+
+      <example>
+        <statement>
+          <p>
+            Find an equation for the line going through the points <m>(2, 5)</m> and <m>(4, 9)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            For this answer, we will ignore the advice from <xref ref="selecting-fastest-line-form"/> and use slope-intercept form.
+            First, we compute the slope: <m>m = \frac{9-5}{4-2} = \frac{4}{2} = 2.</m>
+            Our equation so far is <me>y = 2x + b.</me>
+            <xref ref="principle-slope-intercept-form"/> tells us that we cannot substitue for <m>x</m> or <m>y</m> in the <emph>final</emph> answer, but we need to do so temporarily to find the value of <b>b</b>.
+            We can use either point to find <m>b</m>. Let's use <m>(2,5)</m>.
+            Substituting <m>x=2</m> and <m>y=5</m> into <m>y = 2x + b</m>, we have <m>5 = 2(2) + b</m>.
+            Solving for <m>b</m>, we have <m>5 = 4 + b</m>, so <m>b = 1</m>.
+            Now that we found the value of <m>b</m>, we undo substituting for <m>x</m> and <m>y</m>.
+            So, the final answer is <m>y = 2x + 1</m>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            If we reset, the information we have is that the line goes through the point <m>(2,5)</m> and also through the point <m>(4,9)</m>.
+            Compute the slope: <m>m = \frac{9-5}{4-2} = \frac{4}{2} = 2.</m>
+            Now, we know two points and the slope. The note at the end of <xref ref="selecting-fastest-line-form"/> tells us that whenever we have a point, point-slope form is fastest.
+            One valid final answer is <m>y-5 = 2(x-2)</m> and another valid final answer is <m>y-9 = 2(x-4)</m>.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Find an equation for the line with slope <m>-\frac{8}{7}</m> with <m>y</m>-intercept <m>3</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since we know the slope and the <m>y</m>-intercept, we use slope-intercept form.
+            So, the equation is <m>y = -\frac{8}{7}x + 3</m>.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Find an equation for the line with slope <m>-\frac{8}{7}</m> with <m>x</m>-intercept <m>3</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Note that <m>b</m> is the <m>y</m>-intercept, not the <m>x</m>-intercept, so we cannot use slope-intercept form.
+            Instead, we use point-slope form.
+            Since <m>3</m> is the <m>x</m>-intercept, we know that the line goes through the point <m>(3,0)</m>.
+            So, we have a point and a slope, and we can use point-slope form.
+            An equation for this line is <m>y-0 = -\frac{8}{7}(x-3)</m>.
+          </p>
+        </answer>
+      </example>
+      Note that this question is very similar to the previous question, but the method to answer was different because we were given the <m>x</m>-intercept instead of the <m>y</m>-intercept.
+
+      <example xml:id="interpolation-preview">
+        <statement>
+          <p>
+            A line goes through the points <m>(30, 2)</m> and <m>(45, 9)</m>.
+            State the <m>y</m>-coordinate of the point on the line which has <m>x</m>-coordinate <m>100</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We will make an equation for the line first, based on the points  <m>(30, 2)</m> and <m>(45, 9)</m>.
+            The slope is <m>m = \frac{9-2}{45-30} = \frac{7}{15}</m>.
+            Using either point, we can get an equation for this line in point-slope form. Let's choose the first point, <m>(30,2)</m>.
+            So, an equation for the line is <m>y-2 = \frac{7}{15}(x-30)</m>.
+          </p>
+          <p>
+            Now that we have an equation for the line, every point <m>(x,y)</m> on the line must satisfy this equation, due to <xref ref="connection-graph-of-equation"/>.
+            So, we look for the point of the form <m>(100,y)</m> by substituting <m>x=100</m> into the equation for the line and getting the value of <m>y</m>.
+            So we have <m>y-2 = \frac{7}{15}(100-30)</m>, so <m>y= \frac{7}{15}(100-30)+2</m>. This is a value of <m>y</m>, though we have not simplified the arithmetic.
+          </p>
+        </answer>
+      </example>
+
+    </p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-parallel-perpendicular">
+    <title>Parallel and perpendicular lines</title>
+    
+    <principle xml:id="principle-parallel-lines">
+      <statement>
+        <p>
+          Two lines are parallel if and only if they have the same slope.
+        </p>
+      </statement>
+    </principle>
+    <principle xml:id="principle-perpendicular-lines">
+      <statement>
+        <p>
+          Two lines are perpendicular if and only if one slope is the opposite reciprocal of the other (meaning the product of their slopes is <m>-1</m>).
+        </p>
+      </statement>
+    </principle>
+
+    <example>
+      <statement>
+        <p>
+          Find an equation of the line that is parallel to the line <m>y = 3x + 5</m> and goes through the point <m>(2, 7)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the line we are looking for is parallel to the line <m>y = 3x + 5</m>, it must have the same slope, which is <m>3</m>.
+          So, we have a slope of <m>3</m> and a point on the line, <m>(2,7)</m>.
+          Using point-slope form, an equation for this line is <m>y-7 = 3(x-2)</m>.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Find an equation of the line that is perpendicular to the line <m>y = 3x + 5</m> and goes through the point <m>(2, 7)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Since the line we are looking for is perpendicular to the line <m>y = 3x + 5</m>, its slope must be the opposite reciprocal of the slope of the given line.
+          The slope of the given line is <m>3</m>, so the slope of the perpendicular line is <m>-\frac{1}{3}</m>.
+          So, we have a slope of <m>-\frac{1}{3}</m> and a point on the line, <m>(2,7)</m>.
+          Using point-slope form, an equation for this line is <m>y-7 = -\frac{1}{3}(x-2)</m>.
+        </p>
+      </answer>
+    </example>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+
+      <example>
+        <statement>
+          <p>
+            A studio apartment has a monthly rent of <m>\$600</m> in the year 2010. Its monthly rent is <m>\$875</m> in the year 2021. If the rent increases by the same amount each year, what would be the monthly rent in 2025? 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can think of the behavior as a line, and treat the data as two points on the line.
+            We choose to put the year on the <m>x</m>-axis and the rent on the <m>y</m>-axis. (We could swap these as well, but often time is put on the <m>x</m>-axis.)
+            So, we have the points <m>(2010,600)</m> and <m>(2021,875)</m>.
+            The slope is <m>m = \frac{875-600}{2021-2010} = \frac{275}{11} = 25</m>.
+            (So the rent increases by <m>\$25</m> each year.)
+            Since we have a slope and a point, we can use point-slope form to get an equation for the line.
+            Using the point <m>(2010,600)</m>, we have <m>y-600 = 25(x-2010)</m>.
+            To find out the rent in 2025, we substitute <m>x=2025</m> into the equation for the line and solve for <m>y</m>.
+            So, we have <m>y-600 = 25(2025-2010)</m>, so <m>y-600 = 25(15)</m>, so <m>y-600 = 375</m>, so <m>y = 975</m>.
+            The rent in 2025 was <m>\$975</m> per month.
+          </p>
+        </answer>
+      </example>
+      Note that the question we just answered had the same mathematical outline as <xref ref="interpolation-preview"/>, but with context.
+
+      <example>
+        <statement>
+          <p>
+            A car rental company charges <m>\$25</m> per day to rent a car, plus a one-time fee of <m>\$49</m> for insurance. If the final bill for renting a car is <m>\$174</m>, how many days was the car rented?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can think of the behavior as a line. If we let <m>x</m> be the number of days the car is rented, and <m>y</m> be the total cost, then we have a slope of <m>25</m> (the cost per day), and the <m>y</m>-intercept <m>49</m> given.
+            So, an equation for this line is <m>y=25x+49</m>.
+            Based on this equation, with a final bill of <m>174</m>, we can solve for <m>x</m> to find the number of days the car was rented.
+            So <m>174 = 25x + 49</m>, which gives <m>125 = 25x</m>, and thus <m>x = 5</m>.
+            The car was rented for 5 days.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            A local coffee shop sells drip coffee for <m>\$2.25</m> in 2020 and <m>\$2.75</m> in 2023. If the price of coffee increases by the same amount each year, what was the price back in 2015?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can think of the behavior as a line. If we let <m>x</m> be the number of years since 2015, and <m>y</m> be the price of coffee, then we have a slope of <m>\frac{2.75-2.25}{2023-2020} = \frac{0.50}{3} = \frac{1}{6}</m>, 
+            and the point <m>(2020, 2.25)</m>.
+            So, an equation for this line is <m>y -2.25 = \frac16(x-2020)</m>.
+            Based on this equation, we can solve for <m>y</m> when <m>x = 2015</m> to find the price in 2015.
+            So <m>y - 2.25 = \frac{1}{6}(2015-2020)</m> so <m>y - 2.25 = \frac{1}{6}(-5)</m> so <m>y - 2.25 = -\frac{5}{6}</m>.
+            Therefore, <m>y = - \frac{5}{6} + 2.25 = \frac{17}{12}</m>.
+            The price of coffee in 2015 was approximately <m>\$1.42</m>.
+          </p>
+        </answer>
+      </example>
+
+    </p>
+
+
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Every equation in <m>x</m> and <m>y</m> has a graph, and a point is on the graph of the equation if and only if its coordinates satisfy the equation.
+          </p>
+        </li>
+        <li>
+          <p>
+            The slope of a line is a measure of its steepness, calculated as the rise (which is the change in <m>y</m>) divided by the run (which is the change in <m>x</m>).
+          </p>
+        </li>
+        <li>
+          <p>
+            Point-slope and slope-intercept are two common forms of equations for lines. Point-slope form is useful when you know a point on the line and the slope, while slope-intercept form is useful when you know the slope and the <m>y</m>-intercept.
+          </p>
+        </li>
+        <li>
+          <p>
+            Parallel lines have the same slope, while perpendicular lines have slopes that are opposite reciprocals of each other.
+          </p>
+        </li>
+      </ol>    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Each exercise below gives an equation in <m>x</m> and <m>y</m> and a point. Determine if a point is on the graph of the equation.
+            <ol>
+              <li><p>Is <m>(3,5)</m> on the graph of <m>y = x^2 + 1</m>?</p></li>
+              <li><p>Is <m>(0,-1)</m> on the graph of <m>y = x^2 + 1</m>?</p></li>
+              <li><p>Is <m>(1,2)</m> on the graph of <m>x - y^2 = 3x - 1</m>?</p></li> <!-- Have various equations, not just parobolas and lines -->
+              <li><p>Is <m>(10,1)</m> on the graph of <m>y = x^2 - x + 1</m>?</p></li>
+              <li><p>Is <m>(10,91)</m> on the graph of <m>y = x^2 - x + 1</m>?</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Find an equation of the line with the given data. (The question asks for "an equation" instead of "the equation" because there are multiple correct answers.)
+            <ol>
+              <li><p>The line through <m>(2,3)</m> and <m>(4,17)</m></p></li>
+              <li><p>The line through <m>(0,0)</m> and <m>(1,1)</m></p></li>
+              <li><p>The line through <m>(-1,-1)</m> and <m>(2,5)</m></p></li>
+              <li><p>The line with slope <m>3</m> and <m>y</m>-intercept <m>5</m></p></li>
+              <li><p>The line with slope <m>3</m> and <m>y</m>-intercept <m>-5</m></p></li>
+              <li><p>The line with slope <m>-3</m> and <m>y</m>-intercept <m>5</m></p></li>
+              <li><p>The line with slope <m>-3</m> and <m>y</m>-intercept <m>-5</m></p></li>
+              <li><p>The line with slope <m>3</m> and <m>x</m>-intercept <m>5</m></p></li>
+              <li><p>The line with slope <m>3</m> and <m>x</m>-intercept <m>-5</m></p></li>
+              <li><p>The line with slope <m>-3</m> and <m>x</m>-intercept <m>5</m></p></li>
+              <li><p>The line with slope <m>-3</m> and <m>x</m>-intercept <m>-5</m></p></li>
+              <li><p> The line through <m>(2,3)</m> and with slope <m>-\frac1{17}</m></p></li>                
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>Find an equation perpendicular to <m>y = 2x + 3</m> going through the point <m>(38,19)</m>.</p>
+        </li>
+        <li>
+          <p>Find an equation parallel to <m>y = 2x + 3</m> going through the point <m>(38,19)</m>.</p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>
