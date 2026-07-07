@@ -828,7 +828,7 @@
       </p>
     </computation>
 
-    <example>
+    <example xml:id="factor-xsquaredplus11xplus24">
       <statement>
         <p>
           Factor <m>x^2+11x+24</m>.
@@ -976,7 +976,7 @@
       though in the geometric solution, we were looking for two expressions that multiply to <m>24x^2</m> and add to <m>11x</m>.
     </p>
 
-    <warning>
+    <warning xml:id="warning-factor-only">
       <p>
         When the task is to factor, just factor. Do not factor followed by setting the expression equal to zero.
         There is a process we will see later where factoring is the first step.
@@ -994,7 +994,7 @@
 
 
 
-    <example>
+    <example xml:id="factor-xsquaredminus12xplus35">
       <statement>
         <p>
           Factor <m>x^2-12x+35</m>.
@@ -1466,7 +1466,7 @@
       While that earlier warning focused on what we <emph>can't</emph> do, the formula just shown focuses on what we <emph>can</emph> do in this situation.
     </p>
 
-    <example>
+    <example xml:id="factor-xsquaredplus6xplus9">
       <statement>
         <p>
           Factor <m>x^2 + 6x + 9</m>.
@@ -2354,7 +2354,7 @@
       Then, answer the question you created.
     </p>
 
-    <example>
+    <example xml:id="factor-xcubed-plus-5x-squared-plus-2x-plus-10">
       <statement>
         <p>
           Factor <m>x^3 + 5x^2 + 2x + 10</m>.
@@ -3158,7 +3158,7 @@
     </example>
 
 
-    <example>
+    <example xml:id="factor-6xsquared-minus-7x-minus-20">
       <statement>
         <p>
           Factor <m>6x^2-7x-20</m>.

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratic-equations-factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Equations: factoring</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Solve quadratic equations by factoring.</p></li>
+    </ol>
+	</objectives>
+
+
+	<subsection>
+		<title>The Zero Product Property</title>
+
+    <p>
+      Recall a general idea discussed earlier in <xref ref="equations-with-variable-written-more-than-once"/>:when solving an equation where the variable appears more than once, we need to factor.
+      (On a practical level, we need to factor because we need to get to place where the variable is only written once.)
+      Even in a problem like <m>3x+8x=25</m>, the step of combinining like terms and getting <m>11x=25</m> is a form of factoring: 
+      Starting from <m>3x+8x=25</m>, we can factor out the <m>x</m> to get <m>(3+8)x=25</m>, which becomes <m>11x=25</m>.
+      We look at applying factoring to solve new types of equations called quadratic equations.
+    </p>
+
+    <p>
+      This section is about solving quadratic equations by factoring.
+      By a quadratic equation, we mean that we have an equation (so there is an equal sign), and we only have terms that are constants (that is, numbers without variables), 
+      terms that are linear (that is, terms with a variable raised to the first power), and terms that are quadratic (that is, terms with a variable raised to the second power).
+      In other words, we have an equation where the highest power of the variable is <m>2</m>.
+      Examples of quadratic equations include <m>x^2-9=0</m> and <m>x^2+3x-4=0</m> and <m>2x^2-5x+3=0</m> and <m>x^2+3x-4=5</m> and <m>4x^2-8x+9=3x^2+2x+8</m>.
+      Examples of equations that are not quadratic include <m>x^3-9=0</m> and <m>2x^3-5x+3=7</m>: in both of these examples, the highest power is <m>3</m>, so these are cubic equations, not quadratic equations.
+
+      <principle xml:id="principle-zpp">
+        <title>The Zero Product Property</title>
+        <p>
+          If <m>a \cdot b = 0</m>, then <m>a=0</m> or <m>b=0</m>.
+        </p>
+      </principle>
+      
+      In words, say we are in the situation that we have an equation,
+      where one side is a product of two quantities (labeled <m>a</m> and <m>b</m> above),
+      while the other side is zero.
+      Then we can conclude that at least one of the two quantities must be zero.
+      <principle xml:id="principle-using-zpp">
+        <title>How to use the Zero Product Property</title>
+        <statement>
+          <p>
+            First ensure that we are in the situation described by <m>a \cdot b = 0</m>.
+            <ol>
+              <li>
+                <p>
+                  Check that we have an <em>equation</em> to solve, not an <em>expression</em> to simplify.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Check that one side of the equation is a product. 
+                  In other words, this side should be the result of multiplying two quantities together (we have labeled these factors <m>a</m> and <m>b</m> above).
+                  We have a product if reading the expression on this side of the equation according to Order of Operations, a multiplication that is present in the expression is the <em>last</em> operation that would be performed.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Check that the other side of the equation is zero.
+                </p>
+              </li>
+            </ol>
+            After verifying all three conditions, one line later, write two equations on the same line with the word "or" in between:
+            the equations we write are each factor is set equal to zero.
+          </p>
+        </statement>
+      </principle>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>(x+8)(x-20)=0</m>.      
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We have an equation.
+            One side is a product, since the multiplication is the last operation to be performed.
+            The product has factors <m>x+8</m> and <m>x-20</m>.
+            The other side of the equation is zero.
+            Therefore, the Zero Product Property applies, and our next line of work to write is 
+            <me>x+8=0 \text{ or } x-20=0.</me>
+            Subtract <m>8</m> on both sides of the first equation and add <m>20</m> on both sides of the second equation to get
+            <me>x=-8 \text{ or } x=20.</me>
+          </p>
+        </answer>
+      </example>
+      We can check our work. If we substitute <m>x=-8</m> into the original equation, the right side is already <m>0</m> without doing any substitutions (there are no <m>x</m>'s to substitute on the right side), while the left side is <m>(-8+8)(-8-20)=0\cdot(-28)=0</m>, so the equation is satisfied.
+      If we substitute <m>x=20</m> into the original equation, the right side is still <m>0</m>, while the left side is <m>(20+8)(20-20)=28\cdot0=0</m>, so the equation is satisfied.
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>(2x+1)(x-3)=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We have an equation where one side is a product and the other side is zero. By the Zero Product Property,
+            <me>2x+1=0 \text{ or } x-3=0.</me>
+            Subtract <m>1</m> on both sides of the first equation and add <m>3</m> on both sides of the second equation:
+            <me>2x=-1 \text{ or } x=3.</me>
+            Divide both sides of the first equation by <m>2</m> and leave the second equation alone:
+            <me>x=-\frac{1}{2} \text{ or } x=3.</me>
+          </p>
+        </answer>
+      </example>
+
+      It is important to not fall into the trap of thinking that the Zero Product Property only applies when each factor is a binomial. The factors can be any expressions: as long as one side is a product and the other side is zero, the Zero Product Property applies.
+      This example helps illustrate this point.
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x(x-7)=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We have an equation where one side is a product and the other side is zero. The factors are <m>x</m> and <m>x-7</m>.
+            If you wish to have more convincing, you can write the equation as <m>(x) \cdot (x-7)=0</m>.
+            The point to illustrate here is that it's not about whether a factor is in parentheses or not: the point to make is that we need factors, the result of multiplication.
+            By the Zero Product Property,
+            <me>x=0 \text{ or } x-7=0.</me>
+            Add <m>7</m> on both sides of the second equation to get
+            <me>x=0 \text{ or } x=7.</me>
+          </p>
+        </answer>
+      </example>
+      Since this feels like an "unusual" example, to convince ourselves that the Zero Product Property applied validly, we can check our work. 
+      If we substitute <m>x=0</m> into the original equation, the right side is already <m>0</m> without doing any substitutions (there are no <m>x</m>'s to substitute on the right side), while the left side is <m>(0)(0-7)=0\cdot(-7)=0</m>, so the equation is satisfied.
+      If we substitute <m>x=7</m> into the original equation, the right side is still <m>0</m>, while the left side is <m>(7)(7-7)=7\cdot0=0</m>, so the equation is satisfied.
+
+      <warning>
+        <p>
+          The Zero Product Property only applies when one side of the equation is a product and the other side is zero.
+          If we have an equation where one side is a product and the other side is not zero, we cannot use the Zero Product Property.
+          For example, if we have <m>x(x-1)=20</m>, we cannot conclude that <m>x=20</m> or <m>x-1=20</m>.
+        </p>
+        <p>
+          Suppose somebody tried this. Then they would conclude <m>x=20</m> or <m>x=21</m> by adding <m>1</m> to both sides of <m>x-1=20</m>.
+        </p>
+        <p>
+          But did this work? That is, is it true that <m>x=20</m> or <m>x=21</m> should be our final answer <m>x(x-1)=20</m>? With any equation, we can check to see if the left and the right sides equal.
+          <ol>
+            <li>
+              <p>
+                If <m>x=20</m>, then the left side is <m>20(20-1)=20(19)=380</m>, while the right side is <m>20</m>. These are not equal, so <m>x=20</m> is not a solution.
+              </p>
+            </li>
+            <li>
+              <p>
+                If <m>x=21</m>, then the left side is <m>21(21-1)=21(20)=420</m>, while the right side is <m>20</m>. These are not equal, so <m>x=21</m> is not a solution.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </warning>
+      The warning above tells us that there is no "Twenty Product Property". The name itself (Zero Product Property) is a helpful reminder. If we don't see that zero on one side of the equation, we should avoid trying to "split up" an equation at the multiplication sign.
+      For the equation <m>x(x-1)=20</m>, what can we do instead?
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x(x-1)=20</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Distributing on the left side, we have <m>x^2-x=20</m>.
+            Subtract <m>20</m> on both sides to get <m>x^2-x-20=0</m>.
+            The left side is an expression which factors.
+            <figure>
+              <caption>Initial area model figure</caption>
+              <image width="25%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,0) rectangle (4,3);
+                      \draw (2,0) -- (2,3);
+                      \draw (0,1.5) -- (4,1.5);
+                      \node at (1,2.25) {$x^2$};
+                      \node at (3,0.75) {$-20$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+            We consider the product of the first term and last term, <m>-20 \cdot x^2</m>. 
+            Let's list all pairs of factors of <m>-20x^2</m> where each factor contains an <m>x</m>:
+            <ul>
+              <li>
+                <p>
+                  <m>1x</m> and <m>-20x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2x</m> and <m>-10x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4x</m> and <m>-5x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5x</m> and <m>-4x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10x</m> and <m>-2x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>20x</m> and <m>-1x</m>
+                </p>
+              </li>
+            </ul>
+            The pair that adds to <m>-1x</m> is <m>4x</m> and <m>-5x</m>, so we update the area model:
+            <figure>
+              <caption>Completed area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,0) rectangle (4,3);
+                      \draw (2,0) -- (2,3);
+                      \draw (0,1.5) -- (4,1.5);
+                      \node at (1,2.25) {$x^2$};
+                      \node at (3,0.75) {$-20$};
+                      \node at (3, 2.25) {$4x$}; % upper right area
+                      \node at (1,0.75) {$-5x$}; % lower left area
+                      %
+                      \node at (-.5,2.25) {$x$};
+                      \node at (1,3.25) {$x$};
+                      \node at (-.5,0.75) {$-5$}; % 2nd vertical side
+                      \node at (3,3.25) {$4$}; % 2nd horizontal side
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+            Replacing the previous left side <m>x^2-x-20</m> with the factored form <m>(x-5)(x+4)</m>, we have <m>(x-5)(x+4)=0</m>.
+            By the Zero Product Property, we have <me>x-5=0 \text{ or } x+4=0.</me>
+            So <me>x=5 \text{ or } x=-4.</me>
+          </p>
+        </answer>
+      </example>
+
+      Our next example relies on work from an earlier section.
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2+11x+24=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            From the factoring result in <xref ref="factor-xsquaredplus11xplus24"/>, we have <m>(x+3)(x+8)=0</m>.
+            By the Zero Product Property, we have <me>x+3=0 \text{ or } x+8=0.</me>
+            So <me>x=-3 \text{ or } x=-8.</me>
+          </p>
+        </answer>
+      </example>
+      When we had <xref ref="factor-xsquaredplus11xplus24"/> which only asked us to factor the expression <m>x^2+11x+24</m>,
+      we added <xref ref="warning-factor-only"/> right after to just factor if the task was to factor an <em>expression</em>, 
+      and promised that a later section would discuss how to use factoring to solve an <em>equation</em>.
+      This is that moment.
+      This discussion doesn't really have to be memorized on its own: 
+      it's part of the bigger discussion of keeping track of what the task is asking, and remembering the difference between an expression and an equation.
+      When the math notation given to us is an expression, we can only rewrite it in different forms (by simplifying or factoring, for example), but we cannot solve it.
+      The task of <em>solving</em> is left to equations: when we start with an equation, a final answer is in the format of a solved equation: one or more equations of the format where the variable is alone on one side, and a number (without the variable) is alone on the other side.
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2-12x+35</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            From the factoring result in <xref ref="factor-xsquaredminus12xplus35"/>, we have <m>(x-5)(x-7)=0</m>.
+            By the Zero Product Property, we have <me>x-5=0 \text{ or } x-7=0.</me>
+            So <me>x=5 \text{ or } x=7.</me>
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2+6x+9=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            From the factoring result in <xref ref="factor-xsquaredplus6xplus9"/>, we have <m>(x+3)(x+3)=0</m>.
+            By the Zero Product Property, we have <me>x+3=0 \text{ or } x+3=0.</me>
+            So <me>x=-3 \text{ or } x=-3.</me>
+            We can leave our final answer as is, or write this as a single solution: <me>x=-3.</me>
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2-9=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            By factoring the left side, <m>(x-3)(x+3)=0</m>.
+            By the Zero Product Property, we have <me>x-3=0 \text{ or } x+3=0.</me>
+            So <me>x=3 \text{ or } x=-3.</me>
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^3+5x^2+2x+10=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In <xref ref="factor-xcubed-plus-5x-squared-plus-2x-plus-10"/>, we factored the expression on the left side using Factoring By Grouping.
+            Borriwng from that work, <m>(x^2+2)(x+5)=0</m>.
+            By the Zero Product Property, we have <me>x^2+2=0 \text{ or } x+5=0.</me>
+            So <me>x^2=-2 \text{ or } x=-5.</me>
+            The first equation has no real solutions, so our only real solution is <me>x=-5.</me>
+          </p>
+        </answer>
+      </example>
+      While this section focuses on solving quadratic equations, the technique of factoring (by grouping) together with the Zero Product Property allowed us to solve this cubic equation.
+
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>6x^2-7x-20=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In <xref ref="factor-6xsquared-minus-7x-minus-20"/>, we factored the expression on the left side.
+            Borrowing from that work, <m>(3x+4)(2x-5)=0</m>.
+            By the Zero Product Property, we have <me>3x+4=0 \text{ or } 2x-5=0.</me>
+            So <me>3x=-4 \text{ or } 2x=5.</me>
+            Dividing both sides of the first equation by <m>3</m> and both sides of the second equation by <m>2</m>, we have
+            <me>x=-\frac{4}{3} \text{ or } x=\frac{5}{2}.</me>
+          </p>
+        </answer>
+      </example>
+
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Extensions and cautions</title>
+
+    <p>
+      <principle xml:id="principle-zpp-extended">
+        <title>The Zero Product Property: three factor version</title>
+        <p>
+          If <m>a \cdot b \cdot c = 0</m>, then <m>a=0</m> or <m>b=0</m> or <m>c=0</m>.
+        </p>
+      </principle>
+      This is an extended version of the Zero Product Property. There is a four factor version, and a five factor version, and so on.
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>(x-1)(x+2)(x-3)=0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We have an equation where one side is a product and the other side is zero. The factors are <m>x-1</m>, <m>x+2</m>, and <m>x-3</m>.
+            By the Zero Product Property, we have 
+            <me>x-1=0 \text{ or } x+2=0 \text{ or } x-3=0.</me>
+            So <me>x=1 \text{ or } x=-2 \text{ or } x=3.</me>
+          </p>
+        </answer>
+      </example>
+    </p>    
+
+    <p>
+      <warning>
+        <p>
+          Please note that the Zero Product Property does not apply when we have a sum. In other words, we cannot turn <m>(x+6)+(x+20)</m> into <m>x+6=0</m> or <m>x+20=0</m>.
+          The left side is a sum, not a product.
+        </p>
+      </warning>
+    </p>
+
+    <p>
+      Finally, the techniques of this section are largely for <em>quadratic</em> equations.
+      If we have an equation like <m>3x+8=10x-12</m>, then note that there is no quadratic term.
+      Instead of the techniques from this section, examine <xref ref="sec-solving-equations"/>, especially the technique from
+      <xref ref="equations-with-variable-written-more-than-once"/>.
+    </p>
+
+  </subsection>
+
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            The Zero Product Property applies to an equation when we have a product equal to zero.
+          </p>
+        </li>
+        <li>
+          <p>
+            The Zero Product Property does not apply when we do not have a product.
+          </p>
+        </li>
+        <li>
+          <p>
+            The Zero Product Property does not apply when we have a product, but that product is not equal to zero.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Solve each equation by factoring.
+            <ol>
+              <li><p><m>x(x-56)=0</m></p></li>
+              <li><p><m>x(x-1)=56</m></p></li>
+              <li><p><m>x^2+6x+9=0</m></p></li>
+              <li><p><m>x^2-9=0</m></p></li>
+              <li><p><m>x^2+5x+6=0</m></p></li>
+              <li><p><m>x^2-5x+6=0</m></p></li>
+              <li><p><m>x^2-7x+12=0</m></p></li>
+              <li><p><m>x^2+8x+15=0</m></p></li>
+              <li><p><m>x^2-10x+25=0</m></p></li>
+              <li><p><m>x^2+4x=5</m></p></li>
+              <li><p><m>x^2-6x+8=0</m></p></li>
+              <li><p><m>x^2+3x-10=0</m></p></li>
+              <li><p><m>x^2-12x+36=0</m></p></li>
+              <li><p><m>x^2+7x+12=0</m></p></li>
+              <li><p><m>x^3+2x^2+3x+6=0</m></p></li>
+              <li><p><m>2x^3+4x^2+3x+6=0</m></p></li>
+              <li><p><m>x^3-3x^2+2x-6=0</m></p></li>
+              <li><p><m>3x^3-6x^2+2x-4=0</m></p></li>
+              <li><p><m>x^3+5x^2+6x+30=0</m></p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>

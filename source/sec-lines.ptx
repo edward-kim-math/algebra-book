@@ -459,7 +459,7 @@
         </image>
         <caption>The line through <m>(-3,2)</m> and <m>(4,10)</m></caption>
       </figure>
-      Since lines go on forover in both directions, this drawing of a line (like all drawings of lines) include arrows on each end to indicate that the drawing goes on forever.
+      Since lines go on forever in both directions, this drawing of a line (like all drawings of lines) include arrows on each end to indicate that the drawing goes on forever.
     </p>
     <p>
       Next is the line from <xref ref="example-negative-slope"/>, which has negative slope.
@@ -861,6 +861,7 @@
             a point on the line is <m>(0, -8)</m>.
           </p>
         </answer>
+        Note that the slope is <m>\frac34</m> and not <m>\frac34x</m>. The slope is the number <em>in front of</em> the <m>x</m>, but excluding the <m>x</m> itself.
       </example>      
 
       <!-- Strategy -->
