@@ -313,7 +313,7 @@
         </answer>
       </example>
 
-      <example>
+      <example xml:id="solve-xsquared-minus9equals0">
         <statement>
           <p>
             Solve the equation <m>x^2-9=0</m>.

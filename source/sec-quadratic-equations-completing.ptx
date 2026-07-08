@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-quadratic-equations-completing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic equations: completing the square</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>.</p></li>
+			<li><p>.</p></li>
+			<li><p>.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection xml:id="subsec-no-linear-term">
+    <title>Special case: no linear term</title>
+    <p>
+      The last section gave a general method for solving quadratic equations using the method of factoring.
+      We now introduce a method that works in the special case that our quadratic equation doesn't have a linear term.
+      As a reminder, in general, the kinds of terms that can appear are quadratic, linear, and constant.
+      A quadratic term has <m>x^2</m>, 
+      while a linear term has <m>x</m> to the first power (with the power usually omitted), 
+      and a constant term is a term that does not have the variable at all.
+      For example, <m>8x^2 + 7x - 60=0</m> has a quadratic term, linear term, and constant term.
+      By contrast, <m>8x^2-60=0</m> has a quadratic term and a constant term, but no linear term.
+
+      <!-- Strategy -->
+      <computation xml:id="quadratic-no-linear-term">
+        <title>Solving a quadratic equation with no linear term</title>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <alert>When does this strategy apply?</alert> 
+                This strategy applies in any equation we are asked to solve a quadratic equation that does not have a linear term.
+              </p>
+            </li>
+            <li>
+              <p>
+                <alert>How to apply the strategy</alert>
+                <ol>
+                  <li>
+                    <p>
+                      Step 1: add and subtract on both sides so that the quadratic term and constant term appear on opposite sides of the equation.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Step 2: square root both sides. (The first step in which square rooting occurs on both sides needs to have the plus-or-minus sign. While this symbol can be placed on either side, it is more convenient to put this on the side that does not have the variable.)
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </computation>
+      
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2-9=0</m>.          
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since the equation has no linear term, we can apply <xref ref="quadratic-no-linear-term"/>.
+            Adding <m>9</m> to both sides, <me>x^2=9.</me>
+            Step 2 of the strategy tells us to square root both sides and introduce a plus-or-minus sign: <me>\sqrt{x^2} = \pm \sqrt{9}.</me>             
+            Note, it would be slightly incorrect if before aforementioned equation we had written <me>\sqrt{x^2} = \sqrt{9}.</me>
+            From <m>\sqrt{x^2} = \pm \sqrt{9}</m>, we simplify each side independently to get <m>x= \pm3</m>.           
+          </p>
+        </answer>
+      </example>
+      Getting our final answer to be <m>x=\pm3</m> (which is read aloud "<m>x</m> equals plus or minus <m>3</m>") is equivalent to the final answer 
+      <m>x=3 \text{ or } x = -3</m> given earlier in <xref refid="solve-xsquared-minus9equals0"/>.
+    </p>
+
+    <principle>
+      <title>Expectation when square rooting both sides of an equation</title>
+      <p>
+        In the very first step in which the action of square rooting happens on both sides of an equation (even in the case when the action is indicated in the previous step's work), 
+        a plus-or-minus sign must appear on one side or other side of the equation.
+      </p>
+    </principle>
+
+    <warning>
+      <p>
+        A square root sign occurs when square rooting both sides of an <em>equation</em>,
+        but when simplify an <em>expression</em> that has a square root symbol, a plus-or-minus sign is never artificially introduced into the problem.
+      </p>
+    </warning>
+    <p>
+      For example, when we simplified <m>\sqrt{18}</m> in <xref ref="simplify-sqrt18"/>, we never wrote the <m>\pm</m> symbol.
+    </p>
+    <p>
+      To be sure that we understand the concepts that we have introduced, let's answer the following questions:
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\sqrt{20}</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\sqrt{20}=\sqrt{4 \cdot 5} = \sqrt{4} \cdot \sqrt{5} = 2\sqrt{5}</m>
+          </p>
+          <p>
+            We never performed the action of square rooting both sides of an equation, so that's why there is no plus-or-minus sign anywhere in our work.
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2 + 1= 20</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Subtracting <m>1</m> on both sides, <me>x^2=19.</me>
+            Square rooting both sides, <me>\sqrt{x^2} = \pm \sqrt{19}</me> which simplifies to <me>x = \pm \sqrt{19}</me>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            Subtracting <m>1</m> on both sides, <me>x^2=19.</me>
+            Square rooting both sides, <me>x = \pm \sqrt{19}.</me>
+            In this answer, did not show the step that indicates the square rooting on both sides: just the result.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            We provide an answer without commentary:
+            <me>x^2 + 1 = 20</me>
+            <me>x^2 = 19</me>
+            <me>\sqrt{x^2} = \pm\sqrt{19}</me>
+            <me>x = \pm \sqrt{19}</me>
+          </p>
+        </answer>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Find the error in this written work:
+            <me>x^2 + 1 = 20</me>
+            <me>\sqrt{x^2} = \sqrt{19}</me>
+            <me>x = \pm \sqrt{19}</me>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            There are three equations. The middle equaton looks like someone first had written <m>x^2=19</m> but then added work on top of that line by writing in square roots on both sides, but without having a plus-or-minus sign on that line of work.
+            The <em>first</em> line of writing that has square rooting on both sides needs the plus-or-minus sign.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>(x-6)^2=19</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Square rooting both sides, <me>x-6 = \pm \sqrt{19}</me>
+            Adding <m>6</m> to both sides, <me>x = 6 \pm \sqrt{19}</me>
+          </p>
+        </answer>
+      </example>
+
+
+      <example>
+        <statement>
+          <p>
+            Solve <m>(x-6)^2=19</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Square rooting both sides, <me>x-6 = \pm \sqrt{19}</me>
+            Adding <m>6</m> to both sides, <me>x = 6 \pm \sqrt{19}</me>
+          </p>
+        </answer>        
+      </example>
+
+      <example>
+        <statement>
+          <p>
+            Solve <m>(x+3)^2=5</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Square rooting both sides, <me>x+3 = \pm \sqrt{5}</me>
+            Adding <m>-3</m> to both sides, <me>x = -3 \pm \sqrt{5}</me>
+          </p>
+        </answer>
+      </example>
+
+    </p>
+
+  </subsection>
+
+	<subsection>
+		<title>Completing the square of the area model</title>
+
+    <p>
+      Recall from <xref ref="geometric-addition"/> that addition is represented by gluing sticks together, 
+      and from <xref ref="geometric-multiplication"/> that multiplication is represented by the area of a rectangle.
+      <example>
+        <statement>
+          <p>
+            Geometrically justify <m>(a+b)(c+d)=ac+ad+bc+bd</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The left side represents the area of a rectangle with sides <m>(a+b)</m> and <m>(c+d)</m>.
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,0) rectangle (4,3);
+                      \draw (2,0) -- (2,3);
+                      \draw (0,1.5) -- (4,1.5);
+                      \node at (1,2.25) {$ac$};
+                      \node at (3,0.75) {$ad$};
+                      \node at (3, 2.25) {$bc$}; % upper right area
+                      \node at (1,0.75) {$bd$}; % lower left area
+                      %
+                      \node at (-.5,2.25) {$a$};
+                      \node at (1,3.25) {$b$};
+                      \node at (-.5,0.75) {$c$}; % 2nd vertical side
+                      \node at (3,3.25) {$d$}; % 2nd horizontal side
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+
+
+    <principle>
+      <title>text</title>
+      <p>
+        text
+      </p>
+    </principle>
+
+    <example>
+      <statement>
+        <p>
+          Statement text       
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Solution text
+        </p>
+      </solution>
+    </example>
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Text
+        </p>
+      </statement>
+      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
+    </exercise>
+
+    <note>
+      <p>
+        Text
+      </p>
+    </note>
+
+    <assemblage>
+      <title>Title</title>
+      <p>
+        Text
+      </p>
+    </assemblage>
+
+    <warning>
+      <p>
+        text
+      </p>
+    </warning>
+
+		<investigation>
+      <idx><h>knights and knaves</h></idx>
+      <idx><h>puzzle</h><h>knights and knaves</h></idx>
+      <p>
+        While walking through a fictional forest,
+        you encounter three trolls guarding a bridge.
+        Each is either a <em>knight</em>,
+        who always tells the truth, or a
+        <em>knave</em>, who always lies.
+        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
+        Each troll makes a single statement:
+      </p>
+
+      <blockquote>
+        <p>
+          Troll 1: If I am a knave, then there are exactly two knights here.
+        </p>
+
+        <p>
+          Troll 2: Troll 1 is lying.
+        </p>
+
+        <p>
+          Troll 3: Either we are all knaves, or at least one of us is a knight.
+        </p>
+      </blockquote>
+
+      <p>
+        Which troll is which?
+        <idx><h>self reference</h><see>reference, self</see></idx>
+        <idx><h>reference, self</h><see>self reference</see></idx>
+      </p>
+		</investigation>
+
+    <!-- Strategy -->
+    <computation>
+      <title>Solving an equation with fractions</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <alert>When does this strategy apply?</alert> 
+              This strategy applies in any equation we are asked to solve when there is one or more fractions.
+            </p>
+          </li>
+          <li>
+            <p>
+              <alert>How to apply the strategy</alert>
+              <ol>
+                <li>
+                  <p>
+                    Step 1 text
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Step 2 text
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
+                    (Because we have to multiply the entire left side and the entire right side, 
+                    it may be necessary to use parentheses due to the Order of Operations.)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    On each side, distribute if applicable.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    In each term on each side, cancel where applicable.
+                    This always results in an equation which has no fractions.
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </computation>
+
+
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
+        </p>
+      </statement>
+      <response />
+    </exercise>
+
+		<definition>
+			<title>Argument</title>
+			<idx><h>argument</h></idx>
+			<idx><h>premise</h></idx>
+			<idx><h>conclusion</h></idx>
+			<idx><h>valid</h></idx>
+			<idx><h>sound</h></idx>
+			<idx><h>proof</h></idx>
+			<statement>
+				<p>
+					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
+					<idx><h>premises</h></idx>
+				</p>
+
+				<p>
+					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
+					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
+				</p>
+
+				<p>
+					An argument is <term>sound</term> provided it is valid and all the premises are true.
+					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
+				</p>
+			</statement>
+		</definition>
+
+		<aside>
+		<p>
+			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
+		</p>
+		</aside>
+
+		<example>
+			<idx><h>cookie</h></idx>
+			<statement>
+				<p>
+					Consider the following two arguments:
+				</p>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Edith eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Edith gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>Florence must eat her vegetables to get a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Florence eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Florence gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<p>
+					(The symbol <q><m>\therefore</m></q>
+					<notation>
+					<usage><m>\therefore</m></usage>
+					<description><q>therefore</q></description>
+					</notation>
+					means <q>therefore</q>)
+				</p>
+
+				<p>
+					Are these arguments valid?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					Do you agree that the first argument is valid but the second argument is not?
+					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
+				</p>
+
+				<p>
+					Notice the two arguments look almost identical.
+					Edith and Florence both eat their vegetables.
+					In both cases, there is a connection between the eating of vegetables and cookies.
+					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
+					The difference must be in the connection between eating vegetables and getting cookies.
+					We need to be skilled at reading and comprehending these sentences.
+					Do the two sentences mean the same thing?
+				</p>
+
+				<p>
+					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
+					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
+					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
+					In mathematics, we never get that luxury.
+				</p>
+			</solution>
+		</example>
+
+		<remark>
+			<p>
+				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
+				And even if you don't want to give your grandmother a cookie.
+				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
+				You better have a good argument that it is!
+			</p>
+		</remark>
+
+
+
+  </subsection>
+
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Text
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Answer
+        </p>
+      </solution>
+    </example>
+
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>

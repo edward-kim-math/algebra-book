@@ -1627,7 +1627,7 @@
       </p>
     </note>
 
-    <example>
+    <example xml:id="simplify-sqrt18">
       <statement><p>Simplify <m>\sqrt{18}</m>.</p></statement>
       <solution>
         <p>
