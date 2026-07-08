@@ -10,9 +10,9 @@
 			</p>
 		</introduction>
 		<ol>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
+			<li><p>Solve quadratic equations without a linear term.</p></li>
+			<li><p>Solve quadratic equations by completing the square when the qudratic coefficient is <m>1</m>.</p></li>
+			<li><p>Solve quadratic equations by completing the square when the qudratic coefficient is not <m>1</m>.</p></li>
     </ol>
 	</objectives>
 
@@ -80,7 +80,7 @@
       <m>x=3 \text{ or } x = -3</m> given earlier in <xref refid="solve-xsquared-minus9equals0"/>.
     </p>
 
-    <principle>
+    <principle xml:id="pm-when-square-rooting-both-sides">
       <title>Expectation when square rooting both sides of an equation</title>
       <p>
         In the very first step in which the action of square rooting happens on both sides of an equation (even in the case when the action is indicated in the previous step's work), 
@@ -156,7 +156,7 @@
         </statement>
         <answer>
           <p>
-            There are three equations. The middle equaton looks like someone first had written <m>x^2=19</m> but then added work on top of that line by writing in square roots on both sides, but without having a plus-or-minus sign on that line of work.
+            There are three equations. The middle equaton looks like someone first had written <m>x^2=19</m> but then afterward added work on top of that line by writing in square roots on both sides, but without having a plus-or-minus sign on that line of work.
             The <em>first</em> line of writing that has square rooting on both sides needs the plus-or-minus sign.
           </p>
         </answer>
@@ -212,7 +212,7 @@
   </subsection>
 
 	<subsection>
-		<title>Completing the square of the area model</title>
+		<title>Area model: square-focused exploration</title>
 
     <p>
       Recall from <xref ref="geometric-addition"/> that addition is represented by gluing sticks together, 
@@ -241,8 +241,8 @@
                       \node at (1,0.75) {$bd$}; % lower left area
                       %
                       \node at (-.5,2.25) {$a$};
-                      \node at (1,3.25) {$b$};
-                      \node at (-.5,0.75) {$c$}; % 2nd vertical side
+                      \node at (1,3.25) {$c$};
+                      \node at (-.5,0.75) {$b$}; % 2nd vertical side
                       \node at (3,3.25) {$d$}; % 2nd horizontal side
                     \end{tikzpicture}
                   ]]>
@@ -252,295 +252,792 @@
           </p>
         </answer>
       </example>
+      While the above is (generically) a rectangle, and each of the four panels are meant to represent rectangles, this section will focus on the geometry of squares.
+      <example>
+        <statement>
+          <p>
+            Draw <m>x \cdot x</m>, also known as <m>x^2</m>.          
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression <m>x \cdot x</m> represents the area of a square with side length <m>x</m>.
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="20%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,0) rectangle (3,3);
+                      \node at (1.5,1.5) {$x^2$};
+                      \node at (1.5,3.5) {$x$};
+                      \node at (-.5,1.5) {$x$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
+      While we can say "<m>x</m> to the power <m>2</m>" for <m>x^2</m>, the reason we can also say "<m>x</m> squared" is because <m>x^2</m> represents the area of a square with side length <m>x</m>.
+      <example>
+        <statement>
+          <p>
+            Draw <m>(x+y)(x+y)</m>, and show the contribution of each term in the expanded form.        
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression <m>(x+y)(x+y)</m> is also <m>(x+y)^2</m> and this represents the area of a square with side length <m>x+y</m>.
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$y^2$};
+                      \node at (1.5,.5) {$xy$}; % upper right area
+                      \node at (-.5,-1.5) {$xy$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$y$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$y$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
+      Instead of having two variables <m>x</m> and <m>y</m>, this section will focus on <m>x</m> together with a number such as <m>5</m>:
+      <example>
+        <statement>
+          <p>
+            Draw <m>(x+5)(x+5)</m>, and show the contribution of each term in the expanded form.        
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression <m>(x+5)(x+5)</m> is also <m>(x+5)^2</m> and this represents the area of a square with side length <m>x+5</m>.
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$25$};
+                      \node at (1.5,.5) {$5x$}; % upper right area
+                      \node at (-.5,-1.5) {$5x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$5$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$5$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
     </p>
-    
+    <p>
+      It is important to note that we can also do this "backwards". We can start from a diagram, and then write the corresponding algebraic expression.
+      <example>
+        <statement>
+          <p>
+            Write the corresponding algebraic expression for the following diagram:
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$49$};
+                      \node at (1.5,.5) {$7x$}; % upper right area
+                      \node at (-.5,-1.5) {$7x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$7$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$7$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In the picture above, we see <m>(x+7)^2 = (x+7)(x+7) = x^2 + 7x + 7x + 49 = x^2+14x + 49</m>.
+          </p>
+        </answer>
+      </example>
+      In the last example, we see the height and the width of the square are both <m>x+7</m>.
+      The height and the width (which are both sums) correctly depict what <xref ref="geometric-addition"/> says: adding is represented by gluing sticks together.
+      There is a stick of mystery length (labeled <m>x</m>) glued to a second stick of length <m>7</m> to make a total length of <m>x+7</m>.
+      We will take this example to introduce the useful terminology we will use in the rest of this section:
+      <ul>
+        <li>
+          <p>
+            The length of the <term>first stick</term> is <m>x</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The length of the <term>second stick</term> is <m>7</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The <term>linear coefficient</term> is <m>14</m>, double the length of the second stick. (The linear coefficent refers to the number in front of <m>x</m>, excluding the <m>x</m> itself.)
+          </p>
+        </li>
+        <li>
+          <p>
+            The <term>constant</term> is <m>49</m>, the square of the length of the second stick.
+          </p>
+        </li>
+      </ul>
+      We will typically get quadratic expressions where we need to think of splitting up the linear term into two equal-sized pieces (to represent the rectangles drawn in the upper right and lower left). For example:
+      <example>
+        <statement>
+          <p>
+            Rewrite <m>x^2 + 20x + 100</m> and draw the corresponding area model.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>x^2 + 20x + 100 = x^2 + 10x + 10x + 100</m>.
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$100$};
+                      \node at (1.5,.5) {$10x$}; % upper right area
+                      \node at (-.5,-1.5) {$10x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$10$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$10$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
+      In this example, the second stick has length <m>10</m>, the linear coefficient is <m>20</m>, and the constant is <m>100</m>.
+      Note that there is no direct connection (in this or previous examples) between the linear coefficient and the constant.
+      However, it always works out that doubling the length of the second stick gives the linear coefficient, and squaring the length of the second stick gives the constant.
+    </p>
+    <p>
+      Let's examine a couple more quick explorations that will make the process we will learn go smoother!
+      <example>
+        <statement>
+          <p>
+            In the diagram below, what is the missing amount of area that if added would complete the square?
+            <figure>
+              <caption>Area model figure</caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                      \draw (3,0) -- (4,0) -- (4,3) -- (3,3);
+                      \draw (0,0) -- (0,-1) -- (3,-1) -- (3,0);
+                      %
+                      \node at (-.3,1.5) {$x$};
+                      \node at (-.3,-.5) {$3$};
+                      \node at (1.5,3.3) {$x$};
+                      \node at (3.5,3.6) {$3$};
+                      %
+                      \node at (1.5,1.5) {$x^2$};
+                      \node at (3.5,1.5) {$3x$};
+                      \node at (1.5,-.5) {$3x$};
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The missing area is a square with side length <m>3</m>, so the missing area is <m>3^2=9</m>.
+          </p>
+        </answer>
+      </example>
+      Before we complete the square, the diagram depicts <m>x^2+3x+3x</m>, and we see a linear coefficient of <m>6</m> (if we collect like terms on <m>3x+3x</m>).
+      It is best to think of this as a two-step process:
+      <ol>
+        <li>
+          <p>
+            Step 1: take the linear coefficient <m>6</m> and divide by <m>2</m> to get the second stick <m>3</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Step 2: take the second stick <m>3</m> and square to get the constant <m>9</m>, which is the missing area.
+          </p>
+        </li>
+      </ol>
 
+      <example>
+        <statement>
+          <p>
+            What should be added to <m>x^2+16x</m> to complete the square? Draw a picture of <m>x^2+16x</m> and draw a picture of the completed square after adding.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>16</m>. Dividing this by <m>2</m> tells us the second stick is <m>8</m>.
+            Squaring the second stick <m>8</m> tells us the constant must be <m>64</m>. Before completing the square, we have <m>x^2+16x</m> and its picture is:
+            <figure>
+              <caption>Before completing the square: picture of <m>x^2+16x</m></caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      %\draw (-1,1) rectangle (3,-3);
+                      \draw (-1,1) rectangle (0,-3);
+                      \draw (-1,1) rectangle (3,0);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,.5) {$8x$}; % upper right area
+                      \node at (-.5,-1.5) {$8x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$8$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$8$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+            After completing the square, we have <m>x^2+16x+64</m> and its picture is:
+            <figure>
+              <caption>After completing the square: picture of <m>x^2+16x+64</m></caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$64$};
+                      \node at (1.5,.5) {$8x$}; % upper right area
+                      \node at (-.5,-1.5) {$8x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$8$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$8$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
 
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
+      We do one more example like this:
+      <example>
+        <statement>
+          <p>
+            What should be added to <m>x^2+12x</m> to complete the square? Draw the before and after pictures.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>12</m>, so the second stick is <m>6</m>, so the constant must be <m>36</m>. The picture before completing the square is
+            <figure>
+              <caption>Before completing the square: picture of <m>x^2+12x</m></caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      %\draw (-1,1) rectangle (3,-3);
+                      \draw (-1,1) rectangle (0,-3);
+                      \draw (-1,1) rectangle (3,0);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,.5) {$12x$}; % upper right area
+                      \node at (-.5,-1.5) {$12x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$6$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$6$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+            and the picture after completing the square is:
+            <figure>
+              <caption>After completing the square: picture of <m>x^2+12x+36</m></caption>
+              <image width="30%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw (-1,1) rectangle (3,-3);
+                      \draw (-1,0) -- (3,0);
+                      \draw (0,1) -- (0,-3);
+                      \node at (-.5,.5) {$x^2$};
+                      \node at (1.5,-1.5) {$36$};
+                      \node at (1.5,.5) {$12x$}; % upper right area
+                      \node at (-.5,-1.5) {$12x$}; % lower left area
+                      %
+                      \node at (-1.5,.5) {$x$}; % 1st vertical side
+                      \node at (-.5,1.5) {$x$}; % 1st horizontal side
+                      \node at (-1.5,-1.5) {$6$}; % 2nd vertical side
+                      \node at (1.5,1.5) {$6$}; % 2nd horizontal side
+                     \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+            </figure>
+          </p>
+        </answer>
+      </example>
 
-    <example>
-      <statement>
+    </p>
+  </subsection>
+
+  <subsection>
+    <title>First examples of completing the square</title>
+
+    <p>
+      <principle xml:id="cts-initial">
+        <title>Completing the square when the quadratic coefficient is <m>1</m></title>
         <p>
-          Statement text       
+          When the quadratic coefficient is <m>1</m> (so either a <m>1</m> is written in front of <m>x^2</m>, or nothing is written in front of <m>x^2</m>, which siginfies a hidden <m>1</m>) to complete the square:
+          <ol>
+            <li>
+              <p>
+                Identify the linear coefficient (the number in front of <m>x</m>, excluding the <m>x</m> itself).
+              </p>
+            </li>
+            <li>
+              <p>
+                Divide the linear coefficient by <m>2</m> to get the second stick. (This is technically the "<em>length</em> of the second stick", but we will informally say "second stick".)
+              </p>
+            </li>
+            <li>
+              <p>
+                Square the second stick to get the constant that must be added to complete the square.
+              </p>
+            </li>
+          </ol>
         </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
+      </principle>
 
 
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
 
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2+12x=5</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The linear coefficient is <m>12</m>, so the second stick is <m>6</m>, and the constant that must be added to complete the square is <m>36</m>.
+            Adding <m>36</m> to both sides of the equation gives
+            <me>x^2+12x+36=5+36.</me>
+            Factoring on the left and simplifying on the right,
+            <me>(x+6)^2=41</me>
+            Square rooting both sides,
+            <me>x+6=\pm\sqrt{41}.</me>
+            Subtracting <m>6</m> from both sides gives
+            <me>x=-6\pm\sqrt{41}</me>
+          </p>
+        </solution>
+      </example>
 
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2+6x=10</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The linear coefficient is <m>6</m>, so the second stick is <m>3</m>, and the constant that must be added to complete the square is <m>9</m>.
+            Adding <m>9</m> to both sides:
+            <me>x^2+6x+9=10+9.</me>
+            <me>(x+3)^2=19</me>
+            <me>x+3=\pm\sqrt{19}</me>
+            <me>x=-3\pm\sqrt{19}</me>
+            Notice in the factored form <m>(x+3)^2</m>, inside the parentheses, we see <m>x</m> plus the second stick. This will always happen!
+          </p>
+        </solution>
+      </example>
+      The last example noted something very important:
+      <principle xml:id="principle-cts-factored-form">
+        <statement>
+          <p>
+            After adding the appropriate number to both sides, the factored form will always be <m>(x+\text{(second stick)})^2</m>.
+          </p>
+        </statement>
+      </principle>
+      
 
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2+22x=-20</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>22</m>, so the second stick is <m>11</m>, and the constant that must be added to complete the square is <m>121</m>.
+            Adding <m>121</m> to both sides:
+            <me>x^2+22x+121=-20+121.</me>
+            <me>(x+11)^2=101</me>
+            <me>x+11=\pm\sqrt{101}</me>
+            <me>x=-11\pm\sqrt{101}</me>
+          </p>
+        </answer>
+      </example>
 
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2+14x+3=5</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Seeing the <m>3</m> on the left side is visually distracting, so let's start by subtracting <m>3</m> from both sides:
+            <me>x^2+14x=2</me>
+            Now the problem has the same form as the previous examples, and we can complete the square.
+            The linear coefficient is <m>14</m>, so the second stick is <m>7</m>, and the constant that must be added to complete the square is <m>49</m>.
+            Adding <m>49</m> to both sides:
+            <me>x^2+14x+49=49-2.</me>
+            <me>(x+7)^2=47</me>
+            <me>x+7=\pm\sqrt{47}</me>
+            <me>x=-7\pm\sqrt{47}</me>
+          </p>
+        </solution>
+      </example>
+    </p>
+    <p>
+      The next example will feel a little strange because the linear coefficient is negative.
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2-10x-4=2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            First, we will add <m>4</m> to both sides:
+            <me>x^2-10x=6</me>
+            The linear coefficient is <m>-10</m>, so the second stick is <m>-5</m>, and so the constant is <m>25</m>.
+            Because the linear coefficient is negative, the second stick is negative.
+            While it is strange to say that the length of a stick is negative, let's go with this and see if it works.
+            Because the constant is found by squaring the second stick (and squaring a negative number gives a positive number), the constant is still positive.
+            Adding <m>25</m> to both sides:
+            <me>x^2-10x+25=6+25.</me>
+            <me>(x-5)^2=31</me>
+            <me>x-5=\pm\sqrt{31}</me>
+            <me>x=5\pm\sqrt{31}</me>
+          </p>
+        </answer>
+      </example>
+      The point is that even with a negative linear coefficent (thus a negative second stick), the constant to add is <em>still</em> positive (and we do <em>add</em> the constant to both sides, instead of subtracting on both sides).
+      So, while the description of the geometry is strange, the process works: we just need to stay absolutely consistent. We will always <em>add</em> the constant to both sides, which is <em>always positive</em> (even if the second stick is negative) since it is the result of squaring the second stick.
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2-6x+1=21</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>x^2-6x=20</me>
+            The linear coefficient is <m>-6</m>, so the second stick is <m>-3</m>, and the constant that must be added to complete the square is <m>9</m>.
+            Adding <m>9</m> to both sides:
+            <me>x^2-6x+9=20+9.</me>
+            <me>(x-3)^2=29</me>
+            <me>x-3=\pm\sqrt{29}</me>
+            <me>x=3\pm\sqrt{29}</me>
+          </p>
+        </answer>
+      </example>
+      Our examples have so far had linear coefficients that are even for convenience:
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2+5x=7</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>5</m>, so the second stick is <m>\frac{5}{2}</m>, so the constant is <m>(\frac{5}{2})^2</m>.
+            Recalling the formula <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m>, we can rewrite the constant <m>(\frac{5}{2})^2=\frac{5^2}{2^2}=\frac{25}{4}</m>.
+            So we add <m>\frac{25}{4}</m> to both sides:
+            <me>x^2+5x+\frac{25}{4}=7+\frac{25}{4}.</me>
+            <me>(x+\frac{5}{2})^2=\frac{53}{4}</me>
+            <me>x+\frac{5}{2}=\pm\sqrt{\frac{53}{4}}</me>
+            <me>x=-\frac{5}{2}\pm\sqrt{\frac{53}{4}}</me>
+          </p>
+        </answer>
+      </example>
+      For this example, we had <m>x^2+5x+\frac{25}{4}</m> on the left side of one equation, and factored this as <m>(x+\frac{5}{2})^2</m> in the next equation. This is consistent with <xref ref="principle-cts-factored-form"/> for how the factoring <em>should</em> look,
+      but we should also independently verify that this works:
+      <m>(x+\frac{5}{2})^2 = (x+\frac{5}{2})(x+\frac{5}{2}) = x^2 + \frac{5}{2}x + \frac{5}{2}x + \frac{25}{4} = x^2 + 5x + \frac{25}{4}</m>.
+    </p>
+    <p>
+      The purpose of the preivous example is to show that even when the linear coefficient is odd, we can still complete the square. The second stick will be a fraction, and the constant will be a fraction, but the process works the same way.
+      We had to make use of the formula <m>(\frac{a}{b})^n = \frac{a^n}{b^n}</m>.
+    </p>
 
   </subsection>
 
   <subsection>
-    <title>Applications Revisited</title>
+    <title>Final examples of completing the square</title>
 
     <p>
-      Let's revisit the applications we introduced at the beginning of this section.
+      In <xref ref="cts-initial"/>, we saw what to do when the quadratic coefficient is <m>1</m>. What do we do when the quadratic coefficient is not <m>1</m>?
+      For example, what do we do to solve <m>3x^2+5x=6</m>, where <xref ref="cts-initial"/> does not directly apply?
+    </p>
+    <p>
+      We can do some brief algebra (and be careful to follow valid fraction techniques) to get to a situation where <xref ref="cts-initial"/> does apply.
+      <example>
+        <statement>
+          <p>
+            Solve <m>3x^2+5x=6</m>
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Because the quadratic coefficient is <m>3</m>, note that <xref ref="cts-initial"/> does not apply right now, but we will rewrite our problem so that we can apply the technique.
+            Dividing both sides by <m>3</m>, we get
+            <me>\dfrac{3x^2+5x}{3}=\dfrac{6}{3}</me>
+            We haven't simplified our work above yet: we just wanted to point out that we had to divide the <em>entire</em> left side by <m>3</m>, not just the <m>3x^2</m> term.
+            Because of the plus sign in the numerator, the <m>3</m>s on the left do not cancel. But we can apply the fraction addition formula to rewrite the left side (and will also use this step to simplify the right side).
+            <me>\dfrac{3x^2}{3} + \dfrac{5x}{3} = 2.</me>
+            Now that we no longer have a plus sign <em>in</em> the fraction (only a plus sign <em>between</em> fractions), we can cancel.
+            We will also slightly rewrite <m>\frac{5x}{3}</m>, which is valid since <m>\frac{5}{3}x = \frac{5}{3} \cdot \frac{x}{1} = \frac{5x}{3\cdot1}=\frac{5x}{3}</m>.
+            <me>x^2 + \frac{5}{3}x = 2.</me>
+            Note the linear coefficient is <m>\frac{5}{3}</m>, not <m>\frac{5}{3}x</m>. (Remember that the linear coefficent is what is <em>in front of</em> <m>x</m>, but excludes <m>x</m> itself).
+            So the second stick is <m>\frac{5}{6}</m>, because <m>\frac{5}{3} \div 2 = \frac{5}{3} \div \frac21 = \frac{5}{3} \cdot \frac12 = \frac{5}{6}</m>. 
+            The constant that must be added is <m>(\frac{5}{6})^2 = \frac{25}{36}</m>.
+            <me>x^2 + \frac{5}{3}x + \frac{25}{36} = 2 + \frac{25}{36}.</me>
+            Factoring the left side as <m>x</m> plus the second stick, quantity squared, and simplifying the right side,
+            <me>(x+\frac{5}{6})^2 = \frac{97}{36}.</me>
+            Square rooting both sides,
+            <me>x+\frac{5}{6} = \pm\sqrt{\frac{97}{36}}.</me>
+            <me>x+\frac{5}{6} = \pm\frac{\sqrt{97}}{\sqrt{36}}.</me>
+            <me>x+\frac{5}{6} = \pm\frac{\sqrt{97}}{6}.</me>
+            <me>x = - \frac{5}{6} \pm \frac{\sqrt{97}}{6}.</me>
+            Now, we have isolated <m>x</m> and are done, but it is typical to combine the two fractions on the right side into a single fraction, since we are adding/subtracting fractions and they already have a common denominator:
+            <me>x = - \frac{5 \pm \sqrt{97}}{6}.</me>
+          </p>
+        </solution>
+      </example>
+      This example shows us that even when the quadratic coefficient is not <m>1</m>, we can still complete the square by first dividing both sides of the equation by the quadratic coefficient.
+      <principle xml:id="principle-cts-general">
+        <statement>
+          <p>
+            Before identifying the linear coefficient and computing second stick and the constant, if the coefficient of <m>x^2</m> is not <m>1</m>, then divide both sides by the number that is in front of <m>x^2</m> first.
+            Then <xref ref="cts-initial"/> will apply.
+          </p>
+        </statement>
+      </principle>
+
+      Before we do another example to show this, a friendly word of advice is helpful. Examine both answers to this question:
+      <example>
+        <statement>
+          <p>
+            Solve <m>x^2+2x=15</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>2</m>, so the second stick is <m>1</m>, and the constant that must be added to complete the square is <m>1</m>.
+            Adding <m>1</m> to both sides:
+            <me>x^2+2x+1=15+1.</me>
+            <me>(x+1)^2=16</me>
+            <me>x+1=\pm\sqrt{16}</me>
+            <me>x+1=\pm4</me>
+            <me>x=-1\pm4</me>
+            We can leave our final answer like this, but we point out we have <m>x=-5</m> or <m>x=3</m>.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            Starting from <m>x^2+2x=15</m> and subtracting <m>15</m> on both sides,
+            <me>x^2+2x-15=0.</me>
+            Factoring the left side,
+            <me>(x+5)(x-3)=0.</me>
+            Applying the Zero Product Property,
+            <me>x+5=0 \text{ or } x-3=0.</me>
+            <me>x=-5 \text{ or } x=3.</me>          
+          </p>
+        </answer>
+      </example>
+      We include this example to show that there are multiple ways to solve a quadratic equation, and the method of completing the square is not always the most efficient.
+      Completing the square always works on a quadratic equation, but sometimes factoring is less work.
     </p>
 
-    <example>
-      <statement>
+    <p>
+      We end by applying the process of completing the square to a quadratic equation where the coefficients are unknown, and represented by <m>a</m> and <m>b</m> and <m>c</m>.
+      Instead of thinking of <m>a</m> and <m>b</m> and <m>c</m> a variables, think of them as mystery numbers. These are just numbers that are not known to us.
+      <example xml:id="derive-quadratic-formula">
+        <statement>
+          <p>
+            Solve the quadratic equation <m>ax^2+bx+c=0</m> by completing the square.            
+          </p>
+        </statement>
+      </example>
+      <answer>
         <p>
-          Text
+          First, we will subtract <m>c</m> from both sides:
+          <me>ax^2+bx=-c.</me>
+          The value of <m>a</m> might be <m>1</m>, but it might not. To make a generic argument that will always work, we follow <xref ref="principle-cts-general"/> and divide both sides by <m>a</m>:
+          <me>\dfrac{ax^2+bx}{a} = -\dfrac{c}{a}.</me>
+          As written above, we cannot cancel the <m>a</m>s in the numerator and denominator on the left side.
+          Rewrite the left side as the sum of two fractions.
+          <me>\dfrac{ax^2}{a} + \dfrac{bx}{a} = -\dfrac{c}{a}.</me>
+          Now we can cancel, and we also use the opportunity to rewrite the second term to have <m>x</m> outside of the fraction:
+          <me>x^2 + \dfrac{b}{a}x = -\dfrac{c}{a}.</me>
+          Now that the quadratic coefficient is <m>1</m>, we can apply <xref ref="cts-initial"/>.
+          The linear coefficient is <m>\frac{b}{a}</m>, recalling we only take what is <em>next</em> to <m>x</m>, but leave out <m>x</m> itself.
+          Note <m>\frac{b}{a} \div 2 = \frac{b}{a} \div \frac21 = \frac{b}{a} \cdot \frac{1}{2} = \frac{b}{2a}</m>, so the second stick is <m>\frac{b}{2a}</m>.
+          Since the second stick is <m>\frac{b}{2a}</m>, the constant is <m>(\frac{b}{2a})^2 = \frac{b^2}{(2a)^2} = \frac{b^2}{2^2a^2}=\frac{b^2}{4a^2}</m>.
+          To complete the square, we add <m>\frac{b^2}{4a^2}</m> to both sides:
+          <me>x^2 + \dfrac{b}{a}x + \dfrac{b^2}{4a^2} = -\dfrac{c}{a} + \dfrac{b^2}{4a^2}.</me>
+          The left side factors, with the content in parentheses being <m>x</m> plus the second stick, and on the right side, we multiply the top and bottom of the first fraction by <m>4a</m> to get a common denominator:
+          <me>\left(x+\dfrac{b}{2a}\right)^2 = -\dfrac{4ac}{4a^2} + \dfrac{b^2}{4a^2}.</me>
+          Rewriting just the right side, we have a single fraction, and we can write the numerator as <m>-4ac+b^2</m>, but we wrote <m>b^2-4ac</m> instead:
+          <me>\left(x+\dfrac{b}{2a}\right)^2 = \dfrac{b^2-4ac}{4a^2}.</me>          
+          Square rooting both sides:
+          <me>\sqrt{\left(x+\dfrac{b}{2a}\right)^2} = \pm \sqrt{\dfrac{b^2-4ac}{4a^2}}.</me>          
+          On the left side, square rooting and squaring undo each other. On the right side, we apply the square root of the fraction to the top and bottom:
+          <me>x + \dfrac{b}{2a} = \pm \dfrac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}.</me>
+          <me>x + \dfrac{b}{2a} = \pm \dfrac{\sqrt{b^2-4ac}}{\sqrt{4}\sqrt{a^2}}.</me>
+          <me>x + \dfrac{b}{2a} = \pm \dfrac{\sqrt{b^2-4ac}}{2a}.</me>
+          Subtracting <m>\frac{b}{2a}</m> from both sides:
+          <me>x = -\dfrac{b}{2a} \pm \dfrac{\sqrt{b^2-4ac}}{2a}.</me>
+          Because the two fractions on the right side have a common denominator, we can combine them into a single fraction:
+          <me>x = \dfrac{-b \pm \sqrt{b^2-4ac}}{2a}.</me>
         </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
+      </answer>
+      The work from the previous example justifies a famous formula for quadratic equations, called the <em>quadratic formula</em>:
+      <principle xml:id="quadratic-formula">
+        <statement>
+          <p>
+            The solutions to the quadratic equation <m>ax^2+bx+c=0</m> are given by the formula
+            <me>x = \dfrac{-b \pm \sqrt{b^2-4ac}}{2a}.</me>
+          </p>
+        </statement>
+      </principle>
+      The expression <m>b^2-4ac</m> found inside the square root is called the <term>discriminant</term>:
+      <ul>
+        <li>
+          <p>
+            If <m>b^2-4ac &lt; 0</m>, then <m>ax^2+bx+c=0</m> has zero real solutions.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>b^2-4ac=0</m>, then <m>ax^2+bx+c=0</m> has one real solution.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>b^2-4ac &gt; 0</m>, then <m>ax^2+bx+c=0</m> has two real solutions.
+          </p>
+        </li>
+      </ul>
 
+      We end this section with two optional pictures to study, which may help enhance the understanding of the answer to <xref ref="derive-quadratic-formula"/>.
+      <figure>
+        <caption>Before completing the square: picture of <m>x^2+\dfrac{b}{a}x</m></caption>
+        <image width="30%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                \draw (3,0) -- (4,0) -- (4,3) -- (3,3);
+                \draw (0,0) -- (0,-1) -- (3,-1) -- (3,0);
+                %
+                \node at (-.3,1.5) {$x$};
+                \node at (-.3,-.5) {$\frac{b}{2a}$};
+                \node at (1.5,3.3) {$x$};
+                \node at (3.5,3.6) {$\frac{b}{2a}$};
+                %
+                \node at (1.5,1.5) {$x^2$};
+                \node at (3.5,1.5) {$\frac{b}{2a}x$};
+                \node at (1.5,-.5) {$\frac{b}{2a}x$};
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+
+      <figure>
+        <caption>After completing the square: picture of <m>x^2+\dfrac{b}{a}x+\dfrac{b^2}{4a^2}</m></caption>
+        <image width="30%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                \draw (3,0) -- (4,0) -- (4,3) -- (3,3);
+                \draw (0,0) -- (0,-1) -- (3,-1) -- (3,0);
+                \draw (3,-1) -- (4,-1) -- (4,0); % new
+                %
+                \node at (-.3,1.5) {$x$};
+                \node at (-.3,-.5) {$\frac{b}{2a}$};
+                \node at (1.5,3.3) {$x$};
+                \node at (3.5,3.6) {$\frac{b}{2a}$};
+                %
+                \node at (1.5,1.5) {$x^2$};
+                \node at (3.5,1.5) {$\frac{b}{2a}x$};
+                \node at (1.5,-.5) {$\frac{b}{2a}x$};
+                \node at (3.5,-.5) {$\frac{b^2}{4a^2}$}; % new
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+      </figure>
+
+    </p>
+    
   </subsection>
 
 	<subsection>
@@ -550,17 +1047,22 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            To solve a quadratic equation with no linear coefficient, get one term on each side, then square root both sides (and include <m>\pm</m> in the <em>first</em> step that introduces square rooting both sides).
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            If the coefficient of <m>x^2</m> is not <m>1</m>, divide both sides by the coefficient of <m>x^2</m> before completing the square.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            If the coefficient of <m>x^2</m> is <m>1</m>, identify the linear coefficient (the value in front of <m>x</m>, but excluding <m>x</m> itself), divide it by <m>2</m> to get the second stick, and square the second stick to get the constant that must be added to both sides to complete the square.
+          </p>
+        </li>
+        <li>
+          <p>
+            In its factored form, we will have a certain quantity squared, and that quantity will be <m>x</m> plus the second stick.
           </p>
         </li>
       </ol>
@@ -571,46 +1073,61 @@
   <subsection>
 		<title>Exercises</title>
 
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
     <p>
       <ol>
 
         <li>
           <p>
-            Text.
+            Solve these quadratic equations using any valid method: (Give 20 exercise problems that do NOT repeat any of the examples)
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>x^2-49=0</m></p></li>
+              <li><p><m>x^2+8x+12=0</m></p></li>
+              <li><p><m>2x^2-18=0</m></p></li>
+              <li><p><m>3x^2-15x+18=0</m></p></li>
+              <li><p><m>x^2-10x+21=0</m></p></li>
+              <li><p><m>2x^2+12x+11=0</m></p></li>
+              <li><p><m>5x^2-80=0</m></p></li>
+              <li><p><m>4x^2+4x-15=0</m></p></li>
+              <li><p><m>x^2+14x+40=0</m></p></li>
+              <li><p><m>3x^2+27x+48=0</m></p></li>
+              <li><p><m>7x^2-175=0</m></p></li>
+              <li><p><m>2x^2-20x+41=0</m></p></li>
+              <li><p><m>6x^2+x-2=0</m></p></li>
+              <li><p><m>x^2-16x+55=0</m></p></li>
+              <li><p><m>4x^2+24x+29=0</m></p></li>
+              <li><p><m>9x^2-225=0</m></p></li>
+              <li><p><m>5x^2-35x+50=0</m></p></li>
+              <li><p><m>3x^2-12x+17=0</m></p></li>
             </ol>
           </p>
         </li>
         <li>
           <p>
-            Text.
+            Solve the following equations. Note that not all are quadratic equations, so you may need to apply earlier techniques.
             <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
+              <li><p><m>3x-7=14</m></p></li>
+              <li><p><m>x^2-25=0</m></p></li>
+              <li><p><m>\frac{x}{4}+5=8</m></p></li>
+              <li><p><m>x^2+7x+12=0</m></p></li>
+              <li><p><m>\frac{2x-3}{5}=4</m></p></li>
+              <li><p><m>2x^2-18=0</m></p></li>
+              <li><p><m>\frac{3}{4}x+\frac{5}{2}=8</m></p></li>
+              <li><p><m>3x^2-15x+18=0</m></p></li>
+              <li><p><m>5(x-2)=3x+8</m></p></li>
+              <li><p><m>x^2+10x+21=0</m></p></li>
+              <li><p><m>\frac{x+1}{3}-\frac{x-2}{6}=2</m></p></li>
+              <li><p><m>2x^2+8x+5=0</m></p></li>
+              <li><p><m>\frac{5x}{6}-\frac{1}{2}=\frac{7}{3}</m></p></li>
+              <li><p><m>4x^2+4x-15=0</m></p></li>
+              <li><p><m>7-2(x-3)=15</m></p></li>
+              <li><p><m>5x^2-45=0</m></p></li>
+              <li><p><m>\frac{2x+5}{3}=\frac{x-1}{2}</m></p></li>
+              <li><p><m>3x^2-12x+17=0</m></p></li>
+              <li><p><m>\frac{x-4}{5}+\frac{x+1}{2}=6</m></p></li>
+              <li><p><m>6x^2+x-2=0</m></p></li>
             </ol>
           </p>
         </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
       </ol>
     </p>
   </subsection>
