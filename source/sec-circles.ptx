@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-circles" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Circles</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Identify the center and radius of a circle given its equation.</p></li>
+			<li><p>Write the equation of a circle given its center and radius.</p></li>
+			<li><p>Graph a circle given its equation.</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>Exploring the equation of a circle</title>
+
+    <p>
+      In <xref ref="sec-lines"/>, before introducing equations of lines, we introduced equations in <m>x</m> and <m>y</m> (in general) and their graphs in the <xref ref="sec-xy-plane"/>.
+      One such equation we introduced was <m>x^2 + 6x + y^2 - 8y = 3</m>.
+      We started with equations of lines because they are the nicest examples of equations in <m>x</m> and <m>y</m>.
+      In this section, we will explore another nice example of an equation in <m>x</m> and <m>y</m>, namely the equation of a circle, which we can now study since we have discussed completing the square.
+    </p>
+    <p>
+      Informally, we often just think of a circle as a "round shape".
+      As true as this is, to develop what we need, we will need to focus (at least for a minute) on the technical, mathematical definition of a circle.
+    </p>
+    <principle xml:id="def-circle">
+      <title>Definition of a Circle</title>
+      <p>
+        A circle is the set of all points in a plane that are the same distance from a fixed point.
+        The fixed point is called the <term>center</term>, and the distance from the center to any point on the circle is called the <term>radius</term>.
+      </p>
+    </principle>
+    <p>
+      It is typical (though not required) to denote the center of a circle by <m>(h,k)</m> and the radius by <m>r</m>.
+      Because the center of a circle is a point, there are two coordinates: <m>h</m> is the traditional label for the <m>x</m>-coordinate of the center, and <m>k</m> is the traditional label for the <m>y</m>-coordinate of the center.
+    </p>
+    <p>
+      To build the standard equation for a circle, recall the distance formula from <xref ref="distance-formula"/>: the distance between <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> is
+      <m>\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}</m>. Recall from <xref ref="warning-distance-formula-does-not-simplify"/> that nothing distributes here to simplify: we cannot distribute the square root over the same, and we can not distribute either of the exponents over subtraction.
+      We apply this distance formula using <m>(x_1,y_1)=(h,k)</m> as the center and <m>(x_2,y_2)=(x,y)</m> as a generic point on the circle.
+      According to the definition of a circle, the distance from <m>(h,k)</m> to any point <m>(x,y)</m> must be the radius, labeled <m>r</m>, so:
+      <me>\sqrt{(x-h)^2 + (y-k)^2} = r.</me>
+      This is already technically an equation of a circle, but the standard format of a circle is obtained by squaring both sides:
+      <me>(x-h)^2 + (y-k)^2 = r^2.</me>
+      Squaring on the left side undid the square root that used to be on the left side, and squaring on the right side meant that we went from a right side of <m>r</m> to <m>r^2</m>.
+    </p>
+    <principle xml:id="circle-equation">
+      <title>Standard Equation of a Circle</title>
+      <p>
+        The standard equation of a circle with center <m>(h,k)</m> and radius <m>r</m> is
+        <me>(x-h)^2 + (y-k)^2 = r^2.</me>
+      </p>
+    </principle>
+
+  </subsection>
+
+  <subsection>
+    <title>Standard Equation of a Circle</title>
+
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>(x-3)^2 + (y-4)^2 = 25</m>.      
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The equation <m>(x-3)^2 + (y-4)^2 = 25</m> is in the standard form <m>(x-h)^2 + (y-k)^2 = r^2</m>.
+          Comparing coefficients, we have:
+          <ul>
+            <li> <m>h = 3</m> </li>
+            <li> <m>k = 4</m> </li>
+            <li> <m>r^2 = 25</m> so <m>r = 5</m> </li>
+          </ul>
+          Therefore, the center of the circle is <m>(3,4)</m> and the radius is <m>5</m>.
+        </p>
+      </answer>
+    </example>
+    <p>
+      The number on the right side <m>25</m> is the value of <m>r^2</m>, so the radius is the square root of that number, which is <m>5</m>.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>(x-3)^2 + (y+4)^2 = 36</m>.      
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The equation <m>(x-3)^2 + (y+4)^2 = 36</m> can be rewritten <m>(x-3)^2+(y-(-4))^2 = 36</m>, which is in the standard form <m>(x-h)^2 + (y-k)^2 = r^2</m>.
+          Comparing coefficients, we have:
+          <ul>
+            <li> <m>h = 3</m> </li>
+            <li> <m>k = -4</m> </li>
+            <li> <m>r^2 = 36</m> so <m>r = 6</m> </li>
+          </ul>
+          Therefore, the center of the circle is <m>(3,-4)</m> and the radius is <m>6</m>.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>(x+6)^2 + (y+7)^2 = 41</m>.      
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The center is <m>(-6,-7)</m> and the radius is <m>\sqrt{41}</m>.
+        </p>
+      </answer>
+    </example>
+    <p>
+      Note that in each of the last three examples, we never square rooted both sides of the equation that presents the circle in standard form.
+      We leave the standand equation alone.
+      <ol>
+        <li>
+          <p>
+            In the first example, we saw <m>25</m> on the right side, so we knew <m>r^2 = 25</m>, and therefore <m>r = 5</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the second example, we saw <m>36</m> on the right side, so we knew <m>r^2 = 36</m>, and therefore <m>r = 6</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the third example, we saw <m>41</m> on the right side, so we knew <m>r^2 = 41</m>, and therefore <m>r = \sqrt{41}</m>.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <warning xml:id="warning-do-not-square-root-both-sides-of-standard-equation-of-circle">
+      <p>
+        Do not square root both sides of the standard equation of a circle. (Instead, identify the radius by <em>looking</em> at the number on the right side of the equation and reporting its square root as the radius. Alternately, build a <em>separate</em> equation in the format of <m>r^2</m> set equal to the number on the right side of the standard equation. Then square root both sides of the new, small equation that was built, but do not square root both sides of the standard equation.)
+      </p>
+    </warning>
+    <p>
+      To be clear about what this warning is saying, consider the last example. There is an error in the text written below, which we discuss shortly:
+      <me>(x+6)^2 + (y+7)^2 = 41</me>
+      is correct to have, but then it is incorrect to write
+      <me>(x+6) + (y+7) = \sqrt{41}</me>
+      because the square root does not distribute over addition.
+    </p>
+    <p>
+      To clarify what the problem really is, let's show more steps:
+      <me>(x+6)^2 + (y+7)^2 = 41</me>
+      <me>\sqrt{(x+6)^2 + (y+7)^2} = \sqrt{41}</me>
+      <me>\sqrt{(x+6)^2} + \sqrt{(y+7)^2} = \sqrt{41}</me>
+      <me>(x+6) + (y+7) = \sqrt{41}</me>
+      There are four equations above. The fourth equation would follow from the third equation. 
+      However, the third equation does not follow from the second equation because the square root does not distribute over addition. (So we woudn't be able to validly get to the fourth equation from the second equation.)
+      Actually, there is one other problem: the second equation has a subtle issue: to go from the first equation to the second equation, since square rooting happened on both sides, a <m>\pm</m> symbol would have to appear on one side or the other of the eqaution.
+    </p>
+    <p>
+      In any case, the point is that we do not square root both sides of the standard equation of a circle, because it invites an error like this to occur. Instead, stare at the number on the right, and report the square root <em>of</em> that number as the radius, without square rooting both sides of the standard equation of a circle.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>(x-1)^2 + (y-3)^2 = 5</m>.      
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The center is <m>(1,3)</m> and the radius is <m>\sqrt{5}</m>.
+        </p>
+      </answer>
+    </example>
+    <p>
+      Writing one or both of <m>\sqrt{(x-1)^2} + \sqrt{(y-3)^2} = \sqrt{5}</m> and/or <m>(x-1) + (y-3) = \sqrt{5}</m> is performing the error discussed in <xref ref="warning-do-not-square-root-both-sides-of-standard-equation-of-circle"/>.
+      Instead of square rooting both sides of the standard equation of a circle, we just looked at the <m>5</m> that was on the right side of the equation and reported its square root as the radius.      
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>x^2 + 6x + y^2 - 8y = 3</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          In this example, we will complete the square twice to get the equation to be in the standard form of a circle: once for the <m>x</m> terms and once for the <m>y</m> terms.
+          <ol>
+            <li>
+              <p>
+                For the <m>x</m> terms, we have <m>x^2 + 6x</m>.
+                Recall the linear coefficient is what is in front of <m>x</m>, but excluding the <m>x</m> itself.
+                Since the linear coefficient is <m>6</m>, the second stick is <m>3</m>
+                Since the second stick is <m>3</m>, the constant is <m>9</m>.
+                We will add <m>9</m> to both sides.
+              </p>
+            </li>
+            <li>
+              <p>
+                For the <m>y</m> terms, we have <m>y^2 - 8y</m>.
+                The linear coefficient is <m>-8</m>, so the second stick is <m>-4</m>.
+                Since the second stick is <m>-4</m>, the constant is <m>16</m>.
+                We will add <m>16</m> to both sides.
+              </p>
+            </li>
+          </ol>
+          Here is the result of adding <m>9</m> to both sides and adding <m>16</m> to both sides. On the left side, we have inserted the <m>9</m> and <m>16</m> into locations that are convenient for us.
+          <me>x^2 + 6x + 9 + y^2 - 8y + 16 = 3 + 9 + 16</me>
+          Now we can factor the left side and simplify the right side:
+          <me>(x+3)^2 + (y-4)^2 = 28</me>
+          Without square rooting both sides of the previous equation, we now identify the center and the radius.
+          The center is <m>(-3,4)</m> and the radius is <m>\sqrt{28} = 2\sqrt{7}</m>.
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>x^2 - 4x + y^2 - 6y = 12</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          In this example, we will complete the square twice to get the equation to be in the standard form of a circle: once for the <m>x</m> terms and once for the <m>y</m> terms.
+          <ol>
+            <li>
+              <p>
+                For the <m>x</m> terms, we have <m>x^2 - 4x</m>.
+                The linear coefficient is <m>-4</m>, so the second stick is <m>-2</m>.
+                Since the second stick is <m>-2</m>, the constant is <m>4</m>.
+                We will add <m>4</m> to both sides.
+              </p>
+            </li>
+            <li>
+              <p>
+                For the <m>y</m> terms, we have <m>y^2 - 6y</m>.
+                The linear coefficient is <m>-6</m>, so the second stick is <m>-3</m>.
+                Since the second stick is <m>-3</m>, the constant is <m>9</m>.
+                We will add <m>9</m> to both sides.
+              </p>
+            </li>
+          </ol>
+          Here is the result of adding <m>4</m> to both sides and adding <m>9</m> to both sides. On the left side, we have inserted the <m>4</m> and <m>9</m> into locations that are convenient for us.
+          <me>x^2 - 4x + 4 + y^2 - 6y + 9 = 12 + 4 + 9</me>
+          Now we can factor the left side and simplify the right side:
+          <me>(x-2)^2 + (y-3)^2 = 25</me>
+          Without square rooting both sides of the previous equation, we now identify the center and the radius.
+          The center is <m>(2,3)</m> and the radius is <m>\sqrt{25} = 5</m>.
+        </p>
+      </answer>
+    </example>
+
+    <warning>
+      <p>
+        When completing the square in both variables, be careful with notation: sometimes, writing unintentionally communicates a multiplication that should not be there. (Recall that when an operation symbol is missing between expressions, there is a hidden multiplication symbol.)
+      </p>
+    </warning>
+    <p>
+      The warning above does not likely make much sense on its own, but let's discuss it in the context of the last example.
+      <ol>
+        <li>
+          <p>
+            Before even completing the square, there are people who like to draw in parentheses for visual convenience and separation.
+            However, writing <me>(x^2 - 4x) (y^2 - 6y) = 12</me> or writing <me>(x^2 - 4x) (+y^2 - 6y) = 12</me> is incorrect because it communicates multiplication between the two parentheses, 
+            no matter how large or small the horizontal gap is between the sets of parentheses.
+            If you wish to include parentheses, then model your work after the following:
+            <me>(x^2 - 4x) + (y^2 - 6y) = 12.</me>
+          </p>
+        </li>
+        <li>
+          <p>
+            Upon finding the correct numbers to add to both sides to complete the square in both variables, it is tempting to write <me>(x^2 - 4x + 4) (y^2 - 6y + 9) = 12 + 4 + 9</me> or <me>(x^2 - 4x + 4) (+y^2 - 6y + 9) = 12 + 4 + 9</me> to show the numbers that were added to both sides.
+            However, this is incorrect because it communicates multiplication between the two parentheses, for the same reason that was just mentioned.
+            Instead, write
+            <me>(x^2 - 4x + 4) + (y^2 - 6y + 9) = 12 + 4 + 9.</me>
+          </p>
+        </li>
+        <li>
+          <p>
+            Similarly, note that the final equation <me>(x-2)^2 + (y-3)^2 = 25</me> is correct, but writing <me>(x-2)^2 (y-3)^2 = 25</me> or <me>(x-2)^2 (+y-3)^2 = 25</me> is incorrect because it communicates an unintended multiplication.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Identify the center and radius of the circle given by the equation <m>x^2 + y^2 - 10x - 12y = 0</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          For this question, it will help if we first shuffle the terms around to group the <m>x</m> terms together and the <m>y</m> terms together:
+          <me>x^2 - 10x + y^2 - 12y = 0</me>
+          As the warning before (and its examples mentioned), the equation above is correct but writing <m>(x^2-10x)(y^2-12y) = 0</m> or <m>(x^2-10x)(+y^2-12y) = 0</m> is incorrect because it communicates multiplication between the two parentheses.
+          Using the correct equation, we add <m>25</m> to both sides to complete the square in <m>x</m>, and add <m>36</m> to both sides to complete the square in <m>y</m>.
+          <me>x^2 - 10x + 25 + y^2 - 12y + 36 = 61</me>
+          <me>(x-5)^2 + (y-6)^2 = 61</me>
+          Without square rooting both sides of the previous equation, we now identify the center and the radius.
+          The center is <m>(5,6)</m> and the radius is <m>\sqrt{61}</m>.
+        </p>
+      </answer>
+    </example>
+
+    
+  </subsection>
+    
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            The standard equation for a circle with center <m>(h,k)</m> and radius <m>r</m> is <m>(x-h)^2 + (y-k)^2 = r^2</m>, which comes from applying the distance formula to the definition of a circle.
+          </p>
+        </li>
+        <li>
+          <p>
+            To identify the center and radius of a circle given its equation, if not already in standard form, we can complete the square in both variables to get the equation into standard form.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+
+            Identify the center and radius of the circle with the given equation.
+            <ol>
+              <li><p><m>(x-4)^2 + (y+3)^2 = 49</m></p></li>
+              <li><p><m>(x+7)^2 + (y-2)^2 = 100</m></p></li>
+              <li><p><m>(x-1)^2 + (y-8)^2 = 25</m></p></li>
+              <li><p><m>(x+6)^2 + (y+5)^2 = 81</m></p></li>
+              <li><p><m>x^2 + y^2 - 10x + 8y = 20</m></p></li>
+              <li><p><m>x^2 + y^2 + 12x - 4y = -24</m></p></li>
+              <li><p><m>x^2 + y^2 - 6x - 14y = -6</m></p></li>
+              <li><p><m>x^2 + y^2 + 16x + 2y = -41</m></p></li>
+              <li><p><m>(y+1)^2 + (x-9)^2 = 64</m></p></li>
+              <li><p><m>(y-4)^2 + (x+2)^2 = 36</m></p></li>
+              <li><p><m>x^2 - 2x + y^2 + 10y + 5 = 0</m></p></li>
+              <li><p><m>y^2 - 12y + x^2 + 8x = 44</m></p></li>
+              <li><p><m>49 = (x+3)^2 + (y-7)^2</m></p></li>
+              <li><p><m>121 = (y+5)^2 + (x-2)^2</m></p></li>
+              <li><p><m>x^2 + y^2 + 4x - 18y + 36 = 0</m></p></li>
+              <li><p><m>2 + x^2 - 8x + y^2 + 6y = 0</m></p></li>
+              <li><p><m>50 = x^2 + y^2 - 6x + 2y</m></p></li>
+              <li><p><m>y^2 + x^2 + 14x - 16y = -60</m></p></li>
+              <li><p><m>(y-10)^2 + (x+8)^2 = 169</m></p></li>
+              <li><p><m>-14 + y^2 - 2y + x^2 + 12x = 0</m></p></li>
+            </ol>
+
+          </p>
+        </li>
+
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>

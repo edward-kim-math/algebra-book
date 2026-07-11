@@ -15,4 +15,5 @@
   <xi:include href="sec-lines.ptx" />
   <xi:include href="sec-quadratic-equations-factoring.ptx" />
   <xi:include href="sec-quadratic-equations-completing.ptx" />
+  <xi:include href="sec-circles.ptx" />
 </chapter>
