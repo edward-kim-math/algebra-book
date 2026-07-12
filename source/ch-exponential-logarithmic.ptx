@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-exponential-logarithmic" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Functions</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the concept of exponential and logarithmic functions and their properties.
+    </p>
+  </introduction>;
+
+  <!-- include sections -->
+  <xi:include href="sec-exponential-functions.ptx" />
+</chapter>

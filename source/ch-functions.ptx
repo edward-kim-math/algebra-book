@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the concept of functions and their properties.
+      We explore functions in general.
+      Then we look at specific types of functions, such as quadratic functions and polynomial functions.
+      Additionally, we discuss the graphical representation of functions and their transformations.
+    </p>
+  </introduction>;
+
+  <!-- include sections -->
+  <xi:include href="sec-what-is-a-function.ptx" />
+</chapter>
