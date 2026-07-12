@@ -32,11 +32,53 @@
         </li>
         <li>
           <p>
-            Text
+            A car rental company charges <m>\$25</m> per day plus <m>\$0.15</m> per mile driven.
+            If <m>d</m> represents the number of days the car is rented and <m>m</m> represents the number of miles driven, describe a formula for the total charge for renting a car.
           </p>
         </li>
       </ol>
     </p>
+  </subsection>
+
+  <subsection>
+    <title>Functions by formula</title>
+
+    <principle xml:id="function-definition">
+      <statement>
+        <p>
+          A <term>function</term> is a rule that assigns to each input exactly one output.
+        </p>
+      </statement>
+    </principle>
+    <p>
+      We can also place the "exactly one output" information befor the "to each input" by saying: a function is a rule that assigns exactly one output to each input.
+    </p>
+    <note>
+      <p>
+        The important thing to emphasize is that a function will generally have many inputs, 
+        but that each of the inputs will have exactly one output.
+        It is not possible for an input to have two outputs, and it is not possible for an input to have no output at all.
+        We say the word <term>rule</term> to try to emphasize the idea that the output that we get for a specific input is determined by some kind of process or procedure that anyone can follow.
+        For one specific function, the rule needs to be specific enough that when two people are thinking about the same input, they will both come up with the same output.
+      </p>
+    </note>
+
+    <p>
+      There are many ways to introduce a function.
+      One of the ways to introduce a function is to represent the function using a formula.
+      For example, the formula <m>f(x) = 3x + 1</m> represents a function that takes an input <m>x</m> and produces an output by multiplying the input by <m>3</m> and then adding <m>1</m>.
+    </p>
+    <p>
+      In <xref ref="language-of-mathematics"/>, we mentioned how important it is to pay attention to the language of mathematics.
+      For this function, 
+    </p>
+    <principle>
+      <statement>
+        <p>
+          The <term>domain</term> of a function is the set of all possible inputs for the function.
+        </p>
+      </statement>
+
 
     <example>
       <statement>
