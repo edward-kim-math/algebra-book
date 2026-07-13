@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-inequalities" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inequalities</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Solve linear inequalities.</p></li>
+			<li><p>Graph inequalities on a number line.</p></li>
+			<li><p>Model real-world situations with inequalities.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      The skills in this section will help us answer questions such as the following:
+      <ol>
+        <li>
+          <p>
+            A professional moving company will charge a one-time fee of <m>\$49</m> plus <m>\$19</m> per box for a move.
+            How many boxes can be moved with a budget of <m>\$850</m>?
+          </p>
+        </li>
+        <li>
+          <p>
+            A car rental company charges <m>\$39</m> per day plus a flat fee of <m>\$99</m>.
+            How many days of car rental can be afforded with a budget of <m>\$500</m>?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Solve the equation <m>3x+1 = 9</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          First, we subtract <m>1</m> from both sides to get <m>3x = 8</m>.
+          Next, we divide both sides by <m>3</m> to get <m>x = \frac{8}{3}</m>.
+        </p>
+      </answer>
+    </example>
+
+  </subsection>
+
+	<subsection>
+		<title>Inequalities, the number line, and interval notation</title>
+
+    <p>
+      Inequalities are mathematical statements that compare two expressions, 
+      stating that one expression is less than another, greater than another, less than or equal to another, or greater than or equal to another.
+      <ul>
+        <li>
+          <p>
+            The symbol <m>&lt;</m> means "less than".
+            For example, <m>3 &lt; 5</m> means that <m>3</m> is less than <m>5</m>.
+            On a number line, <m>3</m> is to the left of <m>5</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The symbol <m>&gt;</m> means "greater than".
+            For example, <m>5 &gt; 3</m> means that <m>5</m> is greater than <m>3</m>.
+            On a number line, <m>5</m> is to the right of <m>3</m>.
+          </p>
+        </li>
+      </ul>
+      Note that writing <m>3 &lt; 5</m> says the same information as writing <m>5 &gt; 3</m>.
+      We also have the symbols <m>\leq</m> and <m>\geq</m>, which mean "less than or equal to" and "greater than or equal to", respectively.
+      <ul>
+        <li>
+          <p>
+            The symbol <m>\leq</m> means "less than or equal to".
+            For example, <m>3 \leq 5</m> means that <m>3</m> is less than or equal to <m>5</m>.
+            Because this symbol includes the phrase "or equal to", it is valid to write <m>3 \leq 3</m> as well.
+            However, it would not be valid to write <m>3 &lt; 3</m> because <m>3</m> is not less than <m>3</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The symbol <m>\geq</m> means "greater than or equal to".
+            For example, <m>5 \geq 3</m> means that <m>5</m> is greater than or equal to <m>3</m>.
+            Because this symbol includes the phrase "or equal to", it is valid to write <m>5 \geq 5</m> as well.
+            However, it would not be valid to write <m>5 &gt; 5</m> because <m>5</m> is not greater than <m>5</m>.
+          </p>
+        </li>
+      </ul>
+      Writing <m>x \leq y</m> is equivalent to writing <m>y \geq x</m>.
+    </p>
+    <p>
+      The goal of this section is to present an inequality that has a variable (such as <m>x</m>)
+      and solve for the variable by performing actions on both sides of the inequality, just as we did when solving equations.
+      Before discussing how the actions performed are slightly different than with solving equations, let us discuss what final answers will look like.
+    </p>
+    <p>
+      The solved situation will have one or more inequalities where the variable is isolated on one side, and a constant is on the other.
+      The solution can be graphed on a number line and expressed in interval notation.
+      We learn the conventions of how to draw the number line and how to write interval notation through examples:
+      <ul>
+        <li>
+          <p>
+            The inequality <m>x &lt; 3</m> can be graphed on a number line as an unfilled point at <m>3</m> with shading extending to the left.
+            <figure xml:id="xlt3">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (1.5,.4);
+                      \draw[blue, ultra thick, fill=white] (1.5,.4) circle [radius=0.1];
+                      \draw (1.5,-.1) -- (1.5,.1);
+                      \node at (1.5,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything smaller than <m>3</m>, excluding <m>3</m> itself</caption>
+            </figure>
+            (Printed textbook books -- and online textbooks -- tend to include the depiction of the inequality right on the number line, but this is in practice more difficult to show on paper.
+            To make it easier to draw the picture and read information from a drawn picture by hand, we have modeled this print/online textbook to include the drawing of the inequality just aboe the number line.)
+            The unfilled point at <m>3</m> indicates that <m>3</m> is not included in the solution, but that everything leading up to <m>3</m> is included.
+            For example, <m>x = 2.9</m> is included.
+            In interval notation, this solution is expressed as <m>(-\infty, 3)</m>.
+            Writing a parenthesis after <m>3</m> indicates that <m>3</m> is not included.
+            However, everything starting from the very left (represented by <m>-\infty</m>) up to <m>3</m> but excluiding <m>3</m> itself are valid as <m>x</m>-values, so <m>x=2.98765</m> is included.
+          </p>
+        </li>
+        <li>
+          <p>
+            The inequality <m>x \leq 3</m> can be graphed on a number line as a filled point at <m>3</m> with shading extending to the left.
+            <figure xml:id="xleq3">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (1.5,.4);
+                      \draw[blue, ultra thick, fill=blue] (1.5,.4) circle [radius=0.1];
+                      \draw (1.5,-.1) -- (1.5,.1);
+                      \node at (1.5,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything smaller than <m>3</m>, including <m>3</m> itself</caption>
+            </figure>
+            The filled point at <m>3</m> indicates that <m>3</m> is included in the solution, as well as everything leading up to <m>3</m>.
+            In interval notation, this solution is expressed as <m>(-\infty, 3]</m>.
+            Writing a bracket after <m>3</m> indicates that <m>3</m> is included.
+            However, everything starting from the very left (represented by <m>-\infty</m>) up to <m>3</m> including <m>3</m> itself are valid as <m>x</m>-values.
+          </p>
+        </li>
+        <li>
+          <p>
+            The inequality <m>x &gt; 3</m> can be graphed on a number line as an unfilled point at <m>3</m> with shading extending to the right.
+            <figure xml:id="xgt3">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[->, blue, ultra thick] (1.5,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=white] (1.5,.4) circle [radius=0.1];
+                      \draw (1.5,-.1) -- (1.5,.1);
+                      \node at (1.5,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything larger than <m>3</m>, excluding <m>3</m> itself</caption>
+            </figure>
+            The unfilled point at <m>3</m> indicates that <m>3</m> is not included in the solution, but that everything after <m>3</m> is included.
+            For example, <m>x = 3.1</m> is included.
+            In interval notation, this solution is expressed as <m>(3, \infty)</m>.
+            Writing a parenthesis before <m>3</m> indicates that <m>3</m> is not included.
+            However, everything starting from <m>3</m> but excluding <m>3</m> itself up to the very right (represented by <m>\infty</m>) are valid as <m>x</m>-values, so <m>x=3.0001</m> is included.
+          </p>
+        </li>
+        <li>
+          <p>
+            The inequality <m>x \geq 3</m> can be graphed on a number line as a filled point at <m>3</m> with shading extending to the right.
+            <figure xml:id="xgeq3">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[->, blue, ultra thick] (1.5,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=blue] (1.5,.4) circle [radius=0.1];
+                      \draw (1.5,-.1) -- (1.5,.1);
+                      \node at (1.5,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything larger than <m>3</m>, including <m>3</m> itself</caption>
+            </figure>
+            The filled point at <m>3</m> indicates that <m>3</m> is included in the solution, as well as everything after <m>3</m>.
+            In interval notation, this solution is expressed as <m>[3, \infty)</m>.
+            Writing a bracket before <m>3</m> indicates that <m>3</m> is included.
+            However, everything starting from <m>3</m> including <m>3</m> itself up to the very right (represented by <m>\infty</m>) are valid as <m>x</m>-values.
+          </p>
+        </li>
+      </ul>
+      By the examples above, let's notice the pattern that a filled point indicates that a number is included, 
+      while an unfilled point means that a number is not included (but all the numbers close to it are included).
+      <principle xml:id="principle-filled-unfilled">
+        <statement>
+          <p>
+            In a number line diagram:
+            <ul>
+              <li>
+                <p>
+                  A filled point indicates that the number is included.
+                </p>
+              </li>
+              <li>
+                <p>
+                  An unfilled point indicates that the number is not included.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle> 
+      It is important to note that the symbols <m>\infty</m> and <m>-\infty</m> are not actual numbers, but rather represent the idea of "forever" or "without bound".
+      In the number line drawings, drawing an arrow head shows that the shading continues forever in the direction the arrow points.
+      In interval notation, before <m>-\infty</m>, we only write a left parenthesis, and never a square bracket.
+      Similarly, after <m>\infty</m>, we only write a right parenthesis, and never a square bracket.
+      <principle xml:id="principle-infty-interval-notation">
+        <statement>
+          <p>
+            In interval notation:
+            <ul>
+              <li>
+                <p>
+                  Before <m>-\infty</m>, we only write a left parenthesis, and never a square bracket.
+                  For example, to write <m>x \leq 6</m> in interval notation,
+                  is correct <m>(-\infty, 6]</m>, while <m>[-\infty, 6]</m> is incorrect.
+                </p>
+              </li>
+              <li>
+                <p>
+                  After <m>\infty</m>, we only write a right parenthesis, and never a square bracket.
+                  For example to write <m>x \geq 7</m> in interval notation,
+                  is correct <m>[7, \infty)</m>, while <m>[7, \infty]</m> is incorrect.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+      We will often run into situations where we need to discuss all <m>x</m>-values that are between two numbers.
+      We can draw these kinds of siuations on number lines as well, and express information in interval notation.
+      We again do this by example:
+      <ul>
+        <li>
+          <p>
+            We may wish to have all <m>x</m>-values that are between <m>-2</m> and <m>1</m>, but not including either of the aforementioned numbers.
+            In inequality form, we may write <m>x &gt; -2</m> and <m>x &lt; 1</m>. 
+            We can also rewrite the first inequality, so the information is caputured by writing: <m>-2 &lt; x</m> and <m>x &lt; 1</m>.
+            When we have two ineqqualities that are pointing the same way connected by the word "and", we can also compact the work by writing a double inequality like this: <m>-2 &lt; x &lt; 1</m>.
+            The number line diagram for this situation is shown below:
+            <figure xml:id="xbetween-2and1">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-2</m> and <m>1</m>, excluding both numbers</caption>
+            </figure>
+            (Note that our figure is not to scale, but <m>-2</m> appears where it needs to, to the left of <m>0</m>.)
+            In interval notation, we write <m>(-2, 1)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            We may wish to have all <m>x</m>-values that are between <m>-2</m> and <m>1</m>, including both of the aforementioned numbers.
+            We can also write <m>x \geq -2</m> and <m>x \leq 1</m>.
+            We can write <m>-2 \leq x</m> and <m>x \leq 1</m>.
+            We can also write <m>-2 \leq x \leq 1</m> by compacting two inequalities that are pointing the same way whiche are connected by the word "and".
+            The number line diagram for this situation is shown below:
+            <figure xml:id="xbetween-2and1-inclusive">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-2</m> and <m>1</m>, including both numbers</caption>
+            </figure>
+            In interval notation, we write <m>[-2, 1]</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            We may wish to have all <m>x</m>-values that are between <m>-2</m> and <m>1</m>, including <m>-2</m> but not including <m>1</m>.
+            We can also write <m>x \geq -2</m> and <m>x &lt; 1</m>.
+            We can write <m>-2 \leq x</m> and <m>x &lt; 1</m>.
+            We can also write <m>-2 \leq x &lt; 1</m> by compacting two inequalities that are pointing the same way whiche are connected by the word "and".
+            The number line diagram for this situation is shown below:
+            <figure xml:id="xbetween-2and1-left-inclusive">
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-2</m> and <m>1</m>, including <m>-2</m> but excluding <m>1</m></caption>
+            </figure>
+            In interval notation, we write <m>[-2, 1)</m>.
+          </p>
+        </li>
+      </ul>
+      There is a natural fourth example that should be part of this list, but we make it the next exercise that appears.
+      Before giving you a chance to practice that, we point out one detail about the first example in the list above.
+      <principle xml:id="principle-interval-notation-versus-point">
+        <statement>
+          <p>
+            Writing <m>(-2, 1)</m> can mean either of the following:
+            <ul>
+              <li>
+                <p>
+                  We can read <m>(-2, 1)</m> as interval notation: The set of all <m>x</m>-values that are between <m>-2</m> and <m>1</m>, excluding both numbers.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We can read <m>(-2, 1)</m> as a point in the <m>xy</m>-plane: this is the point with <m>x</m>-coordinate <m>-2</m> and <m>y</m>-coordinate <m>1</m>.
+                </p>
+              </li>
+            </ul>
+            This ambiguity is usually not a problem, because of context.
+            However, if we were ever anticipating that a reader would be confused, we can always clarify the context.
+            For example, we can write <q>the interval <m>(-2, 1)</m></q> or <q>the point <m>(-2, 1)</m></q> for clarity.
+          </p>
+        </statement>
+      </principle>
+    </p>
+    <p>
+      Now, a fourth example that could have been in the list above is one that you can try on your own first, before examining the answer:
+      <example>
+        <statement>
+          <p>
+            Consider the situation of <m>x</m>-values that are between <m>-2</m> and <m>1</m>, including <m>1</m> but not including <m>-2</m>.
+            Write this in inequality form, graph it on a number line, and write it in interval notation.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  One answer in inequality form is <m>x &gt; -2</m> and <m>x \leq 1</m>.                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  Another answer in inequality form is <m>-2 &lt; x</m> and <m>x \leq 1</m>.                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  Another answer in inequality form is <m>-2 &lt; x \leq 1</m>.                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  There are additional possible answers. For example, we could write <m>x \leq 1</m> and <m>x &gt; -2</m>.
+                  This was obtained from the first item in this list just by introducing the second inequality first.
+                </p>
+              </li>
+            </ul>
+            On a number line, we would draw a filled point at <m>1</m> and an unfilled point at <m>-2</m>, with shading in between the two points.
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-2</m> and <m>1</m>, including <m>1</m> but excluding <m>-2</m></caption>
+            </figure>
+          </p>
+        </answer>
+      </example>
+      Through these examples, it is important to note that the order of the two numbers in the interval notation is always from least to greatest, 
+      regardless of whether either endpoint is included or excluded.
+      For example, <m>(-2, 1)</m> is correct, while <m>(1, -2)</m> is incorrect.
+      As another example <m>[7, 10)</m> is correct to express <m>7 \leq x &lt; 10</m>, while <m>(10, 7]</m> is incorrect.
+    </p>
+    <p>
+      The examples focused on two inequalities connected together with the word <q>and</q>.
+      We can also have two inequalities connected together with the word <q>or</q>.
+      Before discussing examples of these, we need to clarify what <q>and</q> means in the context of mathematics.
+      When we write <m>x &gt; 10</m> and <m>x &lt; 20</m>, this says that <m>x</m> must be greater than <m>10</m> <em>and also that</em> <m>x</m> must be less than <m>20</m>.
+      In other words, <em>both</em> conditions must hold:  <m>x &gt; 10</m> must happen, but also <m>x &lt; 20</m> must happen.
+    </p>
+    <p>
+      Consider the following example, based on our discussion of the word <q>and</q>:
+      <m>x &lt; -2</m> and <m>x &gt; 1</m>.
+      This says that <m>x</m> must be less than <m>-2</m> <em>and also that</em> <m>x</m> must be greater than <m>1</m>.
+      However, there is no number that is both less than <m>-2</m> and greater than <m>1</m>.
+      So this situation is impossible.
+    </p>
+    <p>
+      In mathematics, the word <q>or</q> has a specific, technical meaning.
+      When we write <m>x &gt; 10</m> or <m>x &lt; 20</m>, this says that <m>x</m> can be greater than <m>10</m> <em>or</em> it can be less than <m>20</m>.
+      In other words, <em>at least one</em> of the two conditions must hold:  <m>x &gt; 10</m> must happen, or <m>x &lt; 20</m> must happen, or both.
+      As another example, suppose that we had the following situation, where fore context, <m>x</m> must be a day of the week: 
+      <m>x</m> starts with the letter T or <m>x</m> has an E in it.
+      With this example:
+      <ul>
+        <li>
+          <p>
+            <m>x</m> could be Thursday, because Thursday has a T in it.
+            (The fact that Thursday doesn't have an E in it is okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x</m> could be Wednesday, which has an E in it.
+            (The fact that Wednesday doesn't start with a T is okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x</m> could be Tuesday, which starts with a T and has an E in it.
+            (In this case, both conditions are satisfied, which is also okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x</m> could <em>not</em> be Friday, which neither starts with a T nor has an E in it.
+            (Friday is not included, because we needed at least one of the two conditions to hold, and neither did. Same could be said for Monday or for Sunday or for Saturday.)
+          </p>
+        </li>
+      </ul>
+      Consider the following example, based on our discussion of the word <q>or</q>:
+      <m>x &lt; -2</m> or <m>x &gt; 1</m>.
+      This says that <m>x</m> can be less than <m>-2</m> <em>or</em> it can be greater than <m>1</m>.
+      At least one of the two conditions must hold.
+      <ul>
+        <li>
+          <p>
+            <m>x=-3</m> is included, because <m>-3 &lt; -2</m> is true. (The fact that <m>-3 &gt; 1</m> is false is okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x=1.1</m> is included, because <m>1.1 &gt; 1</m> is true. (The fact that <m>1.1 &lt; -2</m> is false is okay.)
+          </p>
+        </li>
+      </ul>
+      As another example, consider the following example based on our discussion of the word <q>or</q>:
+      <m>x &lt; 4</m> or <m>x &gt; 2</m>.
+      This says that <m>x</m> must be less than <m>4</m> <em>or</em> it must be greater than <m>2</m>.
+      At least one of the two conditions must hold for a number to be included.
+      <ul>
+        <li>
+          <p>
+            <m>x=1</m> is included, because <m>1 &lt; 4</m> is true. (The fact that <m>1 &gt; 2</m> is false is okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x=4.001</m> is included, because <m>4.0001 &gt; 2</m> is true. (The fact that <m>4.0001 &lt; 4</m> is false is okay.)
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x=3</m> is included, because both conditions hold. (Having both conditions hold is okay. Earlier, we saw that Tuesday satisfied both conditions in an earlier example.)
+          </p>
+        </li>
+      </ul>
+      The word <q>or</q> used like this is in fact the same <q>or</q> that appeared in the Zero Product Property.
+      For example, the Zero Product Property turned the equation <m>(x-3)(x-5)=0</m> into <m>x-3=0</m> or <m>x-5=0</m>.
+      In the next step, this becomes <m>x=3</m> or <m>x=5</m>. Here, because the word <q>or</q> appears, at least one of the two conditions must hold.
+      In fact, it is impossible in that situation for both conditions to hold, because a number cannot be both <m>3</m> and <m>5</m> at the same time:
+      writing <m>x=3</m> and <m>x=5</m> indicates an impossible situation.
+    </p>
+    <p>
+      We describe inequality situations where the word <q>or</q> appears, but we start with number line diagrams, then introduce interval notation, 
+      and finally write inequalities.
+      <ul>
+        <li>
+          <p>
+            Consider the following number line diagram for this situation is shown below:
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (-2,.4);
+                      \draw[->, blue, ultra thick] (1,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=white] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw (-2,-.1) -- (-2,.1);
+                      \node at (-2,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything less than <m>-2</m> or greater than <m>1</m></caption>
+            </figure>
+            The diagram shows <m>x</m>-values that are less than <m>-2</m> or greater than <m>1</m>.
+            In interval notation, we write <m>(-\infty, -2) \cup (1, \infty)</m>.
+            In inequality form, we write <m>x &lt; -2</m> or <m>x &gt; 1</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Consider the following number line diagram for this situation is shown below:
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (-2,.4);
+                      \draw[->, blue, ultra thick] (1,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=white] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-2,-.1) -- (-2,.1);
+                      \node at (-2,-.3) {$-2$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$1$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything less than <m>-2</m> or greater than or equal to <m>1</m></caption>
+            </figure>
+            The diagram shows <m>x</m>-values that are less than <m>-2</m> or greater than or equal to <m>1</m>.
+            In interval notation, we write <m>(-\infty, -2) \cup [1, \infty)</m>.
+            In inequality form, we write <m>x &lt; -2</m> or <m>x \geq 1</m>.            
+          </p>
+        </li>
+      </ul>
+      The examples above are sufficient to illustrate the general pattern for situations where the word <q>or</q> appears when there are two disconnected pieces.
+      We will later run into situations where there are more pieces.
+      It will be helpful to have a general principle for turning a number line diagram into interval notation:
+      <principle xml:id="principle-number-line-to-interval-notation">
+        <statement>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Scan the number line from left to right.
+                </p>
+                <p>
+                  Identify each individual connected piece of shading.
+                  (Each connected piece will be separated from the next connected piece by a "gap" of unshaded area: that gap may be very large, or it may be small. It may even be so small that the "gap" consists of removing a single number.)                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  Describe each individual piece using interval notation.
+                </p>
+              </li>
+            </ol>
+            Present all the intervals together writing the union symbol <m>\cup</m> between individiual pieces to present the entire set of numbers as a final result in interval notation.
+          </p>
+        </statement>
+      </principle>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the following number line diagram and write the shaded region in interval notation.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3.5,.4) -- (-3,.4);
+                      \draw[blue, ultra thick] (-2,.4) -- (1,.4);
+                      \draw[->, blue, ultra thick] (2,.4) -- (3.5,.4);
+                      \draw[blue, ultra thick, fill=white] (-3,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,.4) circle [radius=0.1];
+                      \draw (-3,-.1) -- (-3,.1); \node at (-3,-.3) {$-3$};
+                      \draw (-2,-.1) -- (-2,.1); \node at (-2,-.3) {$-2$};
+                      \draw (-1,-.1) -- (-1,.1); \node at (-1,-.3) {$-1$};
+                      \draw (0,-.1) -- (0,.1); \node at (0,-.3) {$0$};
+                      \draw (1,-.1) -- (1,.1); \node at (1,-.3) {$1$};
+                      \draw (2,-.1) -- (2,.1); \node at (2,-.3) {$2$};
+                      \draw (3,-.1) -- (3,.1); \node at (3,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Three pieces</caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Scanning from left to right:
+            <ul>
+              <li>
+                <p>
+                  The first piece is everything less than <m>-3</m>, which is expressed in interval notation as <m>(-\infty, -3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The second piece is everything between <m>-2</m> and <m>1</m>, including <m>-2</m> but not including <m>1</m>, which is expressed in interval notation as <m>[-2, 1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The third piece is everything greater than or equal to <m>2</m>, which is expressed in interval notation as <m>[2, \infty)</m>.
+                </p>
+              </li>
+            </ul>
+            Putting all the pieces together, we write the entire shaded region in interval notation as <m>(-\infty, -3) \cup [-2, 1) \cup [2, \infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      Let us examine another example:
+      <example>
+        <statement>
+          <p>
+            Consider the following number line diagram and write the shaded region in interval notation.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3.5,.4) -- (-3,.4);
+                      \draw[blue, ultra thick] (-2,.4) -- (-1,.4);
+                      \draw[blue, ultra thick] (0,.4) -- (1,.4);
+                      \draw[blue, ultra thick] (2,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=white] (-3,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (0,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,.4) circle [radius=0.1];
+                      \draw (-3,-.1) -- (-3,.1); \node at (-3,-.3) {$-3$};
+                      \draw (-2,-.1) -- (-2,.1); \node at (-2,-.3) {$-2$};
+                      \draw (-1,-.1) -- (-1,.1); \node at (-1,-.3) {$-1$};
+                      \draw (0,-.1) -- (0,.1); \node at (0,-.3) {$0$};
+                      \draw (1,-.1) -- (1,.1); \node at (1,-.3) {$1$};
+                      \draw (2,-.1) -- (2,.1); \node at (2,-.3) {$2$};
+                      \draw (3,-.1) -- (3,.1); \node at (3,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Four pieces</caption>
+            </figure>
+          </p>
+        </statement>        
+        <answer>
+          <p>
+            We examine the number line from left to right, and find four pieces:
+            <ul>
+              <li>
+                <p>
+                  The first piece is <m>(-\infty, -3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The second piece is <m>[-2, -1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The third piece is <m>(0, 1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The fourth piece is <m>[2, 3]</m>.
+                </p>
+              </li>
+            </ul>
+            Putting all the pieces together, we write the entire shaded region in interval notation as <m>(-\infty, -3) \cup [-2, -1) \cup (0, 1) \cup [2, 3]</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      We examine slightly weirder examples:
+      <example>
+        <statement>
+          <p>
+            Consider the following number line diagram and write the shaded region in interval notation.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3.5,.4) -- (-2,.4);
+                      \draw[blue, ultra thick] (-2,.4) -- (-1,.4);
+                      \draw[->, blue, ultra thick] (2,.4) -- (3.5,.4);
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,.4) circle [radius=0.1];
+                      \draw (-3,-.1) -- (-3,.1); \node at (-3,-.3) {$-3$};
+                      \draw (-2,-.1) -- (-2,.1); \node at (-2,-.3) {$-2$};
+                      \draw (-1,-.1) -- (-1,.1); \node at (-1,-.3) {$-1$};
+                      \draw (0,-.1) -- (0,.1); \node at (0,-.3) {$0$};
+                      \draw (1,-.1) -- (1,.1); \node at (1,-.3) {$1$};
+                      \draw (2,-.1) -- (2,.1); \node at (2,-.3) {$2$};
+                      \draw (3,-.1) -- (3,.1); \node at (3,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Three pieces</caption>
+            </figure>
+          </p>
+        </statement>                
+        <answer>
+          <p>
+            Before digging in, we clarify something about this diagram.
+            There is the piece that is everything less than <m>-2</m>, and the next piece has everything greater than <m>-2</m> that's less than <m>-1</m>.
+            These pieces are separate, though they are <em>very</em> close to each other.
+            Unlike earlier examples where there was a visible gap (a wide gap) between the different pieces, here the gap between these two pieces is very small:
+            informally, we would describe it by saying the gap was created by poking a sewing needle through the number line at <m>-2</m> and removing that single point.
+            Still, a gap is a gap!
+          </p>
+          <p>
+            Scanning from left to right, we find three pieces:
+            <ul>
+              <li>
+                <p>
+                  The first piece is <m>(-\infty, -2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The second piece is <m>(-2, -1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The third piece is <m>[2, \infty)</m>.
+                </p>
+              </li>
+            </ul>
+            To be clear, the first piece includes numbers like <m>-2.1</m>, while the second piece includes numbers like <m>-1.5</m>.
+            Putting all the pieces together, we write the entire shaded region in interval notation as <m>(-\infty, -2) \cup (-2, -1) \cup [2, \infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+       <statement>
+          <p>
+            Consider the following number line diagram and write the shaded region in interval notation.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-2,.4) -- (0,.4);
+                      \draw[blue, ultra thick] (1,.4) -- (2,.4);
+                      \draw[blue, ultra thick] (2,.4) -- (3,.4);
+                      \draw[->, blue, ultra thick] (3,.4) -- (3.5,.4);
+                      \draw[blue, ultra thick, fill=blue] (-2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (2,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (3,.4) circle [radius=0.1];
+                      \draw (-3,-.1) -- (-3,.1); \node at (-3,-.3) {$-3$};
+                      \draw (-2,-.1) -- (-2,.1); \node at (-2,-.3) {$-2$};
+                      \draw (-1,-.1) -- (-1,.1); \node at (-1,-.3) {$-1$};
+                      \draw (0,-.1) -- (0,.1); \node at (0,-.3) {$0$};
+                      \draw (1,-.1) -- (1,.1); \node at (1,-.3) {$1$};
+                      \draw (2,-.1) -- (2,.1); \node at (2,-.3) {$2$};
+                      \draw (3,-.1) -- (3,.1); \node at (3,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Four pieces</caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Scanning from left to right:
+            <ul>
+              <li>
+                <p>
+                  The first piece is <m>[-2, 0]</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The second piece is <m>(1, 2)</m>, which includes number such as <m>1.5</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The third piece is <m>(2, 3)</m>, which includes number such as <m>2.1</m> as well as <m>2.99</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The fourth piece is <m>(3, \infty)</m>, which includes numbers such as <m>3.000001</m> and <m>4</m>.
+                </p>
+              </li>
+            </ul>
+            Putting all the pieces together, we write the entire shaded region in interval notation as <m>[-2, 0] \cup (1, 2) \cup (2, 3) \cup (3, \infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+  </subsection>
+  <subsection>
+    <title>Solving inequalities</title>
+
+    <p>
+      We spent a considerable amount of time discussing interval notation and number line diagrams.
+      For the actual practical process of soling ineqaulities, we can do the following:
+      <ul>
+        <li>
+          <p>
+            Add the same quantity on both sides of an inequality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Subtract the same quantity on both sides of an inequality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Multiply by the same <em>positive</em> quantity on both sides of an inequality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Divide by the same <em>positive</em> quantity on both sides of an inequality.
+          </p>
+        </li>
+        <li>
+          <p>
+            Multiply by the same <em>negative</em> quantity on both sides of an inequality, and <em>reverse</em> the inequality sign.
+          </p>
+        </li>
+        <li>
+          <p>
+            Divide by the same <em>negative</em> quantity on both sides of an inequality, and <em>reverse</em> the inequality sign.
+          </p>
+        </li>
+      </ul>
+
+      <principle>
+        <title>Careful wehn multiplying or dividing both sides of an inequality</title>
+        <p>
+          The direction of the inequality sign is reversed when multiplying or dividing both sides of an inequality by a <em>negative</em> number.
+          However, when adding or subtracting on both sides, the inequality direction never reverses.
+        </p>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>4x - 7 &gt; 5</m>.
+            Present an answer algebraically, on a number line diagram, and in interval notation.    
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Start with <m>4x - 7 &gt; 5</m>, and add <m>7</m> to both sides to get <m>4x &gt; 12</m>.
+            Next, divide both sides by <m>4</m> to get our algebraic answer <m>x &gt; 3</m>.
+            On a number line diagram, we draw an unfilled point at <m>3</m> and shade everything to the right of <m>3</m>.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[->, blue, ultra thick] (2,.4) -- (3.5,.4);
+                      \draw[blue, ultra thick, fill=white] (2,.4) circle [radius=0.1];
+                      \draw (0,-.1) -- (0,.1); \node at (0,-.3) {$0$};
+                      \draw (2,-.1) -- (2,.1); \node at (2,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>All values greater than <m>3</m></caption>
+            </figure>
+            In interval notation, we write <m>(3, \infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>10x + 2 \leq 31</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Start with <m>10x + 2 \leq 31</m>, and subtract <m>2</m> from both sides to get <m>10x \leq 29</m>.
+            Next, divide both sides by <m>10</m> which gives us our algebraic answer <m>x \leq \frac{29}{10}</m>.
+            On a number line diagram, we draw an filled point at <m>\frac{29}{10}</m> and shade everything to the left of <m>\frac{29}{10}</m>.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3.5,.4) -- (2.9,.4);
+                      \draw (2.9,-.1) -- (2.9,.1); \node at (2.9,-.3) {$\frac{29}{10}$};
+                      \draw[blue, ultra thick, fill=blue] (2.9,.4) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>All values less than or equal to <m>\frac{29}{10}</m></caption>
+            </figure>
+            In interval notation, we write <m>(-\infty, \frac{29}{10}]</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>-3x - 2 &lt; 16</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>-3x - 2 &lt; 16</me>
+            <me>-3x &lt; 18</me>
+            <me>\frac{-3x}{-3} &gt; \frac{18}{-3}</me>
+            <me>x &gt; -6</me>
+            Note that the <em>very</em> first step that indicates dividing by a negative number should have the reversed inequality sign.
+            (Very often, it is tempting to take the line that has <m>-3x &lt; 18</m> written on write on top of that work to indicade dividing both sides by <m>-3</m> without reversing the inequality sign, which would be a mistake, even if that reversal is written into the next step.)
+            On a number line diagram, we draw an filled point at <m>-6</m> and shade everything to the right of <m>-6</m>.
+            <figure>
+              <image width="55%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3.5,0) -- (3.5,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3.5,.4) -- (2.9,.4);
+                      \draw (2.9,-.1) -- (2.9,.1); \node at (2.9,-.3) {$-6$};
+                      \draw[blue, ultra thick, fill=blue] (2.9,.4) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>All values greater than <m>-6</m></caption>
+            </figure>
+            In interval notation, we write <m>(-6, \infty)</m>.
+          </p>
+        </answer>
+      </example>
+      As an alternate way to solve the inequality <m>-3x - 2 &lt; 16</m>, we can add <m>3x</m> to both sides to get <m>-2 &lt; 16 + 3x</m>, then subtract <m>16</m> from both sides to get <m>-18 &lt; 3x</m>, and then divide both sides by <m>3</m> to get <m>-6 &lt; x</m>, which is equivalent to <m>x &gt; -6</m>.
+    </p>
+    <p>
+      Note that in the alternate method, we never divided by a negative number, so we never had to reverse the inequality sign.
+      <principle xml:id="principle-divide-by-negative-number-not-negative-numerator">
+        <statement>
+          <p>
+            We reverse the inequality sign when multiplying or dividing both sides of an inequality <em>by</em> a negative number.
+            However, if we had a negative number and divided both sides by a positive number, we would not reverse the inequality sign.
+          </p>
+        </statement>
+      </principle>
+      To highlight this idea in our alternate answer, we had <m>-18 &lt; 3x</m>. When we divide both sides by <m>3</m>, that is dividing by the positive number <m>3</m>.
+      It is true that a negative number is involved in our arithmetic: we have the negative number <m>-18</m> divided by the positive number <m>3</m>, but that does not require us to reverse the inequality sign.
+      The number we divided <em>by</em> (which is seen in the denominator) is positive, so we do not reverse the inequality sign: the negative number appeared in the numerator.
+    </p>
+    
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            In a number line diagram, an unfilled point indicates that the number is not included, while a filled point indicates that the number is included.
+          </p>
+        </li>
+        <li>
+          <p>
+            In interval notation, parentheses indicate that the number is not included, while brackets indicate that the number is included.
+          </p>
+        </li>
+        <li>
+          <p>
+            In interval notation, a parentheses (never a square bracket) apears immediately before <m>-\infty</m> and immediately after <m>\infty</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Given a number line diagram, we can write the corresponding interval notation by scanning from left to right, 
+            identifying each connected piece of shading (whether the gap is large or as small as a single point), 
+            and writing each piece in interval notation, then joining all the pieces together with the union symbol <m>\cup</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When multiplying or dividing both sides of an inequality by a negative number, the direction of the inequality sign is reversed.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Solve each inequality. Give final answers in algebraic form, a number line diagram, and intervaln notation.
+            <ol>
+              <li><p><m>2x &lt; 20</m></p></li>
+              <li><p><m>x + 7 \geq 15</m></p></li>
+              <li><p><m>3x - 4 &lt; 17</m></p></li>
+              <li><p><m>9 - x &gt; 2</m></p></li>
+              <li><p><m>\frac{x}{5} \leq 6</m></p></li>
+              <li><p><m>4x + 9 \geq 33</m></p></li>
+              <li><p><m>7 - 2x &lt; -5</m></p></li>
+              <li><p><m>\frac{3x}{4} - 2 &gt; 7</m></p></li>
+              <li><p><m>5(x-2) \leq 30</m></p></li>
+              <li><p><m>8 - 3(x+1) &gt; -7</m></p></li>
+              <li><p><m>2(x+4) - 3 \geq 11</m></p></li>
+              <li><p><m>6x - 5 &gt; 2x + 11</m></p></li>
+              <li><p><m>4(x-1) + 7 \leq 3x + 10</m></p></li>
+              <li><p><m>-5x + 12 \leq 41</m></p></li>
+              <li><p><m>5 - 2(x-3) &lt; x + 8</m></p></li>
+              <li><p><m>\frac{x-3}{2} + 4 \geq 7</m></p></li>
+              <li><p><m>\frac{2x+1}{3} - 5 &lt; 2</m></p></li>
+              <li><p><m>4 - \frac{x}{2} \geq 9</m></p></li>
+              <li><p><m>3(2x-1) - 5 \leq 4(x+2)</m></p></li>
+              <li><p><m>\frac{5x-2}{4} + 3 &gt; \frac{x+6}{2}</m></p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>

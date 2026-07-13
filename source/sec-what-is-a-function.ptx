@@ -40,7 +40,7 @@
     </p>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-functions-by-formula">
     <title>Functions by formula</title>
 
     <principle xml:id="function-definition">
@@ -70,14 +70,262 @@
     </p>
     <p>
       In <xref ref="language-of-mathematics"/>, we mentioned how important it is to pay attention to the language of mathematics.
-      For this function, 
+      For this function, when we see <m>f(x) = 3x + 1</m> it is important to say (or think internally) the following: <m>f</m> of <m>x</m> equals <m>3x + 1</m>.
+      The temptation exists to leave out the word "of".
+      In earlier contexts in mathematics, including in this class, when we would have seen something like <m>c(d)</m> or <m>(c)(d)</m>, we would have interpreted that writing as <m>c</m> multiplied by <m>d</m>.
+      In those earlier contexts, that would be totally correct, and so it would lead us to the belief that we should read <m>f(x)</m> as if it meant <m>f</m> multiplied by <m>x</m>.
+      But in this context, we are using the notation <m>f(x)</m> to mean that we are talking about a function called <m>f</m>, and that <m>x</m> represents a typical input of this function.
+      In this context, there is no multiplication going on at all.
+      So, this notation is admittedly inconsistent and potentially misleading, thus confusing.
+      In the context of functions, we should make a habit of including the word "of" in our language,even if we haven't written the word "of" when we write the notation <m>f(x)</m>, so that we don't mislead ourselves.
     </p>
+
+    <example>
+      <statement>
+        <p>
+          Given the function <m>f(x) = 3x + 1</m>,
+          <ol>
+            <li>
+              <p>
+                Find <m>f(2)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(5)</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(10)</m>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li>
+              <p>
+                <m>f(2) = 3(2) + 1 = 6 + 1 = 7</m>. 
+                In summary, <m>f(2) = 7</m>, which means that when the input is <m>2</m>, the output is <m>7</m>.
+                To say <m>f(2) = 7</m> in words, we would say <q><m>f</m> of <m>2</m> equals <m>7</m></q>, focused on ensuring that we say the word <q>of</q>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(5) = 3(5) + 1 = 15 + 1 = 16</m>. 
+                In summary, <m>f(5) = 16</m>, which means that when the input is <m>5</m>, the output is <m>16</m>.
+                To say <m>f(5) = 16</m> in words, we would say <q><m>f</m> of <m>5</m> equals <m>16</m></q>, focused on ensuring that we say the word <q>of</q>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(10) = 3(10) + 1 = 30 + 1 = 31</m>. 
+                In summary, <m>f(10) = 31</m>, which means that when the input is <m>10</m>, the output is <m>31</m>.
+                To say <m>f(10) = 31</m> in words, we would say <q><m>f</m> of <m>10</m> equals <m>31</m></q>, focused on ensuring that we say the word <q>of</q>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </answer>
+    </example>
+    <p>
+      It is important to point out that the previous discussion was about <em>one</em> function, and not <em>three</em> functions.
+      For the one function <m>f(x) = 3x + 1</m>, we discussed three different inputs:
+      <ol>
+        <li>
+          <p>
+            When the input is <m>2</m>, the output is <m>7</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When the input is <m>5</m>, the output is <m>16</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When the input is <m>10</m>, the output is <m>31</m>.
+          </p>
+        </li>
+      </ol>
+      The list above is meant to emphasize helpful words when discussing functions: input and output.
+      <principle xml:id="habit-input-output">
+        <statement>
+          <p>
+            When discussing functions, always think using the words <term>input</term> and <term>output</term>.
+          </p>
+        </statement>
+      </principle>
+      The words <q>input</q> and <q>output</q> are helpful because they really describe what is going on.
+      Functions serve as one of the most important concepts in algebra, and confusion is commen when we don't use the words <q>input</q> and <q>output</q> to describe what's going on.
+      We often informally describe a function as a "machine" that takes input and produces output.
+      This is a helpful way to think of a function.
+      Think about the specific example of an ATM machine: you enter in your debit card and your PIN, and the machine produces gives you cash.
+      In this analogy, the combination of your debit card and your PIN is the input, and the cash that you receive is the output.
+      In the last example, when we wrote <m>f(2)=7</m>, we say that <m>2</m> is the input and <m>7</m> is the output.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = x^2 + 10</m>, find <m>f(3)</m> and <m>f(4)</m> and <m>f(-4)</m>.
+            For each of these, practice the language that should be spoken when writing in function notation.
+            For each of these, practice the fundamental concepts of functions by writing a sentence that uses the words <q>input</q> and <q>output</q>.
+          </p>
+        </statement>
+        <ul>
+          <li>
+            <p>
+              <m>f(3) = 3^2 + 10 = 9 + 10 = 19</m>. 
+              In summary, <m>f(3) = 19</m>, which means that when the input is <m>3</m>, the output is <m>19</m>.
+              To say <m>f(3) = 19</m> in words, we would say <q><m>f</m> of <m>3</m> equals <m>19</m></q>, focused on ensuring that we say the word <q>of</q>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>f(4) = 4^2 + 10 = 16 + 10 = 26</m>. 
+              In summary, <m>f(4) = 26</m>, which means that when the input is <m>4</m>, the output is <m>26</m>.
+              To say <m>f(4) = 26</m> in words, we would say <q><m>f</m> of <m>4</m> equals <m>26</m></q>, focused on ensuring that we say the word <q>of</q>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>f(-4) = (-4)^2 + 10 = 16 + 10 = 26</m>. 
+              In summary, <m>f(-4) = 26</m>, which means that when the input is <m>-4</m>, the output is <m>26</m>.
+              To say <m>f(-4) = 26</m> in words, we would say <q><m>f</m> of <m>-4</m> equals <m>26</m></q>, focused on ensuring that we say the word <q>of</q>.
+            </p>
+          </li>
+        </ul>
+      </example>
+      What we saw in the last example was that <m>f(4)</m> and <m>f(-4)</m> are both <m>26</m>.
+      Each input can only have one specific output, but this example of a function shows that it is possible for two different inputs to have the same output.      
+    </p>
+    <principle xml:id="principle-pre-one-to-one">
+      <statement>
+        <p>
+          For a given function:
+          <ol>
+            <li>
+              <p>
+                Each input has exactly one output. (An input may not have more than one output, and an input may not have no output.)
+              </p>
+            </li>
+            <li>
+              <p>
+                It is possible for two different inputs to have the same output.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </principle>
+    <p>
+      In the next example, we compare two different functions.
+      When there is more than one function involved, it is common to name one function <m>f(x)</m> and the other function <m>g(x)</m>.
+      In words, we have <q><m>f</m> of <m>x</m></q> and <q><m>g</m> of <m>x</m></q>.
+      <example>
+        <statement>
+          <p>
+            Consider the function <m>f(x)=2^x</m> and the function <m>g(x)=x^2</m>, and answer the questions below:
+            <ol>
+              <li>
+                <p>
+                  Find <m>f(3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(-3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(-3)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>f(3) = 2^3 = 8</m>. 
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(-3) = 2^{-3} = \frac1{2^3} = \frac{1}{8}</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(3) = 3^2 = 9</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(-3) = (-3)^2 = 9</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+      In this example, we see that the function <m>g</m> has the property that two different inputs <m>3</m> and <m>-3</m> have the same output <m>9</m>.
+      For the function <m>f</m>, we have only dealt with two inputs and got different outputs for each input.
+      We may just not yet have discovered two different inputs for <m>f</m> that lead to the same output: more work remains to be done to figure out 
+      if <m>f</m> has the same phenomenon as <m>g</m> or not.
+      We will discuss this specific function <m>f</m> in a future section, but if you're willing to believe it for now: 
+      <m>f</m> is a function that has the property that two different inputs will never have the same output.
+    </p>
+
+
+
+
+
+  </subsection>
+
+  <subsection xml:id="subsec-functions-by-table">
+    <title>Functions by table</title>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-functions-by-graph">
+    <title>Functions by graph</title>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-domain-and-range">
+    <title>Domain and range</title>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-piecewise-functions">
+    <title>Piecewise functions</title>
+    
+  </subsection>
+
+
+  <subsection xml:id="subsec-oeuidhtaundta">
+
     <principle>
       <statement>
         <p>
           The <term>domain</term> of a function is the set of all possible inputs for the function.
         </p>
       </statement>
+    </principle>
 
 
     <example>
