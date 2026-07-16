@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-absolute-value" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Absolute Value</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Solve absolute value equations.</p></li>
+			<li><p>Solve absolute value inequalities.</p></li>
+			<li><p>Apply absolute value concepts to real-world problems.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      The concepts we learn in this section will be useful in a variety of applications, including:
+      <ol>
+        <li>
+          <p>
+            A manufacturer needs to cut metal rods to <m>100</m> centimeters with a tolerance of <m>0.5</m> centimeters.
+            What is the range of a rod's length that is acceptable to the manufacturer?
+          </p>
+        </li>
+        <li>
+          <p>
+            A doctor is monitoring a patient's blood sugar, with a target of <m>85</m> mg/dL and a tolerance of <m>15</m> mg/dL.
+            What is the range of blood sugar levels that are acceptable to the doctor?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Absolute value equations</title>
+
+    <p>
+      Before diving right into solving an absolute value equation, we pause to discuss what it <em>means</em> to solve any equation, and we do this by example.
+      Examine solving the equation <m>x^2 = 2x + 8</m>. Here are several comments, separated one at a time:
+      <ul>
+        <li>
+          <p>
+            If someone wrote <m>x = \pm\sqrt{2x+8}</m>, they haven't really solved the equation, because the variable should be isolated on one side (which it is), but without the variable appearing on the other side.
+          </p>
+        </li>
+        <li>
+          <p>
+            As a final answer, someone might write <m>x = 4</m> or <m>x = -2</m>. This is a complete and correct <em>final</em> answer, but we have left out the work. There are three methods that come to mind for solving this equation, which we summarize:
+            <ul>
+              <li>
+                <p>
+                  One person may prefer to get all terms on one side, then factor to have <m>(x-4)(x+2) = 0</m>, then use the Zero Product Property to get <m>x-4=0</m> or <m>x+2=0</m>, and end with <m>x = 4</m> or <m>x = -2</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Someone else may prefer to examine <m>x^2-2x=8</m> and complete the square.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Someone else may prefer to use the Quadratic Formula.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </li>
+        <li>
+          <p>
+            Regardless of which of the three methods are applied (that is, independent of the specific <em>work</em> that gets shown), we need to focus on what it actually <em>means</em> to solve an equation.
+            Put directly, what does it mean that the <em>question</em> was to solve <m>x^2 = 2x + 8</m> and that our <em>answer</em> to that question was <q><m>x = 4</m> or <m>x = -2</m></q>?
+          </p>
+          <p>
+            Solving an equation means providing a complete list of all values of the variable that make the equation true.
+            We didn't provide an extra value that doesn't work, and we didn't leave out any values that do work.
+            This removes the focus on <em>how</em> we got to the final answer, and instead focuses on the <em>connection</em> between the question and the answer.
+          </p>
+        </li>
+      </ul>
+    </p>  
+    <p>
+      This idea is so important that we need to put this in a box:
+      <principle xml:id="principle-solve-meaning">
+        <title>What it means to solve an equation</title>
+        <statement>
+          <p>
+            Solving an equation means providing a complete list of all values of the variable that make the equation true.
+            (We don't provide an extra value that do not work, and we don't leave out any values that do work.)
+          </p>
+        </statement>
+      </principle>
+      We exercise what this means through several examples.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Verify that <m>x = 4</m> is a solution to the equation <m>x^2 = 2x + 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We substitute <m>x=4</m> and simplify each side independently according to the Order of Operations:
+            <ul>
+              <li>
+                <p>
+                  The left side is <m>x^2 = 4^2 = 16</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side is <m>2x + 8 = 2(4) + 8 = 8 + 8 = 16</m>.
+                </p>
+              </li>
+            </ul>
+            Since both sides simplify to <m>16</m>, we have verified that <m>x=4</m> is a solution to the equation.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Verify that <m>x = -2</m> is a solution to the equation <m>x^2 = 2x + 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  The left side is <m>x^2 = (-2)^2 = 4</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side is <m>2x + 8 = 2(-2) + 8 = -4 + 8 = 4</m>.
+                </p>
+              </li>
+            </ul>
+            Since both sides simplify to <m>4</m>, we have verified that <m>x=-2</m> is a solution to the equation.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Verify that <m>x = -4</m> is a solution to the equation <m>|4x+8|-10 = 10 - |2x-4|</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We substitute <m>x=-4</m> and simplify each side independently according to the Order of Operations:
+            <ul>
+              <li>
+                <p>
+                  The left side is <m>|4x+8|-10 = |4(-4)+8|-10 = |-16+8|-10 = |-8|-10 = 8-10 = -2</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The right side is <m>10 - |2x-4| = 10 - |2(-4)-4| = 10 - |-8-4| = 10 - |-12| = 10 - 12 = -2</m>.
+                </p>
+              </li>
+            </ul>
+            Since both sides simplify to the same value (namely <m>-2</m>), we have verified that <m>x=-4</m> is a solution to the equation.
+          </p>
+        </answer>
+      </example>
+      Note that in the previous example, we have hidden the <em>process</em> that we applied.
+      Left completely out was any discussion of what we did to both sides or any other techniques that were involved in getting from <m>|4x+8|-10 = 10 - |2x-4|</m> to <m>x = -4</m>,
+      but this meant that we could focus on the <em>connection</em> between the question and the answer mentioned in <xref ref="principle-solve-meaning"/>.
+      In particular, we stated that <m>x=-4</m> is a solution, and the format of that equation was <m>x</m> alone on one side, the equal sign, and then a number on the other side.
+    </p>
+
+    <p>
+      One key thing to note before we discuss techniques to solve these kinds of equations is that the absolute value of a number is always non-negative.
+      For example, <m>|-5|</m> and <m>|5|</m> are both equal to <m>5</m>.
+    </p>
+
+  </subsection>
+
+	<subsection>
+		<title>Solving absolute value equations</title>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>|x| = 5</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>x=5</m> or <m>x=-5</m>.
+          </p>
+        </answer>
+      </example>
+      We need to provide a complete list of <m>x</m> values that make the equation true.
+      So, our response to <m>|x| = 5</m> is <q><m>x=5</m> or <m>x=-5</m></q>.
+      It is not correct to respond to <m>|x|=5</m> with <q><m>|x|=5</m> or <m>|x|=-5</m></q>, because that is not stating values of <m>x</m>.
+      <principle xml:id="principle-state-x-not-abs-x">
+        <statement>
+          <p>
+            To solve <m>|x|=5</m>
+            <ul>
+              <li>
+                <p>
+                  The next step is <q><m>x=5</m> or <m>x=-5</m></q>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The next step is not <q><m>|x|=5</m> or <m>|x|=-5</m></q>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example xml:id="absval-u-eq-8">
+        <statement>
+          <p>
+            Solve the equation <m>|u| = 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>u=8</m> or <m>u=-8</m>.
+          </p>
+        </answer>
+      </example>
+      The answer is not <q><m>|u|=8</m> or <m>|u|=-8</m></q>.
+      Like before, our final answer is talking about <m>u</m>, but it should not be trying to say that <m>|u|</m> is equal to something, especially to a negative number like <m>-8</m>.
+    </p>   
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>|x| - 2 = 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Add <m>2</m> to both sides to get <m>|x| = 10</m>. 
+          </p>
+          <p>
+            Therefore, <m>x = 10</m> or <m>x = -10</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>|x-2|  = 8</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In this question, adding <m>2</m> to both sides does not help. If we add <m>2</m> to both sides, we have 
+            <me>|x-2| + 2 = 10</me>
+            and note that the plus <m>2</m> outside parentheses does not undo the minus <m>2</m> inside parentheses.
+            In the question before this one, we had <m>|x| - 2 = 8</m> and adding <m>2</m> to both sides did undo the minus <m>2</m> outside the absolute value.
+          </p>
+          <p>
+            So, instead in <m>|x-2| = 8</m>, we will focus on the content <em>inside</em> the absolute value, which is <m>x-2</m>, and replace this with <m>u</m>.
+            Then, the question <m>|x-2| = 8</m> becomes <m>|u| = 8</m>, which we know how to solve.
+            Borrowing our work from <xref ref="absval-u-eq-8"/>, we have <m>u = 8</m> or <m>u = -8</m>.
+            (Note that we <em>don't</em> have <q><m>|u| = 8</m> or <m>|u| = -8</m></q>.)
+            Earlier, we replaced <m>x-2</m> with <m>u</m>.
+            Now, we do the reverse, replacing <m>u</m> with <m>x-2</m>, and we have <m>x-2 = 8</m> or <m>x-2 = -8</m>.
+            Finally, we add <m>2</m> to both sides of each equation to get <m>x = 10</m> or <m>x = -6</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>|2x-3| = 7</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The content inside the absolute value is <m>2x-3</m>. Replace <m>2x-3</m> with <m>u</m>:
+            <me>|u| = 7</me>
+            To answer this question (and report on values of <m>u</m> which satisfy the equation), we have:
+            <me>u=7 \text{ or } u=-7</me>
+            and note that the above is correct, but <q>|u|=7 \text{ or } |u|=-7</q> is not correct.
+            Now, we reverse the substitution, replacing <m>u</m> with <m>2x-3</m>, and we have 
+            <me>2x-3=7 text{ or } 2x-3=-7.</me>
+            Add <m>3</m> to both sides of each equation:
+            <me>2x=10 \text{ or } 2x=-4.</me>
+            Divide by <m>2</m> on both sides of each equation:
+            <me>x=5 \text{ or } x=-2.</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+  <subsection xml:id="subsec-abs-val-ineq">
+    <title>Absolute value inequalities</title>
+    
+    <p>
+      We now look at inequalities that involve absolute values.
+      We start with plainer examples such as solving <m>|x| \leq 6</m> before moving on to more involved examples such as solving <m>|2x-3| \leq 7</m>.
+      The plain examples will just have a single variable (and nothing else) inside the absolute value, while the more involved examples will have a more complicated expression inside the absolute value such as <m>2x-3</m>.
+      In the plain examples, there is no need to do any substitution, but in the more involved examples, it will help us to do a substitution to compartmentalize the work.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>|x| \leq 6</m>. 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Keeping in mind that we need to report values of <m>x</m> that work, notice that <m>x=0</m> works, as does <m>x=1</m> as well as <m>x=5</m> and also <m>x=6</m>, but so does <m>x=-6</m>.
+            It appears any value of <m>x</m> that is between <m>-6</m> and <m>6</m> works.
+            This is helpful to see on a number line:
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-6$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$6$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-6</m> and <m>6</m>, including <m>6</m> and <m>-6</m></caption>
+            </figure>            
+            From the number line, <m>x \geq -6</m> and <m>x \leq 6</m>.
+            In interval notation, <m>x</m> is in the interval <m>[-6,6]</m>.
+          </p>
+        </answer>        
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>|x| &lt; 3</m>. 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Keeping in mind that we need to report values of <m>x</m> that work, notice that <m>x=0</m> works, as does <m>x=1</m> as well as <m>x=2</m> as well as <m>x=2.9</m> but not <m>x=3</m>. In addition, <m>x=-2.9</m> also works.
+            It appears any value of <m>x</m> that is between <m>-3</m> and <m>3</m> works, but not including the endpoints.
+            This is helpful to see on a number line:
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-3$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$3$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything between <m>-3</m> and <m>3</m>, but not including the endpoints.</caption>
+            </figure>            
+            From the number line, <m>x &gt; -3</m> and <m>x &lt; 3</m>.
+            In interval notation, <m>x</m> is in the interval <m>(-3,3)</m>.
+          </p>
+        </answer>
+      </example>
+      <warning>
+        <p>
+          <ul>
+            <li>
+              <p>
+                It is correct to take <m>|x| &lt; 3</m> then conclude: <m>x &gt; -3</m> and <m>x &lt; 3</m>.
+                
+              </p>
+            </li>
+            <li>
+              <p>
+                It is incorrect to take <m>|x| &lt; 3</m> then conclude: <m>|x| &gt; -3</m> or <m>|x| &lt; 3</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </warning>
+      In the warning above, notice the flaw of the incorrect version: we need to report about <m>x</m>, not about <m>|x|</m>.
+      In addition, in the incorrect version, we start with <m>|x| &lt; 3</m>, but then the conclusion has the same inequality plus the additional inequality <m>|x| &gt; -3</m>: that just makes our problem worse!
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>|x| \geq 9</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Now, notice that <m>x=0</m> does not work as a solution. The first working positive number is <m>x=9</m>. We note that <m>x=10</m> works, as does <m>x=100</m>. On the negative side <m>x=-9</m> is a solution, but so is <m>x=-10</m>.
+            Based on this information, we can draw a picture of all values of <m>x</m> which satisfy the inequality:          
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (-1,.4);
+                      \draw[->, blue, ultra thick] (1,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-9$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$9$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything beyond <m>-9</m> or beyond <m>9</m>, but including the endpoints.</caption>
+            </figure>            
+            Based on the picture, we can write <m>x \leq -9</m> or <m>x \geq 9</m>. (Here we write the word <q>or</q> recalling its meaning from <xref ref="sec-inequalities"/>. The use of the word <q>or</q> means that at least one of the two conditions is satisfied.)
+            In interval notation, we have <m>(-\infty,-9] \cup [9,\infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>|x| &gt; 9</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Now, notice that <m>x=0</m> does not work as a solution. While <m>x=9</m> does not work, <m>x=9.1</m> does, as does <m>x=10</m>. We note that <m>x=10</m> works, as does <m>x=100</m>. On the negative side <m>x=-9</m> is not a solution, but <m>x=-9.1</m> is, and so is <m>x=-100</m>.
+            Based on this information, we can draw a picture of all values of <m>x</m> which satisfy the inequality:          
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[<-, blue, ultra thick] (-3,.4) -- (-1,.4);
+                      \draw[->, blue, ultra thick] (1,.4) -- (3,.4);
+                      \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-9$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$9$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>x</m> can be anything beyond <m>-9</m> or beyond <m>9</m>, but including the endpoints.</caption>
+            </figure>
+            Based on the picture, we can write <m>x &lt; -9</m> or <m>x &gt; 9</m>.
+            In interval notation, we have <m>(-\infty,-9) \cup (9,\infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      When we have an absolute value inequality with a more complicated expression inside the absolute value, we will do a substitution to compartmentalize the work.
+      (This substitution is never required, but helpful. Finally, in the case when the expression inside the absolute value is just a single variable, we don't need to do a substitution.)
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>|2x-4| \leq 40</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We will use the substitution <m>u = 2x-4</m>. Then the inequality becomes <me>|u| \leq 40.</me>
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-40$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$40$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>u</m> can be anything between <m>-40</m> and <m>40</m>, including <m>40</m> and <m>-40</m></caption>
+            </figure>            
+            From our previous work, and the figure (which is about <m>u</m> and not about <m>x</m>), we know that this inequality is equivalent to <me>u \geq -40 \text{ and } u \leq 40.</me>
+            Note that our previous line of work is two inequalities have <m>u</m> alone on one side. Having <q><m>|u| \geq -40 \text{ and } |u| \leq 40</m></q> is not correct.
+            Now that we have two inequalities with <m>u</m> alone on one side, we can reverse the substitution, replacing <m>u</m> with <m>2x-4</m>, and we have <me>2x-4 \geq -40 \text{ and } 2x-4 \leq 40.</me>
+            Adding 4 to all parts of the inequality, we get <me>2x \geq -36 \text{ and } 2x \leq 44</me>.
+            Dividing all parts by 2, we get <me>x \geq -18 \text{ and } x \leq 22</me>.
+            In interval notation, we have <m>[-18, 22]</m>.
+          </p>
+        </answer>
+      </example>
+    </p>    
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>|2x-4| &gt; 40</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We will use the substitution <m>u = 2x-4</m>. Then the inequality becomes <me>|u| &gt; 40.</me> Here is a picture of all values of <m>u</m> which satisfy the inequality:
+            <figure>
+              <image width="45%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-3,0) -- (3,0);
+                      \draw (0,-.1) -- (0,.1);
+                      \node at (0,-.3) {$0$};
+                      \draw[blue, ultra thick] (-1,.4) -- (1,.4);
+                      \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,.4) circle [radius=0.1];
+                      \draw (-1,-.1) -- (-1,.1);
+                      \node at (-1,-.3) {$-40$};
+                      \draw (1,-.1) -- (1,.1);
+                      \node at (1,-.3) {$40$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>u</m> can be anything less than <m>-40</m> or greater than <m>40</m>, but not including the endpoints.</caption>
+            </figure>            
+            From the figure, <me>u &lt; -40 \text{ or } u &gt; 40.</me>
+            Note that our previous line of work is two inequalities have <m>u</m> alone on one side. Having <q><m>|u| &lt; -40 \text{ or } |u| &gt; 40</m></q> is not correct.
+            Now that we have two inequalities with <m>u</m> alone on one side, we can reverse the substitution, replacing <m>u</m> with <m>2x-4</m>, and we have <me>2x-4 &lt; -40 \text{ or } 2x-4 &gt; 40.</me>
+            Adding 4 to all parts of the inequality, we get <me>2x &lt; -36 \text{ or } 2x &gt; 44</me>.
+            Dividing all parts by 2, we get <me>x &lt; -18 \text{ or } x &gt; 22</me>.
+            In interval notation, we have <m>(-\infty,-18) \cup (22,\infty)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          A manufacturer needs to cut metal rods to <m>100</m> centimeters with a tolerance of <m>0.5</m> centimeters.
+          What is the range of a rod's length that is acceptable to the manufacturer?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Suppose <m>x</m> is the length of a rod in centimeters. Then the manufacturer wants <m>|x-100| \leq 0.5</m>.
+          Substituting <m>u=x-100</m>, we have <m>|u| \leq 0.5</m>.
+          This is equivalent to <m>u \geq -0.5</m> and <m>u \leq 0.5</m>.
+          Reversing the substitution, we have <m>x-100 \geq -0.5</m> and <m>x-100 \leq 0.5</m>.
+          Adding <m>100</m> to all parts of the inequality, we have <m>x \geq 99.5</m> and <m>x \leq 100.5</m>.
+          In interval notation, we have <m>[99.5, 100.5]</m>.
+        </p>
+      </answer>
+    </example>
+    <example>
+      <statement>
+        <p>
+          A doctor is monitoring a patient's blood sugar, with a target of <m>85</m> mg/dL and a tolerance of <m>15</m> mg/dL.
+          What is the range of blood sugar levels that are acceptable to the doctor?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Suppose <m>x</m> is the patient's blood sugar level in mg/dL. Then the doctor wants <m>|x-85| \leq 15</m>.
+          Substituting <m>u=x-85</m>, we have <m>|u| \leq 15</m>.
+          This is equivalent to <m>u \geq -15</m> and <m>u \leq 15</m>.
+          Replacing each <m>u</m> with <m>x-85</m>, we have <m>x-85 \geq -15</m> and <m>x-85 \leq 15</m>.
+          Adding <m>85</m> to both sides of both inequalities, we have <m>x \geq 70</m> and <m>x \leq 100</m>.
+          In interval notation, we have <m>[70, 100]</m>.
+        </p>
+      </answer>
+    </example>
+
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            When we have the absolute value of a variable is equal to a positive number, we can create two equations: the variable is equal to the positive number, connect with <q>or</q>, followed by the equation where the variable is eqaul to the negative of that number.
+          </p>
+        </li>
+        <li>
+          <p>
+            In an equation, when the content inside the absolute value consists of more than a single variable, 
+            substituting a new letter for all of the content <em>inside</em> the absolute value will create a simpler absolute value equation, which lets us compartmentalize the work.
+          </p>
+        </li>
+        <li>
+          <p>
+            When solving absolute value inequalities where the content inside the absolute value is a single variable, we can use a number line to help us visualize the solution set.
+          </p>
+        </li>
+        <li>
+          <p>
+            In an inequality, when the content inside the absolute value consists of more than a single variable, 
+            substituting a new letter for all of the content <em>inside</em> the absolute value will create a simpler absolute value inequality, which lets us compartmentalize the work.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Solve the following absolute value equations.
+            <ol>
+              <li><p><m>|x| = 7</m></p></li>
+              <li><p><m>|x| = 12</m></p></li>
+              <li><p><m>|x-4| = 9</m></p></li>
+              <li><p><m>|x+6| = 5</m></p></li>
+              <li><p><m>|2x| = 18</m></p></li>
+              <li><p><m>|3x-2| = 10</m></p></li>
+              <li><p><m>|2x+7| = 15</m></p></li>
+              <li><p><m>|5-4x| = 9</m></p></li>
+              <li><p><m>2|x-1| = 14</m></p></li>
+              <li><p><m>3|2x+1| = 27</m></p></li>
+              <li><p><m>|4x-7| + 2 = 15</m></p></li>
+              <li><p><m>5|x+2| - 8 = 22</m></p></li>
+              <li><p><m>\dfrac{|2x-3|}{4} = 5</m></p></li>
+              <li><p><m>\dfrac{|3x+6|}{2} - 1 = 8</m></p></li>
+              <li><p><m>|2x-5| = x+4</m></p></li>
+              <li><p><m>|3x+1| = 2x+9</m></p></li>
+              <li><p><m>|2x+7| = 11-x</m></p></li>
+              <li><p><m>2|3x-1| + 5 = 29</m></p></li>
+              <li><p><m>4 - |2x+3| = -7</m></p></li>
+              <li><p><m>\dfrac{|5x-4|+2}{3} = 8</m></p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve the following absolute value inequalities.
+            <ol>
+              <li><p><m>|x| \lt 6</m></p></li>
+              <li><p><m>|x| \geq 9</m></p></li>
+              <li><p><m>|x-2| \leq 5</m></p></li>
+              <li><p><m>|x+4| \gt 3</m></p></li>
+              <li><p><m>|2x| \lt 14</m></p></li>
+              <li><p><m>|3x-1| \geq 11</m></p></li>
+              <li><p><m>|2x+5| \leq 9</m></p></li>
+              <li><p><m>|7-3x| \gt 10</m></p></li>
+              <li><p><m>2|x-3| \lt 16</m></p></li>
+              <li><p><m>5|2x+1| \geq 35</m></p></li>
+              <li><p><m>|4x-9|+3 \leq 18</m></p></li>
+              <li><p><m>3|x+5|-4 \gt 11</m></p></li>
+              <li><p><m>\dfrac{|2x-7|}{5} \lt 4</m></p></li>
+              <li><p><m>\dfrac{|3x+6|}{2}+1 \geq 10</m></p></li>
+              <li><p><m>|2x-1| \leq x+5</m></p></li>
+              <li><p><m>|3x+4| \gt 2x+8</m></p></li>
+              <li><p><m>|5-2x| \lt 3x+4</m></p></li>
+              <li><p><m>2|3x-2|-1 \geq 17</m></p></li>
+              <li><p><m>12-|4x+1| \gt 3</m></p></li>
+              <li><p><m>\dfrac{|5x-4|+2}{3} \leq 7</m></p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>

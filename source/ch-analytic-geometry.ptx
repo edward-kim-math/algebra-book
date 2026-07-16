@@ -17,4 +17,5 @@
   <xi:include href="sec-quadratic-equations-completing.ptx" />
   <xi:include href="sec-circles.ptx" />
   <xi:include href="sec-inequalities.ptx" />
+  <xi:include href="sec-absolute-value.ptx" />
 </chapter>
