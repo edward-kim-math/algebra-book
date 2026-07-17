@@ -80,7 +80,7 @@
       In the context of functions, we should make a habit of including the word "of" in our language,even if we haven't written the word "of" when we write the notation <m>f(x)</m>, so that we don't mislead ourselves.
     </p>
 
-    <example>
+    <example xml:id="example-f-of-x-equals-3xplus1">
       <statement>
         <p>
           Given the function <m>f(x) = 3x + 1</m>,
@@ -167,6 +167,55 @@
       In this analogy, the combination of your debit card and your PIN is the input, and the cash that you receive is the output.
       In the last example, when we wrote <m>f(2)=7</m>, we say that <m>2</m> is the input and <m>7</m> is the output.
     </p>
+    <p>
+      Suppose we have the same function <m>f(x) = 3x+1</m> from the previous example and we are asked to find <m>f(2+10)</m>. Here are two responses that someone might give:
+      <ul>
+        <li>
+          <p>
+            <m>f(2+10) = f(2)+f(10) = 7 + 31 = 38</m>. Here, we have borrowed our work from earlier.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(2+10) = f(12) = 3(12) + 1 = 36 + 1 = 37</m>. This time, we simplified <m>2+10</m> first.
+          </p>
+        </li>
+      </ul>
+      The two responses give us different final answers. In fact, one of these is incorrect.
+      In the first response, turning <m>f(2+10)</m> into <m>f(2)+f(10)</m> is an error.
+      That is, a function does not <q>distribute</q>.
+      <warning xml:id="warning-functions-do-not-distribute">
+        <title>Functions do not distribute</title>
+        <p>
+          A function does not distribute over addition or multiplication.
+          That is, in general, <m>f(a+b) \neq f(a) + f(b)</m> and <m>f(ab) \neq f(a)f(b)</m>.
+        </p>
+      </warning>
+      As specific examples of this warning:
+      <ul>
+        <li>
+          <p>
+            <m>f(3+5)</m> does not turn into <m>f(3)+f(5)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(3+h)</m> does not turn into <m>f(3)+f(h)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(a+b)</m> does not turn into <m>f(a)+f(b)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(a \cdot b)</m> does not turn into <m>f(a) \cdot f(b)</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+
 
     <p>
       <example>
@@ -290,20 +339,636 @@
       <m>f</m> is a function that has the property that two different inputs will never have the same output.
     </p>
 
+    <p>
+      One vital task is taking a given function and evaluating the function for a requested input, reporting on the output.
+      We have already done that, but we slow down intentionally right now to be absolutely sure that this vital skill is clear.
+      <example>
+        <statement>
+          <p>
+            Consider the function <m>f(x) = 3x^2 + 5x</m>.
+            Find <m>f(6)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(6) = 3(6)^2 + 5(6) = 3(36) + 30 = 108 + 30 = 138</m>.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            <m>f(6) = 3(6)^2 + 5(6)</m>.
+          </p>
+        </answer>
+      </example>
+      In the second answer, we did not bother simplifying. Of course, <m>3(6)^2 + 5(6)</m> can be simplified to <m>138</m> but we intentionally did not, so that we discuss what is happening more clearly, and see a very important pattern.
+      The first sentence <q>Consider the function <m>f(x) = 3x^2 + 5x</m></q> introduced the function to us.
+      The notation <m>f(x) = 3x^2 + 5x</m> in this sentence gives us the formula for a function, and the <m>x</m> that appears represents a generic (or typical) input.
+      The second sentence <q>Find <m>f(6)</m></q> tells us that we are now going to evaluate the function for a specific input, namely <m>6</m>. The specific input is <m>6</m>, and this specific input must replace the generic input <m>x</m> from the previous sentence.
+    </p>
+    <p>
+      Let's describe what happens for this example using very specific language: Replace every <m>x</m> in <m>f(x)=3x^2+5x</m> with <m>6</m>.
+    </p>
+    <p>
+      <example xml:id="f-of-10">
+        <statement>
+          <p>
+            Consider the function <m>f(x) = 3x^2 + 5x</m>.
+            Find <m>f(10)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(10) = 3(10)^2 + 5(10)</m>.
+          </p>
+        </answer>
+      </example>  
+      We did not simplify so that we can see the pattern better. Here's what we did: Replace every <m>x</m> in <m>f(x)=3x^2+5x</m> with <m>10</m>.
+      If we examine the previous sentence, there are three bits of notation:
+      <ul>
+        <li><m>x</m></li>
+        <li><m>f(x)=3x^2+5x</m></li>
+        <li><m>10</m></li>
+      </ul>
+      The second bit of notation <m>f(x)=3x^2+5x</m> tells us what text we start with.
+      The first notation (which is <m>x</m>) tells us what is going to get replaced.
+      The third notation (which is <m>10</m>) tells us what we are replacing <em>with</em>.
+      We need all three pieces.
+    </p>
+    <p>
+      <principle xml:id="principle-evaluating-function">
+        <statement>
+          <p>
+            To evaluate a function at a specific input, we need three pieces of information, but there are usually two distinct segments of notation provided:
+            <ul>
+              <li>
+                <p>
+                  The description of the function, which usually starts <m>f(x) =</m> but may start <m>g(x)=</m> or <m>h(u)=</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The evaluation request: for example, <m>f(10)</m>.
+                </p>
+              </li>
+            </ul>
+            Out of these two segments of notation, we can extract the three pieces of information that we need:
+            <ul>
+              <li>
+                <p>
+                  The starting text (which is the entire description of the function, including the <m>f(x)=</m> part)
+                </p>
+              </li>
+              <li>
+                <p>
+                  The text which will have replaced, which is the variable appearing in parentheses in the description of the function.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The replacement text, which is the value inside the parentheses in the evaluation request.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+      Based on this principle, let's go back to the previous example and state various ways that we could successfully answer the question.
+      First, we recall: Consider the function <m>f(x) = 3x^2 + 5x</m>, and find <m>f(10)</m>.
+      <ul>
+        <li>
+          <p>
+            Replace every <m>x</m> in <m>f(x) = 3x^2 + 5x</m> with <m>10</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Start with <m>f(x) = 3x^2 + 5x</m> and replace every <m>x</m> with <m>10</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Imagine that <m>f(x) = 3x^2 + 5x</m> is typed as the only text in a Word document.
+            In the search/replace feature, fill the <q>search for</q> box with <m>x</m> and fill the <q>replace</q> box with <m>10</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Write <m>f(x) = 3x^2 + 5x</m>.
+            Erase every place there is an <m>x</m> written. (There is one <m>x</m> on the left, and there are two on the right.)
+            Every place that there is evidence of erasing, write a <m>10</m> instead.
+          </p>
+        </li>
+      </ul>
+      Finally, it is important that we emphasize that <em>every</em> instance of <m>x</m> must be replaced with <m>10</m>.
+      <warning>
+        <statement>
+          <p>
+            When evaluating a function, every instance of the variable must be replaced with the specific input.
+          </p>
+        </statement>
+      </warning>
+      As an exmple, writing <m>f(x) = 3(10)^2+5(10)</m> has the correct right side, but the left side is incorrect because it still has an <m>x</m>: even the <m>x</m> appearing to the left of the equal sign must be replaced with <m>10</m>.
 
+      <example xml:id="f-of-a">
+        <statement>
+          <p>
+            Consider the function <m>f(x) = 3x^2 + 5x</m>.
+            Find <m>f(a)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(a) = 3(a)^2 + 5(a)</m>.
+          </p>
+        </answer>
+      </example>
+      We replaced every <m>x</m> in <m>f(x) = 3x^2+5x</m> with <m>a</m>.
+      Said differently, we can imagine that we wrote <m>f(x)=3x^2+5x</m>, then erased all three spots where <m>x</m> appeared, and then wrote <m>a</m> in its place.
+      Having to replace <m>x</m> with the letter <m>a</m> instead of a number like <m>10</m> sometimes causes confusion. We should end with <m>f(a)=3a^2+5a</m>, but here are some common incorrect answers:
+      <ul>
+        <li>
+          <p>
+            <m>f(a) = f(3a^2+5a)</m> is incorrect, because of the <m>f</m> that appears on the right side. In the original text <m>f(x)=3x^2+5x</m>, there is no <m>f</m> on the right side, so introducing one is artificial.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>(3x^2 +5x)(a)</m> is incorrect. This appears to be <m>f(x) \cdot a</m>, that is, <m>f(x)</m> multiplied by <m>a</m>.
+          </p>
+        </li>
+      </ul>
 
+      <example xml:id="f-of-a-plus-h">
+        <statement>
+          <p>
+            Consider the function <m>f(x) = 3x^2 + 5x</m>.
+            Find <m>f(a+h)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(a+h) = 3(a+h)^2 + 5(a+h)</m>.
+          </p>
+        </answer>
+      </example>
+      This last example is one that causes a lot of struggle, because in <m>f(x) = 3x^2+5x</m> we are replacing each <m>x</m> with <m>a+h</m>.
+      In that sense, this feels harder than previous examples where we replaced <m>x</m> with a single number or a single letter.
+      However, even in <xref ref="f-of-10"/> we could argue that replacing each <m>x</m> with <m>10</m> already involves replacing the single <q>character</q> with two characters <q>1</q> and <q>0</q>.
+      Of course, we don't tend to think of <m>10</m> as two separate symbols (and instead tend to treat <m>10</m> as if it's just one <q>thing</q>), but if we can replace <m>x</m> with two characters by writing <m>10</m> each time, then we can <em>also</em> replace <m>x</m> with three characters by writing <m>a+h</m> each time.
+      We mention some common incorrect responses to this question:
+      <ul>
+        <li>
+          <p>
+            <m>f(a+h) = f(3(a+h)^2 + 5(a+h))</m>. This response is close, but there is no <m>f</m> on the right side of the original description of the function.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(a+h) = f(a)+f(h) = 3a^2 + 5a + 3h^2 + 5h</m>. This response is incorrect because a function does not distribute, as mentioned in <xref ref="warning-functions-do-not-distribute"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>3a^2+5a+h</m> is incorrect. This is the value of <m>f(a)+h</m>, not <m>f(a+h)</m>.
+          </p>
+        </li>
+      </ul>
+  </p>
+
+  <p>
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = 10^x + x^5 + \frac{4}{x}</m>, describe the process for finding <m>f(3+r)</m>.      
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Replace every <m>x</m> in <m>f(x) = 10^x + x^5 + \frac{4}{x}</m> with <m>3+r</m>.
+        </p>
+      </answer>
+    </example>
+    The result of doing this would give: <m>f(3+r) = 10^{3+r} + (3+r)^5 + \frac{4}{3+r}</m>.
+    Note that there is no <m>f</m> to the right of the equal sign. In our writing, we wrote <m>3+r</m> once before the equal sign and three times after the equal sign.
+  </p>
+
+  <p>
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = \sqrt{10 + x} + \frac{6}{x^2 + 1}</m>, describe the process for finding <m>f(a+b)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Replace every <m>x</m> in <m>f(x) = \sqrt{10 + x} + \frac{6}{x^2 + 1}</m> with <m>a+b</m>.
+        </p>
+      </answer>
+    </example>
+    Doing this would give: <m>f(a+b) = \sqrt{10 + (a+b)} + \frac{6}{(a+b)^2 + 1}</m>.
+  </p>
+
+  <p>
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = \dfrac{10+x}{x^2 + 1}</m>, find <m>f(c+d)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Replace every <m>x</m> in <m>f(x) = \dfrac{10+x}{x^2 + 1}</m> with <m>c+d</m>.
+          This gives us: <m>f(c+d) = \dfrac{10+(c+d)}{(c+d)^2 + 1}</m>.
+        </p>
+      </answer>
+    </example>
+  </p>
+
+  <p>
+    We now examine a question that is very typical in applications for functions, finding what is called the <term>average rate of change</term>.
+    <example>
+      <statement>
+        <p>
+          Consider the function <m>f(x) = 3x^2 + 5x</m>.
+          Find the average rate of change <m>\dfrac{f(a+h) - f(a)}{h}</m> and simplify.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          In the fraction we are given, we notice <m>f(a+h)</m> as well as <m>f(a)</m>, but we found these earlier. Recall:
+          <ul>
+            <li>
+              <p>
+                From <xref ref="f-of-a-plus-h"/>, we had <m>f(a+h) = 3(a+h)^2 + 5(a+h)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                From <xref ref="f-of-a"/>, we had <m>f(a) = 3a^2 + 5a</m>.
+              </p>
+            </li>
+          </ul>
+          We didn't simplify <m>f(a+h)</m> earlier, because we were trying to notice a pattern. However, for the purposes of this work, let's simplify:
+          <m>f(a+h) = 3(a+h)^2 + 5(a+h) = 3(a^2 + 2ah + h^2) + 5(a+h) = 3a^2 + 6ah + 3h^2 + 5a + 5h</m>.
+        </p>
+        <p>
+          Now, let's rewrite the requsted expression, and substitute in earlier work for both <m>f(a+h)</m> and <m>f(a)</m>:
+          <m>\dfrac{f(a+h) - f(a)}{h} = \dfrac{(3a^2 + 6ah + 3h^2 + 5a + 5h) - (3a^2 + 5a)}{h} = \dfrac{6ah + 3h^2 + 5h}{h} = \dfrac{h(6a + 3h + 5)}{h} = 6a + 3h + 5</m>.
+        </p>
+      </answer>
+    </example>
+  </p>
+
+  <p>
+    <example>
+      <statement>
+        <p>
+          Consider the function <m>f(x) = 10x + 6</m>.
+          Find the average rate of change <m>\dfrac{f(a+h) - f(a)}{h}</m> and simplify.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          Let's first find <m>f(a+h)</m> and <m>f(a)</m>:
+          <ul>
+            <li>
+              <p>
+                <m>f(a+h) = 10(a+h) + 6 = 10a + 10h + 6</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(a) = 10a + 6</m>.
+              </p>
+            </li>
+          </ul>
+          Now, let's rewrite the requested expression, and substitute in earlier work for both <m>f(a+h)</m> and <m>f(a)</m>:
+          <m>\dfrac{f(a+h) - f(a)}{h} = \dfrac{(10a + 10h + 6) - (10a + 6)}{h} = \dfrac{10h}{h} = 10</m>.
+        </p>
+      </answer>
+    </example>
+  </p>
 
 
   </subsection>
 
   <subsection xml:id="subsec-functions-by-table">
     <title>Functions by table</title>
-    
+
+    <p>
+      Presenting a formula like <m>f(x) = 3x+1</m> or <m>g(x) = x^2 + 8</m> is a very common way to describe a function, but it is not the only way.
+      Another way to describe a function is by a <term>table</term> of values.
+      Our tables will list input in one column (labeled <m>x</m>) and outputs in the second column (labeled <m>f(x)</m> or <m>g(x)</m> and so on).
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the function described by the table:
+            <table>
+              <thead>
+                <tr>
+                  <th><m>x</m></th>
+                  <th><m>f(x)</m></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><m>-2</m></td>
+                  <td><m>5</m></td>
+                </tr>
+                <tr>
+                  <td><m>-1</m></td>
+                  <td><m>3</m></td>
+                </tr>
+                <tr>
+                  <td><m>0</m></td>
+                  <td><m>-12</m></td>
+                </tr>
+                <tr>
+                  <td><m>1</m></td>
+                  <td><m>5</m></td>
+                </tr>
+                <tr>
+                  <td><m>2</m></td>
+                  <td><m>2</m></td>
+                </tr>
+              </tbody>
+            </table>
+            Based on this table, 
+            <ol>
+              <li>
+                <p>
+                  Find <m>f(-2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(-1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(0)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(2)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>f(-2) = 5</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(-1) = 3</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(0) = -12</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(1) = 5</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(2) = 2</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+      In this example, note that when the input is <m>-2</m>, the output is <m>5</m>.
+      There are two different inputs that have the same output: namely, both <m>-2</m> as an input and <m>1</m> as an input lead to <m>5</m> as an output.
+      We also have example where the output matches the value of the input: when the input is <m>2</m> the output is also <m>2</m>, which can be written <m>f(2)=2</m>.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the function described by the table:
+            <table>
+              <thead>
+                <tr>
+                  <th><m>x</m></th>
+                  <th><m>g(x)</m></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><m>1</m></td>
+                  <td><m>3</m></td>
+                </tr>
+                <tr>
+                  <td><m>2</m></td>
+                  <td><m>0</m></td>
+                </tr>
+                <tr>
+                  <td><m>3</m></td>
+                  <td><m>-1</m></td>
+                </tr>
+                <tr>
+                  <td><m>4</m></td>
+                  <td><m>0</m></td>
+                </tr>
+                <tr>
+                  <td><m>5</m></td>
+                  <td><m>3</m></td>
+                </tr>
+              </tbody>
+            </table>
+            Based on this table, 
+            <ol>
+              <li>
+                <p>
+                  Find <m>g(1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(4)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>g(5)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>g(1) = 3</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(2) = 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(3) = -1</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(4) = 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(5) = 3</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Take the function <m>f(x)=3x+1</m> described in <xref ref="example-f-of-x-equals-3xplus1"/>
+            and create a table of values for <m>f(x)</m> for the inputs <m>-2</m>, <m>-1</m>, <m>0</m>, <m>1</m>, and <m>2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <table>
+              <thead>
+                <tr>
+                  <th><m>x</m></th>
+                  <th><m>f(x)</m></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><m>-2</m></td>
+                  <td><m>-5</m></td>
+                </tr>
+                <tr>
+                  <td><m>-1</m></td>
+                  <td><m>-2</m></td>
+                </tr>
+                <tr>
+                  <td><m>0</m></td>
+                  <td><m>1</m></td>
+                </tr>
+                <tr>
+                  <td><m>1</m></td>
+                  <td><m>4</m></td>
+                </tr>
+                <tr>
+                  <td><m>2</m></td>
+                  <td><m>7</m></td>
+                </tr>
+              </tbody>
+            </table>
+          </p>
+        </answer>
+      </example>
+
+    </p>
+
   </subsection>
 
   <subsection xml:id="subsec-functions-by-graph">
     <title>Functions by graph</title>
-    
+
+    <p>
+      Another way to describe a function is by a <term>graph</term>.
+      A graph is a picture of the function, and it is drawn on the <m>xy</m>-plane.
+      The <m>x</m>-axis represents the input, and the <m>y</m>-axis represents the output.
+    </p>
+    <p>
+      Like any graph in the <m>xy</m>-plane, the graph of a function is a collection of points.
+      Every point in the graph records information about a combination of input and output: given a point <m>(a,b)</m> in the graph, the <m>x</m>-coordinate represented here by <m>a</m> is the input, and the <m>y</m>-coordinate represented here by <m>b</m> is the output.
+      <principle xml:id="principle-graph-of-a-function">
+        <title>Graph of a function</title>
+        <statement>
+          <p>
+            The point <m>(a,b)</m> is in the graph of a function <m>f</m> if and only if <m>f(a)=b</m>.
+          </p>
+        </statement>
+      </principle>
+      So, have a more concrete example, having the point <m>(8,9)</m> in the graph of a function <m>f</m> means that <m>f(8)=9</m>.
+    </p>
+
+    <p>
+      <statement>
+        <p>
+          Consider the function <m>f</m> whose graph is shown below.
+
+          AAAA figure
+
+          Based on this graph, 
+          <ol>
+            <li>
+              <p>
+                Find <m>f(-2)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(0)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(1)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(3)</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </p>
+
+    <p>
+      VLT
+    </p>
   </subsection>
 
   <subsection xml:id="subsec-domain-and-range">
@@ -316,301 +981,6 @@
     
   </subsection>
 
-
-  <subsection xml:id="subsec-oeuidhtaundta">
-
-    <principle>
-      <statement>
-        <p>
-          The <term>domain</term> of a function is the set of all possible inputs for the function.
-        </p>
-      </statement>
-    </principle>
-
-
-    <example>
-      <statement>
-        <p>
-          Solve the equation <m>3x+1 = 9</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          First, we subtract <m>1</m> from both sides to get <m>3x = 8</m>.
-          Next, we divide both sides by <m>3</m> to get <m>x = \frac{8}{3}</m>.
-        </p>
-      </answer>
-    </example>
-
-  </subsection>
-
-	<subsection>
-		<title>subsection title</title>
-
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
-
-    <example>
-      <statement>
-        <p>
-          Statement text       
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
-
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
-
-  </subsection>
 
   <subsection>
     <title>Applications Revisited</title>
