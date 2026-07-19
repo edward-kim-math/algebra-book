@@ -649,6 +649,48 @@
     </example>
   </p>
 
+  <p>
+    <example>
+      <statement>
+        <p>
+          Consider the function <m>f(x) = 10</m>.
+          <ul>
+            <li>
+              <p>
+                Find <m>f(3)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find <m>f(4)</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>f(3) = 10</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>f(4) = 10</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>
+    To find <m>f(3)</m>, we replaced every <m>x</m> in <m>f(x) = 10</m> with <m>3</m>. We got <m>f(3) = 10</m>, since the only place to replace <m>x</m> was to the left of the equal sign.
+    To find <m>f(4)</m>, we replaced every <m>x</m> in <m>f(x) = 10</m> with <m>4</m>. We got <m>f(4) = 10</m>, since the only place to replace <m>x</m> was to the left of the equal sign.
+    Both inputs led to the same output <m>10</m>. In fact, for this function, <em>every</em> input will lead to the same output <m>10</m>.
+    This is an example of what is called a <term>constant function</term>, which is a function which alwas has teh same output, no matter what the input is.
+  </p>
+
 
   </subsection>
 
@@ -667,34 +709,32 @@
           <p>
             Consider the function described by the table:
             <table>
-              <thead>
-                <tr>
-                  <th><m>x</m></th>
-                  <th><m>f(x)</m></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><m>-2</m></td>
-                  <td><m>5</m></td>
-                </tr>
-                <tr>
-                  <td><m>-1</m></td>
-                  <td><m>3</m></td>
-                </tr>
-                <tr>
-                  <td><m>0</m></td>
-                  <td><m>-12</m></td>
-                </tr>
-                <tr>
-                  <td><m>1</m></td>
-                  <td><m>5</m></td>
-                </tr>
-                <tr>
-                  <td><m>2</m></td>
-                  <td><m>2</m></td>
-                </tr>
-              </tbody>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)</m></cell>
+                </row>
+                <row>
+                  <cell>-2</cell>
+                  <cell>5</cell>
+                </row>
+                <row>
+                  <cell>-1</cell>
+                  <cell>3</cell>
+                </row>
+                <row>
+                  <cell>0</cell>
+                  <cell>-12</cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>5</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>2</cell>
+                </row>
+              </tabular>
             </table>
             Based on this table, 
             <ol>
@@ -769,34 +809,32 @@
           <p>
             Consider the function described by the table:
             <table>
-              <thead>
-                <tr>
-                  <th><m>x</m></th>
-                  <th><m>g(x)</m></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><m>1</m></td>
-                  <td><m>3</m></td>
-                </tr>
-                <tr>
-                  <td><m>2</m></td>
-                  <td><m>0</m></td>
-                </tr>
-                <tr>
-                  <td><m>3</m></td>
-                  <td><m>-1</m></td>
-                </tr>
-                <tr>
-                  <td><m>4</m></td>
-                  <td><m>0</m></td>
-                </tr>
-                <tr>
-                  <td><m>5</m></td>
-                  <td><m>3</m></td>
-                </tr>
-              </tbody>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>g(x)</m></cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>3</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>0</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>-1</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>0</cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>3</cell>
+                </row>
+              </tabular>
             </table>
             Based on this table, 
             <ol>
@@ -873,34 +911,32 @@
         <answer>
           <p>
             <table>
-              <thead>
-                <tr>
-                  <th><m>x</m></th>
-                  <th><m>f(x)</m></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><m>-2</m></td>
-                  <td><m>-5</m></td>
-                </tr>
-                <tr>
-                  <td><m>-1</m></td>
-                  <td><m>-2</m></td>
-                </tr>
-                <tr>
-                  <td><m>0</m></td>
-                  <td><m>1</m></td>
-                </tr>
-                <tr>
-                  <td><m>1</m></td>
-                  <td><m>4</m></td>
-                </tr>
-                <tr>
-                  <td><m>2</m></td>
-                  <td><m>7</m></td>
-                </tr>
-              </tbody>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)</m></cell>
+                </row>
+                <row>
+                  <cell>-2</cell>
+                  <cell>-5</cell>
+                </row>
+                <row>
+                  <cell>-1</cell>
+                  <cell>-2</cell>
+                </row>
+                <row>
+                  <cell>0</cell>
+                  <cell>1</cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>4</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>7</cell>
+                </row>
+              </tabular>
             </table>
           </p>
         </answer>
@@ -1034,143 +1070,393 @@
       <example>
         <statement>
           <p>
-          Consider the function <m>f</m> whose graph is shown below.
-          <figure>
-            <image width="65%">
-              <latex-image>
-                <![CDATA[
-                  \begin{tikzpicture}
-                    \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
-                    \draw[<->] (-1,0) -- (11,0); 
-                    \node at (10,.4) {$x$};
-                    \draw[<->] (0,-1) -- (0,11);
-                    \node at (.4,10) {$y$};
-                    \draw (5,.1) -- (5,-.1);
-                    \draw (.1,5) -- (-.1,5);
-                    \node at (5,-.4) {5};
-                    \node at (-.4,5) {5};
-                    \draw (10,.1) -- (10,-.1);
-                    \draw (.1,10) -- (-.1,10);
-                    \node at (10,-.4) {10};
-                    \node at (-.4,10) {10};
-                    \draw[<->, ultra thick, blue] (-1,3) -- (2,9) -- (10,1);
-                  \end{tikzpicture}
-                ]]>
-              </latex-image>
-            </image>
-            <caption>This function's graph looks like parts of two lines were glued together</caption>
-          </figure>
+            Consider the function <m>f</m> whose graph is shown below.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[<->, ultra thick, blue] (-1,3) -- (2,9) -- (10,1);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This function's graph looks like parts of two lines were glued together</caption>
+            </figure>
+            <ul>
+              <li>
+                <p>
+                  Find <m>f(0)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(4)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(5)</m>.
+                </p>
+              </li>
+            </ul>
           </p>
         </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>f(0) = 5</m> because the point <m>(0,6)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(1) = 7</m> because the point <m>(1,7)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(2) = 9</m> because the point <m>(2,9)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(3) = 8</m> because the point <m>(3,8)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(4) = 7</m> because the point <m>(4,7)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(5) = 6</m> because the point <m>(5,6)</m> is in the graph.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (1,2) -- (3,5);
+                      \draw[-, ultra thick, blue] (3,10) -- (9,8);
+                      \draw[ultra thick, blue, fill=blue] (1,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (9,8) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This function's graph looks like two separate line segments, one with holes</caption>
+            </figure>
+            <ul>
+              <li>
+                <p>
+                  Find <m>f(1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(3)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(6)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(7)</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Before we answer the questions on the parts, we will briefly explain the picture.
+            The graph is made up of two line segments.
+            One of those line segmenst is from <m>(1,2)</m> to <m>(3,5)</m>. Each endpoint is a filled point, indicating that the point <m>(1,2)</m> is included in the graph and <m>(3,5)</m> is also included in the graph.
+            All points on the line segment between these two points are also included in the graph, but were not drawn in thick: we only drew the endpoints in thick to be able to clearly indicate that these points are <em>included</em> in the graph.
+            The next line segment will show excluded points.
+            The other line segment is from <m>(3,10)</m> to <m>(9,8)</m>. Each endpoint is an unfilled point, indicating that the point <m>(3,10)</m> is not included in the graph and <m>(9,8)</m> is also not included in the graph.
+            We have all the points between <m>(3,10)</m> and <m>(9,8)</m> included in the graph, but not the endpoints. We even have poins thate are very close to the endpoints. 
+            For example, there is a point in the graph with an <m>x</m>-value of <m>8.9</m>, and the <m>y</m>-value of that point is slightly bigger than <m>8</m>.
+          </p>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>f(1) = 2</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(3) = 5</m>. We have the point <m>(3,5)</m> in the graph. We disregard <m>(3,10)</m> because that point is not in the graph: we only have the points that get close to <m>(3,10)</m> that are between <m>(3,10)</m> and <m>(9,8)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We are looking for a point in the graph with <m>x</m>-coordinate <m>2</m>, and need to report on the <m>y</m>-coordinate of that point.
+                  We notice that the point we need is on the line segment from <m>(1,2)</m> to <m>(3,5)</m>.
+                  We make an equation for this line segment. The slope of the line segment is <m>\dfrac{5-2}{3-1} = \dfrac{3}{2}</m>, and we can use the point-slope form of a line to write an equation for this line segment:
+                  <me>y-2 = \dfrac{3}{2}(x-1).</me>
+                  This is technically the equation for a line (instead of a line segment), but every point that is on the line segment has to satisfy this equation.
+                  We know we need the point with <m>x</m>-coordinate <m>2</m>, so we can substitute <m>2</m> for <m>x</m> in the equation and find the correct value of <m>y</m>:
+                  <me>y-2 = \dfrac{3}{2}(2-1)</me>
+                  <me>y - 2 = \dfrac{3}{2} \cdot 1</me>
+                  <me>y - 2 = \dfrac{3}{2}</me>
+                  <me>y = \dfrac{3}{2} + 2</me>
+                  <me>y = \dfrac{7}{2}</me>
+                  Since the point <m>(2, \frac{7}{2})</m> is in the graph, <m>f(2) = \dfrac{7}{2}</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(6)=9</m> since the point <m>(6,9)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  To find <m>f(7)</m> is not as easy to find <m>f(6)</m>. For <m>f(6)</m>, we saw that the graph went through the point <m>(6,9)</m> with integer coordinates.
+                  Here, we will apply a technique that is essentially the same as what we did for <m>f(2)</m>.
+                  Even though the points <m>(3,10)</m> and <m>(9,8)</m> are not on the graph, if we extend the line segment to a line, we can still use these two points to build an equation for the line segment.
+                  The slope of the line segment is <m>\dfrac{8-10}{9-3} = \dfrac{-2}{6} = -\dfrac{1}{3}</m>, and we can use the point-slope form of a line to write an equation for this line segment:
+                  <me>y-10 = -\dfrac{1}{3}(x-3)</me>
+                  Every point on the line segment has to satisfy this equation, so we can substitute <m>7</m> for <m>x</m> and find the correct value of <m>y</m>:
+                  <me>y-10 = -\dfrac{1}{3}(7-3)</me>
+                  <me>y-10 = -\dfrac{1}{3} \cdot 4</me>
+                  <me>y-10 = -\dfrac{4}{3}</me>
+                  <me>y = -\dfrac{4}{3} + 10</me>
+                  <me>y = -\dfrac{4}{3} + \dfrac{30}{3}</me>
+                  <me>y = \dfrac{26}{3}</me>
+                  Since the point <m>(7, \frac{26}{3})</m> is in the graph, <m>f(7) = \dfrac{26}{3}</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the function <m>f</m> whose graph is shown below.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (1,4) -- (3,5);
+                      \draw[-, ultra thick, blue] (3,10) -- (4,8);
+                      \draw[-, ultra thick, blue] (6,1) -- (10,9);
+                      \draw[ultra thick, blue, fill=blue] (1,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (4,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,9) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (8,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,0) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This function's graph looks like several separate pieces.</caption>
+            </figure>            
+            and the function <m>g</m> given by the table below:
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>g(x)</m></cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>-5</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>-2</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>1</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>4</cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>7</cell>
+                </row>
+              </tabular>
+            </table>
+            and the function <m>h(x)=x^2+10x</m> given by formula. With these three functions:
+            <ol>
+              <li>
+                <p>
+                  Find <m>f(1)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(5)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(6)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(8)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(8)+h(8)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(6)+g(2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(10)+g(5)+h(3)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <m>f(1) = 4</m> because the point <m>(1,4)</m> is in the graph.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(5)</m> is undefined. There is no point in the graph with <m>x</m>-coordinate <m>5</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(6) = 1</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(8) = 0</m>. There is a hole in the graph at <m>(8,5)</m> due to the unfilled point, so we should not look at that point, but there is a point in the graph with <m>x</m>-coordinate <m>8</m> and <m>y</m>-coordinate <m>0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  As a warm up, we take <m>h(x) = x^2 + 10x</m> and substitute <m>8</m> for <m>x</m> to find <m>h(8)</m>:
+                  <me>h(8) = 8^2 + 10 \cdot 8.</me>
+                  With this information,
+                  <m>f(8)+h(8) = 0 + (8^2 + 10 \cdot 8) = 0 + (64 + 80) = 144</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(6)+g(2) = 1 + (-2) = -1</m>. The value of <m>g(2)</m> came from the table.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(10)+g(5)+h(3) = 9 + 7 + (3^2 + 10 \cdot 3) = 9 + 7 + (9 + 30) = 9 + 7 + 39 = 55</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
       </example>
     </p>
 
 
   </subsection>
 
-  <subsection xml:id="subsec-domain-and-range">
-    <title>Domain and range</title>
-    
-  </subsection>
-
-  <subsection xml:id="subsec-piecewise-functions">
-    <title>Piecewise functions</title>
-    
-  </subsection>
-
-
-  <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
-
-  </subsection>
-
-	<subsection>
-		<title>Summary</title>
-
-    <p>
-      <ol>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-      </ol>
-    
-    </p>
-  </subsection>
-
-  <subsection>
-		<title>Exercises</title>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-    <p>
-      <ol>
-
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
-      </ol>
-    </p>
-  </subsection>
 
 </section>
