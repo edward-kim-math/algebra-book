@@ -10,16 +10,182 @@
 			</p>
 		</introduction>
 		<ol>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
-			<li><p>.</p></li>
+			<li><p>Determine the domain of a function given its formula, table, or graph.</p></li>
+			<li><p>Determine the range of a function given its table or graph.</p></li>
+			<li><p>Evaluate piecewise functions.</p></li>
     </ol>
 	</objectives>
 
 
   <subsection xml:id="subsec-domain-and-range">
     <title>Domain and range</title>
-    
+
+    <p>
+      Recall that a function is a rule that assigns to each input exactly one output.
+      All of the inputs together goes by a name.
+
+      <principle xml:id="definition-domain">
+        <statement>
+          <p>
+            The <term>domain</term> of a function is the set of all possible inputs for the function.
+          </p>
+        </statement>
+      </principle>
+      The thing to keep in mind is that the domain is a <em>set</em> of inputs.
+      So, it would not be accurate to say that the domain is <q>the input</q>.
+      Instead, the domain is (informally) <q>all the inputs</q>.
+      Said differently, the domain isn't <q>one <m>x</m></q>, but rather <q>all the <m>x</m>'s</q>.
+      For some more clarity, a real number is in the domain if using it as input to the function produces a real number as output.
+
+      <principle xml:id="definition-range">
+        <statement>
+          <p>
+            The <term>range</term> of a function is the set of all possible outputs for the function.
+          </p>
+        </statement>
+      </principle>
+      The range is also a <em>set</em> of outputs.
+      In the last section, we were just introducing the concept of a function, and we encouraged you to think of each input producing an output, 
+      and to use the words <q>input</q> and <q>output</q> in your thought process.
+      It can also be helpful to be a little more informal, and talk about <q><m>x</m>'s</q> and <q><m>y</m>'s</q> instead of <q>inputs</q> and <q>outputs</q>.
+      But, no matter what, it is good to differentiate between <m>x</m>'s and <m>y</m>'s, instead of just calling eveything <q>it</q>.
+      <principle xml:id="principle-input-output">
+        <statement>
+          <p>
+            When discussing the numbers that are involved in a function, use language like <q><m>x</m>'s</q> and <q><m>y</m>'s</q>, or <q>inputs</q> and <q>outputs</q>.
+          </p>
+        </statement>
+      </principle>
+
+    </p>
+
+    <p>
+      Since the domain is the set of all possible inputs (and for clarity, the domain includes each and every real number which when used as input produces a real number as output), 
+      let's think about the situations that would prevent having a real number as output.
+      <ul>
+        <li>
+          <p>
+            When we have a fraction, the denominator cannot be zero. For example, in the fraction <m>\dfrac{x+5}{x-3}</m>, the denominator ends up being zero when <m>x=3</m>.
+            So, we don't want <m>x-3=0</m>.
+            It is fine if <m>x-3 &gt; 0</m> or <m>x-3 &lt; 0</m>, but we don't want <m>x-3=0</m>.
+            For example, <m>x-3</m> is greater than zero when <m>x=4</m>, and <m>x-3</m> is less than zero when <m>x=2</m>.
+            Having <m>x=4</m> is okay, since the value of the fraction would become <m>\dfrac{4+5}{4-3} = \dfrac{9}{1} = 9</m>, which is a real number.
+            Having <m>x=2</m> is also okay, since the value of the fraction would become <m>\dfrac{2+5}{2-3} = \dfrac{7}{-1} = -7</m>, which is also a real number.
+            So, we just don't want the denominator to <em>equal</em> zero.
+          </p>
+          <p>
+            We should note that it is fine if the <em>numerator</em> is equal to zero.
+            For example, in the fraction <m>\dfrac{x+5}{x-3}</m>, the numerator is equal to zero when <m>x=-5</m>.
+            In that case, the fraction's value is <m>\dfrac{-5+5}{-5-3} = \dfrac{0}{-8} = 0</m>, which is a real number.
+          </p>
+        </li>
+        <li>
+          <p>
+            When we have a square root, the content inside the square root cannot be negative.
+            In other words, the content inside the square root must be greater than or equal to zero.
+            For example, in the square root <m>\sqrt{x-3}</m>, the content inside the square root is <m>x-3</m>.
+            So, we want <m>x-3 \geq 0</m>.
+            It is a problem if <m>x - 3 &lt; 0</m>. For example, if <m>x=2</m>, then <m>x-3 = 2-3 = -1</m>, which is negative, 
+            and the square root would be <m>\sqrt{x-3}=\sqrt{2-3}=\sqrt{-1}</m> which is not a real number.
+            Note that square rooting zero is okay: <m>\sqrt{0}=0</m> because <m>0^2=0</m>.
+          </p>
+        </li>
+      </ul>
+      This gives us a procedure that we can always following when finding the domain of a function given its formula.
+      <principle xml:id="finding-domain">
+        <title>Finding domain given a function by formula</title>
+        <statement>
+          <p>
+            Given a function by formula, to find its domain, find all fractions and square roots.
+            By default, the domain of a function is a real number, with the following situations creating exceptions
+            <ul>
+              <li>
+                <p>
+                  We don't want the denominator to equal zero.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We want the content inside a square root to be greater than or equal to zero.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of the function <m>f(x) = \dfrac{x-3}{x-10}</m>.        
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We don't want the denominator to equal zero, so we don't want <m>x-10=0</m>.
+            Adding <m>10</m> to both sides, we don't want <m>x=10</m>.
+            Since <m>x=10</m> is a number that we <em>don't</em> want, the domain is <m>(-\infty,10)\cup(10,\infty)</m>.
+          </p>
+        </answer>
+      </example>
+      Note that <m>x=3</m> causes the numerator to equal zero, but that is okay, and has no effect on the domain.      
+      Note that <m>10</m> is the <em>only</em> real number that is not in the domain, and we can see that in the next question (which is about the same fnuction), 
+      the only time that we don't get a real number as output is when we try to compute <m>f(10)</m>.
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \dfrac{x-3}{x-10}</m>, answer the following questions:
+            <ol>
+              <li><p>Find <m>f(20)</m>?</p></li>
+              <li><p>Find <m>f(7)</m>?</p></li>
+              <li><p>Find <m>f(3)</m>?</p></li>
+              <li><p>Find <m>f(10)</m>?</p></li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li><p><m>f(20) = \dfrac{20-3}{20-10} = \dfrac{17}{10}</m>.</p></li>
+              <li><p><m>f(7) = \dfrac{7-3}{7-10} = \dfrac{4}{-3} = -\dfrac{4}{3}</m>.</p></li>
+              <li><p><m>f(3) = \dfrac{3-3}{3-10} = \dfrac{0}{-7} = 0</m>, which is okay to have zero in the numerator and a non-zero in the denominator.</p></li>
+              <li><p><m>f(10) = \dfrac{10-3}{10-10} = \dfrac{7}{0}</m>, because of the zero in the numerator.</p></li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <statement>
+        <p>
+          Given the function <m>f(x) = \dfrac{x-4}{x^2-4}</m>, find the domain.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We don't want the denominator to equal zero, so we don't want <m>x^2-4=0</m>.
+          Factoring, we don't want <m>(x+2)(x-2)=0</m>.
+          So, we don't want <m>x+2=0 \text{ or } x-2=0</m>.
+          So we don't want <m>x=-2 \text{ or } x=2</m>.
+          Since <m>x=-2</m> and <m>x=2</m> are numbers that we <em>don't</em> want, the domain is <m>(-\infty,-2)\cup(-2,2)\cup(2,\infty)</m>.
+        </p>
+      </answer>
+      Note that is incorrect to write <m>x^2 - 4 &gt; 0</m>. This is because having <m>x^2 - 4 &lt; 0</m> is okay too, 
+      so that's why we simply write the equation <m>x^2-4=0</m> but write the word <q>don't</q> in front to remind us <q>not that</q>.
+    </p>
+
+    <p>
+      <statement>
+        <p>
+          Given the function <m>f(x) = \sqrt{x-4}</m>, find the domain.
+        </p>
+      </statement>      
+    </p>
+
+
   </subsection>
 
   <subsection xml:id="subsec-piecewise-functions">
