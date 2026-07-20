@@ -159,403 +159,473 @@
     </p>
 
     <p>
-      <statement>
-        <p>
-          Given the function <m>f(x) = \dfrac{x-4}{x^2-4}</m>, find the domain.
-        </p>
-      </statement>
-      <answer>
-        <p>
-          We don't want the denominator to equal zero, so we don't want <m>x^2-4=0</m>.
-          Factoring, we don't want <m>(x+2)(x-2)=0</m>.
-          So, we don't want <m>x+2=0 \text{ or } x-2=0</m>.
-          So we don't want <m>x=-2 \text{ or } x=2</m>.
-          Since <m>x=-2</m> and <m>x=2</m> are numbers that we <em>don't</em> want, the domain is <m>(-\infty,-2)\cup(-2,2)\cup(2,\infty)</m>.
-        </p>
-      </answer>
-      Note that is incorrect to write <m>x^2 - 4 &gt; 0</m>. This is because having <m>x^2 - 4 &lt; 0</m> is okay too, 
-      so that's why we simply write the equation <m>x^2-4=0</m> but write the word <q>don't</q> in front to remind us <q>not that</q>.
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \dfrac{x-4}{x^2-4}</m>, find the domain.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We don't want the denominator to equal zero, so we don't want <m>x^2-4=0</m>.
+            Factoring, we don't want <m>(x+2)(x-2)=0</m>.
+            So, we don't want <m>x+2=0 \text{ or } x-2=0</m>.
+            So we don't want <m>x=-2 \text{ or } x=2</m>.
+            Since <m>x=-2</m> and <m>x=2</m> are numbers that we <em>don't</em> want, the domain is <m>(-\infty,-2)\cup(-2,2)\cup(2,\infty)</m>.
+          </p>
+        </answer>
+        Note that is incorrect to write <m>x^2 - 4 &gt; 0</m>. This is because having <m>x^2 - 4 &lt; 0</m> is okay too, 
+        so that's why we simply write the equation <m>x^2-4=0</m> but write the word <q>don't</q> in front to remind us <q>not that</q>.
+      </example>
     </p>
 
     <p>
-      <statement>
-        <p>
-          Given the function <m>f(x) = \sqrt{x-4}</m>, find the domain.
-        </p>
-      </statement>      
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \sqrt{x-4}</m>, find the domain.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We want the content <em>inside</em> the square root to be greater than or equal to zero.
+            It is not technically correct to write <m>\sqrt{x-4} \geq 0</m>.
+            Instead, we should state that we want the content <em>inside</em> the radical to be greater than or equal to zero.
+            The radical tells us where to look, but we build one side of the inequality to have the content that is housed <em>inside</em> the radical:
+            <me>x-4 \geq 0</me>
+            Adding <m>4</m> to both sides, <m>x \geq 4</m>.
+            The domain in interval notation is <m>[4,\infty)</m>.          
+          </p>
+        </answer>
+      </example>
     </p>
 
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \sqrt{2x+10} + \sqrt{22-x}</m>, find the domain.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We want <m>2x+10 \geq 0</m> and want <m>22-x \geq 0</m>.
+            The first inequality becomes <m>x \geq -5</m> and the second inequality becomes <m>x \leq 22</m>.
+            So, the domain is <m>[-5,22]</m>.
+          </p>
+        </answer>
+      </example>
+      Because <m>-3</m> is in the interval <m>[-5,22]</m>, we can compute <m>f(-3)</m> and get a real number as output:
+      <m>f(-3) = \sqrt{2(-3)+10} + \sqrt{22-(-3)} = \sqrt{4} + \sqrt{25} = 2 + 5 = 7</m>.
+      Inputting <m>x=-3</m> gave us the real numbmer <m>7</m> as an output. In summary, <m>f(-3) = 7</m>.
+      Note, it is fine that <m>x=-3</m> is a negative number. We never square <em>rooted</em> a negative number.
+      By substituting <m>x=-3</m>, the content inside the first square root simplified to <m>4</m>, and the content inside the second square root simplified to <m>25</m>.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \dfrac{\sqrt{2x+30}}{x^2-9}</m>, find the domain.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  We want <m>2x+30 \geq 0</m>, so we want <m>x \geq -15</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We don't want <m>x^2-9=0</m>.
+                  Factoring, we don't want <m>(x+3)(x-3)=0</m>.
+                  So, we don't want <m>x+3=0 \text{ or } x-3=0</m>.
+                  So we don't want <m>x=-3 \text{ or } x=3</m>.
+                </p>
+              </li>
+            </ul>
+            Placing all our wants and don't wants on a number line, we have
+              <figure>
+                <image width="45%">
+                  <latex-image>
+                    <![CDATA[
+                      \begin{tikzpicture}
+                        \draw[<->] (-3,0) -- (3,0);
+                        \draw (0,-.1) -- (0,.1);
+                        \node at (0,-.3) {$0$};
+                        \draw[->, blue, ultra thick] (-2,.4) -- (3,.4);
+                        \draw[blue, ultra thick, fill=blue] (-2,.4) circle [radius=0.1];
+                        \draw[blue, ultra thick, fill=white] (-1,.4) circle [radius=0.1];
+                        \draw[blue, ultra thick, fill=white] (1,.4) circle [radius=0.1];
+                        \draw (-2,-.1) -- (-2,.1);
+                        \node at (-2,-.3) {$-15$};
+                        \draw (-1,-.1) -- (-1,.1);
+                        \node at (-1,-.3) {$-3$};
+                        \draw (1,-.1) -- (1,.1);
+                        \node at (1,-.3) {$3$};
+                      \end{tikzpicture}
+                    ]]>
+                  </latex-image>
+                </image>
+                <caption>Putting all the wants and don't wants together</caption>
+              </figure>
+              Based on the picture, the domain is <m>[-15,-3)\cup(-3,3)\cup(3,\infty)</m>.
+          </p>        
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given the function <m>f(x) = \dfrac{\sqrt{2x+4}}{x^2-9}</m>, find the domain.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  We want <m>2x+4 \geq 0</m>, so we want <m>x \geq -2</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We don't want <m>x^2-9=0</m>.
+                  Factoring, we don't want <m>(x+3)(x-3)=0</m>.
+                  So, we don't want <m>x+3=0 \text{ or } x-3=0</m>.
+                  So we don't want <m>x=-3 \text{ or } x=3</m>.
+                </p>
+              </li>
+            </ul>
+            Placing all our wants and don't wants on a number line, we have
+              <figure>
+                <image width="45%">
+                  <latex-image>
+                    <![CDATA[
+                      \begin{tikzpicture}
+                        \draw[<->] (-3,0) -- (3,0);
+                        \draw (0,-.1) -- (0,.1);
+                        \node at (0,-.3) {$0$};
+                        \draw[->, blue, ultra thick] (-1,.4) -- (3,.4);
+                        \draw[blue, ultra thick, fill=white] (-2.5,.4) circle [radius=0.1];
+                        \draw[blue, ultra thick, fill=blue] (-1,.4) circle [radius=0.1];
+                        \draw[blue, ultra thick, fill=white] (2.5,.4) circle [radius=0.1];
+                        \draw (-2.5,-.1) -- (-2.5,.1);
+                        \node at (-2.5,-.3) {$-3$};
+                        \draw (-1,-.1) -- (-1,.1);
+                        \node at (-1,-.3) {$-2$};
+                        \draw (2.5,-.1) -- (2.5,.1);
+                        \node at (2.5,-.3) {$3$};
+                      \end{tikzpicture}
+                    ]]>
+                  </latex-image>
+                </image>
+                <caption>Putting all the wants and don't wants together</caption>
+              </figure>
+              We drew an unfilled point at <m>x=-3</m> to indicate that we don't want that number, but the restriction that <m>x \geq -2</m> already takes care of this.
+              Based on the picture, the domain is <m>[-2,3)\cup(3,\infty)</m>.
+          </p>        
+        </answer>
+      </example>
+      The last example goes to show that there is no mindless approach to the domain.
+      Carefully process the information about what we want and what we don't want.
+      As a reminder, by default take all reals for the domain, but exceptions are created because we want the contents inside each square root to be greater than or equal to zero, and we don't want the denominator of any fraction to equal zero.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the function described by the table:
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)</m></cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>3</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>0</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>-1</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>0</cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>3</cell>
+                </row>
+              </tabular>
+            </table>    
+            Find the domain and range.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The domain is the set of all inputs, and consists of <m>1,2,3,4,5</m>.
+            The range is the set of all outputs, and consists of <m>-1,3,0</m>.
+          </p>
+        </answer>          
+      </example>
+    </p>
+
+    <p>
+      When a function is described by a graph, 
+      the domain is the set of all <m>x</m>'s that are on the graph, 
+      and the range is the set of all <m>y</m>'s that are on the graph.
+      To find the domain, we scan the picture from left to right and report on all present <m>x</m>-values.
+      To find the range, we scan the picture from bottom to top and report on all present <m>y</m>-values.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain and range of the function whose graph is shown below:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (1,2) -- (3,5);
+                      \draw[-, ultra thick, blue] (3,10) -- (9,8);
+                      \draw[ultra thick, blue, fill=blue] (1,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (9,8) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This function's graph looks like two separate line segments, one with holes</caption>
+            </figure>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The domain is the set of all <m>x</m>'s that are on the graph, which is <m>[1,3)\cup(3,9)</m>.
+            Because <m>x=3</m> is not included in the first interval but <m>x=3</m> is included in the second interval, 
+            we can present the domain just as we already have, or simplify the domain by writing <m>[1,9)</m>.]
+            The range is the set of all <m>y</m>'s that are on the graph, which is <m>[2,5]\cup(8,10)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain and range of the function whose graph is shown below:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (1,4) -- (3,5);
+                      \draw[-, ultra thick, blue] (3,10) -- (4,8);
+                      \draw[-, ultra thick, blue] (6,1) -- (10,9);
+                      \draw[ultra thick, blue, fill=blue] (1,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (3,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (4,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,9) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (8,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,0) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This function's graph looks like several separate pieces.</caption>
+            </figure>                
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The domain is <m>[1,3)\cup(3,4) \cup [6,8) \cup [8,8] \cup (8,10]</m>.
+            Since <m>x=8</m> is ultimately included in the 4th interval, we can simplify the domain to be <m>[1,3)\cup(3,4) \cup [6,10]</m>.
+            Scanning from bottom to top, the range is <m>[0,0] \cup [1,5) \cup (5,10)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
 
   </subsection>
 
   <subsection xml:id="subsec-piecewise-functions">
     <title>Piecewise functions</title>
+    <p>
+      There are functions that are nice to give by formula, but one formula doesn't describe the whole function.
+      The function may be described by one formula for some inputs, and a different formula for other inputs.
+      These functions are called <em>piecewise functions</em>.
+      Keep in mind that a function is a rule, and so each input can only produce <em>one</em> output.
+    </p>
+
+    <p>
+      A piecewise function has at least two pieces, but might have three pieces, or four pieces, or more.
+      After being presented with a piecewise function, the task ordinarily will be to evaluate the function at a given input.
+      For example, after being shown a piecewise function, we might be asked to find <m>f(6)</m>.
+      Noting that the number inside parentheses is the input, we have <m>x=6</m>, and then go back to the description of the piecewise function with the information that <m>x=6</m> to see which piece applies.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the piecewise function
+            <me>
+              f(x) = \begin{cases}
+                2x+1 &amp; \text{if } x \leq 10 \\
+                -x+10 &amp; \text{if } x > 10
+              \end{cases}
+            </me>
+            <ol>
+              <li>
+                <p>
+                  Find <m>f(6)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(10)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(14)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Since <m>6 \leq 10</m>, we use the first piece, and have <m>f(6) = 2(6)+1 = 13</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Since <m>10 \leq 10</m>, we use the first piece, and have <m>f(10) = 2(10)+1 = 21</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Since <m>14 > 10</m>, we use the second piece, and have <m>f(14) = -14+10 = -4</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+      When <m>x=6</m> only the first piece applies. It would be unnecessary and incorrect to compute <m>-(6)+10</m>, and it would definitely be incorrect to add that to the value <m>2(6)+1</m>.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the piecewise function
+            <me>
+              f(x) = \begin{cases}
+                x^3 + 10 &amp; \text{if } x \leq 4 \\
+                x^2 - x &amp; \text{if } 4 \lt x \lt 12 \\
+                10 - x^2 &amp; \text{if } x \geq 12
+              \end{cases}
+            </me>
+            <ol>
+              <li>
+                <p>
+                  Find <m>f(2)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(8)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find <m>f(14)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Since <m>2 \leq 4</m>, we use the first piece, and have <m>f(2) = 2^3 + 10 = 18</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Since <m>4 \lt 8 \lt 12</m>, we use the second piece, and have <m>f(8) = 8^2 - 8 = 56</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Since <m>14 \geq 12</m>, we use the third piece, and have <m>f(14) = 10 - 14^2 = -176</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+      Note, when finding <m>f(2)</m> we only need to compute <m>(2)^3+10</m> based on the first piece, 
+      and we do not need to compute <m>(2)^2-2</m> based on the second piece, nor do we need to compute <m>10-(2)^2</m> based on the third piece.
+      Moreover, <m>f(2) = (2)^3+10</m> and <m>f(2) \not= ((2)^3+10) + ((2)^2-2) + (10-(2)^2)</m>.
+    </p>
     
+
+
   </subsection>
 
 
   
-
-	<subsection>
-		<title>subsection title</title>
-
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
-
-    <example>
-      <statement>
-        <p>
-          Statement text       
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
-
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
-
-  </subsection>
-
-  <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
-
-  </subsection>
-
-	<subsection>
-		<title>Summary</title>
-
-    <p>
-      <ol>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-      </ol>
-    
-    </p>
-  </subsection>
-
-  <subsection>
-		<title>Exercises</title>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-    <p>
-      <ol>
-
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
-      </ol>
-    </p>
-  </subsection>
 
 </section>
