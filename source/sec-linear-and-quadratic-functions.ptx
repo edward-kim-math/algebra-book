@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-linear-and-quadratic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear and Quadratic Functions</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Model real-world situations using linear and quadratic functions.</p></li>
+			<li><p>Graph linear and quadratic functions.</p></li>
+			<li><p>Evaluate linear and quadratic functions.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      With the skills learned in this section, we will be able to answer questions such as:
+      <ol>
+        <li>
+          <p>
+            The value of a new car is estimated by a linear model.
+            Three years after purchase, the car's value is <m>\$20,000</m>.
+            Eight years after purchase, the car's value is <m>\$10,000</m>.
+            What is the estimated value of the car ten years after purchase?
+          </p>
+        </li>
+        <li>
+          <p>
+            A business has a profit function given by <m>P(x) = -4x^2 + 80x - 100</m>, where <m>x</m> is the number of toasters sold.
+            How many toasters should the business sell to maximize profit, and what is that maximum profit?
+          </p>
+        </li>
+        <li>
+          <p>
+            A ball is thrown into the air.
+            Its height in feet after <m>t</m> seconds is given by the function <m>h(t) = -16t^2 + 64t + 5</m>.
+            How long will it take for the ball to hit the ground?
+            At what point is the ball at its maximum height, and what is that height?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </subsection>
+
+	<subsection>
+		<title>Linear functions and linear models</title>
+
+    <p>
+      A <term>linear function</term> is a function whose graph is a straight line.
+      With the exception of vertical lines (which cannot be functions anyway, because the Vertical Line Test fails for vertical lines), every line can be written in the format <m>y = mx + b</m>,
+      and so replacing <m>y</m> with <m>f(x)</m>, every linear function can be written in the format <m>f(x) = mx + b</m>.
+    </p>
+    <p>
+      When a linear function describes the behavior of a real-world situation, we say that we are looking at a <term>linear model</term>.
+      The slope <m>m</m> of the linear function describes the rate of change of the situation.
+      For instance, we have the first preview application above, which describes the value of a car over time.
+      For this linear model, we will have <m>x</m> represent the time (more specifically, the number of years after purchase), and <m>y</m> or <m>f(x)</m> will represent the value of the car in dollars.
+      Then the slope will describe the rate at which the car's value is changing over time.
+    </p>
+    <p>
+      Before digging into the car example, let's look at a warm up example dealing with a linear function.
+    </p>
+
+  
+    <p>
+      <example>
+        <statement>
+          <p>
+            A linear function has a graph that goes through the points <m>(3,8)</m> and <m>(6,20)</m>.
+            Find a formula for the function.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Behind the layer of language, we need to find an equation for the line going through the points <m>(3,8)</m> and <m>(6,20)</m>.
+            The slope is <m>m = \frac{20-8}{6-3} = \frac{12}{3} = 4</m>.
+            In point-slope form, using the first point, <m>y - 8 = 4(x - 3)</m>.
+            To get a function, we need to solve for <m>y</m>. Adding <m>8</m> to both sides gives <m>y = 4(x - 3) + 8</m>.
+            So, one formula for the linear function is <m>f(x) = 4(x - 3) + 8</m>.
+          </p>
+          <p>
+            We demonstrate that every linear funciton can be written in the format <m>f(x) = mx + b</m> by simplifying the formula we found.
+            Distributing the <m>4</m> gives <m>f(x) = 4x - 12 + 8</m>, and combining like terms gives <m>f(x) = 4x - 4</m>.
+            So, another formula for the linear function is <m>f(x) = 4x - 4</m>.
+          </p>
+        </answer>
+      </example>
+      The slope <m>4</m> tells us a rate: that is, for every increase of <m>x</m> by one unit, the <m>y</m>-value (also called the output) of the function increases by <m>4</m>.
+    </p>
+
+    <p>
+      Let's revisit one of the application preview questions, though to help us see the connections, we'll make the final question that was asked the last part:
+      <example>
+        <statement>
+          <p>
+            The value of a new car is estimated by a linear model.
+            Three years after purchase, the car's value is <m>\$20,000</m>.
+            Eight years after purchase, the car's value is <m>\$10,000</m>.
+            <ol>
+              <li>
+                <p>
+                  Find a linear model for the value of the car over time.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Identify the slope and interpret the slope in context.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Use the linear model to estimate the value of the car ten years after purchase.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Because we are in the context of an application, the language <q>linear model</q> has come up, but we are really looking for a linear function.
+            We will let <m>x</m> represent the number of years after purchase, and <m>y</m> represent the value of the car in dollars.
+            Then we have two points: <m>(3, 20000)</m> and <m>(8, 10000)</m>.
+            It means that we have the same kind of problem as the previous question, but with different numbers.
+            <ol>
+              <li>
+                <p>
+                  Given the points <m>(3, 20000)</m> and <m>(8, 10000)</m>, the slope is <m>m = \frac{10000 - 20000}{8 - 3} = \frac{-10000}{5} = -2000</m>.
+                  Using the first point, we have <m>y - 20000 = -2000(x - 3)</m>.
+                  Solving for <m>y</m> gives <m>y = -2000(x - 3) + 20000</m>, so <m>f(x) = -2000(x-3) + 20000</m> is one formula for the linear function.
+                </p>
+                <p>
+                  We can also distribute <m>-2000</m> and combine like terms to get <m>f(x) = -2000x + 6000 + 20000 = -2000x + 26000</m>.
+                  So <m>f(x) = -2000x + 26000</m> is another formula for the linear function.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The slope is <m>-2000</m>, which means that for every increase of <m>x</m> by one unit the value of <m>y</m> decreases by <m>2000</m>.
+                  Now, we say the same information, but in context in light of the fact that <m>x</m> increasing by <m>1</m> means it's one year later: every year, the value of the car decreases by <m>\$2000</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  To estimate the value of the car ten years after purchase, we need to evaluate <m>f(10)</m>.
+                  Using the formula <m>f(x) = -2000x + 26000</m>, we have <m>f(10) = -2000(10) + 26000 = -20000 + 26000 = 6000</m>.
+                  So, the estimated value of the car ten years after purchase is <m>\$6000</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Quadratic functions and quadratic models</title>
+    
+    <p>
+      We just saw that a linear function can always be written in the format <m>f(x) = mx + b</m>, or to prep for what we'll see and use letters in alphabetical order, <m>f(x) = ax + b</m>.
+      Instead of having the highest power of <m>x</m> be <m>1</m>, we can increase this by <m>1</m> to talk about a quadratic function.
+      A quadratic function will have the highest power of <m>x</m> be <m>2</m>, and so a quadratic function can always be written in the format <m>f(x) = ax^2 + bx + c</m>.
+      Whereas a linear function's graph is always a straight line, a quadratic function's graph is always a <term>parabola</term>.
+    </p>
+    <p>
+      The two forms of line we have focused on <m>y = mx + b</m> and <m>y - y_1 = m(x - x_1)</m> led to two general looks for a linear function:
+      either <m>f(x) = mx + b</m> (alternatively written <m>f(x) = ax + b</m>) or <m>f(x) = m(x - x_1) + y_1</m> (alternatively written <m>f(x) = y_1 + m(x - x_1)</m>).
+      Analogously, <m>f(x) = ax^2 + bx + c</m> is one of the formats we will focus on.
+      <ul>
+        <li>
+          <p>
+            <m>f(x) = ax^2 + bx + c</m> is called the <term>standard form</term> of a quadratic function
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>f(x) = a(x - h)^2 + k</m> is called the <term>vertex form</term> of a quadratic function.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      When a quadratic function describes the behavior of a real-world situation, we say that we are looking at a <term>quadratic model</term>.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = (x-3)^2 + 100</m> in vertex form, and write the function in standard form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(x) = (x-3)^2 + 100 = x^2 - 6x + 9 + 100 = x^2 - 6x + 109</m>.
+            So, the standard form of the function is <m>f(x) = x^2 - 6x + 109</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = 10(x-3)^2 + 100</m> in vertex form, and write the function in standard form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>f(x) = 10(x-3)^2 + 100 = 10(x^2 - 6x + 9) + 100 = 10x^2 - 60x + 90 + 100 = 10x^2 - 60x + 190</m>.
+            So, the standard form of the function is <m>f(x) = 10x^2 - 60x + 190</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      Going from vertex form to standard form involves expanding the square and combining like terms.
+      Going from standard form to vertex form involves completing the square.
+      We were used to adding something to both sides, but now we'll have to add and subtract a number on the <em>same</em> side.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = x^2 + 6x + 100</m> in standard form, and write the function in vertex form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The linear coefficient is <m>6</m>, so the second stick is <m>3</m> so the constant we need to add is <m>9</m>.
+            If we had an equation, we would add <m>9</m> to, both sides, but we have the formula for a function, so we will add and subtract <m>9</m> on the same <q>side</q>.
+            <m>f(x) = x^2 + 6x + 9 - 9 + 100 = (x^2 + 6x + 9) + 91 = (x+3)^2 + 91</m>.
+            So, the vertex form of the function is <m>f(x) = (x+3)^2 + 91</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      We can actually temporarily create an equation in <m>x</m> and <m>y</m> by replacing <m>f(x)</m> with <m>y</m>, and after completing the square and factoring, we can replace <m>y</m> with <m>f(x)</m> again.
+      It will end up being the same mathematics (the same numbers are involved in completing the square), but it's a little easier to process this way.
+      Let's revisit the same problem with this new technique. 
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = x^2 + 6x + 100</m> in standard form, and write the function in vertex form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Replacing <m>f(x)</m> with <m>y</m>, we have <m>y = x^2 + 6x + 100</m>. Subtracting <m>100</m> on both sides, <m>y-100 = x^2 + 6x</m>.
+            The linear coefficient is <m>6</m>, so the second stick is <m>3</m> so the constant we need to add is <m>9</m>.
+            Adding <m>9</m> to both sides, we have <m>y - 100 + 9 = x^2 + 6x + 9</m>, which simplifies to <m>y - 91 = x^2 + 6x + 9</m>.
+            Factoring the right side gives <m>y - 91 = (x + 3)^2</m>, and adding <m>91</m> to both sides gives <m>y = (x + 3)^2 + 91</m>.
+            Replacing <m>y</m> with <m>f(x)</m>, we have <m>f(x) = (x + 3)^2 + 91</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = 10x^2 - 60x + 300</m> in standard form, and write the function in vertex form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Replacing <m>f(x)</m> with <m>y</m>, we have <m>y = 10x^2 - 60x + 300</m>. Subtracting <m>300</m> on both sides, <m>y - 300 = 10x^2 - 60x</m>.
+            In the past for quadratic equations, we saw that before we consider the linear coefficient, second stick, and constant, we first need to ensure that the coefficient of <m>x^2</m> is <m>1</m>, often a "hidden" <m>1</m>.
+            To make that happens is a multi-step process that starts with dividing both sides by <m>10</m>. As we do this, recall that we have divide the <em>entire</em> left side by <m>10</m>, and the <em>entire</em> right side by <m>10</m>.
+            <me>\frac{y - 300}{10} = \frac{10x^2 - 60x}{10}.</me>
+            Each side has a fraction with subtraction in the numerator, so no cancellations will happen.
+            We can leave the left side as is, but we make the choice to do steps on the left similarly to how we work on the right, splitting up each side as the difference of two fractions:
+            <me>\frac{y}{10} - \frac{300}{10} = \frac{10x^2}{10} - \frac{60x}{10}.</me>
+            Now that minus signs are not <em>in</em> the numerator of a fraction (but instead <em>between</em> separate fractions), we can cancel in three of the four fractions:
+            <me>\frac{y}{10} - 30 = x^2 - 6x.</me>
+            Now we can complete the square on the right side. The linear coefficient is <m>-6</m>, so the second stick is <m>-3</m> so the constant we need to add is <m>9</m>.
+            Adding <m>9</m> to both sides, 
+            <me>\frac{y}{10} - 30 + 9 = x^2 - 6x + 9.</me>
+            Simplifying the left side and factoring on the right side,
+            <me>\frac{y}{10} - 21 = (x - 3)^2.</me>
+            Now we solve for <m>y</m>.
+            Adding <m>21</m> to both sides gives
+            <me>\frac{y}{10} = (x-3)^2 + 21</me>
+            To get <m>y</m> by itself, we multiply both sides by <m>10</m>:
+            <me>y = 10 ((x-3)^2 + 21).</me>
+            While this techincally leaves <m>y</m> isolated, we can distribute the <m>10</m> to get a more standard look:
+            <me>y = 10(x-3)^2 + 210.</me>
+            Replacing <m>y</m> with <m>f(x)</m>, we have <m>f(x) = 10(x-3)^2 + 210</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example xml:id="example2x2-20x-12-vertex-form">
+        <statement>
+          <p>
+            Consider the quadratic function <m>f(x) = 2x^2 + 20x - 12</m> in standard form, and write the function in vertex form.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Replacing <m>f(x)</m> with <m>y</m>, we have <m>y = 2x^2 + 20x - 12</m>. Subtracting <m>-12</m> on both sides, <m>y + 12 = 2x^2 + 20x</m>.
+            Dividing both sides by <m>2</m>, we have <me>\frac{y + 12}{2} = x^2 + 10x.</me>
+            The linear coefficient is <m>10</m>, so the second stick is <m>5</m> so the constant we need to add is <m>25</m>.
+            Adding <m>25</m> to both sides, 
+            <me>\frac{y + 12}{2} + 25 = x^2 + 10x + 25.</me>
+            Factoring the right side,
+            <me>\frac{y + 12}{2} + 25 = (x + 5)^2.</me>
+            Now we solve for <m>y</m>.
+            Subtracting <m>25</m> from both sides gives
+            <me>\frac{y + 12}{2} = (x + 5)^2 - 25</me>
+            Multiplying both sides by <m>2</m> gives
+            <me>y + 12 = 2((x + 5)^2 - 25)</me>
+            Distributing the <m>2</m> gives
+            <me>y + 12 = 2(x + 5)^2 - 50</me>
+            Subtracting <m>12</m> from both sides gives
+            <me>y = 2(x + 5)^2 - 50 - 12</me>
+            Simplifying the right side,
+            <me>y = 2(x + 5)^2 - 62</me>
+            so
+            <me>f(x) = 2(x + 5)^2 - 62</me>.
+          </p>
+        </answer>
+      </example>
+      A final answer can be left like this, but if we wish to have this look more literal in its conformance to the vertex form, 
+      we can write <m>f(x) = 2(x - (-5))^2 - 62</m>, in which case we more clearly see that <m>a=2</m> and <m>h=-5</m> and <m>k=-62</m>.
+    </p>
+
+    <p>
+      Now, we dig a little into the parts of the standard form <m>f(x) = ax^2 + bx + c</m> and the vertex form <m>f(x) = a(x-h)^2 + k</m>.
+      <ul>
+        <li>
+          <p>
+            The <m>a</m> in both forms is the same, and it takes on the same value when convering between forms.
+            (For example, in the last example, <m>a=2</m> in both <m>f(x) = 2x^2 + 20x - 12</m> and <m>f(x) = 2(x + 5)^2 - 62</m>.)
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>a &gt; 0</m>, the parabola opens upward, and if <m>a &lt; 0</m>, the parabola opens downward.
+            The figures below depict the two cases.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw[<->, ultra thick, blue, domain=1:7,smooth,samples=100] plot (\x,{(\x-4)*(\x-4)+1});
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Parabola opens upward when <m>a &gt; 0</m>.</caption>
+            </figure>                
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw[<->, ultra thick, blue, domain=1.5:6.5,smooth,samples=100] plot (\x,{10-(\x-4)*(\x-4)});
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Parabola opens downward when <m>a &lt; 0</m>.</caption>
+            </figure>
+          </p>
+        </li>
+      </ul>
+      While both parabolas were drawn in the context of <m>x</m>- and <m>y</m>-axes, all we really wanted to show here is that the parabolas open upward or downward depending on the sign of <m>a</m>.
+      (The values of the other coefficients <m>b</m> and <m>c</m> in standard form or <m>h</m> and <m>k</m> in vertex form will affect the position and width of the parabola, but not its direction.)
+    </p>
+    <p>
+      There is a special point called the <em>vertex</em> of the parabola.
+      <ul>
+        <li>
+          <p>
+            In the case of a parabola that opens upward (so <m>a &gt; 0</m>) the vertex is the lowest point on the parabola.
+            This is the point on the parabola that has the smallest <m>y</m>-value.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the case of a parabola that opens downward (so <m>a &lt; 0</m>) the vertex is the highest point on the parabola.
+            This is the point on the parabola that has the largest <m>y</m>-value.
+          </p>
+        </li>
+      </ul>
+    </p>    
+    <p>
+      We introduce formulas for getting the vertex of a parabola in each form:
+      <principle xml:id="principle-vertex-form-vertex">
+        <statement>
+          <p>
+            If <m>f(x) = a(x-h)^2 + k</m> is a quadratic function in vertex form, then the vertex of the parabola is <m>(h,k)</m>.
+          </p>
+        </statement>
+      </principle>
+      The fact that the information about the vertex can be read right off of this form is why it is called vertex form.
+    </p>
+    <p>
+      We introduce a formula for getting the <m>x</m>-coordinate only of a vertex of a parabola in standard form:
+      <principle xml:id="principle-standard-form-vertex-x">
+        <statement>
+          <p>
+            If <m>f(x) = ax^2 + bx + c</m> is a quadratic function in standard form, then the <m>x</m>-coordinate of the vertex of the parabola is <m>x = -\frac{b}{2a}</m>.
+          </p>
+        </statement>
+      </principle>
+      Once the <m>x</m>-coordinate is known, the <m>y</m>-coordinate can be found by evaluating the function at the appropriate <m>x</m>-coordinate.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Identify the vertex of the parabola given by <m>f(x) = 2(x + 5)^2 - 62</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            If it helps, we can rewrite the function as <m>f(x) = 2(x - (-5))^2 - 62</m>, and then we can see that <m>h = -5</m> and <m>k = -62</m>.
+            So, the vertex is <m>(-5, -62)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Identify the vertex of the parabola given by <m>f(x) = 2x^2 + 20x - 12</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Because we have the function in standard form, we can use the formula <m>x = -\frac{b}{2a}</m> to find the <m>x</m>-coordinate of the vertex.
+            Here, <m>a = 2</m> and <m>b = 20</m>, so <m>x = -\frac{20}{2(2)} = -\frac{20}{4} = -5</m>.
+            To find the <m>y</m>-coordinate of the vertex, we evaluate the function at <m>x = -5</m>:
+            <me>f(-5) = 2(-5)^2 + 20(-5) - 12 = 2(25) - 100 - 12 = 50 - 100 - 12 = -62</me>.
+            So, the vertex is <m>(-5, -62)</m>.
+          </p>
+        </answer>
+      </example>
+      Note that we recover the same vertex <m>(-5, -62)</m> as in the previous example.
+      This should be expected because from our work in <xref ref="example2x2-20x-12-vertex-form" /> we are looking at two different forms of the same function.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Use the vertex and the <m>x</m>-intercepts and <m>y</m>-intercept to sketch the graph of the parabola given by <m>f(x) = 2x^2 + 20x - 12</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We already found the vertex to be <m>(-5, -62)</m>.
+            It may be helpful for us to replace the <m>f(x)</m> with a <m>y</m> so we have the following equation in <m>x</m> and <m>y</m>:
+            <me>y = 2x^2 + 20x - 12.</me>
+          </p>
+          <p>
+            Recall from <xref ref="principle-x-intercepts"/> to find the <m>x</m>-intercepts, we need to set <m>y = 0</m> and solve for <m>x</m>.
+            <me>0 = 2x^2 + 20x - 12</me>
+            Because this is a quadratic equation, we can use the quadratic formula to solve for <m>x</m>:
+            <me>x = \frac{-20 \pm \sqrt{20^2 - 4(2)(-12)}}{2(2)} = \frac{-20 \pm \sqrt{400 + 96}}{4} = \frac{-20 \pm \sqrt{496}}{4} = \frac{-20 \pm 4\sqrt{31}}{4} = -5 \pm \sqrt{31}</me>
+            So, the <m>x</m>-intercepts are <m>x = -5 + \sqrt{31} \approx 1.4</m> and <m>x = -5 - \sqrt{31} \approx -11.4</m>.
+          </p>
+          <p>
+            Recall frohm <xref ref="principle-y-intercepts"/> to find the <m>y</m>-intercept, we need to set <m>x = 0</m> and solve for <m>y</m>.
+            <me>y = 2(0)^2 + 20(0) - 12 = -12</me>
+            So, the <m>y</m>-intercept is <m>y = -12</m>.
+          </p>
+          <p>
+            With the vertex, <m>x</m>-intercepts, and <m>y</m>-intercept, we can sketch the graph of the parabola.
+            It is helpful to not worry about scale.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-5,0) -- (5,0); 
+                      \node at (5.5,.4) {$x$};
+                      \draw[<->] (0,-5) -- (0,5);
+                      \node at (.4,5.5) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-4.:2,smooth,samples=100] plot (\x,{(\x+1)*(\x+1)-4});
+                      \draw (-3,.3) -- (-3,-.3);
+                      \node at (-3,-.85) {$-11.4$};
+                      \draw (1,.3) -- (1,-.3);
+                      \node at (1,-.85) {$1.4$};
+                      \draw (-.3,-3) -- (.3,-3);
+                      \node at (-.85,-3) {$-12$};
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>A sketch.</caption>
+            </figure>                
+
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Identify the vertex of the parabola given by <m>f(x) = -3(x - 2)^2 + 1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can see that <m>a = -3</m> and <m>h = 2</m> and <m>k = 1</m>.
+            So, the vertex is <m>(2, 1)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      We now examine the applications at the beginning.
+      <example>
+        <statement>
+          <p>
+            A business has a profit function given by <m>P(x) = -4x^2 + 80x - 100</m>, where <m>x</m> is the number of toasters sold.
+            How many toasters should the business sell to maximize profit, and what is that maximum profit?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            For concreteness, we replace <m>P(x)</m> with <m>y</m>:
+            <me>y = -4x^2 + 80x - 100</me>
+            The <m>x</m>-coordinate represents the number of toasters sold, while <m>y</m> represents the profit.
+            Because the coefficient of <m>x^2</m> is negative, the drawing would be a parabola which opens downward.
+            So, there is a point at the top (called the vertex) in which the <m>y</m>-coordinate is largest on the porabola.
+            Recall that <m>y</m> represents the profit, so it is this point that we are interested in.
+          </p>
+          <p>
+            To find the <m>x</m>-coordinate of the vertex, we use the formula <m>x = -\frac{b}{2a}</m> from <xref ref="principle-standard-form-vertex-x"/>.
+            Here, <m>a = -4</m> and <m>b = 80</m> and <m>c=-100</m>, so <m>x = -\frac{80}{2(-4)} = -\frac{80}{-8} = 10</m>.
+            Now that we know the <m>x</m>-coordinate of the vertex, we can find the <m>y</m>-coordinate by evaluating the function at <m>x = 10</m>:
+            <me>P(10) = -4(10)^2 + 80(10) - 100 = -4(100) + 800 - 100 = -400 + 800 - 100 = 300</me>
+            So the vertex is the point <m>(10, 300)</m>.
+          </p>
+          <p>
+            Recalling that <m>x</m> represents the number of toasters sold and <m>y</m> represents the profit, 
+            we can say that the business should sell <m>10</m> toasters to maximize profit, and that maximum profit is <m>\$300</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            A ball is thrown into the air.
+            Its height in feet after <m>t</m> seconds is given by the function <m>h(t) = -16t^2 + 64t + 5</m>.
+            How long will it take for the ball to hit the ground?
+            At what point is the ball at its maximum height, and what is that height?            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Before going too far, let us note that <m>t</m> plays the role of <m>x</m>, and represents the time.
+            If we write <m>y = -16t^2 + 64t + 5</m>, then <m>y</m> represents the height of the ball.
+          </p>
+          <p>
+            To find when the ball hits the ground, we set <m>h(t) = 0</m> and solve for <m>t</m>:
+            <me>0 = -16t^2 + 64t + 5</me>
+            Using the quadratic formula, we get:
+            <me>t = \frac{-64 \pm \sqrt{64^2 - 4(-16)(5)}}{2(-16)} = \frac{-64 \pm \sqrt{4096 + 320}}{-32} = \frac{-64 \pm \sqrt{4416}}{-32}</me>
+            Simplifying the square root:
+            <me>t \apporx \frac{-64 \pm 66.4}{-32}</me>
+            This gives us two solutions, but one of the times is negative, so we remove that possibility. The other solution is <m>t \approx 4.075</m> seconds.
+          </p>
+          <p>
+            To find the maximum height, we use the vertex formula <m>t = -\frac{b}{2a}</m>:
+            <me>t = -\frac{64}{2(-16)} = -\frac{64}{-32} = 2</me>
+            Evaluating the function at <m>t = 2</m>:
+            <me>h(2) = -16(2)^2 + 64(2) + 5 = -16(4) + 128 + 5 = -64 + 128 + 5 = 9</me>
+            So the vertex is the point <m>(2, 9)</m>.
+            Recalling that <m>t</m> represents the time and <m>h(t)</m> or <m>y</m>represents the height, we can say that the ball reaches its maximum height of <m>9</m> feet after <m>2</m> seconds.
+            So the maximum height is reached at <m>t = 2</m> seconds, and the height is <m>9</m> feet.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+  </subsection>
+
+  
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            A linear function is a function in the form <m>f(x) = mx + b</m> where <m>m</m> and <m>b</m> are constants, or <m>f(x) = m(x-x_1) + y_1</m> where <m>(x_1, y_1)</m> is a point on the line.
+          </p>
+        </li>
+        <li>
+          <p>
+            A linear model is a linear function that is used to describe a real-world situation.
+          </p>
+        </li>
+        <li>
+          <p>
+            A quadratic function is a function in the form <m>f(x) = ax^2 + bx + c</m> where <m>a</m>, <m>b</m>, and <m>c</m> are constants, 
+            or <m>f(x) = a(x-h)^2 + k</m> where <m>(h,k)</m> is the vertex of the parabola.
+            In both the standard form and vertex form, the value of <m>a</m> is the same when converting between forms.
+          </p>
+        </li>
+        <li>
+          <p>
+            To convert from vertex form to standard form, expand and collect like terms.
+            To convert from standard form to vertex form, complete the square.
+          </p>
+        </li>
+        <li>
+          <p>
+            A quadratic model is a quadratic function that is used to describe a real-world situation.
+          </p>
+        </li>
+        <li>
+          <p>
+            The vertex of a parabola is the point on the parabola that is either the highest or lowest point, depending on whether the parabola opens downward or upward.
+            (The parabola opens downward if <m>a &lt; 0</m> and opens upward if <m>a &gt; 0</m>.)
+            The vertex can be read directly from the vertex form as <m>(h,k)</m>.
+            In standard form, the formula <m>x = -\frac{b}{2a}</m> gives the <m>x</m>-coordinate of the vertex.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+
+</section>

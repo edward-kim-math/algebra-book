@@ -15,4 +15,7 @@
   <!-- include sections -->
   <xi:include href="sec-what-is-a-function.ptx" />
   <xi:include href="sec-functions-more-detail.ptx" />
+  <xi:include href="sec-linear-and-quadratic-functions.ptx" />
+
+  
 </chapter>
