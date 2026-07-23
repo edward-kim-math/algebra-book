@@ -46,7 +46,7 @@
   </subsection>
 
 	<subsection>
-		<title>Roots or zeroes of polynomial functions</title>
+		<title>What is a polynomial function?</title>
 
     <p>
       Recall that a function is a rule that assigns to each input exactly one output.
@@ -132,298 +132,1119 @@
         </statement>
       </example>
     </p>
+  </subsection>
 
+  <subsection>
+    <title>Roots and/or zeroes of a polynomial function</title>
+ 
     <p>
-      Roots and multiplicity
-      Multiplicity
+      Given a polynomial function <m>f(x)</m> in either the expanded form or the factored form:
+      <ul>
+        <li>
+          <p>
+            An <m>x</m>-value <m>c</m> is a <term>root</term> of the polynomial function <m>f(x)</m> if <m>f(c) = 0</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            An <m>x</m>-value <m>c</m> is a <term>zero</term> of the polynomial function <m>f(x)</m> if <m>f(c) = 0</m>.
+          </p>
+        </li>
+      </ul>
+      There is no mistake in the above: the word "root" and the word "zero" are synonyms in this context, and they both refer to the same concept.
+      Informally, we can say that a root or zero of a polynomial function is an input that makes the function's output equal to zero,
+      or said differently: a root or a zero of a polynomial function is an <m>x</m>-value that causes the <m>y</m>-value to be zero.
     </p>
 
 
+    <p>
+      <example>
+        <statement>
+          <p>
+            Show that <m>3</m> is a root of the polynomial function <m>f(x) = x^3-11x^2+39x-45</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            To show that <m>3</m> is a root of the polynomial function <m>f(x) = x^3-11x^2+39x-45</m>, 
+            we want to see if this input <m>x=3</m> leads to an output of <m>0</m>.
+            In other words, we need to evaluate <m>f(3)</m> and see if it equals zero.
+            <m>
+              f(3) = 3^3 - 11(3^2) + 39(3) - 45
+                   = 27 - 11(9) + 117 - 45
+                   = 27 - 99 + 117 - 45
+                   = (27 - 99) + (117 - 45)
+                   = (-72) + (72)
+                   = 0
+            </m>
+            Since <m>f(3) = 0</m>, we conclude that <m>3</m> is indeed a root of the polynomial function <m>f(x)</m>.
+          </p>
+        </answer>
+      </example>
+      We can also use the language that <m>3</m> is a <term>zero</term> of the polynomial function <m>f(x) = x^3-11x^2+39x-45</m>, 
+      since the words "root" and "zero" are synonyms.
+      (This language may feel a little funny: it is the number <m>3</m>, an <m>x</m>-value that is being called a "zero", though it is this non-zero number <m>x=3</m> which leads to <m>y=0</m>.)
+    </p>
 
-    <principle>
-      <title>text</title>
-      <p>
-        text
-      </p>
-    </principle>
+    <p>
+      Just to warm up to, and illustrate the concept, the last example gave us an <m>x</m>-value <m>3</m> that happened to be a root, and just asked us to check that we did indeed have a root.
+      A more typical question would state a polynomial function and ask us to find the roots.
+      <example>
+        <statement>
+          <p>
+            Find the roots of the polynomial function <m>f(x) = x^3-2x^2-25x+50</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The roots are the <m>x</m>-values that cause the <m>y</m>-value to be zero.
+            In other words, we want to find the <m>x</m>-values that make the output, represented by <m>f(x)</m>, to equal zero. So, we set <m>f(x) = 0</m>:
+            <me>0 = x^3 - 2x^2 - 25x + 50.</me>
+            This creates an equation for us to solve.
+            While not required, we can swap the two sides of the equation:
+            <me>x^3 - 2x^2 - 25x + 50 = 0</me>
+            To solve this equation, we will see if the left side will factor (so that we can apply the Zero Product Property from <xref ref="principle-zpp"/>).
+            When there are four terms, recall <xref ref="factor-by-grouping"/> suggests that we should always consider factoring by grouping.
+            <me>x^3 - 2x^2 - 25x + 50 = 0</me>
+            <me>(x^3 - 2x^2) + (-25x + 50) = 0</me>
+            <me>x^2(x - 2) - 25(x - 2) = 0</me>
+            <me>(x^2 - 25)(x - 2) = 0</me> 
+            We can apply the Zero Product Property now (and then apply it again further later), but we make the choice instead to factor completely first.
+            <me>(x + 5)(x - 5)(x - 2) = 0</me>
+            Now, applying the extended Zero Product Property from <xref ref="principle-zpp-extended"/>:
+            <me>x + 5 = 0 \text{ or } x - 5 = 0 \text{ or } x - 2 = 0</me>
+            <me>x = -5 \text{ or } x = 5 \text{ or } x = 2</me>
+            So, <m>x=-5</m> is a root, and <m>x=5</m> is a root, and <m>x=2</m> is a root.
+          </p>
+        </answer>
+      </example>
+    </p>
 
-    <example>
+    <p>
+      In the answer to our previous question, we ended up factoring <m>x^3-2x^2-25x+50</m> because we had set up the problem of this expression set equal to zero and wanted to apply the extended Zero Product Property.
+      But the factoring we did also tells us this: the polynomal function <m>f(x) = x^3-2x^2-25x+50</m> written in expanded form can be written in factored form as <m>f(x) = (x + 5)(x - 5)(x - 2)</m>.
+      Let's look at one more example, but see if you can anticipate the pattern.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Consider the polynomial function <m>f(x) = x^2 - 15x + 50</m>.
+            <ol>
+              <li>
+                <p>
+                  Write this polynomial function in factored form.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Identify the roots of this polynomial function.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <me>f(x) = x^2 - 15x + 50</me>
+                  <me>f(x) = (x - 5)(x - 10)</me>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <me>f(x) = 0</me>
+                  <me>(x - 5)(x - 10) = 0</me>
+                  <me>x - 5 = 0 \text{ or } x - 10 = 0</me>
+                  <me>x = 5 \text{ or } x = 10</me>
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>      
+    </p>
+
+    <p>
+      What the last example shows us is that when we have <m>(x-c)</m> as a factor of the polyonmial function written in factored form, then the <m>x</m>-value <m>c</m> is a root of the polynomial function.
+    </p>
+    <p>
+      Even in the previous example, <m>f(x) = x^3-2x^2-25x+50</m> in factored form is <m>f(x) = (x + 5)(x - 5)(x - 2)</m>, or to be able to see the pattern more clearly, we will rewrite <m>(x+5)</m> as <m>(x-(-5))</m> and have
+      <me>f(x) = (x - (-5))(x - 5)(x - 2).</me>
+    </p>
+
+    <p>
+      <principle xml:id="principle-factor-theorem">
+        <statement>
+          <p>
+            The polynomial function <m>f(x)</m> has the <m>x</m>-value <m>c</m> as a root if and only if <m>(x-c)</m> is a factor of the polynomial function <m>f(x)</m>.
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots of the polynomial function <m>f(x) = (x-3)(x-5)(x-7)(x-8)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The <m>x</m>-value <m>3</m> is a root.
+            The <m>x</m>-value <m>5</m> is a root.
+            The <m>x</m>-value <m>7</m> is a root.
+            The <m>x</m>-value <m>8</m> is a root.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots of the polynomial function <m>f(x) = (x-3)(x-5)(x-7)(x+8)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can first rewrite <m>f(x) = (x-3)(x-5)(x-7)(x-(-8))</m>.
+            The <m>x</m>-value <m>3</m> is a root.
+            The <m>x</m>-value <m>5</m> is a root.
+            The <m>x</m>-value <m>7</m> is a root.
+            The <m>x</m>-value <m>-8</m> is a root.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            Alternately, we can leave the rewriting of <m>f(x)</m> imagined in our head and just state the roots:
+            The <m>x</m>-value <m>3</m> is a root.
+            The <m>x</m>-value <m>5</m> is a root.
+            The <m>x</m>-value <m>7</m> is a root.
+            The <m>x</m>-value <m>-8</m> is a root.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots of the polynomial function <m>f(x) = (x-5)(x-5)(x-7)(x-8)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The <m>x</m>-value <m>5</m> is a root.
+            The <m>x</m>-value <m>7</m> is a root.
+            The <m>x</m>-value <m>8</m> is a root.
+          </p>
+        </answer>
+      </example>
+      Note, we could have compacted the way the function is written in factored form to <m>f(x) = (x-5)^2(x-7)(x-8)</m>, but the roots are still the same.
+      Here, we say that the root <m>5</m> has a <term>multiplicity</term> of <m>2</m>, while the roots <m>7</m> and <m>8</m> each have a multiplicity of <m>1</m>.
+      The multiplicity of a root is the number of times that root appears as a factor in the factored form of the polynomial.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots (and their multiplicities) of the polynomial function <m>f(x) = (x-5)^3(x-7)^5(x-8)^2(x-10)^{22}(x-15)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The <m>x</m>-value <m>5</m> is a root with multiplicity <m>3</m>.
+            The <m>x</m>-value <m>7</m> is a root with multiplicity <m>5</m>.
+            The <m>x</m>-value <m>8</m> is a root with multiplicity <m>2</m>.
+            The <m>x</m>-value <m>10</m> is a root with multiplicity <m>22</m>.
+            The <m>x</m>-value <m>15</m> is a root with multiplicity <m>1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots (and their multiplicities) of the polynomial function <m>f(x) = 25(x+6)(x+2)^4(x-4)(x-9)^5</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The <m>x</m>-value <m>-6</m> is a root with multiplicity <m>1</m>.
+            The <m>x</m>-value <m>-2</m> is a root with multiplicity <m>4</m>.
+            The <m>x</m>-value <m>4</m> is a root with multiplicity <m>1</m>.
+            The <m>x</m>-value <m>9</m> is a root with multiplicity <m>5</m>.
+          </p>
+        </answer>
+      </example>
+      Note that the number <m>25</m> in front of the polynomial function does not affect the roots or their multiplicities, since it is a constant factor and does not change the <m>x</m>-values that make the function equal to zero.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            State the roots (and their multiplicities) of the polynomial function <m>f(x) = x^9(x+8)(x-4)^2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can rewrite <m>x^9</m> as <m>(x-0)^9</m>, so the polynomial function is <m>f(x) = (x+8)(x-0)^9(x-4)^2</m>.
+            The <m>x</m>-value <m>-8</m> is a root with multiplicity <m>1</m>.
+            The <m>x</m>-value <m>0</m> is a root with multiplicity <m>9</m>.
+            The <m>x</m>-value <m>4</m> is a root with multiplicity <m>2</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      The last example shows us thot if we see <m>x^9</m> as a factor, we should really think of this as <m>(x-0)^9</m> as a factor since <m>(x-0)^9 = x^9</m>, and in thinking of it this way, we see that <m>x=0</m> is a root of the polynomial function with multiplicity <m>9</m>.
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Graphing polynomial functions</title>
+
+    <p>
+      Now we discuss graphing polynomial functions.
+      Given a polynomial function, we should identify the roots and their multiplicities, and then use this information to sketch the graph of the polynomial function.
+      Let us explore what the graph looks like if there is exactly one root (we'll pick <m>x=6</m>) for different multiplicities.
+      We start with a multiplicity of <m>1</m>, graph using a graphing calculator, and continue to increase the value.
+    </p>
+
+    <p>
+      The figures below show the graphs of <m>y=(x-6)^1</m> then <m>y=(x-6)^2</m> then <m>y=(x-6)^3</m> and so on.
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=4.5:7.5,smooth,samples=100] plot (\x,{\x-6});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^1</m></caption>
+      </figure>       
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=4.5:7.5,smooth,samples=100] plot (\x,{(\x-6)^2});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^2</m></caption>
+      </figure>       
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=5:7,smooth,samples=100] plot (\x,{(\x-6)^3});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^3</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=5:7,smooth,samples=100] plot (\x,{(\x-6)^4});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^4</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=5:7,smooth,samples=100] plot (\x,{(\x-6)^5});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^5</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw[<->, ultra thick, blue, domain=5:7,smooth,samples=100] plot (\x,{(\x-6)^6});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^6</m></caption>
+      </figure>       
+      
+    </p>
+
+    <p>
+      Note that in all the graphs, <m>x=6</m> is the only <m>x</m>-intercept.
+      This is because <m>x=6</m> is the only root of the polynomial function <m>f(x) = (x-6)^n</m> for any positive integer <m>n</m>, and recall that a <term>root</term> is an <m>x</m>-value that causes the <m>y</m>-value to be zero, 
+      and combine this with the information from <xref ref="principle-x-intercepts"/> that an <m>x</m>-intercept is a point on the graph where the <m>y</m>-value is zero.
+      <principle xml:id="principle-roots-xints">
+        <statement>
+          <p>
+            The roots of a polynomial function are the <em>only</em> <m>x</m>-values of the <m>x</m>-intercepts of the graph of the polynomial function.
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      Now, in addition, we can see the effect of the multiplicity of a root on the graph of a polynomial function.
+      When the multiplicity is odd, the graph crosses (pierces through) the <m>x</m>-axis at the root.
+      When the multiplicity is even, the graph touches the <m>x</m>-axis at the root and turns around (bounces).
+    </p>
+
+    <p>
+      Because the example is limited (only one root, with ranging multiplicity), we don't see exactly all the situations that can occur with the graph crossing at a root. So, let us examine the graphs of
+      <m>y = (x-6)(x-8)</m> and <m>y=(x-6)^2(x-8)</m> and <m>(y-6)^3(x-8)</m> and so on, increasing the multiplicity of the root <m>x=6</m> while keeping the root <m>x=8</m> with multiplicity <m>1</m>.
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=4.5:8.5,smooth,samples=100] plot (\x,{(\x-6)*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^1(x-8)</m></caption>
+      </figure>       
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=5.5:8.5,smooth,samples=100] plot (\x,{(\x-6)^2*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^2(x-8)</m></caption>
+      </figure>       
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=5.0:8.2,smooth,samples=100] plot (\x,{(1/3)*(\x-6)^3*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^3(x-8)</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=5.0:8.1,smooth,samples=100] plot (\x,{(1/3)*(\x-6)^4*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^4(x-8)</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=5.0:8.05,smooth,samples=100] plot (\x,{(1/3)*(\x-6)^5*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^5(x-8)</m></caption>
+      </figure>       
+
+
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-1,0) -- (11,0); 
+                \node at (10.5,.4) {$x$};
+                \draw[<->] (0,-1) -- (0,11);
+                \node at (.4,10.5) {$y$};
+                \draw (6,-.1) -- (6,.1);
+                \node at (6,-.4) {$6$};
+                \draw (8,-.1) -- (8,.1);
+                \node at (8,-.4) {$8$};
+                \draw[<->, ultra thick, blue, domain=5.0:8.05,smooth,samples=100] plot (\x,{(1/3)*(\x-6)^6*(\x-8)});
+              \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption><m>y=(x-6)^6(x-8)</m></caption>
+      </figure>       
+      
+    </p>
+    
+    <p>
+      In the drawings above, we can see that when the multiplicity of the root <m>x=6</m> is odd, the graph crosses (pierces through) the <m>x</m>-axis at the root.
+      When the multiplicity of the root <m>x=6</m> is even, the graph touches the <m>x</m>-axis at the root and turns around (bounces).
+      In the case of an odd multiplicity, the graph crosses the <m>x</m>-axis at the root, starting from above the <m>x</m>-axis (when <m>x</m> is slightly smaller than <m>6</m>) and going below the <m>x</m>-axis when <m>x</m> is slightly larger than <m>6</m>.
+      In the case of an even multiplicity, the graph touches the <m>x</m>-axis at the root and turns around, or starting from below the <m>x</m>-axis and after bouncing, staying belowthe <m>x</m>-axis.
+      <principle xml:id="principle-multiplicity-graph">
+        <statement>
+          <p>
+            The graph of a polynomial function with a root of odd multiplicity will cross the <m>x</m>-axis at that root (the graph will either start above the <m>x</m>-axis and cross to below the <m>x</m>-axis, or start below the <m>x</m>-axis and cross to above the <m>x</m>-axis).
+          </p>
+          <p>
+            The graph of a polynomial function with a root of even multiplicity will touch the <m>x</m>-axis at that root and turn around (the graph will either start above the <m>x</m>-axis and bounce when touching the <m>x</m>-axis and stay above the <m>x</m> axis afterwards,
+            or start below the <m>x</m>-axis and bounce back below it).
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <principle>
+        <statement>
+          <p>
+            To graph a polynomial function:
+            <ol>
+              <li>
+                <p>
+                  Identify the roots and their multiplicities.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Use the roots and their multiplicities to determine the <m>x</m>-intercepts of the graph of the polynomial function, and whether the graph crosses or bounces at each root.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Each root cuts the real number line.
+                  In each of the pieces generated by the cut, pick a test point and determine the sign of the polynomial function at that test point by determining the sign of each factor.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Sketch a graph of the polynomial function using all this information.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example xml:id="graphx-2x-4x-7">
+        <statement>
+          <p>
+            Graph the polynomial function <m>f(x) = (x-2)(x-4)(x-7)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We see that <m>2,4,7</m> are each roots with multiplicity <m>1</m>.
+            We draw a number line, and have cuts introduced at <m>2,4,7</m>, which generates four pieces: <m>(-\infty,2)</m>, <m>(2,4)</m>, <m>(4,7)</m>, and <m>(7,\infty)</m>.
+            We introduce a test point in each piece, and determine the sign of the polynomial function at that test point by determining the sign of each factor.
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell>Factor</cell>
+                  <cell><m>(-\infty,2)</m></cell>
+                  <cell><m>(2,4)</m></cell>
+                  <cell><m>(4,7)</m></cell>
+                  <cell><m>(7,\infty)</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-2)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-4)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-7)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-2)(x-4)(x-7)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+              </tabular>
+            </table>      
+            The way this table was built requires a bit of explanation. 
+            For example, in the first row, we report on the sign of <m>(x-2)</m>. 
+            In the first interval <m>(-\infty,2)</m>, we pick a test point, say <m>x=1</m>, and evaluate <m>(1-2)=-1</m>, which is negative, so we report a <m>-</m> in the first column of the first row.
+            (Note that this minus sign is not saying that <m>1</m> is negative, because of course <m>1</m> is not negative: we are saying that the vule of <m>(x-2)</m> is negative when we plug a number in <m>(-\infty,2)</m> for <m>x</m>, such as <m>x=1</m>.)
+          </p>
+          <p>
+            The bottom row of the table reports on the sign of the polynomial function <m>(x-2)(x-4)(x-7)</m> in each interval, and it is obtained by looking at the signs of the factors in each interval and multiplying them together:
+            we are really just thinking about phrases such as <q>a negative times a negative is a positive</q> and <q>a negative times a positive is a negative</q>.
+          </p>
+          <p>
+            What does the bottom row of this table tell us?
+            It says that when <m>x</m> is in <m>(-\infty,2)</m>, the polynomial function is negative, so the graph of the polynomial function is below the <m>x</m>-axis for values of <m>x</m> in <m>(-\infty,2)</m>.
+            When <m>x</m> is in <m>(2,4)</m>, the polynomial function is positive, so the graph of the polynomial function is above the <m>x</m>-axis for values of <m>x</m> in <m>(2,4)</m>.
+            When <m>x</m> is in <m>(4,7)</m>, the polynomial function is negative, so the graph of the polynomial function is below the <m>x</m>-axis for values of <m>x</m> in <m>(4,7)</m>.
+            When <m>x</m> is in <m>(7,\infty)</m>, the polynomial function is positive, so the graph of the polynomial function is above the <m>x</m>-axis for values of <m>x</m> in <m>(7,\infty)</m>.
+          </p>
+          <p>
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (2,-.1) -- (2,.1);
+                      \node at (2,-.4) {$2$};
+                      \draw (4,-.1) -- (4,.1);
+                      \node at (4,-.4) {$4$};
+                      \draw (7,-.1) -- (7,.1);
+                      \node at (7,-.4) {$7$};
+                      \draw[<->, ultra thick, blue, domain=1.5:7.5,smooth,samples=100] plot (\x,{(1/3)*(\x-2)*(\x-4)*(\x-7)});
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>y=(x-2)(x-4)(x-7)</m></caption>
+            </figure>                           
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  <p>
+    <example xml:id="graphx-2cubex-4octx-7">
       <statement>
         <p>
-          Statement text       
+          Graph the polynomial function <m>f(x) = (x+2)^3(x-4)^8(x-7)</m>.          
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          Solution text
+          The roots are <m>x=-2,4,7</m> with multiplicities <m>3,8,1</m>, respectively.
+          The graph will cross the <m>x</m>-axis at <m>x=-2</m> and <m>x=7</m>, and will bounce at <m>x=4</m>.
+          These three locations (the roots) are the <em>only</em> lactions where the graph intersects the <m>x</m>-axis.
         </p>
-      </solution>
+        <p>
+          We build a table of signs, noting that having cuts at <m>-2,4,7</m> generates four pieces: <m>(-\infty,-2)</m>, <m>(-2,4)</m>, <m>(4,7)</m>, and <m>(7,\infty)</m>.
+          <table>
+            <tabular>
+              <row header="yes">
+                <cell>Factor</cell>
+                <cell><m>(-\infty,-2)</m></cell>
+                <cell><m>(-2,4)</m></cell>
+                <cell><m>(4,7)</m></cell>
+                <cell><m>(7,\infty)</m></cell>
+              </row>
+              <row>
+                <cell header="yes"><m>(x+2)^3</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>+</m></cell>
+              </row>
+              <row>
+                <cell header="yes"><m>(x-4)^8</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>+</m></cell>
+              </row>
+              <row>
+                <cell header="yes"><m>(x-7)</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>+</m></cell>
+              </row>
+              <row>
+                <cell header="yes"><m>f(x)</m></cell>
+                <cell><m>+</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>-</m></cell>
+                <cell><m>+</m></cell>
+              </row>
+            </tabular>
+          </table>
+          Notice that in the row for the factor <m>(x-4)^8</m>, we have a <m>+</m> in each column, because the factor is always positive: an even power guarantees that the value is never negative.
+        </p>
+        <p>
+          Scanning the bottom row of the table (the row for <m>f(x)</m>) tells us what the sketch of the graph of the polynomial function looks like.
+          The plus shown first indicates that the graph starts above the <m>x</m>-axis for values of <m>x</m> in <m>(-\infty,-2)</m>.
+          Then the graph has its first <m>x</m>-intercept at <m>x=-2</m>, and because the multiplicity of this root is odd, the graph crosses the <m>x</m>-axis at this root.
+          The next interval is <m>(-2,4)</m>, and the graph is below the <m>x</m>-axis for values of <m>x</m> in this interval, which is what the <m>-</m> sign indicates. 
+          The next <m>x</m>-intercept is at <m>x=4</m>, and because the multiplicity of this root is even, the graph bounces at this root and stays below the <m>x</m>-axis for values of <m>x</m> in <m>(4,7)</m>, which also see in the <m>-</m> sign in the bottom row of the table.
+          The last <m>x</m>-intercept is at <m>x=7</m>, and because the multiplicity of this root is odd, the graph crosses the <m>x</m>-axis at this root and the graph is above the <m>x</m>-axis for values of <m>x</m> in <m>(7,\infty)</m>, which is what the <m>+</m> sign indicates.
+        </p>
+           <figure>
+              <image width="85%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-4,0) -- (8,0); 
+                      \node at (7.5,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,5.5) {$y$};
+                      \draw (-2,-.1) -- (-2,.1);
+                      \node at (-2,-.4) {$-2$};
+                      \draw (4,-.1) -- (4,.1);
+                      \node at (4,-.4) {$4$};
+                      \draw (7,-.1) -- (7,.1);
+                      \node at (7,-.4) {$ 7$};
+                      \draw[<->, ultra thick, blue, domain=-2.5:7.5,smooth,samples=100] plot (\x,{(1/40)*(\x+2)*(\x-4)^2*(\x-7)});
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>y=(x+2)^3(x-4)^8(x-7)</m></caption>
+            </figure>    
+       </answer>
     </example>
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
-
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
+  </p>
 
 
 
   </subsection>
 
   <subsection>
-    <title>Applications Revisited</title>
+    <title>Polynomial inequalities</title>
 
     <p>
-      Let's revisit the applications we introduced at the beginning of this section.
+      The work of building tables of signs allows us to also solve polynomial inequalities.
+      Before we start examples, an important warning must be mentioned.
+      <warning>
+        <p>
+          The Zero Product Property <xref ref="principle-zpp"/> tells us that when we have an equation where one side is a product and the other side is zero, we can set each factor equal to zero.
+          However, the Zero Product Property does not apply to inequalities.
+        </p>
+        <p>
+          To illustrate by example:
+          <ul>
+            <li>
+              <p>
+                The equation <m>(x-2)(x-5) = 0</m> becomes <m>x-2=0</m> or <m>x-5=0</m> by applying the Zero Product Property.
+              </p>
+            </li>
+            <li>
+              <p>
+                Turning the inequality <m>(x-2)(x-5) &lt; 0</m> into <m>x-2 &lt; 0</m> or <m>x-5 &lt; 0</m> is an error. The Zero Product Property does not apply to inequalities.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </warning>
+      We just said that turning <m>(x-2)(x-5) &lt; 0</m> into <m>x-2 &lt; 0</m> or <m>x-5 &lt; 0</m> is an error, but why is it an error.
+      Looking at the result, we'd have <m>x &lt; 2</m> or <m>x &lt; 5</m>, which is equivalent to <m>x &lt; 5</m>.
+      This suggests than <em>any</em> value of <m>x</m> less than or equal to <m>5</m> is a solution to the inequality <m>(x-2)(x-5) &lt; 0</m>.
+      However, let's pick <m>x=1</m> which satisfies <m>x &lt; 5</m>, and plug it into the inequality <m>(x-2)(x-5) &lt; 0</m> to see if it is a solution:
+      <ul>
+        <li>
+          <p>
+            The right side of <m>(x-2)(x-5) &lt; 0</m> is easier to simplify, since it already is simplified. The right side is <m>0</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Let's see what the left side is: <m>(x-2)(x-5) = (1-2)(1-5) = (-1)(-4) = 4</m>.
+          </p>
+        </li>
+      </ul>
+      So, we end up with <m>4 &lt; 0</m>, which is false, so <m>x=1</m> is not a solution to the inequality <m>(x-2)(x-5) &lt; 0</m>.
     </p>
 
-    <example>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
+    <p>
+      Instead, when we have a polynomial inequality (where the degree of the polynomial is two or greater), we can use the method of building a table of signs to determine the solution set.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Solve the equation <m>(x-2)(x-5) = 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Solve the inequality <m>(x-2)(x-5) &lt; 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Solve the inequality <m>(x-2)(x-5) &gt; 0</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <solution>
+          <ol>
+            <li>
+              <p>
+                Applying the Zero Product Property to the equation, <m>x-2=0</m> or <m>x-5=0</m>. So <m>x=2</m> or <m>x=5</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                We build a table of signs, noting that having cuts at <m>2,5</m> generates three pieces: <m>(-\infty,2)</m>, <m>(2,5)</m>, and <m>(5,\infty)</m>.
+                <table>
+                  <tabular>
+                    <row header="yes">
+                      <cell>Factor</cell>
+                      <cell><m>(-\infty,2)</m></cell>
+                      <cell><m>(2,5)</m></cell>
+                      <cell><m>(5,\infty)</m></cell>
+                    </row>
+                    <row>
+                      <cell header="yes"><m>(x-2)</m></cell>
+                      <cell><m>-</m></cell>
+                      <cell><m>+</m></cell>
+                      <cell><m>+</m></cell>
+                    </row>
+                    <row>
+                      <cell header="yes"><m>(x-5)</m></cell>
+                      <cell><m>-</m></cell>
+                      <cell><m>-</m></cell>
+                      <cell><m>+</m></cell>
+                    </row>
+                    <row>
+                      <cell header="yes"><m>(x-2)(x-5)</m></cell>
+                      <cell><m>+</m></cell>
+                      <cell><m>-</m></cell>
+                      <cell><m>+</m></cell>
+                    </row>
+                  </tabular>
+                </table>      
+                The bottom row of the table tells us that the polynomial function is negative for values of <m>x</m> in the interval <m>(2,5)</m>, so this is the solution set to the inequality.
+              </p>
+            </li>
+            <li>
+              <p>
+                Using the same table, the bottom row of the table tells us that the polynomial function is positive for values of <m>x</m> in the intervals <m>(-\infty,2)</m> and <m>(5,\infty)</m>.
+                So our solution set is <m>(-\infty,2) \cup (5,\infty)</m>.
+              </p>
+            </li>
+          </ol>
+        </solution>
+      </example>
+      What we see from this example is that even if we don't get specifically asked to solve the polynomial equation, we should do so just to see where the cuts are on the real number line, and then we can build a table of signs to determine the solution set to the polynomial inequality.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Solve the inequality <m>(x-2)(x-4)(x-7) &lt; 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Solve the inequality <m>(x-2)(x-4)(x-7) &gt; 0</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Before breaking into the two parts of the question, in <xref ref="graphx-2x-4x-7" /> we solved the equation <m>(x-2)(x-4)(x-7) = 0</m> and built the following table of signs:
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell>Factor</cell>
+                  <cell><m>(-\infty,2)</m></cell>
+                  <cell><m>(2,4)</m></cell>
+                  <cell><m>(4,7)</m></cell>
+                  <cell><m>(7,\infty)</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-2)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-4)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-7)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes">(x-2)(x-4)(x-7)</cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+              </tabular>
+            </table>      
+            <ol>
+              <li>
+                <p>
+                  The bottom row of the table tells us that the polynomial function is negative for values of <m>x</m> in the intervals <m>(-\infty,2)</m> and <m>(4,7)</m>.
+                  For <m>(x-2)(x-4)(x-7) &lt; 0</m>, the set of solutions is <m>(-\infty,2) \cup (4,7)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The bottom row of the table tells us that the polynomial function is positive for values of <m>x</m> in the intervals <m>(2,4)</m> and <m>(7,\infty)</m>.
+                  For <m>(x-2)(x-4)(x-7) &gt; 0</m>, the set of solutions is <m>(2,4) \cup (7,\infty)</m>.
+                </p>
+              </li>
+            </ol>            
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  Solve the inequality <m>(x+2)^3(x-4)^8(x-7) &lt; 0</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Solve the inequality <m>(x+2)^3(x-4)^8(x-7) &gt; 0</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In <xref ref="graphx-2cubex-4octx-7" /> we solved the equation <m>(x+2)^3(x-4)^8(x-7) = 0</m> and built the following table of signs:
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell>Factor</cell>
+                  <cell><m>(-\infty,-2)</m></cell>
+                  <cell><m>(-2,4)</m></cell>
+                  <cell><m>(4,7)</m></cell>
+                  <cell><m>(7,\infty)</m></cell>
+                </row>
+                <row>
+                  <cell header="yes"><m>(x+2)^3</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes"><m>(x-4)^8</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes"><m>(x-7)</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+                <row>
+                  <cell header="yes"><m>f(x)</m></cell>
+                  <cell><m>+</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>-</m></cell>
+                  <cell><m>+</m></cell>
+                </row>
+              </tabular>
+            </table>
+            We use the table's bottom row to quickly answer the two parts of the question:
+            <ol>
+              <li>
+                <p>
+                  The bottom row of the table tells us that the polynomial function is negative for values of <m>x</m> in the intervals <m>(-2,4)</m> and <m>(4,7)</m>.
+                  For <m>(x+2)^3(x-4)^8(x-7) &lt; 0</m>, the set of solutions is <m>(-2,4) \cup (4,7)</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The bottom row of the table tells us that the polynomial function is positive for values of <m>x</m> in the intervals <m>(-\infty,-2)</m> and <m>(7,\infty)</m>.
+                  For <m>(x+2)^3(x-4)^8(x-7) &gt; 0</m>, the set of solutions is <m>(-\infty,-2) \cup (7,\infty)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      As a final note, this process of solving polynomial inequalities is only for when the degree of the polynomial is two or greater.
+      (When the degree is two or greater, we first solve the associated polynomial equation to find the roots, and then we build a table of signs to determine the solution set to the polynomial inequality.)
+      When the degree of the polynomial is one, we can solve the polynomial inequality without having to work as much.
+      We have an earlier technique when the degree is one:
+      <example>
+        <statement>
+          <p>
+            Solve the inequality <m>3x - 5 &lt; 0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can solve this inequality by adding <m>5</m> to both sides, and then dividing both sides by <m>3</m> to get <m>x &lt; \frac{5}{3}</m>.
+            So the solution set is <m>(-\infty,\frac{5}{3})</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
 
   </subsection>
 
@@ -434,68 +1255,36 @@
       <ol>
         <li>
           <p>
-            Summary point.
+            A polynomial function is a function that can be written in the form <m>f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0</m>, where the coefficients <m>a_n, a_{n-1}, \ldots, a_1, a_0</m> are constants and <m>n</m> is a non-negative integer, or in the form <m>f(x) = k(x - r_1)(x - r_2)\cdots(x - r_n)</m>, where <m>k</m> is a constant and <m>r_1, r_2, \ldots, r_n</m> are the roots of the polynomial.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            The number of times a root appears in the factorization of a polynomial is called the multiplicity of that root.
           </p>
         </li>
         <li>
           <p>
-            Summary point.
+            The roots of a polynomial function are the <em>only</em> values of <m>x</m> which correspond to <m>x</m>-intercepts of the graph.
+          </p>
+        </li>
+        <li>
+          <p>
+            The graph of a polynomial function with a root of odd multiplicity will cross over the <m>x</m>-axis at that root, while the graph of a polynomial function with a root of even multiplicity will touch the <m>x</m>-axis at that root and turn around in the form of a bounce.
+          </p>
+        </li>
+        <li>
+          <p>
+            To graph a polynomial function, we identify the roots and their multiplicities, use the roots and their multiplicities to determine the <m>x</m>-intercepts of the graph of the polynomial function and whether the graph crosses or bounces at each root, pick a test point in each piece generated by the cuts introduced by the roots, determine the sign of the polynomial function at that test point by determining the sign of each factor, and sketch a graph of the polynomial function using all this information.
+          </p>
+        </li>
+        <li>
+          <p>
+            To solve a polynomial inequality, we first solve the associated polynomial equation to find the roots, and then we build a table of signs to determine the solution set to the polynomial inequality.
           </p>
         </li>
       </ol>
     
-    </p>
-  </subsection>
-
-  <subsection>
-		<title>Exercises</title>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-    <p>
-      <ol>
-
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
-      </ol>
     </p>
   </subsection>
 
