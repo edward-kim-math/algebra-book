@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-graph-transformations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graph Transformations</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Apply graph vertical transformations.</p></li>
+			<li><p>Apply graph horzontal transformations.</p></li>
+			<li><p>Apply graph horizontal and vertical transformations to a function given by its graph.</p></li>
+			<li><p>Apply graph horzontal transformations to standard functions (such as the absolute value function and the square root function.).</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>Vertical graph transformations</title>
+
+    <p>
+      Suppose that we have a function <m>y=f(x)</m> that is introduced to us by seeing its graph.
+      Based on the graph we are given, how can we see the graph of <m>y = f(x) + 3</m>?
+      Because the notation of <m>y=f(x)</m> and <m>y=f(x)+3</m> are so similar, the graphs should be similar.
+      Similarly, becase the notation of <m>y=f(x)</m> and <m>y=3\,f(x)</m> are so similar, the graphs should be similar.
+    </p>
+
+    <p>
+      We study the case of <m>y=f(x)</m> versus <m>y=f(x)+3</m> but by looking a table of values first instead of a graph.
+      <example>
+        <statement>
+          <p>
+            Given the following table for <m>y=f(x)</m>, find a table for <m>y=f(x)+3</m>.
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)</m></cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>8</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>4</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>9</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>7</cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>-10</cell>
+                </row>
+              </tabular>
+            </table>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The first row of the table tells us that <m>f(1)=8</m>. Equivalently, the point <m>(1,8)</m> is on the graph of <m>y=f(x)</m>.
+            Let's take this information to analyze what happens in the graph of <m>y=f(x)+3</m>.
+            Start with <m>y=f(x)+3</m> and substitute <m>x=1</m>. 
+            Then we have <m>y=f(1)+3</m> but the first term <m>f(1)</m> can be replaced with <m>8</m> based on our earlier equation, so <m>y=f(1)+3=8+3=11</m>.
+            This means that the point <m>(1,11)</m> is on the graph of <m>y=f(x)+3</m>.
+          </p>
+          <p>
+            We repeat this process (a little faster) based on the next rows.
+            From the table, <m>f(2)=4</m> and we have the point <m>(2,4)</m>.
+            For <m>y=f(x)+3</m>, we have <m>y=f(2)+3=4+3=7</m> and the point <m>(2,7)</m>.
+          </p>
+          <p>
+            From <m>f(3)=9</m> we have the point <m>(3,9)</m>. So, for <m>y=f(x)+3</m>, we have <m>y=f(3)+3=9+3=12</m> and the point <m>(3,12)</m>.
+          </p>
+          <p>
+            From <m>f(4)=7</m> we have the point <m>(4,7)</m>. So, for <m>y=f(x)+3</m>, we have <m>y=f(4)+3=7+3=10</m> and the point <m>(4,10)</m>.
+          </p>
+          <p>
+            From <m>f(5)=-10</m> we have the point <m>(5,-10)</m>. So, for <m>y=f(x)+3</m>, we have <m>y=f(5)+3=-10+3=-7</m> and the point <m>(5,-7)</m>.
+          </p>
+          <p>
+            So, a table for <m>y=f(x)+3</m> is:
+            <table>
+              <tabular>
+                <row header="yes">
+                  <cell><m>x</m></cell>
+                  <cell><m>f(x)+3</m></cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>11</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>7</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>12</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>10</cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>-7</cell>
+                </row>
+              </tabular>
+            </table>
+          </p>
+        </answer>
+      </example>
+      We see from this example the following connection between the graph of <m>y=f(x)</m> and the graph of <m>y=f(x)+3</m>:
+      if the point <m>(a,b)</m> is on the graph of <m>y=f(x)</m>, then the point <m>(a,b+3)</m> is on the graph of <m>y=f(x)+3</m>.
+      Note that we only added <m>3</m> to the <m>y</m>-coordinate, not the <m>x</m>-coordinate:
+      geometrically, that means in the new graph, a point is drawn <m>3</m> units higher.
+      We can generalize this:
+      <principle xml:id="principle-transform-up">
+        <title>Vertical shift up</title>
+        <statement>
+          <p>
+            In comparing the "old" graph <m>y=f(x)</m> to the "new" graph <m>y=f(x)+k</m>,
+            if the point <m>(a,b)</m> is on the graph of <m>y=f(x)</m>, then the point <m>(a,b+k)</m> is on the graph of <m>y=f(x)+k</m>.
+          </p>
+          <p>
+            In other words, the graph of <m>y=f(x)+k</m> is obtained by shifting the graph of <m>y=f(x)</m> up <m>k</m> units.
+          </p>
+        </statement>
+      </principle>
+      When we apply this movement of vertically shifting up (which is one of several graph transformations that we'll see), the axes do not move, but the graph of <m>y=f(x)</m> shifts up (relative to thè axes) by <m>k</m> units to obtain the graph of <m>y=f(x)+k</m>.
+    </p>
+
+    <p>
+      Let's exercise what <xref ref="principle-transform-up"/> says by looking at several different kinds of examples.
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            If <m>(31,20)</m> is a point on the graph of <m>y=f(x)</m>, find a point on the graph of <m>y=f(x)+7</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The point <m>(31,27)</m> is on the graph of <m>y=f(x)+7</m>.
+          </p>
+        </answer>
+      </example>
+      Note that we only added <m>7</m> to the <m>y</m>-coordinate, and not to the <m>x</m>-coordinate.
+      Geometrically, this means that the point is drawn <m>7</m> units higher in the new graph.
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            If <m>(83,25)</m> and <m>(100,30)</m> and <m>(120,7)</m> are points on the graph of <m>y=f(x)</m>, find three points on the graph of <m>y=f(x)+2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The points <m>(83,27)</m> and <m>(100,32)</m> and <m>(120,9)</m>are on the graph of <m>y=f(x)+2</m>.
+          </p>
+        </answer>
+      </example>
+      Note that we were given three points in the old graph, and each point led us to a point in the new graph.
+      It may be the case that the graph of <m>y=f(x)</m> has more points, but we weren't given any additional information, so we could only report on three points of <m>y=f(x)+2</m>.
+    </p>
+
+    <p>
+      The last example intentionally asked about what happens to three points. We can apply that same process (involving multiple points, each moving up by the same amount) directly from a graph, as in: directly from the picture.
+      <example>
+        <statement>
+          <p>
+            Given the graph of <m>y=f(x)</m> below, sketch the graph of <m>y=f(x)+2</m>.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[ultra thick, blue] (-6,2) -- (0,1) -- (2,3) -- (4,-1) -- (6,4);
+                      \draw[blue, ultra thick, fill=blue] (-6,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,4) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)</m></caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            To sketch the graph of <m>y=f(x)+2</m>, take each point on the graph of <m>y=f(x)</m> and move it up by 2 units. 
+            The overall shape of the graph remains the same, but every point is shifted vertically upward by 2 units.
+          </p>
+          <p>
+            In the graph of <m>y=f(x)</m>, we have the points <m>(-6,2)</m> and <m>(0,1)</m> and <m>(2,3)</m> and <m>(4,-1)</m> and <m>(6,4)</m>.
+            Note that even though <m>(0,1)</m> and <m>(2,3)</m> and <m>(4,-1)</m> are not drawn in thick, these are points in the graph.
+            In addition, we have all the points in between <m>(-6,2)</m> and <m>(0,1)</m>, though these are not drawn in thick.            
+          </p>
+          <p>
+            Because <m>(-6,2)</m> is on the graph of <m>y=f(x)</m>, we know that <m>(-6,4)</m> is on the graph of <m>y=f(x)+2</m>.
+            Because <m>(0,1)</m> is on the graph of <m>y=f(x)</m>, we know that <m>(0,3)</m> is on the graph of <m>y=f(x)+2</m>.
+            We can keep going in this way, and we find that the points <m>(2,5)</m> and <m>(4,1)</m> and <m>(6,6)</m> are on the graph of <m>y=f(x)+2</m>.
+          </p>
+          <p>
+            To draw a graph of <m>y=f(x)+2</m>, we can start by plotting the points <m>(-6,4)</m> and <m>(0,3)</m> and <m>(2,5)</m> and <m>(4,1)</m> and <m>(6,6)</m>, 
+            and then connect them in a "connect the dots" style. So, the graph of <m>y=f(x)+2</m> is:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[ultra thick, blue] (-6,4) -- (0,3) -- (2,5) -- (4,1) -- (6,6);
+                      \draw[blue, ultra thick, fill=blue] (-6,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,4) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)+2</m></caption>
+            </figure>
+            Notice that the graph of <m>y=f(x)+2</m> is the same shape as the graph of <m>y=f(x)</m>, but it is shifted up by 2 units.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given the graph of <m>y=f(x)</m> below, sketch the graph of <m>y=f(x)+1</m>.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[ultra thick, blue] (-6,-3) -- (-5,-4) -- (-3,1) -- (1,-1) -- (4,0) -- (6,4);
+                      \draw[blue, ultra thick, fill=blue] (-6,-3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,4) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)</m></caption>
+            </figure>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>y=f(x)</m> connects the points <m>(-6,-3)</m> and <m>(-5,-4)</m> and <m>(-3,1)</m> and <m>(1,-1)</m> and <m>(4,0)</m> and <m>(6,4)</m>.
+            To sketch the graph of <m>y=f(x)+1</m>, we take each of these points and move them up by 1 unit.
+            So the graph of <m>y=f(x)+1</m> connects the points <m>(-6,-2)</m> and <m>(-5,-3)</m> and <m>(-3,2)</m> and <m>(1,0)</m> and <m>(4,1)</m> and <m>(6,5)</m>.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[ultra thick, blue] (-6,-2) -- (-5,-3) -- (-3,2) -- (1,0) -- (4,1) -- (6,5);
+                      \draw[blue, ultra thick, fill=blue] (-6,-2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,5) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)+1</m></caption>
+            </figure>
+            The graph of <m>y=f(x)+1</m> is the same shape as the graph of <m>y=f(x)</m>, but it is shifted up by 1 unit.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    
+    <!-- Try it -->
+    <exercise>
+      <statement>
+        <p>
+          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
+        </p>
+      </statement>
+      <response />
+    </exercise>
+
+		<definition>
+			<title>Argument</title>
+			<idx><h>argument</h></idx>
+			<idx><h>premise</h></idx>
+			<idx><h>conclusion</h></idx>
+			<idx><h>valid</h></idx>
+			<idx><h>sound</h></idx>
+			<idx><h>proof</h></idx>
+			<statement>
+				<p>
+					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
+					<idx><h>premises</h></idx>
+				</p>
+
+				<p>
+					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
+					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
+				</p>
+
+				<p>
+					An argument is <term>sound</term> provided it is valid and all the premises are true.
+					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
+				</p>
+			</statement>
+		</definition>
+
+		<aside>
+		<p>
+			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
+		</p>
+		</aside>
+
+		<example>
+			<idx><h>cookie</h></idx>
+			<statement>
+				<p>
+					Consider the following two arguments:
+				</p>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Edith eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Edith gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<tabular>
+					<row>
+					<cell/>
+					<cell>Florence must eat her vegetables to get a cookie.</cell>
+					</row>
+					<row bottom="minor">
+					<cell/>
+					<cell>Florence eats her vegetables.</cell>
+					</row>
+					<row>
+					<cell><m>\therefore</m></cell>
+					<cell>Florence gets a cookie.</cell>
+					</row>
+				</tabular>
+
+				<p>
+					(The symbol <q><m>\therefore</m></q>
+					<notation>
+					<usage><m>\therefore</m></usage>
+					<description><q>therefore</q></description>
+					</notation>
+					means <q>therefore</q>)
+				</p>
+
+				<p>
+					Are these arguments valid?
+				</p>
+			</statement>
+
+			<solution>
+				<p>
+					Do you agree that the first argument is valid but the second argument is not?
+					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
+				</p>
+
+				<p>
+					Notice the two arguments look almost identical.
+					Edith and Florence both eat their vegetables.
+					In both cases, there is a connection between the eating of vegetables and cookies.
+					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
+					The difference must be in the connection between eating vegetables and getting cookies.
+					We need to be skilled at reading and comprehending these sentences.
+					Do the two sentences mean the same thing?
+				</p>
+
+				<p>
+					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
+					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
+					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
+					In mathematics, we never get that luxury.
+				</p>
+			</solution>
+		</example>
+
+		<remark>
+			<p>
+				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
+				And even if you don't want to give your grandmother a cookie.
+				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
+				You better have a good argument that it is!
+			</p>
+		</remark>
+
+
+
+  </subsection>
+
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Text
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Answer
+        </p>
+      </solution>
+    </example>
+
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>
