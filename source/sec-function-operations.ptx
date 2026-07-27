@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-function-operations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Function operations</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Add, subtract, multiply, and divide functions.</p></li>
+			<li><p>Find the composition of two functions.</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>Adding, Subtracting, Multiplying, and Dividing Functions</title>
+
+    <p>
+      Given two functions <m>f</m> and <m>g</m>, we can perform the addition operation to get a new function called <m>f+g</m>. We also get new functions <m>f-g</m>, <m>fg</m>, and <m>\frac{f}{g}</m> by performing the subtraction, multiplication, and division operations, respectively. The domain of each of these new functions is the intersection of the domains of <m>f</m> and <m>g</m>, except for the division operation, where we must also exclude any values of <m>x</m> that make <m>g(x)=0</m>.
+    </p>
+    <p>
+      <principle>
+        <title>Addition of Functions</title>
+        <p>
+          <m>(f+g)(x) = f(x) + g(x)</m>
+        </p>
+      </principle>
+    </p>
+    <p>
+      <principle>
+        <title>Subtraction of Functions</title>
+        <p>
+          <m>(f-g)(x) = f(x) - g(x)</m>
+        </p>
+      </principle>
+    </p>
+    <p>
+      <principle>
+        <title>Multiplication of Functions</title>
+        <p>
+          <m>(f \cdot g)(x) = f(x) \cdot g(x)</m>
+        </p>
+      </principle>
+    </p>
+    <p>
+      <principle>
+        <title>Division of Functions</title>
+        <p>
+          <m>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)}</m>
+        </p>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given <m>f(x) = 2x + 3</m> and <m>g(x) = x^2 - 1</m>, find <m>(f+g)(x)</m>, <m>(f-g)(x)</m>, <m>(fg)(x)</m>, and <m>\left(\frac{f}{g}\right)(x)</m>.       
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>(f+g)(x) = f(x) + g(x) = (2x + 3) + (x^2 - 1) = x^2 + 2x + 2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f-g)(x) = f(x) - g(x) = (2x + 3) - (x^2 - 1) = -x^2 + 2x + 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(fg)(x) = f(x) \cdot g(x) = (2x + 3)(x^2 - 1) = 2x^3 + 3x^2 - 2x - 3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)} = \frac{2x + 3}{x^2 - 1}</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      We can take the resulting new functions and evaluate them at specific values of <m>x</m> to find the corresponding output values.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given <m>f(x) = 2x + 3</m> and <m>g(x) = x^2 - 1</m>, evaluate <m>(f+g)(2)</m>, <m>(f-g)(2)</m>, <m>(fg)(2)</m>, and <m>\left(\frac{f}{g}\right)(2)</m> 
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>(f+g)(2) = f(2) + g(2) = (2(2) + 3) + (2^2 - 1) = (4 + 3) + (4 - 1) = 7 + 3 = 10</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f-g)(2) = f(2) - g(2) = (2(2) + 3) - (2^2 - 1) = (4 + 3) - (4 - 1) = 7 - 3 = 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(fg)(2) = f(2) \cdot g(2) = (2(2) + 3)(2^2 - 1) = (4 + 3)(4 - 1) = 7 \cdot 3 = 21</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left(\frac{f}{g}\right)(2) = \frac{f(2)}{g(2)} = \frac{2(2) + 3}{2^2 - 1} = \frac{4 + 3}{4 - 1} = \frac{7}{3}</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+    <p>
+      Evaluating the functions that result from performing function operations can also be done with graphs:
+      <example>
+        <statement>
+          <p>
+            Given the graph of <m>f(x)</m> below      
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[blue, ultra thick, fill=blue] (-6,-2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-5,-4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-4,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-3,6) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,-5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (4,0) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (5,1) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,-5) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)</m></caption>
+            </figure>
+            and the graph of <m>g(x)</m> below
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[blue, ultra thick, fill=blue] (-6,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-5,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-4,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,0) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,1) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,-5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (4,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (5,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,-3) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=g(x)</m></caption>
+            </figure>
+            find the following:
+            <ul>
+              <li>
+                <p>
+                  <m>(f+g)(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f-g)(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f+g)(-2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(fg)(6)</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>(f+g)(2) = f(2) + g(2) = 5 + (-5) = 0</m>
+                </p>
+                <p>
+                  Note that we turned <m>f(2)</m> into <m>5</m> because <m>(2,5)</m> is on the graph of <m>f</m>.
+                  Similarly, we turned <m>g(2)</m> into <m>-5</m> because <m>(2,-5)</m> is on the graph of <m>g</m>.                  
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f-g)(2) = f(2) - g(2) = 5 - (-5) = 10</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f+g)(-2) = f(-2) + g(-2) = 0 + 0 = 0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(fg)(6) = f(6) * g(6) = (-3) \cdot 4 = -12</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+
+
+    <p>
+      It is also possible to "mix" things, by having one function given by a formula, and another by a graph.
+      <example>
+        <statement>
+          <p>
+            Given <m>f(x) = x^3 + 10x^2 + 3</m> and the graph of <m>g(x)</m> below
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[blue, ultra thick, fill=blue] (-6,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-5,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-4,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,0) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,1) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,-5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (4,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (5,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,-3) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=g(x)</m></caption>            
+            </figure>
+            find <m>(f+g)(2)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>(f+g)(2) = f(2) + g(2) = (2^3 + 10(2^2) + 3) + (-5) = (8 + 40 + 3) + (-5) = 51 - 5 = 46</m>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+  </subsection>
+
+  <subsection>
+    <title>Composition</title>
+
+    <p>
+      Given two functions <m>f</m> and <m>g</m>, we can perform the composition operation to get a new function called <m>f \circ g</m>.
+      The composition of functions is defined as follows:
+      <principle>
+        <title>Composition of Functions</title>
+        <p>
+          <m>(f \circ g)(x) = f(g(x))</m>
+        </p>
+      </principle>
+      We can also define the composition of functions in the reverse order, <m>g \circ f</m>, which technically follows from the above, but it is helpful to see it written out explicitly:
+      <principle>
+        <title>Composition of Functions</title>
+        <p>
+          <m>(g \circ f)(x) = g(f(x))</m>
+        </p>
+      </principle>
+      Regarding both above, the thing to note is that when scanning the letters in order from left to right on both sides, we encounter the same letters in the same order.
+    </p>
+    <p>
+      Before looking at examples, we note that the composition symbol is a small circle, but larger than the symbol for multiplication of two functions. That is:
+      <ul>
+        <li>
+          <p>
+            <m>(f \circ g)(x)</m> is composition, and becomes <m>f(g(x))</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>(f \cdot g)(x)</m> is multiplication, and becomes <m>f(x) \cdot g(x)</m>
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = 2x + 3</m> and <m>g(x) = x^2 - 1</m>, find <m>(f \circ g)(x)</m> and <m>(g \circ f)(x)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>(f \circ g)(x) = f(g(x)) = f(x^2 - 1) = 2(x^2 - 1) + 3 = 2x^2 - 2 + 3 = 2x^2 + 1</m>
+              </p>
+              <p>
+                Turning the first expression <m>(f \circ g)(x)</m> into the second expression <m>f(g(x))</m> is applying what composition means.
+                Turning the second expression <m>f(g(x))</m> into the third expression <m>f(x^2 - 1)</m> is substituting <m>g(x)</m> with <m>x^2-1</m> which was given to us.
+              </p>
+              <p>
+                Turning <m>f(x^2-1)</m> into <m>2(x^2 - 1) + 3</m> is an example of <xref ref="principle-evaluating-function" />.
+                To be specific, we take <m>f(x)=2x+3</m> and replace every <m>x</m> in that writing <m>x^2-1</m>, which tells us:
+                <me>f(x^2-1) = 2(x^2-1) + 3</me>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 - 1 = 4x^2 + 12x + 9 - 1 = 4x^2 + 12x + 8</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>
+
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = 2x + 3</m> and <m>g(x) = x^2 - 1</m>, evaluate <m>(f \circ g)(2)</m> and <m>(g \circ f)(2)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>(f \circ g)(2) = f(g(2)) = f(2^2 - 1) = f(4 - 1) = f(3) = 2(3) + 3 = 6 + 3 = 9</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(g \circ f)(2) = g(f(2)) = g(2(2) + 3) = g(4 + 3) = g(7) = (7)^2 - 1 = 49 - 1 = 48</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Given <m>f(x) = \dfrac{2x + 3}{4x-6}</m> and <m>g(x) = x^2 + 10x</m>, find <m>(f \circ g)(x)</m> and <m>(g \circ f)(x)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ul>
+            <li>
+              <p>
+                <m>(f \circ g)(x) = f(g(x)) = f(x^2 + 10x) = \frac{2(x^2 + 10x) + 3}{4(x^2 + 10x) - 6} = \frac{2x^2 + 20x + 3}{4x^2 + 40x - 6}</m>
+              </p>
+            </li>
+            <li>
+              <p>
+                <m>(g \circ f)(x) = g(f(x)) = g\left(\frac{2x + 3}{4x-6}\right) = \left(\frac{2x + 3}{4x-6}\right)^2 + 10\left(\frac{2x + 3}{4x-6}\right)</m>
+              </p>
+            </li>
+          </ul>
+        </p>
+      </answer>
+    </example>
+
+    <p>
+      Function composition can also be done with graphs:
+      <example>
+        <statement>
+          <p>
+            Given the graph of <m>f(x)</m> below      
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[blue, ultra thick, fill=blue] (-6,-2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-5,-4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-4,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-3,6) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,-5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (4,0) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (5,1) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,-5) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=f(x)</m></caption>
+            </figure>
+            and the graph of <m>g(x)</m> below
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[blue, ultra thick, fill=blue] (-6,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-5,3) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-4,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (-2,0) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (0,1) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (1,5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (2,-5) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (3,2) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (4,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (5,4) circle [radius=0.1];
+                      \draw[blue, ultra thick, fill=blue] (6,-3) circle [radius=0.1];
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=g(x)</m></caption>
+            </figure>
+            find the following:
+            <ul>
+              <li>
+                <p>
+                  <m>(f \circ g)(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(g \circ f)(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f \circ g)(-2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f \circ g)(6)</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>(f \circ g)(2) = f(g(2)) = f(-5) = -4</m>
+                </p>
+                <p>
+                  Not that going from the second expression <m>f(g(2))</m> to the third expression <m>f(-5)</m>, 
+                  we replaced <m>g(2)</m> with <m>-5</m> because <m>g(2)=-5</m>, 
+                  which is because <m>(2,-5)</m> is on the graph of <m>g</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(g \circ f)(2) = g(f(2)) = g(5) = 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f \circ g)(-2) = f(g(-2)) = f(0) = 2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(f \circ g)(6) = f(g(6)) = f(-3) = 6</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+
+  
+</section>

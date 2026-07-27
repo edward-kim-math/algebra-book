@@ -66,18 +66,37 @@
       </p>
     </principle>
 
-    <example>
-      <statement>
-        <p>
-          Statement text       
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Solution text
-        </p>
-      </solution>
-    </example>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Statement text       
+          </p>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+    <p>
+      <example>
+        <statement>
+          <p>
+            Statement text       
+          </p>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+
 
     <!-- Try it -->
     <exercise>

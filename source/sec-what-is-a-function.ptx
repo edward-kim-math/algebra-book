@@ -467,7 +467,7 @@
           </p>
         </statement>
       </warning>
-      As an exmple, writing <m>f(x) = 3(10)^2+5(10)</m> has the correct right side, but the left side is incorrect because it still has an <m>x</m>: even the <m>x</m> appearing to the left of the equal sign must be replaced with <m>10</m>.
+      As an example, writing <m>f(x) = 3(10)^2+5(10)</m> has the correct right side, but the left side is incorrect because it still has an <m>x</m>: even the <m>x</m> appearing to the left of the equal sign must be replaced with <m>10</m>.
 
       <example xml:id="f-of-a">
         <statement>
