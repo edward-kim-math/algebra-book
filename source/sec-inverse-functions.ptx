@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-inverse-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inverse Functions</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Determine if a function is one-to-one.</p></li>
+			<li><p>Find the inverse of a one-to-one function.</p></li>
+			<li><p>Verify that two functions are inverses of each other.</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>One-to-one functions</title>
+
+    <p>
+      Recall that a function is a rule that assigns to each input exactly one output.
+      Because a function is a rule, it is not possible for an input to have multiple outputs.
+      Saying this same information about the graph of a function, it is not possible for the graph of a function to have two points with the same <m>x</m>-coordinate but different <m>y</m>-coordinates.
+      We previously recorded the information that the graph of every function passes the <term>Vertical Line Test</term> in <xref ref="principle-vlt"/>: 
+      every vertical line intersects the graph of a function in at most one point.
+    </p>
+    <p>
+      For example, because <m>f(x) = 2x</m> is a function, the graph of <m>f</m> which has equation <m>y=2x</m> passes the Vertical Line Test.
+      Similarly, because <m>g(x) = x^2</m> is a function, the graph of <m>g</m> which has equation <m>y=x^2</m> passes the Vertical Line Test.
+      However, the equation <m>x^2+y^2=9</m> is not the graph of a function. The equation <m>x^2+y^2=9</m> describes a circle with radius <m>3</m> centered at the origin, and the graph of this equation fails the Vertical Line Test.
+    </p>
+
+    <p>
+      In this section, we focus on specific kinds of functions.
+      Please keep in mind that what we have are functions in the first place.
+      That is, we have a rule and by rule, we mean that each input has exactly one output.
+      Said geometrically, the Vertical Line Test must pass.
+    </p>
+    <p>
+      Under this restriction (we have a rule, or geometrically, the Vertical Line Test passes), we now consider a further restriction.
+      We say that a function is <term>one-to-one</term> if <m>f(a)=f(b)</m> implies <m>a=b</m>.
+      In other words, <m>a \not= b</m> implies <m>f(a) \not= f(b)</m>.
+      Said differently, we say that a function is <term>one-to-one</term> if each output is the result of exactly one input.
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Determine if the function <m>f(x) = 2x</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Suppose we are in the situation that <m>f(a)=f(b)</m>. So <m>2a=2b</m>. Dividing both sides by <m>2</m>, we have <m>a=b</m>. 
+          </p>
+          <p>
+            We started with <m>f(a)=f(b)</m> and showed that this implies <m>a=b</m>. Therefore, <m>f(x) = 2x</m> is a one-to-one function.
+          </p>
+        </answer>
+      </example>
+      What this means is that <m>f(x)=2x</m> has the property that each output is the result of exactly one input.
+      That is, two different inputs don't share the same output for this function.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Determine if the function <m>g(x) = x^2</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(3)=9</m> and <m>g(-3)=9</m>. So <m>g(3)=g(-3)</m> but <m>3 \not= -3</m>. So <m>g(x)</m> is not a one-to-one function.
+          </p>
+        </answer>
+        <answer>
+          <p>
+            <m>g(4)=16</m> and <m>g(-4)=16</m>. So <m>g(4)=g(-4)</m> but <m>4 \not= -4</m>. So <m>g(x)</m> is not a one-to-one function.
+          </p>
+        </answer>
+      </example>
+      This function has many examples (we have just shown in twice) where two different inputs lead to the same output. Note that <m>g(x)</m> is a <em>function</em>, but <m>g(x)</m> is not a <em>one-to-one</em> function.
+      (In other words, <m>g(x)</m> is a function, but <m>g(x)</m> isn't the special kind of function that's called a one-to-one function.)
+    </p>
+
+    <p>
+      While we have already discussed that the Vertical Line Test must pass for the graph of <em>every function</em> (and note that the Vertical Line Test passes for both <m>y=2x</m> and <m>y=x^2</m>),
+      notice that <m>y=2x</m> passes the Horizontal Line Test, but <m>y=x^2</m> does not.
+      We introduce a geometric test for one-to-one functions:
+      <principle>
+        <title>Horizontal Line Test</title>
+        <p>
+          Suppose <m>f(x)</m> is a function (so its graph must pass the Vertical Line Test must pass).
+          THen the function <m>f(x)</m> is one-to-one if and only if the graph of <m>f</m> passes the <term>Horizontal Line Test</term>: every horizontal line intersects the graph of <m>f</m> in at most one point.
+        </p>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Use a graphing utility to graph <m>f(x) = x^3</m> and determine if <m>f(x)</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f(x) = x^3</m> passes the Horizontal Line Test, so <m>f(x)</m> is a one-to-one function.
+          </p> 
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Use a graphing utility to graph <m>f(x) = x^3-x</m> and determine if <m>f(x)</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f(x) = x^3-x</m> fails the Horizontal Line Test, so <m>f(x)</m> is not a one-to-one function.
+          </p> 
+        </answer>
+      </example>
+      Note that <m>f(x)=x^3-x</m> is still a function, but it is not a one-to-one function.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Use a graphing utility to graph <m>f(x) = \frac{1}{x}</m> and determine if <m>f(x)</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f(x) = \frac{1}{x}</m> passes the Horizontal Line Test, so <m>f(x)</m> is a one-to-one function.
+          </p> 
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Use a graphing utility to graph <m>f(x) = \sqrt{x}</m> and determine if <m>f(x)</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f(x) = \sqrt{x}</m> passes the Horizontal Line Test, so <m>f(x)</m> is a one-to-one function.
+          </p> 
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example xml:id="exponential-one-to-one">
+        <statement>
+          <p>
+            Use a graphing utility to graph <m>f(x) = 2^x</m> and determine if <m>f(x)</m> is one-to-one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f(x) = 2^x</m> passes the Horizontal Line Test, so <m>f(x)</m> is a one-to-one function.
+          </p> 
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Inverse functions</title>
+
+    <p>
+      The reason we look at one-to-one functions is that these functions have an inverse.
+      <principle xml:id="principle-every-one-to-one-has-inverse">
+        <statement>
+          <p>
+            Every one-to-one function <m>f(x)</m> has an inverse function <m>f^{-1}(x)</m>.
+          </p>
+        </statement>
+      </principle>
+      It is tempting to write <m>f^{-1}(x)</m> while saying or thinking <q><m>f</m> negative one <m>x</m></q>.
+      However, we should either say <q><m>f</m> inverse of <m>x</m></q> or <q>inverse <m>f</m> of <m>x</m></q>.
+    </p>
+    <p>
+      <warning>
+        <p>
+          Given a one-to-one function <m>f(x)</m>, its inverse is written <m>f^{-1}(x)</m> and not <m>f(x)^{-1}</m>.
+        </p>
+      </warning>
+    </p>
+
+    <p>
+      Informally, an inverse function is a function that "undoes" the original function.
+      In order to "undo" the action of a function, we have to "go backwards", so we have to switch the role of input and output, meaning we need to switch the role of <m>x</m> and <m>y</m>.
+      This leads to an overarching technique for finding the inverse of a one-to-one function.
+      <principle xml:id="principle-finding-inverse">
+        <title>Finding the inverse of a one-to-one function: general version</title>
+        <statement>
+          <p>
+            To find the inverse of a one-to-one function, switch <m>x</m> and <m>y</m>.
+            (Additional work may need to be done that is specific to whether the function was introduced as a formula, a table, or a graph.)
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      The way that this principle plays out for a function given by formula is as follows:
+      <principle xml:id="principle-finding-inverse-formula">
+        <title>Finding the inverse of a one-to-one function: formula version</title>
+        <statement>
+          <p>
+            To find the inverse of a one-to-one function given by a formula:
+            <ol>
+              <li>
+                <p>
+                  Replace <m>f(x)</m> with <m>y</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Switch <m>x</m> and <m>y</m> as mentioned in <xref ref="principle-finding-inverse"/>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Solve for <m>y</m> in terms of <m>x</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Replace <m>y</m> with <m>f^{-1}(x)</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x) = 2x+3</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start by replacing <m>f(x)</m> with <m>y</m>:
+            <me>y = 2x + 3.</me>
+            Next, we switch <m>x</m> and <m>y</m>:
+            <me>x = 2y + 3.</me>
+            Now, we solve for <m>y</m>. Subtracting <m>3</m> from both sides, we have
+            <me>x - 3 = 2y.</me>
+            Dividing both sides by <m>2</m>, we get
+            <me>\frac{x - 3}{2} = y.</me>
+            We can optionally switch the two sides of the equation:
+            <me>y = \frac{x - 3}{2}.</me>
+            Replace <m>y</m> with <m>f^{-1}(x)</m>:
+            <me>f^{-1}(x) = \frac{x - 3}{2}.</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x) = 4x - 5</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start by replacing <m>f(x)</m> with <m>y</m>:
+            <me>y = 4x - 5.</me>
+            Next, we switch <m>x</m> and <m>y</m>:
+            <me>x = 4y - 5.</me>
+            Now, we solve for <m>y</m>. Adding <m>5</m> to both sides, we have
+            <me>x + 5 = 4y.</me>
+            Dividing both sides by <m>4</m>, we get
+            <me>\frac{x + 5}{4} = y.</me>
+            We can optionally switch the two sides of the equation:
+            <me>y = \frac{x + 5}{4}.</me>
+            Replace <m>y</m> with <m>f^{-1}(x)</m>:
+            <me>f^{-1}(x) = \frac{x + 5}{4}.</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x) = {6x}{7x + 8}</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start by replacing <m>f(x)</m> with <m>y</m>:
+            <me>y = \frac{6x}{7x + 8}.</me>
+            Next, we switch <m>x</m> and <m>y</m>:
+            <me>x = \frac{6y}{7y + 8}.</me>
+            Now, we solve for <m>y</m>.
+            Multiplying both sides by <m>7y+8</m>, we get
+            <me>x(7y + 8) = 6y.</me>
+            Distributing <m>x</m> on the left side, we have
+            <me>7xy + 8x = 6y.</me>
+            Collecting all terms with <m>y</m> on one side, we get
+            <me>7xy - 6y = -8x.</me>
+            Factoring out <m>y</m>, we have
+            <me>y(7x - 6) = -8x.</me>
+            Dividing both sides by <m>7x - 6</m>, we get
+            <me>y = \frac{-8x}{7x - 6}.</me>
+            We can optionally switch the two sides of the equation:
+            Replace <m>y</m> with <m>f^{-1}(x)</m>:
+            <me>f^{-1}(x) = \frac{-8x}{7x-6}.</me>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            At some point in our earlier answer, we had <m>7xy + 8x = 6y</m>. As the next step, instead of getting all terms with <m>y</m> on the left side, we can move all terms with <m>y</m> to the right side:
+            <me>8x = 6y - 7xy.</me>
+            Factoring out <m>y</m> on the right side, we have
+            <me>8x = y(6 - 7x).</me>
+            Dividing both sides by <m>6 - 7x</m>, we get
+            <me>\frac{8x}{6 - 7x} = y.</me>
+            We can optionally switch the two sides of the equation:
+            <me>y = \frac{8x}{6-7x}.</me>
+            Replace <m>y</m> with <m>f^{-1}(x)</m>:
+            <me>f^{-1}(x) = \frac{8x}{6-7x}.</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x) = \frac{3x-4}{5x+6}</m>.
+          </p>
+        </statement>
+      </example>
+      <answer>
+        <p>
+          We start by replacing <m>f(x)</m> with <m>y</m>:
+          <me>y = \frac{3x-4}{5x+6}.</me>
+          Next, we switch <m>x</m> and <m>y</m>:
+          <me>x = \frac{3y-4}{5y+6}.</me>
+          Now, we solve for <m>y</m>.
+          Multiplying both sides by <m>5y+6</m>, we get
+          <me>x(5y + 6) = 3y - 4.</me>
+          Distributing <m>x</m> on the left side, we have
+          <me>5xy + 6x = 3y - 4.</me>
+          Collecting all terms with <m>y</m> on one side, we get
+          <me>5xy - 3y = -6x - 4.</me>
+          Factoring out <m>y</m>, we have
+          <me>y(5x - 3) = -6x - 4.</me>
+          Dividing both sides by <m>5x - 3</m>, we get
+          <me>y = \frac{-6x - 4}{5x - 3}.</me>
+          Replace <m>y</m> with <m>f^{-1}(x)</m>:
+          <me>f^{-1}(x) = \frac{-6x - 4}{5x-3}.</me>
+        </p>
+      </answer>
+    </p>
+
+    <p>
+      We can also find the inverse of a function given by a graph.
+      To apply <xref ref="principle-finding-inverse"/> to a graph, if <m>(a,b)</m> is a point on the graph of <m>f</m>, then <m>(b,a)</m> is a point on the graph of <m>f^{-1}</m>.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x)</m> whose graph is shown below.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[ultra thick, blue, fill=blue] (1,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (2,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (4,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (5,9) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (7,6) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,7) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (9,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,8) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This graph of <m>y=f(x)</m> passes the Horizontal Line Test</caption>
+            </figure>
+
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The graph of <m>f^{-1}</m> is obtained by switching the role of <m>x</m> and <m>y</m>.
+            Since <m>(1,5)</m> is a point on the graph of <m>f</m>, <m>(5,1)</m> is a point on the graph of <m>f^{-1}</m>.
+            Similarly since <m>(2,10)</m> is a point on the graph of <m>f</m>, <m>(10,2)</m> is a point on the graph of <m>f^{-1}</m>.
+            Continuing in this way, the graph of <m>f^{-1}(x)</m> is
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[ultra thick, blue, fill=blue] (5,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (2,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (9,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (4,6) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,7) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (7,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (1,9) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,10) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>The graph of <m>y=f^[-1}(x)</m></caption>
+            </figure>
+          </p>
+        </answer>
+      </example>
+      As a follow up, since <m>(5,1)</m> is a point on the graph of <m>f^{-1}</m>, then we have <m>f^{-1}(5)=1</m>.   
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the inverse of the one-to-one function <m>f(x)</m> whose graph is shown below.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[ultra thick, blue, fill=blue] (1,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (2,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,7) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (4,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (5,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (7,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (9,6) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,9) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This graph of <m>y=f(x)</m> passes the Horizontal Line Test</caption>
+            </figure>
+          </p>
+        </statement>    
+        <answer>
+          <p>
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[ultra thick, blue, fill=blue] (4,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (1,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (7,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,6) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (2,7) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (5,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,9) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (9,10) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This graph of <m>y=f^(-1)(x)</m> is the inverse of the original function</caption>
+            </figure>            
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      We apply this not just to scatter plots, but to any graph of a one-to-one function.
+      <example>
+        <statement>
+          <p>
+            Given the graph of <m>y=f(x)</m> below, find the graph of <m>y=f^{-1}(x)</m>.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (1,2) -- (3,5);
+                      \draw[-, ultra thick, blue] (4,10) -- (9,8);
+                      \draw[ultra thick, blue, fill=blue] (1,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (4,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (9,8) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This graph is the graph of a one-to-one function.</caption>
+            </figure>            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since the line segment connecting <m>(1,2)</m> and <m>(3,5)</m> is part of the graph of <m>f</m>, the line segment connecting <m>(2,1)</m> and <m>(5,3)</m> is part of the graph of <m>f^{-1}</m>.
+            Since the line segment (with endpoints removed) connecting <m>(4,10)</m> and <m>(9,8)</m> is part of the graph of <m>f</m>, the line segment (with endpoints removed)connecting <m>(10,4)</m> and <m>(8,9)</m> is part of the graph of <m>f^{-1}</m>.
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[-, ultra thick, blue] (2,1) -- (5,3);
+                      \draw[-, ultra thick, blue] (10,4) -- (8,9);
+                      \draw[ultra thick, blue, fill=blue] (2,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (5,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (10,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=white] (8,9) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption><m>y=f^{-1}(x)</m>.</caption>
+            </figure>            
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      We can do this to any graph of a one-to-one function, not just scatter plots or line segments.
+      Given the graph of a one-to-one function, the graph of the inverse is found by reflecting the given graph across the line <m>y=</m>.
+      An effective way to do this on paper is as follows:
+      take the given graph, and lightly draw in the line <m>y=x</m>. Then, for each point on the graph of the original function, 
+      find the corresponding point on the other side of the line <m>y=x</m> and plot that point. Finally, connect all of these points to form the graph of the inverse function.
+    </p>
+    <p>
+      Another way to do this is: take the given graph, and lightly draw in the line <m>y=x</m>.
+      Then, rotate your paper <m>45</m> degrees clockwise, which should make the lightly drawn in line perfectly horizontal.
+      Draw an upside down reflection of the roginial graph.
+      Rotate the paper back to its original position, and you will have the graph of the inverse function.
+    </p>
+
+
+  </subsection>
+
+  <subsection>
+    <title>Properties of one-to-one functions</title>
+
+    <p>
+      <principle xml:id="principle-compose-one-to-one">
+        <statement>
+          <p>
+            A one-to-one function <m>f(x)</m> and its inverse <m>f^{-1}(x)</m> satisfy the following:
+            <ul>
+              <li>
+                <p>
+                  <m>f(f^{-1}(x)) = x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{-1}(f(x)) = x</m>
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+      The same information can be said about individual points:
+      <principle xml:id="principle-one-to-one-points">
+        <statement>
+          <p>
+            The point <m>(a,b)</m> is on the graph of <m>y=f(x)</m> if and only if the point <m>(b,a)</m> is on the graph of <m>y=f^{-1}(x)</m>.
+          </p>
+        </statement>
+      </principle>
+      Another way to phrase this is in function notation:
+      <principle xml:id="principle-one-to-one-points-function">
+        <statement>
+          <p>
+            <m>f(a) = b</m> if and only if <m>f^{-1}(b) = a</m>.
+          </p>
+        </statement>
+      </principle>
+    </p>
+    
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given <m>f(x) = 10x + 3</m>, and given the graph of <m>g(x)</m> below:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[step=1.0, gray, very thin] (-1,-1) grid (10,10);
+                      \draw[<->] (-1,0) -- (11,0); 
+                      \node at (10.5,.4) {$x$};
+                      \draw[<->] (0,-1) -- (0,11);
+                      \node at (.4,10.5) {$y$};
+                      \draw (5,.1) -- (5,-.1);
+                      \draw (.1,5) -- (-.1,5);
+                      \node at (5,-.4) {5};
+                      \node at (-.4,5) {5};
+                      \draw (10,.1) -- (10,-.1);
+                      \draw (.1,10) -- (-.1,10);
+                      \node at (10,-.4) {10};
+                      \node at (-.4,10) {10};
+                      \draw[ultra thick, blue, fill=blue] (1,4) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (2,1) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (3,7) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (4,3) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (5,8) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (6,10) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (7,2) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (8,5) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (9,6) circle (3pt);
+                      \draw[ultra thick, blue, fill=blue] (10,9) circle (3pt);
+                    \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>This graph of <m>y=g(x)</m> passes the Horizontal Line Test</caption>
+            </figure>            
+            find the following:
+            <ol>
+              <li>
+                <p>
+                  <m>f(10)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g(10)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g^{-1}(10)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(g(6))</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(g^{-1}(6))</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <ol>
+              <li>
+                <p>
+                  <m>f(10) = 10(10) + 3 = 100 + 3 = 103</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  From the graph of <m>g</m>, we see that <m>g(10) = 9</m>.
+                  We scanned for an <m>x</m>-value of <m>10</m> on the graph of <m>g</m>, and then found the corresponding <m>y</m>-value.
+                </p>
+              </li>
+              <li>
+                <p>
+                  From the graph of <m>g</m>, we see that <m>g^{-1}(10) = 6</m>.
+                  Since we see <m>g^{-1}</m>, we scan for a <m>y</m>-value of <m>10</m> on the graph of <m>g</m>, and then find the corresponding <m>x</m>-value.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(g(6)) = f(10) = 10(10) + 3 = 100 + 3 = 103</m>
+                </p>
+                <p>
+                  We replaced <m>g(6)</m> with <m>10</m> because the point <m>(6,10)</m> is on the graph of <m>g</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(g^{-1}(6)) = f(9) = 10(9) + 3 = 90 + 3 = 93</m>
+                </p>
+                <p>
+                  We replaced <m>g^{-1}(6)</m> with <m>9</m> because the point <m>(9,6)</m> is on the graph of <m>g</m>.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </answer>
+
+      </example>
+    </p>
+
+
+
+  </subsection>
+
+
+
+</section>

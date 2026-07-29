@@ -19,5 +19,6 @@
   <xi:include href="sec-polynomial-functions.ptx" />
   <xi:include href="sec-graph-transformations.ptx" />
   <xi:include href="sec-function-operations.ptx" />
+  <xi:include href="sec-inverse-functions.ptx" />
   
 </chapter>
