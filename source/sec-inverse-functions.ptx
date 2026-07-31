@@ -307,7 +307,7 @@
       <example>
         <statement>
           <p>
-            Find the inverse of the one-to-one function <m>f(x) = {6x}{7x + 8}</m>.
+            Find the inverse of the one-to-one function <m>f(x) = \frac{6x}{7x + 8}</m>.
           </p>
         </statement>
         <answer>
@@ -803,6 +803,25 @@
 
       </example>
     </p>
+
+    <principle xml:id="principle-inverse-domain-range">
+      <statement>
+        <p>
+          <ul>
+            <li>
+              <p>
+                The odomain of <m>f^{-1}</m> is the range of <m>f</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                The range of <m>f^{-1}</m> is the domain of <m>f</m>.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </principle>
 
 
 

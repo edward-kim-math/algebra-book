@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exponential-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Functions</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Evaluate and graph exponential functions.</p></li>
+			<li><p>Solve exponential equations.</p></li>
+			<li><p>Construct exponential models.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      The skills we learn in this section will allow us to answer these questions:
+      <ol>
+        <li>
+          <p>
+            Given <m>A = 1000</m> and <m>r=0.04</m> and <m>t=5</m>, solve for <m>P</m> in <m>A=Pe^{rt}</m>. 
+            (This is a finance problem, and the value of <m>P</m> answers the following question: 
+            if an account earns <m>4</m> percent interest compounded continuously, 
+            how much money should be deposited now so that the account balance is <m>\$1000</m> in <m>5</m> years?)
+          </p>
+        </li>
+        <li>
+          <p>
+            A biologist is growing a culture of bacteria. 
+            The population of bacteria is modeled by the function <m>P(t) = 500e^{0.3t}</m>, where <m>t</m> is measured in hours. 
+            How many bacteria are present after <m>10</m> hours?
+          </p>
+        </li>
+        <li>
+          <p>
+            An archaeologist is studying the decay of a radioactive isotope.
+            The amount of the isotope remaining after <m>t</m> years is modeled by the function <m>A(t) = 100e^{-0.00012t}</m>.
+            How much of the isotope will remain after <m>10,000</m> years?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </subsection>
+
+	<subsection>
+		<title>Exponential functions</title>
+
+    <p>
+      <principle xml:id="exponential-function-untransformed">
+        <title>Exponential function: untransformed</title>
+        <p>
+          An (untransformed) exponential function is a function of the form <m>f(x) = b^x</m>, where <m>b > 0</m> and <m>b \neq 1</m>.
+          The number <m>b</m> is called the <term>base</term>.
+        </p>
+      </principle>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  <m>f(x)=2^x</m> is an exponential function with base <m>2</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)=3^x</m> is an exponential function with base <m>3</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)=\pi^x</m> is an exponential function with base <m>\pi</m>.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)=e^x</m> is an exponential function with base <m>e</m>.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </example>
+      We just gave four examples of exponential functions. 
+      (We wanted to be specific, to point out that <m>b</m> as given in <xref ref="exponential-function-untransformed"/> should be a specific number, not a variable.)
+      We also note that the base can be any positive real number other than <m>1</m>.
+      Our first two exmples had integer bases.
+      The third example <m>f(x)=\pi^x</m> has a non-integer base, with the familiar number <m>\pi \approx 3.14159</m>.
+      The fourth example <m>f(x)=e^x</m> has a base of <m>e \approx 2.71828</m>.
+    </p>
+    <p>
+      <principle xml:id="principle-advice-e">
+        <title>Advice about <m>e</m></title>
+        <statement>
+          <p>
+            While the number <m>e</m> may not feel as familiar as <m>\pi</m>, to make it less intimidating, just remember that <m>e</m> is a constant, just like <m>\pi</m> is a constant (and just like <m>2</m> and <m>3</m> are constants, for that matter).
+          </p>
+          <p>
+            In fact, it is helpful (and accurate!) to rememer that <m>\pi</m> is a number that is a little more than <m>3</m>, while <m>e</m> is a number that is a little less than <m>3</m>.
+          </p>
+        </statement>
+      </principle>
+      Finally, just to be clear about the distinction, <m>e</m> is a number (or a constant), but <m>f(x)=e^x</m> is a <em>function</em>.
+    </p>
+
+    <p>
+      Let's examine <m>f(x)=2^x</m>, and build a table of values for <m>y=2^x</m> in order to graph this exponential function.
+      <table>
+        <tabular>
+          <row header="yes">
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell>
+          </row>
+          <row>
+            <cell><m>-4</m></cell>
+            <cell><m>\frac{1}{16}</m></cell>
+          </row>
+          <row>
+            <cell><m>-3</m></cell>
+            <cell><m>\frac{1}{8}</m></cell>
+          </row>
+          <row>
+            <cell><m>-2</m></cell>
+            <cell><m>\frac{1}{4}</m></cell>
+          </row>
+          <row>
+            <cell><m>-1</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+          </row>
+          <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+          </row>
+          <row>
+            <cell><m>1</m></cell>
+            <cell><m>2</m></cell>
+          </row>
+          <row>
+            <cell><m>2</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>3</m></cell>
+            <cell><m>8</m></cell>
+          </row>
+          <row>
+            <cell><m>4</m></cell>
+            <cell><m>16</m></cell>
+          </row>
+        </tabular>
+      </table>
+      We explain several of the rows, just to be sure we understand how to compute the values of <m>y=2^x</m>.
+      <ul>
+        <li>
+          <p>
+            When <m>x=4</m>, we have <m>y=2^4=2 \cdot 2 \cdot 2 \cdot 2 = 16</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When <m>x=-4</m>, we have <m>y=2^{-4}=\frac{1}{2^4}=\frac{1}{16}</m>.
+            Going from <m>2^{-4}</m> to <m>\frac1{2^4}</m> applies <m>a^{-n} = \frac1{a^n}</m> from <xref ref="principle-exponent-rules-4"/>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When <m>x=0</m>, we have <m>y=2^0=1</m>. This applies <m>a^0=1</m> from <xref ref="principle-exponent-rules-4"/>.
+          </p>
+        </li>
+      </ul>
+      Based on this table, we can graph the function <m>f(x)=2^x</m>.
+      <figure xml:id="fig-graph-of-2-to-the-x">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-5.:2.58,smooth,samples=100] plot (\x,{2^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=2^x</m></caption>
+      </figure>      
+      While having grid lines drawn in makes it easier to plot several of the points in the table and then graph,
+      even without grid lines, the graph of <m>y=2^x</m> is a curve, and not a straight line.
+      We can see this because we note that each one-unit increase in <m>x</m> doubles the value of <m>y</m>.
+    </p>
+
+    <p>
+      Similarly, a table for <m>y=3^x</m> is:
+      <table>
+        <tabular>
+          <row header="yes">
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell>
+          </row>
+          <row>
+            <cell><m>-4</m></cell>
+            <cell><m>\frac{1}{81}</m></cell>
+          </row>
+          <row>
+            <cell><m>-3</m></cell>
+            <cell><m>\frac{1}{27}</m></cell>
+          </row>
+          <row>
+            <cell><m>-2</m></cell>
+            <cell><m>\frac{1}{9}</m></cell>
+          </row>
+          <row>
+            <cell><m>-1</m></cell>
+            <cell><m>\frac{1}{3}</m></cell>
+          </row>
+          <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+          </row>
+          <row>
+            <cell><m>1</m></cell>
+            <cell><m>3</m></cell>
+          </row>
+          <row>
+            <cell><m>2</m></cell>
+            <cell><m>9</m></cell>
+          </row>
+          <row>
+            <cell><m>3</m></cell>
+            <cell><m>27</m></cell>
+          </row>
+          <row>
+            <cell><m>4</m></cell>
+            <cell><m>81</m></cell>
+          </row>
+        </tabular>
+      </table>      
+      which leads to the graph of <m>y=3^x</m>:
+      <figure xml:id="fig-graph-of-3-to-the-x">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-5.:1.63,smooth,samples=100] plot (\x,{3^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=3^x</m></caption>
+      </figure>     
+    </p>
+
+    <p>
+      The graphs of <m>y=2^x</m> and <m>y=3^x</m> are similar. To see these graphs in context, we graph <m>y=2^x</m> and <m>y=3^x</m> together, but also include the graphs of <m>y=e^x</m> and <m>y=\pi^x</m>:
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, red, domain=-5.:2.58,smooth,samples=100] plot (\x,{2^\x});
+                \draw[<->, ultra thick, orange, domain=-5.:1.79,smooth,samples=100] plot (\x,{e^\x});
+                \draw[<->, ultra thick, blue, domain=-5.:1.63,smooth,samples=100] plot (\x,{3^\x});
+                \draw[<->, ultra thick, brown, domain=-5.:1.56,smooth,samples=100] plot (\x,{pi^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=2^x</m> in red, <m>y=e^x</m> in orange, <m>y=3^x</m> in blue, and <m>y=\pi^x</m> in brown</caption>
+      </figure>     
+      The larger the base is, the steeper the graph is in the first quadrant, noting <m>2 &lt; e &lt; 3 &lt; \pi</m>.
+      In the second quadrant, a larger base corresponds to a more shallow graph, one that is closer to the <m>x</m>-axis.
+      Though all of these exponential function graphs appear to touch the <m>x</m>-axis, they never actually do.
+      In <m>y=2^x</m>, for example, when <m>x=-10</m>, we have <m>y=2^{-10}=\frac{1}{2^{10}}=\frac{1}{1024} \approx 0.0009765625</m>.
+      As <m>x</m> gets more and more negative, the value of <m>y</m> gets closer and closer to <m>0</m>, but it never actually reaches <m>0</m>.
+      So, the range (the set of all possible <m>y</m>-values) of an exponential function in the format <m>y=b^x</m> is <m>(0,\infty)</m>.
+      Because <m>a^0=1</m> for any base <m>a</m>, the graph of an exponential function in the format <m>y=b^x</m> will always pass through the point <m>(0,1)</m>.
+    </p>
+
+    <p>
+      What happens when the base <m>b</m> satisfies <m>0 &lt; b &lt; 1</m>?
+      Let's examine <m>f(x)=\left(\frac12\right)^x</m> and build a table of values for <m>y=\left(\frac12\right)^x</m> in order to graph this exponential function.
+      <table>
+        <tabular>
+          <row header="yes">
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell>
+          </row>
+          <row>
+            <cell><m>-3</m></cell>
+            <cell><m>8</m></cell>
+          </row>
+          <row>
+            <cell><m>-2</m></cell>
+            <cell><m>4</m></cell>
+          </row>
+          <row>
+            <cell><m>-1</m></cell>
+            <cell><m>2</m></cell>
+          </row>
+          <row>
+            <cell><m>0</m></cell>
+            <cell><m>1</m></cell>
+          </row>
+          <row>
+            <cell><m>1</m></cell>
+            <cell><m>\frac12</m></cell>
+          </row>
+          <row>
+            <cell><m>2</m></cell>
+            <cell><m>\frac14</m></cell>
+          </row>
+          <row>
+            <cell><m>3</m></cell>
+            <cell><m>\frac18</m></cell>
+          </row>
+        </tabular>
+      </table>
+      We explain several of the rows, just to be sure we understand how to compute the values of <m>y=\left(\frac12\right)^x</m>.
+      <ul>
+        <li>
+          <p>
+            When <m>x=3</m>, we have <m>y=\left(\frac12\right)^3=\frac12 \cdot \frac12 \cdot \frac12 = \frac18</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            When <m>x=-3</m>, we have <m>y=\left(\frac12\right)^{-3}=\frac{1}{\left(\frac12\right)^3}=\frac{1}{\frac18}=8</m>.
+            Going from <m>\left(\frac12\right)^{-3}</m> to <m>\frac{1}{\left(\frac12\right)^3}</m> applies <m>a^{-n} = \frac1{a^n}</m> from <xref ref="principle-exponent-rules-4"/>.
+          </p>
+        </li>
+      </ul>
+      Without presenting a separate table for <m>y=(\frac13)^x</m>, we graph these two exponential functions:
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[step=1.0, gray, very thin] (-6,-6) grid (6,6);
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, red, domain=-2.58:5,smooth,samples=100] plot (\x,{(1/2)^\x});
+                \draw[<->, ultra thick, blue, domain=-1.63:5,smooth,samples=100] plot (\x,{(1/3)^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=(\frac{1}{2})^x</m> in red, <m>y=(\frac{1}{3})^x</m> in blue</caption>
+      </figure>          
+      Due to the way negative exponents work, when the base is between <m>0</m> and <m>1</m>, the graph of the exponential function is steep in the second quadrant, and shallow in the first quadrant.
+      These graphs also pass through the point <m>(0,1)</m> and have a range of <m>(0,\infty)</m>.
+    </p>
+
+    <p>
+      We summarize properties about <m>y=b^x</m> (which hold whether <m>0 &lt; b &lt; 1</m> or whether <m>b &gt; 1</m>) as follows:
+      <principle xml:id="principle-exponential-function-properties">
+        <title>Properties of <m>y=b^x</m></title>
+        <p>
+          The graph of an exponential function in the format <m>y=b^x</m> has the following properties:
+          <ul>
+            <li><p>The graph passes through the point <m>(0,1)</m>.</p></li>
+            <li><p>The domain is <m>(-\infty,\infty)</m>.</p></li>
+            <li><p>The range is <m>(0,\infty)</m>.</p></li>
+            <li><p>The <m>x</m>-axis <m>y=0</m> is a horizontal asymptote.</p></li>
+            <li><p>The function <m>f(x)=b^x</m> is one-to-one, since the graph <m>y=b^x</m> passes the horizontal line Test.</p></li>
+          </ul>
+        </p>
+      </principle>
+    </p>
+  </subsection>
+
+  <subsection>
+    <title>Solving exponential equations</title>
+    <p>
+      Because <m>f(x)=b^x</m> is one-to-one, this gives us a technique for solving equations that have a certain shape to them:
+      <principle xml:id="principle-solve-exponential-one-to-one">
+        <statement>
+          <p>
+            If <m>b^c=b^d</m>, then <m>c=d</m>.
+          </p>
+          <p>
+            Given an equation where each side consists of a base and an exponent only, if the bases are the same, we can set the exponents equal.
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>2^{7x+1} = 2^{3x-20}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Because the bases are the same, we can set the exponents equal to each other:
+            <m>7x+1 = 3x-20</m>. So <m>4x+1=-20</m>. So <m>4x=-21</m>. So <m>x=-\frac{21}{4}</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>3^{2x-1} = 3^{x+4}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Because the bases are the same, we can set the exponents equal to each other:
+            <m>2x-1 = x+4</m>. So <m>x-1=4</m>. So <m>x=5</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>2^{10x+2} = 8^{2x-1}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The bases are not the same, so we cannot apply <xref ref="principle-solve-exponential-one-to-one"/> directly. However, we can replace <m>8</m> with <m>2^</m>.
+            <me>2^{10x+2} = (2^3)^{2x-1}</me>
+            We rewrite the right side using <m>(a^m)^n = a^{mn}</m> from <xref ref="principle-exponent-rules-1"/> to get
+            <me>2^{10x+2} = 2^{3(2x-1)}</me>
+            On the right side, we rewrite the exponent <m>3(2x-1)</m> by distributing <m>3</m> to get
+            <me>2^{10x+2} = 2^{6x-3}</me>
+            Now we can apply <xref ref="principle-solve-exponential-one-to-one"/> to set the exponents equal to each other:
+            <m>10x+2 = 6x-3</m>. So <m>4x+2=-3</m>. So <m>4x=-5</m>. So <m>x=-\frac{5}{4}</m>.
+          </p>
+        </answer>
+      </example>
+      Note that we turned <m>8^{2x-1}</m> into <m>(2^3)^{2x-1}</m> because <m>8=2^3</m>. It would change the problem if we turned <m>2</m> into <m>2^3</m>, or if we turned <m>2</m> into <m>8</m>, or turned <m>8</m> into <m>2</m>.
+      We made sure to replace <m>8</m> with something that it is equal to, namely <m>2^3</m>.
+    </p>
+    
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>5^{2x+1} = 125^{x-2}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The bases are not the same, so we cannot apply <xref ref="principle-solve-exponential-one-to-one"/> directly. However, we can replace <m>125</m> with <m>5^3</m>.
+            <me>5^{2x+1} = (5^3)^{x-2}</me>
+            We rewrite the right side using <m>(a^m)^n = a^{mn}</m> from <xref ref="principle-exponent-rules-1"/> to get
+            <me>5^{2x+1} = 5^{3(x-2)}</me>
+            On the right side, we rewrite the exponent <m>3(x-2)</m> by distributing <m>3</m> to get
+            <me>5^{2x+1} = 5^{3x-6}</me>
+            Now we can apply <xref ref="principle-solve-exponential-one-to-one"/> to set the exponents equal to each other:
+            <m>2x+1 = 3x-6</m>. So <m>-x+1=-6</m>. So <m>-x=-7</m>. So <m>x=7</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <statement>
+        <p>
+          Solve the equation <m>\left(\frac{1}{2}\right)^{6-x}=2</m>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          The bases are not the same, so we cannot apply <xref ref="principle-solve-exponential-one-to-one"/> directly. However, we can replace <m>\frac12</m> with <m>2^{-1}</m>.
+          <me>(2^{-1})^{6-x} = 2</me>
+          We rewrite the left side using <m>(a^m)^n = a^{mn}</m> from <xref ref="principle-exponent-rules-1"/> to get
+          <me>2^{-1(6-x)} = 2^1</me>
+          On the left side, we rewrite the exponent <m>-1(6-x)</m> by distributing <m>-1</m> to get
+          <me>2^{-6+x} = 2^1</me>
+          Now we can apply <xref ref="principle-solve-exponential-one-to-one"/> to set the exponents equal to each other:
+          <m>-6+x = 1</m>. So <m>x=7</m>.
+        </p>
+      </answer>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>9^{2x}\cdot\left(\frac{1}{3}\right)^{x+2}=27\cdot(3^x)^{-2}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We rewrite everything to have a base of <m>3</m>:
+            <me>(3^2)^{2x}\cdot(3^{-1})^{x+2} = 3^3\cdot(3^x)^{-2}</me>
+            Apply <m>(a^m)^n = a^{mn}</m> from <xref ref="principle-exponent-rules-1"/> to get
+            <me>3^{4x}\cdot3^{-x-2} = 3^3\cdot3^{-2x}.</me>
+            Apply <m>a^m\cdot a^n = a^{m+n}</m> from <xref ref="principle-exponent-rules-1"/> to get
+            <me>3^{4x-x-2} = 3^{3-2x}.</me>
+            So
+            <me>3^{3x-2} = 3^{3-2x}.</me>
+            Now we can apply <xref ref="principle-solve-exponential-one-to-one"/> to set the exponents equal to each other:
+            <m>3x-2 = 3-2x</m>. So <m>5x-2=3</m>. So <m>5x=5</m>. So <m>x=1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>x^2e^x + 10xe^x + 21e^x = 0</m>       
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can factor out <m>e^x</m> from each term:
+            <me>e^x(x^2 + 10x + 21) = 0</me>
+            We factor further:
+            <me>e^x(x + 3)(x + 7) = 0</me>
+            Applying the extended Zero Product Property, 
+            <me>e^x=0 \text{ or } x+3 = 0 \text{ or } x+7 = 0</me>
+            Since <m>f(x)=e^x</m> has range <m>(0,\infty)</m>, we know that <m>e^x \neq 0</m> for any real number <m>x</m>, so <m>e^x=0</m> has no solution.
+            So <m>x = -3</m> or <m>x = -7</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the <m>x</m>-intercepts of the function <m>f(x)=x^2(2e^{x})+4x(e^{x})+e^{x}</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            To find <m>x</m>-intercepts, we set <m>y=0</m>, so:
+            <me>0 = x^2(2e^{x})+4x(e^{x})+e^{x}</me>
+            We can factor out <m>e^x</m> from each term:
+            <me>0 = e^x(2x^2+4x+1)</me>
+            Factoring further, we get
+            <me>0 = e^x(2x+1)(x+1)</me>
+            Applying the extended Zero Product Property,
+            <me>e^x=0 \text{ or } 2x+1 = 0 \text{ or } x+1 = 0</me>
+            Since <m>e^x</m> is never zero, the first equation <m>e^x=0</m> has no solution, so we must have
+            <me>2x+1 = 0 \text{ or } x+1 = 0</me>
+            So <m>x = -\frac{1}{2}</m> or <m>x = -1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+  </subsection>
+
+  <subsection>
+    <title>General exponential functions and their graphs</title>
+
+    <p>
+      Recall that <m>f(x)=b^x</m> has fundamentally two shapes, based on whether <m>0 &lt; b &lt; 1</m> or <m>b &gt; 1</m>.
+      <figure xml:id="fig-graph-of-b-to-the-x-b-greater-than-1">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=b^x</m> when <m>b \gt 1</m></caption>
+      </figure>     
+      <figure xml:id="fig-graph-of-b-to-the-x-b-less-than-1">
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-3.37:5,smooth,samples=100] plot (\x,{(1/1.7)^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=b^x</m> when <m>0 \lt b \lt 1</m></caption>
+      </figure>     
+      We intentionally drew these without grid lines, to focus more on the general shape of the graphs, and less on the specific points.
+      These graphs can be transformed (in the sense of graph transformations) to examine more general exponential functions:
+      <principle xml:id="principle-exponential-function-general">
+        <statement>
+          <p>
+            A (general) exponential function is a function of the form <m>f(x) = a \cdot b^x + c</m>, where <m>b \gt 0</m> and <m>b \neq 1</m>.
+          </p>
+        </statement>
+      </principle>
+
+      <example>
+        <statement>
+          <p>
+            Graph the function <m>f(x) = 2^x + 3</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start with <m>y=2^x</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=2^x</m></caption>
+            </figure>
+            and shift this graph up <m>3</m> units to get the graph of <m>y = 2^x + 3</m>:                 
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x+2.5});
+                      \draw[<->, dashed, gray, domain=-5.5:5.5] plot (\x,{2.5});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=2^x+3</m></caption>
+            </figure>
+            The dashed horizontal line is the horizontal asymptote <m>y=3</m>.
+            Since the graph of <m>y=2^x</m> has a horizontal asymptote <m>y=0</m> whose dashed line is hidden by the solid <m>x</m>-axis, 
+            the graph of <m>y=2^x + 3</m> has the horizontal asymptote <m>y=3</m>.
+            Since <m>y=2^x</m> had <m>y</m>-intercept <m>(0,1)</m>, this point shifts up to <m>(0,4)</m> for the graph of <m>y=2^x + 3</m>.
+          </p>          
+        </answer>
+      </example>
+
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Graph the function <m>f(x) = 3^x - 5</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start with <m>y=3^x</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=3^x</m></caption>
+            </figure>
+            and shift this graph down <m>5</m> units to get the graph of <m>y = 3^x - 5</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x-4});
+                      \draw[<->, dashed, gray, domain=-5.5:5.5] plot (\x,{-4});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=3^x-5</m></caption>
+            </figure>
+            The dashed horizontal line is the horizontal asymptote <m>y=-4</m>.
+            Since the graph of <m>y=3^x</m> has a horizontal asymptote <m>y=0</m> whose dashed line is hidden by the solid <m>x</m>-axis, 
+            the graph of <m>y=3^x -4</m> has the horizontal asymptote <m>y=-4</m>.
+            Since <m>y=3^x</m> had <m>y</m>-intercept <m>(0,1)</m>, this point shifts down to <m>(0,-4)</m> for the graph of <m>y=3^x - 5</m>.
+          </p>
+        </answer>
+      </example>      
+    </p>
+    
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Graph the function <m>f(x) = 4e^x + 2</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We start with <m>y=4^x</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=e^x</m></caption>
+            </figure>
+            and vertically stretch this by a factor of <m>4</m> to get <m>y=4e^x</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.8*1.7^\x});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=4e^x</m></caption>
+            </figure>
+            It is perhaps hard to tell, but for each point on the graph of <m>y=e^x</m>, the corresponding point on the graph of <m>y=4e^x</m> is four times as far from the <m>x</m>-axis.
+            The horizontal asymptote remains <m>y=0</m>, and the <m>y</m>-intercept is now <m>(0,4)</m>.
+            Finally, we shift this graph up <m>2</m> units to get the graph of <m>y = 4e^x + 2</m>:
+            <figure>
+              <image width="65%">
+                <latex-image>
+                  <![CDATA[
+                    \begin{tikzpicture}
+                      \draw[<->] (-6,0) -- (6,0); 
+                      \node at (6,.4) {$x$};
+                      \draw[<->] (0,-6) -- (0,6);
+                      \node at (.4,6) {$y$};
+                      \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.8*1.7^\x+1.5});
+                      \draw[<->, dashed, gray, domain=-5.5:5.5] plot (\x,{1.5});
+                      \end{tikzpicture}
+                  ]]>
+                </latex-image>
+              </image>
+              <caption>Graph of <m>y=4e^x+2</m></caption>
+            </figure>
+            The dashed horizontal line is the horizontal asymptote <m>y=-2</m>.
+            Since the graph of <m>y=4e^x</m> has a horizontal asymptote <m>y=0</m> whose dashed line is hidden by the solid <m>x</m>-axis, 
+            the graph of <m>y=4e^x+2</m> has the horizontal asymptote <m>y=2</m>.
+            Since <m>y=4e^x</m> had <m>y</m>-intercept <m>(0,4)</m>, this point shifts up to <m>(0,6)</m> for the graph of <m>y=4e^x + 2</m>.
+          </p>
+        </answer>
+      </example>      
+    </p>
+    
+    <p>
+      <example>
+        <statement>
+          <p>
+            An exponential function has the form <m>f(x) = Ba^{-x} + C</m> in an application on exponential decay, where <m>f(x)</m> has a horizontal asymptote at <m>y=72</m>, has a <m>y</m>-intercept at <m>425</m>, and the graph passes through the point <m>(1,248.5)</m>.
+            Find the values of <m>B</m>, <m>a</m>, and <m>C</m>. Then state the formula for <m>f(x)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since the horizontal asymptote is <m>y=72</m>, we know that <m>C=72</m>.
+            Since the <m>y</m>-intercept is <m>425</m>, we know that <m>f(0)=425</m>. So
+            <me>f(0) = B a^{-0} + 72 = B + 72 = 425</me>
+            So <m>B=353</m>.
+            Since the graph passes through the point <m>(1,248.5)</m>, we know that <m>f(1)=248.5</m>. So
+            <me>f(1) = B a^{-1} + 72 = \frac{B}{a} + 72 = \frac{353}{a} + 72 = 248.5</me>
+            So <m>\frac{353}{a} = 176.5</m>. So <m>a=2</m>.
+            Therefore, the formula for this exponential function is
+            <me>f(x) = 353 \cdot 2^{-x} + 72.</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Given <m>A = 1000</m> and <m>r=0.04</m> and <m>t=5</m>, solve for <m>P</m> in <m>A=Pe^{rt}</m>. 
+            (This is a finance problem, and the value of <m>P</m> answers the following question: 
+            if an account earns <m>4</m> percent interest compounded continuously, 
+            how much money should be deposited now so that the account balance is <m>\$1000</m> in <m>5</m> years?)
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>P = \frac{A}{e^{rt}} = \frac{1000}{e^{0.04 \cdot 5}} \approx 1000 / 1.2214 \approx 818.73</me>
+            So <m>818.73</m> dollars should be deposited now.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            A biologist is growing a culture of bacteria. 
+            The population of bacteria is modeled by the function <m>P(t) = 500e^{0.3t}</m>, where <m>t</m> is measured in hours. 
+            How many bacteria are present after <m>10</m> hours?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>P(10) = 500e^{0.3 \cdot 10} = 500e^3 \approx 500 \cdot 20.0855 \approx 10042.75</me>
+            So there are approximately <m>10043</m> bacteria present after <m>10</m> hours.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            An archaeologist is studying the decay of a radioactive isotope.
+            The amount of the isotope remaining after <m>t</m> years is modeled by the function <m>A(t) = 100e^{-0.00012t}</m>.
+            How much of the isotope will remain after <m>10,000</m> years?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <me>A(10000) = 100e^{-0.00012 \cdot 10000} = 100e^{-1.2} \approx 100 \cdot 0.3012 \approx 30.12</me>
+            So there are approximately <m>30</m> units of the isotope remaining after <m>10,000</m> years.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+  </subsection>
+
+</section>

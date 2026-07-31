@@ -9,7 +9,7 @@
 		<xi:include href="./ch-expressions-and-equations.ptx" />
 		<xi:include href="./ch-analytic-geometry.ptx" />
 		<xi:include href="./ch-functions.ptx" />
-		<!-- eventually: ch-exponential-logarithmic.ptx -->
+		<xi:include href="./ch-exponential-logarithmic.ptx" />
 		<xi:include href="./backmatter.ptx" />
 	</book>
 </pretext>
