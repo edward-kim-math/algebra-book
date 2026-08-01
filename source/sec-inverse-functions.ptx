@@ -90,7 +90,7 @@
       While we have already discussed that the Vertical Line Test must pass for the graph of <em>every function</em> (and note that the Vertical Line Test passes for both <m>y=2x</m> and <m>y=x^2</m>),
       notice that <m>y=2x</m> passes the Horizontal Line Test, but <m>y=x^2</m> does not.
       We introduce a geometric test for one-to-one functions:
-      <principle>
+      <principle xml:id="horizontal-line-test-iff-one-to-one">
         <title>Horizontal Line Test</title>
         <p>
           Suppose <m>f(x)</m> is a function (so its graph must pass the Vertical Line Test must pass).

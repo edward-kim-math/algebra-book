@@ -11,4 +11,5 @@
 
   <!-- include sections -->
   <xi:include href="sec-exponential-functions.ptx" />
+  <xi:include href="sec-logarithms.ptx" />
 </chapter>
