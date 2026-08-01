@@ -65,10 +65,89 @@
       </example>
     </p>
 
+    <p>
+      The fact that <m>f(x) = b^x</m> has as its inverse function <m>f^{-1}(x) = \log_b(x)</m> means that 
+      we can start from the graph of <m>f(x) = b^x</m> and reflect it across the line <m>y=x</m> to get the graph of <m>f^{-1}(x) = \log_b(x)</m>.
+      Thus, from the generic graph of an exponential function <m>f(x) = b^x</m>
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-5.:3.37,smooth,samples=100] plot (\x,{1.7^\x});
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=b^x</m></caption>
+      </figure>          
+      we flip the graph diagonally to obtain the graph of <m>f^{-1}(x) = \log_b(x)</m>
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, red, domain=-5:3.37,smooth,samples=100] plot ({1.7^\x},\x);
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=\log_b(x)</m></caption>
+      </figure>
+      Because <m>y=b^x</m> has the point <m>(0,1)</m> as a <m>y</m>-intercept, the graph of <m>y=\log_b(x)</m> has the point <m>(1,0)</m> as an <m>x</m>-intercept.
+      In <xref ref="principle-inverse-domain-range"/>, we saw that the roles of the domain and range change places for inverse functions.
+      Since the domain of <m>f(x) = b^x</m> is <m>(-\infty, \infty)</m>, the range of <m>f^{-1}(x)</m> is <m>(-\infty, \infty)</m>.
+      Since the range of <m>f(x) = b^x</m> is <m>(0, \infty)</m>, the domain of <m>f^{-1}(x)</m> is <m>(0, \infty)</m>.
+      Since <m>f(x) = b^x</m> has the horizontal line <m>y=0</m> as a horizontal asymptote, the graph of <m>f^{-1}(x) = \log_b(x)</m> has the vertical line <m>x=0</m> as a vertical asymptote.
+      <principle xml:id="principle-log-function-facts">
+        <statement>
+          <p>
+            The function <m>g(x) = \log_b(x)</m>:
+            <ul>
+              <li>
+                <p>
+                  has domain <m>(0,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  has range <m>(-\infty,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  has the point <m>(1,0)</m> as an <m>x</m>-intercept
+                </p>
+              </li>
+              <li>
+                <p>
+                  has the vertical line <m>x=0</m> as a vertical asymptote
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+    </p>
+    <p>
+      Compare: square root
+    </p>
 
     <p>
       The fact that <m>f(x) = b^x</m> has as its inverse function <m>f^{-1}(x) = \log_b(x)</m> means that the following:
-      <m>b^r = s</m> if and only if <m>\log_b(s) = r</m>.      
+      <m>b^r = s</m> if and only if <m>\log_b(s) = r</m>.
+      This holds because of <xref ref="principle-one-to-one-points-function"/>.
+      What this means is that if we have an equation of the form <m>b^r = s</m>, we can rewrite it in logarithmic form as <m>\log_b(s) = r</m>,
+      and when we have an equation of the form <m>\log_b(s) = r</m>, we can rewrite it in exponential form as <m>b^r = s</m>.
+      It is helpful to see this definition of logarithm in a visual way, which we call the Circle Trick:     
       <principle xml:id="principle-circle-trick">
         <title>Circle Trick: the definition of logarithm</title>
         <statement>
@@ -80,420 +159,396 @@
                     \begin{tikzpicture}
                     \node at (0,0) {$b^r = s$ becomes $\log_b(s) = r$};
                     % Exp equation
-                    \draw [->, thick, blue] (-1.2,0.2) [out=90,in=90] to (-1.85,0.22);
-                    \draw [->, thick, blue] (-1.85,-0.1) [out=270,in=270] to (-1.25,-0.2);
+                    \draw [->, thick, blue] (-1.3,0.2) [out=90,in=90] to (-1.95,0.22);
+                    \draw [->, thick, blue] (-1.95,-0.1) [out=270,in=270] to (-1.35,-0.2);
                     % Log equation
                     \draw [->, thick, blue] (2,0.2) [out=90,in=90] to (1.25,0.2);
-                    \draw [->, thick, blue] (1.2,-0.2) [out=270,in=270] to (2,-0.2);
+                    \draw [->, thick, blue] (1.3,-0.2) [out=270,in=270] to (2,-0.2);
                     \end{tikzpicture}
                   ]]>
                 </latex-image>
               </image>
-              <caption>Circel Trick: a visual representation of logarithms and exponential functions</caption>
-            </figure>
-            
+              <caption>Circle Trick: a visual representation of logarithms and exponential functions</caption>
+            </figure>            
           </p>
         </statement>
       </principle>
+      The thing to note is that the base <m>b</m> in one equation remains the base <m>b</m> in the other equation.
+      The arrows drawn in have the general shape of a circle, and so we call this the Circle Trick.
+      In the two equations, the <m>r</m> and <m>s</m> switch places, and the base <m>b</m> remains the same.
     </p>    
 
+    <p>
+      <example>
+        <statement>
+          <p>
+            Apply the Circle Trick to rewrite <m>c^m = n</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_c(n) = m</m>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Apply the Circle Trick to rewrite <m>2^t = u</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_2(u) = t</m>
+          </p>
+        </answer>
+      </example>
+    </p>
 
 
-    <example>
-      <statement>
-        <p>
-          Solve the equation <m>3x+1 = 9</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          First, we subtract <m>1</m> from both sides to get <m>3x = 8</m>.
-          Next, we divide both sides by <m>3</m> to get <m>x = \frac{8}{3}</m>.
-        </p>
-      </answer>
-    </example>
+    <p>
+      <example xml:id="solve-using-circle-trick">
+        <statement>
+          <p>
+            Apply the Circle Trick to rewrite <m>2^x = 9</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_2(9) = x</m>
+          </p>
+        </answer>
+      </example>
+      The last example shows us that we were able to solve for <m>x</m>.
+      Note that taking <m>2^x=9</m> and dividing both sides by <m>2</m> does not help.
+    </p>
+
+
+    <p>
+      <example xml:id="log-base-and-argument-warmup1">
+        <statement>
+          <p>
+            Apply the Circle Trick to rewrite <m>3^x = 9</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_3(9) = x</m>
+          </p>
+        </answer>
+      </example>
+      While we applied the Circle Trick to rewrite <m>3^x = 9</m> as <m>\log_3(9) = x</m>, we can also solve for <m>x</m> by recognizing that <m>9 = 3^2</m>, so <m>x=2</m>.
+      This shows us that <m>\log_3(9) = 2</m>.
+    </p>
+
+    <p>
+      <example xml:id="log-base-and-argument-warmup2">
+        <statement>
+          <p>
+            Apply the Circle Trick to rewrite <m>2^x = 16</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_2(16) = x</m>
+          </p>
+        </answer>
+      </example>
+      While we applied the Circle Trick to rewrite <m>2^x = 16</m> as <m>\log_2(16) = x</m>, we can also solve for <m>x</m> by recognizing that <m>16 = 2^4</m>, so <m>x=4</m>.
+      This shows us that <m>\log_2(16) = 4</m>.
+    </p>
+    
+    <p>
+      The comments after <xref ref="log-base-and-argument-warmup1"/> and <xref ref="log-base-and-argument-warmup2"/> 
+      show us that, based on the Circle Trick, when we are given an expression of the format <m>\log_b(a)</m> we can simplify this expression by recognizing that <m>a = b^c</m> for some value of <m>c</m>.
+      In other words, <m>\log_b(a)</m> simplifies to the value of the exponent when we ask the question: <m>b</m> to the <em>what power</em> equals <m>a</m>?
+      <principle xml:id="principle-log-base-and-argument-thinking">
+        <statement>
+          <p>
+            If we are asked to simplify <m>\log_b(a)</m>, and <m>b</m> and <m>a</m> are both given constants (not variables), then the given expression simplifies
+            to the blank in the question: <q><m>b</m> to the <m>\underline{\phantom{....}}</m> equals <m>a</m>?</q>
+          </p>
+        </statement>
+      </principle>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_2(8)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_2(8) = 3</m>, because <m>2^3 = 8</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_3(81)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_3(81) = 4</m>, because <m>3^4 = 81</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      We will look at more examples in a moment, but we make the analogy to radicals:
+      The question <m>\sqrt[2]{9}</m> has answer <m>3</m> because <m>3^2 = 9</m>.
+      In the case of a radical, the expression simplifies to the value of the missing base.
+      The question <m>\log_2(8)</m> has answer <m>3</m> because <m>2^3 = 8</m>.
+      In the case of a logarithm, the expression simplifies to the value of the missing exponent.
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_5(125)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_5(125) = 3</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_7(49)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_7(49) = 2</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_7(1)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_7(1) = 0</m> because <m>7^0=1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_8(1)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_8(1) = 0</m> because <m>8^0=1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      The last two examples show us that for any base <m>b</m>, we have <m>\log_b(1) = 0</m> because <m>b^0 = 1</m> from <xref ref="principle-exponent-rules-4"/>.      
+      <principle xml:id="principle-log-of-1">
+        <statement>
+          <p>
+            <m>\log_b(1) = 0</m>.
+          </p>
+        </statement>
+      </principle>
+      This actually repackages the information from <xref ref="principle-log-function-facts"/> the graph of <m>g(x) = \log_b(x)</m> goes through the point <m>(1,0)</m>.
+    </p>
+
+    <p>
+      Now, what happens if the input to a logarithm is a negative number or zero?
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_9(-1)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_9(-1)</m> is undefined because the equation <m>9^x=-1</m> has no solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_{10}(-2)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_{10}(-2)</m> is undefined because the equation <m>10^x=-2</m> has no solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_{11}(0)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_{11}(0)</m> is undefined because the equation <m>11^x=0</m> has no solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      The last three examples show that for any base <m>b</m>, the expression <m>\log_b(x)</m> is undefined for any negative value of <m>x</m> because the equation <m>b^x = y</m> has no solution for any negative value of <m>y</m>.
+      <principle xml:id="principle-log-of-zero-or-negative">
+        <statement>
+          <p>
+            If <m>x \leq 0</m>, then <m>\log_b(x)</m> is undefined.
+            In other words, it is only valid to take the logarithm (in anyy base) of a positive number.
+          </p>
+        </statement>
+      </principle>
+      This actually repackages the information from <xref ref="principle-log-function-facts"/> that the domain of <m>g(x) = \log_b(x)</m> is <m>(0,\infty)</m>.
+    </p>
 
   </subsection>
 
 	<subsection>
-		<title>subsection title</title>
+		<title>Special bases</title>
 
+    <p>
+      Two numbers appear so often as bases of logarithms that they have special names and special notation.
+    </p>
     <principle>
-      <title>text</title>
       <p>
-        text
+        <m>\ln(z) = \log_e(z)</m>
       </p>
     </principle>
+    <p>
+      When we write <m>\ln(z)</m> we can read it as <q>natural log of <m>z</m></q>.
+    </p>
+    <principle>
+      <p>
+        <m>\log(z) = \log_{10}(z)</m>
+      </p>
+    </principle>
+    <p>
+      Note that both are just special cases of logarithms.
+      For example, <m>\ln(5)</m> is just shorthand notation for <m>\log_e(5)</m>, and <m>\log(5)</m> is just shorthand notation for <m>\log_{10}(5)</m>.
+      In particular, we earlier mentioned that <m>\log_b(1)=0</m> for any base <m>b</m>, so we have <m>\ln(1) = 0</m> and <m>\log(1) = 0</m>.
+      These are not really two new facts, but it's just putting the information thot <m>\log_e(1)=0</m> and <m>\log_{10}(1)=0</m> into the special notation.
+    </p>
+
+    <p>
+      On paper, it is perfectly acceptable if the final answer to a question includes an expression such as <m>\log_2(9)</m>.
+      This is because <m>\log_2(9)</m> is a number, and specifically, it is the answer to the question <m>2</m> to the <em>what power</em> equals <m>9</m>?
+      It is not a particularly nice number (some decimal number), but it is a number.
+    </p>
+    <p>
+      As fine as it is for <m>\log_2(9)</m> to be the final answer (or part of a final answer) on paper, for practical applications,
+      we often want to know the decimal approximation of <m>\log_2(9)</m>.
+      However, we run into the following problem:
+      How could a calculator have a button for a <q>log base 2</q>, and a button for a <q>log base 3</q>, and a button for a <q>log base 4</q>, and so on?
+      A calculator would run out of room.
+      Fortunately, we have the following formula which will help us rewrite final answers:
+      <principle xml:id="principle-change-of-base-general">
+        <title>Change of Base Formula</title>
+        <statement>
+          <p>
+            <m>\log_b(c) = \dfrac{\log_a(c)}{\log_a(b)}</m>
+          </p>
+        </statement>
+      </principle>
+      Notice that <m>a</m> does not appear on the left side at all, and appears twice on the right side.
+      So, when using this formula to turn an expression of the form on the left into the form on the right, we actually get to choose the base <m>a</m> on the right side ourselves.
+    </p>
+
+    <p>
+      For example, suppose we had the expression <m>\log_2(9)</m>. Here are several ways to rewrite this expression using the change of base formula:
+      <ul>
+        <li>
+          <p>
+            <m>\log_2(9) = \dfrac{\log_{7}(9)}{\log_{7}(2)}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\log_2(9) = \dfrac{\log_{8}(9)}{\log_{8}(2)}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\log_2(9) = \dfrac{\log_{301}(9)}{\log_{301}(2)}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\log_2(9) = \dfrac{\log_{e}(9)}{\log_{e}(2)} = \dfrac{\ln(9)}{\ln(2)}</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      In fact, the last example shows that if we wish, we can always choose to rewrite a logarithm expression in terms of a natural logarithm.
+      Here is a special case of the Change of Base Formula:
+      <principle xml:id="principle-change-of-base-special">
+        <title>Change of Base Formula: special case</title>
+        <statement>
+          <p>
+            Any logarithm expression can be rewritten as the quotient of two outpus of the natural logarithm function.
+          </p>
+          <p>
+            <m>\log_b(c) = \dfrac{\ln(c)}{\ln(b)}</m>
+          </p>
+        </statement>
+      </principle>
+    </p>
 
     <p>
       <example>
         <statement>
           <p>
-            Statement text       
+            <m>\log_5(6) = \dfrac{\ln(6)}{\ln(5)}</m>
           </p>
         </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
       </example>
     </p>
-    
     <p>
-      <example>
-        <statement>
-          <p>
-            Statement text       
-          </p>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
-      </example>
-    </p>
-    
-
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <!-- <response /> --><!-- Commented out the response area where a student can type. -->
-    </exercise>
-
-    <note>
-      <p>
-        Text
-      </p>
-    </note>
-
-    <assemblage>
-      <title>Title</title>
-      <p>
-        Text
-      </p>
-    </assemblage>
-
-    <warning>
-      <p>
-        text
-      </p>
-    </warning>
-
-		<investigation>
-      <idx><h>knights and knaves</h></idx>
-      <idx><h>puzzle</h><h>knights and knaves</h></idx>
-      <p>
-        While walking through a fictional forest,
-        you encounter three trolls guarding a bridge.
-        Each is either a <em>knight</em>,
-        who always tells the truth, or a
-        <em>knave</em>, who always lies.
-        The trolls will not let you pass until you correctly identify each as either a knight or a knave.
-        Each troll makes a single statement:
-      </p>
-
-      <blockquote>
-        <p>
-          Troll 1: If I am a knave, then there are exactly two knights here.
-        </p>
-
-        <p>
-          Troll 2: Troll 1 is lying.
-        </p>
-
-        <p>
-          Troll 3: Either we are all knaves, or at least one of us is a knight.
-        </p>
-      </blockquote>
-
-      <p>
-        Which troll is which?
-        <idx><h>self reference</h><see>reference, self</see></idx>
-        <idx><h>reference, self</h><see>self reference</see></idx>
-      </p>
-		</investigation>
-
-    <!-- Strategy -->
-    <computation>
-      <title>Solving an equation with fractions</title>
-      <p>
-        <ul>
-          <li>
-            <p>
-              <alert>When does this strategy apply?</alert> 
-              This strategy applies in any equation we are asked to solve when there is one or more fractions.
-            </p>
-          </li>
-          <li>
-            <p>
-              <alert>How to apply the strategy</alert>
-              <ol>
-                <li>
-                  <p>
-                    Step 1 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Step 2 text
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Take the least common multiple computed in the previous step and multiply both sides of the equation by this expression.
-                    (Because we have to multiply the entire left side and the entire right side, 
-                    it may be necessary to use parentheses due to the Order of Operations.)
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    On each side, distribute if applicable.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    In each term on each side, cancel where applicable.
-                    This always results in an equation which has no fractions.
-                  </p>
-                </li>
-              </ol>
-            </p>
-          </li>
-        </ul>
-      </p>
-    </computation>
-
-
-    <!-- Try it -->
-    <exercise>
-      <statement>
-        <p>
-          Spend a few minutes thinking about the Investigate problem above.  What could you conclude if you knew Troll 1 really was a knave (i.e., their statement was false)?  Share your initial thoughts on this.
-        </p>
-      </statement>
-      <response />
-    </exercise>
-
-		<definition>
-			<title>Argument</title>
-			<idx><h>argument</h></idx>
-			<idx><h>premise</h></idx>
-			<idx><h>conclusion</h></idx>
-			<idx><h>valid</h></idx>
-			<idx><h>sound</h></idx>
-			<idx><h>proof</h></idx>
-			<statement>
-				<p>
-					An <term>argument</term> <idx><h>argument</h></idx> is a sequence of statements, the last of which is called the <term>conclusion</term> <idx><h>conclusion</h></idx> and the rest of which are called <term>premises</term>.
-					<idx><h>premises</h></idx>
-				</p>
-
-				<p>
-					An argument is said to be <term>valid</term> <idx><h>valid</h></idx> provided the conclusion must be true whenever the premises are all true.
-					An argument is <term>invalid</term> if it is not valid; that is, all the premises can be true, and the conclusion could still be false.
-				</p>
-
-				<p>
-					An argument is <term>sound</term> provided it is valid and all the premises are true.
-					A <term>proof</term> of a statement is a sound argument whose conclusion is the statement.
-				</p>
-			</statement>
-		</definition>
-
-		<aside>
-		<p>
-			Our definitions of <term>argument</term>, <term>valid argument</term>, and <term>sound argument</term> are the same ones used in philosophy, the other primary academic discipline concerned with logic and reasoning.
-		</p>
-		</aside>
-
-		<example>
-			<idx><h>cookie</h></idx>
-			<statement>
-				<p>
-					Consider the following two arguments:
-				</p>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>If Edith eats her vegetables, then she can have a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Edith eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Edith gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<tabular>
-					<row>
-					<cell/>
-					<cell>Florence must eat her vegetables to get a cookie.</cell>
-					</row>
-					<row bottom="minor">
-					<cell/>
-					<cell>Florence eats her vegetables.</cell>
-					</row>
-					<row>
-					<cell><m>\therefore</m></cell>
-					<cell>Florence gets a cookie.</cell>
-					</row>
-				</tabular>
-
-				<p>
-					(The symbol <q><m>\therefore</m></q>
-					<notation>
-					<usage><m>\therefore</m></usage>
-					<description><q>therefore</q></description>
-					</notation>
-					means <q>therefore</q>)
-				</p>
-
-				<p>
-					Are these arguments valid?
-				</p>
-			</statement>
-
-			<solution>
-				<p>
-					Do you agree that the first argument is valid but the second argument is not?
-					We will soon develop a better understanding of the logic involved in this analysis, but if your intuition agrees with this assessment, then you are in good shape.
-				</p>
-
-				<p>
-					Notice the two arguments look almost identical.
-					Edith and Florence both eat their vegetables.
-					In both cases, there is a connection between the eating of vegetables and cookies.
-					Yet we claim that it is valid to conclude that Edith gets a cookie, but not that Florence does.
-					The difference must be in the connection between eating vegetables and getting cookies.
-					We need to be skilled at reading and comprehending these sentences.
-					Do the two sentences mean the same thing?
-				</p>
-
-				<p>
-					Unfortunately, in everyday language we are often sloppy, and you might be tempted to say they are equivalent.
-					But notice that just because Florence <em>must</em> eat her vegetables, we have not claimed that doing so would be <em>enough</em> (she might also need to clean her room, for example).
-					In everyday (non-mathematical) practice, you might be tempted to say this <q>other direction</q> is implied.
-					In mathematics, we never get that luxury.
-				</p>
-			</solution>
-		</example>
-
-		<remark>
-			<p>
-				The arguments in the example above illustrate another important point: Even if you don't care about the advancement of human knowledge in the field of mathematics, becoming skilled at analyzing arguments is useful.
-				And even if you don't want to give your grandmother a cookie.
-				If you are <em>using</em> mathematics to solve problems in some other discipline, it is still necessary to demonstrate that your solution is correct.
-				You better have a good argument that it is!
-			</p>
-		</remark>
-
-
-
-  </subsection>
-
-  <subsection>
-    <title>Applications Revisited</title>
-
-    <p>
-      Let's revisit the applications we introduced at the beginning of this section.
-    </p>
-
     <example>
-      <statement>
-        <p>
-          Text
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Answer
-        </p>
-      </solution>
-    </example>
-
-  </subsection>
-
-	<subsection>
-		<title>Summary</title>
-
-    <p>
-      <ol>
-        <li>
+        <statement>
           <p>
-            Summary point.
+            <m>\log_7(8) = \dfrac{\ln(8)}{\ln(7)}</m>
           </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-      </ol>
-    
+        </statement>
+      </example>
     </p>
-  </subsection>
 
-  <subsection>
-		<title>Exercises</title>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-    <p>
-      <ol>
-
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
-      </ol>
-    </p>
   </subsection>
 
 </section>
