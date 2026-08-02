@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-graphs-domain-initial-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphs, domain, and initial equations involving logarithms</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Graph logarithmic functions and their transformations.</p></li>
+			<li><p>Determine the domain of logarithmic functions.</p></li>
+			<li><p>Solve initial equations involving logarithms.</p></li>
+    </ol>
+	</objectives>
+
+  <subsection>
+    <title>Applications</title>
+
+    <p>
+      Based on the skills from this section, we will be able to answer:
+      <ol>
+        <li>
+          <p>
+            Given <m>A = 1000</m> and <m>r=0.04</m> and <m>P=850</m>, solve for <m>t</m> in <m>A=Pe^{rt}</m>. 
+          </p>
+          <p>
+            This is a finance problem, and the value of <m>t</m> answers the following question: 
+            if an account earns <m>4\%</m> interest compounded continuously, how many years will it take an account with starting balance <m>\$850</m> to eventually have a balance of <m>\$1000</m>?
+          </p>
+        </li>
+        <li>
+          <p>
+            A biologist finds a fossil and wants to determine how old it is.  The biologist knows that the half-life of carbon-14 is 5730 years, and that the fossil has <m>25\%</m> of its original carbon-14 remaining.  How old is the fossil?
+          </p>
+        </li>
+      </ol>
+    </p>
+
+  </subsection>
+
+	<subsection>
+		<title>Graphs</title>
+
+  </subsection>
+  
+	<subsection>
+		<title>Domain</title>
+
+  </subsection>
+  
+	<subsection>
+		<title>Solving equations</title>
+
+    circle trick (both directions)
+
+    <m>\log_2(x+9)=4</m>
+
+    logs are one-to-one
+
+  </subsection>
+  
+  <subsection>
+    <title>Applications Revisited</title>
+
+    <p>
+      Let's revisit the applications we introduced at the beginning of this section.
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Text
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Answer
+        </p>
+      </solution>
+    </example>
+
+  </subsection>
+
+	<subsection>
+		<title>Summary</title>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+        <li>
+          <p>
+            Summary point.
+          </p>
+        </li>
+      </ol>
+    
+    </p>
+  </subsection>
+
+  <subsection>
+		<title>Exercises</title>
+
+    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
+
+    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
+
+    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
+
+    <p>
+      <ol>
+
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+        <li>
+          <p>
+            Text.
+            <ol>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+              <li><p>Subpart</p></li>
+            </ol>
+          </p>
+        </li>
+
+      </ol>
+    </p>
+  </subsection>
+
+</section>
