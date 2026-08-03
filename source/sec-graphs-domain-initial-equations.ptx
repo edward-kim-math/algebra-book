@@ -44,22 +44,630 @@
 	<subsection>
 		<title>Graphs</title>
 
+    <p>
+      Starting from the memory of the graph of <m>y=\log_b(x)</m>, we can apply graph transformations as we discussed in <xref ref="sec-graph-transformations"/>.
+      For any <m>b \gt 1</m>, the graph of <m>y=\log_b(x)</m> has a vertical asymptote at <m>x=0</m>, passes through the point <m>(1,0)</m>, and has the following general shape:
+      <figure>
+        <image width="65%">
+          <latex-image>
+            <![CDATA[
+              \begin{tikzpicture}
+                \draw[<->] (-6,0) -- (6,0); 
+                \node at (6,.4) {$x$};
+                \draw[<->] (0,-6) -- (0,6);
+                \node at (.4,6) {$y$};
+                \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x,\x);
+                \end{tikzpicture}
+            ]]>
+          </latex-image>
+        </image>
+        <caption>Graph of <m>y=\log_b(x)</m></caption>
+      </figure>      
+    </p>
+
+    <example>
+      <statement>
+        <p>
+          Sketch the graph of <m>y=\log_3(x-1)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We start from the graph of <m>y=\log_3(x)</m>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x,\x);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_3(x)</m></caption>
+          </figure>                
+          Because we have <m>x-1</m> inside the logarithm (directly affecting <m>x</m>), we shift the graph to the right by <m>1</m> unit, as we saw in <xref ref="principle-shift-right"/>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x+1,\x);
+                    \draw[<->, dashed, gray] (1,6) -- (1,-6);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_3(x-1)</m></caption>
+          </figure>
+          Because the graph of <m>y=\log_3(x)</m> went through the point <m>(1,0)</m>, the graph of <m>y=\log_3(x-1)</m> goes through the point <m>(2,0)</m>.
+          Because the graph of <m>y=\log_3(x)</m> had a vertical asymptote at <m>x=0</m>, the graph of <m>y=\log_3(x-1)</m> has a vertical asymptote at <m>x=1</m>.
+        </p>
+      </answer>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Sketch the graph of <m>y=\log_2(x+4)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We start from the graph of <m>y=\log_2(x)</m>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x,\x);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_2(x)</m></caption>
+          </figure>                
+          Because we have <m>x+4</m> inside the logarithm (directly affecting <m>x</m>), we shift the graph to the left by <m>4</m> units, as we saw in <xref ref="principle-shift-left"/>.
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x-3,\x);
+                    \draw[<->, dashed, gray] (1,6) -- (1,-6);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_2(x+4)</m></caption>
+          </figure>
+          Because the graph of <m>y=\log_2(x)</m> went through the point <m>(1,0)</m>, the graph of <m>y=\log_2(x+4)</m> goes through the point <m>(-3,0)</m>.
+          Because the graph of <m>y=\log_2(x)</m> had a vertical asymptote at <m>x=0</m>, the graph of <m>y=\log_2(x+4)</m> has a vertical asymptote at <m>x=-4</m>.
+          The shift to the left by <m>4</m> was strategic in being able to point out the <m>y</m>-intercept: 
+          to find the <m>y</m>-intercept, informed by <xref ref="principle-y-intercepts"/> we set <m>x=0</m> and find <m>y=\log_2(0+4)=\log_2(4)=2</m> based on <xref ref="principle-log-base-and-argument-thinking"/>, so the graph goes through the point <m>(0,2)</m>.
+        </p>
+      </answer>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Sketch the graph of <m>y=\log_3(5x)</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We start from the graph of <m>y=\log_3(x)</m>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x,\x);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_3(x)</m></caption>
+          </figure>                
+          Because we have <m>5x</m> inside the logarithm (a multiple of <m>x</m>), we compress the graph horizontally by a factor of <m>5</m>, as we saw in <xref ref="principle-horizontal-compression"/>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot ({1.7^\x/5},\x);
+                    \draw[<->, dashed, gray] (1,6) -- (1,-6);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_3(5x)</m></caption>
+          </figure>
+          Because the graph of <m>y=\log_3(x)</m> went through the point <m>(1,0)</m>, the graph of <m>y=\log_3(5x)</m> goes through the point <m>(\frac15,0)</m>.
+          Because the graph of <m>y=\log_3(x)</m> had a vertical asymptote at <m>x=0</m>, the graph of <m>y=\log_3(5x)</m> has a vertical asymptote at <m>x=0</m>.
+        </p>
+      </answer>
+    </example>
+
+
+    <example>
+      <statement>
+        <p>
+          Sketch the graph of <m>y=\log_8(x)+1</m>.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We start from the graph of <m>y=\log_8(x)</m>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot (1.7^\x,\x);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_8(x)</m></caption>
+          </figure>                
+          Because we have <m>+1</m> outside of the logarithm, we shift the graph up by 1 unit, as we saw in <xref ref="principle-transform-up"/>:
+          <figure>
+            <image width="65%">
+              <latex-image>
+                <![CDATA[
+                  \begin{tikzpicture}
+                    \draw[<->] (-6,0) -- (6,0); 
+                    \node at (6,.4) {$x$};
+                    \draw[<->] (0,-6) -- (0,6);
+                    \node at (.4,6) {$y$};
+                    \draw[<->, ultra thick, blue, domain=-5:3.3,smooth,samples=100] plot ({1.7^\x},\x+1);
+                    \draw[<->, dashed, gray] (1,6) -- (1,-6);
+                    \end{tikzpicture}
+                ]]>
+              </latex-image>
+            </image>
+            <caption>Graph of <m>y=\log_8(x)+1</m></caption>
+          </figure>
+        </p>
+      </answer>
+    </example>
+
+
+
+
+
   </subsection>
   
 	<subsection>
 		<title>Domain</title>
+
+    <p>
+      In <xref ref="principle-log-function-facts"/>, we learned that the domain of <m>y=\log_b(x)</m> is <m>(0,\infty)</m>.
+      To say the same information more directly, in <xref ref="principle-log-of-zero-or-negative"/>, we saw that the logarithm of zero or any negative number is undefined.
+      In other words, we can only take the logarithm (in any base) of a <em>positive</em> number.
+    </p>
+
+    <p>
+      In <xref ref="finding-domain"/>, we learned that to find the domain of a function, we don't want the denominator to equal zero, and we want the content inside a square root to be greater than or equal to zero.
+      Because we can only take the logarithm of a positive value, we update the process for finding domain of a function with this additional information:
+      <principle xml:id="finding-domain-revised">
+        <title>Finding domain given a function by formula, final version</title>
+        <statement>
+          <p>
+            Given a function by formula, to find its domain, find all fractions and square roots and logarithms.
+            By default, the domain of a function is a real number, with the following situations creating exceptions
+            <ul>
+              <li>
+                <p>
+                  We don't want the denominator to equal zero.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We want the content inside every square root to be greater than or equal to zero.
+                </p>
+              </li>
+              <li>
+                <p>
+                  We want the input to every logarithm to be greater than zero.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </principle>
+      Note the difference that for a logarithm, the input must be greater than (but not equal to) zero, while the contents inside a square root can be zero.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of <m>f(x) = \log_3(4x + 25)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The input to this logarithm is <m>4x+25</m>. We want <m>4x+25 \gt 0</m>. So we want <m>4x \gt -25</m>, so we want <m>x \gt -\frac{25}{4}</m>.
+            The doamin in interval notation is <m>(-\frac{25}{4},\infty)</m>. We can also write the domain <m>(-6.25,\infty)</m>.
+          </p>
+        </answer>
+      </example>
+      Because <m>-4</m> is in the domain <m>(-6.25,\infty)</m>, we can evaluate <m>f(-4)</m>. In fact, <m>f(-4) = \log_3(4(-4)+25) = \log_3(9) = 2</m>, where the second-to-last expression is simplified based on <xref ref="principle-log-base-and-argument-thinking"/>.
+      This example was chosen to demonstrate that even though the <em>value of <m>x</m> itself</em> is negative (namely, <m>x=-4</m>), the input to the logarithm is positive (namely, <m>4(-4)+25=9</m>), so the logarithm is defined.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of <m>f(x) = \log_5(2x + 30) + \sqrt{30 - 3x}</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Due to the logarithm, we want <m>2x + 30 \gt 0</m>, so we want <m>2x \gt -30</m>, so we want <m>x \gt -15</m>.
+            Due to the square root, we want <m>30 - 3x \ge 0</m>, so we want <m>-3x \ge -30</m>, so we want <m>x \le 10</m>.
+            Combining these two inequalities, we want <m>-15 \lt x \le 10</m>. The domain in interval notation is <m>(-15,10]</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of <m>f(x) = \sqrt{60 + 3x} - \log_4(60 - 3x)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Due to the square root, we want <m>60 + 3x \ge 0</m>, so we want <m>3x \ge -60</m>, so we want <m>x \ge -20</m>.
+            Due to the logarithm, we want <m>60 - 3x \gt 0</m>, so we want <m>-3x \gt -60</m>, so we want <m>x \lt 20</m>.
+            Combining these two inequalities, we want <m>-20 \le x \lt 20</m>. The domain in interval notation is <m>[-20,20)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of <m>f(x) = \ln(2x + 100) + \frac{x^2 - 25}{x^2 - 9}</m>
+          </p>
+        </statement>
+      </example>
+      <answer>
+        <p>
+          Recall that <m>\ln(2x+100)</m> is just shorthand for <m>\Log_e(2x+100)</m>, and when finding domain, this should be treated just like any other logarithm. 
+          Due to the logarithm, we want <m>2x + 100 \gt 0</m>, so we want <m>2x \gt -100</m>, so we want <m>x \gt -50</m>.
+          Due to the fraction, we don't want the denominator to equal zero, so we don't want <m>x^2 - 9 = 0</m>, so we don't want <m>(x+3)(x-3)=0</m> so we don't want <m>x+3=0</m> or <m>x-3=0</m>, so we don't want <m>x = -3</m> or <m>x = 3</m>.
+          Combining these two restrictions, we want <m>x \gt -50</m> and <m>x \ne \pm 3</m>. 
+          The domain in interval notation is <m>(-50,-3) \cup (-3,3) \cup (3,\infty)</m>.
+        </p>
+      </answer>
+      Note that we don't need to consider the numerator of the fraction when finding domain, because the numerator can equal zero without creating any issues.
+    </p>      
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Find the domain of <m>f(x) = \frac{\sqrt{2x + 100}}{2x - 18} + \frac{\log_4(30-3x)}{x + 100}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Due to the square root, we want <m>2x + 100 \ge 0</m>, so we want <m>2x \ge -100</m>, so we want <m>x \ge -50</m>.
+            Due to the first denoimnator, we don't want <m>2x - 18 = 0</m>, so we don't want <m>2x = 18</m>, so we don't want <m>x = 9</m>.
+            Due to the logarithm, we want <m>30 - 3x \gt 0</m>, so we want <m>-3x \gt -30</m>, so we want <m>x \lt 10</m>.
+            Due to the second denominator, we don't want <m>x + 100 = 0</m>, so we don't want <m>x = -100</m>.
+            Combining these four restrictions, we want <m>-50 \le x \lt 10</m> and <m>x \ne 9</m> and <m>x \ne -100</m>.
+            But the fact that <m>x \ne -100</m> is irrelevant, because <m>x \ge -50</m> already excludes <m>x=-100</m>.
+            So we want <m>-50 \le x \lt 10</m> and <m>x \ne 9</m>.
+            The domain in interval notation is <m>[-50,9) \cup (9,10)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    
 
   </subsection>
   
 	<subsection>
 		<title>Solving equations</title>
 
-    circle trick (both directions)
 
-    <m>\log_2(x+9)=4</m>
+    <p>
+      We now discuss several kinds of equations that can be solved that involve logarithms.
+      Some of the equations mention logarithms at the very beginning.
+      In other examples, we introduce logarithms as a tool to help solve the equation.
+    </p>
+    <p>
+      Recall that in <xref ref="principle-log-function-facts"/>, we learned that the domain of <m>y=\log_b(x)</m> is <m>(0,\infty)</m>.
+      To say the same information more directly, in <xref ref="principle-log-of-zero-or-negative"/>, we saw that the logarithm of zero or any negative number is undefined.
+      In other words, we can only take the logarithm (in any base) of a <em>positive</em> number.
+      This creates an important expectation that we must follow whenever our original equation involves logarithms: the input to any logarithm must be positive.
+      <principle xml:id="principle-check-log-equation">
+        <statement>
+          <p>
+            If we are asked to solve an equation, and the original equation has one or more logarithms in it,
+            every solution must be checked to ensure that the input to each logarithm is greater than zero.
+          </p>
+        </statement>
+      </principle>
+    </p>
 
-    logs are one-to-one
+    <p>
+      When we first introduced the Circle Trick in <xref ref="principle-circle-trick"/> one of our first practice exercises was <xref ref="solve-using-circle-trick"/>.
+      In that exercise, we turned the equation <m>2^x = 9</m> into <m>\log_2(9)=x</m>.
+      What we didn't point out then was that this ends up solving the equation! We have the variable <m>x</m> isolated on one side of the equation.
+      If we wish to, we can switch the two sides of the equation and have <m>x = \log_2(9)</m>.
+    </p>
+    
+    <p>
+      <example>
+        <p>
+          Solve <m>3^x=22</m>.
+        </p>
+      </example>
+      <answer>
+        <p>
+          By applying the Circle Trick, <m>\log_3(22) = x</m>.
+        </p>
+      </answer>
+    </p>
 
+    <p>
+      <example>
+        <p>
+          Solve <m>4^{5x+6}=7</m>.
+        </p>
+      </example>
+      <answer>
+        <p>
+          By applying the Circle Trick, <m>\log_4(7) = 5x+6</m>.
+          Subtracting <m>6</m> from both sides, <m>\log_4(7) - 6 = 5x</m>.
+          Dividing both sides by <m>5</m>, we get <m>\frac{\log_4(7) - 6}{5} = x</m>.
+        </p>
+        <p>
+          It is fine to leave our answer as <m>\frac{\log_4(7) - 6}{5} = x</m> on paper, but if we need to input this answer electronically, 
+          we can use the special case of the Change of Base formula from <xref ref="principle-change-of-base-special"/> to rewrite the logarithmic portion of our answer, and have <m>\frac{\frac{\ln(7)}{\ln(4)}-6}{5} = x</m>.
+        </p>
+      </answer>
+    </p>
+
+    <p>
+      <example>
+        <p>
+          Solve <m>5^{2x-3}=12</m>.
+        </p>
+      </example>
+      <answer>
+        <p>
+          By applying the Circle Trick, <m>\log_5(12) = 2x-3</m>.
+          Adding <m>3</m> to both sides, <m>\log_5(12) + 3 = 2x</m>.
+          Dividing both sides by <m>2</m>, we get <m>\frac{\log_5(12) + 3}{2} = x</m>.
+        </p>
+      </answer>
+      Note that <m>\log_5(12)+3 \ne \log_5(12+3)</m>.
+    </p>
+
+    <p>
+      When we first learnd the Circle Trick in <xref ref="principle-circle-trick"/>, we turned exponential equations into logarithmic equations.
+      That is, we turned an equation like <m>b^r = s</m> into <m>\log_b(s) = r</m>.
+      But we can also go in the other direction, turning a logarithmic equation into an exponential equation.
+    </p>    
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>\log_5(x) = 2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying the Circle Trick, <m>5^2 = x</m>. So <m>x=25</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=25</m> implies that the input to each logarithm is greater than zero.
+            The input to the logarithm is <m>x</m>, and<m>x=25 \gt 0</m>, so the solution is valid.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>\log_2(x+9)=4</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying the Circle Trick, <m>2^4 = x+9</m>. So <m>16 = x+9</m>, which means <m>x=7</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=7</m> implies that the input to each logarithm is greater than zero.
+            The input to the logarithm is <m>x+9</m>, and <m>x+9=7+9=16 \gt 0</m>, so the solution is valid.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>\log_3(6x-5)+7=9</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Subtracting <m>7</m> on both sides, <m>\log_3(6x-5) = 2</m>.
+            Applying the Circle Trick, <m>3^{2} = 6x-5</m>. So <m>3^2 = 6x-5</m>, which means <m>9 = 6x-5</m>, and thus <m>6x = 14</m>, giving <m>x = \frac{14}{6} = \frac{7}{3}</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=\frac{7}{3}</m> implies that the input to each logarithm is greater than zero.
+            The input to the logarithm is <m>6x-5</m>, and <m>6\cdot\frac{7}{3}-5=14-5=9 \gt 0</m>, so the solution is valid.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      Since the graph of an exponential function passes the Horizontal Line Test, the function <m>f(x)=b^x</m> is one-to-one, so we saw in <xref ref="principle-solve-exponential-one-to-one"/> we saw that we can go from <m>b^c=b^d</m> to <m>c=d</m>.
+      Our first example of applying this technique was <xref ref="example-solve-one-to-one-exponential"/> where our first step turned <m>2^{3x+1} = 2^{5x-7}</m> into <m>3x+1=5x-7</m>.
+      Since the graph of a logarithmic function passes the Horizontal Line Test, the function <m>f(x)=\log_b(x)</m> is one-to-one, so we can go from <m>\log_b(c)=\log_b(d)</m> to <m>c=d</m>:
+      <principle xml:id="principle-solve-logarithmic-one-to-one">
+        <statement>
+          <p>
+            If <m>\log_b(c)=\log_b(d)</m>, then <m>c=d</m>.
+          </p>
+          <p>
+            Given an equation where each side consists of a logarithm only, if the bases are the same, we can set the inputs equal.
+          </p>
+        </statement>
+      </principle>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_4(10x - 5) = \log_4(2x + 19)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since each side of the equation consists of a logarithm of the same base (and nothing else), we apply <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs equal: <m>10x - 5 = 2x + 19</m>.
+            Then <m>8x = 24</m>, so <m>x = 3</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=3</m> implies that the input to each logarithm is greater than zero.
+            The input to the first logarithm is <m>10x-5</m>, and <m>10(3)-5=30-5=25 \gt 0</m>.
+            The input to the second logarithm is <m>2x+19</m>, and <m>2(3)+19=6+19=25 \gt 0</m>.
+            Since <m>x=3</m> implies that the input to each logarithm is greater than zero, <m>x=3</m> is a solution.
+          </p>
+        </answer>
+      </example>
+    </p>    
+
+    <p>
+      <example xml:id="positive-x-non-positive-inputs">
+        <statement>
+          <p>
+            Solve the equation <m>\ln(8-2x) = \ln(2x-16)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            A natural logarithm is just a logarithm with base <m>e</m>, so we can apply <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs equal: <m>8-2x = 2x-16</m>.
+            Then <m>4x = 24</m>, so <m>x = 6</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=6</m> implies that the input to each logarithm is greater than zero.
+            The input to the first logarithm is <m>8-2x</m>, and <m>8-2(6)=8-12=-4</m> which is not greater than zero.
+            We actually don't even have to bother to check the input to the second logarithm. (If we did, we'd see that the input to the second logarithm is <m>2x-16</m>, and <m>2(6)-16=12-16=-4</m> which is also not greater than zero.)
+            So <m>x=6</m> is not a solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example xml:id="non-positive-x-positive-inputs">
+        <statement>
+          <p>
+            Solve the equation <m>\log_{9}(31+3x) = \log_9(-4x-18)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We apply <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs equal: <m>31+3x = -4x-18</m>.
+            Then <m>7x = -49</m>, so <m>x = -7</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that <m>x=-7</m> implies that the input to each logarithm is greater than zero.
+            The input to the first logarithm is <m>31+3x</m>, and <m>31+3(-7)=31-21=10</m> which is greater than zero.
+            The input to the second logarithm is <m>-4x-18</m>, and <m>-4(-7)-18=28-18=10</m> which is also greater than zero.
+            So <m>x=-7</m> is a solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      Note that in <xref ref="positive-x-non-positive-inputs"/>, we found a positive value of <m>x</m> that was not a solution (because the requirement that the input to each logarithm is greater than zero was not satisfied), 
+      and in <xref ref="non-positive-x-positive-inputs"/>, we found a value of <m>x</m> that was not greater than zero that was a solution (because the requirement that the input to each logarithm is greater than zero was satisfied).
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log(x^2-3x-10) = \log(2-2x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Both sides did not mention the base of the logarithm. The equation presented is acutally shorthand for <m>\log_{10}(x^2-3x-10) = \log_{10}(2-2x)</m>.
+            We apply <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs equal: <m>x^2-3x-10 = 2-2x</m>.
+            Rearranging, <m>x^2-x-12=0</m>. So <m>(x+3)(x-4)=0</m>, and thus <m>x=-3</m> or <m>x=4</m>.
+          </p>
+          <p>
+            Since the original equation mentioned logarithms, <xref ref="principle-check-log-equation"/> applies, and so we must check that each solution implies that the input to each logarithm is greater than zero:
+            <ul>
+              <li>
+                For <m>x=-3</m>, the input to the first logarithm is <m>(-3)^2-3(-3)-10=9+9-10=8 \gt 0</m>, and the input to the second logarithm is <m>2-2(-3)=2+6=8 \gt 0</m>, so <m>x=-3</m> is a solution.
+              </li>
+              <li>
+                For <m>x=4</m>, the input to the first logarithm is <m>(4)^2-3(4)-10=16-12-10=-6</m> which is not greater than zero, so <m>x=4</m> is not a solution.
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
   </subsection>
   
   <subsection>
@@ -72,88 +680,67 @@
     <example>
       <statement>
         <p>
-          Text
+          Given <m>A = 1000</m> and <m>r=0.04</m> and <m>P=850</m>, solve for <m>t</m> in <m>A=Pe^{rt}</m>. 
         </p>
       </statement>
-      <solution>
+      <answer>
         <p>
-          Answer
+          <m>1000 = 850 e^{0.04t}</m>
         </p>
-      </solution>
+        <p>
+          We must follow the order of operations. Note that the exponent <m>0.04t</m> does not apply to the <m>850</m>, so we first divide both sides by <m>850</m> to isolate the exponential expression:
+          <me>\frac{1000}{850} = e^{0.04t}.</me>
+          Visually, it is helpful to swap the two sides of the equation:
+          <me>e^{0.04t} = \frac{1000}{850}.</me>
+          Applying the Circle Trick,
+          <me>\log_e(\frac{1000}{850}) = 0.04t.</me>
+          Dividing both sides by <m>0.04</m>, we have
+          <me>\frac{\log_e(\frac{1000}{850})}{0.04}=t.</me>
+          Our final answer can be left like this, but we can also apply the shorthand notation for a base <m>e</m> logarithm, in which case the last two lines of work would be written:
+          <me>\ln(\frac{1000}{850}) = 0.04t.</me>
+          <me>\frac{\ln(\frac{1000}{850})}{0.04}=t.</me>
+        </p>
+      </answer>
     </example>
 
-  </subsection>
+    <example>
+      <statement>
+        <p>
+          A biologist finds a fossil and wants to determine how old it is.  The biologist knows that the half-life of carbon-14 is 5730 years, and that the fossil has <m>25\%</m> of its original carbon-14 remaining.  How old is the fossil?
+        </p>
+      </statement>
+      <answer>
+        <p>
+          We use <m>N = N_0 e^{kt}</m> to model the decay of carbon-14, where <m>N_0</m> is the original amount of carbon-14, <m>N</m> is the amount of carbon-14 remaining after <m>t</m> years, and <m>k</m> is a constant.
+          We know that the half-life of carbon-14 is 5730 years, so we can use this information to find <m>k</m>.
+          We know that <m>N = \frac{N_0}{2}</m> when <m>t = 5730</m>, so we can plug these values into the equation:
+          <me>\frac{N_0}{2} = N_0 e^{k(5730)}.</me>
+          Dividing both sides by <m>N_0</m>, we have 
+          <me>\frac{1}{2} = e^{5730k}.</me>
+          Swapping the two sides of the equation,
+          <me>e^{5730k} = \frac{1}{2}.</me>
+          Applying the Circle Trick,
+          <me>\ln(\frac{1}{2}) = 5730k.</me>
+          Dividing both sides by <m>5730</m>, we have
+          <me>\frac{\ln(\frac{1}{2})}{5730} = k.</me>
+        </p>
+        <p>
+          Now, our updated decay equation is <m>N = N_0 e^{\frac{\ln(\frac{1}{2})}{5730}t}</m>.
+          To find out how old the fossil is, we now look at the information that the fossil has <m>25\%</m> of its original carbon-14 remaining.  This means that <m>N = \frac{N_0}{4}</m>.
+          Plugging this into the updated decay equation, we have
+          <me>\frac{N_0}{4} = N_0 e^{\frac{\ln(\frac{1}{2})}{5730}t}.</me>
+          Dividing both sides by <m>N_0</m>, we have
+          <me>\frac{1}{4} = e^{\frac{\ln(\frac{1}{2})}{5730}t}.</me>
+          Swapping the two sides of the equation,
+          <me>e^{\frac{\ln(\frac{1}{2})}{5730}t} = \frac{1}{4}.</me>
+          Applying the Circle Trick,
+          <me>\ln(\frac{1}{4}) = \frac{\ln(\frac{1}{2})}{5730}t.</me>
+          Dividing both sides by <m>\frac{\ln(\frac{1}{2})}{5730}</m>, we have
+          <me>\frac{\ln(\frac{1}{4})}{\frac{\ln(\frac{1}{2})}{5730}} = t.</me>
+        </p>
+      </answer>
+    </example>
 
-	<subsection>
-		<title>Summary</title>
-
-    <p>
-      <ol>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-        <li>
-          <p>
-            Summary point.
-          </p>
-        </li>
-      </ol>
-    
-    </p>
-  </subsection>
-
-  <subsection>
-		<title>Exercises</title>
-
-    <!-- Construct 20 exercises written in PreTeXt format, gradually increasing the difficulty, which has the student practices taking a given fraction and writing a fraction of equal value with a different denominator. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). For example: What fraction is equal to <m>\frac34</m> but has <m>8</m> in the denominator? -->
-
-    <!-- Construct a set of 40 exercises written in PreTeXt format, gradually increasing the difficulty, on simplifying addition, subtraction, multiplication, and division of fractions. As the difficulty increases, gradually include examples in which variables appear (but none that include quadratic factoring). Also gradually include examples where students have to think about the Order of Operations (by having addition or subtraction appear BEFORE multiplication or division in written form, but the multiplication or division needs to be simplified first), but also include the occasional example where parentheses force the addition or subtraction get simplified first. In the most challenging examples, students should have to handle more than two operations in fractional expressions that include variables. Make each question a list item. For example: <li><p>Simplify<m>\frac{3}{2} + \frac{2}{7}</m></p></li> -->
-
-    <!-- Construct a set of 20 exercises written in PreTeXt format which are applications of simplifying addition, subtraction, multiplication, and division of fractions. Write questions on varying topics to create as much appeal to a diverse set of students, while at the same time making the problems universally understandable. These problems may include quantities presented as mixed fractions, but don't have to. Make each question a list item. Here is a baking example: <li><p>A baking recipe calls for <m>5\frac{1}{4}</m> cups of flour. The recipe says that it serves <m>10</m>. You are hosting a party where <m>35</m> people will attend, so you need to make <m>3\frac{1}{2}</m> times the recipe. How many cups of flour do you need?</p></li> -->
-
-    <p>
-      <ol>
-
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-        <li>
-          <p>
-            Text.
-            <ol>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-              <li><p>Subpart</p></li>
-            </ol>
-          </p>
-        </li>
-
-      </ol>
-    </p>
   </subsection>
 
 </section>

@@ -408,7 +408,7 @@
     </p>
 
     <p>
-      <example>
+      <example xml:id="example-solve-one-to-one-exponential">
         <statement>
           <p>
             Solve the equation <m>2^{7x+1} = 2^{3x-20}</m>
