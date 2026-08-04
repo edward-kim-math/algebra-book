@@ -13,4 +13,5 @@
   <xi:include href="sec-exponential-functions.ptx" />
   <xi:include href="sec-logarithms.ptx" />
   <xi:include href="sec-graphs-domain-initial-equations.ptx" />
+  <xi:include href="sec-logarithm-properties.ptx" />
 </chapter>
