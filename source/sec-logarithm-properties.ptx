@@ -159,119 +159,234 @@
   <subsection>
     <title>Solving equations using Laws of Logarithms</title>
 
-    <example>
-      <statement>
-        <p>
-          Solve the equation <m>\log_2(x-6) + \log_2(x-3) = \log_2(4)</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          In <xref ref="principle-solve-logarithmic-one-to-one"/>, we saw that if <m>\log_b(c)=\log_b(d)</m>, then <m>c=d</m>. 
-          We cannot use this property right away because the left side of the equation is not a single logarithm.
-        </p>
-        <p>
-          We can use the Laws of Logarithms to combine the two logarithms on the left side into one logarithm:
-          <me>\log_2((x-6)(x-3)) = \log_2(4)</me>
-          Now we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
-          <me>(x-6)(x-3) = 4</me>
-          Expanding the left side and moving all terms to one side gives:
-          <me>x^2 - 9x + 18 = 4</me>
-          Subtracting <m>4</m> on both sides,
-          <me>x^2 - 9x + 14 = 0</me>
-          Factoring the left side gives:
-          <me>(x-7)(x-2) = 0</me>
-          Applying the Zero Product Property,
-          <me>x-7=0 \text{ or } x-2=0</me>
-          So
-          <me>x=7 \text{ or } x=2</me>
-        </p>
-        <p>
-          Since the original equation has logarithms, we must check for extraneous solutions based on <xref ref="principle-check-log-equation"/>.
-          <ul>
-            <li>
-              <p>
-                Is <m>x=7</m> a solution? The input to the first logarithm is <m>7-6=1</m> and the input to the second logarithm is <m>7-3=4</m> and the input to the third logarithm is <m>4</m>. The inputs to all three logarithms are positive, so <m>x=7</m> is a solution.
-              </p>
-            </li>
-            <li>
-              <p>
-                Is <m>x=2</m> a solution? The input to the first logarithm is <m>2-6=-4</m> and the input to the second logarithm is <m>2-3=-1</m> and the input to the third logarithm is <m>4</m>. Because not all inputs are positive, <m>x=2</m> is not a solution.
-              </p>
-            </li>
-          </ul>
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Solve <m>\ln(2) + \ln(x+6)=\ln(10)+\ln(x-1)</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          We can use the Laws of Logarithms to rewrite the left side as <m>\ln(2(x+6))</m>.
-          We can also use the Laws of Logarithms to rewrite the right side as <m>\ln(10(x-1))</m>.  So we have:
-          <me>\ln(2(x+6)) = \ln(10(x-1))</me>
-          Since we now have a single logarithm on each side (of the same base, namely <m>e</m>), we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
-          <me>2(x+6) = 10(x-1)</me>
-          Expanding both sides gives:
-          <me>2x + 12 = 10x - 10</me>
-          Subtracting <m>2x</m> from both sides gives:
-          <me>12 = 8x - 10</me>
-          Adding <m>10</m> to both sides gives:
-          <me>22 = 8x</me>
-          Dividing both sides by <m>8</m> gives:
-          <me>x = \frac{22}{8} = \frac{11}{4}</me>
-        </p>
-        <p>
-          Because the original equation had logarithms, we check to see if <m>x=\frac{11}{4}</m> is a solution.  
-          The input to the first logarithm is <m>2</m>, the input to the second logarithm is <m>\frac{11}{4}+6 = \frac{35}{4}</m>, the input to the third logarithm is <m>10</m>, and the input to the fourth logarithm is <m>\frac{11}{4}-1 = \frac{7}{4}</m>.  
-          All inputs are positive, so <m>x=\frac{11}{4}</m> is a solution.
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Solve <m>\ln(x-3) + \ln(x+1) = \ln(x+7)</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          We can use the Laws of Logarithms to rewrite the left side as <m>\ln((x-3)(x+1))</m>.  So we have:
-          <me>\ln((x-3)(x+1)) = \ln(x+7)</me>
-          Since we now have a single logarithm on each side (of the same base, namely <m>e</m>), we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
-          <me>(x-3)(x+1) = x+7</me>
-          Expanding the left side gives:
-          <me>x^2 - 2x - 3 = x + 7</me>
-          Subtracting <m>x + 7</m> from both sides gives:
-          <me>x^2 - 3x - 10 = 0</me>
-          Factoring the left side gives:
-          <me>(x-5)(x+2) = 0</me>
-          Applying the Zero Product Property,
-          <me>x-5=0 \text{ or } x+2=0</me>
-          So
-          <me>x=5 \text{ or } x=-2</me>
-        </p>
-        <p>
-          We check to see if <m>x=5</m> is a solution.  The input to the first logarithm is <m>5-3=2</m>, the input to the second logarithm is <m>5+1=6</m>, and the input to the third logarithm is <m>5+7=12</m>.  All inputs are positive, so <m>x=5</m> is a solution.
-        </p>
-        <p>
-          We check to see if <m>x=-2</m> is a solution.  The input to the first logarithm is <m>-2-3=-5</m>, the input to the second logarithm is <m>-2+1=-1</m>, and the input to the third logarithm is <m>-2+7=5</m>.  Not all inputs are positive, so <m>x=-2</m> is not a solution.
-        </p>
-        <p>
-          So the only solution to the equation is <m>x=5</m>.
-        </p>
-      </answer>
-    </example>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_2(x-6) + \log_2(x-3) = \log_2(4)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            In <xref ref="principle-solve-logarithmic-one-to-one"/>, we saw that if <m>\log_b(c)=\log_b(d)</m>, then <m>c=d</m>. 
+            We cannot use this property right away because the left side of the equation is not a single logarithm.
+          </p>
+          <p>
+            We can use the Laws of Logarithms to combine the two logarithms on the left side into one logarithm:
+            <me>\log_2((x-6)(x-3)) = \log_2(4)</me>
+            Now we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
+            <me>(x-6)(x-3) = 4</me>
+            Expanding the left side and moving all terms to one side gives:
+            <me>x^2 - 9x + 18 = 4</me>
+            Subtracting <m>4</m> on both sides,
+            <me>x^2 - 9x + 14 = 0</me>
+            Factoring the left side gives:
+            <me>(x-7)(x-2) = 0</me>
+            Applying the Zero Product Property,
+            <me>x-7=0 \text{ or } x-2=0</me>
+            So
+            <me>x=7 \text{ or } x=2</me>
+          </p>
+          <p>
+            Since the original equation has logarithms, we must check for extraneous solutions based on <xref ref="principle-check-log-equation"/>.
+            <ul>
+              <li>
+                <p>
+                  Is <m>x=7</m> a solution? The input to the first logarithm is <m>7-6=1</m> and the input to the second logarithm is <m>7-3=4</m> and the input to the third logarithm is <m>4</m>. The inputs to all three logarithms are positive, so <m>x=7</m> is a solution.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Is <m>x=2</m> a solution? The input to the first logarithm is <m>2-6=-4</m> and the input to the second logarithm is <m>2-3=-1</m> and the input to the third logarithm is <m>4</m>. Because not all inputs are positive, <m>x=2</m> is not a solution.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      
+      <example>
+        <statement>
+          <p>
+            Solve <m>\ln(2) + \ln(x+6)=\ln(10)+\ln(x-1)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can use the Laws of Logarithms to rewrite the left side as <m>\ln(2(x+6))</m>.
+            We can also use the Laws of Logarithms to rewrite the right side as <m>\ln(10(x-1))</m>.  So we have:
+            <me>\ln(2(x+6)) = \ln(10(x-1))</me>
+            Since we now have a single logarithm on each side (of the same base, namely <m>e</m>), we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
+            <me>2(x+6) = 10(x-1)</me>
+            Expanding both sides gives:
+            <me>2x + 12 = 10x - 10</me>
+            Subtracting <m>2x</m> from both sides gives:
+            <me>12 = 8x - 10</me>
+            Adding <m>10</m> to both sides gives:
+            <me>22 = 8x</me>
+            Dividing both sides by <m>8</m> gives:
+            <me>x = \frac{22}{8} = \frac{11}{4}</me>
+          </p>
+          <p>
+            Because the original equation had logarithms, we check to see if <m>x=\frac{11}{4}</m> is a solution.  
+            The input to the first logarithm is <m>2</m>, the input to the second logarithm is <m>\frac{11}{4}+6 = \frac{35}{4}</m>, the input to the third logarithm is <m>10</m>, and the input to the fourth logarithm is <m>\frac{11}{4}-1 = \frac{7}{4}</m>.  
+            All inputs are positive, so <m>x=\frac{11}{4}</m> is a solution.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>\ln(x-3) + \ln(x+1) = \ln(x+7)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can use the Laws of Logarithms to rewrite the left side as <m>\ln((x-3)(x+1))</m>.  So we have:
+            <me>\ln((x-3)(x+1)) = \ln(x+7)</me>
+            Since we now have a single logarithm on each side (of the same base, namely <m>e</m>), we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
+            <me>(x-3)(x+1) = x+7</me>
+            Expanding the left side gives:
+            <me>x^2 - 2x - 3 = x + 7</me>
+            Subtracting <m>x + 7</m> from both sides gives:
+            <me>x^2 - 3x - 10 = 0</me>
+            Factoring the left side gives:
+            <me>(x-5)(x+2) = 0</me>
+            Applying the Zero Product Property,
+            <me>x-5=0 \text{ or } x+2=0</me>
+            So
+            <me>x=5 \text{ or } x=-2</me>
+          </p>
+          <p>
+            We check to see if <m>x=5</m> is a solution.  The input to the first logarithm is <m>5-3=2</m>, the input to the second logarithm is <m>5+1=6</m>, and the input to the third logarithm is <m>5+7=12</m>.  All inputs are positive, so <m>x=5</m> is a solution.
+          </p>
+          <p>
+            We check to see if <m>x=-2</m> is a solution.  The input to the first logarithm is <m>-2-3=-5</m>, the input to the second logarithm is <m>-2+1=-1</m>, and the input to the third logarithm is <m>-2+7=5</m>.  Not all inputs are positive, so <m>x=-2</m> is not a solution.
+          </p>
+          <p>
+            So the only solution to the equation is <m>x=5</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
 
     <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_8(-x+2)+\log_8(x+6) = \log_8(3-4x)</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can use the Laws of Logarithms to combine the two logarithms on the left side into one logarithm:
+            <me>\log_8((-x+2)(x+6)) = \log_8(3-4x)</me>
+            Now we can use the property from <xref ref="principle-solve-logarithmic-one-to-one"/> to set the inputs of the logs on each side equal to each other:
+            <me>(-x+2)(x+6) = 3-4x</me>
+            Expanding the left side
+            <me>-x^2 - 4x + 12 = 3-4x</me>
+            <me>-x^2 - 4x + 12 - 3 + 4x = 0</me>
+            <me>-x^2 + 9 = 0</me>
+            Multipyling both sides by <m>-1</m> gives:
+            <me>x^2 - 9 = 0</me>
+            <me>(x-3)(x+3) = 0</me>
+            So
+            <me>x=3 \text{ or } x=-3</me>
+          </p>
+          <p>
+            We have to check to ensure that all inputs to logarithms are positive.
+            <ul>
+              <li>
+                <p>
+                  Is <m>x=3</m> a solution? The input to the first logarithm is <m>-3+2=-1</m>, the input to the second logarithm is <m>3+6=9</m>, and the input to the third logarithm is <m>3-4(3)=-9</m>.  Not all inputs are positive, so <m>x=3</m> is not a solution.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Is <m>x=-3</m> a solution? The input to the first logarithm is <m>-(-3)+2=5</m>, the input to the second logarithm is <m>-3+6=3</m>, and the input to the third logarithm is <m>-3-4(-3)=9</m>.  All inputs are positive, so <m>x=-3</m> is a solution.
+                </p>
+              </li>
+            </ul>
+            So <m>x=-3</m> is the only solution to the equation.
+          </p>
+        </answer>
+      </example>
+      In this example, one value of <m>x</m> was positive and one was not positive. The value of <m>x</m> that was positive created non-positive inputs to the logarithms, so it was not a solution.
+      The value of <m>x</m> that was negative created positive inputs to the logarithms, so it was a solution.
+      This example was specifically chosen to illustrate that it is not about the sign of <m>x</m> itself, but about the sign of the inputs to the logarithms.
+    </p>
 
-      Less typical: <m>2^{3x+4} = 5^{2x-1}</m> or <m>3^{2x+1} = 7^{x-2}</m>
+
+    <p>
+      We saw in <xref ref="principle-solve-exponential-one-to-one"/> the technique that said that if <m>b^c=b^d</m>, then <m>c=d</m>.
+      For example, in <xref ref="example-solve-one-to-one-exponential"/>, we started with <m>2^{7x+1} = 2^{3x-20}</m> and had <m>7x+1=3x-20</m> as our next step.
+      In <xref ref="example-solve-one-to-one-exponential-change-base"/>, we started with <m>2^{10x+2} = 8^{2x-1}</m> and could not apply <xref ref="principle-solve-exponential-one-to-one"/> directly, 
+      so we rewrote the <m>8</m> as <m>2^3</m>, making the equation <m>2^{10x+2} = (2^3)^{2x-1}</m> so <m>2^{10x+2} = 2^{3(2x-1)}</m>, and then we applied <xref ref="principle-solve-exponential-one-to-one"/> to et <m>10x+2=3(2x-1)</m>.
+    </p> 
+    <p>
+      We were fortunate in <xref ref="example-solve-one-to-one-exponential-change-base"/> that even though the original equation didn't have the same base on each side, <m>8=2^3</m> so with some exponent rules, we were able to rewrite the equation so that we eventually had an equation with the same base on each side.
+      However, what could we do if instead of <m>2^{7x+1} = 8^{2x-1}</m>, we had <m>2^{7x+1} = 5^{2x-1}</m>?
+      In this example, the <m>5</m> cannot be rewritten as a power of <m>2</m>, so we cannot rewrite the equation so that we have the same base on each side.
+      In this case, we can use logarithms to solve the equation: we use a technique of taking the logarithm of both sides of the equation, and then using the Laws of Logarithms to simplify the resulting equation.
+      While we can choose any base we want for the logarithm, it will be convenient (due to less writing) to pick a natural logarithm.
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>2^{7x+1} = 5^{2x-1}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Apply the natural logarithm to both sides of the equation:
+            <me>\ln(2^{7x+1}) = \ln(5^{2x-1})</me>
+            Using the Laws of Logarithms, we can move the exponents to the front:
+            <me>(7x+1)\ln(2) = (2x-1)\ln(5)</me>
+            Notice the need to insert parentheses around <m>7x+1</m> and around <m>2x-1</m> due to Order of Operations.
+            While a function such as <m>\ln(x)</m> does not distribute, the number <m>\ln(2)</m> does distribute over the sum <m>7x+1</m> and the number <m>\ln(5)</m>  distributes over the sum <m>2x-1</m>.
+            <me>7x\ln(2) + \ln(2) = 2x\ln(5) - \ln(5)</me>
+            Now we get all terms with <m>x</m> on one side and all terms without <m>x</m> on the other side:
+            <me>7x\ln(2) - 2x\ln(5) = -\ln(2) - \ln(5)</me>
+            Factor out <m>x</m> on the left side:
+            <me>x(7\ln(2) - 2\ln(5)) = -\ln(2) - \ln(5)</me>
+            Divide both sides by <m>7\ln(2) - 2\ln(5)</m>:
+            <me>x = \dfrac{-\ln(2) - \ln(5)}{7\ln(2) - 2\ln(5)}</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>4^{5x-6} = 7^{8x+9}</m>
+          </p>
+        </statement>
+      </example>
+      <answer>
+        <p>
+          Apply the natural logarithm to both sides of the equation:
+          <me>\ln(4^{5x-6}) = \ln(7^{8x+9})</me>
+          Using the Laws of Logarithms, we can move the exponents to the front:
+          <me>(5x-6)\ln(4) = (8x+9)\ln(7)</me>
+          Notice the need to insert parentheses around <m>5x-6</m> and around <m>8x+9</m> due to Order of Operations.
+          Distribute the number <m>\ln(4)</m>, and distribute the number  <m>\ln(7)</m>:
+          <me>5x\ln(4) - 6\ln(4) = 8x\ln(7) + 9\ln(7)</me>
+          Now we get all terms with <m>x</m> on one side and all terms without <m>x</m> on the other side:
+          <me>5x\ln(4) - 8x\ln(7) = 9\ln(7) + 6\ln(4)</me>
+          Factor out <m>x</m> on the left side:
+          <me>x(5\ln(4) - 8\ln(7)) = 9\ln(7) + 6\ln(4)</me>
+          Divide both sides by <m>5\ln(4) - 8\ln(7)</m>:
+          <me>x = \dfrac{9\ln(7) + 6\ln(4)}{5\ln(4) - 8\ln(7)}</me>
+        </p>
+      </answer>
     </p>
 
 
@@ -280,95 +395,114 @@
   <subsection>
     <title>Simplifying expressions</title>
 
-    <principle xml:id="principle-log-exp-inverse-formulas">
-      <statement>
-        <p>
-          <m>b^{\log_{b}(x)} = x</m>
-        </p>
-        <p>
-          <m>\log_b(b^x) = x</m>
-        </p>
-      </statement>
-    </principle>
+    <p>
+      Since <m>f(x) = b^x</m> and <m>g(x) = \log_b(x)</m> are inverse functions, we can write <xref ref="principle-compose-one-to-one"/> specifically for these two functions:
+      <principle xml:id="principle-log-exp-inverse-formulas">
+        <statement>
+          <p>
+            <m>b^{\log_{b}(x)} = x</m>
+          </p>
+          <p>
+            <m>\log_b(b^x) = x</m>
+          </p>
+        </statement>
+      </principle>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>5^{\log_5(k)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>5^{\log_5(k)}=k</m>
+          </p>
+          <p>
+            This is a quick application of <m>b^{\log_{b}(x)} = x</m> in <xref ref="principle-log-exp-inverse-formulas"/>, where <m>b=5</m> and <m>x=k</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>5^{\log_5(k+6)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression is equal to <m>k+6</m>
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>2^{10 \log_2(m)}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>2^{10 \log_2(m)} = 2^{\log_2(m^{10})} = m^{10}</m>
+          </p>
+          <p>
+            In turning the first expression <m>2^{10 \log_2(m)}</m> into the second expression <m>2^{\log_2(m^{10})}</m>, we used the property <m>\log_b(M^p) = p \cdot \log_b(M)</m> from <xref ref="laws-of-logarithms"/> to rewrite the exponent <m>10\log_2(m)</m> as the exponent <m>\log_2(m^{10})</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
 
-    <example>
-      <statement>
-        <p>
-          Simplify <m>5^{\log_5(k)}</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_3(3^{u})</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression is equal to <m>u</m>.
+          </p>
+          <p>
+            This is a quick application of <m>\log_b(b^x) = x</m> in <xref ref="principle-log-exp-inverse-formulas"/>, where <m>b=3</m> and <m>x=u</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
 
-    <example>
-      <statement>
-        <p>
-          Simplify <m>5^{\log_5(k+6)}</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Simplify <m>2^{10 \log_2(m)}</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Simplify <m>\log_3(3^{u})</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Simplify <m>\log_3(3^{u-1})</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
-
-    <example>
-      <statement>
-        <p>
-          Simplify <m>\log_3(3^{u-1})</m>
-        </p>
-      </statement>
-      <answer>
-        <p>
-          Answer
-        </p>
-      </answer>
-    </example>
-
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_3(3^{u-1})</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            The expression is equal to <m>u-1</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+    <p>
+      <example>
+        <statement>
+          <p>
+            Simplify <m>\log_3(9^{u-1})</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\log_3(9^{u-1})=\log_3(3^2^{u-1})=\log_3(3^{2(u-1)})=2(u-1)=2u-2</m>
+          </p>
+        </answer>
+      </example>
+    </p>
 
   </subsection>
 
