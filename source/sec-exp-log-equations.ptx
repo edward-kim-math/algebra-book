@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exp-log-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Equations</title>
+
+	<objectives>
+		<introduction>
+			<p>
+				In this section, we learn how to:
+			</p>
+		</introduction>
+		<ol>
+			<li><p>Solve various equations involving exponential functions.</p></li>
+			<li><p>Solve various equations involving logarithmic functions.</p></li>
+    </ol>
+	</objectives>
+
+	<subsection>
+		<title>Solving equations</title>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>7^{10x+3} = 3^{x-2}</m>       
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying the natural logarithm to both sides, we have
+            <me>\ln(7^{10x+3}) = \ln(3^{x-2})</me>
+            Applying a law of logarithms from <xref ref="laws-of-logarithms"/>,
+            <me>(10x+3)\ln(7) = (x-2)\ln(3)</me>
+            Note that the parentheses are necessary, due to order of operations. Distributing the number <m>\ln(7)</m> on the left and <m>\ln(3)</m> on the right, we have
+            <me>10x\ln(7) + 3\ln(7) = x\ln(3) - 2\ln(3)</me>
+            Rearranging, we have
+            <me>10x\ln(7) - x\ln(3) = -3\ln(7) - 2\ln(3)</me>
+            Factoring out <m>x</m> on the left side, we have
+            <me>x(10\ln(7) - \ln(3)) = -3\ln(7) - 2\ln(3)</me>
+            Dividing both sides by <m>(10\ln(7) - \ln(3))</m>, we have
+            <me>x = \frac{-3\ln(7) - 2\ln(3)}{10\ln(7) - \ln(3)}</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>7^{10x+3} = 49^{x-2}</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying the natural logarithm to both sides, we have
+            <me>\ln(7^{10x+3}) = \ln(49^{x-2})</me>
+            Applying a law of logarithms from <xref ref="laws-of-logarithms"/>,
+            <me>(10x+3)\ln(7) = (x-2)\ln(49)</me>
+            Note that the parentheses are necessary, due to order of operations. Distributing the number <m>\ln(7)</m> on the left and <m>\ln(49)</m> on the right, we have
+            <me>10x\ln(7) + 3\ln(7) = x\ln(49) - 2\ln(49)</me>
+            Rearranging, we have
+            <me>10x\ln(7) - x\ln(49) = -3\ln(7) - 2\ln(49)</me>
+            Factoring out <m>x</m> on the left side, we have
+            <me>x(10\ln(7) - \ln(49)) = -3\ln(7) - 2\ln(49)</me>
+            Dividing both sides by <m>(10\ln(7) - \ln(49))</m>, we have
+            <me>x = \frac{-3\ln(7) - 2\ln(49)}{10\ln(7) - \ln(49)}</me>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            Instead of applying the natural logarithm to both sides, we can rewrite <m>49</m> as <m>7^2</m>.  Then we have
+            <me>7^{10x+3} = (7^2)^{x-2}</me>
+            Applying the law of exponents, we have
+            <me>7^{10x+3} = 7^{2(x-2)}</me>
+            Since the bases are equal, the exponents must be equal as mentioned in <xref ref="principle-solve-exponential-one-to-one"/>:
+            <me>10x+3 = 2(x-2)</me>
+            Distributing the <m>2</m> on the right side, we have
+            <me>10x+3 = 2x-4</me>
+            Rearranging, we have
+            <me>10x - 2x = -4 - 3</me>
+            Simplifying, we have
+            <me>8x = -7</me>
+            Dividing both sides by <m>8</m>, we have
+            <me>x = -\frac{7}{8}</me>
+          </p>
+        </answer>
+      </example>
+      In this example, we are able to take the easier approach of rewriting <m>49</m> as <m>7^2</m> and then applying the law of exponents, rather than applying the natural logarithm to both sides.  This is because we were able to rewrite the right side of the equation with the same base as the left side of the equation.  In general, if we can rewrite both sides of an equation with the same base, we can apply the law of exponents and set the exponents equal to each other.  If we cannot rewrite both sides of an equation with the same base, we can apply the natural logarithm to both sides and then apply a law of logarithms.
+      That wasn't possible in the previous example. This goes to show that while it is a useful tool to take the logarithm on both sides when each side is a base and an exponent, we should think about being decisive for what is the most efficient technique in each given situation.
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve <m>7^{10x+3} = 3</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Taking the natural logarithm of both sides, we have
+            <me>\ln(7^{10x+3}) = \ln(3)</me>
+            Applying the law of logarithms from <xref ref="laws-of-logarithms"/>, we have
+            <me>(10x+3)\ln(7) = \ln(3)</me>
+            Solving for <m>x</m>, we have
+            <me>10x+3 = \frac{\ln(3)}{\ln(7)}</me>
+            <me>10x = \frac{\ln(3)}{\ln(7)} - 3</me>
+            <me>x = \frac{1}{10}\left(\frac{\ln(3)}{\ln(7)} - 3\right)</me>
+          </p>
+        </answer>
+        <answer>
+          <p>
+            Instead of applying the natural logarithm to both sides, we can use the Circle Trick from <xref ref="principle-circle-trick"/>:
+            <me>\log_7(3) = 10x+3</me>
+            Subtracting <m>3</m> from both sides, we have
+            <me>\log_7(3) - 3 = 10x</me>
+            Dividing both sides by <m>10</m>, we have
+            <me>x = \frac{\log_7(3) - 3}{10}</me>
+          </p>
+        </answer>
+      </example>
+      This is another example to show that while taking the natural logarithm on both sides works, it is good to remember that the primary and original technique is the definition of a logarithm, which we called the Circle Trick.
+      It is tempting to ignore the definition of logarithm, but sometimes, it's the <em>only</em> tool that works, as in the following example:
+    </p>
+    
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_2(x+4)=5</m>        
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying the Circle Trick from <xref ref="principle-circle-trick"/>,
+            <me>2^5 = x+4</me>
+            <me>32 = x+4</me>
+            <me>28 = x</me>
+          </p>
+          <p>
+            Since the original equation had logarithms, the expectation mentioned in <xref ref="principle-check-log-equation"/> says we must check that the input to each logarithm is positive.  
+            In this case, <m>x+4 = 28+4 = 32 \gt 0</m>, so the solution is valid.
+          </p>
+        </answer>
+      </example>
+      Note that applying the natural logarithm to both sides would not have worked in this example.
+    </p>
+
+    <p>
+      Let's take the previous equation and change the right side.
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_2(x+4)=\log_2(5-2x)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Since each side has a single logarithm of the same base, we set their inputs equal as mentioned in <xref ref="principle-solve-logarithmic-one-to-one"/>:
+            <me>x+4 = 5-2x</me>
+            Adding <m>2x</m> to both sides:
+            <me>3x+4 = 5</me>
+            Subtracting <m>4</m> from both sides:
+            <me>3x = 1</me>
+            Dividing both sides by <m>3</m>:
+            <me>x = \frac{1}{3}</me>
+          </p>
+          <p>
+            Since the original equation had logarithms, we must check that the input to each logarithm is positive due to <xref ref="principle-check-log-equation"/>.  
+            In this case, <m>x+4 = \frac{1}{3}+4 = \frac{13}{3} \gt 0</m> and <m>5-2x = 5-2\left(\frac{1}{3}\right) = \frac{13}{3} \gt 0</m>, so the solution is valid.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      Let's take the previous equation and add a term to the left side:
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log_2(x+4)+\log_2(x-10)=\log_2(5-2x)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Applying a law of logarithms from <xref ref="laws-of-logarithms"/>, we have
+            <me>\log_2((x+4)(x-10)) = \log_2(5-2x)</me>
+            Since each side has a single logarithm of the same base, we set their inputs equal as we saw in <xref ref="principle-solve-logarithmic-one-to-one"/>:
+            <me>(x+4)(x-10) = 5-2x</me>
+            Expanding the left side:
+            <me>x^2 - 6x - 40 = 5-2x</me>
+            Rearranging:
+            <me>x^2 - 4x - 45 = 0</me>
+            Factoring:
+            <me>(x-9)(x+5) = 0</me>
+            Applying the Zero Product Property from <xref ref="principle-zpp"/>,
+            <me>x-9=0 \text{ or } x+5=0</me>
+            <me>x=9 \text{ or } x=-5</me>
+          </p>
+          <p>
+            As mentioned in <xref ref="principle-check-log-equation"/>, we must check to see if the solutions are valid by checking that the input to each logarithm is positive.
+            <ul>
+              <li>
+                <p>
+                  For <m>x=9</m>, we have <m>x+4 = 9+4 = 13 \gt 0</m>, <m>x-10 = 9-10 = -1 \lt 0</m>, and <m>5-2x = 5-2(9) = -13 \lt 0</m>.  
+                  Since the inputs to the second and third logarithms are not positive, <m>x=9</m> is not a valid solution.
+                </p>
+              </li>
+              <li>
+                <p>
+                  For <m>x=-5</m>, we have <m>x+4 = -5+4 = -1 \lt 0</m>, <m>x-10 = -5-10 = -15 \lt 0</m>, and <m>5-2x = 5-2(-5) = 15 \gt 0</m>.  
+                  Since the inputs to the first and second logarithms are not positive, <m>x=-5</m> is not a valid solution.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </answer>
+      </example>
+    </p>
+    
+  </subsection>
+
+  <subsection>
+    <title>Additional equations</title>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>6e^{2x}=1800</m>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Note that the exponent <m>2x</m> only applies to <m>e</m> and not to <m>6</m> due to the Order of Operations.  Dividing both sides by <m>6</m>, we have
+            <me>e^{2x} = 300</me>
+            Applying the Circle Trick from <xref ref="principle-circle-trick"/>,
+            <me>\log_e(300) = 2x</me>
+            We can optionally rewrite the previous equation:
+            <me>\ln(300) = 2x</me>
+            Dividing both sides by <m>2</m>, we have
+            <me>\frac{\ln(300)}{2}=x</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>e^{2x} - 5e^x + 6 = 0</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can rewrite <m>e^{2x}=e^{x\cdot2} = (e^x)^2</m> due to <xref ref="principle-exponent-rules-1"/>.  Then the equation becomes:
+            <me>(e^x)^2 - 5e^x + 6 = 0</me>
+            This is a quadratic equation in <m>e^x</m>.  Let <m>u = e^x</m>.  Then the equation becomes:
+            <me>u^2 - 5u + 6 = 0</me>
+            Factoring:
+            <me>(u-2)(u-3) = 0</me>
+            Applying the Zero Product Property from <xref ref="principle-zpp"/>:
+            <me>u-2=0 \text{ or } u-3=0</me>
+            <me>u=2 \text{ or } u=3</me>
+          </p>
+          <p>
+            Substituting back <m>u = e^x</m>:
+            <me>e^x = 2 \text{ or } e^x = 3</me>
+          </p>
+          <p>
+            Taking the natural logarithm of both sides:
+            <me>x = \ln(2) \text{ or } x = \ln(3)</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>\log(x^3) = (\log(x))^3</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Using a law of logarithms from <xref ref="laws-of-logarithms"/>, we have <m>\log(x^3) = 3\log(x)</m>.  Substituting this into the equation, we get:
+            <me>3\log(x) = (\log(x))^3</me>
+          </p>
+          <p>
+            Let <m>u = \log(x)</m>.  Then the equation becomes:
+            <me>3u = u^3</me>
+          </p>
+          <p>
+            Rearranging:
+            <me>u^3 - 3u = 0</me>
+          </p>
+          <p>
+            Factoring:
+            <me>u(u^2 - 3) = 0</me>
+          </p>
+          <p>
+            Applying the Zero Product Property from <xref ref="principle-zpp"/>:
+            <me>u = 0 \text{ or } u^2 - 3 = 0</me>
+          </p>
+          <p>
+            Solving for <m>u</m>:
+            <me>u = 0 \text{ or } u = \pm\sqrt{3}</me>
+          </p>
+          <p>
+            Substituting back <m>u = \log(x)</m>:
+            <me>\log(x) = 0 \text{ or } \log(x) = \pm\sqrt{3}</me>
+          </p>
+          <p>
+            Applying the Circle Trick from <xref ref="principle-circle-trick"/> to each equation,
+            <me>10^0 = x \text{ or } 10^{\pm\sqrt{3}} = x</me>
+          </p>
+          <p>
+            Due to  <xref ref="principle-check-log-equation"/> we check that the input to each logarithm is positive.  In this case, <m>x = 10^{-\sqrt{3}} \gt 0</m>, so the solution is valid.  Therefore, the solutions are:
+            <me>x = 1\text{ or }x = 10^{\sqrt{3}}\text{ or }x = 10^{-\sqrt{3}}</me>
+          </p>
+        </answer>
+      </example>
+    </p>
+
+    <p>
+      <example>
+        <statement>
+          <p>
+            Solve the equation <m>e^x - 6e^{-x} = 1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            We can rewrite <m>e^{-x} = \frac{1}{e^x}</m> due to <xref ref="principle-exponent-rules-4"/>. Then the equation becomes:
+            <me>e^x - 6\frac{1}{e^x} = 1</me>
+            Because we have an equation with fractions, we can multiply both sides by <m>e^x</m> to eliminate the fraction:
+            <me>e^x(e^x - 6\frac{1}{e^x}) = 1e^x</me>
+            <me>(e^x)^2 - 6 = e^x</me>
+            Substituting <m>u = e^x</m>, we have:
+            <me>u^2 - 6 = u</me>
+            Rearranging:
+            <me>u^2 - u - 6 = 0</me>
+            Factoring:
+            <me>(u-3)(u+2) = 0</me>
+            Applying the Zero Product Property from <xref ref="principle-zpp"/>:
+            <me>u-3=0 \text{ or } u+2=0</me>
+            <me>u=3 \text{ or } u=-2</me>
+            Replace each <m>u</m> with <m>e^x</m>:
+            <me>e^x=3 \text{ or } e^x=-2</me>
+            Applying the Circle Trick from <xref ref="principle-circle-trick"/> to each equation,
+            <me>\log_e(3) = x \text{ or } \log_e(-2) = x</me>
+            <me>x = \ln(3) \text{ or } x = \ln(-2)</me>
+            Since the input to a logarithm must be positive, <m>x = \ln(-2)</m> is not a valid solution.  Therefore, the only solution is <m>x = \ln(3)</m>.
+          </p>
+        </answer>
+      </example>
+    </p>
+
+
+  </subsection>
+  
+
+</section>

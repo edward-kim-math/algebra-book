@@ -14,4 +14,5 @@
   <xi:include href="sec-logarithms.ptx" />
   <xi:include href="sec-graphs-domain-initial-equations.ptx" />
   <xi:include href="sec-logarithm-properties.ptx" />
+  <xi:include href="sec-exp-log-equations.ptx" />
 </chapter>
